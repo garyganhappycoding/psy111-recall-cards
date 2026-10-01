@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Tap-to-reveal recall cards and paraphrase tables for PSY 111.">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>PSY 111 Recall Cards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a case-file index — topic tabs like binder dividers, then section groups of concept tiles; one card opens at a time as a sheet (clues → reveal), with an editor sheet for creating, editing and deleting cards. Second tab: paraphrase table. */
+:root{
+  --bg:#eef1f4; --paper:#ffffff; --ink:#1b2430; --muted:#5d6878; --line:#d5dbe3; --accent:#2f5d8a; --danger:#b23a3a;
+  --psy:#8a3b5c; --beh:#2f6f63; --hum:#a2621a; --trt:#4b4f9c; --gen:#5d6878;
+  --psy-bg:#f6e9ef; --beh-bg:#e5f1ee; --hum-bg:#f8eedf; --trt-bg:#e9eaf7; --gen-bg:#eceff3;
+  --shadow:0 18px 50px rgba(20,30,45,.18);
+  --display:"Instrument Serif", Georgia, "Times New Roman", serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12171e; --paper:#1b222c; --ink:#e6ebf1; --muted:#9aa5b4; --line:#2c3643; --accent:#7fb0e0; --danger:#ec8080;
+  --psy:#e08aae; --beh:#7fcbb9; --hum:#e7b06a; --trt:#a7abf0; --gen:#9aa5b4;
+  --psy-bg:#2c1d25; --beh-bg:#18282a; --hum-bg:#2b2318; --trt-bg:#1f2136; --gen-bg:#222a35;
+  --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#12171e; --paper:#1b222c; --ink:#e6ebf1; --muted:#9aa5b4; --line:#2c3643; --accent:#7fb0e0; --danger:#ec8080;
+  --psy:#e08aae; --beh:#7fcbb9; --hum:#e7b06a; --trt:#a7abf0; --gen:#9aa5b4;
+  --psy-bg:#2c1d25; --beh-bg:#18282a; --hum-bg:#2b2318; --trt-bg:#1f2136; --gen-bg:#222a35;
+  --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark;}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,52px);line-height:1;margin:6px 0 0;text-wrap:balance}
+h1 em{color:var(--accent)}
+.sub{color:var(--muted);max-width:60ch;margin:10px 0 0}
+.progress{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.bar{width:180px;height:6px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.status{font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:6px;min-height:1em}
+
+.topics{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.topic{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:2px;padding:10px 14px 9px;border-radius:10px 10px 4px 4px;background:var(--paper);border:1px solid var(--line);border-bottom:3px solid var(--line);min-width:0}
+.topic b{font-family:var(--display);font-weight:400;font-size:20px;line-height:1.1}
+.topic small{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--muted);font-variant-numeric:tabular-nums}
+.topic[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.topic[aria-selected="true"] small{color:var(--paper);opacity:.75}
+.topic.new{color:var(--muted);border-style:dashed;justify-content:center}
+.topic:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.views{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:18px}
+.views button{all:unset;cursor:pointer;padding:10px 14px;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.views button[aria-selected="true"]{color:var(--ink);border-color:var(--ink)}
+.views button:focus-visible,.chip:focus-visible,.tile:focus-visible,.btn:focus-visible,.link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}
+.chip{all:unset;cursor:pointer;font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--paper)}
+.chip[aria-pressed="true"]{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+.spacer{flex:1}
+.btn{all:unset;cursor:pointer;font-size:13px;font-weight:500;padding:7px 14px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);text-align:center}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.btn.danger{color:var(--danger);border-color:var(--danger)}
+.btn.danger.armed{background:var(--danger);color:var(--paper)}
+.btn[disabled]{opacity:.5;cursor:default}
+.link{all:unset;cursor:pointer;font-size:12px;color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+
+.group{margin-bottom:26px}
+.group h2{display:flex;align-items:baseline;gap:10px;font-family:var(--display);font-weight:400;font-size:26px;margin:0 0 10px}
+.group h2 small{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.tile{all:unset;cursor:pointer;position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:14px;min-height:92px;padding:14px;border-radius:10px;background:var(--paper);border:1px solid var(--line);transition:transform .15s,border-color .15s}
+.tile:hover{transform:translateY(-2px);border-color:var(--c)}
+.tile .tag{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.tile .name{font-weight:600;font-size:15px;line-height:1.3;overflow-wrap:anywhere}
+.tile .tab{position:absolute;top:0;left:14px;width:28px;height:3px;border-radius:0 0 3px 3px;background:var(--c)}
+.tile.done{background:var(--cbg)}
+.tile.done::after{content:"✓ revealed";position:absolute;right:12px;bottom:12px;font-family:var(--mono);font-size:10px;color:var(--c)}
+.tile.add{border-style:dashed;color:var(--muted);justify-content:center;align-items:center;font-weight:500}
+.empty{color:var(--muted);padding:24px;border:1px dashed var(--line);border-radius:10px;text-align:center}
+
+/* sheets */
+.scrim{position:fixed;inset:0;background:rgba(10,15,22,.45);display:flex;align-items:center;justify-content:center;padding:16px;z-index:10}
+.sheet{width:min(580px,100%);max-height:calc(100% - 32px);overflow:auto;background:var(--paper);border-radius:14px;box-shadow:var(--shadow);border-top:5px solid var(--c)}
+.sheet-in{padding:22px;display:flex;flex-direction:column;gap:16px}
+.sheet .tag{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.sheet h3{font-family:var(--display);font-weight:400;font-size:34px;line-height:1.05;margin:4px 0 0;text-wrap:balance;overflow-wrap:anywhere}
+.label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.clues{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.clues span{font-size:13px;padding:5px 10px;border-radius:6px;background:var(--cbg);color:var(--ink);border:1px dashed var(--c)}
+.answer{font-size:16px;line-height:1.5;padding:14px 16px;border-radius:10px;background:var(--cbg);border-left:3px solid var(--c)}
+.pts{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.pts li::marker{color:var(--c)}
+td.orig .pts{gap:4px;margin-top:8px}
+.answer.hidden{color:transparent;user-select:none;background:repeating-linear-gradient(135deg,var(--cbg) 0 8px,var(--paper) 8px 16px);border-left-color:var(--line)}
+textarea,input[type=text],select{width:100%;font:inherit;font-size:14px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+textarea{resize:vertical}
+.try{min-height:72px}
+.field{display:flex;flex-direction:column;gap:6px}
+.hint{font-size:12px;color:var(--muted)}
+.err{font-size:13px;color:var(--danger)}
+.sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* table */
+.tablewrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:720px}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+td.concept{font-weight:600;width:18%}
+td.concept .tag{display:block;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--c);margin-bottom:3px}
+td.concept .link{display:inline-block;margin-top:6px;font-weight:400}
+td.cl{width:22%;color:var(--muted);font-size:13px}
+td.yours{width:32%}
+td.yours textarea{min-height:64px;font-size:13px;padding:8px 10px}
+td.orig{font-size:13px}
+td.orig .btn{font-size:12px;padding:5px 10px}
+.note{color:var(--muted);font-size:13px;margin:0 0 12px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow" id="eyebrow">PSY 111</div>
+      <h1>PSY 111 <em>recall</em> cards</h1>
+      <p class="sub">Pick a topic, tap a concept, read the clues and explain it in your own words, then reveal the full sentence to check yourself. Edit any card, or add your own.</p>
+    </div>
+    <div class="progress"><span id="pct">Loading cards…</span><div class="bar"><i id="barfill"></i></div><div class="status" id="status"></div></div>
+  </header>
+
+  <nav class="topics" role="tablist" aria-label="Topics" id="topics"></nav>
+
+  <div class="views" role="tablist">
+    <button role="tab" id="tab-cards" aria-selected="true">Concept cards</button>
+    <button role="tab" id="tab-table" aria-selected="false">Paraphrase table</button>
+  </div>
+
+  <section id="view-cards">
+    <div class="toolbar" id="filters"></div>
+    <div id="groups"></div>
+  </section>
+
+  <section id="view-table" hidden>
+    <p class="note">Write each concept in your own words first, then tap "Show original" to compare. Your paraphrases stay in this browser only.</p>
+    <div class="toolbar" id="filters2"></div>
+    <div class="tablewrap"><table><thead><tr><th>Concept</th><th>Clues</th><th>Your paraphrase</th><th>Original</th></tr></thead><tbody id="tbody"></tbody></table></div>
+  </section>
+</div>
+
+<!-- study sheet -->
+<div class="scrim" id="scrim" hidden>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="s-name">
+    <div class="sheet-in">
+      <div><div class="tag" id="s-tag"></div><h3 id="s-name"></h3></div>
+      <div><div class="label">Clues</div><div class="clues" id="s-clues"></div></div>
+      <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
+      <div class="answer hidden" id="s-answer" aria-live="polite"></div>
+      <div class="sheet-foot">
+        <button class="btn primary" id="s-reveal">Reveal answer</button>
+        <button class="btn" id="s-prev">← Prev</button>
+        <button class="btn" id="s-next">Next →</button>
+        <span class="spacer"></span>
+        <span class="count" id="s-count"></span>
+        <button class="btn" id="s-edit">Edit</button>
+        <button class="btn" id="s-close">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- editor sheet -->
+<div class="scrim" id="escrim" hidden>
+  <form class="sheet" id="esheet" role="dialog" aria-modal="true" aria-labelledby="e-title">
+    <div class="sheet-in">
+      <div><div class="tag" id="e-tag">Card editor</div><h3 id="e-title">Edit card</h3></div>
+      <div class="field"><label class="label" for="e-name">Concept name</label><input type="text" id="e-name" maxlength="120" required></div>
+      <div class="field"><label class="label" for="e-deck">Topic tab</label><input type="text" id="e-deck" list="dl-decks" maxlength="40" required><datalist id="dl-decks"></datalist><span class="hint">Pick an existing topic or type a new one to create a new tab.</span></div>
+      <div class="field"><label class="label" for="e-sec">Section</label><input type="text" id="e-sec" list="dl-secs" maxlength="60" required><datalist id="dl-secs"></datalist></div>
+      <div class="field"><label class="label" for="e-clues">Clues</label><textarea id="e-clues" rows="4"></textarea><span class="hint">One clue per line.</span></div>
+      <div class="field"><label class="label" for="e-ans">Original answer</label><textarea id="e-ans" rows="7" required></textarea><span class="hint">One point per line — each line shows as a bullet.</span></div>
+      <div class="err" id="e-err" hidden></div>
+      <div class="sheet-foot">
+        <button class="btn primary" type="submit" id="e-save">Save card</button>
+        <button class="btn" type="button" id="e-cancel">Cancel</button>
+        <span class="spacer"></span>
+        <button class="btn danger" type="button" id="e-del">Delete card</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+const SLOTS=["--psy","--beh","--hum","--trt","--gen"];
+const DECK_ORDER=["Personality 1","Personality 2","Motivation","Emotion","Intelligence"];
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let C=[];                       // the deck: [{id,deck,sec,name,clues[],ans}]
+let done=new Set(store.get("pr-done2",[]));
+let drafts=store.get("pr-drafts2",{});
+let deck=store.get("pr-deck",DECK_ORDER[0]), filter="all", shuffled=null, cur=null, editing=null;
+let artifactApi=null, canSave=true;
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+const byId=id=>C.find(c=>c.id===id);
+function points(el,text){const ul=document.createElement("ul");ul.className="pts";String(text).split("\n").map(s=>s.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean).forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});el.replaceChildren(ul)}
+function setStatus(t){$("#status").textContent=t}
+function decks(){const seen=[...new Set(C.map(c=>c.deck))];return [...DECK_ORDER.filter(d=>seen.includes(d)),...seen.filter(d=>!DECK_ORDER.includes(d))]}
+function sections(d){return [...new Set(C.filter(c=>c.deck===d).map(c=>c.sec))]}
+function colorFor(d,sec){const i=Math.max(0,sections(d).indexOf(sec));const v=SLOTS[i%SLOTS.length];return `--c:var(${v});--cbg:var(${v}-bg)`}
+const colorVars=c=>colorFor(c.deck,c.sec);
+const inDeck=()=>C.filter(c=>c.deck===deck);
+
+function renderTopics(){
+  const nav=$("#topics");nav.innerHTML="";
+  decks().forEach(d=>{
+    const items=C.filter(c=>c.deck===d);const n=items.filter(c=>done.has(c.id)).length;
+    const b=document.createElement("button");b.className="topic";b.setAttribute("role","tab");b.setAttribute("aria-selected",d===deck);
+    b.innerHTML=`<b>${esc(d)}</b><small>${n}/${items.length} revealed</small>`;
+    b.onclick=()=>{deck=d;filter="all";shuffled=null;store.set("pr-deck",d);render()};nav.appendChild(b);
+  });
+  const nb=document.createElement("button");nb.className="topic new";nb.innerHTML="<b>+ Topic</b>";nb.onclick=()=>openEditor(null,{deck:"",sec:""});nav.appendChild(nb);
+}
+function chips(el){
+  el.innerHTML="";
+  [["all","All sections"],...sections(deck).map(s=>[s,s])].forEach(([k,l])=>{
+    const b=document.createElement("button");b.className="chip";b.textContent=l;b.setAttribute("aria-pressed",filter===k);
+    b.onclick=()=>{filter=k;render()};el.appendChild(b);
+  });
+  if(el.id==="filters"){
+    const s=document.createElement("span");s.className="spacer";el.appendChild(s);
+    const add=document.createElement("button");add.className="btn primary";add.textContent="+ New card";add.onclick=()=>openEditor(null);
+    const sh=document.createElement("button");sh.className="btn";sh.textContent=shuffled?"Unshuffle":"Shuffle";
+    sh.onclick=()=>{shuffled=shuffled?null:C.map(c=>c.id).sort(()=>Math.random()-.5);render()};
+    const rs=document.createElement("button");rs.className="btn";rs.textContent="Reset this topic";
+    rs.onclick=()=>{if(rs.dataset.armed){inDeck().forEach(c=>done.delete(c.id));store.set("pr-done2",[...done]);render()}else{rs.dataset.armed="1";rs.textContent="Tap again to reset";setTimeout(()=>{if(rs.isConnected){delete rs.dataset.armed;rs.textContent="Reset this topic"}},2500)}};
+    el.append(add,sh,rs);
+  }
+}
+function ordered(list){if(!shuffled)return list;const pos=new Map(shuffled.map((id,i)=>[id,i]));return [...list].sort((a,b)=>(pos.get(a.id)??1e9)-(pos.get(b.id)??1e9))}
+const visible=()=>ordered(inDeck()).filter(c=>filter==="all"||c.sec===filter);
+
+function updateProgress(){
+  const items=inDeck();const n=items.filter(c=>done.has(c.id)).length;
+  $("#pct").textContent=`${n} of ${items.length} revealed`;$("#barfill").style.width=(items.length?n/items.length*100:0)+"%";
+  $("#eyebrow").textContent=`PSY 111 · ${deck}`;
+}
+function render(){
+  if(!decks().includes(deck))deck=decks()[0]||DECK_ORDER[0];
+  if(filter!=="all"&&!sections(deck).includes(filter))filter="all";
+  renderTopics();chips($("#filters"));chips($("#filters2"));
+  const g=$("#groups");g.innerHTML="";
+  if(!visible().length){g.innerHTML='<div class="empty">No cards here yet. Tap "+ New card" to add one.</div>'}
+  sections(deck).forEach(sec=>{
+    const items=visible().filter(c=>c.sec===sec); if(!items.length)return;
+    const sec_=document.createElement("div");sec_.className="group";
+    const n=items.filter(c=>done.has(c.id)).length;
+    sec_.innerHTML=`<h2>${esc(sec)}<small>${n}/${items.length}</small></h2>`;
+    const grid=document.createElement("div");grid.className="grid";
+    items.forEach(c=>{
+      const t=document.createElement("button");t.className="tile"+(done.has(c.id)?" done":"");t.style.cssText=colorVars(c);
+      t.innerHTML=`<span class="tab"></span><span class="tag">${esc(sec)}</span><span class="name">${esc(c.name)}</span>`;
+      t.onclick=()=>openCard(c.id);grid.appendChild(t);
+    });
+    const add=document.createElement("button");add.className="tile add";add.style.cssText=colorFor(deck,sec);add.textContent="+ Add card here";add.onclick=()=>openEditor(null,{deck,sec});grid.appendChild(add);
+    sec_.appendChild(grid);g.appendChild(sec_);
+  });
+  const tb=$("#tbody");tb.innerHTML="";
+  visible().forEach(c=>{
+    const tr=document.createElement("tr");tr.style.cssText=colorVars(c);
+    tr.innerHTML=`<td class="concept"><span class="tag">${esc(c.sec)}</span>${esc(c.name)}<br><button class="link">Edit</button></td><td class="cl">${esc(c.clues.join(" · "))}</td><td class="yours"><textarea id="t-${esc(c.id)}" aria-label="Your paraphrase of ${esc(c.name)}"></textarea></td><td class="orig"><button class="btn">Show original</button><div hidden></div></td>`;
+    tr.querySelector(".link").onclick=()=>openEditor(c.id);
+    const ta=tr.querySelector("textarea");ta.value=drafts[c.id]||"";
+    ta.oninput=()=>{drafts[c.id]=ta.value;store.set("pr-drafts2",drafts)};
+    const b=tr.querySelector(".orig .btn"),d=tr.querySelector(".orig div");points(d,c.ans);
+    b.onclick=()=>{d.hidden=!d.hidden;b.textContent=d.hidden?"Show original":"Hide";if(!d.hidden)markDone(c.id)};
+    tb.appendChild(tr);
+  });
+  updateProgress();
+}
+function markDone(id){if(!done.has(id)){done.add(id);store.set("pr-done2",[...done])}updateProgress()}
+
+/* study sheet */
+function openCard(id){
+  const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
+  $("#sheet").style.cssText=colorVars(c);
+  $("#s-tag").textContent=`${c.deck} · ${c.sec}`;$("#s-name").textContent=c.name;
+  $("#s-clues").innerHTML=c.clues.length?c.clues.map(x=>`<span>${esc(x)}</span>`).join(""):'<span>No clues yet — tap Edit to add some</span>';
+  const a=$("#s-answer");points(a,c.ans);a.classList.add("hidden");a.setAttribute("aria-hidden","true");
+  $("#s-reveal").textContent="Reveal answer";
+  const t=$("#s-try");t.value=drafts[c.id]||"";
+  $("#s-count").textContent=`${idx+1} / ${list.length}`;
+  $("#scrim").hidden=false;t.focus({preventScroll:true});
+}
+function step(d){const list=visible();if(!list.length)return;let i=list.findIndex(x=>x.id===cur);i=(i+d+list.length)%list.length;openCard(list[i].id)}
+function closeCard(){$("#scrim").hidden=true;render()}
+$("#s-reveal").onclick=()=>{const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";if(!h)markDone(cur)};
+$("#s-try").oninput=e=>{drafts[cur]=e.target.value;store.set("pr-drafts2",drafts)};
+$("#s-prev").onclick=()=>step(-1);$("#s-next").onclick=()=>step(1);$("#s-close").onclick=closeCard;
+$("#s-edit").onclick=()=>{$("#scrim").hidden=true;openEditor(cur)};
+$("#scrim").onclick=e=>{if(e.target.id==="scrim")closeCard()};
+
+/* editor */
+function fillLists(d){
+  $("#dl-decks").innerHTML=decks().map(x=>`<option value="${esc(x)}">`).join("");
+  $("#dl-secs").innerHTML=sections(d).map(x=>`<option value="${esc(x)}">`).join("");
+}
+function openEditor(id,preset){
+  editing=id;
+  const c=id?byId(id):{deck:preset?preset.deck:deck,sec:preset?preset.sec:(filter!=="all"?filter:(sections(deck)[0]||"")),name:"",clues:[],ans:""};
+  $("#esheet").style.cssText=colorFor(c.deck,c.sec);
+  $("#e-title").textContent=id?"Edit card":(preset&&preset.deck===""?"New topic":"New card");
+  $("#e-deck").value=c.deck;$("#e-sec").value=c.sec;fillLists(c.deck);
+  $("#e-name").value=c.name;$("#e-clues").value=c.clues.join("\n");$("#e-ans").value=c.ans;
+  const del=$("#e-del");del.hidden=!id;del.classList.remove("armed");del.textContent="Delete card";delete del.dataset.armed;
+  $("#e-err").hidden=true;$("#e-save").disabled=false;
+  $("#escrim").hidden=false;(c.deck?$("#e-name"):$("#e-deck")).focus();
+}
+function closeEditor(){$("#escrim").hidden=true;editing=null}
+$("#e-deck").oninput=()=>fillLists($("#e-deck").value.trim());
+$("#e-cancel").onclick=closeEditor;
+$("#escrim").onclick=e=>{if(e.target.id==="escrim")closeEditor()};
+$("#esheet").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const d=$("#e-deck").value.trim(),sec=$("#e-sec").value.trim(),name=$("#e-name").value.trim(),ans=$("#e-ans").value.trim();
+  if(!d||!sec||!name||!ans){showErr("Fill in the topic, section, concept name and original answer before saving.");return}
+  const card={id:editing||("u"+Date.now().toString(36)),deck:d,sec,name,clues:$("#e-clues").value.split("\n").map(s=>s.trim()).filter(Boolean),ans};
+  const next=editing?C.map(c=>c.id===editing?card:c):[...C,card];
+  deck=d;store.set("pr-deck",d);
+  await commit(next,editing?"Card saved":"Card added");
+});
+$("#e-del").onclick=async()=>{
+  const del=$("#e-del");
+  if(!del.dataset.armed){del.dataset.armed="1";del.classList.add("armed");del.textContent="Tap again to delete";setTimeout(()=>{if(del.dataset.armed){delete del.dataset.armed;del.classList.remove("armed");del.textContent="Delete card"}},3000);return}
+  const id=editing;delete drafts[id];store.set("pr-drafts2",drafts);done.delete(id);store.set("pr-done2",[...done]);
+  await commit(C.filter(c=>c.id!==id),"Card deleted");
+};
+function showErr(t){const e=$("#e-err");e.textContent=t;e.hidden=false}
+
+/* saving: the deck lives in cards.json, published with the page */
+async function commit(next,msg){
+  $("#e-save").disabled=true;
+  if(canSave&&artifactApi){
+    try{
+      await artifactApi.publish({"cards.json":{content:JSON.stringify(next,null,1),contentType:"application/json"}});
+      C=next;closeEditor();setStatus(msg+" · saved to the page");render();return;
+    }catch(err){
+      const code=err&&err.code;
+      if(code==="conflict"){setStatus("A newer version was saved elsewhere. Reloading it…");closeEditor();return}
+      if(code==="rate_limited"){showErr("Saving too quickly. Wait a few seconds and press Save again.");$("#e-save").disabled=false;return}
+      if(code==="upstream_error"){showErr("The save didn't go through. Press Save again.");$("#e-save").disabled=false;return}
+      canSave=false;
+    }
+  }
+  C=next;store.set("pr-local-deck2",C);closeEditor();
+  setStatus(msg+" · saved in this browser only");render();
+}
+
+document.addEventListener("keydown",e=>{
+  if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
+  if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();if(e.target.tagName==="TEXTAREA")return;
+  if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}});
+
+function view(v){const cards=v==="cards";$("#view-cards").hidden=!cards;$("#view-table").hidden=cards;$("#tab-cards").setAttribute("aria-selected",cards);$("#tab-table").setAttribute("aria-selected",!cards);render()}
+$("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");
+
+(async function boot(){
+  try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;C=await r.json()}catch(e){C=[];setStatus("Couldn't load the card deck.")}
+  const local=store.get("pr-local-deck2",null);
+  if(location.hash==="#table")view("table");else render();
+  try{
+    const api=window.claude&&await window.claude.use("artifact");
+    if(api){artifactApi=api}else{canSave=false}
+  }catch(e){canSave=false}
+  if(!canSave&&local){C=local;render();setStatus("Showing your edits saved in this browser")}
+  else if(!canSave){setStatus("Edits here save in this browser only")}
+})();
+</script>
+
+</body>
+</html>

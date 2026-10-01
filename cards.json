@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "c1",
+  "deck": "Personality 1",
+  "sec": "Foundation",
+  "name": "Personality",
+  "clues": [
+   "unique",
+   "relatively stable",
+   "think · feel · behave"
+  ],
+  "ans": "Unique and relatively stable ways people think, feel and behave\nAn area of psychology with several ways to explain people's characteristic behaviour"
+ },
+ {
+  "id": "c2",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Levels of the mind",
+  "clues": [
+   "three levels",
+   "Freud",
+   "awareness"
+  ],
+  "ans": "Freud divided the mind into three levels:\nConscious\nPreconscious\nUnconscious"
+ },
+ {
+  "id": "c3",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Id",
+  "clues": [
+   "completely unconscious",
+   "present at birth",
+   "biological drives",
+   "like an infant"
+  ],
+  "ans": "Completely unconscious\nInnate — present at birth\nHome to basic biological drives (hunger, self-preservation, sex)\nActs like an infant: demanding, irrational, illogical, impulsive\nRuns on the pleasure principle — \"if it feels good, do it\""
+ },
+ {
+  "id": "c4",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Ego",
+  "clues": [
+   "mostly conscious",
+   "rational",
+   "deals with reality",
+   "referee"
+  ],
+  "ans": "Mostly conscious, rational and logical\nDeals with reality\nFollows the reality principle\nExecutive director — referee between id and superego"
+ },
+ {
+  "id": "c5",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Superego",
+  "clues": [
+   "moral centre",
+   "learned from society",
+   "guilt"
+  ],
+  "ans": "Moral centre of personality\nDevelops as children learn society's rules, customs and expectations\nContains the conscience (source of guilt)"
+ },
+ {
+  "id": "c6",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Pleasure principle",
+  "clues": [
+   "id",
+   "immediate",
+   "no regard for consequences"
+  ],
+  "ans": "Belongs to the id\nDesire for immediate gratification of needs\nNo regard for consequences — \"if it feels good, do it\""
+ },
+ {
+  "id": "c7",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Reality principle",
+  "clues": [
+   "ego",
+   "satisfy the id",
+   "only when safe"
+  ],
+  "ans": "Belongs to the ego\nSatisfy the id's demands only when no negative consequences will result\nDenies the id when consequences would be painful or unpleasant"
+ },
+ {
+  "id": "c8",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Conscience",
+  "clues": [
+   "part of the superego",
+   "after wrongdoing"
+  ],
+  "ans": "Part of the superego\nProduces guilt after a wrongdoing"
+ },
+ {
+  "id": "c9",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Defence mechanisms",
+  "clues": [
+   "anxiety",
+   "unconscious",
+   "distort reality",
+   "id vs ego vs superego"
+  ],
+  "ans": "Ways of dealing with anxiety\nWork by unconsciously distorting one's perception of reality\nCope with anxiety from conflict between id, ego and superego"
+ },
+ {
+  "id": "c10",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Denial",
+  "clues": [
+   "defence mechanism",
+   "refuse",
+   "threat"
+  ],
+  "ans": "Refusing to recognise or acknowledge a threatening situation"
+ },
+ {
+  "id": "c11",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Repression",
+  "clues": [
+   "defence mechanism",
+   "push out",
+   "conscious memory"
+  ],
+  "ans": "Pushing threatening or conflicting events out of conscious memory"
+ },
+ {
+  "id": "c12",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Rationalisation",
+  "clues": [
+   "defence mechanism",
+   "excuses",
+   "unacceptable behaviour"
+  ],
+  "ans": "Making up acceptable excuses for unacceptable behaviour or mistakes"
+ },
+ {
+  "id": "c13",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Displacement",
+  "clues": [
+   "defence mechanism",
+   "emotion",
+   "wrong target"
+  ],
+  "ans": "Redirecting emotions (e.g., anger) onto a target\n…that is not the original cause of the emotion"
+ },
+ {
+  "id": "c14",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Sublimation",
+  "clues": [
+   "defence mechanism",
+   "unacceptable urges",
+   "acceptable outlet"
+  ],
+  "ans": "Turning socially unacceptable urges\n…into socially acceptable behaviour"
+ },
+ {
+  "id": "c15",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Psychosexual stages",
+  "clues": [
+   "series of stages",
+   "erogenous zone",
+   "conflict",
+   "fixation"
+  ],
+  "ans": "Freud: personality develops through a series of stages\nEach stage focuses on an erogenous zone (body area that gives pleasure)\nEach zone can become a source of conflict\nUnresolved conflict → fixation (\"stuck\" at that stage)\nFixation carries emotional baggage into adulthood"
+ },
+ {
+  "id": "c16",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Oral stage",
+  "clues": [
+   "first 18 months",
+   "mouth",
+   "weaning"
+  ],
+  "ans": "Age: first 18 months\nErogenous zone: mouth\nConflict: weaning\nFixation: overeating, chain smoking, nail biting"
+ },
+ {
+  "id": "c17",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Anal stage",
+  "clues": [
+   "18–36 months",
+   "toilet training",
+   "expulsive / retentive"
+  ],
+  "ans": "Age: 18–36 months\nErogenous zone: anus (holding and releasing faeces)\nConflict: toilet training\nFixation: anal expulsive or anal retentive personality"
+ },
+ {
+  "id": "c18",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Phallic stage",
+  "clues": [
+   "3–6 years",
+   "genitals",
+   "Oedipus / Electra"
+  ],
+  "ans": "Age: 3–6 years\nErogenous zone: genitals\nConflict: awakening of sexual feelings\nOedipus complex / Electra complex\nFixation: promiscuous sexual behaviour"
+ },
+ {
+  "id": "c19",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Latency stage",
+  "clues": [
+   "6 years to puberty",
+   "feelings repressed",
+   "opposite sex 'awful'"
+  ],
+  "ans": "Age: 6 years to puberty\nSexual feelings are repressed\nChild develops intellectually, physically and socially\nSees the opposite sex as \"awful\""
+ },
+ {
+  "id": "c20",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Genital stage",
+  "clues": [
+   "puberty onward",
+   "can't be ignored",
+   "adult behaviour"
+  ],
+  "ans": "Age: puberty onward\nSexual feelings can no longer be ignored\nAttraction focuses on others\nEntry into adult social and sexual behaviour"
+ },
+ {
+  "id": "c21",
+  "deck": "Personality 1",
+  "sec": "Psychodynamic",
+  "name": "Criticisms of psychodynamic theory",
+  "clues": [
+   "no experiments",
+   "hard to falsify",
+   "Victorian women"
+  ],
+  "ans": "Not scientific — Freud did no experiments; based only on observing his patients\nToo ambiguous — relies on dream interpretation and free association; hard to falsify\nLimited sample — wealthy Austrian women in the Victorian era, when sexual repression was common"
+ },
+ {
+  "id": "c22",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Behavioural view of personality",
+  "clues": [
+   "learned responses",
+   "conditioning",
+   "Skinner",
+   "shyness"
+  ],
+  "ans": "Personality = a set of learned responses\nLearned through classical and operant conditioning\nSkinner: mental processes can't sufficiently explain behaviour\nE.g., shyness explained by operant conditioning"
+ },
+ {
+  "id": "c23",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Social cognitive view",
+  "clues": [
+   "other people's behaviour",
+   "own expectancies",
+   "observational learning"
+  ],
+  "ans": "Learning is shaped by other people's behaviour\n…and by one's own expectancies\nBehaviour governed by external stimuli AND cognitive processes\nE.g., observational learning"
+ },
+ {
+  "id": "c24",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Reciprocal determinism",
+  "clues": [
+   "Bandura",
+   "three factors",
+   "give-and-take"
+  ],
+  "ans": "Bandura\nThree factors: environment, behaviour, personal/cognitive factors\nEach influences the others (give-and-take)"
+ },
+ {
+  "id": "c25",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Self-efficacy",
+  "clues": [
+   "Bandura",
+   "expectancy",
+   "goal",
+   "past experience"
+  ],
+  "ans": "Bandura\nExpectancy of how effective one's efforts to reach a goal will be\nDepends on past experience\n…and perceived competence (from self and others)"
+ },
+ {
+  "id": "c26",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Rotter's social learning theory",
+  "clues": [
+   "Rotter",
+   "stable set",
+   "potential responses",
+   "two factors"
+  ],
+  "ans": "Personality = a relatively stable set of potential responses to situations\nShaped by two factors: expectancy and reinforcement value"
+ },
+ {
+  "id": "c27",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Expectancy",
+  "clues": [
+   "Rotter",
+   "belief",
+   "consequence follows behaviour"
+  ],
+  "ans": "Rotter\nBelief that a reinforcing consequence will follow a particular behaviour"
+ },
+ {
+  "id": "c28",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Reinforcement value",
+  "clues": [
+   "Rotter",
+   "preference",
+   "one reinforcer over others"
+  ],
+  "ans": "Rotter\nPreference for one particular reinforcer over others"
+ },
+ {
+  "id": "c29",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Locus of control",
+  "clues": [
+   "Rotter",
+   "internal vs external",
+   "fate"
+  ],
+  "ans": "Rotter\nWhether we believe we have control over events in our lives\nInternal: outcomes come from own actions\nExternal: outcomes come from fate or other people"
+ },
+ {
+  "id": "c30",
+  "deck": "Personality 1",
+  "sec": "Behavioural & social cognitive",
+  "name": "Review: behavioural & social cognitive",
+  "clues": [
+   "ignores mental processes",
+   "overgeneralisation",
+   "therapies"
+  ],
+  "ans": "Criticism: behaviourists ignore mental processes\nCriticism: overgeneralisation can lead to errors\nContribution: effective therapies"
+ },
+ {
+  "id": "c31",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Humanistic perspective",
+  "clues": [
+   "uniquely human",
+   "subjective feelings",
+   "free choice",
+   "Maslow & Rogers"
+  ],
+  "ans": "Maslow and Rogers\nFocuses on what makes people uniquely human\nE.g., subjective feelings, freedom of choice"
+ },
+ {
+  "id": "c32",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Self-concept",
+  "clues": [
+   "image of oneself",
+   "significant people",
+   "tool"
+  ],
+  "ans": "Image of oneself\nDevelops from interactions with significant people\nImportant tool for self-actualisation"
+ },
+ {
+  "id": "c33",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Self-actualisation",
+  "clues": [
+   "striving",
+   "fulfilment",
+   "full potential"
+  ],
+  "ans": "Striving for fulfilment\nReaching one's full potential"
+ },
+ {
+  "id": "c34",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Real self vs ideal self",
+  "clues": [
+   "actual perception",
+   "should be",
+   "match vs mismatch"
+  ],
+  "ans": "Real self: actual perception of own traits and abilities\nIdeal self: what one should be or would like to be\nClose match → competent and capable\nMismatch → anxiety and neurotic behaviour"
+ },
+ {
+  "id": "c35",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Unconditional positive regard",
+  "clues": [
+   "no strings attached",
+   "love & respect",
+   "full potential"
+  ],
+  "ans": "Love, affection and respect with no strings attached\nNeeded to explore one's full potential"
+ },
+ {
+  "id": "c36",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Conditional positive regard",
+  "clues": [
+   "only when",
+   "expectations",
+   "provider"
+  ],
+  "ans": "Positive regard given only when the provider's expectations are met"
+ },
+ {
+  "id": "c37",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Fully functioning person",
+  "clues": [
+   "trusts innermost feelings",
+   "selves match",
+   "needs UPR"
+  ],
+  "ans": "In touch with and trusts their innermost urges and feelings\nReal self matches ideal self\nRequires unconditional positive regard"
+ },
+ {
+  "id": "c38",
+  "deck": "Personality 1",
+  "sec": "Humanistic",
+  "name": "Review: humanistic",
+  "clues": [
+   "idealistic",
+   "hard to test",
+   "philosophical",
+   "positive psychology"
+  ],
+  "ans": "Criticism: idealistic\nCriticism: difficult to test\nCriticism: more philosophical than psychological\nContribution: therapies for self-growth and self-understanding\nContribution: shares concepts with positive psychology"
+ },
+ {
+  "id": "c39",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Trait theories",
+  "clues": [
+   "describe",
+   "predict",
+   "not roots"
+  ],
+  "ans": "Aim to describe personality\nAim to predict future behaviour\nNot about the roots or development of personality"
+ },
+ {
+  "id": "c40",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Trait",
+  "clues": [
+   "consistent",
+   "enduring",
+   "think · feel · behave"
+  ],
+  "ans": "A consistent, enduring way of thinking, feeling or behaving"
+ },
+ {
+  "id": "c41",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Allport & Odbert",
+  "clues": [
+   "earliest list",
+   "dictionary",
+   "~200 words",
+   "nervous system"
+  ],
+  "ans": "Earliest list of traits\n~200 trait words from the dictionary\nBelieved (without evidence) traits are wired into the nervous system\nLater, some evidence for heritability of traits was found"
+ },
+ {
+  "id": "c42",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Surface traits",
+  "clues": [
+   "Cattell",
+   "easily seen",
+   "by others"
+  ],
+  "ans": "Cattell\nCharacteristics easily seen by others\nE.g., shyness, quietness"
+ },
+ {
+  "id": "c43",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Source traits",
+  "clues": [
+   "Cattell",
+   "underlie",
+   "core",
+   "introversion"
+  ],
+  "ans": "Cattell\nBasic traits underlying surface traits\nForm the core of personality\nE.g., introversion → shyness, quietness, disliking crowds"
+ },
+ {
+  "id": "c44",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "16PF Questionnaire",
+  "clues": [
+   "Cattell",
+   "16",
+   "two opposite ends"
+  ],
+  "ans": "Cattell's Sixteen Personality Factor Questionnaire\nMeasures 16 source traits\nEach trait is a dimension with two opposite ends"
+ },
+ {
+  "id": "c45",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "The Big Five",
+  "clues": [
+   "five-factor model",
+   "OCEAN",
+   "independent"
+  ],
+  "ans": "Also called the five-factor model\nOCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism\nTraits are independent of each other\nOpenness linked with better cognition and intellect"
+ },
+ {
+  "id": "c46",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Trait-situation interaction",
+  "clues": [
+   "situation",
+   "expression of a trait",
+   "party vs funeral"
+  ],
+  "ans": "The situation influences how a trait is expressed\nE.g., an extravert jokes at a party but not at a funeral"
+ },
+ {
+  "id": "c47",
+  "deck": "Personality 1",
+  "sec": "Trait theories",
+  "name": "Big Five across cultures",
+  "clues": [
+   "largely consistent",
+   "languages",
+   "self vs observer"
+  ],
+  "ans": "Largely consistent across all primary cultural regions\nConsistent across languages\nSelf-ratings match observer ratings\nRegional variations still exist"
+ },
+ {
+  "id": "n1",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Behavioural genetics",
+  "clues": [
+   "genetic bases",
+   "animal breeding",
+   "twin & adoption studies"
+  ],
+  "ans": "Field studying the genetic bases of personality\nEvidence: animal breeding — similar breeds share temperament\nEvidence: twin and adoption studies"
+ },
+ {
+  "id": "n2",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Twin and adoption studies (personality)",
+  "clues": [
+   "shared vs non-shared environment",
+   "shyness",
+   "aggressiveness"
+  ],
+  "ans": "Genes account for much of personality development\n…regardless of shared or non-shared environment\nSuggested for shyness and aggressiveness"
+ },
+ {
+  "id": "n3",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "The \"Jim\" twins",
+  "clues": [
+   "identical, separated at birth",
+   "age 39 (1990)",
+   "Linda & Betty",
+   "Ohio"
+  ],
+  "ans": "James Springer & James Lewis — identical twins separated at birth\nStudied at age 39 (1990)\nBoth liked mechanical drawing and carpentry\nDrank and smoked similar amounts\nBoth divorced a Linda and married a Betty\nBoth raised in Ohio by parents of similar socioeconomic background"
+ },
+ {
+  "id": "n4",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Phrenology",
+  "clues": [
+   "Gall (1796)",
+   "skull shape",
+   "bulges"
+  ],
+  "ans": "Dr Franz Joseph Gall (1796)\nPersonality read from the shape of the skull\nSkull bulge = brain area for a dominant personality aspect"
+ },
+ {
+  "id": "n5",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "DeYoung et al. (2010)",
+  "clues": [
+   "MRI + Big Five",
+   "extraversion → reward areas",
+   "neuroticism → threat areas"
+  ],
+  "ans": "MRI measured brain-area volume + Big Five questionnaire\nExtraversion → higher volume in reward-value area (medial orbitofrontal cortex)\nNeuroticism → lower volume in threat/punishment/negative-emotion areas (dorsomedial prefrontal cortex, posterior hippocampus)\nNeuroticism → higher volume in error-detection and pain area (middle cingulate cortex)"
+ },
+ {
+  "id": "n6",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Heritability",
+  "clues": [
+   "population",
+   "genetic influence",
+   "~50% for Big Five",
+   "30–50%"
+  ],
+  "ans": "How much a trait in a population is due to genetics\nBig Five: ~50% heritable across cultures\nPersonality variation: ~30–50% inherited\nEnvironment accounts for about half"
+ },
+ {
+  "id": "n7",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Individualism vs collectivism",
+  "clues": [
+   "Hofstede",
+   "autonomy vs duty",
+   "individual vs group security"
+  ],
+  "ans": "Hofstede\nIndividualistic: autonomy, change, youth, individual security, equality\nCollectivistic: duty, order, tradition, respect for elders, group security, group status and hierarchy"
+ },
+ {
+  "id": "n8",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Power distance",
+  "clues": [
+   "Hofstede",
+   "less powerful members",
+   "power held by a few"
+  ],
+  "ans": "Hofstede\nHow much less powerful members accept and expect\n…that power is held by a few rather than shared equally"
+ },
+ {
+  "id": "n9",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Masculinity vs femininity",
+  "clues": [
+   "Hofstede",
+   "assertive & competitive",
+   "modest & caring"
+  ],
+  "ans": "Hofstede\n\"Masculine\" cultures: assertive, competitive (more so for men)\n\"Feminine\" cultures: modest, caring (for men and women)"
+ },
+ {
+  "id": "n10",
+  "deck": "Personality 2",
+  "sec": "Genetics & culture",
+  "name": "Uncertainty avoidance",
+  "clues": [
+   "Hofstede",
+   "tolerance of ambiguity",
+   "strict rules vs fewer rules",
+   "One Truth"
+  ],
+  "ans": "Hofstede\nHow tolerant a culture is of uncertainty, ambiguity, unstructured situations\nLess tolerant: strict rules, many safety measures, belief in One Truth\nMore tolerant: open to different opinions, fewer rules, religions coexist, less anxious"
+ },
+ {
+  "id": "n11",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Eclectic view of assessment",
+  "clues": [
+   "mix of theories",
+   "purpose depends on context",
+   "researcher vs clinician"
+  ],
+  "ans": "Professionals pick parts of different theories to fit the situation\nPurpose depends on context\nResearcher → classify participants by traits\nClinical/counselling psychologist → diagnose personality disorders"
+ },
+ {
+  "id": "n12",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Four types of personality assessment",
+  "clues": [
+   "talking",
+   "observing",
+   "questionnaires",
+   "ambiguous pictures"
+  ],
+  "ans": "Interviews\nBehavioural assessments — observation, rating scales, frequency counts\nPersonality inventories — 16PF, NEO-PI-3, MBTI, MMPI, etc.\nProjective tests — Rorschach, TAT"
+ },
+ {
+  "id": "n13",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Interviews",
+  "clues": [
+   "questions & answers",
+   "unstructured vs semi-structured",
+   "self-report",
+   "halo/horn effect"
+  ],
+  "ans": "Professional asks questions; client answers\nFocus on specific thoughts and behaviours\nUnstructured (flows naturally) or semi-structured (set questions + follow-ups)\nSelf-report method\nLimitations: halo/horn effect, questionable validity, interviewer bias"
+ },
+ {
+  "id": "n14",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Behavioural assessments",
+  "clues": [
+   "direct observation",
+   "rating scale",
+   "frequency count",
+   "observer effect"
+  ],
+  "ans": "Direct observation — everyday behaviour in clinical or natural setting\nRating scale — number assigned to a behaviour\nFrequency count — how often a behaviour occurs in a set time\nLimitations: observer effect, observer bias, no control over environment"
+ },
+ {
+  "id": "n15",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Personality inventories",
+  "clues": [
+   "trait theorists",
+   "standard statements",
+   "yes/no, true/false",
+   "self-report"
+  ],
+  "ans": "Commonly used by trait theorists\nQuestionnaire with a standard list of statements\nStandardised answers (yes/no, true/false)\nPaper or computer\nForm of self-report"
+ },
+ {
+  "id": "n16",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "MMPI-3",
+  "clues": [
+   "abnormal behaviour",
+   "335 statements",
+   "validity scales",
+   "job screening"
+  ],
+  "ans": "Tests abnormal behaviour and thinking in personality and psychopathology\n335 statements\nValidity scales (e.g., over-/under-reporting) + clinical and problem scales\nAlso used for vocational guidance and job screening"
+ },
+ {
+  "id": "n17",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "NEO-PI-3",
+  "clues": [
+   "Neuroticism/Extraversion/Openness",
+   "Big Five",
+   "240 items"
+  ],
+  "ans": "NEO = Neuroticism, Extraversion, Openness\nDetailed assessment of the five main personality dimensions (OCEAN)\n240 items"
+ },
+ {
+  "id": "n18",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Myers-Briggs Type Indicator (MBTI)",
+  "clues": [
+   "Carl Jung",
+   "four dimensions",
+   "16 types",
+   "career guidance"
+  ],
+  "ans": "Based on Carl Jung's ideas\nFour dimensions: S/N, T/F, I/E, P/J\n16 possible personality types\nOften used for career guidance\nLimited validity and reliability"
+ },
+ {
+  "id": "n19",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Inventories: pros and cons",
+  "clues": [
+   "standardised",
+   "computer scoring",
+   "socially acceptable answers"
+  ],
+  "ans": "Pro: standardised, more objective\nPro: computer scoring free of bias\nPro: much better validity and reliability\nCon: people may give socially acceptable answers\nCon: questions interpreted differently\nCon: individual differences in answering"
+ },
+ {
+  "id": "n20",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Projective tests",
+  "clues": [
+   "ambiguous visual stimuli",
+   "whatever comes to mind"
+  ],
+  "ans": "Show ambiguous visual stimuli\nClient responds with whatever comes to mind"
+ },
+ {
+  "id": "n21",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Rorschach inkblots",
+  "clues": [
+   "Hermann Rorschach",
+   "10 inkblots",
+   "colour, shape, whole vs details"
+  ],
+  "ans": "Hermann Rorschach, Swiss psychiatrist\n10 inkblots — say what each looks like\nScored on colour, shape, figures seen, whole vs details\nUsed to describe personality, diagnose disorders, predict behaviour"
+ },
+ {
+  "id": "n22",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Thematic Apperception Test (TAT)",
+  "clues": [
+   "Henry Murray",
+   "20 ambiguous pictures",
+   "tell a story",
+   "projection"
+  ],
+  "ans": "Henry Murray and colleagues\n20 ambiguous pictures\nClient tells a story about the people in each\nPsychoanalysts look for revealing statements and projection of problems"
+ },
+ {
+  "id": "n23",
+  "deck": "Personality 2",
+  "sec": "Personality assessments",
+  "name": "Projective tests: limitations",
+  "clues": [
+   "subjective",
+   "no standard grading",
+   "context"
+  ],
+  "ans": "Very subjective\nPoor reliability and validity\nNo standard grading scales\nResponses vary with context\nLatest versions still used"
+ },
+ {
+  "id": "n24",
+  "deck": "Motivation",
+  "sec": "Basics",
+  "name": "Motivation",
+  "clues": [
+   "started · directed · continued",
+   "needs or wants",
+   "what 'moves' people"
+  ],
+  "ans": "Process by which activities are started, directed and continued\n…to meet physical or psychological needs or wants\nWhat \"moves\" people to act\nE.g., hungry → get up (started) → go to kitchen (directed) → find food (continued)"
+ },
+ {
+  "id": "n25",
+  "deck": "Motivation",
+  "sec": "Basics",
+  "name": "Extrinsic motivation",
+  "clues": [
+   "outcome",
+   "separate from the person",
+   "external"
+  ],
+  "ans": "Acting because it leads to an outcome\n…that is separate from or external to the person"
+ },
+ {
+  "id": "n26",
+  "deck": "Motivation",
+  "sec": "Basics",
+  "name": "Intrinsic motivation",
+  "clues": [
+   "the act itself",
+   "rewarding",
+   "internal"
+  ],
+  "ans": "Acting because the act itself is rewarding\nSatisfying in an internal way"
+ },
+ {
+  "id": "n27",
+  "deck": "Motivation",
+  "sec": "Instinct & drive",
+  "name": "Instinct approach",
+  "clues": [
+   "innate patterns",
+   "McDougall (1908)",
+   "doesn't explain why"
+  ],
+  "ans": "Instincts = biologically determined, innate behaviour patterns (people & animals)\nEarly theory: people are governed by instincts\nE.g., curiosity, flight, acquisition, aggression (McDougall, 1908)\nCon: doesn't explain why instincts exist\nPro: showed some behaviour is hereditary"
+ },
+ {
+  "id": "n28",
+  "deck": "Motivation",
+  "sec": "Instinct & drive",
+  "name": "Drive-reduction theory",
+  "clues": [
+   "internal drives",
+   "physiological needs",
+   "reduce tension"
+  ],
+  "ans": "Behaviour comes from internal drives\nDrives push us to satisfy physiological needs\nGoal: reduce tension and arousal"
+ },
+ {
+  "id": "n29",
+  "deck": "Motivation",
+  "sec": "Instinct & drive",
+  "name": "Need vs drive",
+  "clues": [
+   "material for survival",
+   "tension & arousal",
+   "motivates action"
+  ],
+  "ans": "Need: requirement of some material essential for survival\nDrive: tension and arousal caused by a need\nDrive motivates action to fulfil the need and reduce tension"
+ },
+ {
+  "id": "n30",
+  "deck": "Motivation",
+  "sec": "Instinct & drive",
+  "name": "Primary vs acquired drives",
+  "clues": [
+   "survival needs",
+   "learned",
+   "money, approval"
+  ],
+  "ans": "Primary: body's survival needs (hunger, thirst)\nAcquired (secondary): learned through experience or conditioning\nE.g., need for money or social approval"
+ },
+ {
+  "id": "n31",
+  "deck": "Motivation",
+  "sec": "Instinct & drive",
+  "name": "Homeostasis",
+  "clues": [
+   "steady state",
+   "body",
+   "limits of drive reduction"
+  ],
+  "ans": "Body's tendency to maintain a steady state\nLimit of drive reduction: why eat when not hungry?\nLimit: why do some people seek more arousal?"
+ },
+ {
+  "id": "n32",
+  "deck": "Motivation",
+  "sec": "Psychological needs",
+  "name": "McClelland's theory",
+  "clues": [
+   "nAff",
+   "nPow",
+   "nAch"
+  ],
+  "ans": "nAff — need for affiliation: friendly relationships\nnPow — need for power: control or influence over others\nnAch — need for achievement: succeed at goals, including challenging ones"
+ },
+ {
+  "id": "n33",
+  "deck": "Motivation",
+  "sec": "Psychological needs",
+  "name": "Dweck's self-theory of motivation",
+  "clues": [
+   "need for achievement",
+   "locus of control",
+   "fixed vs changeable intelligence"
+  ],
+  "ans": "Need for achievement linked to how we view ourselves\nRelated to locus of control\nLow achievement motivation → external locus, intelligence is fixed\nHigh achievement motivation → internal locus, intelligence is changeable"
+ },
+ {
+  "id": "n34",
+  "deck": "Motivation",
+  "sec": "Arousal & incentive",
+  "name": "Arousal theory",
+  "clues": [
+   "optimal level",
+   "increase or decrease stimulation",
+   "sensation seeker"
+  ],
+  "ans": "People have an optimal level of tension\nMaintain it by increasing or decreasing stimulation\nSensation seekers need more arousal\nE.g., free-solo climber Honnold's amygdala responded less to fear images"
+ },
+ {
+  "id": "n35",
+  "deck": "Motivation",
+  "sec": "Arousal & incentive",
+  "name": "Yerkes-Dodson law",
+  "clues": [
+   "moderate arousal",
+   "task difficulty",
+   "easy vs hard"
+  ],
+  "ans": "Moderate arousal → best performance\nToo low or too high → worse\nEasy tasks: high-moderate arousal\nDifficult tasks: low-moderate arousal"
+ },
+ {
+  "id": "n36",
+  "deck": "Motivation",
+  "sec": "Arousal & incentive",
+  "name": "Incentive approaches",
+  "clues": [
+   "external stimulus",
+   "attract or lure",
+   "push and pull"
+  ],
+  "ans": "Behaviour = response to an external stimulus and its rewards\nIncentives attract or lure people into action\nWork independently of need or arousal\nModern view: \"push\" of internal drives + \"pull\" of external rewards"
+ },
+ {
+  "id": "n37",
+  "deck": "Motivation",
+  "sec": "Humanistic",
+  "name": "Maslow's hierarchy of needs",
+  "clues": [
+   "deficiency & growth needs",
+   "levels",
+   "peak experiences"
+  ],
+  "ans": "Levels of needs: deficiency needs and growth needs\nMust be met before reaching self-actualisation\nPeak experiences: moments when self-actualisation is temporarily achieved"
+ },
+ {
+  "id": "n38",
+  "deck": "Motivation",
+  "sec": "Humanistic",
+  "name": "Self-determination theory",
+  "clues": [
+   "Ryan & Deci (2000)",
+   "autonomy, competence, relatedness",
+   "supportive environment"
+  ],
+  "ans": "Ryan & Deci (2000)\nSocial context affects the type of motivation\nAutonomy: control over own behaviour and goals\nCompetence: mastering challenging tasks\nRelatedness: belonging, intimacy, security with others\nSupportive environment → psychological growth + more intrinsic motivation"
+ },
+ {
+  "id": "n39",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Insulin and glucagon",
+  "clues": [
+   "pancreas",
+   "glucose down",
+   "glucose up"
+  ],
+  "ans": "Hormones from the pancreas\nControl fats, proteins and carbohydrates (glucose) in the blood\nInsulin ↓ blood glucose\nGlucagon ↑ blood glucose"
+ },
+ {
+  "id": "n40",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Leptin",
+  "clues": [
+   "hormone",
+   "signals hypothalamus",
+   "feeling full"
+  ],
+  "ans": "Hormone that signals the hypothalamus: \"enough food\"\nReduces appetite\nIncreases feeling of fullness"
+ },
+ {
+  "id": "n41",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Ventromedial hypothalamus (VMH)",
+  "clues": [
+   "stop eating",
+   "glucose rises",
+   "damage → overeating"
+  ],
+  "ans": "May stop eating when glucose levels rise\nDamage → overeating"
+ },
+ {
+  "id": "n42",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Lateral hypothalamus (LH)",
+  "clues": [
+   "start eating",
+   "insulin rises",
+   "damage → stops eating"
+  ],
+  "ans": "Influences the start of eating when insulin rises\nDamage → stops eating unless force-fed"
+ },
+ {
+  "id": "n43",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Weight set point",
+  "clues": [
+   "level body maintains",
+   "hypothalamus",
+   "metabolism & exercise"
+  ],
+  "ans": "Weight level the body tries to maintain\nHypothalamus damage → drastic weight loss or gain\nMetabolism matters: high metabolism → harder to gain weight\nExercise matters: offsets increases in set point"
+ },
+ {
+  "id": "n44",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Basal metabolic rate (BMR)",
+  "clues": [
+   "energy",
+   "resting"
+  ],
+  "ans": "Rate the body burns energy at rest"
+ },
+ {
+  "id": "n45",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Social components of hunger",
+  "clues": [
+   "social cues",
+   "culture & gender",
+   "comfort eating",
+   "anticipatory insulin"
+  ],
+  "ans": "Social cues and conventions\nFood preferences\nCulture and gender\nFood as comfort or escape\nAnticipating food can trigger an insulin response"
+ },
+ {
+  "id": "n46",
+  "deck": "Motivation",
+  "sec": "Hunger",
+  "name": "Obesity",
+  "clues": [
+   "20% over ideal weight",
+   "BMI ≥ 30",
+   "many factors"
+  ],
+  "ans": "Weight ≥ 20% over ideal for height\nWHO (2021): BMI ≥ 25 overweight, ≥ 30 obese\nFactors: heredity, hormones (leptin), overeating, food quality\nFactors: lifestyle, stress, metabolism"
+ },
+ {
+  "id": "n47",
+  "deck": "Emotion",
+  "sec": "Basics",
+  "name": "Emotion",
+  "clues": [
+   "'feeling' aspect",
+   "three components",
+   "arousal · behaviour · labelling"
+  ],
+  "ans": "The \"feeling\" aspect of consciousness\n1. Physical arousal\n2. Behaviour that shows the emotion\n3. Inner awareness — labelling the feeling"
+ },
+ {
+  "id": "n48",
+  "deck": "Emotion",
+  "sec": "Basics",
+  "name": "Universal facial expressions",
+  "clues": [
+   "across cultures",
+   "faces"
+  ],
+  "ans": "Facial expressions of emotion appear universal across cultures"
+ },
+ {
+  "id": "n49",
+  "deck": "Emotion",
+  "sec": "Basics",
+  "name": "Labelling emotion",
+  "clues": [
+   "cognitive element",
+   "learned",
+   "language & culture",
+   "Tsai et al. (2004)"
+  ],
+  "ans": "Cognitive element\nLearned response\nShaped by language and culture\nTsai et al. (2004): traditional Chinese Americans used bodily (\"dizzy\") or social (\"friendship\") words\nAmericanised groups used direct emotion words (\"love\")"
+ },
+ {
+  "id": "n50",
+  "deck": "Emotion",
+  "sec": "Physiology",
+  "name": "Sympathetic arousal in emotion",
+  "clues": [
+   "heart rate",
+   "breathing",
+   "pupils"
+  ],
+  "ans": "Sympathetic nervous system creates arousal\nHeart rate ↑, breathing faster, pupils dilate\nSadness, anger, fear → higher heart rate than disgust\nAnger differs from fear on vascular measures"
+ },
+ {
+  "id": "n51",
+  "deck": "Emotion",
+  "sec": "Physiology",
+  "name": "Amygdala",
+  "clues": [
+   "fear & pleasure",
+   "facial expressions",
+   "fear conditioning"
+  ],
+  "ans": "Linked to fear and pleasure\nIdentifies facial expressions\nComplex structure with many nuclei\nStudied mainly through fear conditioning"
+ },
+ {
+  "id": "n52",
+  "deck": "Emotion",
+  "sec": "Physiology",
+  "name": "Low road vs high road",
+  "clues": [
+   "fast & crude",
+   "slow & detailed",
+   "\"Danger!\" vs \"It's a shark!\""
+  ],
+  "ans": "Two routes from stimulus to amygdala\nLow road: fast, crude, subcortical — react before conscious awareness\nHigh road: slower, cortical — recognise threat, take conscious control\nLow road: \"Danger!\" → high road: \"It's a shark!\""
+ },
+ {
+  "id": "n53",
+  "deck": "Emotion",
+  "sec": "Physiology",
+  "name": "Other brain areas in emotion",
+  "clues": [
+   "left vs right frontal",
+   "right hemisphere faces",
+   "distraction vs reappraisal"
+  ],
+  "ans": "Left frontal lobe → positive emotions; right → negative (Davidson, 2003)\nRight hemisphere → reading emotion from faces\nRegulation: anterior cingulate cortex (distraction)\nRegulation: lateral orbitofrontal cortex (reappraisal)\nBoth strategies → lower amygdala activity"
+ },
+ {
+  "id": "n54",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "Common sense theory",
+  "clues": [
+   "emotion first",
+   "then physical reaction",
+   "then behaviour"
+  ],
+  "ans": "Stimulus → emotion → physical reaction → behaviour"
+ },
+ {
+  "id": "n55",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "James-Lange theory",
+  "clues": [
+   "William James & Carl Lange",
+   "body first",
+   "then label"
+  ],
+  "ans": "William James & Carl Lange\nStimulus → bodily arousal first\n→ arousal interpreted and labelled as emotion"
+ },
+ {
+  "id": "n56",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "Evidence against James-Lange",
+  "clues": [
+   "paralysed people",
+   "pure autonomic failure",
+   "less intense"
+  ],
+  "ans": "Paralysed people still feel emotions as strongly as before\nPure autonomic failure: same emotions, less intense\nSuggests other factors shape emotion"
+ },
+ {
+  "id": "n57",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "Cannon-Bard theory",
+  "clues": [
+   "Cannon & Bard",
+   "at the same time",
+   "thalamus",
+   "vagus nerve"
+  ],
+  "ans": "Walter Cannon & Philip Bard\nPhysiological reaction and emotion happen at the same time\nThalamus sends signals to cortex and sympathetic NS simultaneously\nCannon: bodily changes aren't distinct enough to tell emotions apart\nCriticism: vagus nerve sends feedback to the brain"
+ },
+ {
+  "id": "n58",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "Facial feedback hypothesis",
+  "clues": [
+   "expression → brain",
+   "causes & intensifies",
+   "Strack et al. (1988)"
+  ],
+  "ans": "Facial expressions send feedback to the brain\nFeedback causes and intensifies the emotion\n\"The more you smile, the happier you are\"\nStrack et al. (1988)"
+ },
+ {
+  "id": "n59",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "Cognitive arousal theory",
+  "clues": [
+   "Schachter & Singer",
+   "two-factor",
+   "arousal + label from environment"
+  ],
+  "ans": "Schachter & Singer — two-factor theory\nNeed BOTH physical arousal\n…AND labelling that arousal using environmental cues\n→ then the emotion is experienced"
+ },
+ {
+  "id": "n60",
+  "deck": "Emotion",
+  "sec": "Theories",
+  "name": "Cognitive-mediational theory",
+  "clues": [
+   "Lazarus",
+   "appraisal first",
+   "then emotion, then body"
+  ],
+  "ans": "Lazarus\nStimulus must be appraised (interpreted) first\nAppraisal → emotion → bodily response\nAppraisal mediates between stimulus and emotion"
+ },
+ {
+  "id": "n61",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Intelligence",
+  "clues": [
+   "learn from experience",
+   "acquire knowledge",
+   "adapt & solve problems"
+  ],
+  "ans": "Ability to learn from experience\nAcquire knowledge\nUse resources effectively to adapt or solve problems"
+ },
+ {
+  "id": "n62",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Spearman's g factor",
+  "clues": [
+   "general vs specific",
+   "s factor",
+   "oversimplified"
+  ],
+  "ans": "g factor: general intelligence — reason, solve problems\ns factor: specific intelligence — excel in certain areas\nBeing superior in one predicts superiority overall\nCriticism: oversimplifies intelligence"
+ },
+ {
+  "id": "n63",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Gardner's multiple intelligences",
+  "clues": [
+   "Howard Gardner",
+   "nine (originally seven)",
+   "abilities ≠ intelligence"
+  ],
+  "ans": "Howard Gardner\nNine kinds of intelligence (originally seven)\nReason, logic and knowledge are different aspects\nCriticism: little or no evidence\nCriticism: these are abilities, not intelligence (Hunt, 2001)"
+ },
+ {
+  "id": "n64",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Sternberg's triarchic theory",
+  "clues": [
+   "three kinds",
+   "analytical",
+   "creative",
+   "practical"
+  ],
+  "ans": "Three intelligences\nAnalytical: break problems into parts\nCreative: handle new concepts, find new solutions\nPractical: use information to get along and succeed"
+ },
+ {
+  "id": "n65",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Cattell-Horn-Carroll (CHC) theory",
+  "clues": [
+   "crystallised + fluid",
+   "3-tier hierarchy",
+   "most supported"
+  ],
+  "ans": "Cattell: crystallised + fluid intelligence\nHorn (Cattell's student): added other abilities\nCarroll: 3-tier hierarchy of cognitive abilities\nOther abilities: visual/auditory processing, memory, processing speed, reaction time, quantitative, reading-writing\nMost researched and supported theory; basis of many new tests"
+ },
+ {
+  "id": "n66",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Crystallised vs fluid intelligence",
+  "clues": [
+   "acquired knowledge",
+   "problem solving",
+   "unfamiliar situations"
+  ],
+  "ans": "Crystallised: acquired knowledge and skills\nFluid: problem solving and adapting in unfamiliar situations"
+ },
+ {
+  "id": "n67",
+  "deck": "Intelligence",
+  "sec": "Theories",
+  "name": "Parieto-Frontal Integration Theory (P-FIT)",
+  "clues": [
+   "frontal & parietal",
+   "cingulate, insula",
+   "working memory"
+  ],
+  "ans": "Frontal and parietal areas key to intelligence\nAlso: posterior cingulate, insular cortex, some subcortical areas\nWorking memory linked to fluid intelligence"
+ },
+ {
+  "id": "n68",
+  "deck": "Intelligence",
+  "sec": "Measuring intelligence",
+  "name": "Binet's mental ability test",
+  "clues": [
+   "Binet & Simon",
+   "French MOE",
+   "remedial education"
+  ],
+  "ans": "Alfred Binet & Théodore Simon\nRequested by the French education ministry\nIdentify children needing remedial education\nFast learners answer like older children; slow learners like younger ones"
+ },
+ {
+  "id": "n69",
+  "deck": "Intelligence",
+  "sec": "Measuring intelligence",
+  "name": "Mental age",
+  "clues": [
+   "average age",
+   "level of question"
+  ],
+  "ans": "Average age at which children can answer a particular level of question"
+ },
+ {
+  "id": "n70",
+  "deck": "Intelligence",
+  "sec": "Measuring intelligence",
+  "name": "Stanford-Binet and IQ",
+  "clues": [
+   "Terman",
+   "Stern",
+   "MA ÷ CA × 100",
+   "up to ~16"
+  ],
+  "ans": "Lewis Terman revised Binet's test\nUsed William Stern's method\nIQ = mental age ÷ chronological age × 100\nAllowed comparison up to about age 16\nToday: age-group norms instead (Stanford-Binet 5th ed.)"
+ },
+ {
+  "id": "n71",
+  "deck": "Intelligence",
+  "sec": "Measuring intelligence",
+  "name": "Wechsler tests",
+  "clues": [
+   "WAIS, WISC, WPPSI",
+   "verbal & non-verbal",
+   "five index scores"
+  ],
+  "ans": "David Wechsler\nWAIS (adults), WISC (children), WPPSI (preschool)\nVerbal + non-verbal items\nOverall score + 5 index scores\nVerbal comprehension, working memory, visual spatial, processing speed, fluid reasoning"
+ },
+ {
+  "id": "n72",
+  "deck": "Intelligence",
+  "sec": "Test construction",
+  "name": "Reliability",
+  "clues": [
+   "same scores",
+   "again and again"
+  ],
+  "ans": "Test gives the same scores each time\n…when given to the same people"
+ },
+ {
+  "id": "n73",
+  "deck": "Intelligence",
+  "sec": "Test construction",
+  "name": "Validity",
+  "clues": [
+   "measures what it should"
+  ],
+  "ans": "Test measures what it's supposed to measure"
+ },
+ {
+  "id": "n74",
+  "deck": "Intelligence",
+  "sec": "Test construction",
+  "name": "Standardisation and norms",
+  "clues": [
+   "large representative group",
+   "norms",
+   "normal curve"
+  ],
+  "ans": "Give the test to a large representative group\nTheir scores = norms\nMost tests follow a normal curve"
+ },
+ {
+  "id": "n75",
+  "deck": "Intelligence",
+  "sec": "Test construction",
+  "name": "Deviation IQ",
+  "clues": [
+   "mean 100",
+   "SD ~15",
+   "130 / 70"
+  ],
+  "ans": "IQ normally distributed\nMean 100, SD about 15\n130 = two SDs above mean\n70 = two SDs below mean"
+ },
+ {
+  "id": "n76",
+  "deck": "Intelligence",
+  "sec": "Test construction",
+  "name": "Cultural bias",
+  "clues": [
+   "test designer's culture",
+   "language & content",
+   "Raven's Progressive Matrices"
+  ],
+  "ans": "IQ tests reflect the test designer's culture\nLanguage, dialect and content\nFix: culture-fair tests using non-verbal abilities\nE.g., Raven's Progressive Matrices (abstract reasoning)"
+ },
+ {
+  "id": "n77",
+  "deck": "Intelligence",
+  "sec": "Test construction",
+  "name": "Usefulness of IQ tests",
+  "clues": [
+   "academic & job success",
+   "neuropsychology"
+  ],
+  "ans": "Predict academic success and job performance\nUsed in neuropsychology\nAssess head injuries, learning disabilities, neuropsychological disorders"
+ },
+ {
+  "id": "n78",
+  "deck": "Intelligence",
+  "sec": "Individual differences",
+  "name": "Intellectual disability",
+  "clues": [
+   "IQ below 70",
+   "adaptive behaviour",
+   "conceptual, social, practical",
+   "developmental period"
+  ],
+  "ans": "Also called intellectual developmental disorder\nIQ below 70\nSeverely deficient adaptive behaviour for one's age\nAffects conceptual, social, practical domains\nBegins in the developmental period\nMild to profound"
+ },
+ {
+  "id": "n79",
+  "deck": "Intelligence",
+  "sec": "Individual differences",
+  "name": "Causes of intellectual disability",
+  "clues": [
+   "environment",
+   "chromosomes",
+   "alcohol",
+   "diet & toxins"
+  ],
+  "ans": "Deprived environments\nChromosome/genetic disorders (e.g., Down syndrome)\nAlcohol (e.g., fetal alcohol syndrome)\nDietary deficiencies\nEnvironmental toxins"
+ },
+ {
+  "id": "n80",
+  "deck": "Intelligence",
+  "sec": "Individual differences",
+  "name": "Giftedness",
+  "clues": [
+   "2%",
+   "IQ 130+",
+   "Terman longitudinal study"
+  ],
+  "ans": "~2% of people\nIQ 130 and above\nTerman's longitudinal study: most became successful adults\nCriticism: Terman lacked objectivity, too involved with his participants"
+ },
+ {
+  "id": "n81",
+  "deck": "Intelligence",
+  "sec": "Individual differences",
+  "name": "Emotional intelligence",
+  "clues": [
+   "own & others' emotions",
+   "manage",
+   "success in life"
+  ],
+  "ans": "Aware of and manage own emotions to think and reach goals\nUnderstand what others feel\nHigher EI → correlates with general intelligence\n→ better relationships, seen more positively\n→ better academic/job performance, greater well-being"
+ },
+ {
+  "id": "n82",
+  "deck": "Intelligence",
+  "sec": "Nature vs nurture",
+  "name": "Twin and adoption studies (IQ)",
+  "clues": [
+   "genetic relatedness",
+   "heritability 0.50"
+  ],
+  "ans": "IQ correlation rises with genetic relatedness\nHeritability of IQ ≈ 0.50 (50%)"
+ },
+ {
+  "id": "n83",
+  "deck": "Intelligence",
+  "sec": "Nature vs nurture",
+  "name": "Flynn effect",
+  "clues": [
+   "rising IQ",
+   "over time",
+   "modernised countries"
+  ],
+  "ans": "IQ scores steadily rising over time\nIn modernised countries"
+ },
+ {
+  "id": "n84",
+  "deck": "Intelligence",
+  "sec": "Nature vs nurture",
+  "name": "The Bell Curve & stereotype threat",
+  "clues": [
+   "Herrnstein & Murray (1994)",
+   "controversial",
+   "negative stereotypes"
+  ],
+  "ans": "The Bell Curve (Herrnstein & Murray, 1994): controversial claims on heritability of intelligence\nStereotype threat: knowing a negative stereotype\n…can make a person score poorly on IQ tests"
+ }
+]
