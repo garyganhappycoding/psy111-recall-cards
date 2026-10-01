@@ -8,4 +8,14 @@ Topics: Personality 1, Personality 2, Motivation, Emotion, Intelligence.
 - `cards.json` — the card deck (`deck`, `sec`, `name`, `clues`, `ans`; one answer point per line)
 
 To change the default cards for everyone, edit `cards.json` and push — Vercel redeploys automatically.
-Edits made in the page itself on this site are saved in that browser only.
+
+## Accounts
+
+Sign-in uses Supabase email codes (project `psy111-recall-cards`). Each signed-in user's revealed cards,
+paraphrase drafts and card edits are stored in the `user_state` table, protected by row-level security so
+people can only read and write their own row. Signed-out visitors save in their browser only.
+
+Supabase dashboard settings this relies on:
+- Authentication → URL Configuration: Site URL and Redirect URLs set to the Vercel domain
+- Authentication → Email Templates → Magic Link: includes `{{ .Token }}` so the email shows a code
+- For more than a few sign-ups an hour, add custom SMTP (Authentication → SMTP Settings)

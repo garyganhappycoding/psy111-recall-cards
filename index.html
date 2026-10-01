@@ -98,7 +98,7 @@ h1 em{color:var(--accent)}
 .pts li::marker{color:var(--c)}
 td.orig .pts{gap:4px;margin-top:8px}
 .answer.hidden{color:transparent;user-select:none;background:repeating-linear-gradient(135deg,var(--cbg) 0 8px,var(--paper) 8px 16px);border-left-color:var(--line)}
-textarea,input[type=text],select{width:100%;font:inherit;font-size:14px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+textarea,input[type=text],input[type=email],select{width:100%;font:inherit;font-size:14px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
 textarea{resize:vertical}
 .try{min-height:72px}
 .field{display:flex;flex-direction:column;gap:6px}
@@ -120,6 +120,8 @@ td.yours{width:32%}
 td.yours textarea{min-height:64px;font-size:13px;padding:8px 10px}
 td.orig{font-size:13px}
 td.orig .btn{font-size:12px;padding:5px 10px}
+.acct{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:8px;margin-top:10px;font-size:12px;color:var(--muted);font-family:var(--body)}
+.acct .who{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .note{color:var(--muted);font-size:13px;margin:0 0 12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -131,7 +133,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
       <h1>PSY 111 <em>recall</em> cards</h1>
       <p class="sub">Pick a topic, tap a concept, read the clues and explain it in your own words, then reveal the full sentence to check yourself. Edit any card, or add your own.</p>
     </div>
-    <div class="progress"><span id="pct">Loading cards…</span><div class="bar"><i id="barfill"></i></div><div class="status" id="status"></div></div>
+    <div class="progress"><span id="pct">Loading cards…</span><div class="bar"><i id="barfill"></i></div><div class="status" id="status"></div><div class="acct" id="acct"></div></div>
   </header>
 
   <nav class="topics" role="tablist" aria-label="Topics" id="topics"></nav>
@@ -174,6 +176,25 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   </div>
 </div>
 
+<!-- sign-in sheet -->
+<div class="scrim" id="ascrim" hidden>
+  <form class="sheet" id="asheet" role="dialog" aria-modal="true" aria-labelledby="a-title" style="--c:var(--accent);--cbg:var(--bg)">
+    <div class="sheet-in">
+      <div><div class="tag">Account</div><h3 id="a-title">Sign in to save your progress</h3></div>
+      <p class="hint" id="a-intro"></p>
+      <div class="field" id="a-step1"><label class="label" for="a-email">Email</label><input type="email" id="a-email" autocomplete="email"></div>
+      <div class="field" id="a-step2" hidden><label class="label" for="a-code">Code from the email</label><input type="text" id="a-code" inputmode="numeric" autocomplete="one-time-code" maxlength="10"><span class="hint">Or tap the sign-in link in the email instead.</span></div>
+      <div class="err" id="a-err" hidden></div>
+      <div class="sheet-foot">
+        <button class="btn primary" type="submit" id="a-go">Send code</button>
+        <button class="btn" type="button" id="a-back" hidden>Use a different email</button>
+        <span class="spacer"></span>
+        <button class="btn" type="button" id="a-cancel">Cancel</button>
+      </div>
+    </div>
+  </form>
+</div>
+
 <!-- editor sheet -->
 <div class="scrim" id="escrim" hidden>
   <form class="sheet" id="esheet" role="dialog" aria-modal="true" aria-labelledby="e-title">
@@ -195,6 +216,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   </form>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
 <script>
 const SLOTS=["--psy","--beh","--hum","--trt","--gen"];
 const DECK_ORDER=["Personality 1","Personality 2","Motivation","Emotion","Intelligence"];
@@ -203,9 +225,13 @@ let C=[];                       // the deck: [{id,deck,sec,name,clues[],ans}]
 let done=new Set(store.get("pr-done2",[]));
 let drafts=store.get("pr-drafts2",{});
 let deck=store.get("pr-deck",DECK_ORDER[0]), filter="all", shuffled=null, cur=null, editing=null;
-let artifactApi=null, canSave=true;
+
 
 const $=s=>document.querySelector(s);
+const SB_URL="https://xzdfidosiliclmdvugci.supabase.co", SB_KEY="sb_publishable_JmGF3B2LdozGM9WDeAVEGA_xucGY2b_";
+let sb=null, user=null, customCards=false, syncTimer=null, defaults=[];
+function saveDone(){store.set("pr-done2",[...done]);queueSync()}
+function saveDrafts(){store.set("pr-drafts2",drafts);queueSync()}
 const esc=s=>String(s).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
 const byId=id=>C.find(c=>c.id===id);
 function points(el,text){const ul=document.createElement("ul");ul.className="pts";String(text).split("\n").map(s=>s.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean).forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});el.replaceChildren(ul)}
@@ -238,7 +264,7 @@ function chips(el){
     const sh=document.createElement("button");sh.className="btn";sh.textContent=shuffled?"Unshuffle":"Shuffle";
     sh.onclick=()=>{shuffled=shuffled?null:C.map(c=>c.id).sort(()=>Math.random()-.5);render()};
     const rs=document.createElement("button");rs.className="btn";rs.textContent="Reset this topic";
-    rs.onclick=()=>{if(rs.dataset.armed){inDeck().forEach(c=>done.delete(c.id));store.set("pr-done2",[...done]);render()}else{rs.dataset.armed="1";rs.textContent="Tap again to reset";setTimeout(()=>{if(rs.isConnected){delete rs.dataset.armed;rs.textContent="Reset this topic"}},2500)}};
+    rs.onclick=()=>{if(rs.dataset.armed){inDeck().forEach(c=>done.delete(c.id));saveDone();render()}else{rs.dataset.armed="1";rs.textContent="Tap again to reset";setTimeout(()=>{if(rs.isConnected){delete rs.dataset.armed;rs.textContent="Reset this topic"}},2500)}};
     el.append(add,sh,rs);
   }
 }
@@ -276,14 +302,14 @@ function render(){
     tr.innerHTML=`<td class="concept"><span class="tag">${esc(c.sec)}</span>${esc(c.name)}<br><button class="link">Edit</button></td><td class="cl">${esc(c.clues.join(" · "))}</td><td class="yours"><textarea id="t-${esc(c.id)}" aria-label="Your paraphrase of ${esc(c.name)}"></textarea></td><td class="orig"><button class="btn">Show original</button><div hidden></div></td>`;
     tr.querySelector(".link").onclick=()=>openEditor(c.id);
     const ta=tr.querySelector("textarea");ta.value=drafts[c.id]||"";
-    ta.oninput=()=>{drafts[c.id]=ta.value;store.set("pr-drafts2",drafts)};
+    ta.oninput=()=>{drafts[c.id]=ta.value;saveDrafts()};
     const b=tr.querySelector(".orig .btn"),d=tr.querySelector(".orig div");points(d,c.ans);
     b.onclick=()=>{d.hidden=!d.hidden;b.textContent=d.hidden?"Show original":"Hide";if(!d.hidden)markDone(c.id)};
     tb.appendChild(tr);
   });
   updateProgress();
 }
-function markDone(id){if(!done.has(id)){done.add(id);store.set("pr-done2",[...done])}updateProgress()}
+function markDone(id){if(!done.has(id)){done.add(id);saveDone()}updateProgress()}
 
 /* study sheet */
 function openCard(id){
@@ -300,7 +326,7 @@ function openCard(id){
 function step(d){const list=visible();if(!list.length)return;let i=list.findIndex(x=>x.id===cur);i=(i+d+list.length)%list.length;openCard(list[i].id)}
 function closeCard(){$("#scrim").hidden=true;render()}
 $("#s-reveal").onclick=()=>{const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";if(!h)markDone(cur)};
-$("#s-try").oninput=e=>{drafts[cur]=e.target.value;store.set("pr-drafts2",drafts)};
+$("#s-try").oninput=e=>{drafts[cur]=e.target.value;saveDrafts()};
 $("#s-prev").onclick=()=>step(-1);$("#s-next").onclick=()=>step(1);$("#s-close").onclick=closeCard;
 $("#s-edit").onclick=()=>{$("#scrim").hidden=true;openEditor(cur)};
 $("#scrim").onclick=e=>{if(e.target.id==="scrim")closeCard()};
@@ -337,29 +363,83 @@ $("#esheet").addEventListener("submit",async e=>{
 $("#e-del").onclick=async()=>{
   const del=$("#e-del");
   if(!del.dataset.armed){del.dataset.armed="1";del.classList.add("armed");del.textContent="Tap again to delete";setTimeout(()=>{if(del.dataset.armed){delete del.dataset.armed;del.classList.remove("armed");del.textContent="Delete card"}},3000);return}
-  const id=editing;delete drafts[id];store.set("pr-drafts2",drafts);done.delete(id);store.set("pr-done2",[...done]);
+  const id=editing;delete drafts[id];saveDrafts();done.delete(id);saveDone();
   await commit(C.filter(c=>c.id!==id),"Card deleted");
 };
 function showErr(t){const e=$("#e-err");e.textContent=t;e.hidden=false}
 
-/* saving: the deck lives in cards.json, published with the page */
+/* saving: signed in → your account; signed out → this browser */
 async function commit(next,msg){
-  $("#e-save").disabled=true;
-  if(canSave&&artifactApi){
-    try{
-      await artifactApi.publish({"cards.json":{content:JSON.stringify(next,null,1),contentType:"application/json"}});
-      C=next;closeEditor();setStatus(msg+" · saved to the page");render();return;
-    }catch(err){
-      const code=err&&err.code;
-      if(code==="conflict"){setStatus("A newer version was saved elsewhere. Reloading it…");closeEditor();return}
-      if(code==="rate_limited"){showErr("Saving too quickly. Wait a few seconds and press Save again.");$("#e-save").disabled=false;return}
-      if(code==="upstream_error"){showErr("The save didn't go through. Press Save again.");$("#e-save").disabled=false;return}
-      canSave=false;
-    }
-  }
-  C=next;store.set("pr-local-deck2",C);closeEditor();
-  setStatus(msg+" · saved in this browser only");render();
+  $("#e-save").disabled=true;C=next;closeEditor();
+  if(user){customCards=true;render();setStatus(msg+" · saving…");await syncNow();return}
+  store.set("pr-local-deck2",C);setStatus(msg+" · saved in this browser only");render();
 }
+
+/* ---- account sync (Supabase) ---- */
+function queueSync(){if(!user)return;clearTimeout(syncTimer);syncTimer=setTimeout(syncNow,1500)}
+async function syncNow(){
+  if(!user||!sb)return;clearTimeout(syncTimer);
+  const {error}=await sb.from("user_state").upsert({user_id:user.id,done:[...done],drafts,cards:customCards?C:null,updated_at:new Date().toISOString()});
+  setStatus(error?"Couldn't sync to your account. Your work is still on this device.":"Saved to your account");
+}
+async function loadAccount(){
+  const {data,error}=await sb.from("user_state").select("done,drafts,cards").eq("user_id",user.id).maybeSingle();
+  if(error){setStatus("Couldn't load your saved progress. Try refreshing.");return}
+  const localDeck=store.get("pr-local-deck2",null);
+  if(data){
+    done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};
+    if(data.cards){C=data.cards;customCards=true}else if(localDeck){C=localDeck;customCards=true}
+  }else if(localDeck){C=localDeck;customCards=true}
+  store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);
+  render();await syncNow();
+}
+function renderAcct(){
+  const el=$("#acct");el.innerHTML="";
+  if(!sb)return;
+  if(user){
+    const w=document.createElement("span");w.className="who";w.textContent="Signed in as "+(user.email||"you");
+    const o=document.createElement("button");o.className="link";o.textContent="Sign out";
+    o.onclick=async()=>{await syncNow();await sb.auth.signOut()};
+    el.append(w,o);
+  }else{
+    const b=document.createElement("button");b.className="btn primary";b.textContent="Sign in to save progress";b.onclick=openAuth;el.appendChild(b);
+  }
+}
+async function onSession(session){
+  const next=session?session.user:null;
+  if(next&&user&&next.id===user.id)return;
+  if(next){user=next;renderAcct();closeAuth();setStatus("Loading your progress…");await loadAccount();return}
+  if(user){ /* signed out: clear this device's copy so the next person starts fresh */
+    user=null;customCards=false;done=new Set();drafts={};C=defaults;
+    ["pr-done2","pr-drafts2","pr-local-deck2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
+    setStatus("Signed out");render();
+  }
+  renderAcct();
+}
+let authEmail="";
+const INTRO1="Enter your email and we'll send you a sign-in code. No password needed. Your revealed cards, paraphrases and card edits then follow you to any device.";
+function openAuth(){authStep(1);$("#a-err").hidden=true;$("#ascrim").hidden=false;$("#a-email").focus()}
+function closeAuth(){$("#ascrim").hidden=true}
+function authStep(n){$("#a-step1").hidden=n!==1;$("#a-step2").hidden=n!==2;$("#a-back").hidden=n!==2;$("#a-go").textContent=n===1?"Send code":"Verify and sign in";$("#a-go").disabled=false;
+  $("#a-intro").textContent=n===1?INTRO1:"We sent an email to "+authEmail+". Enter the code from it below."}
+function authErr(t){const e=$("#a-err");e.textContent=t;e.hidden=false;$("#a-go").disabled=false}
+$("#a-cancel").onclick=closeAuth;$("#a-back").onclick=()=>authStep(1);
+$("#ascrim").onclick=e=>{if(e.target.id==="ascrim")closeAuth()};
+$("#asheet").addEventListener("submit",async e=>{
+  e.preventDefault();$("#a-err").hidden=true;$("#a-go").disabled=true;
+  if($("#a-step2").hidden){
+    authEmail=$("#a-email").value.trim();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(authEmail)){authErr("Enter a valid email address.");return}
+    const {error}=await sb.auth.signInWithOtp({email:authEmail,options:{shouldCreateUser:true,emailRedirectTo:location.origin+location.pathname}});
+    if(error){authErr(error.status===429?"Too many sign-in emails were sent recently. Wait a while and try again.":"Couldn't send the email: "+error.message);return}
+    authStep(2);$("#a-code").value="";$("#a-code").focus();
+  }else{
+    const token=$("#a-code").value.replace(/\s/g,"");
+    if(!token){authErr("Enter the code from the email.");return}
+    const {error}=await sb.auth.verifyOtp({email:authEmail,token,type:"email"});
+    if(error){authErr("That code didn't work. Check it and try again, or tap the link in the email.");return}
+  }
+});
 
 document.addEventListener("keydown",e=>{
   if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
@@ -370,15 +450,15 @@ function view(v){const cards=v==="cards";$("#view-cards").hidden=!cards;$("#view
 $("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");
 
 (async function boot(){
-  try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;C=await r.json()}catch(e){C=[];setStatus("Couldn't load the card deck.")}
-  const local=store.get("pr-local-deck2",null);
+  try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;defaults=await r.json()}catch(e){defaults=[];setStatus("Couldn't load the card deck.")}
+  C=store.get("pr-local-deck2",null)||defaults;
   if(location.hash==="#table")view("table");else render();
-  try{
-    const api=window.claude&&await window.claude.use("artifact");
-    if(api){artifactApi=api}else{canSave=false}
-  }catch(e){canSave=false}
-  if(!canSave&&local){C=local;render();setStatus("Showing your edits saved in this browser")}
-  else if(!canSave){setStatus("Edits here save in this browser only")}
+  if(window.supabase){
+    sb=window.supabase.createClient(SB_URL,SB_KEY,{auth:{persistSession:true,detectSessionInUrl:true,flowType:"implicit"}});
+    sb.auth.onAuthStateChange((_ev,session)=>{setTimeout(()=>onSession(session),0)});
+    const {data}=await sb.auth.getSession();await onSession(data.session);
+    if(!user)setStatus("Sign in to keep your progress on every device");
+  }else{setStatus("Progress saves in this browser only")}
 })();
 </script>
 
