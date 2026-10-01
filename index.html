@@ -98,7 +98,7 @@ h1 em{color:var(--accent)}
 .pts li::marker{color:var(--c)}
 td.orig .pts{gap:4px;margin-top:8px}
 .answer.hidden{color:transparent;user-select:none;background:repeating-linear-gradient(135deg,var(--cbg) 0 8px,var(--paper) 8px 16px);border-left-color:var(--line)}
-textarea,input[type=text],input[type=email],select{width:100%;font:inherit;font-size:14px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+textarea,input[type=text],input[type=email],input[type=password],select{width:100%;font:inherit;font-size:14px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
 textarea{resize:vertical}
 .try{min-height:72px}
 .field{display:flex;flex-direction:column;gap:6px}
@@ -180,14 +180,14 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 <div class="scrim" id="ascrim" hidden>
   <form class="sheet" id="asheet" role="dialog" aria-modal="true" aria-labelledby="a-title" style="--c:var(--accent);--cbg:var(--bg)">
     <div class="sheet-in">
-      <div><div class="tag">Account</div><h3 id="a-title">Sign in to save your progress</h3></div>
+      <div><div class="tag">Account</div><h3 id="a-title">Sign in</h3></div>
       <p class="hint" id="a-intro"></p>
-      <div class="field" id="a-step1"><label class="label" for="a-email">Email</label><input type="email" id="a-email" autocomplete="email"></div>
-      <div class="field" id="a-step2" hidden><label class="label" for="a-code">Code from the email</label><input type="text" id="a-code" inputmode="numeric" autocomplete="one-time-code" maxlength="10"><span class="hint">Or tap the sign-in link in the email instead.</span></div>
+      <div class="field"><label class="label" for="a-email">Email</label><input type="email" id="a-email" autocomplete="email"></div>
+      <div class="field"><label class="label" for="a-pass">Password</label><input type="password" id="a-pass" autocomplete="current-password"><span class="hint" id="a-passhint" hidden>At least 6 characters.</span></div>
       <div class="err" id="a-err" hidden></div>
       <div class="sheet-foot">
-        <button class="btn primary" type="submit" id="a-go">Send code</button>
-        <button class="btn" type="button" id="a-back" hidden>Use a different email</button>
+        <button class="btn primary" type="submit" id="a-go">Sign in</button>
+        <button class="link" type="button" id="a-switch"></button>
         <span class="spacer"></span>
         <button class="btn" type="button" id="a-cancel">Cancel</button>
       </div>
@@ -375,70 +375,76 @@ async function commit(next,msg){
   store.set("pr-local-deck2",C);setStatus(msg+" · saved in this browser only");render();
 }
 
-/* ---- account sync (Supabase) ---- */
+/* ---- accounts: email + password, no email verification ---- */
+let token=store.get("pr-token",null), acctEmail="", authMode="in";
 function queueSync(){if(!user)return;clearTimeout(syncTimer);syncTimer=setTimeout(syncNow,1500)}
 async function syncNow(){
   if(!user||!sb)return;clearTimeout(syncTimer);
-  const {error}=await sb.from("user_state").upsert({user_id:user.id,done:[...done],drafts,cards:customCards?C:null,updated_at:new Date().toISOString()});
-  setStatus(error?"Couldn't sync to your account. Your work is still on this device.":"Saved to your account");
+  const {error}=await sb.rpc("recall_save_state",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null});
+  if(error&&/not_signed_in/.test(error.message)){signedOut("Your session ended. Sign in again to keep saving.");return}
+  setStatus(error?"Couldn't save to your account. Your work is still on this device.":"Saved to your account");
 }
 async function loadAccount(){
-  const {data,error}=await sb.from("user_state").select("done,drafts,cards").eq("user_id",user.id).maybeSingle();
-  if(error){setStatus("Couldn't load your saved progress. Try refreshing.");return}
+  const {data,error}=await sb.rpc("recall_get_state",{p_token:token});
+  if(error){if(/not_signed_in/.test(error.message)){signedOut("");}else{setStatus("Couldn't load your saved progress. Try refreshing.")}return false}
+  user={email:data.email};
   const localDeck=store.get("pr-local-deck2",null);
-  if(data){
-    done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};
-    if(data.cards){C=data.cards;customCards=true}else if(localDeck){C=localDeck;customCards=true}
-  }else if(localDeck){C=localDeck;customCards=true}
+  done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};
+  if(data.cards){C=data.cards;customCards=true}else if(localDeck){C=localDeck;customCards=true}
   store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);
-  render();await syncNow();
+  renderAcct();render();await syncNow();return true;
+}
+function signedOut(msg){
+  user=null;token=null;customCards=false;done=new Set();drafts={};C=defaults;
+  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
+  render();renderAcct();setStatus(msg||"Signed out");
 }
 function renderAcct(){
   const el=$("#acct");el.innerHTML="";
   if(!sb)return;
   if(user){
-    const w=document.createElement("span");w.className="who";w.textContent="Signed in as "+(user.email||"you");
+    const w=document.createElement("span");w.className="who";w.textContent="Signed in as "+user.email;
     const o=document.createElement("button");o.className="link";o.textContent="Sign out";
-    o.onclick=async()=>{await syncNow();await sb.auth.signOut()};
+    o.onclick=async()=>{await syncNow();await sb.rpc("recall_sign_out",{p_token:token});signedOut("Signed out")};
     el.append(w,o);
   }else{
-    const b=document.createElement("button");b.className="btn primary";b.textContent="Sign in to save progress";b.onclick=openAuth;el.appendChild(b);
+    const b=document.createElement("button");b.className="btn primary";b.textContent="Sign in to save progress";b.onclick=()=>openAuth("in");
+    const c=document.createElement("button");c.className="link";c.textContent="Create account";c.onclick=()=>openAuth("up");
+    el.append(b,c);
   }
 }
-async function onSession(session){
-  const next=session?session.user:null;
-  if(next&&user&&next.id===user.id)return;
-  if(next){user=next;renderAcct();closeAuth();setStatus("Loading your progress…");await loadAccount();return}
-  if(user){ /* signed out: clear this device's copy so the next person starts fresh */
-    user=null;customCards=false;done=new Set();drafts={};C=defaults;
-    ["pr-done2","pr-drafts2","pr-local-deck2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
-    setStatus("Signed out");render();
-  }
-  renderAcct();
+function setMode(m){
+  authMode=m;const up=m==="up";
+  $("#a-title").textContent=up?"Create an account":"Sign in";
+  $("#a-intro").textContent=up?"Pick any email and password. You can start straight away — no email to confirm. Your revealed cards, paraphrases and card edits will follow you to any device.":"Sign in to load your saved progress on this device.";
+  $("#a-go").textContent=up?"Create account":"Sign in";
+  $("#a-switch").textContent=up?"I already have an account":"New here? Create an account";
+  $("#a-pass").autocomplete=up?"new-password":"current-password";$("#a-passhint").hidden=!up;
+  $("#a-err").hidden=true;$("#a-go").disabled=false;
 }
-let authEmail="";
-const INTRO1="Enter your email and we'll send you a sign-in code. No password needed. Your revealed cards, paraphrases and card edits then follow you to any device.";
-function openAuth(){authStep(1);$("#a-err").hidden=true;$("#ascrim").hidden=false;$("#a-email").focus()}
+function openAuth(m){setMode(m);$("#a-pass").value="";$("#ascrim").hidden=false;$("#a-email").focus()}
 function closeAuth(){$("#ascrim").hidden=true}
-function authStep(n){$("#a-step1").hidden=n!==1;$("#a-step2").hidden=n!==2;$("#a-back").hidden=n!==2;$("#a-go").textContent=n===1?"Send code":"Verify and sign in";$("#a-go").disabled=false;
-  $("#a-intro").textContent=n===1?INTRO1:"We sent an email to "+authEmail+". Enter the code from it below."}
 function authErr(t){const e=$("#a-err");e.textContent=t;e.hidden=false;$("#a-go").disabled=false}
-$("#a-cancel").onclick=closeAuth;$("#a-back").onclick=()=>authStep(1);
+$("#a-cancel").onclick=closeAuth;$("#a-switch").onclick=()=>setMode(authMode==="up"?"in":"up");
 $("#ascrim").onclick=e=>{if(e.target.id==="ascrim")closeAuth()};
 $("#asheet").addEventListener("submit",async e=>{
-  e.preventDefault();$("#a-err").hidden=true;$("#a-go").disabled=true;
-  if($("#a-step2").hidden){
-    authEmail=$("#a-email").value.trim();
-    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(authEmail)){authErr("Enter a valid email address.");return}
-    const {error}=await sb.auth.signInWithOtp({email:authEmail,options:{shouldCreateUser:true,emailRedirectTo:location.origin+location.pathname}});
-    if(error){authErr(error.status===429?"Too many sign-in emails were sent recently. Wait a while and try again.":"Couldn't send the email: "+error.message);return}
-    authStep(2);$("#a-code").value="";$("#a-code").focus();
-  }else{
-    const token=$("#a-code").value.replace(/\s/g,"");
-    if(!token){authErr("Enter the code from the email.");return}
-    const {error}=await sb.auth.verifyOtp({email:authEmail,token,type:"email"});
-    if(error){authErr("That code didn't work. Check it and try again, or tap the link in the email.");return}
+  e.preventDefault();$("#a-err").hidden=true;
+  const email=$("#a-email").value.trim(),pass=$("#a-pass").value;
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){authErr("Enter a valid email address.");return}
+  if(authMode==="up"&&pass.length<6){authErr("Use a password with at least 6 characters.");return}
+  if(!pass){authErr("Enter your password.");return}
+  $("#a-go").disabled=true;$("#a-go").textContent=authMode==="up"?"Creating…":"Signing in…";
+  const {data,error}=await sb.rpc(authMode==="up"?"recall_sign_up":"recall_sign_in",{p_email:email,p_password:pass});
+  if(error){
+    const m=error.message||"";setMode(authMode);
+    if(/account_exists/.test(m)){authErr("An account with this email already exists. Sign in instead.");setMode("in");authErr("An account with this email already exists. Sign in instead.");return}
+    if(/invalid_login/.test(m)){authErr("Wrong email or password.");return}
+    if(/weak_password/.test(m)){authErr("Use a password with at least 6 characters.");return}
+    if(/invalid_email/.test(m)){authErr("Enter a valid email address.");return}
+    authErr("Something went wrong. Check your connection and try again.");return;
   }
+  token=data;store.set("pr-token",token);closeAuth();setStatus("Loading your progress…");
+  await loadAccount();
 });
 
 document.addEventListener("keydown",e=>{
@@ -454,9 +460,9 @@ $("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("tabl
   C=store.get("pr-local-deck2",null)||defaults;
   if(location.hash==="#table")view("table");else render();
   if(window.supabase){
-    sb=window.supabase.createClient(SB_URL,SB_KEY,{auth:{persistSession:true,detectSessionInUrl:true,flowType:"implicit"}});
-    sb.auth.onAuthStateChange((_ev,session)=>{setTimeout(()=>onSession(session),0)});
-    const {data}=await sb.auth.getSession();await onSession(data.session);
+    sb=window.supabase.createClient(SB_URL,SB_KEY,{auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false}});
+    renderAcct();
+    if(token){setStatus("Loading your progress…");await loadAccount()}
     if(!user)setStatus("Sign in to keep your progress on every device");
   }else{setStatus("Progress saves in this browser only")}
 })();

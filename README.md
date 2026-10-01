@@ -11,11 +11,16 @@ To change the default cards for everyone, edit `cards.json` and push — Vercel 
 
 ## Accounts
 
-Sign-in uses Supabase email codes (project `psy111-recall-cards`). Each signed-in user's revealed cards,
-paraphrase drafts and card edits are stored in the `user_state` table, protected by row-level security so
-people can only read and write their own row. Signed-out visitors save in their browser only.
+People create an account with an email and password and can use it immediately — no confirmation email.
+Accounts live in the Supabase project `psy111-recall-cards`:
 
-Supabase dashboard settings this relies on:
-- Authentication → URL Configuration: Site URL and Redirect URLs set to the Vercel domain
-- Authentication → Email Templates → Magic Link: includes `{{ .Token }}` so the email shows a code
-- For more than a few sign-ups an hour, add custom SMTP (Authentication → SMTP Settings)
+- `recall_accounts` — email + bcrypt password hash
+- `recall_sessions` — sign-in tokens (stored hashed)
+- `recall_state` — each account's revealed cards, paraphrase drafts and card edits
+
+The tables have row-level security on with no policies, so the browser can't read them directly; the page
+only talks to them through the `recall_*` database functions, which check the session token first.
+Signed-out visitors save in their browser only.
+
+Passwords can't be reset by email (there's no email step). To reset one, delete the row in
+`recall_accounts` and the person can sign up again.
