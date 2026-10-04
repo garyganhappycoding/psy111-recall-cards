@@ -105,6 +105,9 @@ h1 em{color:var(--accent)}
 .sheet h3{font-family:var(--display);font-weight:400;font-size:34px;line-height:1.05;margin:4px 0 0;text-wrap:balance;overflow-wrap:anywhere}
 .label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .clues{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.cluehead{display:flex;align-items:center;gap:12px}
+.cluebtn{all:unset;cursor:pointer;font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px;border:1px dashed var(--c);color:var(--c);background:var(--paper)}
+.cluebtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .clues span{font-size:13px;padding:5px 10px;border-radius:6px;background:var(--cbg);color:var(--ink);border:1px dashed var(--c)}
 .answer{font-size:16px;line-height:1.5;padding:14px 16px;border-radius:10px;background:var(--cbg);border-left:3px solid var(--c)}
 .pts{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
@@ -189,7 +192,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="s-name">
     <div class="sheet-in">
       <div><div class="tag" id="s-tag"></div><h3 id="s-name"></h3><span class="step" id="s-step"></span></div>
-      <div><div class="label">Clues</div><div class="clues" id="s-clues"></div></div>
+      <div><div class="cluehead"><span class="label">Clues</span><button class="cluebtn" id="s-cluebtn" aria-expanded="false" aria-controls="s-clues">Show clues</button></div><div class="clues" id="s-clues" hidden></div></div>
       <div id="s-learn" class="field"><div class="label">Read and understand</div><div class="answer" id="s-learn-ans"></div><span class="hint">When you've got it, tap “Done, test me” to flip the card and answer from memory.</span></div>
       <div id="s-test" class="field">
         <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
@@ -367,13 +370,20 @@ function markDone(id){if(!done.has(id)){done.add(id);saveDone()}updateProgress()
 
 /* study sheet: learning mode = read first, then flip; test mode = answer straight away */
 function showFace(f,animate){
-  face=f;const learn=f==="learn";
+  face=f;const learn=f==="learn";setClues(false);
   $("#s-learn").hidden=!learn;$("#s-test").hidden=learn;
   $("#s-step").textContent=learn?"Step 1 · Read":(mode==="learn"?"Step 2 · Answer from memory":"Test");
   $("#s-reveal").textContent=learn?"Done, test me →":($("#s-answer").classList.contains("hidden")?"Reveal answer":"Hide answer");
   if(animate){const p=$("#sheet .sheet-in");p.classList.remove("flip");void p.offsetWidth;p.classList.add("flip")}
   if(!learn)$("#s-try").focus({preventScroll:true});
 }
+function setClues(open){
+  const c=byId(cur),n=c?c.clues.length:0,b=$("#s-cluebtn"),box=$("#s-clues");
+  if(!n){box.hidden=false;b.hidden=true;return}
+  b.hidden=false;box.hidden=!open;b.setAttribute("aria-expanded",open);
+  b.textContent=open?"Hide clues":`Show clues (${n})`;
+}
+$("#s-cluebtn").onclick=()=>setClues($("#s-clues").hidden);
 function paintRate(){document.querySelectorAll("#s-rate button").forEach(b=>b.setAttribute("aria-pressed",status[cur]===b.dataset.s))}
 function openCard(id){
   const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
@@ -524,6 +534,7 @@ document.addEventListener("keydown",e=>{
   if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
   if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();if(e.target.tagName==="TEXTAREA")return;
   if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}
+  if((e.key==="c"||e.key==="C")&&!$("#s-cluebtn").hidden)$("#s-cluebtn").click();
   if(!$("#s-rate").hidden&&["1","2","3"].includes(e.key))document.querySelectorAll("#s-rate button")[+e.key-1].click()});
 
 function view(v){const cards=v==="cards";$("#view-cards").hidden=!cards;$("#view-table").hidden=cards;$("#tab-cards").setAttribute("aria-selected",cards);$("#tab-table").setAttribute("aria-selected",!cards);render()}
