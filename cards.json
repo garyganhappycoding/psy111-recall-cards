@@ -1,5 +1,522 @@
 [
  {
+  "id": "m0-1",
+  "deck": "Intro to Psychology",
+  "sec": "Basics",
+  "name": "What is psychology?",
+  "clues": [
+   "APA definition",
+   "mind and behaviour",
+   "4 things it involves"
+  ],
+  "ans": "The scientific study of the mind and behaviour (APA)\nScientific inquiry: observation, experimentation, testing and analysis\nMultiple perspectives: biological, cognitive, emotional, personal and social influences\nA diverse field: cognitive, developmental, social, personality, clinical, counselling, health, educational, I/O and more\nBoth research and practice: address psychological difficulties, promote well-being and performance, improve human-centred technologies and systems",
+  "src": {
+   "f": "intro",
+   "p": [
+    3
+   ]
+  }
+ },
+ {
+  "id": "m0-2",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Wilhelm Wundt",
+  "clues": [
+   "father of psychology",
+   "Leipzig, 1879",
+   "basic elements"
+  ],
+  "ans": "Father of psychology\nSet up the world's first psychology lab at the University of Leipzig in 1879\nBelieved consciousness could be broken down into thoughts, experiences, emotions and other basic elements\nUsed objective introspection",
+  "src": {
+   "f": "intro",
+   "p": [
+    5
+   ]
+  }
+ },
+ {
+  "id": "m0-3",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Objective introspection",
+  "clues": [
+   "Wundt",
+   "examining your own mind",
+   "measuring"
+  ],
+  "ans": "Wundt's method\nObjectively examining and measuring one's own thoughts and mental activities",
+  "src": {
+   "f": "intro",
+   "p": [
+    5
+   ]
+  }
+ },
+ {
+  "id": "m0-4",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Structuralism",
+  "clues": [
+   "Edward Titchener",
+   "Wundt's student",
+   "structure of the mind",
+   "died out"
+  ],
+  "ans": "Edward Titchener — Wundt's student who brought Wundt's ideas to America\nFocused on the structure of the mind\nExperiences could be broken down into sensations, images and affections\nDied out in the early 1900s",
+  "src": {
+   "f": "intro",
+   "p": [
+    6
+   ]
+  }
+ },
+ {
+  "id": "m0-5",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Functionalism",
+  "clues": [
+   "William James",
+   "adapt, live, work, play",
+   "Principles of Psychology"
+  ],
+  "ans": "William James\nFocused on how the mind allows people to adapt, live, work and play\nWrote Principles of Psychology\nInfluenced modern educational and industrial/organisational psychology and other fields",
+  "src": {
+   "f": "intro",
+   "p": [
+    7
+   ]
+  }
+ },
+ {
+  "id": "m0-6",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Gestalt psychology",
+  "clues": [
+   "Max Wertheimer",
+   "whole vs sum",
+   "perception",
+   "cognitive psychology"
+  ],
+  "ans": "Max Wertheimer\n\"The whole is greater than the sum of its parts\"\nSensation and perception can't be understood by breaking them into smaller elements\nGestalt ideas are now part of cognitive psychology",
+  "src": {
+   "f": "intro",
+   "p": [
+    8
+   ]
+  }
+ },
+ {
+  "id": "m0-7",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Psychoanalysis",
+  "clues": [
+   "Sigmund Freud",
+   "nervous disorders",
+   "unconscious",
+   "early childhood"
+  ],
+  "ans": "Sigmund Freud\nHis patients had nervous disorders with no apparent physical cause\nProposed the unconscious mind\nBelieved repressed urges created nervous disorders\nStressed the importance of early childhood experiences\nModern psychotherapy is based on psychoanalysis",
+  "src": {
+   "f": "intro",
+   "p": [
+    9
+   ]
+  }
+ },
+ {
+  "id": "m0-8",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Behaviourism",
+  "clues": [
+   "John B. Watson",
+   "observable only",
+   "Pavlov",
+   "phobias learned"
+  ],
+  "ans": "Proposed by John B. Watson\nFocuses on observable behaviour only — must be directly seen and measured\nBased on Pavlov's work: a reflex can be conditioned (learned)\nWatson believed phobias are learned",
+  "src": {
+   "f": "intro",
+   "p": [
+    10,
+    11
+   ]
+  }
+ },
+ {
+  "id": "m0-9",
+  "deck": "Intro to Psychology",
+  "sec": "History",
+  "name": "Little Albert",
+  "clues": [
+   "Watson",
+   "baby",
+   "white rat",
+   "learned fear"
+  ],
+  "ans": "Watson's case study\nA baby was taught to fear a white rat\nUsed to show phobias can be learned\nWould be considered cruel by today's ethical standards",
+  "src": {
+   "f": "intro",
+   "p": [
+    10,
+    30
+   ]
+  }
+ },
+ {
+  "id": "m0-10",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Psychodynamic perspective",
+  "clues": [
+   "modern psychoanalysis",
+   "sense of self",
+   "Jung, Anna Freud, Erikson"
+  ],
+  "ans": "Modern version of psychoanalysis\nFocuses on development of a sense of self and the motivations behind behaviour, rather than sexual motivations\nMajor theorists: Carl Jung, Anna Freud, Erik Erikson",
+  "src": {
+   "f": "intro",
+   "p": [
+    14,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-11",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Behavioural perspective",
+  "clues": [
+   "B.F. Skinner",
+   "operant conditioning",
+   "reinforcement"
+  ],
+  "ans": "B.F. Skinner developed operant conditioning\nExplains how voluntary behaviour is learned\nIntroduced the concept of reinforcement\nBehaviourism became a major force in the 20th century",
+  "src": {
+   "f": "intro",
+   "p": [
+    15,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-12",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Humanistic perspective",
+  "clues": [
+   "\"third force\"",
+   "free will",
+   "Maslow & Rogers"
+  ],
+  "ans": "\"Third force\" in psychology — a reaction to both psychoanalysis and behaviourism\nPeople have free will: the freedom to choose their own destiny\nSelf-actualisation: achieving one's full potential or actual self\nEarly founders: Abraham Maslow and Carl Rogers",
+  "src": {
+   "f": "intro",
+   "p": [
+    16,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-13",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Cognitive perspective",
+  "clues": [
+   "memory, thinking, language",
+   "Piaget",
+   "cognitive neuroscience"
+  ],
+  "ans": "Focuses on memory, intelligence, perception, thought processes, problem solving, language and learning\nExample: Piaget's theory of cognitive development\nIncludes cognitive neuroscience: physical changes in the brain and nervous system during thinking\nHas roots in Gestalt psychology",
+  "src": {
+   "f": "intro",
+   "p": [
+    17,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-14",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Sociocultural perspective",
+  "clues": [
+   "social behaviour + culture",
+   "two areas",
+   "cross-cultural"
+  ],
+  "ans": "Focuses on the relationship between social behaviour and culture\nSocial psychology: groups, social roles, rules of social actions and relationships\nCultural psychology: cultural norms, values and expectations\nIncludes cross-cultural research",
+  "src": {
+   "f": "intro",
+   "p": [
+    18,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-15",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Biopsychological perspective",
+  "clues": [
+   "biological events in the body",
+   "genes, hormones, nervous system"
+  ],
+  "ans": "Explains human and animal behaviour through biological events in the body\nE.g., genetic influences, hormones, nervous system activity\nUses animal studies and patient studies",
+  "src": {
+   "f": "intro",
+   "p": [
+    19,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-16",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Evolutionary perspective",
+  "clues": [
+   "universal characteristics",
+   "adaptive",
+   "survival value"
+  ],
+  "ans": "Focuses on the biological bases of universal mental characteristics all humans share\nBehaviour is seen as having adaptive or survival value\nE.g., why we lie, mate selection, universal fears, why we enjoy music",
+  "src": {
+   "f": "intro",
+   "p": [
+    20,
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-17",
+  "deck": "Intro to Psychology",
+  "sec": "Perspectives",
+  "name": "Modern perspectives overview",
+  "clues": [
+   "seven perspectives",
+   "no single one"
+  ],
+  "ans": "Seven modern perspectives: psychodynamic, behavioural, humanistic, cognitive, sociocultural, biopsychological, evolutionary\nNo single perspective is used to explain all human behaviour and processes",
+  "src": {
+   "f": "intro",
+   "p": [
+    21
+   ]
+  }
+ },
+ {
+  "id": "m0-18",
+  "deck": "Intro to Psychology",
+  "sec": "Professionals",
+  "name": "Psychologist vs psychiatrist vs psychiatric social worker",
+  "clues": [
+   "doctorate",
+   "medical doctor",
+   "social work",
+   "who prescribes"
+  ],
+  "ans": "Psychologist: doctorate (Ph.D., Psy.D. or Ed.D.); works with humans or animals; must be licensed; typically doesn't prescribe\nPsychiatrist: medical doctor specialising in diagnosis and treatment of psychological disorders; can prescribe medication\nPsychiatric social worker: trained in social work (M.S.W.), often with a professional licence (L.C.S.W.)",
+  "src": {
+   "f": "intro",
+   "p": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "m0-19",
+  "deck": "Intro to Psychology",
+  "sec": "Professionals",
+  "name": "Areas of specialisation",
+  "clues": [
+   "types of psychology",
+   "examples"
+  ],
+  "ans": "Clinical psychology\nCognitive psychology\nDevelopmental psychology\nSocial psychology\nPersonality psychology\nBiopsychology",
+  "src": {
+   "f": "intro",
+   "p": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "m0-20",
+  "deck": "Intro to Psychology",
+  "sec": "Professionals",
+  "name": "Professional guidelines",
+  "clues": [
+   "different countries",
+   "professional bodies",
+   "Malaysia"
+  ],
+  "ans": "Refer to each country's own guidelines\nE.g., American Psychological Association, British Psychological Society, Australian Psychological Society, NZ Psychological Society\nMalaysia: Lembaga Kaunselor, Malaysian Society of Clinical Psychology",
+  "src": {
+   "f": "intro",
+   "p": [
+    25
+   ]
+  }
+ },
+ {
+  "id": "m0-21",
+  "deck": "Intro to Psychology",
+  "sec": "Scientific approach",
+  "name": "Scientific approach",
+  "clues": [
+   "gathering data",
+   "reduce bias and error"
+  ],
+  "ans": "A system of gathering data so that bias and error in measurement are reduced",
+  "src": {
+   "f": "intro",
+   "p": [
+    27
+   ]
+  }
+ },
+ {
+  "id": "m0-22",
+  "deck": "Intro to Psychology",
+  "sec": "Scientific approach",
+  "name": "Critical thinking",
+  "clues": [
+   "reasoned judgments",
+   "claims"
+  ],
+  "ans": "Making reasoned judgments about claims",
+  "src": {
+   "f": "intro",
+   "p": [
+    27
+   ]
+  }
+ },
+ {
+  "id": "m0-23",
+  "deck": "Intro to Psychology",
+  "sec": "Scientific approach",
+  "name": "Four goals of psychology",
+  "clues": [
+   "what, why, when, how",
+   "4 goals"
+  ],
+  "ans": "Description: what is happening?\nExplanation: why is it happening?\nPrediction: when will it happen again?\nControl: how can it be changed?",
+  "src": {
+   "f": "intro",
+   "p": [
+    27
+   ]
+  }
+ },
+ {
+  "id": "m0-24",
+  "deck": "Intro to Psychology",
+  "sec": "Scientific approach",
+  "name": "Steps in the scientific approach",
+  "clues": [
+   "5 steps",
+   "starts with a question",
+   "ends with results"
+  ],
+  "ans": "1. Perceive the question\n2. Form a hypothesis\n3. Test the hypothesis\n4. Draw conclusions\n5. Report your results",
+  "src": {
+   "f": "intro",
+   "p": [
+    28
+   ]
+  }
+ },
+ {
+  "id": "m0-25",
+  "deck": "Intro to Psychology",
+  "sec": "Ethics",
+  "name": "Why research ethics?",
+  "clues": [
+   "more research on people & animals",
+   "Little Albert",
+   "protections"
+  ],
+  "ans": "As psychology and research on people and animals grew, protections were needed\nStudies like Little Albert would be cruel by today's standards\nEthical treatment of research participants must be ensured",
+  "src": {
+   "f": "intro",
+   "p": [
+    30,
+    31
+   ]
+  }
+ },
+ {
+  "id": "m0-26",
+  "deck": "Intro to Psychology",
+  "sec": "Ethics",
+  "name": "Institutional review boards (IRBs)",
+  "clues": [
+   "group of professionals",
+   "judge each study",
+   "HELP"
+  ],
+  "ans": "Groups of psychologists or other professionals\nReview each proposed study and judge its safety and consideration for participants\nE.g., HELP Ethics Review Board",
+  "src": {
+   "f": "intro",
+   "p": [
+    31
+   ]
+  }
+ },
+ {
+  "id": "m0-27",
+  "deck": "Intro to Psychology",
+  "sec": "Ethics",
+  "name": "Common ethical guidelines",
+  "clues": [
+   "8 guidelines",
+   "consent",
+   "withdraw",
+   "debrief",
+   "confidential"
+  ],
+  "ans": "Weigh participants' rights and well-being against the study's value\nInformed consent: participants make an informed decision\nDeception must be justified\nParticipants may withdraw at any time\nProtect participants from risks, or tell them explicitly\nInvestigators must debrief participants\nData must remain confidential\nResearchers must detect and correct any undesirable consequences",
+  "src": {
+   "f": "intro",
+   "p": [
+    32,
+    33
+   ]
+  }
+ },
+ {
+  "id": "m0-28",
+  "deck": "Intro to Psychology",
+  "sec": "Ethics",
+  "name": "Animal research",
+  "clues": [
+   "questions we can't ask humans",
+   "avoid unnecessary pain",
+   "~7%"
+  ],
+  "ans": "Answers questions we could never investigate with humans\nAvoid exposing animals to unnecessary pain or suffering\nOnly about 7% of psychological studies use animals",
+  "src": {
+   "f": "intro",
+   "p": [
+    34
+   ]
+  }
+ },
+ {
   "id": "c1",
   "deck": "Personality 1",
   "sec": "Foundation",

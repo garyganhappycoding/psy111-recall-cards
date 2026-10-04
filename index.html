@@ -270,7 +270,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
 <script>
 const SLOTS=["--psy","--beh","--hum","--trt","--gen"];
-const DECK_ORDER=["Personality 1","Personality 2","Motivation","Emotion","Intelligence"];
+const DECK_ORDER=["Intro to Psychology","Personality 1","Personality 2","Motivation","Emotion","Intelligence"];
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let C=[];                       // the deck: [{id,deck,sec,name,clues[],ans}]
 let done=new Set(store.get("pr-done2",[]));
@@ -296,6 +296,7 @@ function sections(d){return [...new Set(C.filter(c=>c.deck===d).map(c=>c.sec))]}
 function colorFor(d,sec){const i=Math.max(0,sections(d).indexOf(sec));const v=SLOTS[i%SLOTS.length];return `--c:var(${v});--cbg:var(${v}-bg)`}
 const colorVars=c=>colorFor(c.deck,c.sec);
 const inDeck=()=>C.filter(c=>c.deck===deck);
+function withNewTopics(list){const have=new Set(list.map(c=>c.deck));return [...defaults.filter(d=>!have.has(d.deck)),...list]}
 
 function renderTopics(){
   const nav=$("#topics");nav.innerHTML="";
@@ -401,7 +402,7 @@ function setClues(open){
 }
 $("#s-cluebtn").onclick=()=>setClues($("#s-clues").hidden);
 /* source slides: encrypted files in /slides, key only given to signed-in users */
-const DECKNAME={"personality-1":"Personality (Part 1)","personality-2":"Personality (Part 2)","motivation":"Motivation & Emotion","intelligence":"Intelligence"};
+const DECKNAME={"intro":"Introduction to Psychology (Module 0)","personality-1":"Personality (Part 1)","personality-2":"Personality (Part 2)","motivation":"Motivation & Emotion","intelligence":"Intelligence"};
 function cardSrc(c){return c&&(c.src||((defaults.find(d=>d.id===c.id)||{}).src))}
 function srcLabel(s){return `From ${DECKNAME[s.f]||s.f} · slide${s.p.length>1?"s":""} ${s.p.join(", ")}`}
 let slideKey=null;const slideCache=new Map();
@@ -531,7 +532,7 @@ async function loadAccount(){
   user={email:data.email};
   const localDeck=store.get("pr-local-deck2",null);
   done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};status={...status,...(data.status||{})};
-  if(data.cards){C=data.cards;customCards=true}else if(localDeck){C=localDeck;customCards=true}
+  if(data.cards){C=withNewTopics(data.cards);customCards=true}else if(localDeck){C=withNewTopics(localDeck);customCards=true}
   store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);store.set("pr-status2",status);
   renderAcct();render();await syncNow();return true;
 }
@@ -602,7 +603,7 @@ $("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("tabl
 
 (async function boot(){
   try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;defaults=await r.json()}catch(e){defaults=[];setStatus("Couldn't load the card deck.")}
-  C=store.get("pr-local-deck2",null)||defaults;
+  {const ld=store.get("pr-local-deck2",null);C=ld?withNewTopics(ld):defaults;}
   if(location.hash==="#table")view("table");else render();
   if(window.supabase){
     sb=window.supabase.createClient(SB_URL,SB_KEY,{auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false}});
