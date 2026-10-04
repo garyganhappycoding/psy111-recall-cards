@@ -18,6 +18,7 @@
   --psy:#8a3b5c; --beh:#2f6f63; --hum:#a2621a; --trt:#4b4f9c; --gen:#5d6878;
   --psy-bg:#f6e9ef; --beh-bg:#e5f1ee; --hum-bg:#f8eedf; --trt-bg:#e9eaf7; --gen-bg:#eceff3;
   --shadow:0 18px 50px rgba(20,30,45,.18);
+  --ok:#2c7a4b; --ok-bg:#e3f2e8; --warn:#9a6a0b; --warn-bg:#fbf0d6; --bad:#b23a3a; --bad-bg:#f8e2e2;
   --display:"Instrument Serif", Georgia, "Times New Roman", serif;
   --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -26,12 +27,12 @@
   --bg:#12171e; --paper:#1b222c; --ink:#e6ebf1; --muted:#9aa5b4; --line:#2c3643; --accent:#7fb0e0; --danger:#ec8080;
   --psy:#e08aae; --beh:#7fcbb9; --hum:#e7b06a; --trt:#a7abf0; --gen:#9aa5b4;
   --psy-bg:#2c1d25; --beh-bg:#18282a; --hum-bg:#2b2318; --trt-bg:#1f2136; --gen-bg:#222a35;
-  --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark;}}
+  --shadow:0 18px 50px rgba(0,0,0,.5); --ok:#7fd3a0; --ok-bg:#1a2e23; --warn:#e7c06a; --warn-bg:#2e2716; --bad:#ec8080; --bad-bg:#2e1b1d; color-scheme:dark;}}
 :root[data-theme="dark"]{
   --bg:#12171e; --paper:#1b222c; --ink:#e6ebf1; --muted:#9aa5b4; --line:#2c3643; --accent:#7fb0e0; --danger:#ec8080;
   --psy:#e08aae; --beh:#7fcbb9; --hum:#e7b06a; --trt:#a7abf0; --gen:#9aa5b4;
   --psy-bg:#2c1d25; --beh-bg:#18282a; --hum-bg:#2b2318; --trt-bg:#1f2136; --gen-bg:#222a35;
-  --shadow:0 18px 50px rgba(0,0,0,.5); color-scheme:dark;}
+  --shadow:0 18px 50px rgba(0,0,0,.5); --ok:#7fd3a0; --ok-bg:#1a2e23; --warn:#e7c06a; --warn-bg:#2e2716; --bad:#ec8080; --bad-bg:#2e1b1d; color-scheme:dark;}
 
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
@@ -82,6 +83,18 @@ h1 em{color:var(--accent)}
 .tile.done{background:var(--cbg)}
 .tile.done::after{content:"✓ revealed";position:absolute;right:12px;bottom:12px;font-family:var(--mono);font-size:10px;color:var(--c)}
 .tile.add{border-style:dashed;color:var(--muted);justify-content:center;align-items:center;font-weight:500}
+.st{position:absolute;top:10px;right:10px;font-size:10px;font-weight:600;padding:2px 8px;border-radius:999px;font-family:var(--body)}
+.st-got{background:var(--ok-bg);color:var(--ok)}.st-unsure{background:var(--warn-bg);color:var(--warn)}.st-forgot{background:var(--bad-bg);color:var(--bad)}
+.modebar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:14px}
+.seg{display:inline-flex;padding:3px;border-radius:999px;background:var(--paper);border:1px solid var(--line)}
+.seg button{all:unset;cursor:pointer;font-size:13px;font-weight:500;padding:6px 14px;border-radius:999px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--paper)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.modehint{font-size:13px;color:var(--muted);max-width:60ch}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.75;margin-left:4px}
+.chip.s-got[aria-pressed="false"]{color:var(--ok)}.chip.s-unsure[aria-pressed="false"]{color:var(--warn)}.chip.s-forgot[aria-pressed="false"]{color:var(--bad)}
+.toolbar.sub2{margin-top:-8px}
+.toolbar .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .empty{color:var(--muted);padding:24px;border:1px dashed var(--line);border-radius:10px;text-align:center}
 
 /* sheets */
@@ -105,6 +118,18 @@ textarea{resize:vertical}
 .field{display:flex;flex-direction:column;gap:6px}
 .hint{font-size:12px;color:var(--muted)}
 .err{font-size:13px;color:var(--danger)}
+.flip{animation:flip .38s ease}
+@keyframes flip{from{transform:perspective(900px) rotateY(85deg);opacity:.2}to{transform:none;opacity:1}}
+.step{display:inline-block;margin-top:8px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 10px;border-radius:999px;background:var(--cbg);color:var(--c)}
+.rate{display:flex;flex-direction:column;gap:8px}
+.rate-btns{display:flex;flex-wrap:wrap;gap:8px}
+.rate-btns button{all:unset;cursor:pointer;flex:1;min-width:110px;text-align:center;font-size:14px;font-weight:600;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper)}
+.rate-btns [data-s=got]{color:var(--ok)}.rate-btns [data-s=unsure]{color:var(--warn)}.rate-btns [data-s=forgot]{color:var(--bad)}
+.rate-btns [data-s=got][aria-pressed="true"]{background:var(--ok-bg);border-color:var(--ok)}
+.rate-btns [data-s=unsure][aria-pressed="true"]{background:var(--warn-bg);border-color:var(--warn)}
+.rate-btns [data-s=forgot][aria-pressed="true"]{background:var(--bad-bg);border-color:var(--bad)}
+.rate-btns button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
 
@@ -124,7 +149,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 .acct{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:8px;margin-top:10px;font-size:12px;color:var(--muted);font-family:var(--body)}
 .acct .who{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .note{color:var(--muted);font-size:13px;margin:0 0 12px}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
 <div class="wrap">
@@ -132,7 +157,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div>
       <div class="eyebrow" id="eyebrow">PSY 111</div>
       <h1>PSY 111 <em>recall</em> cards</h1>
-      <p class="sub">Pick a topic, tap a concept, read the clues and explain it in your own words, then reveal the full sentence to check yourself. Edit any card, or add your own.</p>
+      <p class="sub">Pick a topic and a mode. Learn a card first or test yourself straight away, then mark each card as Understand, Not sure or Totally forgot so you can revise the weak ones.</p>
     </div>
     <div class="progress"><span id="pct">Loading cards…</span><div class="bar"><i id="barfill"></i></div><div class="status" id="status"></div><div class="acct" id="acct"></div></div>
   </header>
@@ -145,13 +170,16 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   </div>
 
   <section id="view-cards">
+    <div class="modebar"><div class="seg" role="group" aria-label="Study mode" id="modeseg"><button data-m="learn">Learning mode</button><button data-m="test">Test mode</button></div><span class="modehint" id="modehint"></span></div>
     <div class="toolbar" id="filters"></div>
+    <div class="toolbar sub2" id="sfilters"></div>
     <div id="groups"></div>
   </section>
 
   <section id="view-table" hidden>
     <p class="note">Write each concept in your own words first, then tap "Show original" to compare. Your paraphrases stay in this browser only.</p>
     <div class="toolbar" id="filters2"></div>
+    <div class="toolbar sub2" id="sfilters2"></div>
     <div class="tablewrap"><table><thead><tr><th>Concept</th><th>Clues</th><th>Your paraphrase</th><th>Original</th></tr></thead><tbody id="tbody"></tbody></table></div>
   </section>
 </div>
@@ -160,10 +188,15 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 <div class="scrim" id="scrim" hidden>
   <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="s-name">
     <div class="sheet-in">
-      <div><div class="tag" id="s-tag"></div><h3 id="s-name"></h3></div>
+      <div><div class="tag" id="s-tag"></div><h3 id="s-name"></h3><span class="step" id="s-step"></span></div>
       <div><div class="label">Clues</div><div class="clues" id="s-clues"></div></div>
-      <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
-      <div class="answer hidden" id="s-answer" aria-live="polite"></div>
+      <div id="s-learn" class="field"><div class="label">Read and understand</div><div class="answer" id="s-learn-ans"></div><span class="hint">When you've got it, tap “Done, test me” to flip the card and answer from memory.</span></div>
+      <div id="s-test" class="field">
+        <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
+        <div class="answer hidden" id="s-answer" aria-live="polite"></div>
+        <div class="rate" id="s-rate" hidden><div class="label">How well did you know it?</div>
+          <div class="rate-btns"><button data-s="got">✓ Understand</button><button data-s="unsure">? Not sure</button><button data-s="forgot">✗ Totally forgot</button></div></div>
+      </div>
       <div class="sheet-foot">
         <button class="btn primary" id="s-reveal">Reveal answer</button>
         <button class="btn" id="s-prev">← Prev</button>
@@ -225,6 +258,9 @@ const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v)
 let C=[];                       // the deck: [{id,deck,sec,name,clues[],ans}]
 let done=new Set(store.get("pr-done2",[]));
 let drafts=store.get("pr-drafts2",{});
+let status=store.get("pr-status2",{});   // {cardId: "got"|"unsure"|"forgot"}
+let mode=store.get("pr-mode","learn"), sfilter="all", face="test";
+const ST={got:"Understand",unsure:"Not sure",forgot:"Totally forgot"};
 let deck=store.get("pr-deck",DECK_ORDER[0]), filter="all", shuffled=null, cur=null, editing=null;
 
 
@@ -233,6 +269,7 @@ const SB_URL="https://xzdfidosiliclmdvugci.supabase.co", SB_KEY="sb_publishable_
 let sb=null, user=null, customCards=false, syncTimer=null, defaults=[];
 function saveDone(){store.set("pr-done2",[...done]);queueSync()}
 function saveDrafts(){store.set("pr-drafts2",drafts);queueSync()}
+function saveStatus(){store.set("pr-status2",status);queueSync()}
 const esc=s=>String(s).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
 const byId=id=>C.find(c=>c.id===id);
 function points(el,text){const ul=document.createElement("ul");ul.className="pts";String(text).split("\n").map(s=>s.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean).forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});el.replaceChildren(ul)}
@@ -270,7 +307,22 @@ function chips(el){
   }
 }
 function ordered(list){if(!shuffled)return list;const pos=new Map(shuffled.map((id,i)=>[id,i]));return [...list].sort((a,b)=>(pos.get(a.id)??1e9)-(pos.get(b.id)??1e9))}
-const visible=()=>ordered(inDeck()).filter(c=>filter==="all"||c.sec===filter);
+const stOf=c=>status[c.id]||"none";
+const visible=()=>ordered(inDeck()).filter(c=>(filter==="all"||c.sec===filter)&&(sfilter==="all"||stOf(c)===sfilter));
+function statusChips(el){
+  el.innerHTML="";const l=document.createElement("span");l.className="lbl";l.textContent="Revise by status";el.appendChild(l);
+  const base=inDeck().filter(c=>filter==="all"||c.sec===filter);
+  [["all","All"],["forgot","✗ Totally forgot"],["unsure","? Not sure"],["got","✓ Understand"],["none","Not rated"]].forEach(([k,lab])=>{
+    const n=k==="all"?base.length:base.filter(c=>stOf(c)===k).length;
+    const b=document.createElement("button");b.className="chip s-"+k;b.setAttribute("aria-pressed",sfilter===k);
+    b.innerHTML=`${esc(lab)}<span class="n">${n}</span>`;b.onclick=()=>{sfilter=k;render()};el.appendChild(b);
+  });
+}
+function renderMode(){
+  document.querySelectorAll("#modeseg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===mode));
+  $("#modehint").textContent=mode==="learn"?"Tap a card to read it first, then tap Done to flip it and answer from memory.":"Tap a card and answer straight away from the clues.";
+}
+document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
 
 function updateProgress(){
   const items=inDeck();const n=items.filter(c=>done.has(c.id)).length;
@@ -280,9 +332,9 @@ function updateProgress(){
 function render(){
   if(!decks().includes(deck))deck=decks()[0]||DECK_ORDER[0];
   if(filter!=="all"&&!sections(deck).includes(filter))filter="all";
-  renderTopics();chips($("#filters"));chips($("#filters2"));
+  renderTopics();chips($("#filters"));chips($("#filters2"));statusChips($("#sfilters"));statusChips($("#sfilters2"));renderMode();
   const g=$("#groups");g.innerHTML="";
-  if(!visible().length){g.innerHTML='<div class="empty">No cards here yet. Tap "+ New card" to add one.</div>'}
+  if(!visible().length){g.innerHTML=sfilter!=="all"?'<div class="empty">No cards with this status here. Pick another status filter, or tap All.</div>':'<div class="empty">No cards here yet. Tap "+ New card" to add one.</div>'}
   sections(deck).forEach(sec=>{
     const items=visible().filter(c=>c.sec===sec); if(!items.length)return;
     const sec_=document.createElement("div");sec_.className="group";
@@ -291,7 +343,7 @@ function render(){
     const grid=document.createElement("div");grid.className="grid";
     items.forEach(c=>{
       const t=document.createElement("button");t.className="tile"+(done.has(c.id)?" done":"");t.style.cssText=colorVars(c);
-      t.innerHTML=`<span class="tab"></span><span class="tag">${esc(sec)}</span><span class="name">${esc(c.name)}</span>`;
+      t.innerHTML=`<span class="tab"></span>${status[c.id]?`<span class="st st-${status[c.id]}">${ST[status[c.id]]}</span>`:""}<span class="tag">${esc(sec)}</span><span class="name">${esc(c.name)}</span>`;
       t.onclick=()=>openCard(c.id);grid.appendChild(t);
     });
     const add=document.createElement("button");add.className="tile add";add.style.cssText=colorFor(deck,sec);add.textContent="+ Add card here";add.onclick=()=>openEditor(null,{deck,sec});grid.appendChild(add);
@@ -300,8 +352,9 @@ function render(){
   const tb=$("#tbody");tb.innerHTML="";
   visible().forEach(c=>{
     const tr=document.createElement("tr");tr.style.cssText=colorVars(c);
-    tr.innerHTML=`<td class="concept"><span class="tag">${esc(c.sec)}</span>${esc(c.name)}<br><button class="link">Edit</button></td><td class="cl">${esc(c.clues.join(" · "))}</td><td class="yours"><textarea id="t-${esc(c.id)}" aria-label="Your paraphrase of ${esc(c.name)}"></textarea></td><td class="orig"><button class="btn">Show original</button><div hidden></div></td>`;
+    tr.innerHTML=`<td class="concept"><span class="tag">${esc(c.sec)}</span>${esc(c.name)}<br><button class="link">Edit</button><select aria-label="Status for ${esc(c.name)}"><option value="">Not rated</option><option value="got">✓ Understand</option><option value="unsure">? Not sure</option><option value="forgot">✗ Totally forgot</option></select></td><td class="cl">${esc(c.clues.join(" · "))}</td><td class="yours"><textarea id="t-${esc(c.id)}" aria-label="Your paraphrase of ${esc(c.name)}"></textarea></td><td class="orig"><button class="btn">Show original</button><div hidden></div></td>`;
     tr.querySelector(".link").onclick=()=>openEditor(c.id);
+    const sel=tr.querySelector("select");sel.value=status[c.id]||"";sel.onchange=()=>{if(sel.value)status[c.id]=sel.value;else delete status[c.id];saveStatus();statusChips($("#sfilters2"))};
     const ta=tr.querySelector("textarea");ta.value=drafts[c.id]||"";
     ta.oninput=()=>{drafts[c.id]=ta.value;saveDrafts()};
     const b=tr.querySelector(".orig .btn"),d=tr.querySelector(".orig div");points(d,c.ans);
@@ -312,21 +365,40 @@ function render(){
 }
 function markDone(id){if(!done.has(id)){done.add(id);saveDone()}updateProgress()}
 
-/* study sheet */
+/* study sheet: learning mode = read first, then flip; test mode = answer straight away */
+function showFace(f,animate){
+  face=f;const learn=f==="learn";
+  $("#s-learn").hidden=!learn;$("#s-test").hidden=learn;
+  $("#s-step").textContent=learn?"Step 1 · Read":(mode==="learn"?"Step 2 · Answer from memory":"Test");
+  $("#s-reveal").textContent=learn?"Done, test me →":($("#s-answer").classList.contains("hidden")?"Reveal answer":"Hide answer");
+  if(animate){const p=$("#sheet .sheet-in");p.classList.remove("flip");void p.offsetWidth;p.classList.add("flip")}
+  if(!learn)$("#s-try").focus({preventScroll:true});
+}
+function paintRate(){document.querySelectorAll("#s-rate button").forEach(b=>b.setAttribute("aria-pressed",status[cur]===b.dataset.s))}
 function openCard(id){
   const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
   $("#sheet").style.cssText=colorVars(c);
   $("#s-tag").textContent=`${c.deck} · ${c.sec}`;$("#s-name").textContent=c.name;
   $("#s-clues").innerHTML=c.clues.length?c.clues.map(x=>`<span>${esc(x)}</span>`).join(""):'<span>No clues yet — tap Edit to add some</span>';
+  points($("#s-learn-ans"),c.ans);
   const a=$("#s-answer");points(a,c.ans);a.classList.add("hidden");a.setAttribute("aria-hidden","true");
-  $("#s-reveal").textContent="Reveal answer";
-  const t=$("#s-try");t.value=drafts[c.id]||"";
-  $("#s-count").textContent=`${idx+1} / ${list.length}`;
-  $("#scrim").hidden=false;t.focus({preventScroll:true});
+  $("#s-rate").hidden=!status[id];paintRate();
+  $("#s-try").value=drafts[c.id]||"";
+  $("#s-count").textContent=idx>=0?`${idx+1} / ${list.length}`:"";
+  $("#scrim").hidden=false;showFace(mode==="learn"?"learn":"test",false);
+  if(mode==="learn")$("#s-reveal").focus({preventScroll:true});
 }
 function step(d){const list=visible();if(!list.length)return;let i=list.findIndex(x=>x.id===cur);i=(i+d+list.length)%list.length;openCard(list[i].id)}
 function closeCard(){$("#scrim").hidden=true;render()}
-$("#s-reveal").onclick=()=>{const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";if(!h)markDone(cur)};
+$("#s-reveal").onclick=()=>{
+  if(face==="learn"){markDone(cur);showFace("test",true);return}
+  const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";
+  if(!h){markDone(cur);$("#s-rate").hidden=false;paintRate()}
+};
+document.querySelectorAll("#s-rate button").forEach(b=>b.onclick=()=>{
+  if(status[cur]===b.dataset.s)delete status[cur];else status[cur]=b.dataset.s;
+  saveStatus();paintRate();
+});
 $("#s-try").oninput=e=>{drafts[cur]=e.target.value;saveDrafts()};
 $("#s-prev").onclick=()=>step(-1);$("#s-next").onclick=()=>step(1);$("#s-close").onclick=closeCard;
 $("#s-edit").onclick=()=>{$("#scrim").hidden=true;openEditor(cur)};
@@ -364,7 +436,7 @@ $("#esheet").addEventListener("submit",async e=>{
 $("#e-del").onclick=async()=>{
   const del=$("#e-del");
   if(!del.dataset.armed){del.dataset.armed="1";del.classList.add("armed");del.textContent="Tap again to delete";setTimeout(()=>{if(del.dataset.armed){delete del.dataset.armed;del.classList.remove("armed");del.textContent="Delete card"}},3000);return}
-  const id=editing;delete drafts[id];saveDrafts();done.delete(id);saveDone();
+  const id=editing;delete drafts[id];saveDrafts();done.delete(id);saveDone();delete status[id];saveStatus();
   await commit(C.filter(c=>c.id!==id),"Card deleted");
 };
 function showErr(t){const e=$("#e-err");e.textContent=t;e.hidden=false}
@@ -381,7 +453,7 @@ let token=store.get("pr-token",null), acctEmail="", authMode="in";
 function queueSync(){if(!user)return;clearTimeout(syncTimer);syncTimer=setTimeout(syncNow,1500)}
 async function syncNow(){
   if(!user||!sb)return;clearTimeout(syncTimer);
-  const {error}=await sb.rpc("recall_save_state",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null});
+  const {error}=await sb.rpc("recall_save_state_v2",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null,p_status:status});
   if(error&&/not_signed_in/.test(error.message)){signedOut("Your session ended. Sign in again to keep saving.");return}
   setStatus(error?"Couldn't save to your account. Your work is still on this device.":"Saved to your account");
 }
@@ -390,14 +462,14 @@ async function loadAccount(){
   if(error){if(/not_signed_in/.test(error.message)){signedOut("");}else{setStatus("Couldn't load your saved progress. Try refreshing.")}return false}
   user={email:data.email};
   const localDeck=store.get("pr-local-deck2",null);
-  done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};
+  done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};status={...status,...(data.status||{})};
   if(data.cards){C=data.cards;customCards=true}else if(localDeck){C=localDeck;customCards=true}
-  store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);
+  store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);store.set("pr-status2",status);
   renderAcct();render();await syncNow();return true;
 }
 function signedOut(msg){
-  user=null;token=null;customCards=false;done=new Set();drafts={};C=defaults;
-  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
+  user=null;token=null;customCards=false;done=new Set();drafts={};status={};C=defaults;
+  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2","pr-status2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
   render();renderAcct();setStatus(msg||"Signed out");
 }
 function renderAcct(){
@@ -451,7 +523,8 @@ $("#asheet").addEventListener("submit",async e=>{
 document.addEventListener("keydown",e=>{
   if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
   if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();if(e.target.tagName==="TEXTAREA")return;
-  if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}});
+  if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}
+  if(!$("#s-rate").hidden&&["1","2","3"].includes(e.key))document.querySelectorAll("#s-rate button")[+e.key-1].click()});
 
 function view(v){const cards=v==="cards";$("#view-cards").hidden=!cards;$("#view-table").hidden=cards;$("#tab-cards").setAttribute("aria-selected",cards);$("#tab-table").setAttribute("aria-selected",!cards);render()}
 $("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");
