@@ -12,6 +12,13 @@ After revealing, mark each card Understand / Not sure / Totally forgot and filte
 
 To change the default cards for everyone, edit `cards.json` and push — Vercel redeploys automatically.
 
+## Source slides
+
+When an answer is revealed, the lecture slide(s) it came from are shown underneath. Each card in `cards.json`
+has `src: {f: <deck file>, p: [slide numbers]}`. The slide images in `slides/` are AES-GCM encrypted; the key
+is held in Supabase (`recall_secrets`) and only returned by `recall_slide_key` to a signed-in session, so the
+pictures only show for signed-in users. Signed-out visitors see the source label only.
+
 ## Accounts
 
 People create an account with an email and password and can use it immediately — no confirmation email.

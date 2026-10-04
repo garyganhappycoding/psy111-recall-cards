@@ -133,6 +133,16 @@ textarea{resize:vertical}
 .rate-btns [data-s=forgot][aria-pressed="true"]{background:var(--bad-bg);border-color:var(--bad)}
 .rate-btns button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
+.src{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--bg)}
+.src-label{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.src-imgs{display:flex;flex-direction:column;gap:8px}
+.src-imgs button{all:unset;cursor:zoom-in;display:block;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--paper);min-height:60px}
+.src-imgs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.src-imgs img{display:block;width:100%;height:auto}
+.src-msg{font-size:13px;color:var(--muted);padding:10px}
+.src-small{display:block;margin-top:6px;font-family:var(--mono);font-size:10px;letter-spacing:.04em;color:var(--muted)}
+#lbox{z-index:30;cursor:zoom-out}
+#lbox img{max-width:min(1400px,100%);max-height:100%;border-radius:8px;background:#fff;box-shadow:var(--shadow)}
 .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
 
@@ -193,12 +203,13 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div class="sheet-in">
       <div><div class="tag" id="s-tag"></div><h3 id="s-name"></h3><span class="step" id="s-step"></span></div>
       <div><div class="cluehead"><span class="label">Clues</span><button class="cluebtn" id="s-cluebtn" aria-expanded="false" aria-controls="s-clues">Show clues</button></div><div class="clues" id="s-clues" hidden></div></div>
-      <div id="s-learn" class="field"><div class="label">Read and understand</div><div class="answer" id="s-learn-ans"></div><span class="hint">When you've got it, tap “Done, test me” to flip the card and answer from memory.</span></div>
+      <div id="s-learn" class="field"><div class="label">Read and understand</div><div class="answer" id="s-learn-ans"></div><div class="src" id="s-src1" hidden></div><span class="hint">When you've got it, tap “Done, test me” to flip the card and answer from memory.</span></div>
       <div id="s-test" class="field">
         <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
         <div class="answer hidden" id="s-answer" aria-live="polite"></div>
         <div class="rate" id="s-rate" hidden><div class="label">How well did you know it?</div>
           <div class="rate-btns"><button data-s="got">✓ Understand</button><button data-s="unsure">? Not sure</button><button data-s="forgot">✗ Totally forgot</button></div></div>
+        <div class="src" id="s-src2" hidden></div>
       </div>
       <div class="sheet-foot">
         <button class="btn primary" id="s-reveal">Reveal answer</button>
@@ -212,6 +223,9 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     </div>
   </div>
 </div>
+
+<!-- full-size slide -->
+<div class="scrim" id="lbox" hidden><img id="lbox-img" alt=""></div>
 
 <!-- sign-in sheet -->
 <div class="scrim" id="ascrim" hidden>
@@ -361,6 +375,7 @@ function render(){
     const ta=tr.querySelector("textarea");ta.value=drafts[c.id]||"";
     ta.oninput=()=>{drafts[c.id]=ta.value;saveDrafts()};
     const b=tr.querySelector(".orig .btn"),d=tr.querySelector(".orig div");points(d,c.ans);
+    const cs=cardSrc(c);if(cs){const sl=document.createElement("span");sl.className="src-small";sl.textContent=srcLabel(cs);d.appendChild(sl)}
     b.onclick=()=>{d.hidden=!d.hidden;b.textContent=d.hidden?"Show original":"Hide";if(!d.hidden)markDone(c.id)};
     tb.appendChild(tr);
   });
@@ -371,6 +386,7 @@ function markDone(id){if(!done.has(id)){done.add(id);saveDone()}updateProgress()
 /* study sheet: learning mode = read first, then flip; test mode = answer straight away */
 function showFace(f,animate){
   face=f;const learn=f==="learn";setClues(false);
+  if(learn)renderSrc($("#s-src1"),byId(cur));else $("#s-src1").hidden=true;$("#s-src2").hidden=true;
   $("#s-learn").hidden=!learn;$("#s-test").hidden=learn;
   $("#s-step").textContent=learn?"Step 1 · Read":(mode==="learn"?"Step 2 · Answer from memory":"Test");
   $("#s-reveal").textContent=learn?"Done, test me →":($("#s-answer").classList.contains("hidden")?"Reveal answer":"Hide answer");
@@ -384,6 +400,47 @@ function setClues(open){
   b.textContent=open?"Hide clues":`Show clues (${n})`;
 }
 $("#s-cluebtn").onclick=()=>setClues($("#s-clues").hidden);
+/* source slides: encrypted files in /slides, key only given to signed-in users */
+const DECKNAME={"personality-1":"Personality (Part 1)","personality-2":"Personality (Part 2)","motivation":"Motivation & Emotion","intelligence":"Intelligence"};
+function cardSrc(c){return c&&(c.src||((defaults.find(d=>d.id===c.id)||{}).src))}
+function srcLabel(s){return `From ${DECKNAME[s.f]||s.f} · slide${s.p.length>1?"s":""} ${s.p.join(", ")}`}
+let slideKey=null;const slideCache=new Map();
+async function getSlideKey(){
+  if(slideKey)return slideKey;
+  const {data,error}=await sb.rpc("recall_slide_key",{p_token:token});
+  if(error)throw error;
+  const raw=new Uint8Array(data.match(/../g).map(h=>parseInt(h,16)));
+  slideKey=await crypto.subtle.importKey("raw",raw,"AES-GCM",false,["decrypt"]);return slideKey;
+}
+function slideURL(f,p){
+  const k=`${f}/${String(p).padStart(2,"0")}`;
+  if(slideCache.has(k))return slideCache.get(k);
+  const pr=(async()=>{
+    const r=await fetch(`slides/${k}.bin`);if(!r.ok)throw new Error("missing");
+    const buf=new Uint8Array(await r.arrayBuffer());
+    const plain=await crypto.subtle.decrypt({name:"AES-GCM",iv:buf.slice(0,12)},await getSlideKey(),buf.slice(12));
+    return URL.createObjectURL(new Blob([plain],{type:"image/jpeg"}));
+  })();
+  slideCache.set(k,pr);pr.catch(()=>slideCache.delete(k));return pr;
+}
+function renderSrc(el,c){
+  const s=cardSrc(c);el.innerHTML="";
+  if(!s||!s.p||!s.p.length){el.hidden=true;return}
+  el.hidden=false;
+  const lab=document.createElement("div");lab.className="src-label";lab.textContent=srcLabel(s);el.appendChild(lab);
+  if(!user||!sb){
+    const m=document.createElement("div");m.className="src-msg";m.append("Sign in to see the lecture slide this answer comes from. ");
+    const b=document.createElement("button");b.className="link";b.textContent="Sign in";b.onclick=()=>openAuth("in");m.appendChild(b);el.appendChild(m);return;
+  }
+  const box=document.createElement("div");box.className="src-imgs";el.appendChild(box);
+  s.p.forEach(p=>{
+    const b=document.createElement("button");b.setAttribute("aria-label",`Open slide ${p} full size`);
+    const m=document.createElement("div");m.className="src-msg";m.textContent="Loading slide…";b.appendChild(m);box.appendChild(b);
+    slideURL(s.f,p).then(u=>{const img=new Image();img.alt=`${DECKNAME[s.f]||s.f}, slide ${p}`;img.src=u;b.replaceChildren(img);b.onclick=()=>{$("#lbox-img").src=u;$("#lbox-img").alt=img.alt;$("#lbox").hidden=false}})
+      .catch(err=>{if(err&&/not_signed_in/.test(err.message||"")){signedOut("Your session ended. Sign in again to see slides.");return}m.textContent="Couldn't load this slide. Check your connection and reopen the card."});
+  });
+}
+$("#lbox").onclick=()=>{$("#lbox").hidden=true};
 function paintRate(){document.querySelectorAll("#s-rate button").forEach(b=>b.setAttribute("aria-pressed",status[cur]===b.dataset.s))}
 function openCard(id){
   const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
@@ -403,7 +460,7 @@ function closeCard(){$("#scrim").hidden=true;render()}
 $("#s-reveal").onclick=()=>{
   if(face==="learn"){markDone(cur);showFace("test",true);return}
   const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";
-  if(!h){markDone(cur);$("#s-rate").hidden=false;paintRate()}
+  if(!h){markDone(cur);$("#s-rate").hidden=false;paintRate();renderSrc($("#s-src2"),byId(cur))}else $("#s-src2").hidden=true;
 };
 document.querySelectorAll("#s-rate button").forEach(b=>b.onclick=()=>{
   if(status[cur]===b.dataset.s)delete status[cur];else status[cur]=b.dataset.s;
@@ -439,6 +496,7 @@ $("#esheet").addEventListener("submit",async e=>{
   const d=$("#e-deck").value.trim(),sec=$("#e-sec").value.trim(),name=$("#e-name").value.trim(),ans=$("#e-ans").value.trim();
   if(!d||!sec||!name||!ans){showErr("Fill in the topic, section, concept name and original answer before saving.");return}
   const card={id:editing||("u"+Date.now().toString(36)),deck:d,sec,name,clues:$("#e-clues").value.split("\n").map(s=>s.trim()).filter(Boolean),ans};
+  const prevSrc=editing?cardSrc(byId(editing)):null;if(prevSrc)card.src=prevSrc;
   const next=editing?C.map(c=>c.id===editing?card:c):[...C,card];
   deck=d;store.set("pr-deck",d);
   await commit(next,editing?"Card saved":"Card added");
@@ -478,6 +536,7 @@ async function loadAccount(){
   renderAcct();render();await syncNow();return true;
 }
 function signedOut(msg){
+  slideKey=null;slideCache.forEach(p=>p.then(u=>URL.revokeObjectURL(u)).catch(()=>{}));slideCache.clear();
   user=null;token=null;customCards=false;done=new Set();drafts={};status={};C=defaults;
   ["pr-token","pr-done2","pr-drafts2","pr-local-deck2","pr-status2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
   render();renderAcct();setStatus(msg||"Signed out");
@@ -531,6 +590,7 @@ $("#asheet").addEventListener("submit",async e=>{
 });
 
 document.addEventListener("keydown",e=>{
+  if(!$("#lbox").hidden){if(e.key==="Escape")$("#lbox").hidden=true;return}
   if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
   if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();if(e.target.tagName==="TEXTAREA")return;
   if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}

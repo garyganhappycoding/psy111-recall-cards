@@ -9,7 +9,13 @@
    "relatively stable",
    "think · feel · behave"
   ],
-  "ans": "Unique and relatively stable ways people think, feel and behave\nAn area of psychology with several ways to explain people's characteristic behaviour"
+  "ans": "Unique and relatively stable ways people think, feel and behave\nAn area of psychology with several ways to explain people's characteristic behaviour",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    3
+   ]
+  }
  },
  {
   "id": "c2",
@@ -21,7 +27,13 @@
    "Freud",
    "awareness"
   ],
-  "ans": "Freud divided the mind into three levels:\nConscious\nPreconscious\nUnconscious"
+  "ans": "Freud divided the mind into three levels:\nConscious\nPreconscious\nUnconscious",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    6
+   ]
+  }
  },
  {
   "id": "c3",
@@ -34,7 +46,13 @@
    "biological drives",
    "like an infant"
   ],
-  "ans": "Completely unconscious\nInnate — present at birth\nHome to basic biological drives (hunger, self-preservation, sex)\nActs like an infant: demanding, irrational, illogical, impulsive\nRuns on the pleasure principle — \"if it feels good, do it\""
+  "ans": "Completely unconscious\nInnate — present at birth\nHome to basic biological drives (hunger, self-preservation, sex)\nActs like an infant: demanding, irrational, illogical, impulsive\nRuns on the pleasure principle — \"if it feels good, do it\"",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    7
+   ]
+  }
  },
  {
   "id": "c4",
@@ -47,7 +65,13 @@
    "deals with reality",
    "referee"
   ],
-  "ans": "Mostly conscious, rational and logical\nDeals with reality\nFollows the reality principle\nExecutive director — referee between id and superego"
+  "ans": "Mostly conscious, rational and logical\nDeals with reality\nFollows the reality principle\nExecutive director — referee between id and superego",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    8
+   ]
+  }
  },
  {
   "id": "c5",
@@ -59,7 +83,13 @@
    "learned from society",
    "guilt"
   ],
-  "ans": "Moral centre of personality\nDevelops as children learn society's rules, customs and expectations\nContains the conscience (source of guilt)"
+  "ans": "Moral centre of personality\nDevelops as children learn society's rules, customs and expectations\nContains the conscience (source of guilt)",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    9
+   ]
+  }
  },
  {
   "id": "c6",
@@ -71,7 +101,13 @@
    "immediate",
    "no regard for consequences"
   ],
-  "ans": "Belongs to the id\nDesire for immediate gratification of needs\nNo regard for consequences — \"if it feels good, do it\""
+  "ans": "Belongs to the id\nDesire for immediate gratification of needs\nNo regard for consequences — \"if it feels good, do it\"",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    7
+   ]
+  }
  },
  {
   "id": "c7",
@@ -83,7 +119,13 @@
    "satisfy the id",
    "only when safe"
   ],
-  "ans": "Belongs to the ego\nSatisfy the id's demands only when no negative consequences will result\nDenies the id when consequences would be painful or unpleasant"
+  "ans": "Belongs to the ego\nSatisfy the id's demands only when no negative consequences will result\nDenies the id when consequences would be painful or unpleasant",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    8
+   ]
+  }
  },
  {
   "id": "c8",
@@ -94,7 +136,13 @@
    "part of the superego",
    "after wrongdoing"
   ],
-  "ans": "Part of the superego\nProduces guilt after a wrongdoing"
+  "ans": "Part of the superego\nProduces guilt after a wrongdoing",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    9
+   ]
+  }
  },
  {
   "id": "c9",
@@ -107,7 +155,14 @@
    "distort reality",
    "id vs ego vs superego"
   ],
-  "ans": "Ways of dealing with anxiety\nWork by unconsciously distorting one's perception of reality\nCope with anxiety from conflict between id, ego and superego"
+  "ans": "Ways of dealing with anxiety\nWork by unconsciously distorting one's perception of reality\nCope with anxiety from conflict between id, ego and superego",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    10,
+    11
+   ]
+  }
  },
  {
   "id": "c10",
@@ -119,7 +174,13 @@
    "refuse",
    "threat"
   ],
-  "ans": "Refusing to recognise or acknowledge a threatening situation"
+  "ans": "Refusing to recognise or acknowledge a threatening situation",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "c11",
@@ -131,7 +192,13 @@
    "push out",
    "conscious memory"
   ],
-  "ans": "Pushing threatening or conflicting events out of conscious memory"
+  "ans": "Pushing threatening or conflicting events out of conscious memory",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "c12",
@@ -143,7 +210,13 @@
    "excuses",
    "unacceptable behaviour"
   ],
-  "ans": "Making up acceptable excuses for unacceptable behaviour or mistakes"
+  "ans": "Making up acceptable excuses for unacceptable behaviour or mistakes",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "c13",
@@ -155,7 +228,13 @@
    "emotion",
    "wrong target"
   ],
-  "ans": "Redirecting emotions (e.g., anger) onto a target\n…that is not the original cause of the emotion"
+  "ans": "Redirecting emotions (e.g., anger) onto a target\n…that is not the original cause of the emotion",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "c14",
@@ -167,7 +246,13 @@
    "unacceptable urges",
    "acceptable outlet"
   ],
-  "ans": "Turning socially unacceptable urges\n…into socially acceptable behaviour"
+  "ans": "Turning socially unacceptable urges\n…into socially acceptable behaviour",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "c15",
@@ -180,7 +265,13 @@
    "conflict",
    "fixation"
   ],
-  "ans": "Freud: personality develops through a series of stages\nEach stage focuses on an erogenous zone (body area that gives pleasure)\nEach zone can become a source of conflict\nUnresolved conflict → fixation (\"stuck\" at that stage)\nFixation carries emotional baggage into adulthood"
+  "ans": "Freud: personality develops through a series of stages\nEach stage focuses on an erogenous zone (body area that gives pleasure)\nEach zone can become a source of conflict\nUnresolved conflict → fixation (\"stuck\" at that stage)\nFixation carries emotional baggage into adulthood",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    12
+   ]
+  }
  },
  {
   "id": "c16",
@@ -192,7 +283,13 @@
    "mouth",
    "weaning"
   ],
-  "ans": "Age: first 18 months\nErogenous zone: mouth\nConflict: weaning\nFixation: overeating, chain smoking, nail biting"
+  "ans": "Age: first 18 months\nErogenous zone: mouth\nConflict: weaning\nFixation: overeating, chain smoking, nail biting",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    13
+   ]
+  }
  },
  {
   "id": "c17",
@@ -204,7 +301,13 @@
    "toilet training",
    "expulsive / retentive"
   ],
-  "ans": "Age: 18–36 months\nErogenous zone: anus (holding and releasing faeces)\nConflict: toilet training\nFixation: anal expulsive or anal retentive personality"
+  "ans": "Age: 18–36 months\nErogenous zone: anus (holding and releasing faeces)\nConflict: toilet training\nFixation: anal expulsive or anal retentive personality",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    13
+   ]
+  }
  },
  {
   "id": "c18",
@@ -216,7 +319,13 @@
    "genitals",
    "Oedipus / Electra"
   ],
-  "ans": "Age: 3–6 years\nErogenous zone: genitals\nConflict: awakening of sexual feelings\nOedipus complex / Electra complex\nFixation: promiscuous sexual behaviour"
+  "ans": "Age: 3–6 years\nErogenous zone: genitals\nConflict: awakening of sexual feelings\nOedipus complex / Electra complex\nFixation: promiscuous sexual behaviour",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    14
+   ]
+  }
  },
  {
   "id": "c19",
@@ -228,7 +337,13 @@
    "feelings repressed",
    "opposite sex 'awful'"
   ],
-  "ans": "Age: 6 years to puberty\nSexual feelings are repressed\nChild develops intellectually, physically and socially\nSees the opposite sex as \"awful\""
+  "ans": "Age: 6 years to puberty\nSexual feelings are repressed\nChild develops intellectually, physically and socially\nSees the opposite sex as \"awful\"",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    14
+   ]
+  }
  },
  {
   "id": "c20",
@@ -240,7 +355,13 @@
    "can't be ignored",
    "adult behaviour"
   ],
-  "ans": "Age: puberty onward\nSexual feelings can no longer be ignored\nAttraction focuses on others\nEntry into adult social and sexual behaviour"
+  "ans": "Age: puberty onward\nSexual feelings can no longer be ignored\nAttraction focuses on others\nEntry into adult social and sexual behaviour",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    15
+   ]
+  }
  },
  {
   "id": "c21",
@@ -252,7 +373,13 @@
    "hard to falsify",
    "Victorian women"
   ],
-  "ans": "Not scientific — Freud did no experiments; based only on observing his patients\nToo ambiguous — relies on dream interpretation and free association; hard to falsify\nLimited sample — wealthy Austrian women in the Victorian era, when sexual repression was common"
+  "ans": "Not scientific — Freud did no experiments; based only on observing his patients\nToo ambiguous — relies on dream interpretation and free association; hard to falsify\nLimited sample — wealthy Austrian women in the Victorian era, when sexual repression was common",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    17
+   ]
+  }
  },
  {
   "id": "c22",
@@ -265,7 +392,13 @@
    "Skinner",
    "shyness"
   ],
-  "ans": "Personality = a set of learned responses\nLearned through classical and operant conditioning\nSkinner: mental processes can't sufficiently explain behaviour\nE.g., shyness explained by operant conditioning"
+  "ans": "Personality = a set of learned responses\nLearned through classical and operant conditioning\nSkinner: mental processes can't sufficiently explain behaviour\nE.g., shyness explained by operant conditioning",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    19
+   ]
+  }
  },
  {
   "id": "c23",
@@ -277,7 +410,13 @@
    "own expectancies",
    "observational learning"
   ],
-  "ans": "Learning is shaped by other people's behaviour\n…and by one's own expectancies\nBehaviour governed by external stimuli AND cognitive processes\nE.g., observational learning"
+  "ans": "Learning is shaped by other people's behaviour\n…and by one's own expectancies\nBehaviour governed by external stimuli AND cognitive processes\nE.g., observational learning",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    20
+   ]
+  }
  },
  {
   "id": "c24",
@@ -289,7 +428,13 @@
    "three factors",
    "give-and-take"
   ],
-  "ans": "Bandura\nThree factors: environment, behaviour, personal/cognitive factors\nEach influences the others (give-and-take)"
+  "ans": "Bandura\nThree factors: environment, behaviour, personal/cognitive factors\nEach influences the others (give-and-take)",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    21
+   ]
+  }
  },
  {
   "id": "c25",
@@ -302,7 +447,13 @@
    "goal",
    "past experience"
   ],
-  "ans": "Bandura\nExpectancy of how effective one's efforts to reach a goal will be\nDepends on past experience\n…and perceived competence (from self and others)"
+  "ans": "Bandura\nExpectancy of how effective one's efforts to reach a goal will be\nDepends on past experience\n…and perceived competence (from self and others)",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    21
+   ]
+  }
  },
  {
   "id": "c26",
@@ -315,7 +466,13 @@
    "potential responses",
    "two factors"
   ],
-  "ans": "Personality = a relatively stable set of potential responses to situations\nShaped by two factors: expectancy and reinforcement value"
+  "ans": "Personality = a relatively stable set of potential responses to situations\nShaped by two factors: expectancy and reinforcement value",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    22
+   ]
+  }
  },
  {
   "id": "c27",
@@ -327,7 +484,13 @@
    "belief",
    "consequence follows behaviour"
   ],
-  "ans": "Rotter\nBelief that a reinforcing consequence will follow a particular behaviour"
+  "ans": "Rotter\nBelief that a reinforcing consequence will follow a particular behaviour",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    22
+   ]
+  }
  },
  {
   "id": "c28",
@@ -339,7 +502,13 @@
    "preference",
    "one reinforcer over others"
   ],
-  "ans": "Rotter\nPreference for one particular reinforcer over others"
+  "ans": "Rotter\nPreference for one particular reinforcer over others",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    22
+   ]
+  }
  },
  {
   "id": "c29",
@@ -351,7 +520,13 @@
    "internal vs external",
    "fate"
   ],
-  "ans": "Rotter\nWhether we believe we have control over events in our lives\nInternal: outcomes come from own actions\nExternal: outcomes come from fate or other people"
+  "ans": "Rotter\nWhether we believe we have control over events in our lives\nInternal: outcomes come from own actions\nExternal: outcomes come from fate or other people",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    23
+   ]
+  }
  },
  {
   "id": "c30",
@@ -363,7 +538,13 @@
    "overgeneralisation",
    "therapies"
   ],
-  "ans": "Criticism: behaviourists ignore mental processes\nCriticism: overgeneralisation can lead to errors\nContribution: effective therapies"
+  "ans": "Criticism: behaviourists ignore mental processes\nCriticism: overgeneralisation can lead to errors\nContribution: effective therapies",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    24
+   ]
+  }
  },
  {
   "id": "c31",
@@ -376,7 +557,13 @@
    "free choice",
    "Maslow & Rogers"
   ],
-  "ans": "Maslow and Rogers\nFocuses on what makes people uniquely human\nE.g., subjective feelings, freedom of choice"
+  "ans": "Maslow and Rogers\nFocuses on what makes people uniquely human\nE.g., subjective feelings, freedom of choice",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    26
+   ]
+  }
  },
  {
   "id": "c32",
@@ -388,7 +575,13 @@
    "significant people",
    "tool"
   ],
-  "ans": "Image of oneself\nDevelops from interactions with significant people\nImportant tool for self-actualisation"
+  "ans": "Image of oneself\nDevelops from interactions with significant people\nImportant tool for self-actualisation",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    26
+   ]
+  }
  },
  {
   "id": "c33",
@@ -400,7 +593,13 @@
    "fulfilment",
    "full potential"
   ],
-  "ans": "Striving for fulfilment\nReaching one's full potential"
+  "ans": "Striving for fulfilment\nReaching one's full potential",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    26
+   ]
+  }
  },
  {
   "id": "c34",
@@ -412,7 +611,13 @@
    "should be",
    "match vs mismatch"
   ],
-  "ans": "Real self: actual perception of own traits and abilities\nIdeal self: what one should be or would like to be\nClose match → competent and capable\nMismatch → anxiety and neurotic behaviour"
+  "ans": "Real self: actual perception of own traits and abilities\nIdeal self: what one should be or would like to be\nClose match → competent and capable\nMismatch → anxiety and neurotic behaviour",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    27
+   ]
+  }
  },
  {
   "id": "c35",
@@ -424,7 +629,13 @@
    "love & respect",
    "full potential"
   ],
-  "ans": "Love, affection and respect with no strings attached\nNeeded to explore one's full potential"
+  "ans": "Love, affection and respect with no strings attached\nNeeded to explore one's full potential",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    28
+   ]
+  }
  },
  {
   "id": "c36",
@@ -436,7 +647,13 @@
    "expectations",
    "provider"
   ],
-  "ans": "Positive regard given only when the provider's expectations are met"
+  "ans": "Positive regard given only when the provider's expectations are met",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    28
+   ]
+  }
  },
  {
   "id": "c37",
@@ -448,7 +665,13 @@
    "selves match",
    "needs UPR"
   ],
-  "ans": "In touch with and trusts their innermost urges and feelings\nReal self matches ideal self\nRequires unconditional positive regard"
+  "ans": "In touch with and trusts their innermost urges and feelings\nReal self matches ideal self\nRequires unconditional positive regard",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    28
+   ]
+  }
  },
  {
   "id": "c38",
@@ -461,7 +684,13 @@
    "philosophical",
    "positive psychology"
   ],
-  "ans": "Criticism: idealistic\nCriticism: difficult to test\nCriticism: more philosophical than psychological\nContribution: therapies for self-growth and self-understanding\nContribution: shares concepts with positive psychology"
+  "ans": "Criticism: idealistic\nCriticism: difficult to test\nCriticism: more philosophical than psychological\nContribution: therapies for self-growth and self-understanding\nContribution: shares concepts with positive psychology",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    29
+   ]
+  }
  },
  {
   "id": "c39",
@@ -473,7 +702,13 @@
    "predict",
    "not roots"
   ],
-  "ans": "Aim to describe personality\nAim to predict future behaviour\nNot about the roots or development of personality"
+  "ans": "Aim to describe personality\nAim to predict future behaviour\nNot about the roots or development of personality",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    31
+   ]
+  }
  },
  {
   "id": "c40",
@@ -485,7 +720,13 @@
    "enduring",
    "think · feel · behave"
   ],
-  "ans": "A consistent, enduring way of thinking, feeling or behaving"
+  "ans": "A consistent, enduring way of thinking, feeling or behaving",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    31
+   ]
+  }
  },
  {
   "id": "c41",
@@ -498,7 +739,13 @@
    "~200 words",
    "nervous system"
   ],
-  "ans": "Earliest list of traits\n~200 trait words from the dictionary\nBelieved (without evidence) traits are wired into the nervous system\nLater, some evidence for heritability of traits was found"
+  "ans": "Earliest list of traits\n~200 trait words from the dictionary\nBelieved (without evidence) traits are wired into the nervous system\nLater, some evidence for heritability of traits was found",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    31
+   ]
+  }
  },
  {
   "id": "c42",
@@ -510,7 +757,13 @@
    "easily seen",
    "by others"
   ],
-  "ans": "Cattell\nCharacteristics easily seen by others\nE.g., shyness, quietness"
+  "ans": "Cattell\nCharacteristics easily seen by others\nE.g., shyness, quietness",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    32
+   ]
+  }
  },
  {
   "id": "c43",
@@ -523,7 +776,13 @@
    "core",
    "introversion"
   ],
-  "ans": "Cattell\nBasic traits underlying surface traits\nForm the core of personality\nE.g., introversion → shyness, quietness, disliking crowds"
+  "ans": "Cattell\nBasic traits underlying surface traits\nForm the core of personality\nE.g., introversion → shyness, quietness, disliking crowds",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    32
+   ]
+  }
  },
  {
   "id": "c44",
@@ -535,7 +794,13 @@
    "16",
    "two opposite ends"
   ],
-  "ans": "Cattell's Sixteen Personality Factor Questionnaire\nMeasures 16 source traits\nEach trait is a dimension with two opposite ends"
+  "ans": "Cattell's Sixteen Personality Factor Questionnaire\nMeasures 16 source traits\nEach trait is a dimension with two opposite ends",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    32
+   ]
+  }
  },
  {
   "id": "c45",
@@ -547,7 +812,13 @@
    "OCEAN",
    "independent"
   ],
-  "ans": "Also called the five-factor model\nOCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism\nTraits are independent of each other\nOpenness linked with better cognition and intellect"
+  "ans": "Also called the five-factor model\nOCEAN: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism\nTraits are independent of each other\nOpenness linked with better cognition and intellect",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    34
+   ]
+  }
  },
  {
   "id": "c46",
@@ -559,7 +830,13 @@
    "expression of a trait",
    "party vs funeral"
   ],
-  "ans": "The situation influences how a trait is expressed\nE.g., an extravert jokes at a party but not at a funeral"
+  "ans": "The situation influences how a trait is expressed\nE.g., an extravert jokes at a party but not at a funeral",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    36
+   ]
+  }
  },
  {
   "id": "c47",
@@ -571,7 +848,13 @@
    "languages",
    "self vs observer"
   ],
-  "ans": "Largely consistent across all primary cultural regions\nConsistent across languages\nSelf-ratings match observer ratings\nRegional variations still exist"
+  "ans": "Largely consistent across all primary cultural regions\nConsistent across languages\nSelf-ratings match observer ratings\nRegional variations still exist",
+  "src": {
+   "f": "personality-1",
+   "p": [
+    36
+   ]
+  }
  },
  {
   "id": "n1",
@@ -583,7 +866,13 @@
    "animal breeding",
    "twin & adoption studies"
   ],
-  "ans": "Field studying the genetic bases of personality\nEvidence: animal breeding — similar breeds share temperament\nEvidence: twin and adoption studies"
+  "ans": "Field studying the genetic bases of personality\nEvidence: animal breeding — similar breeds share temperament\nEvidence: twin and adoption studies",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    5
+   ]
+  }
  },
  {
   "id": "n2",
@@ -595,7 +884,13 @@
    "shyness",
    "aggressiveness"
   ],
-  "ans": "Genes account for much of personality development\n…regardless of shared or non-shared environment\nSuggested for shyness and aggressiveness"
+  "ans": "Genes account for much of personality development\n…regardless of shared or non-shared environment\nSuggested for shyness and aggressiveness",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    5
+   ]
+  }
  },
  {
   "id": "n3",
@@ -608,7 +903,13 @@
    "Linda & Betty",
    "Ohio"
   ],
-  "ans": "James Springer & James Lewis — identical twins separated at birth\nStudied at age 39 (1990)\nBoth liked mechanical drawing and carpentry\nDrank and smoked similar amounts\nBoth divorced a Linda and married a Betty\nBoth raised in Ohio by parents of similar socioeconomic background"
+  "ans": "James Springer & James Lewis — identical twins separated at birth\nStudied at age 39 (1990)\nBoth liked mechanical drawing and carpentry\nDrank and smoked similar amounts\nBoth divorced a Linda and married a Betty\nBoth raised in Ohio by parents of similar socioeconomic background",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    7
+   ]
+  }
  },
  {
   "id": "n4",
@@ -620,7 +921,13 @@
    "skull shape",
    "bulges"
   ],
-  "ans": "Dr Franz Joseph Gall (1796)\nPersonality read from the shape of the skull\nSkull bulge = brain area for a dominant personality aspect"
+  "ans": "Dr Franz Joseph Gall (1796)\nPersonality read from the shape of the skull\nSkull bulge = brain area for a dominant personality aspect",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    8
+   ]
+  }
  },
  {
   "id": "n5",
@@ -632,7 +939,13 @@
    "extraversion → reward areas",
    "neuroticism → threat areas"
   ],
-  "ans": "MRI measured brain-area volume + Big Five questionnaire\nExtraversion → higher volume in reward-value area (medial orbitofrontal cortex)\nNeuroticism → lower volume in threat/punishment/negative-emotion areas (dorsomedial prefrontal cortex, posterior hippocampus)\nNeuroticism → higher volume in error-detection and pain area (middle cingulate cortex)"
+  "ans": "MRI measured brain-area volume + Big Five questionnaire\nExtraversion → higher volume in reward-value area (medial orbitofrontal cortex)\nNeuroticism → lower volume in threat/punishment/negative-emotion areas (dorsomedial prefrontal cortex, posterior hippocampus)\nNeuroticism → higher volume in error-detection and pain area (middle cingulate cortex)",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    9
+   ]
+  }
  },
  {
   "id": "n6",
@@ -645,7 +958,13 @@
    "~50% for Big Five",
    "30–50%"
   ],
-  "ans": "How much a trait in a population is due to genetics\nBig Five: ~50% heritable across cultures\nPersonality variation: ~30–50% inherited\nEnvironment accounts for about half"
+  "ans": "How much a trait in a population is due to genetics\nBig Five: ~50% heritable across cultures\nPersonality variation: ~30–50% inherited\nEnvironment accounts for about half",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    10
+   ]
+  }
  },
  {
   "id": "n7",
@@ -657,7 +976,13 @@
    "autonomy vs duty",
    "individual vs group security"
   ],
-  "ans": "Hofstede\nIndividualistic: autonomy, change, youth, individual security, equality\nCollectivistic: duty, order, tradition, respect for elders, group security, group status and hierarchy"
+  "ans": "Hofstede\nIndividualistic: autonomy, change, youth, individual security, equality\nCollectivistic: duty, order, tradition, respect for elders, group security, group status and hierarchy",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "n8",
@@ -669,7 +994,13 @@
    "less powerful members",
    "power held by a few"
   ],
-  "ans": "Hofstede\nHow much less powerful members accept and expect\n…that power is held by a few rather than shared equally"
+  "ans": "Hofstede\nHow much less powerful members accept and expect\n…that power is held by a few rather than shared equally",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "n9",
@@ -681,7 +1012,13 @@
    "assertive & competitive",
    "modest & caring"
   ],
-  "ans": "Hofstede\n\"Masculine\" cultures: assertive, competitive (more so for men)\n\"Feminine\" cultures: modest, caring (for men and women)"
+  "ans": "Hofstede\n\"Masculine\" cultures: assertive, competitive (more so for men)\n\"Feminine\" cultures: modest, caring (for men and women)",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    12
+   ]
+  }
  },
  {
   "id": "n10",
@@ -694,7 +1031,13 @@
    "strict rules vs fewer rules",
    "One Truth"
   ],
-  "ans": "Hofstede\nHow tolerant a culture is of uncertainty, ambiguity, unstructured situations\nLess tolerant: strict rules, many safety measures, belief in One Truth\nMore tolerant: open to different opinions, fewer rules, religions coexist, less anxious"
+  "ans": "Hofstede\nHow tolerant a culture is of uncertainty, ambiguity, unstructured situations\nLess tolerant: strict rules, many safety measures, belief in One Truth\nMore tolerant: open to different opinions, fewer rules, religions coexist, less anxious",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    12
+   ]
+  }
  },
  {
   "id": "n11",
@@ -706,7 +1049,13 @@
    "purpose depends on context",
    "researcher vs clinician"
   ],
-  "ans": "Professionals pick parts of different theories to fit the situation\nPurpose depends on context\nResearcher → classify participants by traits\nClinical/counselling psychologist → diagnose personality disorders"
+  "ans": "Professionals pick parts of different theories to fit the situation\nPurpose depends on context\nResearcher → classify participants by traits\nClinical/counselling psychologist → diagnose personality disorders",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    14
+   ]
+  }
  },
  {
   "id": "n12",
@@ -719,7 +1068,13 @@
    "questionnaires",
    "ambiguous pictures"
   ],
-  "ans": "Interviews\nBehavioural assessments — observation, rating scales, frequency counts\nPersonality inventories — 16PF, NEO-PI-3, MBTI, MMPI, etc.\nProjective tests — Rorschach, TAT"
+  "ans": "Interviews\nBehavioural assessments — observation, rating scales, frequency counts\nPersonality inventories — 16PF, NEO-PI-3, MBTI, MMPI, etc.\nProjective tests — Rorschach, TAT",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    15
+   ]
+  }
  },
  {
   "id": "n13",
@@ -732,7 +1087,13 @@
    "self-report",
    "halo/horn effect"
   ],
-  "ans": "Professional asks questions; client answers\nFocus on specific thoughts and behaviours\nUnstructured (flows naturally) or semi-structured (set questions + follow-ups)\nSelf-report method\nLimitations: halo/horn effect, questionable validity, interviewer bias"
+  "ans": "Professional asks questions; client answers\nFocus on specific thoughts and behaviours\nUnstructured (flows naturally) or semi-structured (set questions + follow-ups)\nSelf-report method\nLimitations: halo/horn effect, questionable validity, interviewer bias",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    16
+   ]
+  }
  },
  {
   "id": "n14",
@@ -745,7 +1106,13 @@
    "frequency count",
    "observer effect"
   ],
-  "ans": "Direct observation — everyday behaviour in clinical or natural setting\nRating scale — number assigned to a behaviour\nFrequency count — how often a behaviour occurs in a set time\nLimitations: observer effect, observer bias, no control over environment"
+  "ans": "Direct observation — everyday behaviour in clinical or natural setting\nRating scale — number assigned to a behaviour\nFrequency count — how often a behaviour occurs in a set time\nLimitations: observer effect, observer bias, no control over environment",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    17
+   ]
+  }
  },
  {
   "id": "n15",
@@ -758,7 +1125,13 @@
    "yes/no, true/false",
    "self-report"
   ],
-  "ans": "Commonly used by trait theorists\nQuestionnaire with a standard list of statements\nStandardised answers (yes/no, true/false)\nPaper or computer\nForm of self-report"
+  "ans": "Commonly used by trait theorists\nQuestionnaire with a standard list of statements\nStandardised answers (yes/no, true/false)\nPaper or computer\nForm of self-report",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    18
+   ]
+  }
  },
  {
   "id": "n16",
@@ -771,7 +1144,13 @@
    "validity scales",
    "job screening"
   ],
-  "ans": "Tests abnormal behaviour and thinking in personality and psychopathology\n335 statements\nValidity scales (e.g., over-/under-reporting) + clinical and problem scales\nAlso used for vocational guidance and job screening"
+  "ans": "Tests abnormal behaviour and thinking in personality and psychopathology\n335 statements\nValidity scales (e.g., over-/under-reporting) + clinical and problem scales\nAlso used for vocational guidance and job screening",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    19
+   ]
+  }
  },
  {
   "id": "n17",
@@ -783,7 +1162,13 @@
    "Big Five",
    "240 items"
   ],
-  "ans": "NEO = Neuroticism, Extraversion, Openness\nDetailed assessment of the five main personality dimensions (OCEAN)\n240 items"
+  "ans": "NEO = Neuroticism, Extraversion, Openness\nDetailed assessment of the five main personality dimensions (OCEAN)\n240 items",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    20
+   ]
+  }
  },
  {
   "id": "n18",
@@ -796,7 +1181,13 @@
    "16 types",
    "career guidance"
   ],
-  "ans": "Based on Carl Jung's ideas\nFour dimensions: S/N, T/F, I/E, P/J\n16 possible personality types\nOften used for career guidance\nLimited validity and reliability"
+  "ans": "Based on Carl Jung's ideas\nFour dimensions: S/N, T/F, I/E, P/J\n16 possible personality types\nOften used for career guidance\nLimited validity and reliability",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    21
+   ]
+  }
  },
  {
   "id": "n19",
@@ -808,7 +1199,13 @@
    "computer scoring",
    "socially acceptable answers"
   ],
-  "ans": "Pro: standardised, more objective\nPro: computer scoring free of bias\nPro: much better validity and reliability\nCon: people may give socially acceptable answers\nCon: questions interpreted differently\nCon: individual differences in answering"
+  "ans": "Pro: standardised, more objective\nPro: computer scoring free of bias\nPro: much better validity and reliability\nCon: people may give socially acceptable answers\nCon: questions interpreted differently\nCon: individual differences in answering",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    22
+   ]
+  }
  },
  {
   "id": "n20",
@@ -819,7 +1216,13 @@
    "ambiguous visual stimuli",
    "whatever comes to mind"
   ],
-  "ans": "Show ambiguous visual stimuli\nClient responds with whatever comes to mind"
+  "ans": "Show ambiguous visual stimuli\nClient responds with whatever comes to mind",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    23
+   ]
+  }
  },
  {
   "id": "n21",
@@ -831,7 +1234,13 @@
    "10 inkblots",
    "colour, shape, whole vs details"
   ],
-  "ans": "Hermann Rorschach, Swiss psychiatrist\n10 inkblots — say what each looks like\nScored on colour, shape, figures seen, whole vs details\nUsed to describe personality, diagnose disorders, predict behaviour"
+  "ans": "Hermann Rorschach, Swiss psychiatrist\n10 inkblots — say what each looks like\nScored on colour, shape, figures seen, whole vs details\nUsed to describe personality, diagnose disorders, predict behaviour",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    24
+   ]
+  }
  },
  {
   "id": "n22",
@@ -844,7 +1253,13 @@
    "tell a story",
    "projection"
   ],
-  "ans": "Henry Murray and colleagues\n20 ambiguous pictures\nClient tells a story about the people in each\nPsychoanalysts look for revealing statements and projection of problems"
+  "ans": "Henry Murray and colleagues\n20 ambiguous pictures\nClient tells a story about the people in each\nPsychoanalysts look for revealing statements and projection of problems",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    25
+   ]
+  }
  },
  {
   "id": "n23",
@@ -856,7 +1271,13 @@
    "no standard grading",
    "context"
   ],
-  "ans": "Very subjective\nPoor reliability and validity\nNo standard grading scales\nResponses vary with context\nLatest versions still used"
+  "ans": "Very subjective\nPoor reliability and validity\nNo standard grading scales\nResponses vary with context\nLatest versions still used",
+  "src": {
+   "f": "personality-2",
+   "p": [
+    26
+   ]
+  }
  },
  {
   "id": "n24",
@@ -868,7 +1289,13 @@
    "needs or wants",
    "what 'moves' people"
   ],
-  "ans": "Process by which activities are started, directed and continued\n…to meet physical or psychological needs or wants\nWhat \"moves\" people to act\nE.g., hungry → get up (started) → go to kitchen (directed) → find food (continued)"
+  "ans": "Process by which activities are started, directed and continued\n…to meet physical or psychological needs or wants\nWhat \"moves\" people to act\nE.g., hungry → get up (started) → go to kitchen (directed) → find food (continued)",
+  "src": {
+   "f": "motivation",
+   "p": [
+    4
+   ]
+  }
  },
  {
   "id": "n25",
@@ -880,7 +1307,13 @@
    "separate from the person",
    "external"
   ],
-  "ans": "Acting because it leads to an outcome\n…that is separate from or external to the person"
+  "ans": "Acting because it leads to an outcome\n…that is separate from or external to the person",
+  "src": {
+   "f": "motivation",
+   "p": [
+    5
+   ]
+  }
  },
  {
   "id": "n26",
@@ -892,7 +1325,13 @@
    "rewarding",
    "internal"
   ],
-  "ans": "Acting because the act itself is rewarding\nSatisfying in an internal way"
+  "ans": "Acting because the act itself is rewarding\nSatisfying in an internal way",
+  "src": {
+   "f": "motivation",
+   "p": [
+    5
+   ]
+  }
  },
  {
   "id": "n27",
@@ -904,7 +1343,13 @@
    "McDougall (1908)",
    "doesn't explain why"
   ],
-  "ans": "Instincts = biologically determined, innate behaviour patterns (people & animals)\nEarly theory: people are governed by instincts\nE.g., curiosity, flight, acquisition, aggression (McDougall, 1908)\nCon: doesn't explain why instincts exist\nPro: showed some behaviour is hereditary"
+  "ans": "Instincts = biologically determined, innate behaviour patterns (people & animals)\nEarly theory: people are governed by instincts\nE.g., curiosity, flight, acquisition, aggression (McDougall, 1908)\nCon: doesn't explain why instincts exist\nPro: showed some behaviour is hereditary",
+  "src": {
+   "f": "motivation",
+   "p": [
+    7
+   ]
+  }
  },
  {
   "id": "n28",
@@ -916,7 +1361,13 @@
    "physiological needs",
    "reduce tension"
   ],
-  "ans": "Behaviour comes from internal drives\nDrives push us to satisfy physiological needs\nGoal: reduce tension and arousal"
+  "ans": "Behaviour comes from internal drives\nDrives push us to satisfy physiological needs\nGoal: reduce tension and arousal",
+  "src": {
+   "f": "motivation",
+   "p": [
+    9
+   ]
+  }
  },
  {
   "id": "n29",
@@ -928,7 +1379,13 @@
    "tension & arousal",
    "motivates action"
   ],
-  "ans": "Need: requirement of some material essential for survival\nDrive: tension and arousal caused by a need\nDrive motivates action to fulfil the need and reduce tension"
+  "ans": "Need: requirement of some material essential for survival\nDrive: tension and arousal caused by a need\nDrive motivates action to fulfil the need and reduce tension",
+  "src": {
+   "f": "motivation",
+   "p": [
+    9
+   ]
+  }
  },
  {
   "id": "n30",
@@ -940,7 +1397,13 @@
    "learned",
    "money, approval"
   ],
-  "ans": "Primary: body's survival needs (hunger, thirst)\nAcquired (secondary): learned through experience or conditioning\nE.g., need for money or social approval"
+  "ans": "Primary: body's survival needs (hunger, thirst)\nAcquired (secondary): learned through experience or conditioning\nE.g., need for money or social approval",
+  "src": {
+   "f": "motivation",
+   "p": [
+    10
+   ]
+  }
  },
  {
   "id": "n31",
@@ -952,7 +1415,13 @@
    "body",
    "limits of drive reduction"
   ],
-  "ans": "Body's tendency to maintain a steady state\nLimit of drive reduction: why eat when not hungry?\nLimit: why do some people seek more arousal?"
+  "ans": "Body's tendency to maintain a steady state\nLimit of drive reduction: why eat when not hungry?\nLimit: why do some people seek more arousal?",
+  "src": {
+   "f": "motivation",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "n32",
@@ -964,7 +1433,13 @@
    "nPow",
    "nAch"
   ],
-  "ans": "nAff — need for affiliation: friendly relationships\nnPow — need for power: control or influence over others\nnAch — need for achievement: succeed at goals, including challenging ones"
+  "ans": "nAff — need for affiliation: friendly relationships\nnPow — need for power: control or influence over others\nnAch — need for achievement: succeed at goals, including challenging ones",
+  "src": {
+   "f": "motivation",
+   "p": [
+    13
+   ]
+  }
  },
  {
   "id": "n33",
@@ -976,7 +1451,14 @@
    "locus of control",
    "fixed vs changeable intelligence"
   ],
-  "ans": "Need for achievement linked to how we view ourselves\nRelated to locus of control\nLow achievement motivation → external locus, intelligence is fixed\nHigh achievement motivation → internal locus, intelligence is changeable"
+  "ans": "Need for achievement linked to how we view ourselves\nRelated to locus of control\nLow achievement motivation → external locus, intelligence is fixed\nHigh achievement motivation → internal locus, intelligence is changeable",
+  "src": {
+   "f": "motivation",
+   "p": [
+    14,
+    15
+   ]
+  }
  },
  {
   "id": "n34",
@@ -988,7 +1470,14 @@
    "increase or decrease stimulation",
    "sensation seeker"
   ],
-  "ans": "People have an optimal level of tension\nMaintain it by increasing or decreasing stimulation\nSensation seekers need more arousal\nE.g., free-solo climber Honnold's amygdala responded less to fear images"
+  "ans": "People have an optimal level of tension\nMaintain it by increasing or decreasing stimulation\nSensation seekers need more arousal\nE.g., free-solo climber Honnold's amygdala responded less to fear images",
+  "src": {
+   "f": "motivation",
+   "p": [
+    17,
+    18
+   ]
+  }
  },
  {
   "id": "n35",
@@ -1000,7 +1489,13 @@
    "task difficulty",
    "easy vs hard"
   ],
-  "ans": "Moderate arousal → best performance\nToo low or too high → worse\nEasy tasks: high-moderate arousal\nDifficult tasks: low-moderate arousal"
+  "ans": "Moderate arousal → best performance\nToo low or too high → worse\nEasy tasks: high-moderate arousal\nDifficult tasks: low-moderate arousal",
+  "src": {
+   "f": "motivation",
+   "p": [
+    19
+   ]
+  }
  },
  {
   "id": "n36",
@@ -1012,7 +1507,13 @@
    "attract or lure",
    "push and pull"
   ],
-  "ans": "Behaviour = response to an external stimulus and its rewards\nIncentives attract or lure people into action\nWork independently of need or arousal\nModern view: \"push\" of internal drives + \"pull\" of external rewards"
+  "ans": "Behaviour = response to an external stimulus and its rewards\nIncentives attract or lure people into action\nWork independently of need or arousal\nModern view: \"push\" of internal drives + \"pull\" of external rewards",
+  "src": {
+   "f": "motivation",
+   "p": [
+    20
+   ]
+  }
  },
  {
   "id": "n37",
@@ -1024,7 +1525,13 @@
    "levels",
    "peak experiences"
   ],
-  "ans": "Levels of needs: deficiency needs and growth needs\nMust be met before reaching self-actualisation\nPeak experiences: moments when self-actualisation is temporarily achieved"
+  "ans": "Levels of needs: deficiency needs and growth needs\nMust be met before reaching self-actualisation\nPeak experiences: moments when self-actualisation is temporarily achieved",
+  "src": {
+   "f": "motivation",
+   "p": [
+    22
+   ]
+  }
  },
  {
   "id": "n38",
@@ -1036,7 +1543,14 @@
    "autonomy, competence, relatedness",
    "supportive environment"
   ],
-  "ans": "Ryan & Deci (2000)\nSocial context affects the type of motivation\nAutonomy: control over own behaviour and goals\nCompetence: mastering challenging tasks\nRelatedness: belonging, intimacy, security with others\nSupportive environment → psychological growth + more intrinsic motivation"
+  "ans": "Ryan & Deci (2000)\nSocial context affects the type of motivation\nAutonomy: control over own behaviour and goals\nCompetence: mastering challenging tasks\nRelatedness: belonging, intimacy, security with others\nSupportive environment → psychological growth + more intrinsic motivation",
+  "src": {
+   "f": "motivation",
+   "p": [
+    23,
+    24
+   ]
+  }
  },
  {
   "id": "n39",
@@ -1048,7 +1562,13 @@
    "glucose down",
    "glucose up"
   ],
-  "ans": "Hormones from the pancreas\nControl fats, proteins and carbohydrates (glucose) in the blood\nInsulin ↓ blood glucose\nGlucagon ↑ blood glucose"
+  "ans": "Hormones from the pancreas\nControl fats, proteins and carbohydrates (glucose) in the blood\nInsulin ↓ blood glucose\nGlucagon ↑ blood glucose",
+  "src": {
+   "f": "motivation",
+   "p": [
+    27
+   ]
+  }
  },
  {
   "id": "n40",
@@ -1060,7 +1580,13 @@
    "signals hypothalamus",
    "feeling full"
   ],
-  "ans": "Hormone that signals the hypothalamus: \"enough food\"\nReduces appetite\nIncreases feeling of fullness"
+  "ans": "Hormone that signals the hypothalamus: \"enough food\"\nReduces appetite\nIncreases feeling of fullness",
+  "src": {
+   "f": "motivation",
+   "p": [
+    27
+   ]
+  }
  },
  {
   "id": "n41",
@@ -1072,7 +1598,13 @@
    "glucose rises",
    "damage → overeating"
   ],
-  "ans": "May stop eating when glucose levels rise\nDamage → overeating"
+  "ans": "May stop eating when glucose levels rise\nDamage → overeating",
+  "src": {
+   "f": "motivation",
+   "p": [
+    28
+   ]
+  }
  },
  {
   "id": "n42",
@@ -1084,7 +1616,13 @@
    "insulin rises",
    "damage → stops eating"
   ],
-  "ans": "Influences the start of eating when insulin rises\nDamage → stops eating unless force-fed"
+  "ans": "Influences the start of eating when insulin rises\nDamage → stops eating unless force-fed",
+  "src": {
+   "f": "motivation",
+   "p": [
+    28
+   ]
+  }
  },
  {
   "id": "n43",
@@ -1096,7 +1634,13 @@
    "hypothalamus",
    "metabolism & exercise"
   ],
-  "ans": "Weight level the body tries to maintain\nHypothalamus damage → drastic weight loss or gain\nMetabolism matters: high metabolism → harder to gain weight\nExercise matters: offsets increases in set point"
+  "ans": "Weight level the body tries to maintain\nHypothalamus damage → drastic weight loss or gain\nMetabolism matters: high metabolism → harder to gain weight\nExercise matters: offsets increases in set point",
+  "src": {
+   "f": "motivation",
+   "p": [
+    29
+   ]
+  }
  },
  {
   "id": "n44",
@@ -1107,7 +1651,13 @@
    "energy",
    "resting"
   ],
-  "ans": "Rate the body burns energy at rest"
+  "ans": "Rate the body burns energy at rest",
+  "src": {
+   "f": "motivation",
+   "p": [
+    29
+   ]
+  }
  },
  {
   "id": "n45",
@@ -1120,7 +1670,13 @@
    "comfort eating",
    "anticipatory insulin"
   ],
-  "ans": "Social cues and conventions\nFood preferences\nCulture and gender\nFood as comfort or escape\nAnticipating food can trigger an insulin response"
+  "ans": "Social cues and conventions\nFood preferences\nCulture and gender\nFood as comfort or escape\nAnticipating food can trigger an insulin response",
+  "src": {
+   "f": "motivation",
+   "p": [
+    30
+   ]
+  }
  },
  {
   "id": "n46",
@@ -1132,7 +1688,13 @@
    "BMI ≥ 30",
    "many factors"
   ],
-  "ans": "Weight ≥ 20% over ideal for height\nWHO (2021): BMI ≥ 25 overweight, ≥ 30 obese\nFactors: heredity, hormones (leptin), overeating, food quality\nFactors: lifestyle, stress, metabolism"
+  "ans": "Weight ≥ 20% over ideal for height\nWHO (2021): BMI ≥ 25 overweight, ≥ 30 obese\nFactors: heredity, hormones (leptin), overeating, food quality\nFactors: lifestyle, stress, metabolism",
+  "src": {
+   "f": "motivation",
+   "p": [
+    31
+   ]
+  }
  },
  {
   "id": "n47",
@@ -1144,7 +1706,13 @@
    "three components",
    "arousal · behaviour · labelling"
   ],
-  "ans": "The \"feeling\" aspect of consciousness\n1. Physical arousal\n2. Behaviour that shows the emotion\n3. Inner awareness — labelling the feeling"
+  "ans": "The \"feeling\" aspect of consciousness\n1. Physical arousal\n2. Behaviour that shows the emotion\n3. Inner awareness — labelling the feeling",
+  "src": {
+   "f": "motivation",
+   "p": [
+    36
+   ]
+  }
  },
  {
   "id": "n48",
@@ -1155,7 +1723,13 @@
    "across cultures",
    "faces"
   ],
-  "ans": "Facial expressions of emotion appear universal across cultures"
+  "ans": "Facial expressions of emotion appear universal across cultures",
+  "src": {
+   "f": "motivation",
+   "p": [
+    41
+   ]
+  }
  },
  {
   "id": "n49",
@@ -1168,7 +1742,13 @@
    "language & culture",
    "Tsai et al. (2004)"
   ],
-  "ans": "Cognitive element\nLearned response\nShaped by language and culture\nTsai et al. (2004): traditional Chinese Americans used bodily (\"dizzy\") or social (\"friendship\") words\nAmericanised groups used direct emotion words (\"love\")"
+  "ans": "Cognitive element\nLearned response\nShaped by language and culture\nTsai et al. (2004): traditional Chinese Americans used bodily (\"dizzy\") or social (\"friendship\") words\nAmericanised groups used direct emotion words (\"love\")",
+  "src": {
+   "f": "motivation",
+   "p": [
+    42
+   ]
+  }
  },
  {
   "id": "n50",
@@ -1180,7 +1760,13 @@
    "breathing",
    "pupils"
   ],
-  "ans": "Sympathetic nervous system creates arousal\nHeart rate ↑, breathing faster, pupils dilate\nSadness, anger, fear → higher heart rate than disgust\nAnger differs from fear on vascular measures"
+  "ans": "Sympathetic nervous system creates arousal\nHeart rate ↑, breathing faster, pupils dilate\nSadness, anger, fear → higher heart rate than disgust\nAnger differs from fear on vascular measures",
+  "src": {
+   "f": "motivation",
+   "p": [
+    37
+   ]
+  }
  },
  {
   "id": "n51",
@@ -1192,7 +1778,13 @@
    "facial expressions",
    "fear conditioning"
   ],
-  "ans": "Linked to fear and pleasure\nIdentifies facial expressions\nComplex structure with many nuclei\nStudied mainly through fear conditioning"
+  "ans": "Linked to fear and pleasure\nIdentifies facial expressions\nComplex structure with many nuclei\nStudied mainly through fear conditioning",
+  "src": {
+   "f": "motivation",
+   "p": [
+    38
+   ]
+  }
  },
  {
   "id": "n52",
@@ -1204,7 +1796,14 @@
    "slow & detailed",
    "\"Danger!\" vs \"It's a shark!\""
   ],
-  "ans": "Two routes from stimulus to amygdala\nLow road: fast, crude, subcortical — react before conscious awareness\nHigh road: slower, cortical — recognise threat, take conscious control\nLow road: \"Danger!\" → high road: \"It's a shark!\""
+  "ans": "Two routes from stimulus to amygdala\nLow road: fast, crude, subcortical — react before conscious awareness\nHigh road: slower, cortical — recognise threat, take conscious control\nLow road: \"Danger!\" → high road: \"It's a shark!\"",
+  "src": {
+   "f": "motivation",
+   "p": [
+    38,
+    39
+   ]
+  }
  },
  {
   "id": "n53",
@@ -1216,7 +1815,13 @@
    "right hemisphere faces",
    "distraction vs reappraisal"
   ],
-  "ans": "Left frontal lobe → positive emotions; right → negative (Davidson, 2003)\nRight hemisphere → reading emotion from faces\nRegulation: anterior cingulate cortex (distraction)\nRegulation: lateral orbitofrontal cortex (reappraisal)\nBoth strategies → lower amygdala activity"
+  "ans": "Left frontal lobe → positive emotions; right → negative (Davidson, 2003)\nRight hemisphere → reading emotion from faces\nRegulation: anterior cingulate cortex (distraction)\nRegulation: lateral orbitofrontal cortex (reappraisal)\nBoth strategies → lower amygdala activity",
+  "src": {
+   "f": "motivation",
+   "p": [
+    40
+   ]
+  }
  },
  {
   "id": "n54",
@@ -1228,7 +1833,13 @@
    "then physical reaction",
    "then behaviour"
   ],
-  "ans": "Stimulus → emotion → physical reaction → behaviour"
+  "ans": "Stimulus → emotion → physical reaction → behaviour",
+  "src": {
+   "f": "motivation",
+   "p": [
+    44
+   ]
+  }
  },
  {
   "id": "n55",
@@ -1240,7 +1851,13 @@
    "body first",
    "then label"
   ],
-  "ans": "William James & Carl Lange\nStimulus → bodily arousal first\n→ arousal interpreted and labelled as emotion"
+  "ans": "William James & Carl Lange\nStimulus → bodily arousal first\n→ arousal interpreted and labelled as emotion",
+  "src": {
+   "f": "motivation",
+   "p": [
+    45
+   ]
+  }
  },
  {
   "id": "n56",
@@ -1252,7 +1869,13 @@
    "pure autonomic failure",
    "less intense"
   ],
-  "ans": "Paralysed people still feel emotions as strongly as before\nPure autonomic failure: same emotions, less intense\nSuggests other factors shape emotion"
+  "ans": "Paralysed people still feel emotions as strongly as before\nPure autonomic failure: same emotions, less intense\nSuggests other factors shape emotion",
+  "src": {
+   "f": "motivation",
+   "p": [
+    46
+   ]
+  }
  },
  {
   "id": "n57",
@@ -1265,7 +1888,15 @@
    "thalamus",
    "vagus nerve"
   ],
-  "ans": "Walter Cannon & Philip Bard\nPhysiological reaction and emotion happen at the same time\nThalamus sends signals to cortex and sympathetic NS simultaneously\nCannon: bodily changes aren't distinct enough to tell emotions apart\nCriticism: vagus nerve sends feedback to the brain"
+  "ans": "Walter Cannon & Philip Bard\nPhysiological reaction and emotion happen at the same time\nThalamus sends signals to cortex and sympathetic NS simultaneously\nCannon: bodily changes aren't distinct enough to tell emotions apart\nCriticism: vagus nerve sends feedback to the brain",
+  "src": {
+   "f": "motivation",
+   "p": [
+    47,
+    48,
+    49
+   ]
+  }
  },
  {
   "id": "n58",
@@ -1277,7 +1908,14 @@
    "causes & intensifies",
    "Strack et al. (1988)"
   ],
-  "ans": "Facial expressions send feedback to the brain\nFeedback causes and intensifies the emotion\n\"The more you smile, the happier you are\"\nStrack et al. (1988)"
+  "ans": "Facial expressions send feedback to the brain\nFeedback causes and intensifies the emotion\n\"The more you smile, the happier you are\"\nStrack et al. (1988)",
+  "src": {
+   "f": "motivation",
+   "p": [
+    50,
+    51
+   ]
+  }
  },
  {
   "id": "n59",
@@ -1289,7 +1927,13 @@
    "two-factor",
    "arousal + label from environment"
   ],
-  "ans": "Schachter & Singer — two-factor theory\nNeed BOTH physical arousal\n…AND labelling that arousal using environmental cues\n→ then the emotion is experienced"
+  "ans": "Schachter & Singer — two-factor theory\nNeed BOTH physical arousal\n…AND labelling that arousal using environmental cues\n→ then the emotion is experienced",
+  "src": {
+   "f": "motivation",
+   "p": [
+    52
+   ]
+  }
  },
  {
   "id": "n60",
@@ -1301,7 +1945,13 @@
    "appraisal first",
    "then emotion, then body"
   ],
-  "ans": "Lazarus\nStimulus must be appraised (interpreted) first\nAppraisal → emotion → bodily response\nAppraisal mediates between stimulus and emotion"
+  "ans": "Lazarus\nStimulus must be appraised (interpreted) first\nAppraisal → emotion → bodily response\nAppraisal mediates between stimulus and emotion",
+  "src": {
+   "f": "motivation",
+   "p": [
+    53
+   ]
+  }
  },
  {
   "id": "n61",
@@ -1313,7 +1963,13 @@
    "acquire knowledge",
    "adapt & solve problems"
   ],
-  "ans": "Ability to learn from experience\nAcquire knowledge\nUse resources effectively to adapt or solve problems"
+  "ans": "Ability to learn from experience\nAcquire knowledge\nUse resources effectively to adapt or solve problems",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    4
+   ]
+  }
  },
  {
   "id": "n62",
@@ -1325,7 +1981,13 @@
    "s factor",
    "oversimplified"
   ],
-  "ans": "g factor: general intelligence — reason, solve problems\ns factor: specific intelligence — excel in certain areas\nBeing superior in one predicts superiority overall\nCriticism: oversimplifies intelligence"
+  "ans": "g factor: general intelligence — reason, solve problems\ns factor: specific intelligence — excel in certain areas\nBeing superior in one predicts superiority overall\nCriticism: oversimplifies intelligence",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    6
+   ]
+  }
  },
  {
   "id": "n63",
@@ -1337,7 +1999,13 @@
    "nine (originally seven)",
    "abilities ≠ intelligence"
   ],
-  "ans": "Howard Gardner\nNine kinds of intelligence (originally seven)\nReason, logic and knowledge are different aspects\nCriticism: little or no evidence\nCriticism: these are abilities, not intelligence (Hunt, 2001)"
+  "ans": "Howard Gardner\nNine kinds of intelligence (originally seven)\nReason, logic and knowledge are different aspects\nCriticism: little or no evidence\nCriticism: these are abilities, not intelligence (Hunt, 2001)",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    7
+   ]
+  }
  },
  {
   "id": "n64",
@@ -1350,7 +2018,13 @@
    "creative",
    "practical"
   ],
-  "ans": "Three intelligences\nAnalytical: break problems into parts\nCreative: handle new concepts, find new solutions\nPractical: use information to get along and succeed"
+  "ans": "Three intelligences\nAnalytical: break problems into parts\nCreative: handle new concepts, find new solutions\nPractical: use information to get along and succeed",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    9
+   ]
+  }
  },
  {
   "id": "n65",
@@ -1362,7 +2036,14 @@
    "3-tier hierarchy",
    "most supported"
   ],
-  "ans": "Cattell: crystallised + fluid intelligence\nHorn (Cattell's student): added other abilities\nCarroll: 3-tier hierarchy of cognitive abilities\nOther abilities: visual/auditory processing, memory, processing speed, reaction time, quantitative, reading-writing\nMost researched and supported theory; basis of many new tests"
+  "ans": "Cattell: crystallised + fluid intelligence\nHorn (Cattell's student): added other abilities\nCarroll: 3-tier hierarchy of cognitive abilities\nOther abilities: visual/auditory processing, memory, processing speed, reaction time, quantitative, reading-writing\nMost researched and supported theory; basis of many new tests",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    10,
+    11
+   ]
+  }
  },
  {
   "id": "n66",
@@ -1374,7 +2055,13 @@
    "problem solving",
    "unfamiliar situations"
   ],
-  "ans": "Crystallised: acquired knowledge and skills\nFluid: problem solving and adapting in unfamiliar situations"
+  "ans": "Crystallised: acquired knowledge and skills\nFluid: problem solving and adapting in unfamiliar situations",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    11
+   ]
+  }
  },
  {
   "id": "n67",
@@ -1386,7 +2073,13 @@
    "cingulate, insula",
    "working memory"
   ],
-  "ans": "Frontal and parietal areas key to intelligence\nAlso: posterior cingulate, insular cortex, some subcortical areas\nWorking memory linked to fluid intelligence"
+  "ans": "Frontal and parietal areas key to intelligence\nAlso: posterior cingulate, insular cortex, some subcortical areas\nWorking memory linked to fluid intelligence",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    13
+   ]
+  }
  },
  {
   "id": "n68",
@@ -1398,7 +2091,13 @@
    "French MOE",
    "remedial education"
   ],
-  "ans": "Alfred Binet & Théodore Simon\nRequested by the French education ministry\nIdentify children needing remedial education\nFast learners answer like older children; slow learners like younger ones"
+  "ans": "Alfred Binet & Théodore Simon\nRequested by the French education ministry\nIdentify children needing remedial education\nFast learners answer like older children; slow learners like younger ones",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    15
+   ]
+  }
  },
  {
   "id": "n69",
@@ -1409,7 +2108,13 @@
    "average age",
    "level of question"
   ],
-  "ans": "Average age at which children can answer a particular level of question"
+  "ans": "Average age at which children can answer a particular level of question",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    15
+   ]
+  }
  },
  {
   "id": "n70",
@@ -1422,7 +2127,13 @@
    "MA ÷ CA × 100",
    "up to ~16"
   ],
-  "ans": "Lewis Terman revised Binet's test\nUsed William Stern's method\nIQ = mental age ÷ chronological age × 100\nAllowed comparison up to about age 16\nToday: age-group norms instead (Stanford-Binet 5th ed.)"
+  "ans": "Lewis Terman revised Binet's test\nUsed William Stern's method\nIQ = mental age ÷ chronological age × 100\nAllowed comparison up to about age 16\nToday: age-group norms instead (Stanford-Binet 5th ed.)",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    16
+   ]
+  }
  },
  {
   "id": "n71",
@@ -1434,7 +2145,13 @@
    "verbal & non-verbal",
    "five index scores"
   ],
-  "ans": "David Wechsler\nWAIS (adults), WISC (children), WPPSI (preschool)\nVerbal + non-verbal items\nOverall score + 5 index scores\nVerbal comprehension, working memory, visual spatial, processing speed, fluid reasoning"
+  "ans": "David Wechsler\nWAIS (adults), WISC (children), WPPSI (preschool)\nVerbal + non-verbal items\nOverall score + 5 index scores\nVerbal comprehension, working memory, visual spatial, processing speed, fluid reasoning",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    17
+   ]
+  }
  },
  {
   "id": "n72",
@@ -1445,7 +2162,13 @@
    "same scores",
    "again and again"
   ],
-  "ans": "Test gives the same scores each time\n…when given to the same people"
+  "ans": "Test gives the same scores each time\n…when given to the same people",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    20
+   ]
+  }
  },
  {
   "id": "n73",
@@ -1455,7 +2178,13 @@
   "clues": [
    "measures what it should"
   ],
-  "ans": "Test measures what it's supposed to measure"
+  "ans": "Test measures what it's supposed to measure",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    20
+   ]
+  }
  },
  {
   "id": "n74",
@@ -1467,7 +2196,13 @@
    "norms",
    "normal curve"
   ],
-  "ans": "Give the test to a large representative group\nTheir scores = norms\nMost tests follow a normal curve"
+  "ans": "Give the test to a large representative group\nTheir scores = norms\nMost tests follow a normal curve",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    21
+   ]
+  }
  },
  {
   "id": "n75",
@@ -1479,7 +2214,13 @@
    "SD ~15",
    "130 / 70"
   ],
-  "ans": "IQ normally distributed\nMean 100, SD about 15\n130 = two SDs above mean\n70 = two SDs below mean"
+  "ans": "IQ normally distributed\nMean 100, SD about 15\n130 = two SDs above mean\n70 = two SDs below mean",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    21
+   ]
+  }
  },
  {
   "id": "n76",
@@ -1491,7 +2232,13 @@
    "language & content",
    "Raven's Progressive Matrices"
   ],
-  "ans": "IQ tests reflect the test designer's culture\nLanguage, dialect and content\nFix: culture-fair tests using non-verbal abilities\nE.g., Raven's Progressive Matrices (abstract reasoning)"
+  "ans": "IQ tests reflect the test designer's culture\nLanguage, dialect and content\nFix: culture-fair tests using non-verbal abilities\nE.g., Raven's Progressive Matrices (abstract reasoning)",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    23
+   ]
+  }
  },
  {
   "id": "n77",
@@ -1502,7 +2249,13 @@
    "academic & job success",
    "neuropsychology"
   ],
-  "ans": "Predict academic success and job performance\nUsed in neuropsychology\nAssess head injuries, learning disabilities, neuropsychological disorders"
+  "ans": "Predict academic success and job performance\nUsed in neuropsychology\nAssess head injuries, learning disabilities, neuropsychological disorders",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    25
+   ]
+  }
  },
  {
   "id": "n78",
@@ -1515,7 +2268,13 @@
    "conceptual, social, practical",
    "developmental period"
   ],
-  "ans": "Also called intellectual developmental disorder\nIQ below 70\nSeverely deficient adaptive behaviour for one's age\nAffects conceptual, social, practical domains\nBegins in the developmental period\nMild to profound"
+  "ans": "Also called intellectual developmental disorder\nIQ below 70\nSeverely deficient adaptive behaviour for one's age\nAffects conceptual, social, practical domains\nBegins in the developmental period\nMild to profound",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    27
+   ]
+  }
  },
  {
   "id": "n79",
@@ -1528,7 +2287,13 @@
    "alcohol",
    "diet & toxins"
   ],
-  "ans": "Deprived environments\nChromosome/genetic disorders (e.g., Down syndrome)\nAlcohol (e.g., fetal alcohol syndrome)\nDietary deficiencies\nEnvironmental toxins"
+  "ans": "Deprived environments\nChromosome/genetic disorders (e.g., Down syndrome)\nAlcohol (e.g., fetal alcohol syndrome)\nDietary deficiencies\nEnvironmental toxins",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    28
+   ]
+  }
  },
  {
   "id": "n80",
@@ -1540,7 +2305,13 @@
    "IQ 130+",
    "Terman longitudinal study"
   ],
-  "ans": "~2% of people\nIQ 130 and above\nTerman's longitudinal study: most became successful adults\nCriticism: Terman lacked objectivity, too involved with his participants"
+  "ans": "~2% of people\nIQ 130 and above\nTerman's longitudinal study: most became successful adults\nCriticism: Terman lacked objectivity, too involved with his participants",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    29
+   ]
+  }
  },
  {
   "id": "n81",
@@ -1552,7 +2323,13 @@
    "manage",
    "success in life"
   ],
-  "ans": "Aware of and manage own emotions to think and reach goals\nUnderstand what others feel\nHigher EI → correlates with general intelligence\n→ better relationships, seen more positively\n→ better academic/job performance, greater well-being"
+  "ans": "Aware of and manage own emotions to think and reach goals\nUnderstand what others feel\nHigher EI → correlates with general intelligence\n→ better relationships, seen more positively\n→ better academic/job performance, greater well-being",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    30
+   ]
+  }
  },
  {
   "id": "n82",
@@ -1563,7 +2340,13 @@
    "genetic relatedness",
    "heritability 0.50"
   ],
-  "ans": "IQ correlation rises with genetic relatedness\nHeritability of IQ ≈ 0.50 (50%)"
+  "ans": "IQ correlation rises with genetic relatedness\nHeritability of IQ ≈ 0.50 (50%)",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    32
+   ]
+  }
  },
  {
   "id": "n83",
@@ -1575,7 +2358,13 @@
    "over time",
    "modernised countries"
   ],
-  "ans": "IQ scores steadily rising over time\nIn modernised countries"
+  "ans": "IQ scores steadily rising over time\nIn modernised countries",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    32
+   ]
+  }
  },
  {
   "id": "n84",
@@ -1587,6 +2376,12 @@
    "controversial",
    "negative stereotypes"
   ],
-  "ans": "The Bell Curve (Herrnstein & Murray, 1994): controversial claims on heritability of intelligence\nStereotype threat: knowing a negative stereotype\n…can make a person score poorly on IQ tests"
+  "ans": "The Bell Curve (Herrnstein & Murray, 1994): controversial claims on heritability of intelligence\nStereotype threat: knowing a negative stereotype\n…can make a person score poorly on IQ tests",
+  "src": {
+   "f": "intelligence",
+   "p": [
+    32
+   ]
+  }
  }
 ]
