@@ -27,8 +27,8 @@ Accounts live in the Supabase project `psy111-recall-cards`:
 - `recall_accounts` — email + bcrypt password hash
 - `recall_sessions` — sign-in tokens (stored hashed)
 - `recall_state` — each account's revealed cards, paraphrase drafts, card edits and card status
-  (Understand / Not sure / Totally forgot). The page saves through `recall_save_state_v2`;
-  the older `recall_save_state` is kept so nobody on an old copy of the page loses anything.
+  (Understand / Not sure / Totally forgot) and previous answers (`attempts`). The page saves through `recall_save_state_v3`;
+  the older `recall_save_state` and `_v2` are kept so nobody on an old copy of the page loses anything.
 
 The tables have row-level security on with no policies, so the browser can't read them directly; the page
 only talks to them through the `recall_*` database functions, which check the session token first.

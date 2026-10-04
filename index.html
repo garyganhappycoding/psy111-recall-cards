@@ -143,6 +143,18 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .src-small{display:block;margin-top:6px;font-family:var(--mono);font-size:10px;letter-spacing:.04em;color:var(--muted)}
 #lbox{z-index:30;cursor:zoom-out}
 #lbox img{max-width:min(1400px,100%);max-height:100%;border-radius:8px;background:#fff;box-shadow:var(--shadow)}
+.hist{border:1px solid var(--line);border-radius:10px;background:var(--paper)}
+.hist summary{cursor:pointer;padding:10px 12px;font-size:13px;font-weight:600;color:var(--ink);list-style:none;display:flex;align-items:center;gap:8px}
+.hist summary::-webkit-details-marker{display:none}
+.hist summary::before{content:"▸";color:var(--muted);transition:transform .15s}
+.hist[open] summary::before{transform:rotate(90deg)}
+.hist summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hist ol{list-style:none;margin:0;padding:0 12px 12px;display:flex;flex-direction:column;gap:8px}
+.hist li{padding:10px 12px;border-radius:8px;background:var(--bg);display:flex;flex-direction:column;gap:6px}
+.hist .meta{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.hist .meta .st{position:static}
+.hist .txt{font-size:14px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}
+.saved-note{font-size:12px;color:var(--ok)}
 .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
 
@@ -208,7 +220,9 @@ td.orig .btn{font-size:12px;padding:5px 10px}
         <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
         <div class="answer hidden" id="s-answer" aria-live="polite"></div>
         <div class="rate" id="s-rate" hidden><div class="label">How well did you know it?</div>
-          <div class="rate-btns"><button data-s="got">✓ Understand</button><button data-s="unsure">? Not sure</button><button data-s="forgot">✗ Totally forgot</button></div></div>
+          <div class="rate-btns"><button data-s="got">✓ Understand</button><button data-s="unsure">? Not sure</button><button data-s="forgot">✗ Totally forgot</button></div>
+          <span class="saved-note" id="s-savednote" hidden>Your answer is saved below and the box is cleared for next time.</span></div>
+        <details class="hist" id="s-hist" hidden><summary id="s-hist-sum"></summary><ol id="s-hist-list"></ol></details>
         <div class="src" id="s-src2" hidden></div>
       </div>
       <div class="sheet-foot">
@@ -276,6 +290,7 @@ let C=[];                       // the deck: [{id,deck,sec,name,clues[],ans}]
 let done=new Set(store.get("pr-done2",[]));
 let drafts=store.get("pr-drafts2",{});
 let status=store.get("pr-status2",{});   // {cardId: "got"|"unsure"|"forgot"}
+let attempts=store.get("pr-attempts2",{}); // {cardId: [{t: answer text, s: status, at: ISO time}]} newest first
 let mode=store.get("pr-mode","learn"), sfilter="all", face="test";
 const ST={got:"Understand",unsure:"Not sure",forgot:"Totally forgot"};
 let deck=store.get("pr-deck",DECK_ORDER[0]), filter="all", shuffled=null, cur=null, editing=null;
@@ -287,6 +302,7 @@ let sb=null, user=null, customCards=false, syncTimer=null, defaults=[];
 function saveDone(){store.set("pr-done2",[...done]);queueSync()}
 function saveDrafts(){store.set("pr-drafts2",drafts);queueSync()}
 function saveStatus(){store.set("pr-status2",status);queueSync()}
+function saveAttempts(){store.set("pr-attempts2",attempts);queueSync()}
 const esc=s=>String(s).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
 const byId=id=>C.find(c=>c.id===id);
 function points(el,text){const ul=document.createElement("ul");ul.className="pts";String(text).split("\n").map(s=>s.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean).forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});el.replaceChildren(ul)}
@@ -442,6 +458,21 @@ function renderSrc(el,c){
   });
 }
 $("#lbox").onclick=()=>{$("#lbox").hidden=true};
+function fmtWhen(iso){try{return new Date(iso).toLocaleString(undefined,{day:"numeric",month:"short",hour:"numeric",minute:"2-digit"})}catch(e){return ""}}
+function renderHist(){
+  const list=attempts[cur]||[],d=$("#s-hist");
+  if(!list.length){d.hidden=true;return}
+  d.hidden=false;$("#s-hist-sum").textContent=`Your previous answers (${list.length})`;
+  const ol=$("#s-hist-list");ol.innerHTML="";
+  list.forEach(a=>{
+    const li=document.createElement("li");
+    const m=document.createElement("div");m.className="meta";
+    if(a.s){const b=document.createElement("span");b.className="st st-"+a.s;b.textContent=ST[a.s]||a.s;m.appendChild(b)}
+    const w=document.createElement("span");w.textContent=fmtWhen(a.at);m.appendChild(w);
+    const t=document.createElement("div");t.className="txt";t.textContent=a.t;
+    li.append(m,t);ol.appendChild(li);
+  });
+}
 function paintRate(){document.querySelectorAll("#s-rate button").forEach(b=>b.setAttribute("aria-pressed",status[cur]===b.dataset.s))}
 function openCard(id){
   const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
@@ -450,7 +481,7 @@ function openCard(id){
   $("#s-clues").innerHTML=c.clues.length?c.clues.map(x=>`<span>${esc(x)}</span>`).join(""):'<span>No clues yet — tap Edit to add some</span>';
   points($("#s-learn-ans"),c.ans);
   const a=$("#s-answer");points(a,c.ans);a.classList.add("hidden");a.setAttribute("aria-hidden","true");
-  $("#s-rate").hidden=!status[id];paintRate();
+  $("#s-rate").hidden=!status[id];paintRate();$("#s-savednote").hidden=true;$("#s-hist").open=false;$("#s-hist").hidden=true;
   $("#s-try").value=drafts[c.id]||"";
   $("#s-count").textContent=idx>=0?`${idx+1} / ${list.length}`:"";
   $("#scrim").hidden=false;showFace(mode==="learn"?"learn":"test",false);
@@ -461,11 +492,17 @@ function closeCard(){$("#scrim").hidden=true;render()}
 $("#s-reveal").onclick=()=>{
   if(face==="learn"){markDone(cur);showFace("test",true);return}
   const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";
-  if(!h){markDone(cur);$("#s-rate").hidden=false;paintRate();renderSrc($("#s-src2"),byId(cur))}else $("#s-src2").hidden=true;
+  if(!h){markDone(cur);$("#s-rate").hidden=false;paintRate();renderHist();renderSrc($("#s-src2"),byId(cur))}else{$("#s-src2").hidden=true;$("#s-hist").hidden=true}
 };
 document.querySelectorAll("#s-rate button").forEach(b=>b.onclick=()=>{
-  if(status[cur]===b.dataset.s)delete status[cur];else status[cur]=b.dataset.s;
-  saveStatus();paintRate();
+  const v=b.dataset.s,ta=$("#s-try"),txt=ta.value.trim();
+  if(txt){ // keep this attempt, clear the box for the next revision
+    (attempts[cur]=attempts[cur]||[]).unshift({t:txt,s:v,at:new Date().toISOString()});
+    attempts[cur]=attempts[cur].slice(0,20);
+    ta.value="";delete drafts[cur];store.set("pr-drafts2",drafts);saveAttempts();
+    status[cur]=v;$("#s-savednote").hidden=false;$("#s-hist").open=true;
+  }else if(status[cur]===v)delete status[cur];else status[cur]=v;
+  saveStatus();paintRate();renderHist();
 });
 $("#s-try").oninput=e=>{drafts[cur]=e.target.value;saveDrafts()};
 $("#s-prev").onclick=()=>step(-1);$("#s-next").onclick=()=>step(1);$("#s-close").onclick=closeCard;
@@ -505,7 +542,7 @@ $("#esheet").addEventListener("submit",async e=>{
 $("#e-del").onclick=async()=>{
   const del=$("#e-del");
   if(!del.dataset.armed){del.dataset.armed="1";del.classList.add("armed");del.textContent="Tap again to delete";setTimeout(()=>{if(del.dataset.armed){delete del.dataset.armed;del.classList.remove("armed");del.textContent="Delete card"}},3000);return}
-  const id=editing;delete drafts[id];saveDrafts();done.delete(id);saveDone();delete status[id];saveStatus();
+  const id=editing;delete drafts[id];saveDrafts();done.delete(id);saveDone();delete status[id];saveStatus();delete attempts[id];saveAttempts();
   await commit(C.filter(c=>c.id!==id),"Card deleted");
 };
 function showErr(t){const e=$("#e-err");e.textContent=t;e.hidden=false}
@@ -522,7 +559,7 @@ let token=store.get("pr-token",null), acctEmail="", authMode="in";
 function queueSync(){if(!user)return;clearTimeout(syncTimer);syncTimer=setTimeout(syncNow,1500)}
 async function syncNow(){
   if(!user||!sb)return;clearTimeout(syncTimer);
-  const {error}=await sb.rpc("recall_save_state_v2",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null,p_status:status});
+  const {error}=await sb.rpc("recall_save_state_v3",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null,p_status:status,p_attempts:attempts});
   if(error&&/not_signed_in/.test(error.message)){signedOut("Your session ended. Sign in again to keep saving.");return}
   setStatus(error?"Couldn't save to your account. Your work is still on this device.":"Saved to your account");
 }
@@ -532,14 +569,15 @@ async function loadAccount(){
   user={email:data.email};
   const localDeck=store.get("pr-local-deck2",null);
   done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};status={...status,...(data.status||{})};
+  {const srv=data.attempts||{},m={};new Set([...Object.keys(srv),...Object.keys(attempts)]).forEach(k=>{const seen=new Set(),all=[];[...(attempts[k]||[]),...(srv[k]||[])].forEach(a=>{if(!seen.has(a.at)){seen.add(a.at);all.push(a)}});all.sort((x,y)=>y.at<x.at?-1:1);m[k]=all.slice(0,20)});attempts=m;}
   if(data.cards){C=withNewTopics(data.cards);customCards=true}else if(localDeck){C=withNewTopics(localDeck);customCards=true}
-  store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);store.set("pr-status2",status);
+  store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);store.set("pr-status2",status);store.set("pr-attempts2",attempts);
   renderAcct();render();await syncNow();return true;
 }
 function signedOut(msg){
   slideKey=null;slideCache.forEach(p=>p.then(u=>URL.revokeObjectURL(u)).catch(()=>{}));slideCache.clear();
-  user=null;token=null;customCards=false;done=new Set();drafts={};status={};C=defaults;
-  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2","pr-status2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
+  user=null;token=null;customCards=false;done=new Set();drafts={};status={};attempts={};C=defaults;
+  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2","pr-status2","pr-attempts2"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
   render();renderAcct();setStatus(msg||"Signed out");
 }
 function renderAcct(){
