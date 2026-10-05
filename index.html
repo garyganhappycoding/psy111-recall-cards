@@ -170,6 +170,16 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .qopt.wrong{border-color:var(--bad);background:var(--bad-bg)}.qopt.wrong .key{background:var(--bad);color:var(--paper)}
 .qopt[disabled]{cursor:default}
 .qfeed{font-weight:600;font-size:15px}.qfeed.ok{color:var(--ok)}.qfeed.bad{color:var(--bad)}
+.qplans{display:flex;flex-direction:column;gap:8px}
+.qplan{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper);cursor:pointer}
+.qplan:has(input:checked){border-color:var(--accent);background:var(--bg)}
+.qplan input{margin-top:3px;accent-color:var(--accent)}
+.qplan b{display:block;font-size:14px}.qplan small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.qtype{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.qcmp{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.qcmp>div{min-width:0;padding:10px 12px;border-radius:10px;background:var(--bg);border:1px solid var(--line)}
+.qcmp .label{margin-bottom:6px}.qcmp .pts{font-size:13px;gap:4px}
+@media (max-width:520px){.qcmp{grid-template-columns:1fr}}
 .qscore{font-family:var(--display);font-size:64px;line-height:1}
 .qmiss{display:flex;flex-wrap:wrap;gap:6px}
 .qmiss span{font-size:13px;padding:5px 10px;border-radius:999px;background:var(--bad-bg);color:var(--bad)}
@@ -262,6 +272,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div class="sheet-in">
       <div><div class="tag">Quiz mode</div><h3 id="qc-title">Start the quiz?</h3></div>
       <p id="qc-body" style="margin:0"></p>
+      <div class="qplans" id="qc-plans" role="radiogroup" aria-label="Quiz type"></div>
       <span class="hint" id="qc-last"></span>
       <div class="sheet-foot"><button class="btn primary" id="qc-go">Start quiz</button><button class="btn" id="qc-cancel">Cancel</button></div>
     </div>
@@ -274,12 +285,14 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div class="sheet-in" id="q-play">
       <div class="qhead"><div class="tag" id="q-tag">Quiz</div><span class="qprog" id="q-prog"></span></div>
       <div class="qbar"><i id="q-bar"></i></div>
+      <span class="qtype" id="q-type"></span>
       <div class="qstem" id="q-stem"></div>
       <div class="qopts" id="q-opts"></div>
       <div id="q-after" class="field" hidden>
         <div class="qfeed" id="q-feed" aria-live="polite"></div>
         <div class="label" id="q-anslabel"></div>
         <div class="answer" id="q-ans"></div>
+        <div class="qcmp" id="q-cmp" hidden></div>
         <div class="src" id="q-src" hidden></div>
       </div>
       <div class="sheet-foot"><button class="btn primary" id="q-next" hidden>Next question →</button><span class="spacer"></span><button class="btn" id="q-end">End quiz</button></div>
@@ -413,68 +426,126 @@ function renderMode(){
 }
 document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{if(b.dataset.m==="quiz"){openQuizConfirm();return}mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
 
-/* ---- quiz mode: every card in the current topic (and filters) as a 4-option question ---- */
+/* ---- quiz mode: 3 question types per card (name it / true statement / compare similar concepts),
+   mixed together; each new quiz rotates the type a card gets, so repeat quizzes ask differently ---- */
 let quiz=null;
+const QT=["name","fact","compare"],QTLABEL={name:"Name the concept",fact:"Pick the true statement",compare:"Compare similar concepts"};
 const shuffleArr=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const bulletsOf=c=>String(c.ans).split("\n").map(x=>x.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean);
+const usable=b=>b.length>8&&!/^[→…]/.test(b);  // skip continuation fragments like "→ arousal interpreted…"
+const keyOf=n=>n.toLowerCase().replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
+const words=t=>new Set(t.toLowerCase().match(/[a-z]{4,}/g)||[]);
+function overlap(a,b){const A=words(a),B=words(b);if(!A.size||!B.size)return 0;let n=0;A.forEach(w=>{if(B.has(w))n++});return n/Math.min(A.size,B.size)}
 function maskName(t,name){
-  const forms=[name,name.replace(/\s*\(.*?\)\s*/g," ").trim()].filter(x=>x.length>2);
-  forms.forEach(n=>{t=t.replace(new RegExp(n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),"____")});return t;
+  [name,name.replace(/\s*\(.*?\)\s*/g," ").trim()].filter(x=>x.length>2).forEach(n=>{t=t.replace(new RegExp(n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),"____")});return t;
+}
+function simOf(c){
+  const ids=c.sim||((defaults.find(d=>d.id===c.id)||{}).sim)||[];
+  let out=ids.map(byId).filter(Boolean);
+  if(!out.length){const sec=C.filter(x=>x.deck===c.deck&&x.sec===c.sec&&x.id!==c.id);const i=C.indexOf(c);out=sec.sort((x,y)=>Math.abs(C.indexOf(x)-i)-Math.abs(C.indexOf(y)-i)).slice(0,1)}
+  return out;
+}
+function distractorPool(c){
+  const sims=simOf(c).filter(x=>x.id!==c.id);
+  const same=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec===c.sec&&!sims.includes(x)));
+  const deckRest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec!==c.sec&&!sims.includes(x)));
+  const rest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck!==c.deck));
+  return [...shuffleArr(sims),...same,...deckRest,...rest];   // similar concepts first = harder, more useful options
+}
+function makeQuestion(c,type){
+  const bs=bulletsOf(c),pool=distractorPool(c),k=keyOf(c.name);
+  if(type==="name"){
+    if(!bs.length)return null;
+    const stemPts=shuffleArr(bs).slice(0,3).map(b=>maskName(b,c.name)),stemLow=stemPts.join(" ").toLowerCase();
+    const names=[];pool.forEach(x=>{const xl=x.name.toLowerCase();if(names.length<3&&xl!==c.name.toLowerCase()&&!stemLow.includes(keyOf(x.name))&&!names.some(n=>n.toLowerCase()===xl))names.push(x.name)});
+    if(names.length<3)return null;
+    return {type,id:c.id,stemPts,opts:shuffleArr([c.name,...names]),right:c.name};
+  }
+  if(type==="fact"){
+    if(!bs.length)return null;
+    const good=bs.filter(b=>b.length>12&&usable(b));const right=shuffleArr(good.length?good:bs)[0];const outs=[];
+    pool.forEach(x=>{if(outs.length<3){const o=shuffleArr(bulletsOf(x).filter(b=>b.length>12&&usable(b)))[0];
+      if(o&&o!==right&&!outs.includes(o)&&!o.toLowerCase().includes(k)&&!c.ans.toLowerCase().includes(keyOf(x.name))&&overlap(o,right)<.6&&!bs.some(b=>overlap(b,o)>.7))outs.push(o)}});
+    if(outs.length<3)return null;
+    return {type,id:c.id,opts:shuffleArr([right,...outs]),right};
+  }
+  // compare: one point that is true of c, three points from a similar concept
+  for(const other of shuffleArr(simOf(c))){
+    const ob=bulletsOf(other),okey=keyOf(other.name);
+    const mine=shuffleArr(bs.filter(b=>usable(b)&&!b.toLowerCase().includes(okey)&&ob.every(o=>overlap(o,b)<.5)));
+    let outs=shuffleArr(ob.filter(o=>usable(o)&&!o.toLowerCase().includes(k)&&bs.every(b=>overlap(b,o)<.5))).slice(0,3);
+    if(!mine.length)continue;
+    if(outs.length<3){ // top up from other similar/same-section concepts, still never true of c
+      pool.filter(x=>x.id!==other.id).forEach(x=>{if(outs.length<3){const o=shuffleArr(bulletsOf(x).filter(usable))[0];
+        if(o&&!outs.includes(o)&&!o.toLowerCase().includes(k)&&bs.every(b=>overlap(b,o)<.5))outs.push(o)}});
+    }
+    if(outs.length<3)continue;
+    return {type,id:c.id,other:other.id,opts:shuffleArr([mine[0],...outs]),right:mine[0]};
+  }
+  return null;
+}
+function buildQuestion(item){
+  const c=byId(item.id);if(!c)return null;
+  const order=[item.type,...QT.filter(t=>t!==item.type)];
+  for(const t of order){const q=makeQuestion(c,t);if(q)return q}
+  return null;
 }
 function quizScope(){return visible()}
 function scopeText(){
   let t=deck;if(filter!=="all")t+=` · ${filter}`;if(sfilter!=="all")t+=` · ${{forgot:"Totally forgot",unsure:"Not sure",got:"Understand",none:"Not rated"}[sfilter]}`;return t;
 }
+function nextType(id){const rot=store.get("pr-qrot",{});const t=QT[(rot[id]||0)%3];rot[id]=(rot[id]||0)+1;store.set("pr-qrot",rot);return t}
+function planItems(plan,cards){
+  if(plan==="quick")return shuffleArr(cards).slice(0,10).map(c=>({id:c.id,type:nextType(c.id)}));
+  if(plan==="full")return shuffleArr(cards.map(c=>({id:c.id,type:nextType(c.id)})));
+  if(plan==="compare")return shuffleArr(cards.map(c=>({id:c.id,type:"compare"})));
+  return shuffleArr(cards.flatMap(c=>QT.map(t=>({id:c.id,type:t}))));  // "all": every type for every card
+}
+const PLANS=[["full","Full quiz","One question per card, mixed types. Each new quiz asks each card a different way."],
+  ["quick","Quick 10","10 random cards, mixed types."],
+  ["compare","Compare similar concepts","Tell apart look-alikes, e.g. Id vs Ego, James-Lange vs Cannon-Bard."],
+  ["all","Ultimate","All 3 question types for every card."]];
 function openQuizConfirm(){
-  const n=quizScope().length;
-  $("#qc-body").textContent=n?`${n} question${n>1?"s":""} from ${scopeText()}. Each question has 4 options — pick one to see if you're right, then read the full answer and the slide it comes from.`:"There are no cards in this view. Pick another topic or clear the filters first.";
-  $("#qc-go").hidden=!n;
-  const last=store.get("pr-quizlast",{})[scopeText()];
-  $("#qc-last").textContent=last?`Last time: ${last.score}/${last.total} (${Math.round(last.score/last.total*100)}%)`:"Tip: use the section or status filters first to quiz only part of a topic.";
+  const cards=quizScope(),n=cards.length;
+  $("#qc-body").textContent=n?`From ${scopeText()} (${n} card${n>1?"s":""}). Every question has 4 options. Pick a quiz:`:"There are no cards in this view. Pick another topic or clear the filters first.";
+  const box=$("#qc-plans");box.innerHTML="";box.hidden=!n;$("#qc-go").hidden=!n;
+  const last=store.get("pr-qplan","full");
+  PLANS.forEach(([v,t,d])=>{
+    const cnt={full:n,quick:Math.min(10,n),compare:n,all:n*3}[v];
+    const lab=document.createElement("label");lab.className="qplan";
+    const r=document.createElement("input");r.type="radio";r.name="qplan";r.value=v;r.id="qplan-"+v;r.checked=v===last;
+    const tx=document.createElement("span");const b=document.createElement("b");b.textContent=`${t} · ${cnt} question${cnt>1?"s":""}`;
+    const sm=document.createElement("small");sm.textContent=d;tx.append(b,sm);lab.append(r,tx);box.appendChild(lab);
+  });
+  if(!box.querySelector("input:checked")&&box.querySelector("input"))box.querySelector("input").checked=true;
+  const all=store.get("pr-quizlast",{}),lastScore=all[scopeText()+" · "+last];
+  $("#qc-last").textContent=lastScore?`Last ${PLANS.find(p=>p[0]===last)[1]}: ${lastScore.score}/${lastScore.total} (${Math.round(lastScore.score/lastScore.total*100)}%)`:"Tip: use the section or status filters first to quiz only part of a topic.";
   $("#qcscrim").hidden=false;$("#qc-go").focus();
 }
 $("#qc-cancel").onclick=()=>{$("#qcscrim").hidden=true};
 $("#qcscrim").onclick=e=>{if(e.target.id==="qcscrim")$("#qcscrim").hidden=true};
-$("#qc-go").onclick=()=>{$("#qcscrim").hidden=true;startQuiz(quizScope().map(c=>c.id),scopeText())};
-function distractorPool(c){
-  const same=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec===c.sec));
-  const deckRest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec!==c.sec));
-  const rest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck!==c.deck));
-  return [...same,...deckRest,...rest];
-}
-function makeQuestion(c){
-  const pool=distractorPool(c),bs=bulletsOf(c);
-  const type=(bs.length&&Math.random()<.5)?"fact":"name";
-  if(type==="name"){
-    const stemPts=bs.slice(0,3).map(b=>maskName(b,c.name)),stemLow=stemPts.join(" ").toLowerCase();
-    const names=[];pool.forEach(x=>{const xl=x.name.toLowerCase();
-      // skip names that appear in the clue text (they'd be confusing) and duplicates
-      if(names.length<3&&xl!==c.name.toLowerCase()&&!stemLow.includes(xl)&&!names.some(n=>n.toLowerCase()===xl))names.push(x.name)});
-    return {type,stemPts,opts:shuffleArr([c.name,...names]),right:c.name};
-  }
-  const longest=arr=>[...arr].sort((a,b)=>b.length-a.length)[0];
-  const right=longest(bs.slice(0,4));const outs=[];
-  const key=c.name.toLowerCase().replace(/\s*\(.*?\)\s*/g,"").trim();
-  // a wrong option must not mention this concept, and must not come from a card this answer mentions
-  pool.forEach(x=>{if(outs.length<3){const b=bulletsOf(x);if(b.length){const o=longest(b.slice(0,4));
-    if(o&&o!==right&&!outs.includes(o)&&!o.toLowerCase().includes(key)&&!c.ans.toLowerCase().includes(x.name.toLowerCase()))outs.push(o)}}});
-  return {type,opts:shuffleArr([right,...outs]),right};
-}
-function startQuiz(ids,label){
-  quiz={ids:shuffleArr(ids),i:0,score:0,missed:[],label};
+$("#qc-go").onclick=()=>{
+  const plan=($("#qc-plans input:checked")||{}).value||"full";store.set("pr-qplan",plan);
+  $("#qcscrim").hidden=true;startQuiz(planItems(plan,quizScope()),scopeText(),plan);
+};
+function startQuiz(items,label,plan){
+  quiz={items,i:0,score:0,missed:[],label,plan};
   $("#q-play").hidden=false;$("#q-done").hidden=true;$("#qscrim").hidden=false;showQuestion();
 }
 function showQuestion(){
-  const c=byId(quiz.ids[quiz.i]);if(!c){quiz.i++;return quiz.i<quiz.ids.length?showQuestion():finishQuiz()}
-  const q=makeQuestion(c);quiz.q=q;quiz.answered=false;
+  const q=buildQuestion(quiz.items[quiz.i]);
+  if(!q){quiz.items.splice(quiz.i,1);return quiz.i<quiz.items.length?showQuestion():finishQuiz()}
+  const c=byId(q.id);quiz.q=q;quiz.answered=false;
   $("#q-tag").textContent=`Quiz · ${quiz.label}`;
-  $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.ids.length} · Score ${quiz.score}`;
-  $("#q-bar").style.width=(quiz.i/quiz.ids.length*100)+"%";
+  $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.items.length} · Score ${quiz.score}`;
+  $("#q-bar").style.width=(quiz.i/quiz.items.length*100)+"%";
+  $("#q-type").textContent=QTLABEL[q.type];
   const stem=$("#q-stem");stem.innerHTML="";
   if(q.type==="name"){
     stem.append("Which concept is this?");const ul=document.createElement("ul");ul.className="pts";
     q.stemPts.forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});stem.appendChild(ul);
-  }else{stem.append("Which statement is about ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
+  }else if(q.type==="fact"){stem.append("Which statement is about ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
+  else{const o=byId(q.other);stem.append("Which describes ");const b1=document.createElement("b");b1.textContent=c.name;const b2=document.createElement("b");b2.textContent=o.name;stem.append(b1," — not ",b2,"?")}
   const box=$("#q-opts");box.innerHTML="";
   q.opts.forEach((o,k)=>{
     const btn=document.createElement("button");btn.className="qopt";btn.dataset.v=o;
@@ -487,32 +558,40 @@ function showQuestion(){
 }
 function answerQuiz(btn){
   if(quiz.answered)return;quiz.answered=true;
-  const c=byId(quiz.ids[quiz.i]),ok=btn.dataset.v===quiz.q.right;
-  document.querySelectorAll("#q-opts .qopt").forEach(b=>{b.disabled=true;if(b.dataset.v===quiz.q.right)b.classList.add("right")});
+  const q=quiz.q,c=byId(q.id),ok=btn.dataset.v===q.right;
+  document.querySelectorAll("#q-opts .qopt").forEach(b=>{b.disabled=true;if(b.dataset.v===q.right)b.classList.add("right")});
   if(!ok)btn.classList.add("wrong");
-  if(ok)quiz.score++;else quiz.missed.push(c.id);
-  const fb=$("#q-feed");fb.className="qfeed "+(ok?"ok":"bad");fb.textContent=ok?"✓ Correct!":`✗ Not quite — the answer is “${quiz.q.type==="name"?c.name:"the highlighted one"}”.`;
-  $("#q-anslabel").textContent=`Full answer: ${c.name}`;points($("#q-ans"),c.ans);
+  if(ok)quiz.score++;else if(!quiz.missed.includes(c.id))quiz.missed.push(c.id);
+  const fb=$("#q-feed");fb.className="qfeed "+(ok?"ok":"bad");
+  fb.textContent=ok?"✓ Correct!":(q.type==="name"?`✗ Not quite — it's “${c.name}”.`:"✗ Not quite — the right one is highlighted in green.");
+  const cmp=$("#q-cmp");
+  if(q.type==="compare"){
+    const o=byId(q.other);$("#q-anslabel").textContent="How they differ";$("#q-ans").hidden=true;cmp.hidden=false;cmp.innerHTML="";
+    [c,o].forEach(x=>{const d=document.createElement("div");const l=document.createElement("div");l.className="label";l.textContent=x.name;const p=document.createElement("div");points(p,x.ans);d.append(l,p);cmp.appendChild(d)});
+  }else{$("#q-anslabel").textContent=`Full answer: ${c.name}`;$("#q-ans").hidden=false;points($("#q-ans"),c.ans);cmp.hidden=true}
   renderSrc($("#q-src"),c);markDone(c.id);
-  $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.ids.length} · Score ${quiz.score}`;
+  $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.items.length} · Score ${quiz.score}`;
   $("#q-after").hidden=false;$("#q-next").hidden=false;
-  $("#q-next").textContent=quiz.i+1<quiz.ids.length?"Next question →":"See my score →";$("#q-next").focus({preventScroll:true});
+  $("#q-next").textContent=quiz.i+1<quiz.items.length?"Next question →":"See my score →";$("#q-next").focus({preventScroll:true});
 }
-$("#q-next").onclick=()=>{quiz.i++;if(quiz.i<quiz.ids.length)showQuestion();else finishQuiz()};
+$("#q-next").onclick=()=>{quiz.i++;if(quiz.i<quiz.items.length)showQuestion();else finishQuiz()};
 $("#q-end").onclick=()=>finishQuiz();
 function finishQuiz(){
-  const done=quiz.i+(quiz.answered&&quiz.i<quiz.ids.length?1:0),total=Math.max(done,0);
+  const total=Math.min(quiz.items.length,quiz.i+(quiz.answered&&quiz.i<quiz.items.length?1:0));
   $("#q-play").hidden=true;$("#q-done").hidden=false;$("#q-bar").style.width="100%";
-  $("#q-dtitle").textContent=total<quiz.ids.length?`You answered ${total} of ${quiz.ids.length} questions`:`${quiz.label}`;
+  const pname=(PLANS.find(p=>p[0]===quiz.plan)||[,"Quiz"])[1];
+  $("#q-dtitle").textContent=total<quiz.items.length?`You answered ${total} of ${quiz.items.length} questions`:`${pname} · ${quiz.label}`;
   $("#q-score").textContent=total?`${quiz.score}/${total} · ${Math.round(quiz.score/total*100)}%`:"0 answered";
   const mb=$("#q-miss");mb.innerHTML="";
   quiz.missed.forEach(id=>{const c=byId(id);if(c){const sp=document.createElement("span");sp.textContent=c.name;mb.appendChild(sp)}});
   $("#q-missbox").hidden=!quiz.missed.length;$("#q-retry").hidden=!quiz.missed.length;$("#q-markmiss").hidden=!quiz.missed.length;
+  $("#q-markmiss").disabled=false;$("#q-markmiss").textContent="Mark missed as “Totally forgot”";
   $("#q-retry").textContent=`Retry the ${quiz.missed.length} I missed`;
-  if(total&&total===quiz.ids.length){const all=store.get("pr-quizlast",{});all[quiz.label]={score:quiz.score,total};store.set("pr-quizlast",all)}
+  if(total&&total===quiz.items.length&&!/missed$/.test(quiz.label)){const all=store.get("pr-quizlast",{});all[quiz.label+" · "+quiz.plan]={score:quiz.score,total};store.set("pr-quizlast",all)}
   quiz.answered=false;$("#q-close").focus({preventScroll:true});
 }
-$("#q-retry").onclick=()=>startQuiz(quiz.missed,quiz.label+" · missed");
+// retry asks the missed cards again, each in a different way than before
+$("#q-retry").onclick=()=>startQuiz(shuffleArr(quiz.missed.map(id=>({id,type:nextType(id)}))),quiz.label+" · missed",quiz.plan);
 $("#q-markmiss").onclick=()=>{quiz.missed.forEach(id=>{status[id]="forgot"});saveStatus();$("#q-markmiss").textContent="Marked ✓";$("#q-markmiss").disabled=true};
 function closeQuiz(){$("#qscrim").hidden=true;quiz=null;render()}
 $("#q-close").onclick=closeQuiz;
@@ -694,6 +773,7 @@ $("#esheet").addEventListener("submit",async e=>{
   if(!d||!sec||!name||!ans){showErr("Fill in the topic, section, concept name and original answer before saving.");return}
   const card={id:editing||("u"+Date.now().toString(36)),deck:d,sec,name,clues:$("#e-clues").value.split("\n").map(s=>s.trim()).filter(Boolean),ans};
   const prevSrc=editing?cardSrc(byId(editing)):null;if(prevSrc)card.src=prevSrc;
+  const prevSim=editing?(byId(editing).sim||((defaults.find(x=>x.id===editing)||{}).sim)):null;if(prevSim)card.sim=prevSim;
   const next=editing?C.map(c=>c.id===editing?card:c):[...C,card];
   deck=d;store.set("pr-deck",d);
   await commit(next,editing?"Card saved":"Card added");

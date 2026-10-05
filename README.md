@@ -5,7 +5,9 @@ Tap-to-reveal study cards and paraphrase tables for PSY 111 at HELP University.
 Topics: Intro to Psychology (Module 0), Personality 1, Personality 2, Motivation, Emotion, Intelligence.
 
 Modes: **Learning** (read the card, tap Done, then answer from memory), **Test** (answer straight away) and
-**Quiz** (confirm, then every card in the current view as a 4-option question, with score and a retry for missed ones).
+**Quiz** (pick Full / Quick 10 / Compare similar concepts / Ultimate, then 4-option questions with score and a retry for missed ones).
+Each card can be asked 3 ways — name the concept, pick the true statement, or compare it with a similar concept
+(pairs are in `cards.json` as `sim`). Each new quiz rotates the way a card is asked.
 After revealing, mark each card Understand / Not sure / Totally forgot and filter by status to revise weak cards.
 
 - `index.html` — the whole app (no build step)
