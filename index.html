@@ -426,18 +426,19 @@ function renderMode(){
 }
 document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{if(b.dataset.m==="quiz"){openQuizConfirm();return}mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
 
-/* ---- quiz mode: 3 question types per card (name it / true statement / compare similar concepts),
+/* ---- quiz mode: 4 question types per card (name it / choose the description / true statement / compare similar concepts),
    mixed together; each new quiz rotates the type a card gets, so repeat quizzes ask differently ---- */
 let quiz=null;
-const QT=["name","fact","compare"],QTLABEL={name:"Name the concept",fact:"Pick the true statement",compare:"Compare similar concepts"};
+const QT=["name","describe","fact","compare"],QTLABEL={name:"Name the concept",describe:"Choose the description",fact:"Pick the true statement",compare:"Compare similar concepts"};
 const shuffleArr=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const bulletsOf=c=>String(c.ans).split("\n").map(x=>x.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean);
 const usable=b=>b.length>8&&!/^[→…]/.test(b);  // skip continuation fragments like "→ arousal interpreted…"
 const keyOf=n=>n.toLowerCase().replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
+const mentions=(text,name)=>{const n=keyOf(name);return n.length>1&&new RegExp("(?<![a-z])"+n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"(?![a-z])","i").test(text)};
 const words=t=>new Set(t.toLowerCase().match(/[a-z]{4,}/g)||[]);
 function overlap(a,b){const A=words(a),B=words(b);if(!A.size||!B.size)return 0;let n=0;A.forEach(w=>{if(B.has(w))n++});return n/Math.min(A.size,B.size)}
 function maskName(t,name){
-  [name,name.replace(/\s*\(.*?\)\s*/g," ").trim()].filter(x=>x.length>2).forEach(n=>{t=t.replace(new RegExp(n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),"____")});return t;
+  [name,name.replace(/\s*\(.*?\)\s*/g," ").trim()].filter(x=>x.length>1).forEach(n=>{t=t.replace(new RegExp("(?<![A-Za-z])"+n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"(?![A-Za-z])","gi"),"____")});return t;
 }
 function simOf(c){
   const ids=c.sim||((defaults.find(d=>d.id===c.id)||{}).sim)||[];
@@ -462,6 +463,17 @@ function makeQuestion(c,type){
     const names=[];pool.forEach(x=>{const xl=x.name.toLowerCase();if(names.length<3&&xl!==c.name.toLowerCase()&&!stemLow.includes(keyOf(x.name))&&!names.some(n=>n.toLowerCase()===xl))names.push(x.name)});
     if(names.length<3)return null;
     return {type,id:c.id,stemPts,opts:shuffleArr([c.name,...names]),right:c.name};
+  }
+  if(type==="describe"){
+    // a short description (2–3 points) of a card, with names blanked so options can't be matched by keyword
+    const descOf=(x,hide)=>{const out=[];let len=0;for(const b of bulletsOf(x).filter(usable)){if(out.length>=3||(out.length>=2&&len+b.length>170))break;out.push(b);len+=b.length}
+      let t=out.join(" · ");hide.forEach(n=>{t=maskName(t,n)});return out.length?t:null};
+    const right=descOf(c,[c.name]);if(!right||right.replace(/____/g,"").length<20)return null;
+    const outs=[];
+    pool.forEach(x=>{if(outs.length<3){const raw=descOf(x,[]),o=descOf(x,[x.name]);
+      if(o&&raw&&!mentions(raw,c.name)&&o!==right&&!outs.includes(o)&&o.replace(/____/g,"").length>=20&&bulletsOf(x).filter(usable).slice(0,3).every(b=>bs.every(m=>overlap(b,m)<.6)))outs.push(o)}});
+    if(outs.length<3)return null;
+    return {type,id:c.id,opts:shuffleArr([right,...outs]),right};
   }
   if(type==="fact"){
     if(!bs.length)return null;
@@ -496,7 +508,7 @@ function quizScope(){return visible()}
 function scopeText(){
   let t=deck;if(filter!=="all")t+=` · ${filter}`;if(sfilter!=="all")t+=` · ${{forgot:"Totally forgot",unsure:"Not sure",got:"Understand",none:"Not rated"}[sfilter]}`;return t;
 }
-function nextType(id){const rot=store.get("pr-qrot",{});const t=QT[(rot[id]||0)%3];rot[id]=(rot[id]||0)+1;store.set("pr-qrot",rot);return t}
+function nextType(id){const rot=store.get("pr-qrot",{});const t=QT[(rot[id]||0)%QT.length];rot[id]=(rot[id]||0)+1;store.set("pr-qrot",rot);return t}
 function planItems(plan,cards){
   if(plan==="quick")return shuffleArr(cards).slice(0,10).map(c=>({id:c.id,type:nextType(c.id)}));
   if(plan==="full")return shuffleArr(cards.map(c=>({id:c.id,type:nextType(c.id)})));
@@ -506,14 +518,14 @@ function planItems(plan,cards){
 const PLANS=[["full","Full quiz","One question per card, mixed types. Each new quiz asks each card a different way."],
   ["quick","Quick 10","10 random cards, mixed types."],
   ["compare","Compare similar concepts","Tell apart look-alikes, e.g. Id vs Ego, James-Lange vs Cannon-Bard."],
-  ["all","Ultimate","All 3 question types for every card."]];
+  ["all","Ultimate","All 4 question types for every card."]];
 function openQuizConfirm(){
   const cards=quizScope(),n=cards.length;
   $("#qc-body").textContent=n?`From ${scopeText()} (${n} card${n>1?"s":""}). Every question has 4 options. Pick a quiz:`:"There are no cards in this view. Pick another topic or clear the filters first.";
   const box=$("#qc-plans");box.innerHTML="";box.hidden=!n;$("#qc-go").hidden=!n;
   const last=store.get("pr-qplan","full");
   PLANS.forEach(([v,t,d])=>{
-    const cnt={full:n,quick:Math.min(10,n),compare:n,all:n*3}[v];
+    const cnt={full:n,quick:Math.min(10,n),compare:n,all:n*QT.length}[v];
     const lab=document.createElement("label");lab.className="qplan";
     const r=document.createElement("input");r.type="radio";r.name="qplan";r.value=v;r.id="qplan-"+v;r.checked=v===last;
     const tx=document.createElement("span");const b=document.createElement("b");b.textContent=`${t} · ${cnt} question${cnt>1?"s":""}`;
@@ -546,7 +558,8 @@ function showQuestion(){
   if(q.type==="name"){
     stem.append("Which concept is this?");const ul=document.createElement("ul");ul.className="pts";
     q.stemPts.forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});stem.appendChild(ul);
-  }else if(q.type==="fact"){stem.append("Which statement is about ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
+  }else if(q.type==="describe"){stem.append("Which description matches ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
+  else if(q.type==="fact"){stem.append("Which statement is about ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
   else{const o=byId(q.other);stem.append("Which describes ");const b1=document.createElement("b");b1.textContent=c.name;const b2=document.createElement("b");b2.textContent=o.name;stem.append(b1," — not ",b2,"?")}
   const box=$("#q-opts");box.innerHTML="";
   q.opts.forEach((o,k)=>{

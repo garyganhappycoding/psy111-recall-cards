@@ -6,7 +6,8 @@ Topics: Intro to Psychology (Module 0), Personality 1, Personality 2, Motivation
 
 Modes: **Learning** (read the card, tap Done, then answer from memory), **Test** (answer straight away) and
 **Quiz** (pick Full / Quick 10 / Compare similar concepts / Ultimate, then 4-option questions with score and a retry for missed ones).
-Each card can be asked 3 ways — name the concept, pick the true statement, or compare it with a similar concept
+Each card can be asked 4 ways — name the concept from its description, choose the description for a given concept,
+pick the true statement, or compare it with a similar concept
 (pairs are in `cards.json` as `sim`). Each new quiz rotates the way a card is asked. Wrong options are taken from the
 same lecture slide first, then neighbouring slides (±2), to make them harder.
 After revealing, mark each card Understand / Not sure / Totally forgot and filter by status to revise weak cards.
