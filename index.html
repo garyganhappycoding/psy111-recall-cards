@@ -155,6 +155,24 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .hist .meta .st{position:static}
 .hist .txt{font-size:14px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}
 .saved-note{font-size:12px;color:var(--ok)}
+.qhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.qprog{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.qbar{height:5px;border-radius:3px;background:var(--line);overflow:hidden}.qbar i{display:block;height:100%;background:var(--accent);width:0;transition:width .25s}
+.qstem{font-size:17px;line-height:1.45;font-weight:600}
+.qstem .pts{font-weight:400;font-size:15px;margin-top:10px}
+.qstem b{color:var(--accent)}
+.qopts{display:flex;flex-direction:column;gap:8px}
+.qopt{all:unset;cursor:pointer;display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper);font-size:15px;line-height:1.4;overflow-wrap:anywhere}
+.qopt:hover:not([disabled]){border-color:var(--accent)}
+.qopt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.qopt .key{flex-shrink:0;width:24px;height:24px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:12px;background:var(--bg);color:var(--muted)}
+.qopt.right{border-color:var(--ok);background:var(--ok-bg)}.qopt.right .key{background:var(--ok);color:var(--paper)}
+.qopt.wrong{border-color:var(--bad);background:var(--bad-bg)}.qopt.wrong .key{background:var(--bad);color:var(--paper)}
+.qopt[disabled]{cursor:default}
+.qfeed{font-weight:600;font-size:15px}.qfeed.ok{color:var(--ok)}.qfeed.bad{color:var(--bad)}
+.qscore{font-family:var(--display);font-size:64px;line-height:1}
+.qmiss{display:flex;flex-wrap:wrap;gap:6px}
+.qmiss span{font-size:13px;padding:5px 10px;border-radius:999px;background:var(--bad-bg);color:var(--bad)}
 .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
 
@@ -195,7 +213,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   </div>
 
   <section id="view-cards">
-    <div class="modebar"><div class="seg" role="group" aria-label="Study mode" id="modeseg"><button data-m="learn">Learning mode</button><button data-m="test">Test mode</button></div><span class="modehint" id="modehint"></span></div>
+    <div class="modebar"><div class="seg" role="group" aria-label="Study mode" id="modeseg"><button data-m="learn">Learning mode</button><button data-m="test">Test mode</button><button data-m="quiz">Quiz mode</button></div><span class="modehint" id="modehint"></span></div>
     <div class="toolbar" id="filters"></div>
     <div class="toolbar sub2" id="sfilters"></div>
     <div id="groups"></div>
@@ -234,6 +252,43 @@ td.orig .btn{font-size:12px;padding:5px 10px}
         <button class="btn" id="s-edit">Edit</button>
         <button class="btn" id="s-close">Close</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- quiz: confirm -->
+<div class="scrim" id="qcscrim" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="qc-title" style="--c:var(--accent);--cbg:var(--bg)">
+    <div class="sheet-in">
+      <div><div class="tag">Quiz mode</div><h3 id="qc-title">Start the quiz?</h3></div>
+      <p id="qc-body" style="margin:0"></p>
+      <span class="hint" id="qc-last"></span>
+      <div class="sheet-foot"><button class="btn primary" id="qc-go">Start quiz</button><button class="btn" id="qc-cancel">Cancel</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- quiz: questions -->
+<div class="scrim" id="qscrim" hidden>
+  <div class="sheet" id="qsheet" role="dialog" aria-modal="true" aria-labelledby="q-stem" style="--c:var(--accent);--cbg:var(--bg)">
+    <div class="sheet-in" id="q-play">
+      <div class="qhead"><div class="tag" id="q-tag">Quiz</div><span class="qprog" id="q-prog"></span></div>
+      <div class="qbar"><i id="q-bar"></i></div>
+      <div class="qstem" id="q-stem"></div>
+      <div class="qopts" id="q-opts"></div>
+      <div id="q-after" class="field" hidden>
+        <div class="qfeed" id="q-feed" aria-live="polite"></div>
+        <div class="label" id="q-anslabel"></div>
+        <div class="answer" id="q-ans"></div>
+        <div class="src" id="q-src" hidden></div>
+      </div>
+      <div class="sheet-foot"><button class="btn primary" id="q-next" hidden>Next question →</button><span class="spacer"></span><button class="btn" id="q-end">End quiz</button></div>
+    </div>
+    <div class="sheet-in" id="q-done" hidden>
+      <div><div class="tag">Quiz finished</div><h3 id="q-dtitle"></h3></div>
+      <div class="qscore" id="q-score"></div>
+      <div id="q-missbox" class="field"><div class="label">Ones to revise</div><div class="qmiss" id="q-miss"></div></div>
+      <div class="sheet-foot"><button class="btn primary" id="q-retry">Retry the ones I missed</button><button class="btn" id="q-markmiss">Mark missed as “Totally forgot”</button><span class="spacer"></span><button class="btn" id="q-close">Close</button></div>
     </div>
   </div>
 </div>
@@ -354,9 +409,113 @@ function statusChips(el){
 }
 function renderMode(){
   document.querySelectorAll("#modeseg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===mode));
-  $("#modehint").textContent=mode==="learn"?"Tap a card to read it first, then tap Done to flip it and answer from memory.":"Tap a card and answer straight away from the clues.";
+  $("#modehint").textContent=mode==="learn"?"Tap a card to read it first, then tap Done to flip it and answer from memory. Quiz mode tests you on every card with 4 options.":"Tap a card and answer straight away from the clues. Quiz mode tests you on every card with 4 options.";
 }
-document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
+document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{if(b.dataset.m==="quiz"){openQuizConfirm();return}mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
+
+/* ---- quiz mode: every card in the current topic (and filters) as a 4-option question ---- */
+let quiz=null;
+const shuffleArr=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const bulletsOf=c=>String(c.ans).split("\n").map(x=>x.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean);
+function maskName(t,name){
+  const forms=[name,name.replace(/\s*\(.*?\)\s*/g," ").trim()].filter(x=>x.length>2);
+  forms.forEach(n=>{t=t.replace(new RegExp(n.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),"____")});return t;
+}
+function quizScope(){return visible()}
+function scopeText(){
+  let t=deck;if(filter!=="all")t+=` · ${filter}`;if(sfilter!=="all")t+=` · ${{forgot:"Totally forgot",unsure:"Not sure",got:"Understand",none:"Not rated"}[sfilter]}`;return t;
+}
+function openQuizConfirm(){
+  const n=quizScope().length;
+  $("#qc-body").textContent=n?`${n} question${n>1?"s":""} from ${scopeText()}. Each question has 4 options — pick one to see if you're right, then read the full answer and the slide it comes from.`:"There are no cards in this view. Pick another topic or clear the filters first.";
+  $("#qc-go").hidden=!n;
+  const last=store.get("pr-quizlast",{})[scopeText()];
+  $("#qc-last").textContent=last?`Last time: ${last.score}/${last.total} (${Math.round(last.score/last.total*100)}%)`:"Tip: use the section or status filters first to quiz only part of a topic.";
+  $("#qcscrim").hidden=false;$("#qc-go").focus();
+}
+$("#qc-cancel").onclick=()=>{$("#qcscrim").hidden=true};
+$("#qcscrim").onclick=e=>{if(e.target.id==="qcscrim")$("#qcscrim").hidden=true};
+$("#qc-go").onclick=()=>{$("#qcscrim").hidden=true;startQuiz(quizScope().map(c=>c.id),scopeText())};
+function distractorPool(c){
+  const same=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec===c.sec));
+  const deckRest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec!==c.sec));
+  const rest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck!==c.deck));
+  return [...same,...deckRest,...rest];
+}
+function makeQuestion(c){
+  const pool=distractorPool(c),bs=bulletsOf(c);
+  const type=(bs.length&&Math.random()<.5)?"fact":"name";
+  if(type==="name"){
+    const stemPts=bs.slice(0,3).map(b=>maskName(b,c.name)),stemLow=stemPts.join(" ").toLowerCase();
+    const names=[];pool.forEach(x=>{const xl=x.name.toLowerCase();
+      // skip names that appear in the clue text (they'd be confusing) and duplicates
+      if(names.length<3&&xl!==c.name.toLowerCase()&&!stemLow.includes(xl)&&!names.some(n=>n.toLowerCase()===xl))names.push(x.name)});
+    return {type,stemPts,opts:shuffleArr([c.name,...names]),right:c.name};
+  }
+  const longest=arr=>[...arr].sort((a,b)=>b.length-a.length)[0];
+  const right=longest(bs.slice(0,4));const outs=[];
+  const key=c.name.toLowerCase().replace(/\s*\(.*?\)\s*/g,"").trim();
+  // a wrong option must not mention this concept, and must not come from a card this answer mentions
+  pool.forEach(x=>{if(outs.length<3){const b=bulletsOf(x);if(b.length){const o=longest(b.slice(0,4));
+    if(o&&o!==right&&!outs.includes(o)&&!o.toLowerCase().includes(key)&&!c.ans.toLowerCase().includes(x.name.toLowerCase()))outs.push(o)}}});
+  return {type,opts:shuffleArr([right,...outs]),right};
+}
+function startQuiz(ids,label){
+  quiz={ids:shuffleArr(ids),i:0,score:0,missed:[],label};
+  $("#q-play").hidden=false;$("#q-done").hidden=true;$("#qscrim").hidden=false;showQuestion();
+}
+function showQuestion(){
+  const c=byId(quiz.ids[quiz.i]);if(!c){quiz.i++;return quiz.i<quiz.ids.length?showQuestion():finishQuiz()}
+  const q=makeQuestion(c);quiz.q=q;quiz.answered=false;
+  $("#q-tag").textContent=`Quiz · ${quiz.label}`;
+  $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.ids.length} · Score ${quiz.score}`;
+  $("#q-bar").style.width=(quiz.i/quiz.ids.length*100)+"%";
+  const stem=$("#q-stem");stem.innerHTML="";
+  if(q.type==="name"){
+    stem.append("Which concept is this?");const ul=document.createElement("ul");ul.className="pts";
+    q.stemPts.forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});stem.appendChild(ul);
+  }else{stem.append("Which statement is about ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
+  const box=$("#q-opts");box.innerHTML="";
+  q.opts.forEach((o,k)=>{
+    const btn=document.createElement("button");btn.className="qopt";btn.dataset.v=o;
+    const key=document.createElement("span");key.className="key";key.textContent="ABCD"[k];
+    const tx=document.createElement("span");tx.textContent=o;btn.append(key,tx);
+    btn.onclick=()=>answerQuiz(btn);box.appendChild(btn);
+  });
+  $("#q-after").hidden=true;$("#q-next").hidden=true;
+  $("#qsheet").scrollTop=0;box.querySelector(".qopt").focus({preventScroll:true});
+}
+function answerQuiz(btn){
+  if(quiz.answered)return;quiz.answered=true;
+  const c=byId(quiz.ids[quiz.i]),ok=btn.dataset.v===quiz.q.right;
+  document.querySelectorAll("#q-opts .qopt").forEach(b=>{b.disabled=true;if(b.dataset.v===quiz.q.right)b.classList.add("right")});
+  if(!ok)btn.classList.add("wrong");
+  if(ok)quiz.score++;else quiz.missed.push(c.id);
+  const fb=$("#q-feed");fb.className="qfeed "+(ok?"ok":"bad");fb.textContent=ok?"✓ Correct!":`✗ Not quite — the answer is “${quiz.q.type==="name"?c.name:"the highlighted one"}”.`;
+  $("#q-anslabel").textContent=`Full answer: ${c.name}`;points($("#q-ans"),c.ans);
+  renderSrc($("#q-src"),c);markDone(c.id);
+  $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.ids.length} · Score ${quiz.score}`;
+  $("#q-after").hidden=false;$("#q-next").hidden=false;
+  $("#q-next").textContent=quiz.i+1<quiz.ids.length?"Next question →":"See my score →";$("#q-next").focus({preventScroll:true});
+}
+$("#q-next").onclick=()=>{quiz.i++;if(quiz.i<quiz.ids.length)showQuestion();else finishQuiz()};
+$("#q-end").onclick=()=>finishQuiz();
+function finishQuiz(){
+  const done=quiz.i+(quiz.answered&&quiz.i<quiz.ids.length?1:0),total=Math.max(done,0);
+  $("#q-play").hidden=true;$("#q-done").hidden=false;$("#q-bar").style.width="100%";
+  $("#q-dtitle").textContent=total<quiz.ids.length?`You answered ${total} of ${quiz.ids.length} questions`:`${quiz.label}`;
+  $("#q-score").textContent=total?`${quiz.score}/${total} · ${Math.round(quiz.score/total*100)}%`:"0 answered";
+  const mb=$("#q-miss");mb.innerHTML="";
+  quiz.missed.forEach(id=>{const c=byId(id);if(c){const sp=document.createElement("span");sp.textContent=c.name;mb.appendChild(sp)}});
+  $("#q-missbox").hidden=!quiz.missed.length;$("#q-retry").hidden=!quiz.missed.length;$("#q-markmiss").hidden=!quiz.missed.length;
+  $("#q-retry").textContent=`Retry the ${quiz.missed.length} I missed`;
+  if(total&&total===quiz.ids.length){const all=store.get("pr-quizlast",{});all[quiz.label]={score:quiz.score,total};store.set("pr-quizlast",all)}
+  quiz.answered=false;$("#q-close").focus({preventScroll:true});
+}
+$("#q-retry").onclick=()=>startQuiz(quiz.missed,quiz.label+" · missed");
+$("#q-markmiss").onclick=()=>{quiz.missed.forEach(id=>{status[id]="forgot"});saveStatus();$("#q-markmiss").textContent="Marked ✓";$("#q-markmiss").disabled=true};
+function closeQuiz(){$("#qscrim").hidden=true;quiz=null;render()}
+$("#q-close").onclick=closeQuiz;
 
 function updateProgress(){
   const items=inDeck();const n=items.filter(c=>done.has(c.id)).length;
@@ -630,6 +789,13 @@ $("#asheet").addEventListener("submit",async e=>{
 
 document.addEventListener("keydown",e=>{
   if(!$("#lbox").hidden){if(e.key==="Escape")$("#lbox").hidden=true;return}
+  if(!$("#qcscrim").hidden){if(e.key==="Escape")$("#qcscrim").hidden=true;return}
+  if(!$("#qscrim").hidden){
+    if(!$("#q-play").hidden){const i="1234".indexOf(e.key)>=0?"1234".indexOf(e.key):"abcd".indexOf(e.key.toLowerCase());
+      if(i>=0&&!quiz.answered){const b=document.querySelectorAll("#q-opts .qopt")[i];if(b)b.click();return}
+      if((e.key==="Enter"||e.key==="ArrowRight")&&quiz.answered){e.preventDefault();$("#q-next").click();return}}
+    if(e.key==="Escape"&&!$("#q-done").hidden)closeQuiz();
+    return}
   if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
   if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();if(e.target.tagName==="TEXTAREA")return;
   if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}
