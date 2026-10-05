@@ -445,12 +445,14 @@ function simOf(c){
   if(!out.length){const sec=C.filter(x=>x.deck===c.deck&&x.sec===c.sec&&x.id!==c.id);const i=C.indexOf(c);out=sec.sort((x,y)=>Math.abs(C.indexOf(x)-i)-Math.abs(C.indexOf(y)-i)).slice(0,1)}
   return out;
 }
+// how far apart two cards' source slides are (0 = same slide, 99 = different deck/unknown)
+function slideDist(a,b){const s1=cardSrc(a),s2=cardSrc(b);if(!s1||!s2||s1.f!==s2.f)return 99;let m=99;s1.p.forEach(x=>s2.p.forEach(y=>{m=Math.min(m,Math.abs(x-y))}));return m}
 function distractorPool(c){
-  const sims=simOf(c).filter(x=>x.id!==c.id);
-  const same=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec===c.sec&&!sims.includes(x)));
-  const deckRest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck===c.deck&&x.sec!==c.sec&&!sims.includes(x)));
-  const rest=shuffleArr(C.filter(x=>x.id!==c.id&&x.deck!==c.deck));
-  return [...shuffleArr(sims),...same,...deckRest,...rest];   // similar concepts first = harder, more useful options
+  // hardest first: same slide → neighbouring slides (±2) → similar concepts → same section → same topic → elsewhere
+  const others=C.filter(x=>x.id!==c.id),sims=new Set(simOf(c).map(x=>x.id)),tiers=[[],[],[],[],[],[]];
+  others.forEach(x=>{const d=slideDist(c,x);
+    tiers[d===0?0:d<=2?1:sims.has(x.id)?2:(x.deck===c.deck&&x.sec===c.sec)?3:x.deck===c.deck?4:5].push(x)});
+  return tiers.flatMap(t=>shuffleArr(t));
 }
 function makeQuestion(c,type){
   const bs=bulletsOf(c),pool=distractorPool(c),k=keyOf(c.name);
