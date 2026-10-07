@@ -202,6 +202,26 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 .acct{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:8px;margin-top:10px;font-size:12px;color:var(--muted);font-family:var(--body)}
 .acct .who{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .note{color:var(--muted);font-size:13px;margin:0 0 12px}
+/* spin wheel */
+.spin{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,320px);gap:24px;align-items:start}
+@media (max-width:760px){.spin{grid-template-columns:1fr}}
+.wheelbox{position:relative;width:100%;max-width:520px;margin:0 auto;aspect-ratio:1}
+.wheelbox svg{width:100%;height:100%;display:block}
+#wheel-rot{transform-origin:0 0;transition:transform 4.2s cubic-bezier(.12,.7,.1,1)}
+.wheelbox .pin{position:absolute;left:50%;top:-6px;transform:translateX(-50%);width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:24px solid var(--ink);filter:drop-shadow(0 2px 2px rgba(0,0,0,.25));z-index:2}
+.wheelbox .hub{all:unset;cursor:pointer;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:22%;aspect-ratio:1;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-size:clamp(18px,3.4vw,26px);box-shadow:0 0 0 6px var(--paper),0 6px 18px rgba(0,0,0,.25)}
+.wheelbox .hub:focus-visible{outline:3px solid var(--accent);outline-offset:6px}
+.wheelbox .hub[disabled]{cursor:default;opacity:.85}
+.seglabel{font-family:var(--body);fill:var(--ink)}
+.seg-spun path{opacity:.35}.seg-spun text{opacity:.4}
+.spinside{display:flex;flex-direction:column;gap:14px}
+.spinres{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--c,var(--accent));border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.spinres h3{font-family:var(--display);font-weight:400;font-size:30px;line-height:1.1;margin:0;text-wrap:balance}
+.spinres .acts{display:flex;flex-direction:column;gap:8px}
+.spinres .acts .btn{padding:11px 14px;text-align:left}
+.spinres .acts .btn small{display:block;font-weight:400;color:inherit;opacity:.8;font-size:12px;margin-top:2px}
+.spinopts{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:8px}
+.spinopts label{display:flex;gap:8px;align-items:flex-start}.spinopts input{accent-color:var(--accent);margin-top:3px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
@@ -220,6 +240,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   <div class="views" role="tablist">
     <button role="tab" id="tab-cards" aria-selected="true">Concept cards</button>
     <button role="tab" id="tab-table" aria-selected="false">Paraphrase table</button>
+    <button role="tab" id="tab-spin" aria-selected="false">Spin wheel</button>
   </div>
 
   <section id="view-cards">
@@ -234,6 +255,21 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div class="toolbar" id="filters2"></div>
     <div class="toolbar sub2" id="sfilters2"></div>
     <div class="tablewrap"><table><thead><tr><th>Concept</th><th>Clues</th><th>Your paraphrase</th><th>Original</th></tr></thead><tbody id="tbody"></tbody></table></div>
+  </section>
+
+  <section id="view-spin" hidden>
+    <p class="note">Spin the wheel and explain whatever concept it lands on. Read the slide first if you need a refresher, or explain it straight from memory.</p>
+    <div class="toolbar" id="filters3"></div>
+    <div class="toolbar sub2" id="sfilters3"></div>
+    <div class="spin">
+      <div class="wheelbox"><span class="pin" aria-hidden="true"></span><svg id="wheel" viewBox="-210 -210 420 420" role="img" aria-label="Spin wheel of concepts"></svg><button class="hub" id="spin-hub">Spin</button></div>
+      <div class="spinside">
+        <div class="spinres" id="spin-res" aria-live="polite"><div class="tag" id="spin-tag">Ready</div><h3 id="spin-name">Tap Spin to pick a concept</h3><span class="hint" id="spin-meta"></span><div class="acts" id="spin-acts" hidden>
+          <button class="btn" id="spin-read">Read the slide first<small>Look at the slide and notes, then explain from memory</small></button>
+          <button class="btn primary" id="spin-explain">Explain directly<small>Explain it in your own words, then check the answer</small></button></div></div>
+        <div class="spinopts"><label><input type="checkbox" id="spin-norep" checked> Don't repeat a concept until every one on the wheel has come up</label><span id="spin-left"></span></div>
+      </div>
+    </div>
   </section>
 </div>
 
@@ -257,6 +293,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
         <button class="btn primary" id="s-reveal">Reveal answer</button>
         <button class="btn" id="s-prev">← Prev</button>
         <button class="btn" id="s-next">Next →</button>
+        <button class="btn" id="s-spin" hidden>↻ Spin again</button>
         <span class="spacer"></span>
         <span class="count" id="s-count"></span>
         <button class="btn" id="s-edit">Edit</button>
@@ -619,7 +656,7 @@ function updateProgress(){
 function render(){
   if(!decks().includes(deck))deck=decks()[0]||DECK_ORDER[0];
   if(filter!=="all"&&!sections(deck).includes(filter))filter="all";
-  renderTopics();chips($("#filters"));chips($("#filters2"));statusChips($("#sfilters"));statusChips($("#sfilters2"));renderMode();
+  renderTopics();chips($("#filters"));chips($("#filters2"));chips($("#filters3"));statusChips($("#sfilters"));statusChips($("#sfilters2"));statusChips($("#sfilters3"));renderMode();if(!$("#view-spin").hidden)renderWheel();
   const g=$("#groups");g.innerHTML="";
   if(!visible().length){g.innerHTML=sfilter!=="all"?'<div class="empty">No cards with this status here. Pick another status filter, or tap All.</div>':'<div class="empty">No cards here yet. Tap "+ New card" to add one.</div>'}
   sections(deck).forEach(sec=>{
@@ -658,7 +695,7 @@ function showFace(f,animate){
   face=f;const learn=f==="learn";setClues(false);
   if(learn)renderSrc($("#s-src1"),byId(cur));else $("#s-src1").hidden=true;$("#s-src2").hidden=true;
   $("#s-learn").hidden=!learn;$("#s-test").hidden=learn;
-  $("#s-step").textContent=learn?"Step 1 · Read":(mode==="learn"?"Step 2 · Answer from memory":"Test");
+  $("#s-step").textContent=spinCtx?(learn?"Step 1 · Read the slide":"Explain it in your own words"):learn?"Step 1 · Read":(mode==="learn"?"Step 2 · Answer from memory":"Test");
   $("#s-reveal").textContent=learn?"Done, test me →":($("#s-answer").classList.contains("hidden")?"Reveal answer":"Hide answer");
   if(animate){const p=$("#sheet .sheet-in");p.classList.remove("flip");void p.offsetWidth;p.classList.add("flip")}
   if(!learn)$("#s-try").focus({preventScroll:true});
@@ -727,7 +764,9 @@ function renderHist(){
   });
 }
 function paintRate(){document.querySelectorAll("#s-rate button").forEach(b=>b.setAttribute("aria-pressed",status[cur]===b.dataset.s))}
-function openCard(id){
+let spinCtx=false;
+function openCard(id,opt){
+  opt=opt||{};spinCtx=!!opt.spin;
   const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
   $("#sheet").style.cssText=colorVars(c);
   $("#s-tag").textContent=`${c.deck} · ${c.sec}`;$("#s-name").textContent=c.name;
@@ -736,12 +775,15 @@ function openCard(id){
   const a=$("#s-answer");points(a,c.ans);a.classList.add("hidden");a.setAttribute("aria-hidden","true");
   $("#s-rate").hidden=!status[id];paintRate();$("#s-savednote").hidden=true;$("#s-hist").open=false;$("#s-hist").hidden=true;
   $("#s-try").value=drafts[c.id]||"";
-  $("#s-count").textContent=idx>=0?`${idx+1} / ${list.length}`:"";
-  $("#scrim").hidden=false;showFace(mode==="learn"?"learn":"test",false);
-  if(mode==="learn")$("#s-reveal").focus({preventScroll:true});
+  $("#s-count").textContent=!spinCtx&&idx>=0?`${idx+1} / ${list.length}`:"";
+  $("#s-prev").hidden=$("#s-next").hidden=spinCtx;$("#s-spin").hidden=!spinCtx;
+  const f=opt.face||(mode==="learn"?"learn":"test");
+  $("#scrim").hidden=false;showFace(f,false);
+  if(f==="learn")$("#s-reveal").focus({preventScroll:true});
 }
-function step(d){const list=visible();if(!list.length)return;let i=list.findIndex(x=>x.id===cur);i=(i+d+list.length)%list.length;openCard(list[i].id)}
-function closeCard(){$("#scrim").hidden=true;render()}
+function step(d){if(spinCtx)return;const list=visible();if(!list.length)return;let i=list.findIndex(x=>x.id===cur);i=(i+d+list.length)%list.length;openCard(list[i].id)}
+function closeCard(){$("#scrim").hidden=true;spinCtx=false;render()}
+$("#s-spin").onclick=()=>{closeCard();spinWheel()};
 $("#s-reveal").onclick=()=>{
   if(face==="learn"){markDone(cur);showFace("test",true);return}
   const a=$("#s-answer");const h=a.classList.toggle("hidden");a.setAttribute("aria-hidden",h);$("#s-reveal").textContent=h?"Reveal answer":"Hide answer";
@@ -897,8 +939,67 @@ document.addEventListener("keydown",e=>{
   if((e.key==="c"||e.key==="C")&&!$("#s-cluebtn").hidden)$("#s-cluebtn").click();
   if(!$("#s-rate").hidden&&["1","2","3"].includes(e.key))document.querySelectorAll("#s-rate button")[+e.key-1].click()});
 
-function view(v){const cards=v==="cards";$("#view-cards").hidden=!cards;$("#view-table").hidden=cards;$("#tab-cards").setAttribute("aria-selected",cards);$("#tab-table").setAttribute("aria-selected",!cards);render()}
-$("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");
+function view(v){["cards","table","spin"].forEach(k=>{$("#view-"+k).hidden=k!==v;$("#tab-"+k).setAttribute("aria-selected",k===v)});render()}
+$("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");$("#tab-spin").onclick=()=>view("spin");
+
+/* spin wheel: lands on a concept from the current topic (respects section + status filters) */
+let wheelRot=0,spinning=false,spinPick=null,wheelKey="";
+const spun=store.get("pr-spun",{}); // {deck: [ids already landed]}
+function wheelPool(){return visible()}
+function spunSet(){return new Set(spun[deck]||[])}
+function renderWheel(){
+  if(spinning)return;
+  const pool=wheelPool(),svg=$("#wheel"),n=pool.length,R=200,ss=spunSet();
+  const key=deck+"|"+pool.map(c=>c.id).join(",");
+  if(key!==wheelKey){wheelKey=key;if(spinPick&&!pool.some(c=>c.id===spinPick))resetSpinResult()}
+  if(!n){svg.innerHTML=`<circle r="${R}" fill="var(--paper)" stroke="var(--line)"/><text text-anchor="middle" y="-120" class="seglabel" font-size="14" fill="var(--muted)">No concepts match these filters</text>`;$("#spin-hub").disabled=true;$("#spin-left").textContent="";return}
+  $("#spin-hub").disabled=spinning;
+  const a=2*Math.PI/n, fs=n>36?9.5:n>24?11:n>14?12.5:14, maxch=Math.floor(120/(fs*.58));
+  let h=`<g id="wheel-rot" style="transform:rotate(${wheelRot}deg)">`;
+  pool.forEach((c,i)=>{
+    const a0=i*a-Math.PI/2,a1=a0+a,mid=a0+a/2,v=SLOTS[Math.max(0,sections(deck).indexOf(c.sec))%SLOTS.length];
+    const p=n===1?`M0 0m-${R} 0a${R} ${R} 0 1 0 ${2*R} 0a${R} ${R} 0 1 0 -${2*R} 0`:`M0 0L${R*Math.cos(a0)} ${R*Math.sin(a0)}A${R} ${R} 0 0 1 ${R*Math.cos(a1)} ${R*Math.sin(a1)}Z`;
+    const label=c.name.length>maxch?c.name.slice(0,maxch-1).trim()+"…":c.name, deg=mid*180/Math.PI;
+    h+=`<g class="${ss.has(c.id)?"seg-spun":""}"><path d="${p}" fill="var(${v}-bg)" stroke="var(--paper)" stroke-width="1.5"/>`+
+       `<path d="M${(R-7)*Math.cos(a0)} ${(R-7)*Math.sin(a0)}A${R-7} ${R-7} 0 0 1 ${(R-7)*Math.cos(a1)} ${(R-7)*Math.sin(a1)}" fill="none" stroke="var(${v})" stroke-width="8"/>`+
+       `<text class="seglabel" font-size="${fs}" transform="rotate(${deg}) translate(${R-16} 0)" text-anchor="end" dominant-baseline="central">${esc(label)}</text></g>`;
+  });
+  h+=`</g><circle r="${R}" fill="none" stroke="var(--line)" stroke-width="2"/>`;
+  svg.innerHTML=h;
+  const left=n-pool.filter(c=>ss.has(c.id)).length;
+  $("#spin-left").textContent=$("#spin-norep").checked?`${left} of ${n} concepts left before the wheel repeats.`:`${n} concepts on the wheel.`;
+}
+function resetSpinResult(){spinPick=null;$("#spin-res").style.cssText="";$("#spin-tag").textContent="Ready";$("#spin-name").textContent="Tap Spin to pick a concept";$("#spin-meta").textContent="";$("#spin-acts").hidden=true}
+function spinWheel(){
+  const pool=wheelPool();if(spinning||!pool.length)return;
+  const ss=spunSet();let cand=pool;
+  if($("#spin-norep").checked){cand=pool.filter(c=>!ss.has(c.id));if(!cand.length){spun[deck]=[];store.set("pr-spun",spun);cand=pool;renderWheel()}}
+  const pick=cand[Math.floor(Math.random()*cand.length)],i=pool.indexOf(pick),n=pool.length,seg=360/n;
+  const centre=(i+.5)*seg+(Math.random()-.5)*seg*.6;          // angle clockwise from the top
+  const target=-centre, cur=((wheelRot%360)+360)%360;
+  wheelRot+=((target-cur)%360+360)%360+360*5;
+  spinning=true;$("#spin-hub").disabled=true;resetSpinResult();$("#spin-tag").textContent="Spinning…";$("#spin-name").textContent="…";
+  const g=$("#wheel-rot");g.style.transform=`rotate(${wheelRot}deg)`;
+  const fin=()=>{if(!spinning)return;spinning=false;landOn(pick)};
+  const still=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(still)setTimeout(fin,50);else{g.addEventListener("transitionend",fin,{once:true});setTimeout(fin,4600)}
+}
+function landOn(c){
+  spinPick=c.id;
+  if($("#spin-norep").checked){const l=spun[deck]||(spun[deck]=[]);if(!l.includes(c.id))l.push(c.id);store.set("pr-spun",spun)}
+  renderWheel();$("#spin-hub").disabled=false;
+  $("#spin-res").style.cssText=colorVars(c);
+  $("#spin-tag").textContent=c.sec;$("#spin-name").textContent=c.name;
+  const st=status[c.id],na=(attempts[c.id]||[]).length;
+  $("#spin-meta").textContent=[st?`Last rated: ${ST[st]}`:"Not rated yet",na?`${na} previous answer${na>1?"s":""} saved`:""].filter(Boolean).join(" · ");
+  $("#spin-acts").hidden=false;$("#spin-explain").focus({preventScroll:true});
+  const r=$("#spin-res").getBoundingClientRect();if(r.bottom>innerHeight)$("#spin-res").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+$("#spin-hub").onclick=spinWheel;
+$("#spin-read").onclick=()=>{if(spinPick)openCard(spinPick,{spin:true,face:"learn"})};
+$("#spin-explain").onclick=()=>{if(spinPick)openCard(spinPick,{spin:true,face:"test"})};
+$("#spin-norep").onchange=()=>{store.set("pr-spin-norep",$("#spin-norep").checked);renderWheel()};
+$("#spin-norep").checked=store.get("pr-spin-norep",true);
 
 (async function boot(){
   try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;defaults=await r.json()}catch(e){defaults=[];setStatus("Couldn't load the card deck.")}
