@@ -3404,5 +3404,1085 @@
   "sim": [
    "n83"
   ]
+ },
+ {
+  "id": "l1",
+  "deck": "Learning 1",
+  "sec": "Basics",
+  "name": "Learning",
+  "clues": [
+   "relatively permanent",
+   "experience or practice",
+   "not maturation"
+  ],
+  "ans": "Any relatively permanent change in behaviour\nBrought about by experience or practice\nPart of the brain is physically changed to record what was learned\nNot all change is learning: some is maturation (e.g. learning to walk)",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    4
+   ]
+  }
+ },
+ {
+  "id": "l2",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Ivan Pavlov",
+  "clues": [
+   "Russian physiologist",
+   "digestion in dogs"
+  ],
+  "ans": "Russian physiologist\nDiscovered classical conditioning through his work on digestion in dogs",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    6,
+    11
+   ]
+  },
+  "sim": [
+   "l3"
+  ]
+ },
+ {
+  "id": "l3",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Classical conditioning",
+  "clues": [
+   "involuntary response",
+   "stimulus other than the natural one"
+  ],
+  "ans": "Learning to make an involuntary response\nTo a stimulus other than the original, natural stimulus that normally produces the response",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "l23"
+  ]
+ },
+ {
+  "id": "l4",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Reflex",
+  "clues": [
+   "unlearned",
+   "involuntary"
+  ],
+  "ans": "An unlearned, involuntary response",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "l7"
+  ]
+ },
+ {
+  "id": "l5",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Neutral stimulus (NS)",
+  "clues": [
+   "no response at first",
+   "metronome before conditioning"
+  ],
+  "ans": "A stimulus that produces no reflex response at first\nE.g. the metronome before conditioning: no salivation\nCan become a conditioned stimulus when paired with the UCS",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    7,
+    9,
+    11
+   ]
+  },
+  "sim": [
+   "l8"
+  ]
+ },
+ {
+  "id": "l6",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Unconditioned stimulus (UCS)",
+  "clues": [
+   "naturally occurring",
+   "food for the dog"
+  ],
+  "ans": "A naturally occurring stimulus\nLeads to an involuntary and unlearned response\nE.g. food",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    8,
+    11
+   ]
+  },
+  "sim": [
+   "l8",
+   "l7"
+  ]
+ },
+ {
+  "id": "l7",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Unconditioned response (UCR)",
+  "clues": [
+   "unlearned",
+   "response to food"
+  ],
+  "ans": "An involuntary and unlearned response\nTo a naturally occurring (unconditioned) stimulus\nE.g. salivation to food",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    8,
+    11
+   ]
+  },
+  "sim": [
+   "l9",
+   "l6"
+  ]
+ },
+ {
+  "id": "l8",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Conditioned stimulus (CS)",
+  "clues": [
+   "paired with the UCS",
+   "\"conditioned\" = learned"
+  ],
+  "ans": "Stimulus that produces a learned response\nBecause it has been paired with the original unconditioned stimulus\nA neutral stimulus becomes the CS after pairing",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    9,
+    11
+   ]
+  },
+  "sim": [
+   "l6",
+   "l5"
+  ]
+ },
+ {
+  "id": "l9",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Conditioned response (CR)",
+  "clues": [
+   "learned",
+   "reflex-like",
+   "recess bell"
+  ],
+  "ans": "Learned, reflex-like response to a conditioned stimulus\nSometimes called a conditioned reflex\nE.g. salivating when students hear the recess bell ring",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    9,
+    11
+   ]
+  },
+  "sim": [
+   "l7"
+  ]
+ },
+ {
+  "id": "l10",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Acquisition",
+  "clues": [
+   "repeated pairing",
+   "NS + UCS"
+  ],
+  "ans": "Repeated pairing of the NS and the UCS\nThe process of acquiring the learning",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    10,
+    14
+   ]
+  },
+  "sim": [
+   "l14"
+  ]
+ },
+ {
+  "id": "l11",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Principles of classical conditioning",
+  "clues": [
+   "order",
+   "timing",
+   "repetition",
+   "distinctive"
+  ],
+  "ans": "CS must come before the UCS\nCS and UCS close together in time (ideally only several seconds apart)\nNS paired with the UCS several, often many, times\nCS needs to be distinctive",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    10
+   ]
+  }
+ },
+ {
+  "id": "l12",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Stimulus generalisation",
+  "clues": [
+   "similar stimulus",
+   "Hovland (1937)",
+   "tones"
+  ],
+  "ans": "Tendency to respond to a stimulus that is only similar to the original CS\nHovland (1937): electric shock (UCS) → galvanic skin response (UCR), conditioned to tone 0\nThe closer a test tone's frequency to tone 0, the bigger the skin response",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "l13"
+  ]
+ },
+ {
+  "id": "l13",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Stimulus discrimination",
+  "clues": [
+   "stop responding",
+   "similar stimulus never paired"
+  ],
+  "ans": "Tendency to stop making a generalised response to a similar stimulus\nBecause the similar stimulus is never paired with the UCS",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "l12",
+   "l41"
+  ]
+ },
+ {
+  "id": "l14",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Extinction (classical)",
+  "clues": [
+   "UCS removed",
+   "response weakens"
+  ],
+  "ans": "Disappearance or weakening of a learned response\nHappens when the UCS no longer follows the CS\nRemoving the UCS stops reinforcing the CS–CR association",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    13,
+    14
+   ]
+  },
+  "sim": [
+   "l15",
+   "l42"
+  ]
+ },
+ {
+  "id": "l15",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Spontaneous recovery",
+  "clues": [
+   "after extinction",
+   "response comes back"
+  ],
+  "ans": "Reappearance of a learned response after extinction has occurred\nShows learning is a relatively permanent change in behaviour\nAlso happens in operant conditioning",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    13,
+    14
+   ]
+  },
+  "sim": [
+   "l14"
+  ]
+ },
+ {
+  "id": "l16",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Higher-order conditioning",
+  "clues": [
+   "strong CS + neutral stimulus",
+   "second CS"
+  ],
+  "ans": "A strong conditioned stimulus is paired with a neutral stimulus\nThe neutral stimulus becomes a second conditioned stimulus",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    15
+   ]
+  },
+  "sim": [
+   "l8"
+  ]
+ },
+ {
+  "id": "l17",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning",
+  "name": "Cognitive perspective on conditioning",
+  "clues": [
+   "expectancy",
+   "Rescorla (1988)",
+   "rats, tone and shock"
+  ],
+  "ans": "Conditioning works because the CS gives information / an expectancy that the UCS is coming\nRescorla (1988): two groups of rats, sustained tone + electric shock\nShock after the tone's onset: fear of the tone starting\nShock after the tone stops: fear of the tone stopping",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    16
+   ]
+  }
+ },
+ {
+  "id": "l18",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning & behaviour",
+  "name": "Conditioned emotional response (CER)",
+  "clues": [
+   "emotion",
+   "learned stimuli",
+   "phobias"
+  ],
+  "ans": "Emotional response classically conditioned to occur to learned stimuli\nE.g. fear of dogs; the reaction when seeing an attractive person\nCan lead to phobias (irrational fear responses)",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "l19",
+   "l20"
+  ]
+ },
+ {
+  "id": "l19",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning & behaviour",
+  "name": "Vicarious conditioning",
+  "clues": [
+   "watching another person"
+  ],
+  "ans": "Classical conditioning of a reflex response or emotion\nBy watching the reaction of another person",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "l18"
+  ]
+ },
+ {
+  "id": "l20",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning & behaviour",
+  "name": "Little Albert",
+  "clues": [
+   "John B. Watson",
+   "white rat",
+   "loud noise"
+  ],
+  "ans": "Watson conditioned a child to fear a white rat\nPaired the white rat with a loud noise (naturally scary for him)\nAlso showed fear of a rabbit, a dog and a sealskin coat",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "l18"
+  ]
+ },
+ {
+  "id": "l21",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning & behaviour",
+  "name": "Conditioned taste aversion",
+  "clues": [
+   "nausea",
+   "one pairing"
+  ],
+  "ans": "Nausea or aversive response to a particular taste\nBecause the taste was followed by a nausea reaction\nOccurs after only one association",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "l22"
+  ]
+ },
+ {
+  "id": "l22",
+  "deck": "Learning 1",
+  "sec": "Classical conditioning & behaviour",
+  "name": "Biological preparedness",
+  "clues": [
+   "survival value",
+   "few pairings"
+  ],
+  "ans": "Tendency of animals to learn certain associations (e.g. taste + nausea)\nWith only one or a few pairings\nBecause of the survival value of the learning",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "l21",
+   "l45"
+  ]
+ },
+ {
+  "id": "l23",
+  "deck": "Learning 1",
+  "sec": "Operant conditioning",
+  "name": "Operant conditioning",
+  "clues": [
+   "voluntary behaviour",
+   "consequences"
+  ],
+  "ans": "Learning of voluntary behaviour\nThrough the effects of pleasant and unpleasant consequences to responses\nDepends on what happens after a response",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    23,
+    24
+   ]
+  },
+  "sim": [
+   "l3"
+  ]
+ },
+ {
+  "id": "l24",
+  "deck": "Learning 1",
+  "sec": "Operant conditioning",
+  "name": "Thorndike's law of effect",
+  "clues": [
+   "puzzle box",
+   "pleasurable consequence"
+  ],
+  "ans": "Response followed by a pleasurable consequence tends to be repeated\nResponse followed by an unpleasant consequence tends not to be repeated\nPuzzle box: cat steps on a lever to unlock the door",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "l25"
+  ]
+ },
+ {
+  "id": "l25",
+  "deck": "Learning 1",
+  "sec": "Operant conditioning",
+  "name": "B.F. Skinner",
+  "clues": [
+   "behaviourist",
+   "named it",
+   "box with a bar"
+  ],
+  "ans": "Behaviourist: studied only observable, measurable behaviour\nGave operant conditioning its name\nLearning depends on the consequence: \"If I do this, what's in it for me?\"\nSkinner box: rat presses a bar to get food",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    26,
+    27
+   ]
+  },
+  "sim": [
+   "l24"
+  ]
+ },
+ {
+  "id": "l26",
+  "deck": "Learning 1",
+  "sec": "Reinforcement",
+  "name": "Reinforcement",
+  "clues": [
+   "follows a response",
+   "increases probability"
+  ],
+  "ans": "Any event or stimulus that follows a response\nAnd increases the probability that the response will occur again",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "l36"
+  ]
+ },
+ {
+  "id": "l27",
+  "deck": "Learning 1",
+  "sec": "Reinforcement",
+  "name": "Primary vs secondary reinforcer",
+  "clues": [
+   "biological need",
+   "praise, tokens, gold stars"
+  ],
+  "ans": "Primary: naturally reinforcing, meets a basic biological need (hunger, thirst, touch)\nSecondary: becomes reinforcing after being paired with a primary reinforcer (praise, tokens, gold stars)",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "l26"
+  ]
+ },
+ {
+  "id": "l28",
+  "deck": "Learning 1",
+  "sec": "Reinforcement",
+  "name": "Positive reinforcement",
+  "clues": [
+   "add something pleasant",
+   "money for working"
+  ],
+  "ans": "Reinforcing a response by adding a pleasurable stimulus\nE.g. getting money for working; praise or merit points for wearing a seat belt\nIncreases the behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    29,
+    44
+   ]
+  },
+  "sim": [
+   "l29",
+   "l37"
+  ]
+ },
+ {
+  "id": "l29",
+  "deck": "Learning 1",
+  "sec": "Reinforcement",
+  "name": "Negative reinforcement",
+  "clues": [
+   "remove or avoid something unpleasant",
+   "tax on time"
+  ],
+  "ans": "Reinforcing a response by removing, escaping or avoiding an unpleasant stimulus\nE.g. turning in a tax return on time to avoid a penalty; seat belt stops the alarm\nAlso increases the behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    29,
+    44,
+    45
+   ]
+  },
+  "sim": [
+   "l28",
+   "l38"
+  ]
+ },
+ {
+  "id": "l30",
+  "deck": "Learning 1",
+  "sec": "Schedules of reinforcement",
+  "name": "Continuous vs partial reinforcement",
+  "clues": [
+   "every response vs some",
+   "resistant to extinction"
+  ],
+  "ans": "Continuous: reinforcement for every correct response\nPartial reinforcement effect: a response reinforced after some (not all) correct responses is very resistant to extinction",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    30,
+    31
+   ]
+  },
+  "sim": [
+   "l31"
+  ]
+ },
+ {
+  "id": "l31",
+  "deck": "Learning 1",
+  "sec": "Schedules of reinforcement",
+  "name": "Fixed interval schedule",
+  "clues": [
+   "same amount of time",
+   "pay day",
+   "scalloped"
+  ],
+  "ans": "Time that must pass before reinforcement is possible is always the same\nE.g. pay day\nPause after each reinforcement (scalloped graph)",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    32,
+    33,
+    34,
+    36
+   ]
+  },
+  "sim": [
+   "l32",
+   "l33"
+  ]
+ },
+ {
+  "id": "l32",
+  "deck": "Learning 1",
+  "sec": "Schedules of reinforcement",
+  "name": "Variable interval schedule",
+  "clues": [
+   "time changes each trial",
+   "no pause"
+  ],
+  "ans": "Time that must pass before reinforcement is possible is different each trial\nReinforcement is unpredictable, so there's no pause after it",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    32,
+    33,
+    34
+   ]
+  },
+  "sim": [
+   "l31",
+   "l34"
+  ]
+ },
+ {
+  "id": "l33",
+  "deck": "Learning 1",
+  "sec": "Schedules of reinforcement",
+  "name": "Fixed ratio schedule",
+  "clues": [
+   "same number of responses",
+   "loyalty card"
+  ],
+  "ans": "Number of responses needed for reinforcement is always the same\nE.g. coffee loyalty card: buy 9, get 1 free\nPause after each reinforcement (stair-step graph)",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    32,
+    33,
+    34,
+    37
+   ]
+  },
+  "sim": [
+   "l34",
+   "l31"
+  ]
+ },
+ {
+  "id": "l34",
+  "deck": "Learning 1",
+  "sec": "Schedules of reinforcement",
+  "name": "Variable ratio schedule",
+  "clues": [
+   "number of responses changes",
+   "slot machines"
+  ],
+  "ans": "Number of responses needed for reinforcement is different each time\nE.g. slot machines\nUnpredictable, so no pause; fast response rate",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    32,
+    33,
+    34,
+    35
+   ]
+  },
+  "sim": [
+   "l33",
+   "l32"
+  ]
+ },
+ {
+  "id": "l35",
+  "deck": "Learning 1",
+  "sec": "Reinforcement",
+  "name": "Effectiveness of reinforcement",
+  "clues": [
+   "timing",
+   "specificity"
+  ],
+  "ans": "Timing: give the reinforcer as soon as possible after the behaviour (especially animals and small children)\nDelayed reinforcement can work for older children and adults\nSpecificity: reinforce only the desired behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    41
+   ]
+  },
+  "sim": [
+   "l40"
+  ]
+ },
+ {
+  "id": "l36",
+  "deck": "Learning 1",
+  "sec": "Punishment",
+  "name": "Punishment",
+  "clues": [
+   "follows a response",
+   "less likely"
+  ],
+  "ans": "Any event or object that follows a response\nAnd makes that response less likely to happen again",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    42
+   ]
+  },
+  "sim": [
+   "l26"
+  ]
+ },
+ {
+  "id": "l37",
+  "deck": "Learning 1",
+  "sec": "Punishment",
+  "name": "Positive punishment",
+  "clues": [
+   "by application",
+   "add something unpleasant",
+   "saman"
+  ],
+  "ans": "Punishment by application\nAdding an unpleasant stimulus after a response\nE.g. getting a saman (ticket) for not wearing a seat belt",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    42,
+    44
+   ]
+  },
+  "sim": [
+   "l38",
+   "l28"
+  ]
+ },
+ {
+  "id": "l38",
+  "deck": "Learning 1",
+  "sec": "Punishment",
+  "name": "Negative punishment",
+  "clues": [
+   "by removal",
+   "lose something valued"
+  ],
+  "ans": "Punishment by removal\nRemoving a pleasurable stimulus after a response\nE.g. paying a fine, losing your driving licence, being grounded",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    42,
+    44,
+    45
+   ]
+  },
+  "sim": [
+   "l37",
+   "l29"
+  ]
+ },
+ {
+  "id": "l39",
+  "deck": "Learning 1",
+  "sec": "Punishment",
+  "name": "Problems with severe punishment",
+  "clues": [
+   "avoid the punisher",
+   "lying",
+   "fear",
+   "aggression"
+  ],
+  "ans": "May cause avoidance of the punisher instead of the behaviour\nMay encourage lying to avoid punishment\nCreates fear and anxiety\nModels aggression",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    43
+   ]
+  },
+  "sim": [
+   "l40"
+  ]
+ },
+ {
+  "id": "l40",
+  "deck": "Learning 1",
+  "sec": "Punishment",
+  "name": "Making punishment effective",
+  "clues": [
+   "immediate",
+   "consistent",
+   "pair with reinforcement"
+  ],
+  "ans": "Punishment should immediately follow the behaviour\nPunishment should be consistent\nPair punishing the wrong behaviour with reinforcing the right behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    43
+   ]
+  },
+  "sim": [
+   "l39",
+   "l35"
+  ]
+ },
+ {
+  "id": "l41",
+  "deck": "Learning 1",
+  "sec": "Operant conditioning",
+  "name": "Discriminative stimulus",
+  "clues": [
+   "cue",
+   "specific cue → specific response"
+  ],
+  "ans": "Any stimulus that gives the organism a cue for making a certain response\nIn order to obtain reinforcement\nSpecific cues lead to specific responses",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    46
+   ]
+  },
+  "sim": [
+   "l13"
+  ]
+ },
+ {
+  "id": "l42",
+  "deck": "Learning 1",
+  "sec": "Operant conditioning",
+  "name": "Extinction, generalisation & recovery in operant conditioning",
+  "clues": [
+   "not reinforced",
+   "temper tantrum"
+  ],
+  "ans": "Extinction: behaviour stops if it is not reinforced (e.g. ignoring a child's tantrum)\nGeneralisation: responses spread to similar, not identical, stimuli\nSpontaneous recovery of an extinguished response also happens",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    46
+   ]
+  },
+  "sim": [
+   "l14"
+  ]
+ },
+ {
+  "id": "l43",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Shaping",
+  "clues": [
+   "simple steps",
+   "successive approximation"
+  ],
+  "ans": "Reinforcement of simple steps leading to a desired complex behaviour\nSuccessive approximation: small steps, one after another, towards the goal behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    47,
+    48
+   ]
+  },
+  "sim": [
+   "l48"
+  ]
+ },
+ {
+  "id": "l44",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Instinctive drift",
+  "clues": [
+   "revert to instinct",
+   "raccoons washing food"
+  ],
+  "ans": "Tendency for an animal's behaviour to revert to genetically controlled patterns\nInstincts differ from species to species\nSome responses can't be trained regardless of conditioning\nE.g. raccoons dunking food in water",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    47,
+    49
+   ]
+  },
+  "sim": [
+   "l22"
+  ]
+ },
+ {
+  "id": "l45",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Behaviour modification",
+  "clues": [
+   "operant (or classical) techniques",
+   "desired change"
+  ],
+  "ans": "Using operant (sometimes classical) conditioning techniques\nTo bring about desired changes in behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    50
+   ]
+  },
+  "sim": [
+   "l46",
+   "l48"
+  ]
+ },
+ {
+  "id": "l46",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Token economy",
+  "clues": [
+   "tokens",
+   "reward chart"
+  ],
+  "ans": "Type of behaviour modification\nDesired behaviour is rewarded with tokens\nE.g. token board, reward chart",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    50,
+    51
+   ]
+  },
+  "sim": [
+   "l45",
+   "l27"
+  ]
+ },
+ {
+  "id": "l47",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Time-out",
+  "clues": [
+   "mild punishment by removal",
+   "away from attention"
+  ],
+  "ans": "Mild punishment by removal\nMisbehaving animal, child or adult is placed in a special area away from others' attention\nRemoves the chance of positive reinforcement through attention",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    50
+   ]
+  },
+  "sim": [
+   "l38"
+  ]
+ },
+ {
+  "id": "l48",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Applied behaviour analysis (ABA)",
+  "clues": [
+   "modern term",
+   "shaping"
+  ],
+  "ans": "Modern term for a form of behaviour modification\nUses shaping techniques to mould a desired behaviour or response",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    52
+   ]
+  },
+  "sim": [
+   "l43",
+   "l45"
+  ]
+ },
+ {
+  "id": "l49",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Biofeedback",
+  "clues": [
+   "biological conditions",
+   "blood pressure"
+  ],
+  "ans": "Feedback about biological conditions\nBrings involuntary responses (e.g. blood pressure, relaxation) under voluntary control",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    52
+   ]
+  },
+  "sim": [
+   "l50"
+  ]
+ },
+ {
+  "id": "l50",
+  "deck": "Learning 1",
+  "sec": "Applications",
+  "name": "Neurofeedback",
+  "clues": [
+   "EEG, fMRI",
+   "brain activity"
+  ],
+  "ans": "Form of biofeedback using devices (EEG, fMRI)\nGives feedback about brain activity to modify behaviour",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    52
+   ]
+  },
+  "sim": [
+   "l49"
+  ]
+ },
+ {
+  "id": "l51",
+  "deck": "Learning 1",
+  "sec": "Comparison",
+  "name": "Operant vs classical conditioning",
+  "clues": [
+   "voluntary vs involuntary",
+   "consequences vs antecedents",
+   "expectancy"
+  ],
+  "ans": "Operant: increases the rate of an existing response; classical: creates a new response to a stimulus\nOperant responses are voluntary (emitted); classical are involuntary, reflexive (elicited)\nOperant: consequences matter; classical: antecedent stimuli matter\nOperant: reinforcement immediate; classical: CS just before UCS\nOperant: expect reinforcement after a correct response; classical: expect UCS after CS",
+  "src": {
+   "f": "learning-1",
+   "p": [
+    23,
+    53
+   ]
+  },
+  "sim": [
+   "l3",
+   "l23"
+  ]
  }
 ]

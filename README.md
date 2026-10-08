@@ -2,7 +2,7 @@
 
 Tap-to-reveal study cards and paraphrase tables for PSY 111 at HELP University.
 
-Topics: Intro to Psychology (Module 0), Personality 1, Personality 2, Motivation, Emotion, Intelligence.
+Topics: Intro to Psychology (Module 0), Personality 1, Personality 2, Motivation, Emotion, Intelligence, Learning 1.
 
 Modes: **Learning** (read the card, tap Done, then answer from memory), **Test** (answer straight away) and
 **Quiz** (pick Full / Quick 10 / Compare similar concepts / Ultimate, then 4-option questions with score and a retry for missed ones).
