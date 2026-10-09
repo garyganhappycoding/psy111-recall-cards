@@ -3406,6 +3406,846 @@
   ]
  },
  {
+  "id": "mem1",
+  "deck": "Memory",
+  "sec": "Basics",
+  "name": "Memory",
+  "clues": [
+   "active system",
+   "receive, organise, retrieve"
+  ],
+  "ans": "An active system that receives information from the senses\nOrganises and alters it as it stores it away\nThen retrieves it from storage",
+  "src": {
+   "f": "memory",
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "mem2"
+  ]
+ },
+ {
+  "id": "mem2",
+  "deck": "Memory",
+  "sec": "Basics",
+  "name": "Three processes of memory",
+  "clues": [
+   "encoding",
+   "storage",
+   "retrieval"
+  ],
+  "ans": "Encoding: mental operations that convert sensory information into a form usable in the brain's storage systems\nStorage: holding onto information for a certain duration\nRetrieval: getting information out of storage",
+  "src": {
+   "f": "memory",
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "mem1"
+  ]
+ },
+ {
+  "id": "mem3",
+  "deck": "Memory",
+  "sec": "Models of memory",
+  "name": "Information-processing model",
+  "clues": [
+   "like a computer",
+   "three stages"
+  ],
+  "ans": "Memory processing works like the way a computer handles information\nThrough three different stages (systems): sensory, short-term, long-term",
+  "src": {
+   "f": "memory",
+   "p": [
+    5,
+    9,
+    10
+   ]
+  },
+  "sim": [
+   "mem4",
+   "mem5"
+  ]
+ },
+ {
+  "id": "mem4",
+  "deck": "Memory",
+  "sec": "Models of memory",
+  "name": "Parallel distributed processing (PDP) model",
+  "clues": [
+   "at the same time",
+   "large neural network"
+  ],
+  "ans": "Memory processes take place at the same time\nOver a large network of neural connections",
+  "src": {
+   "f": "memory",
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "mem3",
+   "mem5"
+  ]
+ },
+ {
+  "id": "mem5",
+  "deck": "Memory",
+  "sec": "Models of memory",
+  "name": "Levels-of-processing model",
+  "clues": [
+   "deeply processed",
+   "meaning vs sound"
+  ],
+  "ans": "Information processed more deeply (by its meaning) is remembered better and longer\nThan information processed only by its sound or physical characteristics\nShallow: visual (how many vowels?) → phonemic (rhymes with?) → deep: semantic (is it used to write?)",
+  "src": {
+   "f": "memory",
+   "p": [
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "mem3",
+   "mem24"
+  ]
+ },
+ {
+  "id": "mem6",
+  "deck": "Memory",
+  "sec": "Sensory memory",
+  "name": "Sensory memory",
+  "clues": [
+   "first stage",
+   "raw information",
+   "very brief"
+  ],
+  "ans": "The first stage of memory\nWhere information enters the nervous system through the senses\nRaw sensory information held for a very brief time\nIncludes iconic (visual) and echoic (auditory) memory",
+  "src": {
+   "f": "memory",
+   "p": [
+    11,
+    16
+   ]
+  },
+  "sim": [
+   "mem7",
+   "mem9"
+  ]
+ },
+ {
+  "id": "mem7",
+  "deck": "Memory",
+  "sec": "Sensory memory",
+  "name": "Iconic memory",
+  "clues": [
+   "visual",
+   "quarter of a second",
+   "masking"
+  ],
+  "ans": "Visual sensory memory\nCapacity: everything that can be seen at one time\nDuration: about a quarter of a second\nNew information quickly pushes it out (masking)",
+  "src": {
+   "f": "memory",
+   "p": [
+    12,
+    13
+   ]
+  },
+  "sim": [
+   "mem9",
+   "mem8"
+  ]
+ },
+ {
+  "id": "mem8",
+  "deck": "Memory",
+  "sec": "Sensory memory",
+  "name": "Sperling's test & eidetic imagery",
+  "clues": [
+   "grid of letters",
+   "tone for each row"
+  ],
+  "ans": "Sperling: a grid of letters, then a tone signalled which row to recall\nParticipants could recall the cued row, so the whole grid was in iconic memory\nThe longer the delay before the tone, the fewer letters recalled\nEidetic imagery: rare ability to access iconic memory over a long time",
+  "src": {
+   "f": "memory",
+   "p": [
+    12,
+    13,
+    14
+   ]
+  },
+  "sim": [
+   "mem7"
+  ]
+ },
+ {
+  "id": "mem9",
+  "deck": "Memory",
+  "sec": "Sensory memory",
+  "name": "Echoic memory",
+  "clues": [
+   "just heard",
+   "2–4 seconds"
+  ],
+  "ans": "Brief memory of something just heard\nCapacity: what can be heard at one moment (smaller than iconic)\nDuration: longer than iconic, about 2 to 4 seconds",
+  "src": {
+   "f": "memory",
+   "p": [
+    15,
+    16
+   ]
+  },
+  "sim": [
+   "mem7"
+  ]
+ },
+ {
+  "id": "mem10",
+  "deck": "Memory",
+  "sec": "Short-term memory",
+  "name": "Selective attention",
+  "clues": [
+   "focus on one stimulus",
+   "Broadbent vs Treisman"
+  ],
+  "ans": "Ability to focus on only one stimulus from all sensory input\nBroadbent's filter model: bottleneck between sensory memory and STM\nTreisman's attenuation model: unselected stimuli are weakened (attenuated), not fully blocked",
+  "src": {
+   "f": "memory",
+   "p": [
+    18,
+    19
+   ]
+  }
+ },
+ {
+  "id": "mem11",
+  "deck": "Memory",
+  "sec": "Short-term memory",
+  "name": "Short-term memory (STM)",
+  "clues": [
+   "second stage",
+   "12–30 seconds",
+   "interference"
+  ],
+  "ans": "Second stage: information held briefly while being used (also called working memory)\nDuration: 12 to 30 seconds without rehearsal\nEasily disrupted by interference (e.g. interrupted counting means starting over)\nTends to be encoded in auditory form",
+  "src": {
+   "f": "memory",
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "mem12",
+   "mem14"
+  ]
+ },
+ {
+  "id": "mem12",
+  "deck": "Memory",
+  "sec": "Short-term memory",
+  "name": "Maintenance rehearsal",
+  "clues": [
+   "repeating in your head",
+   "keeps it in STM"
+  ],
+  "ans": "Repeating bits of information in one's head\nTo keep them in short-term memory",
+  "src": {
+   "f": "memory",
+   "p": [
+    21,
+    26
+   ]
+  },
+  "sim": [
+   "mem16"
+  ]
+ },
+ {
+  "id": "mem13",
+  "deck": "Memory",
+  "sec": "Short-term memory",
+  "name": "STM capacity & chunking",
+  "clues": [
+   "7 ± 2",
+   "digit-span test",
+   "meaningful units"
+  ],
+  "ans": "Capacity: about 5 to 9 items (Miller's magic number 7 ± 2)\nDigit-span test: recall a series of numbers in order\nChunking: combine bits into meaningful units so more fits in STM",
+  "src": {
+   "f": "memory",
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "mem11"
+  ]
+ },
+ {
+  "id": "mem14",
+  "deck": "Memory",
+  "sec": "Short-term memory",
+  "name": "Working memory model",
+  "clues": [
+   "Baddeley & Hitch (1974)",
+   "slave systems"
+  ],
+  "ans": "Baddeley & Hitch (1974): an updated concept of STM\nWorking memory is an active system that processes information in STM\nSlave systems: phonological loop, visuo-spatial sketchpad, episodic buffer\nControlled by the central executive",
+  "src": {
+   "f": "memory",
+   "p": [
+    23,
+    24
+   ]
+  },
+  "sim": [
+   "mem11"
+  ]
+ },
+ {
+  "id": "mem15",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Long-term memory (LTM)",
+  "clues": [
+   "final stage",
+   "more or less permanent"
+  ],
+  "ans": "The final stage of memory\nInformation kept more or less permanently\nNot entirely infinite: meaningful and important memories are stored longer",
+  "src": {
+   "f": "memory",
+   "p": [
+    26,
+    27
+   ]
+  },
+  "sim": [
+   "mem11"
+  ]
+ },
+ {
+  "id": "mem16",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Rote learning vs elaborative rehearsal",
+  "clues": [
+   "STM → LTM",
+   "meaningful",
+   "retrieval cues"
+  ],
+  "ans": "Two ways to move information from STM into LTM\nRote learning: repeating it over and over (maintenance rehearsal)\nElaborative rehearsal: making it meaningful, which adds retrieval cues\nElaborative rehearsal links to the levels-of-processing model",
+  "src": {
+   "f": "memory",
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "mem12",
+   "mem5"
+  ]
+ },
+ {
+  "id": "mem17",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Nondeclarative (implicit) memory",
+  "clues": [
+   "skills, habits",
+   "not conscious",
+   "what can you do?"
+  ],
+  "ans": "LTM for skills, procedures, habits and conditioned responses\nNot conscious, but shows in behaviour\nIncludes emotional associations and simple conditioned reflexes",
+  "src": {
+   "f": "memory",
+   "p": [
+    27,
+    28
+   ]
+  },
+  "sim": [
+   "mem18"
+  ]
+ },
+ {
+  "id": "mem18",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Declarative (explicit) memory",
+  "clues": [
+   "conscious and known",
+   "what do you know?"
+  ],
+  "ans": "LTM containing conscious, known information\nE.g. factual knowledge, memories of personal events\nTwo types: semantic and episodic",
+  "src": {
+   "f": "memory",
+   "p": [
+    27,
+    29
+   ]
+  },
+  "sim": [
+   "mem17",
+   "mem19"
+  ]
+ },
+ {
+  "id": "mem19",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Semantic memory",
+  "clues": [
+   "general knowledge",
+   "learned in school"
+  ],
+  "ans": "Declarative memory for general knowledge\nLanguage, concepts and terms, often learned in formal education",
+  "src": {
+   "f": "memory",
+   "p": [
+    27,
+    30
+   ]
+  },
+  "sim": [
+   "mem20"
+  ]
+ },
+ {
+  "id": "mem20",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Episodic memory",
+  "clues": [
+   "personal events",
+   "breakfast this morning"
+  ],
+  "ans": "Declarative memory for personal information not available to others\nDaily activities and events (e.g. what you had for breakfast)",
+  "src": {
+   "f": "memory",
+   "p": [
+    27,
+    30
+   ]
+  },
+  "sim": [
+   "mem19"
+  ]
+ },
+ {
+  "id": "mem21",
+  "deck": "Memory",
+  "sec": "Long-term memory",
+  "name": "Semantic network model",
+  "clues": [
+   "connected",
+   "related concepts stored close"
+  ],
+  "ans": "LTM is organised by related meanings and concepts\nInformation is stored in a connected way\nRelated concepts are stored physically closer together",
+  "src": {
+   "f": "memory",
+   "p": [
+    31,
+    32
+   ]
+  }
+ },
+ {
+  "id": "mem22",
+  "deck": "Memory",
+  "sec": "Retrieval",
+  "name": "Retrieval cue",
+  "clues": [
+   "stimulus for remembering",
+   "more cues = easier"
+  ],
+  "ans": "A stimulus for remembering\nThe more retrieval cues stored with information, the easier it is to retrieve\nRetrieval problems often come from how information was put into LTM",
+  "src": {
+   "f": "memory",
+   "p": [
+    34
+   ]
+  },
+  "sim": [
+   "mem23"
+  ]
+ },
+ {
+  "id": "mem23",
+  "deck": "Memory",
+  "sec": "Retrieval",
+  "name": "Encoding specificity",
+  "clues": [
+   "context-dependent",
+   "state-dependent"
+  ],
+  "ans": "Memory improves when information available at encoding is also there at retrieval\nContext-dependent: the physical place you learned in acts as a retrieval cue\nState-dependent: easier recall in a similar physiological or psychological state",
+  "src": {
+   "f": "memory",
+   "p": [
+    35
+   ]
+  },
+  "sim": [
+   "mem22"
+  ]
+ },
+ {
+  "id": "mem24",
+  "deck": "Memory",
+  "sec": "Retrieval",
+  "name": "Recall vs recognition",
+  "clues": [
+   "few cues vs matching",
+   "tip of the tongue",
+   "false positive"
+  ],
+  "ans": "Recall: pulling information out with very few external cues\nRetrieval failure, e.g. tip-of-the-tongue (TOT) phenomenon\nRecognition: matching information to a stored image or fact\nFalse positive: thinking you recognise something not actually in memory",
+  "src": {
+   "f": "memory",
+   "p": [
+    37
+   ]
+  },
+  "sim": [
+   "mem25"
+  ]
+ },
+ {
+  "id": "mem25",
+  "deck": "Memory",
+  "sec": "Retrieval",
+  "name": "Serial position effect",
+  "clues": [
+   "beginning and end",
+   "middle forgotten"
+  ],
+  "ans": "Information at the beginning and end of a list is remembered better than the middle\nPrimacy effect: better memory for the beginning\nRecency effect: better memory for the end",
+  "src": {
+   "f": "memory",
+   "p": [
+    38,
+    39
+   ]
+  },
+  "sim": [
+   "mem24"
+  ]
+ },
+ {
+  "id": "mem26",
+  "deck": "Memory",
+  "sec": "Retrieval",
+  "name": "Automatic encoding & flashbulb memories",
+  "clues": [
+   "little or no effort",
+   "strong emotion"
+  ],
+  "ans": "Automatic encoding: some information enters LTM with little or no effortful encoding\nFlashbulb memory: automatic encoding of an unexpected event with strong emotional associations",
+  "src": {
+   "f": "memory",
+   "p": [
+    40
+   ]
+  },
+  "sim": [
+   "mem37"
+  ]
+ },
+ {
+  "id": "mem27",
+  "deck": "Memory",
+  "sec": "Accuracy",
+  "name": "Constructive processing",
+  "clues": [
+   "memories rebuilt",
+   "altered with each retrieval"
+  ],
+  "ans": "Memories are built, or reconstructed, from information stored during encoding\nEach retrieval can alter, revise or be influenced by newer information",
+  "src": {
+   "f": "memory",
+   "p": [
+    42
+   ]
+  },
+  "sim": [
+   "mem28",
+   "mem29"
+  ]
+ },
+ {
+  "id": "mem28",
+  "deck": "Memory",
+  "sec": "Accuracy",
+  "name": "Hindsight bias",
+  "clues": [
+   "\"I knew it all along\"",
+   "revised memories"
+  ],
+  "ans": "Falsely believing you could have predicted an event's outcome\nBecause older memories are revised to include newer information",
+  "src": {
+   "f": "memory",
+   "p": [
+    42
+   ]
+  },
+  "sim": [
+   "mem27"
+  ]
+ },
+ {
+  "id": "mem29",
+  "deck": "Memory",
+  "sec": "Accuracy",
+  "name": "Misinformation effect & false memory syndrome",
+  "clues": [
+   "misleading information after the event",
+   "suggestion, hypnosis",
+   "must be plausible"
+  ],
+  "ans": "Misinformation effect: misleading information after an event alters the memory of it\nFalse memory syndrome: false memories created through others' suggestion, often under hypnosis\nFalse memories can't be created for just anything; they must be plausible",
+  "src": {
+   "f": "memory",
+   "p": [
+    43
+   ]
+  },
+  "sim": [
+   "mem27"
+  ]
+ },
+ {
+  "id": "mem30",
+  "deck": "Memory",
+  "sec": "Forgetting",
+  "name": "Ebbinghaus's forgetting curve",
+  "clues": [
+   "fast in first hour",
+   "then levels off"
+  ],
+  "ans": "Forgetting is very fast in the first hour after learning\nThen it tapers off gradually",
+  "src": {
+   "f": "memory",
+   "p": [
+    45,
+    46
+   ]
+  },
+  "sim": [
+   "mem31"
+  ]
+ },
+ {
+  "id": "mem31",
+  "deck": "Memory",
+  "sec": "Forgetting",
+  "name": "Massed vs distributed practice",
+  "clues": [
+   "cramming",
+   "spacing"
+  ],
+  "ans": "Massed practice: studying everything at once (cramming)\nDistributed practice: spacing study sessions out\nDistributed practice gives better retrieval",
+  "src": {
+   "f": "memory",
+   "p": [
+    45
+   ]
+  },
+  "sim": [
+   "mem30"
+  ]
+ },
+ {
+  "id": "mem32",
+  "deck": "Memory",
+  "sec": "Forgetting",
+  "name": "Encoding failure",
+  "clues": [
+   "never processed",
+   "last 5 cars you passed"
+  ],
+  "ans": "Forgetting because the information was never processed into memory\nE.g. you can't name the last 5 vehicles you passed on the way to class",
+  "src": {
+   "f": "memory",
+   "p": [
+    47
+   ]
+  },
+  "sim": [
+   "mem33",
+   "mem34"
+  ]
+ },
+ {
+  "id": "mem33",
+  "deck": "Memory",
+  "sec": "Forgetting",
+  "name": "Memory trace decay theory",
+  "clues": [
+   "physical change",
+   "passage of time",
+   "disuse"
+  ],
+  "ans": "Memory trace: physical change in the brain when a memory forms\nDecay: memory lost over time when the trace isn't used (sensory memory, STM)\nDisuse: unused LTM memories eventually decay\nCan't explain memories recalled after many years",
+  "src": {
+   "f": "memory",
+   "p": [
+    48
+   ]
+  },
+  "sim": [
+   "mem34",
+   "mem32"
+  ]
+ },
+ {
+  "id": "mem34",
+  "deck": "Memory",
+  "sec": "Forgetting",
+  "name": "Proactive vs retroactive interference",
+  "clues": [
+   "old blocks new",
+   "new blocks old"
+  ],
+  "ans": "Proactive interference: older information interferes with retrieving newer information\nRetroactive interference: newer information interferes with retrieving older information",
+  "src": {
+   "f": "memory",
+   "p": [
+    49
+   ]
+  },
+  "sim": [
+   "mem33"
+  ]
+ },
+ {
+  "id": "mem35",
+  "deck": "Memory",
+  "sec": "Neuroscience & amnesia",
+  "name": "Brain areas for memory",
+  "clues": [
+   "hippocampus",
+   "amygdala",
+   "cerebellum",
+   "prefrontal cortex"
+  ],
+  "ans": "Motor cortex and cerebellum: procedural memories\nPrefrontal cortex: STM\nFrontal and temporal lobes: semantic and episodic memories\nHippocampus: forming new semantic and episodic memories\nAmygdala: new emotional memories\nPosterior parietal cortex: episodic memory retrieval",
+  "src": {
+   "f": "memory",
+   "p": [
+    51
+   ]
+  },
+  "sim": [
+   "mem36"
+  ]
+ },
+ {
+  "id": "mem36",
+  "deck": "Memory",
+  "sec": "Neuroscience & amnesia",
+  "name": "Consolidation & long-term potentiation",
+  "clues": [
+   "neurons change",
+   "receptor sites",
+   "repeated stimulation"
+  ],
+  "ans": "Consolidation: changes in neuron structure and function when a memory forms\nLong-term potentiation: more, and more sensitive, receptor sites/synapses through repeated stimulation\nHippocampus: forms new long-term declarative memories",
+  "src": {
+   "f": "memory",
+   "p": [
+    53,
+    54
+   ]
+  },
+  "sim": [
+   "mem35"
+  ]
+ },
+ {
+  "id": "mem37",
+  "deck": "Memory",
+  "sec": "Neuroscience & amnesia",
+  "name": "Patient H.M.",
+  "clues": [
+   "epileptic seizures",
+   "hippocampi removed"
+  ],
+  "ans": "Had severe epileptic seizures\nHippocampi and nearby medial temporal lobe structures were removed\nCould not form new declarative (semantic and episodic) memories\nNondeclarative memory stayed intact\nShows the hippocampus consolidates and stores new information",
+  "src": {
+   "f": "memory",
+   "p": [
+    53,
+    55
+   ]
+  },
+  "sim": [
+   "mem38"
+  ]
+ },
+ {
+  "id": "mem38",
+  "deck": "Memory",
+  "sec": "Neuroscience & amnesia",
+  "name": "Retrograde vs anterograde amnesia",
+  "clues": [
+   "backwards vs forwards",
+   "can't form new memories"
+  ],
+  "ans": "Retrograde: loss of memory from the injury or trauma backwards (the past)\nAnterograde: loss from the injury forwards; can't form new long-term memories",
+  "src": {
+   "f": "memory",
+   "p": [
+    56
+   ]
+  },
+  "sim": [
+   "mem37",
+   "mem39"
+  ]
+ },
+ {
+  "id": "mem39",
+  "deck": "Memory",
+  "sec": "Neuroscience & amnesia",
+  "name": "Alzheimer's disease",
+  "clues": [
+   "most common dementia",
+   "risk factors"
+  ],
+  "ans": "Most common type of dementia in the elderly\nMainly anterograde amnesia at first; retrograde amnesia later\nDrugs can slow it, but not stop or reverse it\nRisk factors: high cholesterol, high blood pressure, smoking, obesity, type II diabetes, lack of exercise",
+  "src": {
+   "f": "memory",
+   "p": [
+    57
+   ]
+  },
+  "sim": [
+   "mem38"
+  ]
+ },
+ {
+  "id": "mem40",
+  "deck": "Memory",
+  "sec": "Neuroscience & amnesia",
+  "name": "Infantile amnesia",
+  "clues": [
+   "before age three",
+   "hippocampus and language"
+  ],
+  "ans": "Inability to retrieve memories from before age three\nEarliest memories may be implicit and hard to report\nExplicit memory develops with hippocampus changes and language skills\nExplicit memory gives rise to autobiographical memory",
+  "src": {
+   "f": "memory",
+   "p": [
+    58
+   ]
+  },
+  "sim": [
+   "mem38"
+  ]
+ },
+ {
   "id": "l1",
   "deck": "Learning 1",
   "sec": "Basics",
