@@ -5324,5 +5324,486 @@
    "l3",
    "l23"
   ]
+ },
+ {
+  "id": "lp1",
+  "deck": "Learning 2",
+  "sec": "Cognitive learning theory",
+  "name": "Cognitive learning theory",
+  "clues": [
+   "vs early behaviourism",
+   "1950s and 1960s",
+   "what couldn't be ignored"
+  ],
+  "ans": "Early behaviourism focused only on observable, measurable behaviour\nIn the 1950s and 1960s, many psychologists became aware that cognition could no longer be ignored\nCognitive learning theories study the mental events behind learning\nCovers latent learning, insight learning and learned helplessness",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    3
+   ]
+  },
+  "sim": [
+   "lp2",
+   "l23"
+  ]
+ },
+ {
+  "id": "lp2",
+  "deck": "Learning 2",
+  "sec": "Cognitive learning theory",
+  "name": "Cognition",
+  "clues": [
+   "mental events",
+   "inside the mind",
+   "while behaving"
+  ],
+  "ans": "Mental events that take place inside a person's mind while behaving",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    3
+   ]
+  },
+  "sim": [
+   "lp1"
+  ]
+ },
+ {
+  "id": "lp3",
+  "deck": "Learning 2",
+  "sec": "Latent learning",
+  "name": "Edward Tolman",
+  "clues": [
+   "early cognitive scientist",
+   "rats and a maze",
+   "1930"
+  ],
+  "ans": "Early cognitive scientist\nBest-known learning experiment: taught three groups of rats the same maze, one at a time (Tolman & Honzik, 1930)\nShowed latent learning",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "lp7",
+   "lp9"
+  ]
+ },
+ {
+  "id": "lp4",
+  "deck": "Learning 2",
+  "sec": "Latent learning",
+  "name": "Latent learning",
+  "clues": [
+   "hidden",
+   "until it becomes useful",
+   "Tolman"
+  ],
+  "ans": "Learning that remains hidden until its application becomes useful\nShown by Tolman's maze experiment: rats learned the maze without a reward, but only showed it once a reward was given",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    5,
+    8
+   ]
+  },
+  "sim": [
+   "lp14",
+   "lp8"
+  ]
+ },
+ {
+  "id": "lp5",
+  "deck": "Learning 2",
+  "sec": "Latent learning",
+  "name": "Tolman & Honzik's maze experiment (1930)",
+  "clues": [
+   "three groups of rats",
+   "same maze",
+   "when was food given?"
+  ],
+  "ans": "A rat is placed in the start box; the trial ends when it reaches the end box\nGroup 1: rewarded each time at the end of the maze → learned the maze quickly\nGroup 2: rewarded for the first time on Day 11 → showed learning almost immediately after the reward\nGroup 3: never rewarded → did not show learning of the maze\nOutcome measured as mean number of errors per day",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    6,
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "lp6"
+  ]
+ },
+ {
+  "id": "lp6",
+  "deck": "Learning 2",
+  "sec": "Latent learning",
+  "name": "Why Group 2 matters in Tolman's maze",
+  "clues": [
+   "Day 11 vs Day 12",
+   "sudden drop in errors",
+   "what had happened before"
+  ],
+  "ans": "Group 2 got food for the first time on Day 11\nTheir errors dropped immediately on Day 12, to the level of (and then below) Group 1\nThey must have already learned the maze on Days 1–10 without a reward\nThe learning was hidden (latent) until the reward made it useful",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "lp5",
+   "lp4"
+  ]
+ },
+ {
+  "id": "lp7",
+  "deck": "Learning 2",
+  "sec": "Insight learning",
+  "name": "Wolfgang Köhler",
+  "clues": [
+   "apes",
+   "experiments in ape intelligence",
+   "\"aha\""
+  ],
+  "ans": "Studied ape intelligence (e.g. chimpanzees using sticks and stacking boxes to reach food)\nDescribed insight learning",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    10,
+    12
+   ]
+  },
+  "sim": [
+   "lp3",
+   "lp9"
+  ]
+ },
+ {
+  "id": "lp8",
+  "deck": "Learning 2",
+  "sec": "Insight learning",
+  "name": "Insight",
+  "clues": [
+   "sudden",
+   "relationships among parts of a problem",
+   "\"aha\" moment"
+  ],
+  "ans": "The sudden perception of relationships among various parts of a problem\nAllows the solution to the problem to come quickly\nCannot be gained through trial-and-error learning alone\nThe \"aha\" moment",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "l24",
+   "lp4"
+  ]
+ },
+ {
+  "id": "lp9",
+  "deck": "Learning 2",
+  "sec": "Learned helplessness",
+  "name": "Martin Seligman",
+  "clues": [
+   "positive psychology",
+   "dogs and shocks",
+   "with Steven Maier"
+  ],
+  "ans": "Played a significant role in developing the field of positive psychology\nFirst observed learned helplessness, with Steven Maier\nKnown for his dog experiment",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "lp3",
+   "lp13"
+  ]
+ },
+ {
+  "id": "lp10",
+  "deck": "Learning 2",
+  "sec": "Learned helplessness",
+  "name": "Learned helplessness",
+  "clues": [
+   "failing to act",
+   "escape",
+   "history of repeated failures"
+  ],
+  "ans": "Tendency to fail to act to escape from a situation\nBecause of a history of repeated failures in the past\nFirst observed by Martin Seligman and Steven Maier",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "lp8"
+  ]
+ },
+ {
+  "id": "lp11",
+  "deck": "Learning 2",
+  "sec": "Learned helplessness",
+  "name": "Seligman's experiment: the two groups",
+  "clues": [
+   "Group A vs Group B",
+   "tone + shock",
+   "harness"
+  ],
+  "ans": "Group A: dogs heard a tone followed by a harmless but painful electric shock\nGroup A dogs were held in a harness so they could not escape\nThe assumption was that the dogs would learn to fear the tone and escape from it\nGroup B: control group, no conditioning to fear the tone",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    15,
+    16
+   ]
+  },
+  "sim": [
+   "lp12"
+  ]
+ },
+ {
+  "id": "lp12",
+  "deck": "Learning 2",
+  "sec": "Learned helplessness",
+  "name": "Seligman's apparatus: the two-sided box",
+  "clues": [
+   "hurdle",
+   "shock grid floor",
+   "who jumped, who stayed"
+  ],
+  "ans": "Dogs from both groups were placed in a two-sided box with a hurdle in the middle\nDogs with no prior experience of inescapable shock quickly jumped the hurdle to the \"safe side\"\nDogs that had learned escape was impossible stayed on the side where the shock occurred\nThey did not even try to go over the hurdle → learned helplessness",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "lp11"
+  ]
+ },
+ {
+  "id": "lp13",
+  "deck": "Learning 2",
+  "sec": "Observational learning",
+  "name": "Albert Bandura",
+  "clues": [
+   "observational learning",
+   "Bobo doll",
+   "watching a model"
+  ],
+  "ans": "Studied observational learning\nKnown for the Bobo doll experiment\nProposed the learning/performance distinction",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "lp9",
+   "lp3"
+  ]
+ },
+ {
+  "id": "lp14",
+  "deck": "Learning 2",
+  "sec": "Observational learning",
+  "name": "Observational learning",
+  "clues": [
+   "watching",
+   "model",
+   "new behaviour"
+  ],
+  "ans": "Learning new behaviour by watching a model perform that behaviour\nAlbert Bandura",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "l19",
+   "lp15"
+  ]
+ },
+ {
+  "id": "lp15",
+  "deck": "Learning 2",
+  "sec": "Observational learning",
+  "name": "Learning/performance distinction",
+  "clues": [
+   "learning without doing",
+   "Bandura",
+   "actual performance"
+  ],
+  "ans": "Learning can take place without actual performance of the learned behaviour\nThe behaviour may only be shown later, e.g. when there is a reason (reward) to perform it",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "lp4",
+   "lp14"
+  ]
+ },
+ {
+  "id": "lp16",
+  "deck": "Learning 2",
+  "sec": "Observational learning",
+  "name": "Bobo doll experiment",
+  "clues": [
+   "Condition 1 vs Condition 2",
+   "hammer",
+   "nonaggressive model"
+  ],
+  "ans": "Condition 1: model plays with the toys in a nonaggressive way and ignores the Bobo doll\nCondition 2: model is aggressive with the doll: kicking, yelling, throwing and hitting it with a hammer\nChildren who watched the aggressive model tended to imitate the aggression\nRaises questions about aggression, prosocial behaviour and the media",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "lp17"
+  ]
+ },
+ {
+  "id": "lp17",
+  "deck": "Learning 2",
+  "sec": "Observational learning",
+  "name": "Bobo doll: model rewarded vs punished",
+  "clues": [
+   "later studies",
+   "consequences for the model",
+   "imitate without prompt?"
+  ],
+  "ans": "Later studies: the model was either rewarded or punished for the aggressive behaviour\nChildren who saw the model rewarded imitated without prompting\nChildren who saw the model punished did not imitate unless the experimenter rewarded them\nConsequences matter for motivation (and those children had still learned the behaviour)",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "lp16",
+   "lp15"
+  ]
+ },
+ {
+  "id": "lp18",
+  "deck": "Learning 2",
+  "sec": "Four elements of observational learning",
+  "name": "Four elements of observational learning",
+  "clues": [
+   "four steps",
+   "Bandura",
+   "A–M–I–M"
+  ],
+  "ans": "Attention\nMemory / retention\nImitation / motoric reproduction processes\nDesire / motivation",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "lp14"
+  ]
+ },
+ {
+  "id": "lp19",
+  "deck": "Learning 2",
+  "sec": "Four elements of observational learning",
+  "name": "Attention (observational learning)",
+  "clues": [
+   "first step",
+   "paying attention to the model",
+   "distinctive features"
+  ],
+  "ans": "To learn anything through observation, the learner must first pay attention to the model\nDistinctive features of the model help capture attention",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    21,
+    22
+   ]
+  },
+  "sim": [
+   "lp20"
+  ]
+ },
+ {
+  "id": "lp20",
+  "deck": "Learning 2",
+  "sec": "Four elements of observational learning",
+  "name": "Memory / retention (observational learning)",
+  "clues": [
+   "remembering what was done",
+   "cooking show"
+  ],
+  "ans": "The learner must be able to retain the memory of what was done\nE.g. remembering the steps for a dish first seen on a cooking show",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    21,
+    22
+   ]
+  },
+  "sim": [
+   "lp19"
+  ]
+ },
+ {
+  "id": "lp21",
+  "deck": "Learning 2",
+  "sec": "Four elements of observational learning",
+  "name": "Imitation / motoric reproduction (observational learning)",
+  "clues": [
+   "capable of doing it",
+   "reproducing the actions"
+  ],
+  "ans": "The learner must be capable of reproducing, or imitating, the actions of the model",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    21,
+    23
+   ]
+  },
+  "sim": [
+   "lp22"
+  ]
+ },
+ {
+  "id": "lp22",
+  "deck": "Learning 2",
+  "sec": "Four elements of observational learning",
+  "name": "Desire / motivation (observational learning)",
+  "clues": [
+   "wanting to perform it",
+   "rewards expected",
+   "model who fails"
+  ],
+  "ans": "The learner must have the motivation to perform the action\nMotivation is low to imitate models who fail or are punished\nMotivation is high if rewards are expected",
+  "src": {
+   "f": "learning-2",
+   "p": [
+    21,
+    23
+   ]
+  },
+  "sim": [
+   "lp21",
+   "lp17"
+  ]
  }
 ]
