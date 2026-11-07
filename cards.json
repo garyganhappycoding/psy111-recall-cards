@@ -5805,5 +5805,2431 @@
    "lp21",
    "lp17"
   ]
+ },
+ {
+  "id": "nc1",
+  "deck": "Nerve Cells",
+  "sec": "Basics",
+  "name": "Santiago Ramón y Cajal",
+  "clues": [
+   "Spaniard",
+   "cells stay separate"
+  ],
+  "ans": "Spaniard (1852–1934)\nFirst to theorise that the individual cells of the nervous system remain separate",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    4
+   ]
+  }
+ },
+ {
+  "id": "nc2",
+  "deck": "Nerve Cells",
+  "sec": "Basics",
+  "name": "CNS vs PNS",
+  "clues": [
+   "brain + spinal cord",
+   "runs through the body"
+  ],
+  "ans": "Central nervous system (CNS): brain + spinal cord\nPeripheral nervous system (PNS): nerves that run through the body itself",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    5
+   ]
+  }
+ },
+ {
+  "id": "nc3",
+  "deck": "Nerve Cells",
+  "sec": "Basics",
+  "name": "Neuron vs glial cells",
+  "clues": [
+   "sends messages",
+   "support structures"
+  ],
+  "ans": "Neuron: receives and sends messages within the nervous system\nGlial cells: major support structures of the nervous system",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "nc12"
+  ]
+ },
+ {
+  "id": "nc4",
+  "deck": "Nerve Cells",
+  "sec": "Components of a neuron",
+  "name": "Soma & nucleus",
+  "clues": [
+   "cell body",
+   "keeps the cell alive",
+   "chromosomes"
+  ],
+  "ans": "Soma (cell body): responsible for maintaining the life of the cell\nNucleus: contains the chromosomes",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "nc5"
+  ]
+ },
+ {
+  "id": "nc5",
+  "deck": "Nerve Cells",
+  "sec": "Components of a neuron",
+  "name": "Dendrites",
+  "clues": [
+   "receive"
+  ],
+  "ans": "Receive messages from other neurons",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "nc6"
+  ]
+ },
+ {
+  "id": "nc6",
+  "deck": "Nerve Cells",
+  "sec": "Components of a neuron",
+  "name": "Axon & axon terminals",
+  "clues": [
+   "carry messages away",
+   "communicate with other cells"
+  ],
+  "ans": "Axon: carries messages from the soma to the axon terminals\nAxon terminals: communicate with other cells",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "nc5",
+   "nc7"
+  ]
+ },
+ {
+  "id": "nc7",
+  "deck": "Nerve Cells",
+  "sec": "Components of a neuron",
+  "name": "Myelin sheath",
+  "clues": [
+   "fatty coating",
+   "insulate",
+   "speed up"
+  ],
+  "ans": "Fatty substance coating the axon\nInsulates, protects and speeds up neural impulses",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    8,
+    36
+   ]
+  },
+  "sim": [
+   "nc28",
+   "nc15"
+  ]
+ },
+ {
+  "id": "nc8",
+  "deck": "Nerve Cells",
+  "sec": "Components of a neuron",
+  "name": "Cell membrane",
+  "clues": [
+   "separates inside from outside"
+  ],
+  "ans": "Separates the inside of the cell from the outside environment",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    8,
+    23
+   ]
+  },
+  "sim": [
+   "nc17"
+  ]
+ },
+ {
+  "id": "nc9",
+  "deck": "Nerve Cells",
+  "sec": "Types of neurons",
+  "name": "Sensory neuron",
+  "clues": [
+   "afferent",
+   "senses → CNS",
+   "hot surface"
+  ],
+  "ans": "Carries information from the senses to the CNS\nActivated by sensory input, e.g. touching a hot surface\nAlso called an afferent neuron (receiving information)",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    11,
+    14,
+    15
+   ]
+  },
+  "sim": [
+   "nc10",
+   "nc11"
+  ]
+ },
+ {
+  "id": "nc10",
+  "deck": "Nerve Cells",
+  "sec": "Types of neurons",
+  "name": "Motor neuron",
+  "clues": [
+   "efferent",
+   "CNS → muscles"
+  ],
+  "ans": "Carries messages from the CNS to the muscles of the body\nTransmits impulses from the spinal cord to skeletal and smooth muscles; controls all muscle movement\nAlso called an efferent neuron (sending out information)",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    12,
+    14,
+    15
+   ]
+  },
+  "sim": [
+   "nc9",
+   "nc11"
+  ]
+ },
+ {
+  "id": "nc11",
+  "deck": "Nerve Cells",
+  "sec": "Types of neurons",
+  "name": "Interneuron",
+  "clues": [
+   "centre of the spinal cord",
+   "between sensory and motor"
+  ],
+  "ans": "Found in the centre of the spinal cord\nReceives information from sensory neurons and sends commands to muscles through motor neurons\nMakes up the bulk of neurons in the brain",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    13,
+    14,
+    15
+   ]
+  },
+  "sim": [
+   "nc9",
+   "nc10"
+  ]
+ },
+ {
+  "id": "nc12",
+  "deck": "Nerve Cells",
+  "sec": "Glial cells",
+  "name": "Astrocytes",
+  "clues": [
+   "synchronise axons",
+   "blood flow",
+   "remove waste"
+  ],
+  "ans": "Help synchronise the activity of axons\nRemove waste when neurons die\nControl blood flow to each brain area; dilate blood vessels for more nutrients during heightened activity",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "nc13"
+  ]
+ },
+ {
+  "id": "nc13",
+  "deck": "Nerve Cells",
+  "sec": "Glial cells",
+  "name": "Microglia",
+  "clues": [
+   "like an immune system"
+  ],
+  "ans": "Remove waste, viruses, fungi and other harmful microorganisms\nWork like an immune system",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "nc12"
+  ]
+ },
+ {
+  "id": "nc14",
+  "deck": "Nerve Cells",
+  "sec": "Glial cells",
+  "name": "Oligodendrocytes vs Schwann cells",
+  "clues": [
+   "build myelin",
+   "CNS vs PNS",
+   "repair"
+  ],
+  "ans": "Both build the myelin sheath around some axons\nOligodendrocytes: in the CNS; more likely to be permanently damaged\nSchwann cells: in the PNS; can reconnect and repair themselves if damaged",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    19,
+    20
+   ]
+  },
+  "sim": [
+   "nc7"
+  ]
+ },
+ {
+  "id": "nc15",
+  "deck": "Nerve Cells",
+  "sec": "Glial cells",
+  "name": "Radial glia",
+  "clues": [
+   "guide migration",
+   "early brain development"
+  ],
+  "ans": "Guide the migration of neurons and the growth of axons and dendrites during early brain development\nMost later turn into neurons, some into other glial cells",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "nc14"
+  ]
+ },
+ {
+  "id": "nc16",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Ion channels & sodium-potassium pump",
+  "clues": [
+   "gated",
+   "3 out, 2 in",
+   "ATP"
+  ],
+  "ans": "Many channels are gated: open or close depending on conditions (e.g. electrical potential)\nSodium and potassium channels\nSodium-potassium pump: pushes 3 sodium ions out, draws 2 potassium ions in\nThe pump needs energy (ATP)",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    24
+   ]
+  },
+  "sim": [
+   "nc17"
+  ]
+ },
+ {
+  "id": "nc17",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Semipermeable membrane",
+  "clues": [
+   "some molecules pass freely",
+   "channels or pumps"
+  ],
+  "ans": "Some molecules pass freely through the membrane\nOthers need channels or pumps to enter or exit",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    23
+   ]
+  },
+  "sim": [
+   "nc16",
+   "nc8"
+  ]
+ },
+ {
+  "id": "nc18",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Resting potential",
+  "clues": [
+   "not firing",
+   "−70 mV",
+   "inside more negative"
+  ],
+  "ans": "State of a neuron not firing\nNegatively charged inside: −70 mV\nInside: more negative anions and potassium ions; outside: more sodium and chloride ions\nSodium and potassium channels are closed\nThe electrical gradient sets the stage for a rapid action potential",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    25,
+    26,
+    27
+   ]
+  },
+  "sim": [
+   "nc19"
+  ]
+ },
+ {
+  "id": "nc19",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Action potential",
+  "clues": [
+   "neural impulse",
+   "charge reverses",
+   "about a millisecond"
+  ],
+  "ans": "The release of a neural impulse\nA reversal of the electrical charge inside the axon (negative → positive)\nA rapid series, each lasting about a millisecond",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "nc18",
+   "nc20"
+  ]
+ },
+ {
+  "id": "nc20",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Steps of an action potential",
+  "clues": [
+   "sodium in",
+   "potassium out",
+   "hyperpolarisation",
+   "reset"
+  ],
+  "ans": "Strong enough stimulus: sodium and potassium channels open\nSodium rushes in, neuron becomes positive (depolarisation)\nSodium channels close at the peak; potassium channels stay open\nPotassium rushes out, then its channels close: hyperpolarisation (below resting)\nSodium-potassium pump restores the resting potential",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "nc19",
+   "nc21"
+  ]
+ },
+ {
+  "id": "nc21",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Depolarisation vs hyperpolarisation",
+  "clues": [
+   "becomes positive",
+   "goes beyond resting"
+  ],
+  "ans": "Depolarisation: sodium rushes in, the neuron becomes positively charged\nHyperpolarisation: potassium rushes out, the charge goes beyond the original resting potential",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "nc20"
+  ]
+ },
+ {
+  "id": "nc22",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Threshold of excitement",
+  "clues": [
+   "level above which",
+   "massive depolarisation"
+  ],
+  "ans": "Level above which any stimulation produces a massive depolarisation\nNo action potential if the threshold isn't reached",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "nc23"
+  ]
+ },
+ {
+  "id": "nc23",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "All-or-none law",
+  "clues": [
+   "full strength or nothing"
+  ],
+  "ans": "An action potential fires at full strength or not at all",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "nc22",
+   "nc24"
+  ]
+ },
+ {
+  "id": "nc24",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Coding stimulus strength",
+  "clues": [
+   "can't send bigger or faster",
+   "frequency",
+   "number of neurons"
+  ],
+  "ans": "Action potentials are equal in intensity and speed within a neuron\nA stronger stimulus can't make bigger or faster action potentials\nStrength is signalled by the frequency of firing and the number of neurons firing",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    32
+   ]
+  },
+  "sim": [
+   "nc23"
+  ]
+ },
+ {
+  "id": "nc25",
+  "deck": "Nerve Cells",
+  "sec": "Action potential",
+  "name": "Absolute vs relative refractory period",
+  "clues": [
+   "impossible",
+   "needs a stronger stimulus"
+  ],
+  "ans": "Refractory period: neuron resists producing more action potentials\nAbsolute: impossible to fire again, regardless of stimulation\nRelative: needs a stronger-than-usual stimulus to fire",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    33
+   ]
+  },
+  "sim": [
+   "nc22"
+  ]
+ },
+ {
+  "id": "nc26",
+  "deck": "Nerve Cells",
+  "sec": "Propagation",
+  "name": "Axon hillock",
+  "clues": [
+   "where it begins",
+   "swelling where the axon leaves the soma"
+  ],
+  "ans": "Where the action potential begins\nA swelling where the axon exits the soma",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    34
+   ]
+  },
+  "sim": [
+   "nc27"
+  ]
+ },
+ {
+  "id": "nc27",
+  "deck": "Nerve Cells",
+  "sec": "Propagation",
+  "name": "Propagation of the action potential",
+  "clues": [
+   "sodium enters",
+   "neighbouring regions",
+   "threshold"
+  ],
+  "ans": "Sodium ions enter one point on the axon\nPositive ions flow to neighbouring regions and slightly depolarise the next part of the membrane\nThat area reaches threshold and opens its voltage-gated sodium channels",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    34,
+    35
+   ]
+  },
+  "sim": [
+   "nc26",
+   "nc28"
+  ]
+ },
+ {
+  "id": "nc28",
+  "deck": "Nerve Cells",
+  "sec": "Propagation",
+  "name": "Nodes of Ranvier & saltatory conduction",
+  "clues": [
+   "gaps in myelin",
+   "jumping"
+  ],
+  "ans": "Nodes of Ranvier: short unmyelinated gaps in the myelin sheath\nThe action potential is regenerated at each node\nSaltatory conduction: the action potential jumps from node to node, increasing speed",
+  "src": {
+   "f": "nerve-cells",
+   "p": [
+    36
+   ]
+  },
+  "sim": [
+   "nc7",
+   "nc27"
+  ]
+ },
+ {
+  "id": "sy1",
+  "deck": "Synapses",
+  "sec": "Basics",
+  "name": "Synapse",
+  "clues": [
+   "junction",
+   "chemicals"
+  ],
+  "ans": "Site where nerve impulses pass between two nerve cells\nNeurons communicate by transmitting chemicals at synapses",
+  "src": {
+   "f": "synapses",
+   "p": [
+    5,
+    6
+   ]
+  },
+  "sim": [
+   "sy2"
+  ]
+ },
+ {
+  "id": "sy2",
+  "deck": "Synapses",
+  "sec": "Basics",
+  "name": "Presynaptic vs postsynaptic neuron",
+  "clues": [
+   "delivers vs receives"
+  ],
+  "ans": "Presynaptic neuron: delivers the synaptic transmission\nPostsynaptic neuron: receives the message",
+  "src": {
+   "f": "synapses",
+   "p": [
+    5,
+    6
+   ]
+  },
+  "sim": [
+   "sy1"
+  ]
+ },
+ {
+  "id": "sy3",
+  "deck": "Synapses",
+  "sec": "Sherrington",
+  "name": "Charles Sherrington",
+  "clues": [
+   "coined \"synapse\" (1906)",
+   "reflexes in dogs"
+  ],
+  "ans": "Coined the term synapse in 1906 for the gap between neurons\nStudied how neurons communicate using reflexes in dogs",
+  "src": {
+   "f": "synapses",
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "sy4"
+  ]
+ },
+ {
+  "id": "sy4",
+  "deck": "Synapses",
+  "sec": "Sherrington",
+  "name": "Sherrington's 3 findings about reflexes",
+  "clues": [
+   "slower",
+   "several weak stimuli",
+   "one relaxes, another excited"
+  ],
+  "ans": "Reflexes are slower than conduction along an axon (≈40 m/s vs ≈15 m/s or less)\nSeveral weak stimuli at slightly different times or places give a stronger reflex than one\nAs one set of muscles relaxes, another set becomes excited\nAll suggested special processes at the synapse",
+  "src": {
+   "f": "synapses",
+   "p": [
+    8,
+    9,
+    16
+   ]
+  },
+  "sim": [
+   "sy5",
+   "sy6"
+  ]
+ },
+ {
+  "id": "sy5",
+  "deck": "Synapses",
+  "sec": "Summation",
+  "name": "Temporal summation",
+  "clues": [
+   "repeated stimuli",
+   "short period of time"
+  ],
+  "ans": "Repeated stimuli over a short time have a cumulative effect\nCan trigger a nerve impulse when a single stimulus is too weak",
+  "src": {
+   "f": "synapses",
+   "p": [
+    10,
+    12,
+    17
+   ]
+  },
+  "sim": [
+   "sy6"
+  ]
+ },
+ {
+  "id": "sy6",
+  "deck": "Synapses",
+  "sec": "Summation",
+  "name": "Spatial summation",
+  "clues": [
+   "several locations",
+   "at the same time"
+  ],
+  "ans": "Synaptic input from several locations has a cumulative effect\nCan trigger a nerve impulse when a single stimulus would not",
+  "src": {
+   "f": "synapses",
+   "p": [
+    11,
+    12,
+    17
+   ]
+  },
+  "sim": [
+   "sy5"
+  ]
+ },
+ {
+  "id": "sy7",
+  "deck": "Synapses",
+  "sec": "EPSP/IPSP",
+  "name": "EPSP",
+  "clues": [
+   "excitatory",
+   "graded depolarisation",
+   "positive ions in"
+  ],
+  "ans": "Excitatory postsynaptic potential\nPositive ions flow into the postsynaptic cell, making an action potential more likely\nA graded depolarisation that decays quickly if threshold isn't reached\nAdding up EPSPs is the basis of temporal and spatial summation",
+  "src": {
+   "f": "synapses",
+   "p": [
+    14,
+    17
+   ]
+  },
+  "sim": [
+   "sy8"
+  ]
+ },
+ {
+  "id": "sy8",
+  "deck": "Synapses",
+  "sec": "EPSP/IPSP",
+  "name": "IPSP",
+  "clues": [
+   "inhibitory",
+   "hyperpolarisation",
+   "brake"
+  ],
+  "ans": "Inhibitory postsynaptic potential: temporary hyperpolarisation of the membrane\nPotassium ions leave or chloride ions enter the cell\nActs as an active brake that suppresses excitation",
+  "src": {
+   "f": "synapses",
+   "p": [
+    15,
+    16,
+    17
+   ]
+  },
+  "sim": [
+   "sy7"
+  ]
+ },
+ {
+  "id": "sy9",
+  "deck": "Synapses",
+  "sec": "EPSP/IPSP",
+  "name": "EPSP vs IPSP ratio",
+  "clues": [
+   "thousands of synapses",
+   "which wins"
+  ],
+  "ans": "Neurons can have thousands of synapses\nTemporal and spatial summation can happen within one neuron\nWhether an action potential fires depends on the ratio of IPSPs to EPSPs at that moment",
+  "src": {
+   "f": "synapses",
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "sy7",
+   "sy8"
+  ]
+ },
+ {
+  "id": "sy10",
+  "deck": "Synapses",
+  "sec": "Neurotransmitters",
+  "name": "Otto Loewi's experiment",
+  "clues": [
+   "frog hearts",
+   "vagus nerve",
+   "fluid transferred"
+  ],
+  "ans": "Stimulated the vagus nerve, and the frog's heart rate decreased\nCollected the fluid and transferred it to another frog's heart\nThat heart rate also decreased\nShowed communication across the synapse is chemical",
+  "src": {
+   "f": "synapses",
+   "p": [
+    20,
+    21,
+    22
+   ]
+  },
+  "sim": [
+   "sy11"
+  ]
+ },
+ {
+  "id": "sy11",
+  "deck": "Synapses",
+  "sec": "Neurotransmitters",
+  "name": "Neurotransmitter",
+  "clues": [
+   "chemical messengers",
+   "established 1950"
+  ],
+  "ans": "Chemicals that travel across the synapse and allow neurons to communicate\nChemical transmission was established as the main type only around 1950",
+  "src": {
+   "f": "synapses",
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "sy10"
+  ]
+ },
+ {
+  "id": "sy12",
+  "deck": "Synapses",
+  "sec": "Neurotransmission",
+  "name": "Synthesis & storage",
+  "clues": [
+   "axon terminals",
+   "synaptic vesicles"
+  ],
+  "ans": "Neurons synthesise neurotransmitters (smaller in axon terminals, larger in the cell body)\nStored in axon terminals in synaptic vesicles (saclike structures in the presynaptic terminal)",
+  "src": {
+   "f": "synapses",
+   "p": [
+    23,
+    27
+   ]
+  },
+  "sim": [
+   "sy13"
+  ]
+ },
+ {
+  "id": "sy13",
+  "deck": "Synapses",
+  "sec": "Neurotransmission",
+  "name": "Release & exocytosis",
+  "clues": [
+   "calcium enters",
+   "into the cleft"
+  ],
+  "ans": "An action potential causes calcium to enter the terminal\nThis releases neurotransmitter into the synaptic cleft\nExocytosis: excretion of neurotransmitter from the presynaptic terminal into the cleft",
+  "src": {
+   "f": "synapses",
+   "p": [
+    24,
+    27
+   ]
+  },
+  "sim": [
+   "sy12",
+   "sy14"
+  ]
+ },
+ {
+  "id": "sy14",
+  "deck": "Synapses",
+  "sec": "Neurotransmission",
+  "name": "Receptor sites",
+  "clues": [
+   "proteins",
+   "shaped to fit"
+  ],
+  "ans": "Neurotransmitters cross the cleft and attach to receptors on the postsynaptic neuron\nReceptor sites: proteins on dendrites (or muscle/gland cells) shaped to fit only certain neurotransmitters",
+  "src": {
+   "f": "synapses",
+   "p": [
+    25,
+    27
+   ]
+  },
+  "sim": [
+   "sy13",
+   "sy15"
+  ]
+ },
+ {
+  "id": "sy15",
+  "deck": "Synapses",
+  "sec": "Neurotransmission",
+  "name": "Reuptake vs enzymatic degradation",
+  "clues": [
+   "taken back",
+   "broken down",
+   "MAO"
+  ],
+  "ans": "Neurotransmitters separate from receptors so the next stimulation can occur\nReuptake: taken back into the presynaptic neuron's vesicles\nEnzymatic degradation: structure altered so it can't act on a receptor\nE.g. monoamine oxidase (MAO) breaks down serotonin, dopamine, norepinephrine",
+  "src": {
+   "f": "synapses",
+   "p": [
+    26,
+    27,
+    28
+   ]
+  },
+  "sim": [
+   "sy14",
+   "sy20"
+  ]
+ },
+ {
+  "id": "sy16",
+  "deck": "Synapses",
+  "sec": "Types of neurotransmitter",
+  "name": "Acetylcholine (ACh)",
+  "clues": [
+   "muscle contraction",
+   "memory"
+  ],
+  "ans": "Excitatory or inhibitory\nArousal, attention, memory; controls muscle contractions\nStimulates skeletal muscles to contract but slows heart muscle\nIn the hippocampus, plays a role in memory",
+  "src": {
+   "f": "synapses",
+   "p": [
+    31,
+    32
+   ]
+  },
+  "sim": [
+   "sy17",
+   "sy18"
+  ]
+ },
+ {
+  "id": "sy17",
+  "deck": "Synapses",
+  "sec": "Types of neurotransmitter",
+  "name": "Dopamine & norepinephrine",
+  "clues": [
+   "movement and pleasure",
+   "arousal and mood",
+   "Parkinson's, schizophrenia"
+  ],
+  "ans": "Dopamine: excitatory or inhibitory; control of movement and pleasure\nToo little in certain areas: Parkinson's disease; too much in others: schizophrenia\nNorepinephrine: mainly excitatory; arousal and mood",
+  "src": {
+   "f": "synapses",
+   "p": [
+    31,
+    32
+   ]
+  },
+  "sim": [
+   "sy16",
+   "sy18"
+  ]
+ },
+ {
+  "id": "sy18",
+  "deck": "Synapses",
+  "sec": "Types of neurotransmitter",
+  "name": "Serotonin, GABA, glutamate & endorphins",
+  "clues": [
+   "sleep, mood",
+   "major inhibitory",
+   "major excitatory",
+   "pain relief"
+  ],
+  "ans": "Serotonin (5-HT): sleep, mood, anxiety, appetite\nGABA: major inhibitory; sleep, inhibits movement\nGlutamate: major excitatory; learning, memory, development, plasticity\nEndorphins: inhibitory regulators; pain relief",
+  "src": {
+   "f": "synapses",
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "sy17"
+  ]
+ },
+ {
+  "id": "sy19",
+  "deck": "Synapses",
+  "sec": "Drugs",
+  "name": "Agonist vs antagonist",
+  "clues": [
+   "mimic or enhance",
+   "block or reduce",
+   "benzodiazepine, antipsychotics"
+  ],
+  "ans": "Agonist: mimics or enhances a neurotransmitter's effect at the receptor\nE.g. benzodiazepines (antianxiety) are GABA agonists\nAntagonist: blocks or reduces the cell's response\nE.g. antipsychotic drugs are dopamine antagonists",
+  "src": {
+   "f": "synapses",
+   "p": [
+    33,
+    34
+   ]
+  },
+  "sim": [
+   "sy20"
+  ]
+ },
+ {
+  "id": "sy20",
+  "deck": "Synapses",
+  "sec": "Drugs",
+  "name": "SSRIs & MAOIs",
+  "clues": [
+   "block reuptake",
+   "inhibit degradation"
+  ],
+  "ans": "Some drugs change the amount of neurotransmitter in the synapse\nSSRIs: block the reuptake of serotonin\nMAOIs: block monoamine oxidase, so less neurotransmitter is broken down",
+  "src": {
+   "f": "synapses",
+   "p": [
+    35
+   ]
+  },
+  "sim": [
+   "sy19",
+   "sy15"
+  ]
+ },
+ {
+  "id": "sy21",
+  "deck": "Synapses",
+  "sec": "Receptors",
+  "name": "Postsynaptic receptors",
+  "clues": [
+   "opens ion channels",
+   "EPSP or IPSP"
+  ],
+  "ans": "Neurotransmitter binds to receptors on the postsynaptic membrane\nActivation opens ion channels; ions flow in or out\nThe result (EPSP or IPSP) depends on which channel opens\nEffect also depends on ionotropic vs metabotropic receptors",
+  "src": {
+   "f": "synapses",
+   "p": [
+    37
+   ]
+  },
+  "sim": [
+   "sy22",
+   "sy23"
+  ]
+ },
+ {
+  "id": "sy22",
+  "deck": "Synapses",
+  "sec": "Receptors",
+  "name": "Ionotropic effect",
+  "clues": [
+   "immediately opens channels",
+   "< 1 ms",
+   "glutamate, GABA"
+  ],
+  "ans": "Neurotransmitter attaches and immediately opens ion channels (ligand-gated)\nVery fast (< 1 ms), very short (half-life ≈ 5 ms)\nSuits information that must update quickly, e.g. vision\nMostly glutamate, ACh (excitatory) or GABA, glycine (inhibitory)",
+  "src": {
+   "f": "synapses",
+   "p": [
+    38,
+    39
+   ]
+  },
+  "sim": [
+   "sy23"
+  ]
+ },
+ {
+  "id": "sy23",
+  "deck": "Synapses",
+  "sec": "Receptors",
+  "name": "Metabotropic effect",
+  "clues": [
+   "slower, longer",
+   "G-protein",
+   "second messenger"
+  ],
+  "ans": "Starts a slower, longer-lasting chain of metabolic reactions (~30 ms; lasts seconds to minutes)\nUses many neurotransmitters, e.g. serotonin, dopamine\nSuits enduring effects: taste, smell, attention\nReceptor bends, releasing a G-protein that raises a second messenger (e.g. cyclic AMP)\nThe second messenger can open/close channels, alter proteins or activate chromosomes",
+  "src": {
+   "f": "synapses",
+   "p": [
+    40,
+    41,
+    42
+   ]
+  },
+  "sim": [
+   "sy22"
+  ]
+ },
+ {
+  "id": "sy24",
+  "deck": "Synapses",
+  "sec": "Hormones",
+  "name": "Hormone",
+  "clues": [
+   "gland",
+   "blood",
+   "long-lasting"
+  ],
+  "ans": "A chemical secreted by a gland or other cells\nCarried by the blood to other organs, where it alters activity\nMade by endocrine glands; triggers long-lasting changes across the body",
+  "src": {
+   "f": "synapses",
+   "p": [
+    44
+   ]
+  },
+  "sim": [
+   "sy25",
+   "sy26"
+  ]
+ },
+ {
+  "id": "sy25",
+  "deck": "Synapses",
+  "sec": "Hormones",
+  "name": "Key hormones by gland",
+  "clues": [
+   "pituitary",
+   "pineal",
+   "adrenal",
+   "pancreas"
+  ],
+  "ans": "Posterior pituitary: oxytocin (contractions, milk release), vasopressin (raises blood pressure)\nPineal: melatonin (sleepiness)\nAdrenal cortex: cortisol (raises blood sugar and metabolism)\nAdrenal medulla: epinephrine, norepinephrine (like the sympathetic NS)\nPancreas: insulin, glucagon; fat cells: leptin (decreases appetite)",
+  "src": {
+   "f": "synapses",
+   "p": [
+    45
+   ]
+  },
+  "sim": [
+   "sy24"
+  ]
+ },
+ {
+  "id": "sy26",
+  "deck": "Synapses",
+  "sec": "Hormones",
+  "name": "Negative feedback",
+  "clues": [
+   "decreases its own production",
+   "thyroid"
+  ],
+  "ans": "A product feeds back to decrease its own production\nBrings things back to normal when they become too extreme\nExample: the thyroid (hypothalamus → pituitary → thyroid loop)",
+  "src": {
+   "f": "synapses",
+   "p": [
+    46
+   ]
+  },
+  "sim": [
+   "sy24"
+  ]
+ },
+ {
+  "id": "ns1",
+  "deck": "Nervous System",
+  "sec": "Terminology",
+  "name": "Superior/inferior & anterior/posterior",
+  "clues": [
+   "top vs bottom",
+   "front vs back"
+  ],
+  "ans": "Superior: towards the top; inferior: towards the bottom\nAnterior: towards the front; posterior: towards the back",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    5,
+    8
+   ]
+  },
+  "sim": [
+   "ns2"
+  ]
+ },
+ {
+  "id": "ns2",
+  "deck": "Nervous System",
+  "sec": "Terminology",
+  "name": "Dorsal/ventral & rostral/caudal",
+  "clues": [
+   "back vs stomach",
+   "nose vs tail"
+  ],
+  "ans": "Dorsal: towards the back or top of the head; ventral: towards the stomach\nRostral: towards the nose; caudal: towards the tail",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    5,
+    8
+   ]
+  },
+  "sim": [
+   "ns1",
+   "ns3"
+  ]
+ },
+ {
+  "id": "ns3",
+  "deck": "Nervous System",
+  "sec": "Terminology",
+  "name": "Medial/lateral & ipsilateral/contralateral",
+  "clues": [
+   "middle vs side",
+   "same vs opposite side"
+  ],
+  "ans": "Medial: towards the middle; lateral: towards the side\nIpsilateral: same side of the body; contralateral: opposite side",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    6,
+    8
+   ]
+  },
+  "sim": [
+   "ns2"
+  ]
+ },
+ {
+  "id": "ns4",
+  "deck": "Nervous System",
+  "sec": "Terminology",
+  "name": "Planes of the brain",
+  "clues": [
+   "coronal",
+   "horizontal",
+   "sagittal"
+  ],
+  "ans": "Coronal plane: front-to-back slices\nHorizontal plane: top-to-bottom slices\nSagittal plane: side-to-side slices",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "ns3"
+  ]
+ },
+ {
+  "id": "ns5",
+  "deck": "Nervous System",
+  "sec": "Peripheral NS",
+  "name": "Peripheral nervous system (PNS)",
+  "clues": [
+   "outside brain and spinal cord",
+   "somatic and autonomic"
+  ],
+  "ans": "All nerves and neurons not in the brain and spinal cord, running through the body\nTwo parts: somatic and autonomic nervous systems",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    11,
+    13
+   ]
+  },
+  "sim": [
+   "ns6",
+   "ns7"
+  ]
+ },
+ {
+  "id": "ns6",
+  "deck": "Nervous System",
+  "sec": "Peripheral NS",
+  "name": "Somatic nervous system",
+  "clues": [
+   "voluntary muscles",
+   "afferent and efferent"
+  ],
+  "ans": "Controls the voluntary muscles of the body\nSensory pathway: messages from the senses to the CNS (afferent)\nMotor pathway: from the CNS to voluntary muscles (efferent)",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    14,
+    17
+   ]
+  },
+  "sim": [
+   "ns7"
+  ]
+ },
+ {
+  "id": "ns7",
+  "deck": "Nervous System",
+  "sec": "Peripheral NS",
+  "name": "Autonomic nervous system",
+  "clues": [
+   "involuntary",
+   "organs and glands"
+  ],
+  "ans": "Controls involuntary muscles, organs and glands\nE.g. heart rate, blood pressure, breathing, digestion\nTwo divisions: sympathetic and parasympathetic",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    15,
+    17
+   ]
+  },
+  "sim": [
+   "ns6",
+   "ns8"
+  ]
+ },
+ {
+  "id": "ns8",
+  "deck": "Nervous System",
+  "sec": "Peripheral NS",
+  "name": "Sympathetic vs parasympathetic",
+  "clues": [
+   "fight-or-flight",
+   "eat-drink-and-rest"
+  ],
+  "ans": "Sympathetic: reacts to stress and arousal; prepares organs for rigorous activity (fight-or-flight)\nParasympathetic: restores the body after arousal; day-to-day functioning\nParasympathetic lowers heart rate, increases digestion, conserves energy (eat-drink-and-rest)",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    15,
+    16,
+    18
+   ]
+  },
+  "sim": [
+   "ns7"
+  ]
+ },
+ {
+  "id": "ns9",
+  "deck": "Nervous System",
+  "sec": "Central NS",
+  "name": "Spinal cord",
+  "clues": [
+   "grey matter",
+   "white matter",
+   "reflexes"
+  ],
+  "ans": "Inside the spinal column; communicates with sense organs and muscles below the head\nGrey matter: centre, packed with cell bodies and dendrites; responsible for reflexes\nWhite matter: mostly myelinated axons carrying information to the brain or along the cord",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    20,
+    21
+   ]
+  }
+ },
+ {
+  "id": "ns10",
+  "deck": "Nervous System",
+  "sec": "Hindbrain",
+  "name": "Medulla",
+  "clues": [
+   "top of the spinal cord",
+   "breathing, heart rate"
+  ],
+  "ans": "First large swelling at the top of the spinal cord; lowest part of the brain\nLife-sustaining functions: breathing, swallowing, heart rate",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "ns11"
+  ]
+ },
+ {
+  "id": "ns11",
+  "deck": "Nervous System",
+  "sec": "Hindbrain",
+  "name": "Pons",
+  "clues": [
+   "above the medulla",
+   "sleep, dreaming"
+  ],
+  "ans": "Larger swelling just above the medulla\nConnects the cerebellum with the top of the brain\nPart in sleep, dreaming and arousal",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "ns10",
+   "ns12"
+  ]
+ },
+ {
+  "id": "ns12",
+  "deck": "Nervous System",
+  "sec": "Hindbrain",
+  "name": "Reticular formation",
+  "clues": [
+   "through medulla and pons",
+   "alertness"
+  ],
+  "ans": "Area of neurons running through the middle of the medulla and pons\nResponsible for attention, alertness and arousal",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "ns11"
+  ]
+ },
+ {
+  "id": "ns13",
+  "deck": "Nervous System",
+  "sec": "Hindbrain",
+  "name": "Cerebellum",
+  "clues": [
+   "behind the pons",
+   "balance, coordination",
+   "learned skills"
+  ],
+  "ans": "Behind the pons, with many deep folds\nRegulates rapid movement, balance and coordination; stores learned reflexes, skills and habits\nAlso attention shifting and sensory timing\nDamage: clumsiness, poor balance, slurred speech, timing difficulty",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "ns10"
+  ]
+ },
+ {
+  "id": "ns14",
+  "deck": "Nervous System",
+  "sec": "Hindbrain",
+  "name": "Brain stem",
+  "clues": [
+   "hindbrain + midbrain"
+  ],
+  "ans": "Hindbrain structures, the midbrain and other structures together make up the brain stem\nHindbrain = medulla, pons, cerebellum (posterior part of the brain)",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    24,
+    37
+   ]
+  },
+  "sim": [
+   "ns13"
+  ]
+ },
+ {
+  "id": "ns15",
+  "deck": "Nervous System",
+  "sec": "Midbrain",
+  "name": "Tectum & colliculi",
+  "clues": [
+   "roof",
+   "vision",
+   "hearing"
+  ],
+  "ans": "Tectum: roof of the midbrain\nSuperior colliculus: vision\nInferior colliculus: hearing",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "ns16"
+  ]
+ },
+ {
+  "id": "ns16",
+  "deck": "Nervous System",
+  "sec": "Midbrain",
+  "name": "Tegmentum & substantia nigra",
+  "clues": [
+   "intermediate level",
+   "dopamine pathway"
+  ],
+  "ans": "Tegmentum: intermediate level; part of the reticular formation and pathways between forebrain and spinal cord\nSubstantia nigra: gives rise to the dopamine pathway for readiness to move",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "ns15"
+  ]
+ },
+ {
+  "id": "ns17",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Forebrain",
+  "clues": [
+   "two hemispheres",
+   "cortex and subcortical"
+  ],
+  "ans": "Most anterior and prominent part of the mammalian brain\nTwo cerebral hemispheres: outer cerebral cortex plus subcortical regions\nEach side controls the opposite (contralateral) side of the body",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    29,
+    30
+   ]
+  },
+  "sim": [
+   "ns18"
+  ]
+ },
+ {
+  "id": "ns18",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Limbic system",
+  "clues": [
+   "border around brainstem",
+   "emotion, memory"
+  ],
+  "ans": "Interlinked structures forming a border around the brainstem\nThalamus, hypothalamus, hippocampus, amygdala, cingulate cortex\nInvolved in emotion, motivation, memory and learning",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "ns19",
+   "ns20"
+  ]
+ },
+ {
+  "id": "ns19",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Thalamus",
+  "clues": [
+   "relay station",
+   "except smell"
+  ],
+  "ans": "Pair of structures in the centre of the forebrain\nRelay station: most sensory information goes through it to the cortex (except smell)\nDamage: loss or partial loss of sensations",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    32
+   ]
+  },
+  "sim": [
+   "ns20"
+  ]
+ },
+ {
+  "id": "ns20",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Hypothalamus",
+  "clues": [
+   "above the pituitary",
+   "temperature, eating"
+  ],
+  "ans": "Very small, below and in front of the thalamus, above the pituitary gland\nSignals the pituitary to change hormone release\nRegulates temperature, eating, drinking, sleep-wake, sexual behaviour, emotion",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    33
+   ]
+  },
+  "sim": [
+   "ns19"
+  ]
+ },
+ {
+  "id": "ns21",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Hippocampus, amygdala & cingulate cortex",
+  "clues": [
+   "seahorse",
+   "almond",
+   "above corpus callosum"
+  ],
+  "ans": "Hippocampus (seahorse-shaped, medial temporal lobe): forms long-term declarative memories\nAmygdala (almond-shaped, near the hippocampus): fear responses and fear memory\nCingulate cortex (above the corpus callosum): emotional and cognitive processing",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    34
+   ]
+  },
+  "sim": [
+   "ns18"
+  ]
+ },
+ {
+  "id": "ns22",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Basal ganglia",
+  "clues": [
+   "caudate, putamen, globus pallidus",
+   "motor control"
+  ],
+  "ans": "Caudate nucleus, putamen and globus pallidus\nMainly motor control; also motor learning and executive functions",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    35
+   ]
+  },
+  "sim": [
+   "ns16"
+  ]
+ },
+ {
+  "id": "ns23",
+  "deck": "Nervous System",
+  "sec": "Forebrain",
+  "name": "Ventricles & cerebrospinal fluid",
+  "clues": [
+   "fluid-filled",
+   "cushioning"
+  ],
+  "ans": "Central canal: fluid-filled channel in the centre of the spinal cord\nVentricles: four fluid-filled cavities in the brain\nCerebrospinal fluid: clear fluid that cushions the brain and stores hormones and nutrients",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    36
+   ]
+  }
+ },
+ {
+  "id": "ns24",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Hemispheres & corpus callosum",
+  "clues": [
+   "contralateral",
+   "bilateral",
+   "ipsilateral"
+  ],
+  "ans": "Cerebrum: two hemispheres connected by the corpus callosum\nContralateral: each hemisphere controls the opposite side of the body\nBilateral: information to both sides (hearing, vision)\nIpsilateral: same side (taste, smell)",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    41
+   ]
+  },
+  "sim": [
+   "ns3"
+  ]
+ },
+ {
+  "id": "ns25",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Occipital lobe",
+  "clues": [
+   "rear",
+   "vision"
+  ],
+  "ans": "At the rear and bottom of each hemisphere; visual centres of the brain\nPrimary visual cortex: processes visual information\nVisual association cortex: makes sense of visual information",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    42,
+    48
+   ]
+  },
+  "sim": [
+   "ns26",
+   "ns27"
+  ]
+ },
+ {
+  "id": "ns26",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Parietal lobe",
+  "clues": [
+   "top and back",
+   "touch, temperature"
+  ],
+  "ans": "At the top and back of each hemisphere; touch, taste and temperature\nSomatosensory cortex: processes skin and body-position information",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    43,
+    48
+   ]
+  },
+  "sim": [
+   "ns25",
+   "ns27"
+  ]
+ },
+ {
+  "id": "ns27",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Temporal lobe",
+  "clues": [
+   "sides, behind the temples",
+   "hearing"
+  ],
+  "ans": "Along the sides of the brain, just behind the temples\nHearing and meaningful speech\nPrimary auditory cortex and auditory association cortex\nAlso language, learning, memory and some visual processing",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    44,
+    48
+   ]
+  },
+  "sim": [
+   "ns25",
+   "ns28"
+  ]
+ },
+ {
+  "id": "ns28",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Frontal lobe & motor cortex",
+  "clues": [
+   "front and top",
+   "planning, personality"
+  ],
+  "ans": "In the front and top of the brain\nHigher mental processes: planning, personality, decision-making; fluent speech production\nMotor cortex: sends motor commands to the muscles of the somatic NS",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    45,
+    48
+   ]
+  },
+  "sim": [
+   "ns29",
+   "ns27"
+  ]
+ },
+ {
+  "id": "ns29",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Prefrontal cortex & Phineas Gage",
+  "clues": [
+   "executive functions",
+   "self-restraint",
+   "personality change"
+  ],
+  "ans": "Executive functions for goal-directed problem solving: working memory, inhibition, flexibility, self-control\nRegulates impulsive behaviour and controls complex behaviour\nPhineas Gage: injury to the left PFC led to personality change, impulsivity, lack of inhibition",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    46
+   ]
+  },
+  "sim": [
+   "ns28"
+  ]
+ },
+ {
+  "id": "ns30",
+  "deck": "Nervous System",
+  "sec": "Cerebral cortex",
+  "name": "Broca's vs Wernicke's area",
+  "clues": [
+   "left frontal vs left temporal",
+   "speaking vs understanding"
+  ],
+  "ans": "Broca's area (left frontal lobe): fluent speech\nBroca's aphasia: understands others but can't pronounce words accurately\nWernicke's area (left temporal lobe): understanding word meaning\nWernicke's aphasia: speaks smoothly but without coherent meaning",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    47
+   ]
+  },
+  "sim": [
+   "ns28"
+  ]
+ },
+ {
+  "id": "ns31",
+  "deck": "Nervous System",
+  "sec": "Research methods",
+  "name": "Lesioning & brain stimulation (ESB)",
+  "clues": [
+   "destroy cells at a wire tip",
+   "milder current"
+  ],
+  "ans": "Lesioning: an electric current through a thin wire destroys brain cells at its tip\nDeliberate damage in animals, or case studies of humans with brain damage\nElectrical stimulation of the brain (ESB): milder current makes neurons act as if they got a message",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    51
+   ]
+  },
+  "sim": [
+   "ns32"
+  ]
+ },
+ {
+  "id": "ns32",
+  "deck": "Nervous System",
+  "sec": "Research methods",
+  "name": "DBS vs TMS vs tDCS",
+  "clues": [
+   "implanted electrodes",
+   "magnetic pulses",
+   "scalp current"
+  ],
+  "ans": "Deep brain stimulation (invasive): implanted generator sends impulses to implanted electrodes\nTranscranial magnetic stimulation (noninvasive): magnetic pulses via coils over the head\nTranscranial direct current stimulation (noninvasive): very low current through scalp electrodes",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    52,
+    53
+   ]
+  },
+  "sim": [
+   "ns31"
+  ]
+ },
+ {
+  "id": "ns33",
+  "deck": "Nervous System",
+  "sec": "Research methods",
+  "name": "Mapping structure: CT vs MRI",
+  "clues": [
+   "X-rays",
+   "radio waves and magnetic fields"
+  ],
+  "ans": "CT: computer-controlled X-rays; detects tumours, injuries, abnormal structure; suitable with metal in the body\nMRI: radio waves and magnetic fields give detailed images; good spatial resolution",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    54,
+    55,
+    56
+   ]
+  },
+  "sim": [
+   "ns34"
+  ]
+ },
+ {
+  "id": "ns34",
+  "deck": "Nervous System",
+  "sec": "Research methods",
+  "name": "Mapping function: EEG vs PET vs fMRI",
+  "clues": [
+   "scalp electrodes",
+   "radioactive glucose",
+   "oxygenation"
+  ],
+  "ans": "EEG: electrical activity via scalp electrodes; good temporal, poor spatial resolution\nPET: injected radioactive glucose shows which cells are active\nfMRI: magnetic field tracks brain oxygenation; more oxygen = more activity; clearer detail",
+  "src": {
+   "f": "nervous-system",
+   "p": [
+    54,
+    57,
+    58,
+    59
+   ]
+  },
+  "sim": [
+   "ns33"
+  ]
+ },
+ {
+  "id": "lt1",
+  "deck": "Language & Thought",
+  "sec": "Thinking",
+  "name": "Thinking (cognition)",
+  "clues": [
+   "mental activity",
+   "organising, understanding, communicating"
+  ],
+  "ans": "Mental activity in the brain when a person is processing information\nIncludes organising, understanding and communicating information\nMore than a stream of consciousness; words and images are often involved",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "lt2"
+  ]
+ },
+ {
+  "id": "lt2",
+  "deck": "Language & Thought",
+  "sec": "Thinking",
+  "name": "Mental images",
+  "clues": [
+   "picture-like",
+   "Christmas tree vs frozen pea"
+  ],
+  "ans": "Mental representations of objects or events with a picture-like quality\nHelp identify properties of imagined objects (which is darker green?)\nHelp us navigate, track and reach",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "lt3"
+  ]
+ },
+ {
+  "id": "lt3",
+  "deck": "Language & Thought",
+  "sec": "Thinking",
+  "name": "Kosslyn et al. (1978)",
+  "clues": [
+   "island map",
+   "reaction time",
+   "distance"
+  ],
+  "ans": "Participants mentally 'travelled' between places on a memorised map\nThe greater the physical distance, the longer it took to reach the place\nMental images keep spatial properties like real pictures",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "lt2",
+   "lt4"
+  ]
+ },
+ {
+  "id": "lt4",
+  "deck": "Language & Thought",
+  "sec": "Thinking",
+  "name": "Mental rotation & imagery vs perception",
+  "clues": [
+   "rotate a shape",
+   "top-down",
+   "weaker visual cortex"
+  ],
+  "ans": "Mental rotation: turning an imagined object to compare it\nPerception and imagery activate the same lobes (frontal, temporal, parietal, occipital)\nPerception: faster, bottom-up, stronger visual cortex activity\nImagery: slower, top-down, weaker visual cortex activity",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    7,
+    8,
+    9
+   ]
+  },
+  "sim": [
+   "lt3"
+  ]
+ },
+ {
+  "id": "lt5",
+  "deck": "Language & Thought",
+  "sec": "Concepts",
+  "name": "Concept",
+  "clues": [
+   "category",
+   "fruit"
+  ],
+  "ans": "An idea representing a class or category of objects, events or activities\nE.g. thinking 'fruit' without thinking of every fruit\nContains key features, so new examples can be identified",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "lt6",
+   "lt7"
+  ]
+ },
+ {
+  "id": "lt6",
+  "deck": "Language & Thought",
+  "sec": "Concepts",
+  "name": "Formal vs natural concepts",
+  "clues": [
+   "defined by rules",
+   "fuzzy",
+   "square vs platypus"
+  ],
+  "ans": "Formal: defined by specific rules or features (e.g. a square)\nNatural: formed from real-world experience, not strict rules; tend to be fuzzy\nNatural concept examples: platypus as a mammal, raft as a vehicle",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "lt5",
+   "lt7"
+  ]
+ },
+ {
+  "id": "lt7",
+  "deck": "Language & Thought",
+  "sec": "Concepts",
+  "name": "Prototype",
+  "clues": [
+   "closest match",
+   "apple vs durian"
+  ],
+  "ans": "An example that closely matches a concept's defining characteristics\nDevelops from exposure to objects in that category\nE.g. Northern Hemisphere 'fruit': apple, pear, orange rather than durian or guava",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "lt6"
+  ]
+ },
+ {
+  "id": "lt8",
+  "deck": "Language & Thought",
+  "sec": "Concepts",
+  "name": "Schemas & scripts",
+  "clues": [
+   "mental generalisations",
+   "familiar sequence"
+  ],
+  "ans": "Schemas: mental generalisations about objects, places, events and people\nScripts: a type of schema for a familiar sequence of activities",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "lt5"
+  ]
+ },
+ {
+  "id": "lt9",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Problem-solving vs decision-making",
+  "clues": [
+   "reaching a goal",
+   "choosing between alternatives"
+  ],
+  "ans": "Problem-solving: reaching a goal by thinking and behaving in certain ways\nDecision-making: identifying, evaluating and choosing between alternatives\nProblem-solving is part of decision-making",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "lt10"
+  ]
+ },
+ {
+  "id": "lt10",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Trial and error vs algorithms",
+  "clues": [
+   "one after another",
+   "step-by-step, always correct"
+  ],
+  "ans": "Trial and error (mechanical solution): try one solution after another until one works\nAlgorithm: specific step-by-step procedure; always finds the correct solution if one exists (e.g. maths formulas)",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "lt11"
+  ]
+ },
+ {
+  "id": "lt11",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Heuristic",
+  "clues": [
+   "rule of thumb",
+   "educated guess"
+  ],
+  "ans": "Educated guess from prior experience that narrows down possible solutions\nA simple rule meant to apply to many situations ('rule of thumb')",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "lt10",
+   "lt12"
+  ]
+ },
+ {
+  "id": "lt12",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Representativeness vs availability heuristic",
+  "clues": [
+   "shares characteristics",
+   "easy to recall",
+   "shark news"
+  ],
+  "ans": "Representativeness: assumes anything sharing a category's characteristics belongs to it\nE.g. 'all Chinese people are from China'; 'you don't look like a doctor'\nAvailability: judging likelihood by how easily examples come to mind\nE.g. afraid to swim after seeing shark attacks in the news",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    19,
+    20
+   ]
+  },
+  "sim": [
+   "lt11",
+   "lt13"
+  ]
+ },
+ {
+  "id": "lt13",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Working backward & subgoals",
+  "clues": [
+   "start from the goal",
+   "break it down"
+  ],
+  "ans": "Working backward: start from the goal (e.g. coffee shop) and plan the route back\nSubgoals: break the goal into smaller steps so each one brings the solution closer",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "lt12"
+  ]
+ },
+ {
+  "id": "lt14",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Insight",
+  "clues": [
+   "sudden",
+   "\"Aha!\"",
+   "Köhler's chimpanzee"
+  ],
+  "ans": "Sudden perception of a solution ('Aha!' moment)\nThe problem may be recognised as like one solved before\nOften happens while thinking of other things (e.g. Köhler's chimpanzee)",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    22,
+    23,
+    24
+   ]
+  },
+  "sim": [
+   "lt10"
+  ]
+ },
+ {
+  "id": "lt15",
+  "deck": "Language & Thought",
+  "sec": "Problem-solving",
+  "name": "Barriers to problem-solving",
+  "clues": [
+   "typical function",
+   "old patterns",
+   "fits beliefs"
+  ],
+  "ans": "Functional fixedness: thinking of objects only in terms of their typical functions\nMental set: persisting with problem-solving patterns that worked in the past\nConfirmation bias: seeking evidence that fits beliefs, ignoring evidence that doesn't",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    25
+   ]
+  },
+  "sim": [
+   "lt14"
+  ]
+ },
+ {
+  "id": "lt16",
+  "deck": "Language & Thought",
+  "sec": "Creativity",
+  "name": "Convergent vs divergent thinking",
+  "clues": [
+   "one answer",
+   "many ideas"
+  ],
+  "ans": "Creativity: solving problems by combining ideas or behaviour in new ways\nConvergent thinking: one answer, reached with previous knowledge and logic\nDivergent thinking: from one point, produce many different ideas",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    26,
+    27
+   ]
+  },
+  "sim": [
+   "lt17"
+  ]
+ },
+ {
+  "id": "lt17",
+  "deck": "Language & Thought",
+  "sec": "Creativity",
+  "name": "Ways to think more divergently",
+  "clues": [
+   "brainstorming",
+   "journal",
+   "mind mapping"
+  ],
+  "ans": "Brainstorming\nKeeping a journal\nFreewriting\nMind or subject mapping",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "lt16"
+  ]
+ },
+ {
+  "id": "lt18",
+  "deck": "Language & Thought",
+  "sec": "Language",
+  "name": "Language",
+  "clues": [
+   "system of symbols",
+   "unlimited statements"
+  ],
+  "ans": "A system for combining symbols (e.g. words) so that an unlimited number of meaningful statements can be made\nFor the purpose of communicating with others",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "lt19"
+  ]
+ },
+ {
+  "id": "lt19",
+  "deck": "Language & Thought",
+  "sec": "Language",
+  "name": "Grammar, phonemes & morphemes",
+  "clues": [
+   "rules",
+   "units of sound",
+   "units of meaning"
+  ],
+  "ans": "Grammar: rules for language use and structure\nPhonemes: basic units of sound\nMorphemes: smallest units of meaning; 'playing' = play + ing",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "lt20"
+  ]
+ },
+ {
+  "id": "lt20",
+  "deck": "Language & Thought",
+  "sec": "Language",
+  "name": "Syntax, semantics & pragmatics",
+  "clues": [
+   "word order",
+   "meaning",
+   "social use"
+  ],
+  "ans": "Syntax: rules for combining words into grammatical sentences\nSemantics: rules for meaning ('Johnny hit the ball' = 'the ball was hit by Johnny')\nPragmatics: practical and social side of communication, e.g. simple language with children",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    32
+   ]
+  },
+  "sim": [
+   "lt19"
+  ]
+ },
+ {
+  "id": "lt21",
+  "deck": "Language & Thought",
+  "sec": "Language",
+  "name": "Child-directed speech",
+  "clues": [
+   "high-pitched",
+   "sing-song"
+  ],
+  "ans": "How adults and older children talk to infants\nHigher-pitched, repetitive, sing-song speech\nCreates learning opportunities between caregiver and infant",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    33
+   ]
+  },
+  "sim": [
+   "lt22"
+  ]
+ },
+ {
+  "id": "lt22",
+  "deck": "Language & Thought",
+  "sec": "Language",
+  "name": "Stages of language development",
+  "clues": [
+   "cooing → babbling → one-word → telegraphic → sentences"
+  ],
+  "ans": "Cooing (~2 months): vowel-like sounds\nBabbling (~6 months): consonant + vowel sounds\nOne-word speech / holophrases (~age 1): 'Milk!'\nTelegraphic speech (~age 1.5): 'Mummy go'\nWhole sentences (~preschool years)",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    34,
+    35
+   ]
+  },
+  "sim": [
+   "lt21"
+  ]
+ },
+ {
+  "id": "lt23",
+  "deck": "Language & Thought",
+  "sec": "Language & thought",
+  "name": "Piaget vs Vygotsky",
+  "clues": [
+   "concepts → language",
+   "language → concepts"
+  ],
+  "ans": "Piaget: concepts come first, then language\nVygotsky: language comes first, then concepts",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    36
+   ]
+  },
+  "sim": [
+   "lt24"
+  ]
+ },
+ {
+  "id": "lt24",
+  "deck": "Language & Thought",
+  "sec": "Language & thought",
+  "name": "Linguistic relativity vs cognitive universalism",
+  "clues": [
+   "Sapir-Whorf",
+   "Inuit snow",
+   "Dani colours"
+  ],
+  "ans": "Linguistic relativity (Sapir-Whorf): language controls thought and concepts\nInuit 'many words for snow' turned out false; Dani (2 colour words) perceive colour like English speakers\nCognitive universalism: universal concepts shape language\nFindings are mixed and inconclusive",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    37
+   ]
+  },
+  "sim": [
+   "lt23",
+   "lt25"
+  ]
+ },
+ {
+  "id": "lt25",
+  "deck": "Language & Thought",
+  "sec": "Language & thought",
+  "name": "Gelman & Markman (1986)",
+  "clues": [
+   "blackbird",
+   "label",
+   "mashed-up food"
+  ],
+  "ans": "Children told a bird was a 'blackbird' more often said it fed its baby mashed-up food, like the other bird\nThe label shaped their inference more than appearance\nLinguistic relativity may explain higher-level concepts rather than perception",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    38
+   ]
+  },
+  "sim": [
+   "lt24"
+  ]
+ },
+ {
+  "id": "lt26",
+  "deck": "Language & Thought",
+  "sec": "Language & thought",
+  "name": "Animal language & Kanzi",
+  "clues": [
+   "communication vs language",
+   "150 words",
+   "no syntax"
+  ],
+  "ans": "Animals communicate by sound or behaviour; hard to judge if it's language\nCommunication is instinctive; human language is voluntary, deliberate and symbolic\nKanzi the chimp: recognised 150 words, followed some complex instructions\nNo conclusive evidence animals can master syntax",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    39,
+    40
+   ]
+  }
+ },
+ {
+  "id": "lt27",
+  "deck": "Language & Thought",
+  "sec": "Language & thought",
+  "name": "Bilingualism",
+  "clues": [
+   "two languages",
+   "Gunnerud et al. (2020)"
+  ],
+  "ans": "Speaking two languages\nThought to bring less cognitive decline, better executive function, set shifting and inhibitory control\nMeta-analysis (Gunnerud et al., 2020): overall advantages are negligible",
+  "src": {
+   "f": "language-thought",
+   "p": [
+    41
+   ]
+  }
  }
 ]
