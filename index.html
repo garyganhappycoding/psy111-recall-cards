@@ -184,6 +184,42 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .qmiss{display:flex;flex-wrap:wrap;gap:6px}
 .qmiss span{font-size:13px;padding:5px 10px;border-radius:999px;background:var(--bad-bg);color:var(--bad)}
 .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.s-foot .short{display:none}
+/* study sheet: fills the screen like quiz mode, so nothing needs scrolling on a laptop */
+.sheet.study{width:min(1240px,100%);height:calc(100dvh - 32px);max-height:none;overflow:hidden;display:flex;flex-direction:column}
+.sheet.study .sheet-in{flex:1;min-height:0;display:flex;flex-direction:column;gap:14px;padding:20px 24px}
+.s-head{flex-shrink:0}
+.sheet.study h3{font-size:clamp(26px,3.2vw,38px)}
+.s-body{flex:1;min-height:0;display:flex;flex-direction:column;gap:12px;overflow:auto;overscroll-behavior:contain}
+.s-clues{flex-shrink:0}
+.s-cols{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.s-cols[hidden]{display:none}
+.s-cols:has(> .src:not([hidden])){grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}
+.s-main{min-height:0;gap:10px}
+.sheet.study .answer{font-size:17px;line-height:1.55}
+.sheet.study .try{flex:1;min-height:110px;resize:none;font-size:16px}
+.sheet.study .src{min-height:0;overflow:auto;align-self:start;max-height:100%}
+.s-foot{flex-shrink:0;padding-top:12px;border-top:1px solid var(--line)}
+@media (max-width:820px){
+  #scrim{padding:0}
+  .sheet.study{width:100%;height:100dvh;border-radius:0}
+  .sheet.study .sheet-in{padding:14px 16px calc(12px + env(safe-area-inset-bottom));gap:10px}
+  .sheet.study h3{font-size:26px}
+  .s-cols,.s-cols:has(> .src:not([hidden])){grid-template-columns:minmax(0,1fr);gap:10px;align-content:start;flex:none}
+  .s-main{min-height:auto}
+  .sheet.study .src{max-height:none;overflow:visible;padding:8px}
+  .sheet.study .src-imgs img{max-height:26dvh;object-fit:contain;background:var(--paper)}
+  .sheet.study .answer{font-size:16px}
+  .sheet.study .try{min-height:96px;flex:none}
+  .sheet.study .rate-btns{flex-wrap:nowrap;gap:6px}
+  .sheet.study .rate-btns button{min-width:0;padding:10px 6px;font-size:13px}
+  .sheet.study #s-learn .hint{display:none}
+  .s-foot{gap:6px;padding-top:10px;flex-wrap:nowrap}
+  .s-foot .btn{padding:9px 11px;white-space:nowrap}
+  .s-foot #s-reveal{flex:1}
+  .s-foot .spacer,.s-foot .count,.s-foot .full{display:none}
+  .s-foot .short{display:inline}
+}
 .count{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
 
 /* table */
@@ -275,29 +311,31 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 
 <!-- study sheet -->
 <div class="scrim" id="scrim" hidden>
-  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="s-name">
+  <div class="sheet study" id="sheet" role="dialog" aria-modal="true" aria-labelledby="s-name">
     <div class="sheet-in">
-      <div><div class="tag" id="s-tag"></div><h3 id="s-name"></h3><span class="step" id="s-step"></span></div>
-      <div><div class="cluehead"><span class="label">Clues</span><button class="cluebtn" id="s-cluebtn" aria-expanded="false" aria-controls="s-clues">Show clues</button></div><div class="clues" id="s-clues" hidden></div></div>
-      <div id="s-learn" class="field"><div class="label">Read and understand</div><div class="answer" id="s-learn-ans"></div><div class="src" id="s-src1" hidden></div><span class="hint">When you've got it, tap “Done, test me” to flip the card and answer from memory.</span></div>
-      <div id="s-test" class="field">
+      <div class="s-head"><div class="tag" id="s-tag"></div><h3 id="s-name"></h3><span class="step" id="s-step"></span></div>
+      <div class="s-body">
+      <div class="s-clues"><div class="cluehead"><span class="label">Clues</span><button class="cluebtn" id="s-cluebtn" aria-expanded="false" aria-controls="s-clues">Show clues</button></div><div class="clues" id="s-clues" hidden></div></div>
+      <div id="s-learn" class="s-cols"><div class="s-main field"><div class="label">Read and understand</div><div class="answer" id="s-learn-ans"></div><span class="hint">When you've got it, tap “Done, test me” to flip the card and answer from memory.</span></div><div class="src" id="s-src1" hidden></div></div>
+      <div id="s-test" class="s-cols"><div class="s-main field">
         <textarea class="try" id="s-try" placeholder="Explain it in your own words before revealing…" aria-label="Your explanation"></textarea>
         <div class="answer hidden" id="s-answer" aria-live="polite"></div>
         <div class="rate" id="s-rate" hidden><div class="label">How well did you know it?</div>
           <div class="rate-btns"><button data-s="got">✓ Understand</button><button data-s="unsure">? Not sure</button><button data-s="forgot">✗ Totally forgot</button></div>
           <span class="saved-note" id="s-savednote" hidden>Your answer is saved below and the box is cleared for next time.</span></div>
         <details class="hist" id="s-hist" hidden><summary id="s-hist-sum"></summary><ol id="s-hist-list"></ol></details>
-        <div class="src" id="s-src2" hidden></div>
+        </div><div class="src" id="s-src2" hidden></div>
       </div>
-      <div class="sheet-foot">
+      </div>
+      <div class="sheet-foot s-foot">
         <button class="btn primary" id="s-reveal">Reveal answer</button>
-        <button class="btn" id="s-prev">← Prev</button>
-        <button class="btn" id="s-next">Next →</button>
-        <button class="btn" id="s-spin" hidden>↻ Spin again</button>
+        <button class="btn" id="s-prev" aria-label="Previous card">←<span class="full"> Prev</span></button>
+        <button class="btn" id="s-next" aria-label="Next card"><span class="full">Next </span>→</button>
+        <button class="btn" id="s-spin" hidden>↻<span class="full"> Spin again</span></button>
         <span class="spacer"></span>
         <span class="count" id="s-count"></span>
         <button class="btn" id="s-edit">Edit</button>
-        <button class="btn" id="s-close">Close</button>
+        <button class="btn" id="s-close" aria-label="Close"><span class="full">Close</span><span class="short">✕</span></button>
       </div>
     </div>
   </div>
