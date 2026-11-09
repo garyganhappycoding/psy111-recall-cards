@@ -186,7 +186,9 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .sheet-foot{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .s-foot .short{display:none}
 /* study sheet: fills the screen like quiz mode, so nothing needs scrolling on a laptop */
-.sheet.study{width:min(1240px,100%);height:calc(100dvh - 32px);max-height:none;overflow:hidden;display:flex;flex-direction:column}
+#scrim,#qscrim{padding:0}
+.sheet.study{width:100%;height:100dvh;max-height:none;border-radius:0;overflow:hidden;display:flex;flex-direction:column}
+.sheet.study .sheet-in{width:min(1400px,100%);margin:0 auto}
 .sheet.study .sheet-in{flex:1;min-height:0;display:flex;flex-direction:column;gap:14px;padding:20px 24px}
 .s-head{flex-shrink:0}
 .sheet.study h3{font-size:clamp(26px,3.2vw,38px)}
@@ -200,6 +202,18 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .sheet.study .try{flex:1;min-height:110px;resize:none;font-size:16px}
 .sheet.study .src{min-height:0;overflow:auto;align-self:start;max-height:100%}
 .s-foot{flex-shrink:0;padding-top:12px;border-top:1px solid var(--line)}
+#qsheet{width:100%;height:100dvh;max-height:none;border-radius:0;display:flex;flex-direction:column;overflow:hidden}
+#qsheet>.sheet-in{flex:1;min-height:0;display:flex;flex-direction:column;gap:14px;width:min(1200px,100%);margin:0 auto;padding:20px 24px calc(14px + env(safe-area-inset-bottom))}
+#qsheet>.sheet-in[hidden]{display:none}
+#qsheet .qhead,#qsheet .qbar{flex-shrink:0}
+.q-body{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+.q-main{display:flex;flex-direction:column;gap:12px}
+.q-main .qtype{align-self:flex-start}
+#qsheet .qstem{font-size:clamp(17px,1.8vw,21px)}
+#qsheet .qopt{font-size:clamp(15px,1.4vw,17px)}
+#qsheet .sheet-foot{flex-shrink:0;padding-top:12px;border-top:1px solid var(--line)}
+@media (min-width:900px) and (orientation:landscape){.q-body:has(> #q-after:not([hidden])){grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;overflow:hidden}.q-body:has(> #q-after:not([hidden]))>*{min-height:0;overflow:auto;overscroll-behavior:contain}}
+@media (max-width:699px){#qsheet>.sheet-in{padding:14px 14px calc(10px + env(safe-area-inset-bottom));gap:10px}}
 .sheet.study .rate-btns{flex-wrap:nowrap}
 .sheet.study .rate-btns button{min-width:0}
 .sheet.study .s-main:has(#s-answer:not(.hidden)) .try{flex:none;min-height:52px;height:56px}
@@ -382,9 +396,10 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div class="sheet-in" id="q-play">
       <div class="qhead"><div class="tag" id="q-tag">Quiz</div><span class="qprog" id="q-prog"></span></div>
       <div class="qbar"><i id="q-bar"></i></div>
-      <span class="qtype" id="q-type"></span>
+      <div class="q-body">
+      <div class="q-main"><span class="qtype" id="q-type"></span>
       <div class="qstem" id="q-stem"></div>
-      <div class="qopts" id="q-opts"></div>
+      <div class="qopts" id="q-opts"></div></div>
       <div id="q-after" class="field" hidden>
         <div class="qfeed" id="q-feed" aria-live="polite"></div>
         <div class="label" id="q-anslabel"></div>
@@ -392,12 +407,13 @@ td.orig .btn{font-size:12px;padding:5px 10px}
         <div class="qcmp" id="q-cmp" hidden></div>
         <div class="src" id="q-src" hidden></div>
       </div>
+      </div>
       <div class="sheet-foot"><button class="btn primary" id="q-next" hidden>Next question →</button><span class="spacer"></span><button class="btn" id="q-end">End quiz</button></div>
     </div>
     <div class="sheet-in" id="q-done" hidden>
       <div><div class="tag">Quiz finished</div><h3 id="q-dtitle"></h3></div>
-      <div class="qscore" id="q-score"></div>
-      <div id="q-missbox" class="field"><div class="label">Ones to revise</div><div class="qmiss" id="q-miss"></div></div>
+      <div class="q-body"><div class="qscore" id="q-score"></div>
+      <div id="q-missbox" class="field"><div class="label">Ones to revise</div><div class="qmiss" id="q-miss"></div></div></div>
       <div class="sheet-foot"><button class="btn primary" id="q-retry">Retry the ones I missed</button><button class="btn" id="q-markmiss">Mark missed as “Totally forgot”</button><span class="spacer"></span><button class="btn" id="q-close">Close</button></div>
     </div>
   </div>
@@ -666,7 +682,7 @@ function showQuestion(){
     btn.onclick=()=>answerQuiz(btn);box.appendChild(btn);
   });
   $("#q-after").hidden=true;$("#q-next").hidden=true;
-  $("#qsheet").scrollTop=0;box.querySelector(".qopt").focus({preventScroll:true});
+  $("#qsheet").scrollTop=0;$("#q-play .q-body").scrollTop=0;box.querySelector(".qopt").focus({preventScroll:true});
 }
 function answerQuiz(btn){
   if(quiz.answered)return;quiz.answered=true;
@@ -684,6 +700,8 @@ function answerQuiz(btn){
   renderSrc($("#q-src"),c);markDone(c.id);
   $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.items.length} · Score ${quiz.score}`;
   $("#q-after").hidden=false;$("#q-next").hidden=false;
+  // single-column (phone / upright tablet): bring the feedback into view inside the full-screen quiz
+  requestAnimationFrame(()=>{const bd=$("#q-play .q-body"),af=$("#q-after");if(getComputedStyle(bd).gridTemplateColumns.split(" ").length===1){bd.scrollTo({top:af.offsetTop-bd.offsetTop-8,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}});
   $("#q-next").textContent=quiz.i+1<quiz.items.length?"Next question →":"See my score →";$("#q-next").focus({preventScroll:true});
 }
 $("#q-next").onclick=()=>{quiz.i++;if(quiz.i<quiz.items.length)showQuestion();else finishQuiz()};
