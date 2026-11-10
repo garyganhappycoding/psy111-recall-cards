@@ -161,6 +161,7 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .qstem{font-size:17px;line-height:1.45;font-weight:600}
 .qstem .pts{font-weight:400;font-size:15px;margin-top:10px}
 .qstem b{color:var(--accent)}
+.qsub{font-size:13px;font-weight:400;color:var(--muted);margin-top:6px}
 .qopts{display:flex;flex-direction:column;gap:8px}
 .qopt{all:unset;cursor:pointer;display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper);font-size:15px;line-height:1.4;overflow-wrap:anywhere}
 .qopt:hover:not([disabled]){border-color:var(--accent)}
@@ -202,6 +203,10 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .sheet.study .try{flex:1;min-height:110px;resize:none;font-size:16px}
 .sheet.study .src{min-height:0;overflow:auto;align-self:start;max-height:100%}
 .s-foot{flex-shrink:0;padding-top:12px;border-top:1px solid var(--line)}
+.kbhint{display:none;flex-shrink:0;font-size:12px;color:var(--muted);margin-bottom:-6px}
+.kbhint kbd,.qkb kbd{font-family:var(--mono);font-size:11px;padding:1px 6px;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;background:var(--bg);color:var(--ink)}
+@media (hover:hover) and (pointer:fine){.kbhint{display:block}}
+#sheet:focus{outline:none}
 #qsheet{width:100%;height:100dvh;max-height:none;border-radius:0;display:flex;flex-direction:column;overflow:hidden}
 #qsheet>.sheet-in{flex:1;min-height:0;display:flex;flex-direction:column;gap:14px;width:min(1200px,100%);margin:0 auto;padding:20px 24px calc(14px + env(safe-area-inset-bottom))}
 #qsheet>.sheet-in[hidden]{display:none}
@@ -347,7 +352,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 
 <!-- study sheet -->
 <div class="scrim" id="scrim" hidden>
-  <div class="sheet study" id="sheet" role="dialog" aria-modal="true" aria-labelledby="s-name">
+  <div class="sheet study" id="sheet" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="s-name">
     <div class="sheet-in">
       <div class="s-head"><div class="tag" id="s-tag"></div><h3 id="s-name"></h3><span class="step" id="s-step"></span></div>
       <div class="s-body">
@@ -363,6 +368,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
         </div><div class="src" id="s-src2" hidden></div>
       </div>
       </div>
+      <div class="kbhint" aria-hidden="true"><kbd>Enter</kbd> reveal · <kbd>Q</kbd> clues · <kbd>U</kbd> understand · <kbd>N</kbd> not sure · <kbd>T</kbd> totally forgot · <kbd>←</kbd><kbd>→</kbd> cards · <kbd>Shift</kbd>+<kbd>Enter</kbd> new line</div>
       <div class="sheet-foot s-foot">
         <button class="btn primary" id="s-reveal">Reveal answer</button>
         <button class="btn" id="s-prev" aria-label="Previous card">←<span class="full"> Prev</span></button>
@@ -449,6 +455,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
       <div class="field"><label class="label" for="e-name">Concept name</label><input type="text" id="e-name" maxlength="120" required></div>
       <div class="field"><label class="label" for="e-deck">Topic tab</label><input type="text" id="e-deck" list="dl-decks" maxlength="40" required><datalist id="dl-decks"></datalist><span class="hint">Pick an existing topic or type a new one to create a new tab.</span></div>
       <div class="field"><label class="label" for="e-sec">Section</label><input type="text" id="e-sec" list="dl-secs" maxlength="60" required><datalist id="dl-secs"></datalist></div>
+      <div class="field"><label class="label" for="e-q">Question</label><input type="text" id="e-q" maxlength="200" placeholder="e.g. What is the id and what principle does it follow?"><span class="hint">Shown as the card's title in Test and Quiz mode. Leave blank to use “What is …?”.</span></div>
       <div class="field"><label class="label" for="e-clues">Clues</label><textarea id="e-clues" rows="4"></textarea><span class="hint">One clue per line.</span></div>
       <div class="field"><label class="label" for="e-ans">Original answer</label><textarea id="e-ans" rows="7" required></textarea><span class="hint">One point per line — each line shows as a bullet.</span></div>
       <div class="err" id="e-err" hidden></div>
@@ -493,7 +500,10 @@ function sections(d){return [...new Set(C.filter(c=>c.deck===d).map(c=>c.sec))]}
 function colorFor(d,sec){const i=Math.max(0,sections(d).indexOf(sec));const v=SLOTS[i%SLOTS.length];return `--c:var(${v});--cbg:var(${v}-bg)`}
 const colorVars=c=>colorFor(c.deck,c.sec);
 const inDeck=()=>C.filter(c=>c.deck===deck);
-function withNewTopics(list){const have=new Set(list.map(c=>c.deck));return [...defaults.filter(d=>!have.has(d.deck)),...list]}
+function withNewTopics(list){const have=new Set(list.map(c=>c.deck)),dq=new Map(defaults.map(d=>[d.id,d.q]));
+  // saved decks from before questions existed: give each original card its question (user edits are kept)
+  list=list.map(c=>c.q||!dq.get(c.id)?c:{...c,q:dq.get(c.id)});
+  return [...defaults.filter(d=>!have.has(d.deck)),...list]}
 
 function renderTopics(){
   const nav=$("#topics");nav.innerHTML="";
@@ -539,10 +549,10 @@ function renderMode(){
 }
 document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{if(b.dataset.m==="quiz"){openQuizConfirm();return}mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
 
-/* ---- quiz mode: 4 question types per card (name it / choose the description / true statement / compare similar concepts),
+/* ---- quiz mode: 3 question types per card (choose the best answer / true statement / compare similar concepts),
    mixed together; each new quiz rotates the type a card gets, so repeat quizzes ask differently ---- */
 let quiz=null;
-const QT=["name","describe","fact","compare"],QTLABEL={name:"Name the concept",describe:"Choose the description",fact:"Pick the true statement",compare:"Compare similar concepts"};
+const QT=["describe","fact","compare"],QTLABEL={describe:"Choose the best answer",fact:"Pick the true statement",compare:"Compare similar concepts"};
 const shuffleArr=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const bulletsOf=c=>String(c.ans).split("\n").map(x=>x.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean);
 const usable=b=>b.length>8&&!/^[→…]/.test(b);  // skip continuation fragments like "→ arousal interpreted…"
@@ -567,6 +577,12 @@ function distractorPool(c){
   others.forEach(x=>{const d=slideDist(c,x);
     tiers[d===0?0:d<=2?1:sims.has(x.id)?2:(x.deck===c.deck&&x.sec===c.sec)?3:x.deck===c.deck?4:5].push(x)});
   return tiers.flatMap(t=>shuffleArr(t));
+}
+function questionOf(c){
+  if(c.q&&c.q.trim())return c.q.trim();
+  const m=c.name.split(/\s+vs\.?\s+/i);
+  if(m.length===2)return `How does ${m[0]} differ from ${m[1]}?`;
+  return `What is ${c.name}? Explain it in your own words.`;
 }
 function makeQuestion(c,type){
   const bs=bulletsOf(c),pool=distractorPool(c),k=keyOf(c.name);
@@ -631,7 +647,7 @@ function planItems(plan,cards){
 const PLANS=[["full","Full quiz","One question per card, mixed types. Each new quiz asks each card a different way."],
   ["quick","Quick 10","10 random cards, mixed types."],
   ["compare","Compare similar concepts","Tell apart look-alikes, e.g. Id vs Ego, James-Lange vs Cannon-Bard."],
-  ["all","Ultimate","All 4 question types for every card."]];
+  ["all","Ultimate","All 3 question types for every card."]];
 function openQuizConfirm(){
   const cards=quizScope(),n=cards.length;
   $("#qc-body").textContent=n?`From ${scopeText()} (${n} card${n>1?"s":""}). Every question has 4 options. Pick a quiz:`:"There are no cards in this view. Pick another topic or clear the filters first.";
@@ -671,9 +687,9 @@ function showQuestion(){
   if(q.type==="name"){
     stem.append("Which concept is this?");const ul=document.createElement("ul");ul.className="pts";
     q.stemPts.forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});stem.appendChild(ul);
-  }else if(q.type==="describe"){stem.append("Which description matches ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
-  else if(q.type==="fact"){stem.append("Which statement is about ");const b=document.createElement("b");b.textContent=c.name;stem.append(b,"?")}
-  else{const o=byId(q.other);stem.append("Which describes ");const b1=document.createElement("b");b1.textContent=c.name;const b2=document.createElement("b");b2.textContent=o.name;stem.append(b1," — not ",b2,"?")}
+  }else if(q.type==="describe"){stem.append(questionOf(c))}
+  else if(q.type==="fact"){stem.append(questionOf(c));const sub=document.createElement("div");sub.className="qsub";sub.textContent="Only one of these statements is correct for it.";stem.appendChild(sub)}
+  else{const o=byId(q.other);stem.append("What is true of ");const b1=document.createElement("b");b1.textContent=c.name;const b2=document.createElement("b");b2.textContent=o.name;stem.append(b1," but not of ",b2,"?")}
   const box=$("#q-opts");box.innerHTML="";
   q.opts.forEach((o,k)=>{
     const btn=document.createElement("button");btn.className="qopt";btn.dataset.v=o;
@@ -847,7 +863,7 @@ function openCard(id,opt){
   opt=opt||{};spinCtx=!!opt.spin;
   const c=byId(id);if(!c)return;cur=id;const list=visible();const idx=list.findIndex(x=>x.id===id);
   $("#sheet").style.cssText=colorVars(c);
-  $("#s-tag").textContent=`${c.deck} · ${c.sec}`;$("#s-name").textContent=c.name;
+  $("#s-tag").textContent=`${c.deck} · ${c.sec}`;$("#s-name").textContent=questionOf(c);
   $("#s-clues").innerHTML=c.clues.length?c.clues.map(x=>`<span>${esc(x)}</span>`).join(""):'<span>No clues yet — tap Edit to add some</span>';
   points($("#s-learn-ans"),c.ans);
   const a=$("#s-answer");points(a,c.ans);a.classList.add("hidden");a.setAttribute("aria-hidden","true");
@@ -893,7 +909,7 @@ function openEditor(id,preset){
   $("#esheet").style.cssText=colorFor(c.deck,c.sec);
   $("#e-title").textContent=id?"Edit card":(preset&&preset.deck===""?"New topic":"New card");
   $("#e-deck").value=c.deck;$("#e-sec").value=c.sec;fillLists(c.deck);
-  $("#e-name").value=c.name;$("#e-clues").value=c.clues.join("\n");$("#e-ans").value=c.ans;
+  $("#e-name").value=c.name;$("#e-q").value=c.q||"";$("#e-clues").value=c.clues.join("\n");$("#e-ans").value=c.ans;
   const del=$("#e-del");del.hidden=!id;del.classList.remove("armed");del.textContent="Delete card";delete del.dataset.armed;
   $("#e-err").hidden=true;$("#e-save").disabled=false;
   $("#escrim").hidden=false;(c.deck?$("#e-name"):$("#e-deck")).focus();
@@ -907,6 +923,7 @@ $("#esheet").addEventListener("submit",async e=>{
   const d=$("#e-deck").value.trim(),sec=$("#e-sec").value.trim(),name=$("#e-name").value.trim(),ans=$("#e-ans").value.trim();
   if(!d||!sec||!name||!ans){showErr("Fill in the topic, section, concept name and original answer before saving.");return}
   const card={id:editing||("u"+Date.now().toString(36)),deck:d,sec,name,clues:$("#e-clues").value.split("\n").map(s=>s.trim()).filter(Boolean),ans};
+  {const q=$("#e-q").value.trim();if(q)card.q=q}
   const prevSrc=editing?cardSrc(byId(editing)):null;if(prevSrc)card.src=prevSrc;
   const prevSim=editing?(byId(editing).sim||((defaults.find(x=>x.id===editing)||{}).sim)):null;if(prevSim)card.sim=prevSim;
   const next=editing?C.map(c=>c.id===editing?card:c):[...C,card];
@@ -1012,7 +1029,19 @@ document.addEventListener("keydown",e=>{
     if(e.key==="Escape"&&!$("#q-done").hidden)closeQuiz();
     return}
   if(!$("#escrim").hidden){if(e.key==="Escape")closeEditor();return}
-  if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();if(e.target.tagName==="TEXTAREA")return;
+  if($("#scrim").hidden)return;if(e.key==="Escape")closeCard();
+  if(e.target.tagName==="TEXTAREA"){
+    // Enter = reveal (Shift+Enter = new line) on keyboard devices; then leave the box so U/N/T work
+    if(e.key==="Enter"&&!e.shiftKey&&!e.isComposing&&e.target.id==="s-try"&&matchMedia("(hover:hover) and (pointer:fine)").matches){
+      e.preventDefault();if($("#s-answer").classList.contains("hidden"))$("#s-reveal").click();$("#sheet").focus({preventScroll:true})}
+    return}
+  if(e.target.tagName==="INPUT"||e.metaKey||e.ctrlKey||e.altKey)return;
+  if(e.key==="Enter"){
+    if(e.target.tagName==="BUTTON"&&e.target.id!=="s-reveal"||e.target.tagName==="SUMMARY")return;
+    e.preventDefault();$("#s-reveal").click();if(face==="test"&&!$("#s-answer").classList.contains("hidden"))$("#sheet").focus({preventScroll:true});return}
+  const k=e.key.toLowerCase();
+  if((k==="q"||k==="c")&&!$("#s-cluebtn").hidden){e.preventDefault();$("#s-cluebtn").click();return}
+  if(!$("#s-rate").hidden&&!$("#s-test").hidden){const st={u:0,n:1,t:2}[k];if(st!==undefined){e.preventDefault();document.querySelectorAll("#s-rate button")[st].click();return}}
   if(e.key==="ArrowRight")step(1);if(e.key==="ArrowLeft")step(-1);if(e.key===" "){e.preventDefault();$("#s-reveal").click()}
   if((e.key==="c"||e.key==="C")&&!$("#s-cluebtn").hidden)$("#s-cluebtn").click();
   if(!$("#s-rate").hidden&&["1","2","3"].includes(e.key))document.querySelectorAll("#s-rate button")[+e.key-1].click()});

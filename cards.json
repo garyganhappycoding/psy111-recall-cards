@@ -4,6 +4,7 @@
   "deck": "Intro to Psychology",
   "sec": "Basics",
   "name": "What is psychology?",
+  "q": "What is psychology, and what does the field involve as a science and profession?",
   "clues": [
    "APA definition",
    "mind and behaviour",
@@ -22,6 +23,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Wilhelm Wundt",
+  "q": "Who was Wilhelm Wundt and why is he important to psychology?",
   "clues": [
    "father of psychology",
    "Leipzig, 1879",
@@ -44,6 +46,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Objective introspection",
+  "q": "What is objective introspection and who used it?",
   "clues": [
    "Wundt",
    "examining your own mind",
@@ -65,6 +68,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Structuralism",
+  "q": "What is structuralism, who founded it, and what did it focus on?",
   "clues": [
    "Edward Titchener",
    "Wundt's student",
@@ -89,6 +93,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Functionalism",
+  "q": "What is functionalism, who founded it, and what was its influence?",
   "clues": [
    "William James",
    "adapt, live, work, play",
@@ -110,6 +115,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Gestalt psychology",
+  "q": "What is Gestalt psychology, who founded it, and what is its key idea?",
   "clues": [
    "Max Wertheimer",
    "whole vs sum",
@@ -132,6 +138,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Psychoanalysis",
+  "q": "What is psychoanalysis, who founded it, and what were its key ideas?",
   "clues": [
    "Sigmund Freud",
    "nervous disorders",
@@ -155,6 +162,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Behaviourism",
+  "q": "What is behaviourism, who proposed it, and what were its key ideas?",
   "clues": [
    "John B. Watson",
    "observable only",
@@ -180,6 +188,7 @@
   "deck": "Intro to Psychology",
   "sec": "History",
   "name": "Little Albert",
+  "q": "What was Watson's Little Albert study and what did it show?",
   "clues": [
    "Watson",
    "baby",
@@ -203,6 +212,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Psychodynamic perspective",
+  "q": "What is the psychodynamic perspective and who are its major theorists?",
   "clues": [
    "modern psychoanalysis",
    "sense of self",
@@ -227,6 +237,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Behavioural perspective",
+  "q": "What is the behavioural perspective and what did Skinner contribute to it?",
   "clues": [
    "B.F. Skinner",
    "operant conditioning",
@@ -249,6 +260,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Humanistic perspective",
+  "q": "What is the humanistic perspective, its key ideas, and its founders?",
   "clues": [
    "\"third force\"",
    "free will",
@@ -271,6 +283,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Cognitive perspective",
+  "q": "What does the cognitive perspective focus on, and what are its roots? Give an example.",
   "clues": [
    "memory, thinking, language",
    "Piaget",
@@ -293,6 +306,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Sociocultural perspective",
+  "q": "What does the sociocultural perspective focus on, and what areas does it include?",
   "clues": [
    "social behaviour + culture",
    "two areas",
@@ -315,6 +329,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Biopsychological perspective",
+  "q": "How does the biopsychological perspective explain behaviour, and what methods does it use?",
   "clues": [
    "biological events in the body",
    "genes, hormones, nervous system"
@@ -336,6 +351,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Evolutionary perspective",
+  "q": "What does the evolutionary perspective focus on? Give examples.",
   "clues": [
    "universal characteristics",
    "adaptive",
@@ -358,6 +374,7 @@
   "deck": "Intro to Psychology",
   "sec": "Perspectives",
   "name": "Modern perspectives overview",
+  "q": "What are the seven modern perspectives in psychology, and can one explain everything?",
   "clues": [
    "seven perspectives",
    "no single one"
@@ -375,6 +392,7 @@
   "deck": "Intro to Psychology",
   "sec": "Professionals",
   "name": "Psychologist vs psychiatrist vs psychiatric social worker",
+  "q": "How do a psychologist, a psychiatrist and a psychiatric social worker differ?",
   "clues": [
    "doctorate",
    "medical doctor",
@@ -397,6 +415,7 @@
   "deck": "Intro to Psychology",
   "sec": "Professionals",
   "name": "Areas of specialisation",
+  "q": "What are the main areas of specialisation in psychology?",
   "clues": [
    "types of psychology",
    "examples"
@@ -417,6 +436,7 @@
   "deck": "Intro to Psychology",
   "sec": "Professionals",
   "name": "Professional guidelines",
+  "q": "Which professional guidelines should psychologists follow, including in Malaysia?",
   "clues": [
    "different countries",
    "professional bodies",
@@ -435,6 +455,7 @@
   "deck": "Intro to Psychology",
   "sec": "Scientific approach",
   "name": "Scientific approach",
+  "q": "What is the scientific approach in psychology?",
   "clues": [
    "gathering data",
    "reduce bias and error"
@@ -455,6 +476,7 @@
   "deck": "Intro to Psychology",
   "sec": "Scientific approach",
   "name": "Critical thinking",
+  "q": "What is critical thinking?",
   "clues": [
    "reasoned judgments",
    "claims"
@@ -475,6 +497,7 @@
   "deck": "Intro to Psychology",
   "sec": "Scientific approach",
   "name": "Four goals of psychology",
+  "q": "What are the four goals of psychology and what question does each ask?",
   "clues": [
    "what, why, when, how",
    "4 goals"
@@ -495,6 +518,7 @@
   "deck": "Intro to Psychology",
   "sec": "Scientific approach",
   "name": "Steps in the scientific approach",
+  "q": "What are the five steps in the scientific approach?",
   "clues": [
    "5 steps",
    "starts with a question",
@@ -516,6 +540,7 @@
   "deck": "Intro to Psychology",
   "sec": "Ethics",
   "name": "Why research ethics?",
+  "q": "Why are research ethics needed in psychology?",
   "clues": [
    "more research on people & animals",
    "Little Albert",
@@ -535,6 +560,7 @@
   "deck": "Intro to Psychology",
   "sec": "Ethics",
   "name": "Institutional review boards (IRBs)",
+  "q": "What are institutional review boards (IRBs) and what do they do?",
   "clues": [
    "group of professionals",
    "judge each study",
@@ -556,6 +582,7 @@
   "deck": "Intro to Psychology",
   "sec": "Ethics",
   "name": "Common ethical guidelines",
+  "q": "What are the common ethical guidelines for research with human participants?",
   "clues": [
    "8 guidelines",
    "consent",
@@ -580,6 +607,7 @@
   "deck": "Intro to Psychology",
   "sec": "Ethics",
   "name": "Animal research",
+  "q": "Why is animal research used in psychology, and what ethical rules apply?",
   "clues": [
    "questions we can't ask humans",
    "avoid unnecessary pain",
@@ -598,6 +626,7 @@
   "deck": "Personality 1",
   "sec": "Foundation",
   "name": "Personality",
+  "q": "What is personality in psychology?",
   "clues": [
    "unique",
    "relatively stable",
@@ -616,6 +645,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Levels of the mind",
+  "q": "What are Freud's three levels of the mind?",
   "clues": [
    "three levels",
    "Freud",
@@ -637,6 +667,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Id",
+  "q": "What is the id, what are its characteristics, and what principle does it follow?",
   "clues": [
    "completely unconscious",
    "present at birth",
@@ -660,6 +691,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Ego",
+  "q": "What is the ego, what principle does it follow, and what is its role?",
   "clues": [
    "mostly conscious",
    "rational",
@@ -683,6 +715,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Superego",
+  "q": "What is the superego and how does it develop?",
   "clues": [
    "moral centre",
    "learned from society",
@@ -705,6 +738,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Pleasure principle",
+  "q": "What is the pleasure principle and which part of personality follows it?",
   "clues": [
    "id",
    "immediate",
@@ -726,6 +760,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Reality principle",
+  "q": "What is the reality principle and which part of personality follows it?",
   "clues": [
    "ego",
    "satisfy the id",
@@ -747,6 +782,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Conscience",
+  "q": "What is the conscience in Freud's theory?",
   "clues": [
    "part of the superego",
    "after wrongdoing"
@@ -767,6 +803,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Defence mechanisms",
+  "q": "What are defence mechanisms and how do they work?",
   "clues": [
    "anxiety",
    "unconscious",
@@ -790,6 +827,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Denial",
+  "q": "What is denial as a defence mechanism?",
   "clues": [
    "defence mechanism",
    "refuse",
@@ -811,6 +849,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Repression",
+  "q": "What is repression as a defence mechanism?",
   "clues": [
    "defence mechanism",
    "push out",
@@ -833,6 +872,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Rationalisation",
+  "q": "What is rationalisation as a defence mechanism?",
   "clues": [
    "defence mechanism",
    "excuses",
@@ -855,6 +895,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Displacement",
+  "q": "What is displacement as a defence mechanism?",
   "clues": [
    "defence mechanism",
    "emotion",
@@ -877,6 +918,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Sublimation",
+  "q": "What is sublimation as a defence mechanism?",
   "clues": [
    "defence mechanism",
    "unacceptable urges",
@@ -898,6 +940,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Psychosexual stages",
+  "q": "What are Freud's psychosexual stages and how does fixation occur?",
   "clues": [
    "series of stages",
    "erogenous zone",
@@ -921,6 +964,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Oral stage",
+  "q": "What happens in Freud's oral stage: age, zone, conflict and fixation?",
   "clues": [
    "first 18 months",
    "mouth",
@@ -943,6 +987,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Anal stage",
+  "q": "What happens in Freud's anal stage: age, zone, conflict and fixation?",
   "clues": [
    "18–36 months",
    "toilet training",
@@ -965,6 +1010,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Phallic stage",
+  "q": "What happens in Freud's phallic stage: age, zone, conflict and fixation?",
   "clues": [
    "3–6 years",
    "genitals",
@@ -987,6 +1033,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Latency stage",
+  "q": "What happens during Freud's latency stage, and at what age?",
   "clues": [
    "6 years to puberty",
    "feelings repressed",
@@ -1009,6 +1056,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Genital stage",
+  "q": "What happens during Freud's genital stage, and when does it begin?",
   "clues": [
    "puberty onward",
    "can't be ignored",
@@ -1030,6 +1078,7 @@
   "deck": "Personality 1",
   "sec": "Psychodynamic",
   "name": "Criticisms of psychodynamic theory",
+  "q": "What are the main criticisms of Freud's psychodynamic theory?",
   "clues": [
    "no experiments",
    "hard to falsify",
@@ -1051,6 +1100,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Behavioural view of personality",
+  "q": "How does the behavioural view explain personality? Give an example.",
   "clues": [
    "learned responses",
    "conditioning",
@@ -1073,6 +1123,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Social cognitive view",
+  "q": "How does the social cognitive view explain personality and behaviour?",
   "clues": [
    "other people's behaviour",
    "own expectancies",
@@ -1094,6 +1145,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Reciprocal determinism",
+  "q": "What is Bandura's reciprocal determinism and what factors does it involve?",
   "clues": [
    "Bandura",
    "three factors",
@@ -1116,6 +1168,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Self-efficacy",
+  "q": "What is Bandura's concept of self-efficacy and what does it depend on?",
   "clues": [
    "Bandura",
    "expectancy",
@@ -1139,6 +1192,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Rotter's social learning theory",
+  "q": "How does Rotter's social learning theory define personality, and what shapes it?",
   "clues": [
    "Rotter",
    "stable set",
@@ -1161,6 +1215,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Expectancy",
+  "q": "What is expectancy in Rotter's social learning theory?",
   "clues": [
    "Rotter",
    "belief",
@@ -1182,6 +1237,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Reinforcement value",
+  "q": "What is reinforcement value in Rotter's theory?",
   "clues": [
    "Rotter",
    "preference",
@@ -1203,6 +1259,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Locus of control",
+  "q": "What is Rotter's locus of control, and what are its two types?",
   "clues": [
    "Rotter",
    "internal vs external",
@@ -1224,6 +1281,7 @@
   "deck": "Personality 1",
   "sec": "Behavioural & social cognitive",
   "name": "Review: behavioural & social cognitive",
+  "q": "What are the criticisms and contributions of the behavioural and social cognitive views?",
   "clues": [
    "ignores mental processes",
    "overgeneralisation",
@@ -1245,6 +1303,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Humanistic perspective",
+  "q": "What does the humanistic perspective on personality focus on, and who founded it?",
   "clues": [
    "uniquely human",
    "subjective feelings",
@@ -1267,6 +1326,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Self-concept",
+  "q": "What is self-concept in humanistic theory and how does it develop?",
   "clues": [
    "image of oneself",
    "significant people",
@@ -1288,6 +1348,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Self-actualisation",
+  "q": "What is self-actualisation?",
   "clues": [
    "striving",
    "fulfilment",
@@ -1309,6 +1370,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Real self vs ideal self",
+  "q": "How do the real self and ideal self differ, and why does their match matter?",
   "clues": [
    "actual perception",
    "should be",
@@ -1330,6 +1392,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Unconditional positive regard",
+  "q": "What is unconditional positive regard and why is it important?",
   "clues": [
    "no strings attached",
    "love & respect",
@@ -1351,6 +1414,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Conditional positive regard",
+  "q": "What is conditional positive regard?",
   "clues": [
    "only when",
    "expectations",
@@ -1372,6 +1436,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Fully functioning person",
+  "q": "What is Rogers' fully functioning person?",
   "clues": [
    "trusts innermost feelings",
    "selves match",
@@ -1393,6 +1458,7 @@
   "deck": "Personality 1",
   "sec": "Humanistic",
   "name": "Review: humanistic",
+  "q": "What are the criticisms and contributions of the humanistic perspective?",
   "clues": [
    "idealistic",
    "hard to test",
@@ -1416,6 +1482,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Trait theories",
+  "q": "What do trait theories of personality aim to do, and what don't they cover?",
   "clues": [
    "describe",
    "predict",
@@ -1437,6 +1504,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Trait",
+  "q": "What is a trait in personality psychology?",
   "clues": [
    "consistent",
    "enduring",
@@ -1458,6 +1526,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Allport & Odbert",
+  "q": "What did Allport and Odbert contribute to trait theory?",
   "clues": [
    "earliest list",
    "dictionary",
@@ -1480,6 +1549,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Surface traits",
+  "q": "What are Cattell's surface traits? Give an example.",
   "clues": [
    "Cattell",
    "easily seen",
@@ -1501,6 +1571,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Source traits",
+  "q": "What are Cattell's source traits? Give an example.",
   "clues": [
    "Cattell",
    "underlie",
@@ -1523,6 +1594,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "16PF Questionnaire",
+  "q": "What is Cattell's 16PF Questionnaire and how are its traits structured?",
   "clues": [
    "Cattell",
    "16",
@@ -1545,6 +1617,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "The Big Five",
+  "q": "What is the Big Five model and what are its five traits?",
   "clues": [
    "five-factor model",
    "OCEAN",
@@ -1566,6 +1639,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Trait-situation interaction",
+  "q": "What is trait-situation interaction? Give an example.",
   "clues": [
    "situation",
    "expression of a trait",
@@ -1587,6 +1661,7 @@
   "deck": "Personality 1",
   "sec": "Trait theories",
   "name": "Big Five across cultures",
+  "q": "How well does the Big Five hold up across cultures?",
   "clues": [
    "largely consistent",
    "languages",
@@ -1608,6 +1683,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Behavioural genetics",
+  "q": "What is behavioural genetics and what evidence does it use?",
   "clues": [
    "genetic bases",
    "animal breeding",
@@ -1629,6 +1705,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Twin and adoption studies (personality)",
+  "q": "What have twin and adoption studies shown about personality?",
   "clues": [
    "shared vs non-shared environment",
    "shyness",
@@ -1650,6 +1727,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "The \"Jim\" twins",
+  "q": "What did the case of the \"Jim\" twins show? Describe their similarities.",
   "clues": [
    "identical, separated at birth",
    "age 39 (1990)",
@@ -1672,6 +1750,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Phrenology",
+  "q": "What was phrenology and who proposed it?",
   "clues": [
    "Gall (1796)",
    "skull shape",
@@ -1693,6 +1772,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "DeYoung et al. (2010)",
+  "q": "What did DeYoung et al. (2010) find about brain structure and Big Five traits?",
   "clues": [
    "MRI + Big Five",
    "extraversion → reward areas",
@@ -1714,6 +1794,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Heritability",
+  "q": "What is heritability, and how heritable is personality?",
   "clues": [
    "population",
    "genetic influence",
@@ -1736,6 +1817,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Individualism vs collectivism",
+  "q": "How do individualistic and collectivistic cultures differ in Hofstede's model?",
   "clues": [
    "Hofstede",
    "autonomy vs duty",
@@ -1757,6 +1839,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Power distance",
+  "q": "What is power distance in Hofstede's cultural dimensions?",
   "clues": [
    "Hofstede",
    "less powerful members",
@@ -1779,6 +1862,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Masculinity vs femininity",
+  "q": "How do masculine and feminine cultures differ in Hofstede's model?",
   "clues": [
    "Hofstede",
    "assertive & competitive",
@@ -1800,6 +1884,7 @@
   "deck": "Personality 2",
   "sec": "Genetics & culture",
   "name": "Uncertainty avoidance",
+  "q": "What is uncertainty avoidance, and how do low- and high-tolerance cultures differ?",
   "clues": [
    "Hofstede",
    "tolerance of ambiguity",
@@ -1823,6 +1908,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Eclectic view of assessment",
+  "q": "What is the eclectic view of personality assessment, and how does purpose vary?",
   "clues": [
    "mix of theories",
    "purpose depends on context",
@@ -1844,6 +1930,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Four types of personality assessment",
+  "q": "What are the four types of personality assessment? Give examples of each.",
   "clues": [
    "talking",
    "observing",
@@ -1866,6 +1953,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Interviews",
+  "q": "How are interviews used in personality assessment, and what are their limitations?",
   "clues": [
    "questions & answers",
    "unstructured vs semi-structured",
@@ -1888,6 +1976,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Behavioural assessments",
+  "q": "What methods do behavioural assessments use, and what are their limitations?",
   "clues": [
    "direct observation",
    "rating scale",
@@ -1910,6 +1999,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Personality inventories",
+  "q": "What are personality inventories and how do they work?",
   "clues": [
    "trait theorists",
    "standard statements",
@@ -1932,6 +2022,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "MMPI-3",
+  "q": "What is the MMPI-3, what does it measure, and how is it used?",
   "clues": [
    "abnormal behaviour",
    "335 statements",
@@ -1954,6 +2045,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "NEO-PI-3",
+  "q": "What is the NEO-PI-3 and what does it measure?",
   "clues": [
    "Neuroticism/Extraversion/Openness",
    "Big Five",
@@ -1976,6 +2068,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Myers-Briggs Type Indicator (MBTI)",
+  "q": "What is the Myers-Briggs Type Indicator (MBTI) and what are its limitations?",
   "clues": [
    "Carl Jung",
    "four dimensions",
@@ -1998,6 +2091,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Inventories: pros and cons",
+  "q": "What are the pros and cons of personality inventories?",
   "clues": [
    "standardised",
    "computer scoring",
@@ -2019,6 +2113,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Projective tests",
+  "q": "What are projective tests and how do they work?",
   "clues": [
    "ambiguous visual stimuli",
    "whatever comes to mind"
@@ -2039,6 +2134,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Rorschach inkblots",
+  "q": "What is the Rorschach inkblot test, and how is it scored and used?",
   "clues": [
    "Hermann Rorschach",
    "10 inkblots",
@@ -2060,6 +2156,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Thematic Apperception Test (TAT)",
+  "q": "What is the Thematic Apperception Test (TAT) and how does it work?",
   "clues": [
    "Henry Murray",
    "20 ambiguous pictures",
@@ -2082,6 +2179,7 @@
   "deck": "Personality 2",
   "sec": "Personality assessments",
   "name": "Projective tests: limitations",
+  "q": "What are the limitations of projective tests?",
   "clues": [
    "subjective",
    "no standard grading",
@@ -2103,6 +2201,7 @@
   "deck": "Motivation",
   "sec": "Basics",
   "name": "Motivation",
+  "q": "What is motivation, and how do starting, directing and continuing behaviour illustrate it?",
   "clues": [
    "started · directed · continued",
    "needs or wants",
@@ -2124,6 +2223,7 @@
   "deck": "Motivation",
   "sec": "Basics",
   "name": "Extrinsic motivation",
+  "q": "What is extrinsic motivation?",
   "clues": [
    "outcome",
    "separate from the person",
@@ -2145,6 +2245,7 @@
   "deck": "Motivation",
   "sec": "Basics",
   "name": "Intrinsic motivation",
+  "q": "What is intrinsic motivation?",
   "clues": [
    "the act itself",
    "rewarding",
@@ -2167,6 +2268,7 @@
   "deck": "Motivation",
   "sec": "Instinct & drive",
   "name": "Instinct approach",
+  "q": "What does the instinct approach to motivation claim, with examples and its main criticism?",
   "clues": [
    "innate patterns",
    "McDougall (1908)",
@@ -2188,6 +2290,7 @@
   "deck": "Motivation",
   "sec": "Instinct & drive",
   "name": "Drive-reduction theory",
+  "q": "What does drive-reduction theory say about where behaviour comes from and its goal?",
   "clues": [
    "internal drives",
    "physiological needs",
@@ -2211,6 +2314,7 @@
   "deck": "Motivation",
   "sec": "Instinct & drive",
   "name": "Need vs drive",
+  "q": "How does a need differ from a drive in drive-reduction theory?",
   "clues": [
    "material for survival",
    "tension & arousal",
@@ -2232,6 +2336,7 @@
   "deck": "Motivation",
   "sec": "Instinct & drive",
   "name": "Primary vs acquired drives",
+  "q": "How do primary drives differ from acquired drives, with examples?",
   "clues": [
    "survival needs",
    "learned",
@@ -2253,6 +2358,7 @@
   "deck": "Motivation",
   "sec": "Instinct & drive",
   "name": "Homeostasis",
+  "q": "What is homeostasis, and what are the limits of drive-reduction theory?",
   "clues": [
    "steady state",
    "body",
@@ -2274,6 +2380,7 @@
   "deck": "Motivation",
   "sec": "Psychological needs",
   "name": "McClelland's theory",
+  "q": "What are the three needs in McClelland's theory of motivation?",
   "clues": [
    "nAff",
    "nPow",
@@ -2295,6 +2402,7 @@
   "deck": "Motivation",
   "sec": "Psychological needs",
   "name": "Dweck's self-theory of motivation",
+  "q": "What does Dweck's self-theory say about achievement motivation and locus of control?",
   "clues": [
    "need for achievement",
    "locus of control",
@@ -2317,6 +2425,7 @@
   "deck": "Motivation",
   "sec": "Arousal & incentive",
   "name": "Arousal theory",
+  "q": "What does arousal theory say about motivation and sensation seekers?",
   "clues": [
    "optimal level",
    "increase or decrease stimulation",
@@ -2341,6 +2450,7 @@
   "deck": "Motivation",
   "sec": "Arousal & incentive",
   "name": "Yerkes-Dodson law",
+  "q": "What does the Yerkes-Dodson law say about arousal, performance and task difficulty?",
   "clues": [
    "moderate arousal",
    "task difficulty",
@@ -2362,6 +2472,7 @@
   "deck": "Motivation",
   "sec": "Arousal & incentive",
   "name": "Incentive approaches",
+  "q": "What do incentive approaches say about motivation, and what is the modern push-pull view?",
   "clues": [
    "external stimulus",
    "attract or lure",
@@ -2383,6 +2494,7 @@
   "deck": "Motivation",
   "sec": "Humanistic",
   "name": "Maslow's hierarchy of needs",
+  "q": "How is Maslow's hierarchy of needs structured, and what are peak experiences?",
   "clues": [
    "deficiency & growth needs",
    "levels",
@@ -2404,6 +2516,7 @@
   "deck": "Motivation",
   "sec": "Humanistic",
   "name": "Self-determination theory",
+  "q": "What are the three needs in Ryan and Deci's self-determination theory?",
   "clues": [
    "Ryan & Deci (2000)",
    "autonomy, competence, relatedness",
@@ -2426,6 +2539,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Insulin and glucagon",
+  "q": "What are insulin and glucagon, and how does each affect blood glucose?",
   "clues": [
    "pancreas",
    "glucose down",
@@ -2447,6 +2561,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Leptin",
+  "q": "What does the hormone leptin do in hunger regulation?",
   "clues": [
    "hormone",
    "signals hypothalamus",
@@ -2468,6 +2583,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Ventromedial hypothalamus (VMH)",
+  "q": "What role does the ventromedial hypothalamus (VMH) play in eating, and what happens if damaged?",
   "clues": [
    "stop eating",
    "glucose rises",
@@ -2489,6 +2605,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Lateral hypothalamus (LH)",
+  "q": "What role does the lateral hypothalamus (LH) play in eating, and what happens if damaged?",
   "clues": [
    "start eating",
    "insulin rises",
@@ -2510,6 +2627,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Weight set point",
+  "q": "What is the weight set point, and what factors affect it?",
   "clues": [
    "level body maintains",
    "hypothalamus",
@@ -2532,6 +2650,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Basal metabolic rate (BMR)",
+  "q": "What is basal metabolic rate (BMR)?",
   "clues": [
    "energy",
    "resting"
@@ -2552,6 +2671,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Social components of hunger",
+  "q": "What are the social components of hunger?",
   "clues": [
    "social cues",
    "culture & gender",
@@ -2574,6 +2694,7 @@
   "deck": "Motivation",
   "sec": "Hunger",
   "name": "Obesity",
+  "q": "How is obesity defined, and what factors contribute to it?",
   "clues": [
    "20% over ideal weight",
    "BMI ≥ 30",
@@ -2596,6 +2717,7 @@
   "deck": "Emotion",
   "sec": "Basics",
   "name": "Emotion",
+  "q": "What is emotion, and what are its three elements?",
   "clues": [
    "'feeling' aspect",
    "three components",
@@ -2617,6 +2739,7 @@
   "deck": "Emotion",
   "sec": "Basics",
   "name": "Universal facial expressions",
+  "q": "What do research findings suggest about facial expressions of emotion across cultures?",
   "clues": [
    "across cultures",
    "faces"
@@ -2637,6 +2760,7 @@
   "deck": "Emotion",
   "sec": "Basics",
   "name": "Labelling emotion",
+  "q": "How do language and culture shape the labelling of emotion, as Tsai et al. showed?",
   "clues": [
    "cognitive element",
    "learned",
@@ -2660,6 +2784,7 @@
   "deck": "Emotion",
   "sec": "Physiology",
   "name": "Sympathetic arousal in emotion",
+  "q": "How does sympathetic arousal show up in emotion, and how do emotions differ physiologically?",
   "clues": [
    "heart rate",
    "breathing",
@@ -2681,6 +2806,7 @@
   "deck": "Emotion",
   "sec": "Physiology",
   "name": "Amygdala",
+  "q": "What is the amygdala's role in emotion, and how is it mainly studied?",
   "clues": [
    "fear & pleasure",
    "facial expressions",
@@ -2702,6 +2828,7 @@
   "deck": "Emotion",
   "sec": "Physiology",
   "name": "Low road vs high road",
+  "q": "How does the low road differ from the high road to the amygdala?",
   "clues": [
    "fast & crude",
    "slow & detailed",
@@ -2724,6 +2851,7 @@
   "deck": "Emotion",
   "sec": "Physiology",
   "name": "Other brain areas in emotion",
+  "q": "Which other brain areas are involved in experiencing and regulating emotion?",
   "clues": [
    "left vs right frontal",
    "right hemisphere faces",
@@ -2745,6 +2873,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "Common sense theory",
+  "q": "What sequence does the common sense theory of emotion propose?",
   "clues": [
    "emotion first",
    "then physical reaction",
@@ -2766,6 +2895,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "James-Lange theory",
+  "q": "What does the James-Lange theory say about the order of emotion and arousal?",
   "clues": [
    "William James & Carl Lange",
    "body first",
@@ -2789,6 +2919,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "Evidence against James-Lange",
+  "q": "What evidence challenges the James-Lange theory of emotion?",
   "clues": [
    "paralysed people",
    "pure autonomic failure",
@@ -2810,6 +2941,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "Cannon-Bard theory",
+  "q": "What does the Cannon-Bard theory of emotion propose, and what role does the thalamus play?",
   "clues": [
    "Cannon & Bard",
    "at the same time",
@@ -2836,6 +2968,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "Facial feedback hypothesis",
+  "q": "What does the facial feedback hypothesis claim, and what study supports it?",
   "clues": [
    "expression → brain",
    "causes & intensifies",
@@ -2858,6 +2991,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "Cognitive arousal theory",
+  "q": "What does Schachter and Singer's cognitive arousal (two-factor) theory say is needed for emotion?",
   "clues": [
    "Schachter & Singer",
    "two-factor",
@@ -2880,6 +3014,7 @@
   "deck": "Emotion",
   "sec": "Theories",
   "name": "Cognitive-mediational theory",
+  "q": "What does Lazarus's cognitive-mediational theory say about the sequence of emotion?",
   "clues": [
    "Lazarus",
    "appraisal first",
@@ -2901,6 +3036,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Intelligence",
+  "q": "How is intelligence defined?",
   "clues": [
    "learn from experience",
    "acquire knowledge",
@@ -2922,6 +3058,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Spearman's g factor",
+  "q": "What does Spearman's g factor theory propose, and what is its criticism?",
   "clues": [
    "general vs specific",
    "s factor",
@@ -2943,6 +3080,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Gardner's multiple intelligences",
+  "q": "What does Gardner's theory of multiple intelligences claim, and how has it been criticised?",
   "clues": [
    "Howard Gardner",
    "nine (originally seven)",
@@ -2965,6 +3103,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Sternberg's triarchic theory",
+  "q": "What are the three intelligences in Sternberg's triarchic theory?",
   "clues": [
    "three kinds",
    "analytical",
@@ -2987,6 +3126,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Cattell-Horn-Carroll (CHC) theory",
+  "q": "How did Cattell, Horn and Carroll each contribute to CHC theory?",
   "clues": [
    "crystallised + fluid",
    "3-tier hierarchy",
@@ -3010,6 +3150,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Crystallised vs fluid intelligence",
+  "q": "How does crystallised intelligence differ from fluid intelligence?",
   "clues": [
    "acquired knowledge",
    "problem solving",
@@ -3031,6 +3172,7 @@
   "deck": "Intelligence",
   "sec": "Theories",
   "name": "Parieto-Frontal Integration Theory (P-FIT)",
+  "q": "Which brain areas does the Parieto-Frontal Integration Theory (P-FIT) link to intelligence?",
   "clues": [
    "frontal & parietal",
    "cingulate, insula",
@@ -3052,6 +3194,7 @@
   "deck": "Intelligence",
   "sec": "Measuring intelligence",
   "name": "Binet's mental ability test",
+  "q": "Who developed Binet's mental ability test, why, and how did it distinguish learners?",
   "clues": [
    "Binet & Simon",
    "French MOE",
@@ -3073,6 +3216,7 @@
   "deck": "Intelligence",
   "sec": "Measuring intelligence",
   "name": "Mental age",
+  "q": "What is mental age?",
   "clues": [
    "average age",
    "level of question"
@@ -3093,6 +3237,7 @@
   "deck": "Intelligence",
   "sec": "Measuring intelligence",
   "name": "Stanford-Binet and IQ",
+  "q": "How did the Stanford-Binet test calculate IQ, and how is it scored today?",
   "clues": [
    "Terman",
    "Stern",
@@ -3117,6 +3262,7 @@
   "deck": "Intelligence",
   "sec": "Measuring intelligence",
   "name": "Wechsler tests",
+  "q": "What are the Wechsler tests, and what scores do they produce?",
   "clues": [
    "WAIS, WISC, WPPSI",
    "verbal & non-verbal",
@@ -3138,6 +3284,7 @@
   "deck": "Intelligence",
   "sec": "Test construction",
   "name": "Reliability",
+  "q": "What is reliability in intelligence testing?",
   "clues": [
    "same scores",
    "again and again"
@@ -3158,6 +3305,7 @@
   "deck": "Intelligence",
   "sec": "Test construction",
   "name": "Validity",
+  "q": "What is validity in intelligence testing?",
   "clues": [
    "measures what it should"
   ],
@@ -3177,6 +3325,7 @@
   "deck": "Intelligence",
   "sec": "Test construction",
   "name": "Standardisation and norms",
+  "q": "What are standardisation and norms in intelligence testing?",
   "clues": [
    "large representative group",
    "norms",
@@ -3198,6 +3347,7 @@
   "deck": "Intelligence",
   "sec": "Test construction",
   "name": "Deviation IQ",
+  "q": "What is deviation IQ, and how are IQ scores distributed?",
   "clues": [
    "mean 100",
    "SD ~15",
@@ -3219,6 +3369,7 @@
   "deck": "Intelligence",
   "sec": "Test construction",
   "name": "Cultural bias",
+  "q": "How can IQ tests be culturally biased, and how is this addressed?",
   "clues": [
    "test designer's culture",
    "language & content",
@@ -3240,6 +3391,7 @@
   "deck": "Intelligence",
   "sec": "Test construction",
   "name": "Usefulness of IQ tests",
+  "q": "What are IQ tests useful for?",
   "clues": [
    "academic & job success",
    "neuropsychology"
@@ -3260,6 +3412,7 @@
   "deck": "Intelligence",
   "sec": "Individual differences",
   "name": "Intellectual disability",
+  "q": "How is intellectual disability defined and diagnosed?",
   "clues": [
    "IQ below 70",
    "adaptive behaviour",
@@ -3283,6 +3436,7 @@
   "deck": "Intelligence",
   "sec": "Individual differences",
   "name": "Causes of intellectual disability",
+  "q": "What are the causes of intellectual disability?",
   "clues": [
    "environment",
    "chromosomes",
@@ -3305,6 +3459,7 @@
   "deck": "Intelligence",
   "sec": "Individual differences",
   "name": "Giftedness",
+  "q": "How is giftedness defined, and what did Terman's study find and how was it criticised?",
   "clues": [
    "2%",
    "IQ 130+",
@@ -3326,6 +3481,7 @@
   "deck": "Intelligence",
   "sec": "Individual differences",
   "name": "Emotional intelligence",
+  "q": "What is emotional intelligence, and what outcomes is higher EI linked to?",
   "clues": [
    "own & others' emotions",
    "manage",
@@ -3347,6 +3503,7 @@
   "deck": "Intelligence",
   "sec": "Nature vs nurture",
   "name": "Twin and adoption studies (IQ)",
+  "q": "What do twin and adoption studies show about the heritability of IQ?",
   "clues": [
    "genetic relatedness",
    "heritability 0.50"
@@ -3367,6 +3524,7 @@
   "deck": "Intelligence",
   "sec": "Nature vs nurture",
   "name": "Flynn effect",
+  "q": "What is the Flynn effect?",
   "clues": [
    "rising IQ",
    "over time",
@@ -3389,6 +3547,7 @@
   "deck": "Intelligence",
   "sec": "Nature vs nurture",
   "name": "The Bell Curve & stereotype threat",
+  "q": "What did The Bell Curve claim, and what is stereotype threat in IQ testing?",
   "clues": [
    "Herrnstein & Murray (1994)",
    "controversial",
@@ -3410,6 +3569,7 @@
   "deck": "Memory",
   "sec": "Basics",
   "name": "Memory",
+  "q": "How is memory defined as an active system?",
   "clues": [
    "active system",
    "receive, organise, retrieve"
@@ -3430,6 +3590,7 @@
   "deck": "Memory",
   "sec": "Basics",
   "name": "Three processes of memory",
+  "q": "What are the three processes of memory?",
   "clues": [
    "encoding",
    "storage",
@@ -3451,6 +3612,7 @@
   "deck": "Memory",
   "sec": "Models of memory",
   "name": "Information-processing model",
+  "q": "What does the information-processing model of memory propose, and what are its stages?",
   "clues": [
    "like a computer",
    "three stages"
@@ -3474,6 +3636,7 @@
   "deck": "Memory",
   "sec": "Models of memory",
   "name": "Parallel distributed processing (PDP) model",
+  "q": "What does the parallel distributed processing (PDP) model say about memory?",
   "clues": [
    "at the same time",
    "large neural network"
@@ -3495,6 +3658,7 @@
   "deck": "Memory",
   "sec": "Models of memory",
   "name": "Levels-of-processing model",
+  "q": "What does the levels-of-processing model say, and what are its levels of processing?",
   "clues": [
    "deeply processed",
    "meaning vs sound"
@@ -3517,6 +3681,7 @@
   "deck": "Memory",
   "sec": "Sensory memory",
   "name": "Sensory memory",
+  "q": "What is sensory memory, and what types does it include?",
   "clues": [
    "first stage",
    "raw information",
@@ -3540,6 +3705,7 @@
   "deck": "Memory",
   "sec": "Sensory memory",
   "name": "Iconic memory",
+  "q": "How does iconic memory differ in capacity and duration?",
   "clues": [
    "visual",
    "quarter of a second",
@@ -3563,6 +3729,7 @@
   "deck": "Memory",
   "sec": "Sensory memory",
   "name": "Sperling's test & eidetic imagery",
+  "q": "What did Sperling's experiment show about iconic memory, and what is eidetic imagery?",
   "clues": [
    "grid of letters",
    "tone for each row"
@@ -3585,6 +3752,7 @@
   "deck": "Memory",
   "sec": "Sensory memory",
   "name": "Echoic memory",
+  "q": "What is echoic memory, and how do its capacity and duration compare with iconic memory?",
   "clues": [
    "just heard",
    "2–4 seconds"
@@ -3606,6 +3774,7 @@
   "deck": "Memory",
   "sec": "Short-term memory",
   "name": "Selective attention",
+  "q": "What is selective attention, and how do Broadbent's and Treisman's models explain it?",
   "clues": [
    "focus on one stimulus",
    "Broadbent vs Treisman"
@@ -3624,6 +3793,7 @@
   "deck": "Memory",
   "sec": "Short-term memory",
   "name": "Short-term memory (STM)",
+  "q": "What is short-term memory, and what are its duration and vulnerabilities?",
   "clues": [
    "second stage",
    "12–30 seconds",
@@ -3646,6 +3816,7 @@
   "deck": "Memory",
   "sec": "Short-term memory",
   "name": "Maintenance rehearsal",
+  "q": "What is maintenance rehearsal?",
   "clues": [
    "repeating in your head",
    "keeps it in STM"
@@ -3667,6 +3838,7 @@
   "deck": "Memory",
   "sec": "Short-term memory",
   "name": "STM capacity & chunking",
+  "q": "What is the capacity of short-term memory, and how does chunking help?",
   "clues": [
    "7 ± 2",
    "digit-span test",
@@ -3688,6 +3860,7 @@
   "deck": "Memory",
   "sec": "Short-term memory",
   "name": "Working memory model",
+  "q": "What does Baddeley and Hitch's working memory model propose, and what are its components?",
   "clues": [
    "Baddeley & Hitch (1974)",
    "slave systems"
@@ -3709,6 +3882,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Long-term memory (LTM)",
+  "q": "What is long-term memory, and how permanent is it?",
   "clues": [
    "final stage",
    "more or less permanent"
@@ -3730,6 +3904,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Rote learning vs elaborative rehearsal",
+  "q": "How does rote learning differ from elaborative rehearsal in moving information into LTM?",
   "clues": [
    "STM → LTM",
    "meaningful",
@@ -3752,6 +3927,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Nondeclarative (implicit) memory",
+  "q": "What is nondeclarative (implicit) memory, and what does it include?",
   "clues": [
    "skills, habits",
    "not conscious",
@@ -3774,6 +3950,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Declarative (explicit) memory",
+  "q": "What is declarative (explicit) memory, and what are its two types?",
   "clues": [
    "conscious and known",
    "what do you know?"
@@ -3796,6 +3973,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Semantic memory",
+  "q": "What is semantic memory?",
   "clues": [
    "general knowledge",
    "learned in school"
@@ -3817,6 +3995,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Episodic memory",
+  "q": "What is episodic memory?",
   "clues": [
    "personal events",
    "breakfast this morning"
@@ -3838,6 +4017,7 @@
   "deck": "Memory",
   "sec": "Long-term memory",
   "name": "Semantic network model",
+  "q": "How does the semantic network model say long-term memory is organised?",
   "clues": [
    "connected",
    "related concepts stored close"
@@ -3856,6 +4036,7 @@
   "deck": "Memory",
   "sec": "Retrieval",
   "name": "Retrieval cue",
+  "q": "What is a retrieval cue, and why do retrieval problems occur?",
   "clues": [
    "stimulus for remembering",
    "more cues = easier"
@@ -3876,6 +4057,7 @@
   "deck": "Memory",
   "sec": "Retrieval",
   "name": "Encoding specificity",
+  "q": "What is encoding specificity, and how do context-dependent and state-dependent learning differ?",
   "clues": [
    "context-dependent",
    "state-dependent"
@@ -3896,6 +4078,7 @@
   "deck": "Memory",
   "sec": "Retrieval",
   "name": "Recall vs recognition",
+  "q": "How does recall differ from recognition, including their typical errors?",
   "clues": [
    "few cues vs matching",
    "tip of the tongue",
@@ -3917,6 +4100,7 @@
   "deck": "Memory",
   "sec": "Retrieval",
   "name": "Serial position effect",
+  "q": "What is the serial position effect, and what are the primacy and recency effects?",
   "clues": [
    "beginning and end",
    "middle forgotten"
@@ -3938,6 +4122,7 @@
   "deck": "Memory",
   "sec": "Retrieval",
   "name": "Automatic encoding & flashbulb memories",
+  "q": "What is automatic encoding, and what are flashbulb memories?",
   "clues": [
    "little or no effort",
    "strong emotion"
@@ -3958,6 +4143,7 @@
   "deck": "Memory",
   "sec": "Accuracy",
   "name": "Constructive processing",
+  "q": "What does constructive processing say about how memories are retrieved?",
   "clues": [
    "memories rebuilt",
    "altered with each retrieval"
@@ -3979,6 +4165,7 @@
   "deck": "Memory",
   "sec": "Accuracy",
   "name": "Hindsight bias",
+  "q": "What is hindsight bias, and why does it happen?",
   "clues": [
    "\"I knew it all along\"",
    "revised memories"
@@ -3999,6 +4186,7 @@
   "deck": "Memory",
   "sec": "Accuracy",
   "name": "Misinformation effect & false memory syndrome",
+  "q": "What are the misinformation effect and false memory syndrome?",
   "clues": [
    "misleading information after the event",
    "suggestion, hypnosis",
@@ -4020,6 +4208,7 @@
   "deck": "Memory",
   "sec": "Forgetting",
   "name": "Ebbinghaus's forgetting curve",
+  "q": "What does Ebbinghaus's forgetting curve show about the rate of forgetting?",
   "clues": [
    "fast in first hour",
    "then levels off"
@@ -4041,6 +4230,7 @@
   "deck": "Memory",
   "sec": "Forgetting",
   "name": "Massed vs distributed practice",
+  "q": "How does massed practice differ from distributed practice, and which works better?",
   "clues": [
    "cramming",
    "spacing"
@@ -4061,6 +4251,7 @@
   "deck": "Memory",
   "sec": "Forgetting",
   "name": "Encoding failure",
+  "q": "What is encoding failure as an explanation of forgetting, with an example?",
   "clues": [
    "never processed",
    "last 5 cars you passed"
@@ -4082,6 +4273,7 @@
   "deck": "Memory",
   "sec": "Forgetting",
   "name": "Memory trace decay theory",
+  "q": "What does memory trace decay theory say about forgetting, and what is its limitation?",
   "clues": [
    "physical change",
    "passage of time",
@@ -4104,6 +4296,7 @@
   "deck": "Memory",
   "sec": "Forgetting",
   "name": "Proactive vs retroactive interference",
+  "q": "How does proactive interference differ from retroactive interference?",
   "clues": [
    "old blocks new",
    "new blocks old"
@@ -4124,6 +4317,7 @@
   "deck": "Memory",
   "sec": "Neuroscience & amnesia",
   "name": "Brain areas for memory",
+  "q": "Which brain areas are involved in the different types of memory?",
   "clues": [
    "hippocampus",
    "amygdala",
@@ -4146,6 +4340,7 @@
   "deck": "Memory",
   "sec": "Neuroscience & amnesia",
   "name": "Consolidation & long-term potentiation",
+  "q": "What are consolidation and long-term potentiation in memory formation?",
   "clues": [
    "neurons change",
    "receptor sites",
@@ -4168,6 +4363,7 @@
   "deck": "Memory",
   "sec": "Neuroscience & amnesia",
   "name": "Patient H.M.",
+  "q": "What happened to patient H.M., and what did his case show about memory?",
   "clues": [
    "epileptic seizures",
    "hippocampi removed"
@@ -4189,6 +4385,7 @@
   "deck": "Memory",
   "sec": "Neuroscience & amnesia",
   "name": "Retrograde vs anterograde amnesia",
+  "q": "How does retrograde amnesia differ from anterograde amnesia?",
   "clues": [
    "backwards vs forwards",
    "can't form new memories"
@@ -4210,6 +4407,7 @@
   "deck": "Memory",
   "sec": "Neuroscience & amnesia",
   "name": "Alzheimer's disease",
+  "q": "What is Alzheimer's disease, how does its amnesia progress, and what are its risk factors?",
   "clues": [
    "most common dementia",
    "risk factors"
@@ -4230,6 +4428,7 @@
   "deck": "Memory",
   "sec": "Neuroscience & amnesia",
   "name": "Infantile amnesia",
+  "q": "What is infantile amnesia, and why can't we recall early memories?",
   "clues": [
    "before age three",
    "hippocampus and language"
@@ -4250,6 +4449,7 @@
   "deck": "Learning 1",
   "sec": "Basics",
   "name": "Learning",
+  "q": "What is learning, and how does it differ from maturation?",
   "clues": [
    "relatively permanent",
    "experience or practice",
@@ -4268,6 +4468,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Ivan Pavlov",
+  "q": "Who was Ivan Pavlov and what did he discover?",
   "clues": [
    "Russian physiologist",
    "digestion in dogs"
@@ -4289,6 +4490,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Classical conditioning",
+  "q": "What is classical conditioning?",
   "clues": [
    "involuntary response",
    "stimulus other than the natural one"
@@ -4309,6 +4511,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Reflex",
+  "q": "What is a reflex?",
   "clues": [
    "unlearned",
    "involuntary"
@@ -4329,6 +4532,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Neutral stimulus (NS)",
+  "q": "What is a neutral stimulus (NS) in classical conditioning? Give an example.",
   "clues": [
    "no response at first",
    "metronome before conditioning"
@@ -4351,6 +4555,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Unconditioned stimulus (UCS)",
+  "q": "What is an unconditioned stimulus (UCS)? Give an example.",
   "clues": [
    "naturally occurring",
    "food for the dog"
@@ -4373,6 +4578,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Unconditioned response (UCR)",
+  "q": "What is an unconditioned response (UCR)? Give an example.",
   "clues": [
    "unlearned",
    "response to food"
@@ -4395,6 +4601,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Conditioned stimulus (CS)",
+  "q": "What is a conditioned stimulus (CS), and how does it become one?",
   "clues": [
    "paired with the UCS",
    "\"conditioned\" = learned"
@@ -4417,6 +4624,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Conditioned response (CR)",
+  "q": "What is a conditioned response (CR)? Give an example.",
   "clues": [
    "learned",
    "reflex-like",
@@ -4439,6 +4647,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Acquisition",
+  "q": "What is acquisition in classical conditioning?",
   "clues": [
    "repeated pairing",
    "NS + UCS"
@@ -4460,6 +4669,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Principles of classical conditioning",
+  "q": "What are the principles that make classical conditioning work?",
   "clues": [
    "order",
    "timing",
@@ -4479,6 +4689,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Stimulus generalisation",
+  "q": "What is stimulus generalisation, and what did Hovland's study show?",
   "clues": [
    "similar stimulus",
    "Hovland (1937)",
@@ -4500,6 +4711,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Stimulus discrimination",
+  "q": "What is stimulus discrimination and why does it happen?",
   "clues": [
    "stop responding",
    "similar stimulus never paired"
@@ -4521,6 +4733,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Extinction (classical)",
+  "q": "What is extinction in classical conditioning and why does it happen?",
   "clues": [
    "UCS removed",
    "response weakens"
@@ -4543,6 +4756,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Spontaneous recovery",
+  "q": "What is spontaneous recovery and what does it show about learning?",
   "clues": [
    "after extinction",
    "response comes back"
@@ -4564,6 +4778,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Higher-order conditioning",
+  "q": "How does higher-order conditioning work?",
   "clues": [
    "strong CS + neutral stimulus",
    "second CS"
@@ -4584,6 +4799,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning",
   "name": "Cognitive perspective on conditioning",
+  "q": "What is the cognitive perspective on conditioning, and what did Rescorla's study show?",
   "clues": [
    "expectancy",
    "Rescorla (1988)",
@@ -4602,6 +4818,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning & behaviour",
   "name": "Conditioned emotional response (CER)",
+  "q": "What is a conditioned emotional response (CER)? Give an example.",
   "clues": [
    "emotion",
    "learned stimuli",
@@ -4624,6 +4841,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning & behaviour",
   "name": "Vicarious conditioning",
+  "q": "What is vicarious conditioning?",
   "clues": [
    "watching another person"
   ],
@@ -4643,6 +4861,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning & behaviour",
   "name": "Little Albert",
+  "q": "What did Watson's Little Albert study do and demonstrate?",
   "clues": [
    "John B. Watson",
    "white rat",
@@ -4664,6 +4883,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning & behaviour",
   "name": "Conditioned taste aversion",
+  "q": "What is conditioned taste aversion and how is it formed?",
   "clues": [
    "nausea",
    "one pairing"
@@ -4684,6 +4904,7 @@
   "deck": "Learning 1",
   "sec": "Classical conditioning & behaviour",
   "name": "Biological preparedness",
+  "q": "What is biological preparedness and why does it occur?",
   "clues": [
    "survival value",
    "few pairings"
@@ -4705,6 +4926,7 @@
   "deck": "Learning 1",
   "sec": "Operant conditioning",
   "name": "Operant conditioning",
+  "q": "What is operant conditioning?",
   "clues": [
    "voluntary behaviour",
    "consequences"
@@ -4726,6 +4948,7 @@
   "deck": "Learning 1",
   "sec": "Operant conditioning",
   "name": "Thorndike's law of effect",
+  "q": "What is Thorndike's law of effect, and how did his puzzle box show it?",
   "clues": [
    "puzzle box",
    "pleasurable consequence"
@@ -4747,6 +4970,7 @@
   "deck": "Learning 1",
   "sec": "Operant conditioning",
   "name": "B.F. Skinner",
+  "q": "What were B.F. Skinner's main ideas and contributions to operant conditioning?",
   "clues": [
    "behaviourist",
    "named it",
@@ -4769,6 +4993,7 @@
   "deck": "Learning 1",
   "sec": "Reinforcement",
   "name": "Reinforcement",
+  "q": "What is reinforcement in operant conditioning?",
   "clues": [
    "follows a response",
    "increases probability"
@@ -4789,6 +5014,7 @@
   "deck": "Learning 1",
   "sec": "Reinforcement",
   "name": "Primary vs secondary reinforcer",
+  "q": "How do primary and secondary reinforcers differ? Give examples of each.",
   "clues": [
    "biological need",
    "praise, tokens, gold stars"
@@ -4809,6 +5035,7 @@
   "deck": "Learning 1",
   "sec": "Reinforcement",
   "name": "Positive reinforcement",
+  "q": "What is positive reinforcement? Give an example.",
   "clues": [
    "add something pleasant",
    "money for working"
@@ -4831,6 +5058,7 @@
   "deck": "Learning 1",
   "sec": "Reinforcement",
   "name": "Negative reinforcement",
+  "q": "What is negative reinforcement? Give an example.",
   "clues": [
    "remove or avoid something unpleasant",
    "tax on time"
@@ -4854,6 +5082,7 @@
   "deck": "Learning 1",
   "sec": "Schedules of reinforcement",
   "name": "Continuous vs partial reinforcement",
+  "q": "How does continuous reinforcement differ from partial reinforcement, and what is the partial reinforcement effect?",
   "clues": [
    "every response vs some",
    "resistant to extinction"
@@ -4875,6 +5104,7 @@
   "deck": "Learning 1",
   "sec": "Schedules of reinforcement",
   "name": "Fixed interval schedule",
+  "q": "How does a fixed interval schedule work and what pattern does it produce?",
   "clues": [
    "same amount of time",
    "pay day",
@@ -4900,6 +5130,7 @@
   "deck": "Learning 1",
   "sec": "Schedules of reinforcement",
   "name": "Variable interval schedule",
+  "q": "How does a variable interval schedule work and what pattern does it produce?",
   "clues": [
    "time changes each trial",
    "no pause"
@@ -4923,6 +5154,7 @@
   "deck": "Learning 1",
   "sec": "Schedules of reinforcement",
   "name": "Fixed ratio schedule",
+  "q": "How does a fixed ratio schedule work and what pattern does it produce?",
   "clues": [
    "same number of responses",
    "loyalty card"
@@ -4947,6 +5179,7 @@
   "deck": "Learning 1",
   "sec": "Schedules of reinforcement",
   "name": "Variable ratio schedule",
+  "q": "How does a variable ratio schedule work and what pattern does it produce?",
   "clues": [
    "number of responses changes",
    "slot machines"
@@ -4971,6 +5204,7 @@
   "deck": "Learning 1",
   "sec": "Reinforcement",
   "name": "Effectiveness of reinforcement",
+  "q": "What factors make reinforcement effective?",
   "clues": [
    "timing",
    "specificity"
@@ -4991,6 +5225,7 @@
   "deck": "Learning 1",
   "sec": "Punishment",
   "name": "Punishment",
+  "q": "What is punishment in operant conditioning?",
   "clues": [
    "follows a response",
    "less likely"
@@ -5011,6 +5246,7 @@
   "deck": "Learning 1",
   "sec": "Punishment",
   "name": "Positive punishment",
+  "q": "What is positive punishment? Give an example.",
   "clues": [
    "by application",
    "add something unpleasant",
@@ -5034,6 +5270,7 @@
   "deck": "Learning 1",
   "sec": "Punishment",
   "name": "Negative punishment",
+  "q": "What is negative punishment? Give an example.",
   "clues": [
    "by removal",
    "lose something valued"
@@ -5057,6 +5294,7 @@
   "deck": "Learning 1",
   "sec": "Punishment",
   "name": "Problems with severe punishment",
+  "q": "What are the problems with using severe punishment?",
   "clues": [
    "avoid the punisher",
    "lying",
@@ -5079,6 +5317,7 @@
   "deck": "Learning 1",
   "sec": "Punishment",
   "name": "Making punishment effective",
+  "q": "How can punishment be made more effective?",
   "clues": [
    "immediate",
    "consistent",
@@ -5101,6 +5340,7 @@
   "deck": "Learning 1",
   "sec": "Operant conditioning",
   "name": "Discriminative stimulus",
+  "q": "What is a discriminative stimulus in operant conditioning?",
   "clues": [
    "cue",
    "specific cue → specific response"
@@ -5121,6 +5361,7 @@
   "deck": "Learning 1",
   "sec": "Operant conditioning",
   "name": "Extinction, generalisation & recovery in operant conditioning",
+  "q": "How do extinction, generalisation and spontaneous recovery work in operant conditioning?",
   "clues": [
    "not reinforced",
    "temper tantrum"
@@ -5141,6 +5382,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Shaping",
+  "q": "What is shaping, and what is successive approximation?",
   "clues": [
    "simple steps",
    "successive approximation"
@@ -5162,6 +5404,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Instinctive drift",
+  "q": "What is instinctive drift? Give an example.",
   "clues": [
    "revert to instinct",
    "raccoons washing food"
@@ -5183,6 +5426,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Behaviour modification",
+  "q": "What is behaviour modification?",
   "clues": [
    "operant (or classical) techniques",
    "desired change"
@@ -5204,6 +5448,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Token economy",
+  "q": "What is a token economy? Give an example.",
   "clues": [
    "tokens",
    "reward chart"
@@ -5226,6 +5471,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Time-out",
+  "q": "What is time-out and why does it work as punishment?",
   "clues": [
    "mild punishment by removal",
    "away from attention"
@@ -5246,6 +5492,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Applied behaviour analysis (ABA)",
+  "q": "What is applied behaviour analysis (ABA)?",
   "clues": [
    "modern term",
    "shaping"
@@ -5267,6 +5514,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Biofeedback",
+  "q": "What is biofeedback and what does it allow people to do?",
   "clues": [
    "biological conditions",
    "blood pressure"
@@ -5287,6 +5535,7 @@
   "deck": "Learning 1",
   "sec": "Applications",
   "name": "Neurofeedback",
+  "q": "What is neurofeedback and how does it work?",
   "clues": [
    "EEG, fMRI",
    "brain activity"
@@ -5307,6 +5556,7 @@
   "deck": "Learning 1",
   "sec": "Comparison",
   "name": "Operant vs classical conditioning",
+  "q": "How does operant conditioning differ from classical conditioning?",
   "clues": [
    "voluntary vs involuntary",
    "consequences vs antecedents",
@@ -5330,6 +5580,7 @@
   "deck": "Learning 2",
   "sec": "Cognitive learning theory",
   "name": "Cognitive learning theory",
+  "q": "What is cognitive learning theory, why did it emerge, and what does it cover?",
   "clues": [
    "vs early behaviourism",
    "1950s and 1960s",
@@ -5352,6 +5603,7 @@
   "deck": "Learning 2",
   "sec": "Cognitive learning theory",
   "name": "Cognition",
+  "q": "What is cognition?",
   "clues": [
    "mental events",
    "inside the mind",
@@ -5373,6 +5625,7 @@
   "deck": "Learning 2",
   "sec": "Latent learning",
   "name": "Edward Tolman",
+  "q": "Who was Edward Tolman and what is his best-known learning experiment?",
   "clues": [
    "early cognitive scientist",
    "rats and a maze",
@@ -5395,6 +5648,7 @@
   "deck": "Learning 2",
   "sec": "Latent learning",
   "name": "Latent learning",
+  "q": "What is latent learning, and how did Tolman demonstrate it?",
   "clues": [
    "hidden",
    "until it becomes useful",
@@ -5418,6 +5672,7 @@
   "deck": "Learning 2",
   "sec": "Latent learning",
   "name": "Tolman & Honzik's maze experiment (1930)",
+  "q": "What was the procedure and results of Tolman and Honzik's maze experiment?",
   "clues": [
    "three groups of rats",
    "same maze",
@@ -5441,6 +5696,7 @@
   "deck": "Learning 2",
   "sec": "Latent learning",
   "name": "Why Group 2 matters in Tolman's maze",
+  "q": "In Tolman's maze experiment, why are Group 2's results important?",
   "clues": [
    "Day 11 vs Day 12",
    "sudden drop in errors",
@@ -5463,6 +5719,7 @@
   "deck": "Learning 2",
   "sec": "Insight learning",
   "name": "Wolfgang Köhler",
+  "q": "Who was Wolfgang Köhler and what did he study?",
   "clues": [
    "apes",
    "experiments in ape intelligence",
@@ -5486,6 +5743,7 @@
   "deck": "Learning 2",
   "sec": "Insight learning",
   "name": "Insight",
+  "q": "What is insight learning, and how does it differ from trial and error?",
   "clues": [
    "sudden",
    "relationships among parts of a problem",
@@ -5508,6 +5766,7 @@
   "deck": "Learning 2",
   "sec": "Learned helplessness",
   "name": "Martin Seligman",
+  "q": "Who is Martin Seligman and what is he known for?",
   "clues": [
    "positive psychology",
    "dogs and shocks",
@@ -5530,6 +5789,7 @@
   "deck": "Learning 2",
   "sec": "Learned helplessness",
   "name": "Learned helplessness",
+  "q": "What is learned helplessness and who first observed it?",
   "clues": [
    "failing to act",
    "escape",
@@ -5551,6 +5811,7 @@
   "deck": "Learning 2",
   "sec": "Learned helplessness",
   "name": "Seligman's experiment: the two groups",
+  "q": "What were the two groups in Seligman's learned helplessness experiment?",
   "clues": [
    "Group A vs Group B",
    "tone + shock",
@@ -5573,6 +5834,7 @@
   "deck": "Learning 2",
   "sec": "Learned helplessness",
   "name": "Seligman's apparatus: the two-sided box",
+  "q": "What happened when Seligman's dogs were placed in the two-sided box?",
   "clues": [
    "hurdle",
    "shock grid floor",
@@ -5594,6 +5856,7 @@
   "deck": "Learning 2",
   "sec": "Observational learning",
   "name": "Albert Bandura",
+  "q": "Who was Albert Bandura and what is he known for?",
   "clues": [
    "observational learning",
    "Bobo doll",
@@ -5616,6 +5879,7 @@
   "deck": "Learning 2",
   "sec": "Observational learning",
   "name": "Observational learning",
+  "q": "What is observational learning?",
   "clues": [
    "watching",
    "model",
@@ -5638,6 +5902,7 @@
   "deck": "Learning 2",
   "sec": "Observational learning",
   "name": "Learning/performance distinction",
+  "q": "What is the learning/performance distinction?",
   "clues": [
    "learning without doing",
    "Bandura",
@@ -5660,6 +5925,7 @@
   "deck": "Learning 2",
   "sec": "Observational learning",
   "name": "Bobo doll experiment",
+  "q": "What were the conditions and findings of Bandura's Bobo doll experiment?",
   "clues": [
    "Condition 1 vs Condition 2",
    "hammer",
@@ -5681,6 +5947,7 @@
   "deck": "Learning 2",
   "sec": "Observational learning",
   "name": "Bobo doll: model rewarded vs punished",
+  "q": "In later Bobo doll studies, how did rewarding or punishing the model affect children?",
   "clues": [
    "later studies",
    "consequences for the model",
@@ -5703,6 +5970,7 @@
   "deck": "Learning 2",
   "sec": "Four elements of observational learning",
   "name": "Four elements of observational learning",
+  "q": "What are the four elements of observational learning?",
   "clues": [
    "four steps",
    "Bandura",
@@ -5724,6 +5992,7 @@
   "deck": "Learning 2",
   "sec": "Four elements of observational learning",
   "name": "Attention (observational learning)",
+  "q": "What role does attention play in observational learning?",
   "clues": [
    "first step",
    "paying attention to the model",
@@ -5746,6 +6015,7 @@
   "deck": "Learning 2",
   "sec": "Four elements of observational learning",
   "name": "Memory / retention (observational learning)",
+  "q": "What role does memory or retention play in observational learning? Give an example.",
   "clues": [
    "remembering what was done",
    "cooking show"
@@ -5767,6 +6037,7 @@
   "deck": "Learning 2",
   "sec": "Four elements of observational learning",
   "name": "Imitation / motoric reproduction (observational learning)",
+  "q": "What role does imitation or motoric reproduction play in observational learning?",
   "clues": [
    "capable of doing it",
    "reproducing the actions"
@@ -5788,6 +6059,7 @@
   "deck": "Learning 2",
   "sec": "Four elements of observational learning",
   "name": "Desire / motivation (observational learning)",
+  "q": "What role does desire or motivation play in observational learning?",
   "clues": [
    "wanting to perform it",
    "rewards expected",
@@ -5811,6 +6083,7 @@
   "deck": "Nerve Cells",
   "sec": "Basics",
   "name": "Santiago Ramón y Cajal",
+  "q": "Who was Santiago Ramón y Cajal and what did he theorise about nerve cells?",
   "clues": [
    "Spaniard",
    "cells stay separate"
@@ -5828,6 +6101,7 @@
   "deck": "Nerve Cells",
   "sec": "Basics",
   "name": "CNS vs PNS",
+  "q": "How does the central nervous system (CNS) differ from the peripheral nervous system (PNS)?",
   "clues": [
    "brain + spinal cord",
    "runs through the body"
@@ -5845,6 +6119,7 @@
   "deck": "Nerve Cells",
   "sec": "Basics",
   "name": "Neuron vs glial cells",
+  "q": "How do neurons differ from glial cells?",
   "clues": [
    "sends messages",
    "support structures"
@@ -5865,6 +6140,7 @@
   "deck": "Nerve Cells",
   "sec": "Components of a neuron",
   "name": "Soma & nucleus",
+  "q": "What do the soma and the nucleus of a neuron do?",
   "clues": [
    "cell body",
    "keeps the cell alive",
@@ -5886,6 +6162,7 @@
   "deck": "Nerve Cells",
   "sec": "Components of a neuron",
   "name": "Dendrites",
+  "q": "What is the function of dendrites?",
   "clues": [
    "receive"
   ],
@@ -5905,6 +6182,7 @@
   "deck": "Nerve Cells",
   "sec": "Components of a neuron",
   "name": "Axon & axon terminals",
+  "q": "What do the axon and the axon terminals do?",
   "clues": [
    "carry messages away",
    "communicate with other cells"
@@ -5926,6 +6204,7 @@
   "deck": "Nerve Cells",
   "sec": "Components of a neuron",
   "name": "Myelin sheath",
+  "q": "What is the myelin sheath and what does it do?",
   "clues": [
    "fatty coating",
    "insulate",
@@ -5949,6 +6228,7 @@
   "deck": "Nerve Cells",
   "sec": "Components of a neuron",
   "name": "Cell membrane",
+  "q": "What is the function of the neuron's cell membrane?",
   "clues": [
    "separates inside from outside"
   ],
@@ -5969,6 +6249,7 @@
   "deck": "Nerve Cells",
   "sec": "Types of neurons",
   "name": "Sensory neuron",
+  "q": "What does a sensory neuron do, and what is its other name?",
   "clues": [
    "afferent",
    "senses → CNS",
@@ -5993,6 +6274,7 @@
   "deck": "Nerve Cells",
   "sec": "Types of neurons",
   "name": "Motor neuron",
+  "q": "What does a motor neuron do, and what is its other name?",
   "clues": [
    "efferent",
    "CNS → muscles"
@@ -6016,6 +6298,7 @@
   "deck": "Nerve Cells",
   "sec": "Types of neurons",
   "name": "Interneuron",
+  "q": "Where are interneurons found and what do they do?",
   "clues": [
    "centre of the spinal cord",
    "between sensory and motor"
@@ -6039,6 +6322,7 @@
   "deck": "Nerve Cells",
   "sec": "Glial cells",
   "name": "Astrocytes",
+  "q": "What are the functions of astrocytes?",
   "clues": [
    "synchronise axons",
    "blood flow",
@@ -6060,6 +6344,7 @@
   "deck": "Nerve Cells",
   "sec": "Glial cells",
   "name": "Microglia",
+  "q": "What do microglia do?",
   "clues": [
    "like an immune system"
   ],
@@ -6079,6 +6364,7 @@
   "deck": "Nerve Cells",
   "sec": "Glial cells",
   "name": "Oligodendrocytes vs Schwann cells",
+  "q": "How do oligodendrocytes differ from Schwann cells, and what do they share?",
   "clues": [
    "build myelin",
    "CNS vs PNS",
@@ -6101,6 +6387,7 @@
   "deck": "Nerve Cells",
   "sec": "Glial cells",
   "name": "Radial glia",
+  "q": "What do radial glia do during brain development, and what do they become?",
   "clues": [
    "guide migration",
    "early brain development"
@@ -6121,6 +6408,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Ion channels & sodium-potassium pump",
+  "q": "How do ion channels and the sodium-potassium pump work?",
   "clues": [
    "gated",
    "3 out, 2 in",
@@ -6142,6 +6430,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Semipermeable membrane",
+  "q": "What does it mean that the neuron's membrane is semipermeable?",
   "clues": [
    "some molecules pass freely",
    "channels or pumps"
@@ -6163,6 +6452,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Resting potential",
+  "q": "What is the resting potential, and how are ions distributed during it?",
   "clues": [
    "not firing",
    "−70 mV",
@@ -6186,6 +6476,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Action potential",
+  "q": "What is an action potential?",
   "clues": [
    "neural impulse",
    "charge reverses",
@@ -6208,6 +6499,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Steps of an action potential",
+  "q": "What happens at each step of an action potential?",
   "clues": [
    "sodium in",
    "potassium out",
@@ -6231,6 +6523,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Depolarisation vs hyperpolarisation",
+  "q": "How does depolarisation differ from hyperpolarisation?",
   "clues": [
    "becomes positive",
    "goes beyond resting"
@@ -6251,6 +6544,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Threshold of excitement",
+  "q": "What is the threshold of excitement and why does it matter?",
   "clues": [
    "level above which",
    "massive depolarisation"
@@ -6271,6 +6565,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "All-or-none law",
+  "q": "What does the all-or-none law state?",
   "clues": [
    "full strength or nothing"
   ],
@@ -6291,6 +6586,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Coding stimulus strength",
+  "q": "How does a neuron signal the strength of a stimulus?",
   "clues": [
    "can't send bigger or faster",
    "frequency",
@@ -6312,6 +6608,7 @@
   "deck": "Nerve Cells",
   "sec": "Action potential",
   "name": "Absolute vs relative refractory period",
+  "q": "What is the refractory period, and how do its absolute and relative phases differ?",
   "clues": [
    "impossible",
    "needs a stronger stimulus"
@@ -6332,6 +6629,7 @@
   "deck": "Nerve Cells",
   "sec": "Propagation",
   "name": "Axon hillock",
+  "q": "What is the axon hillock and what role does it play?",
   "clues": [
    "where it begins",
    "swelling where the axon leaves the soma"
@@ -6352,6 +6650,7 @@
   "deck": "Nerve Cells",
   "sec": "Propagation",
   "name": "Propagation of the action potential",
+  "q": "How does an action potential propagate along the axon?",
   "clues": [
    "sodium enters",
    "neighbouring regions",
@@ -6375,6 +6674,7 @@
   "deck": "Nerve Cells",
   "sec": "Propagation",
   "name": "Nodes of Ranvier & saltatory conduction",
+  "q": "What are nodes of Ranvier and what is saltatory conduction?",
   "clues": [
    "gaps in myelin",
    "jumping"
@@ -6396,6 +6696,7 @@
   "deck": "Synapses",
   "sec": "Basics",
   "name": "Synapse",
+  "q": "What is a synapse?",
   "clues": [
    "junction",
    "chemicals"
@@ -6417,6 +6718,7 @@
   "deck": "Synapses",
   "sec": "Basics",
   "name": "Presynaptic vs postsynaptic neuron",
+  "q": "How does the presynaptic neuron differ from the postsynaptic neuron?",
   "clues": [
    "delivers vs receives"
   ],
@@ -6437,6 +6739,7 @@
   "deck": "Synapses",
   "sec": "Sherrington",
   "name": "Charles Sherrington",
+  "q": "Who was Charles Sherrington and what did he contribute to understanding synapses?",
   "clues": [
    "coined \"synapse\" (1906)",
    "reflexes in dogs"
@@ -6457,6 +6760,7 @@
   "deck": "Synapses",
   "sec": "Sherrington",
   "name": "Sherrington's 3 findings about reflexes",
+  "q": "What were Sherrington's three findings about reflexes, and what did they suggest?",
   "clues": [
    "slower",
    "several weak stimuli",
@@ -6481,6 +6785,7 @@
   "deck": "Synapses",
   "sec": "Summation",
   "name": "Temporal summation",
+  "q": "What is temporal summation?",
   "clues": [
    "repeated stimuli",
    "short period of time"
@@ -6503,6 +6808,7 @@
   "deck": "Synapses",
   "sec": "Summation",
   "name": "Spatial summation",
+  "q": "What is spatial summation?",
   "clues": [
    "several locations",
    "at the same time"
@@ -6525,6 +6831,7 @@
   "deck": "Synapses",
   "sec": "EPSP/IPSP",
   "name": "EPSP",
+  "q": "What is an EPSP and how does it affect firing?",
   "clues": [
    "excitatory",
    "graded depolarisation",
@@ -6547,6 +6854,7 @@
   "deck": "Synapses",
   "sec": "EPSP/IPSP",
   "name": "IPSP",
+  "q": "What is an IPSP and how does it affect the neuron?",
   "clues": [
    "inhibitory",
    "hyperpolarisation",
@@ -6570,6 +6878,7 @@
   "deck": "Synapses",
   "sec": "EPSP/IPSP",
   "name": "EPSP vs IPSP ratio",
+  "q": "What determines whether a neuron fires when it receives both EPSPs and IPSPs?",
   "clues": [
    "thousands of synapses",
    "which wins"
@@ -6591,6 +6900,7 @@
   "deck": "Synapses",
   "sec": "Neurotransmitters",
   "name": "Otto Loewi's experiment",
+  "q": "What did Otto Loewi's experiment involve and what did it show?",
   "clues": [
    "frog hearts",
    "vagus nerve",
@@ -6614,6 +6924,7 @@
   "deck": "Synapses",
   "sec": "Neurotransmitters",
   "name": "Neurotransmitter",
+  "q": "What are neurotransmitters, and when was chemical transmission established as the main type?",
   "clues": [
    "chemical messengers",
    "established 1950"
@@ -6634,6 +6945,7 @@
   "deck": "Synapses",
   "sec": "Neurotransmission",
   "name": "Synthesis & storage",
+  "q": "How are neurotransmitters synthesised and where are they stored?",
   "clues": [
    "axon terminals",
    "synaptic vesicles"
@@ -6655,6 +6967,7 @@
   "deck": "Synapses",
   "sec": "Neurotransmission",
   "name": "Release & exocytosis",
+  "q": "How are neurotransmitters released, and what is exocytosis?",
   "clues": [
    "calcium enters",
    "into the cleft"
@@ -6677,6 +6990,7 @@
   "deck": "Synapses",
   "sec": "Neurotransmission",
   "name": "Receptor sites",
+  "q": "What happens at receptor sites on the postsynaptic neuron?",
   "clues": [
    "proteins",
    "shaped to fit"
@@ -6699,6 +7013,7 @@
   "deck": "Synapses",
   "sec": "Neurotransmission",
   "name": "Reuptake vs enzymatic degradation",
+  "q": "How does reuptake differ from enzymatic degradation of neurotransmitters?",
   "clues": [
    "taken back",
    "broken down",
@@ -6723,6 +7038,7 @@
   "deck": "Synapses",
   "sec": "Types of neurotransmitter",
   "name": "Acetylcholine (ACh)",
+  "q": "What are the effects and functions of acetylcholine (ACh)?",
   "clues": [
    "muscle contraction",
    "memory"
@@ -6745,6 +7061,7 @@
   "deck": "Synapses",
   "sec": "Types of neurotransmitter",
   "name": "Dopamine & norepinephrine",
+  "q": "What are the functions of dopamine and norepinephrine, and what disorders involve dopamine?",
   "clues": [
    "movement and pleasure",
    "arousal and mood",
@@ -6768,6 +7085,7 @@
   "deck": "Synapses",
   "sec": "Types of neurotransmitter",
   "name": "Serotonin, GABA, glutamate & endorphins",
+  "q": "What are the main functions of serotonin, GABA, glutamate and endorphins?",
   "clues": [
    "sleep, mood",
    "major inhibitory",
@@ -6790,6 +7108,7 @@
   "deck": "Synapses",
   "sec": "Drugs",
   "name": "Agonist vs antagonist",
+  "q": "How does an agonist differ from an antagonist, with examples of each?",
   "clues": [
    "mimic or enhance",
    "block or reduce",
@@ -6812,6 +7131,7 @@
   "deck": "Synapses",
   "sec": "Drugs",
   "name": "SSRIs & MAOIs",
+  "q": "How do SSRIs and MAOIs change neurotransmitter levels in the synapse?",
   "clues": [
    "block reuptake",
    "inhibit degradation"
@@ -6833,6 +7153,7 @@
   "deck": "Synapses",
   "sec": "Receptors",
   "name": "Postsynaptic receptors",
+  "q": "What happens when a neurotransmitter binds to postsynaptic receptors?",
   "clues": [
    "opens ion channels",
    "EPSP or IPSP"
@@ -6854,6 +7175,7 @@
   "deck": "Synapses",
   "sec": "Receptors",
   "name": "Ionotropic effect",
+  "q": "What is an ionotropic effect, and what are its speed, uses and neurotransmitters?",
   "clues": [
    "immediately opens channels",
    "< 1 ms",
@@ -6876,6 +7198,7 @@
   "deck": "Synapses",
   "sec": "Receptors",
   "name": "Metabotropic effect",
+  "q": "What is a metabotropic effect, and how does it work?",
   "clues": [
    "slower, longer",
    "G-protein",
@@ -6899,6 +7222,7 @@
   "deck": "Synapses",
   "sec": "Hormones",
   "name": "Hormone",
+  "q": "What is a hormone and how does it act on the body?",
   "clues": [
    "gland",
    "blood",
@@ -6921,6 +7245,7 @@
   "deck": "Synapses",
   "sec": "Hormones",
   "name": "Key hormones by gland",
+  "q": "What are the key hormones released by each major gland, and what do they do?",
   "clues": [
    "pituitary",
    "pineal",
@@ -6943,6 +7268,7 @@
   "deck": "Synapses",
   "sec": "Hormones",
   "name": "Negative feedback",
+  "q": "What is negative feedback in the endocrine system, with an example?",
   "clues": [
    "decreases its own production",
    "thyroid"
@@ -6963,6 +7289,7 @@
   "deck": "Nervous System",
   "sec": "Terminology",
   "name": "Superior/inferior & anterior/posterior",
+  "q": "What do the terms superior/inferior and anterior/posterior mean?",
   "clues": [
    "top vs bottom",
    "front vs back"
@@ -6984,6 +7311,7 @@
   "deck": "Nervous System",
   "sec": "Terminology",
   "name": "Dorsal/ventral & rostral/caudal",
+  "q": "What do the terms dorsal/ventral and rostral/caudal mean?",
   "clues": [
    "back vs stomach",
    "nose vs tail"
@@ -7006,6 +7334,7 @@
   "deck": "Nervous System",
   "sec": "Terminology",
   "name": "Medial/lateral & ipsilateral/contralateral",
+  "q": "What do medial/lateral and ipsilateral/contralateral mean?",
   "clues": [
    "middle vs side",
    "same vs opposite side"
@@ -7027,6 +7356,7 @@
   "deck": "Nervous System",
   "sec": "Terminology",
   "name": "Planes of the brain",
+  "q": "What are the three planes of the brain and how is each sliced?",
   "clues": [
    "coronal",
    "horizontal",
@@ -7049,6 +7379,7 @@
   "deck": "Nervous System",
   "sec": "Peripheral NS",
   "name": "Peripheral nervous system (PNS)",
+  "q": "What is the peripheral nervous system (PNS) and what are its two parts?",
   "clues": [
    "outside brain and spinal cord",
    "somatic and autonomic"
@@ -7071,6 +7402,7 @@
   "deck": "Nervous System",
   "sec": "Peripheral NS",
   "name": "Somatic nervous system",
+  "q": "What does the somatic nervous system control, and what are its two pathways?",
   "clues": [
    "voluntary muscles",
    "afferent and efferent"
@@ -7092,6 +7424,7 @@
   "deck": "Nervous System",
   "sec": "Peripheral NS",
   "name": "Autonomic nervous system",
+  "q": "What does the autonomic nervous system control, and what are its divisions?",
   "clues": [
    "involuntary",
    "organs and glands"
@@ -7114,6 +7447,7 @@
   "deck": "Nervous System",
   "sec": "Peripheral NS",
   "name": "Sympathetic vs parasympathetic",
+  "q": "How does the sympathetic nervous system differ from the parasympathetic?",
   "clues": [
    "fight-or-flight",
    "eat-drink-and-rest"
@@ -7136,6 +7470,7 @@
   "deck": "Nervous System",
   "sec": "Central NS",
   "name": "Spinal cord",
+  "q": "What is the spinal cord's role, and how do its grey and white matter differ?",
   "clues": [
    "grey matter",
    "white matter",
@@ -7155,6 +7490,7 @@
   "deck": "Nervous System",
   "sec": "Hindbrain",
   "name": "Medulla",
+  "q": "Where is the medulla and what does it do?",
   "clues": [
    "top of the spinal cord",
    "breathing, heart rate"
@@ -7176,6 +7512,7 @@
   "deck": "Nervous System",
   "sec": "Hindbrain",
   "name": "Pons",
+  "q": "Where is the pons and what does it do?",
   "clues": [
    "above the medulla",
    "sleep, dreaming"
@@ -7198,6 +7535,7 @@
   "deck": "Nervous System",
   "sec": "Hindbrain",
   "name": "Reticular formation",
+  "q": "Where is the reticular formation and what is it responsible for?",
   "clues": [
    "through medulla and pons",
    "alertness"
@@ -7218,6 +7556,7 @@
   "deck": "Nervous System",
   "sec": "Hindbrain",
   "name": "Cerebellum",
+  "q": "Where is the cerebellum, what does it do, and what happens when it's damaged?",
   "clues": [
    "behind the pons",
    "balance, coordination",
@@ -7239,6 +7578,7 @@
   "deck": "Nervous System",
   "sec": "Hindbrain",
   "name": "Brain stem",
+  "q": "What makes up the brain stem and the hindbrain?",
   "clues": [
    "hindbrain + midbrain"
   ],
@@ -7259,6 +7599,7 @@
   "deck": "Nervous System",
   "sec": "Midbrain",
   "name": "Tectum & colliculi",
+  "q": "What are the tectum and the superior and inferior colliculi responsible for?",
   "clues": [
    "roof",
    "vision",
@@ -7280,6 +7621,7 @@
   "deck": "Nervous System",
   "sec": "Midbrain",
   "name": "Tegmentum & substantia nigra",
+  "q": "What are the tegmentum and substantia nigra, and what do they do?",
   "clues": [
    "intermediate level",
    "dopamine pathway"
@@ -7300,6 +7642,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Forebrain",
+  "q": "What is the forebrain and how is it organised?",
   "clues": [
    "two hemispheres",
    "cortex and subcortical"
@@ -7321,6 +7664,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Limbic system",
+  "q": "What is the limbic system, which structures does it include, and what does it do?",
   "clues": [
    "border around brainstem",
    "emotion, memory"
@@ -7342,6 +7686,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Thalamus",
+  "q": "Where is the thalamus, what does it do, and what does damage cause?",
   "clues": [
    "relay station",
    "except smell"
@@ -7362,6 +7707,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Hypothalamus",
+  "q": "Where is the hypothalamus and what does it regulate?",
   "clues": [
    "above the pituitary",
    "temperature, eating"
@@ -7382,6 +7728,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Hippocampus, amygdala & cingulate cortex",
+  "q": "What do the hippocampus, amygdala and cingulate cortex each do?",
   "clues": [
    "seahorse",
    "almond",
@@ -7403,6 +7750,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Basal ganglia",
+  "q": "What structures make up the basal ganglia and what are their functions?",
   "clues": [
    "caudate, putamen, globus pallidus",
    "motor control"
@@ -7423,6 +7771,7 @@
   "deck": "Nervous System",
   "sec": "Forebrain",
   "name": "Ventricles & cerebrospinal fluid",
+  "q": "What are the central canal, ventricles and cerebrospinal fluid?",
   "clues": [
    "fluid-filled",
    "cushioning"
@@ -7440,6 +7789,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Hemispheres & corpus callosum",
+  "q": "How are the cerebral hemispheres connected, and how is information sent to each side?",
   "clues": [
    "contralateral",
    "bilateral",
@@ -7461,6 +7811,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Occipital lobe",
+  "q": "Where is the occipital lobe and what do its cortical areas do?",
   "clues": [
    "rear",
    "vision"
@@ -7483,6 +7834,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Parietal lobe",
+  "q": "Where is the parietal lobe and what does it process?",
   "clues": [
    "top and back",
    "touch, temperature"
@@ -7505,6 +7857,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Temporal lobe",
+  "q": "Where is the temporal lobe and what are its functions?",
   "clues": [
    "sides, behind the temples",
    "hearing"
@@ -7527,6 +7880,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Frontal lobe & motor cortex",
+  "q": "Where is the frontal lobe, what does it do, and what is the motor cortex's role?",
   "clues": [
    "front and top",
    "planning, personality"
@@ -7549,6 +7903,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Prefrontal cortex & Phineas Gage",
+  "q": "What does the prefrontal cortex do, and what does Phineas Gage's case show?",
   "clues": [
    "executive functions",
    "self-restraint",
@@ -7570,6 +7925,7 @@
   "deck": "Nervous System",
   "sec": "Cerebral cortex",
   "name": "Broca's vs Wernicke's area",
+  "q": "How do Broca's and Wernicke's areas and their aphasias differ?",
   "clues": [
    "left frontal vs left temporal",
    "speaking vs understanding"
@@ -7590,6 +7946,7 @@
   "deck": "Nervous System",
   "sec": "Research methods",
   "name": "Lesioning & brain stimulation (ESB)",
+  "q": "What are lesioning and electrical stimulation of the brain (ESB)?",
   "clues": [
    "destroy cells at a wire tip",
    "milder current"
@@ -7610,6 +7967,7 @@
   "deck": "Nervous System",
   "sec": "Research methods",
   "name": "DBS vs TMS vs tDCS",
+  "q": "How do DBS, TMS and tDCS differ?",
   "clues": [
    "implanted electrodes",
    "magnetic pulses",
@@ -7632,6 +7990,7 @@
   "deck": "Nervous System",
   "sec": "Research methods",
   "name": "Mapping structure: CT vs MRI",
+  "q": "How do CT and MRI differ for mapping brain structure?",
   "clues": [
    "X-rays",
    "radio waves and magnetic fields"
@@ -7654,6 +8013,7 @@
   "deck": "Nervous System",
   "sec": "Research methods",
   "name": "Mapping function: EEG vs PET vs fMRI",
+  "q": "How do EEG, PET and fMRI differ for mapping brain function?",
   "clues": [
    "scalp electrodes",
    "radioactive glucose",
@@ -7678,6 +8038,7 @@
   "deck": "Language & Thought",
   "sec": "Thinking",
   "name": "Thinking (cognition)",
+  "q": "What is thinking (cognition), and what does it involve?",
   "clues": [
    "mental activity",
    "organising, understanding, communicating"
@@ -7698,6 +8059,7 @@
   "deck": "Language & Thought",
   "sec": "Thinking",
   "name": "Mental images",
+  "q": "What are mental images and how do they help us?",
   "clues": [
    "picture-like",
    "Christmas tree vs frozen pea"
@@ -7718,6 +8080,7 @@
   "deck": "Language & Thought",
   "sec": "Thinking",
   "name": "Kosslyn et al. (1978)",
+  "q": "What did Kosslyn et al.'s (1978) mental map study show?",
   "clues": [
    "island map",
    "reaction time",
@@ -7740,6 +8103,7 @@
   "deck": "Language & Thought",
   "sec": "Thinking",
   "name": "Mental rotation & imagery vs perception",
+  "q": "What is mental rotation, and how does imagery differ from perception in the brain?",
   "clues": [
    "rotate a shape",
    "top-down",
@@ -7763,6 +8127,7 @@
   "deck": "Language & Thought",
   "sec": "Concepts",
   "name": "Concept",
+  "q": "What is a concept? Give an example.",
   "clues": [
    "category",
    "fruit"
@@ -7784,6 +8149,7 @@
   "deck": "Language & Thought",
   "sec": "Concepts",
   "name": "Formal vs natural concepts",
+  "q": "How do formal concepts differ from natural concepts? Give examples.",
   "clues": [
    "defined by rules",
    "fuzzy",
@@ -7806,6 +8172,7 @@
   "deck": "Language & Thought",
   "sec": "Concepts",
   "name": "Prototype",
+  "q": "What is a prototype and how does it develop? Give an example.",
   "clues": [
    "closest match",
    "apple vs durian"
@@ -7826,6 +8193,7 @@
   "deck": "Language & Thought",
   "sec": "Concepts",
   "name": "Schemas & scripts",
+  "q": "What are schemas and scripts?",
   "clues": [
    "mental generalisations",
    "familiar sequence"
@@ -7846,6 +8214,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Problem-solving vs decision-making",
+  "q": "How does problem-solving differ from decision-making?",
   "clues": [
    "reaching a goal",
    "choosing between alternatives"
@@ -7866,6 +8235,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Trial and error vs algorithms",
+  "q": "How does trial and error differ from using an algorithm in problem-solving?",
   "clues": [
    "one after another",
    "step-by-step, always correct"
@@ -7886,6 +8256,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Heuristic",
+  "q": "What is a heuristic in problem-solving?",
   "clues": [
    "rule of thumb",
    "educated guess"
@@ -7907,6 +8278,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Representativeness vs availability heuristic",
+  "q": "How does the representativeness heuristic differ from the availability heuristic? Give examples.",
   "clues": [
    "shares characteristics",
    "easy to recall",
@@ -7930,6 +8302,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Working backward & subgoals",
+  "q": "How do working backward and subgoals help in problem-solving?",
   "clues": [
    "start from the goal",
    "break it down"
@@ -7950,6 +8323,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Insight",
+  "q": "What is insight in problem-solving and when does it often occur?",
   "clues": [
    "sudden",
    "\"Aha!\"",
@@ -7973,6 +8347,7 @@
   "deck": "Language & Thought",
   "sec": "Problem-solving",
   "name": "Barriers to problem-solving",
+  "q": "What are the three main barriers to problem-solving?",
   "clues": [
    "typical function",
    "old patterns",
@@ -7994,6 +8369,7 @@
   "deck": "Language & Thought",
   "sec": "Creativity",
   "name": "Convergent vs divergent thinking",
+  "q": "What is creativity, and how does convergent thinking differ from divergent thinking?",
   "clues": [
    "one answer",
    "many ideas"
@@ -8015,6 +8391,7 @@
   "deck": "Language & Thought",
   "sec": "Creativity",
   "name": "Ways to think more divergently",
+  "q": "What are some ways to think more divergently?",
   "clues": [
    "brainstorming",
    "journal",
@@ -8036,6 +8413,7 @@
   "deck": "Language & Thought",
   "sec": "Language",
   "name": "Language",
+  "q": "What is language?",
   "clues": [
    "system of symbols",
    "unlimited statements"
@@ -8056,6 +8434,7 @@
   "deck": "Language & Thought",
   "sec": "Language",
   "name": "Grammar, phonemes & morphemes",
+  "q": "What are grammar, phonemes and morphemes? Give an example of morphemes.",
   "clues": [
    "rules",
    "units of sound",
@@ -8077,6 +8456,7 @@
   "deck": "Language & Thought",
   "sec": "Language",
   "name": "Syntax, semantics & pragmatics",
+  "q": "What are syntax, semantics and pragmatics in language?",
   "clues": [
    "word order",
    "meaning",
@@ -8098,6 +8478,7 @@
   "deck": "Language & Thought",
   "sec": "Language",
   "name": "Child-directed speech",
+  "q": "What is child-directed speech and why is it useful?",
   "clues": [
    "high-pitched",
    "sing-song"
@@ -8118,6 +8499,7 @@
   "deck": "Language & Thought",
   "sec": "Language",
   "name": "Stages of language development",
+  "q": "What are the stages of language development, with approximate ages?",
   "clues": [
    "cooing → babbling → one-word → telegraphic → sentences"
   ],
@@ -8138,6 +8520,7 @@
   "deck": "Language & Thought",
   "sec": "Language & thought",
   "name": "Piaget vs Vygotsky",
+  "q": "How do Piaget and Vygotsky differ on language and thought?",
   "clues": [
    "concepts → language",
    "language → concepts"
@@ -8158,6 +8541,7 @@
   "deck": "Language & Thought",
   "sec": "Language & thought",
   "name": "Linguistic relativity vs cognitive universalism",
+  "q": "How does linguistic relativity differ from cognitive universalism, and what does the evidence show?",
   "clues": [
    "Sapir-Whorf",
    "Inuit snow",
@@ -8180,6 +8564,7 @@
   "deck": "Language & Thought",
   "sec": "Language & thought",
   "name": "Gelman & Markman (1986)",
+  "q": "What did Gelman and Markman's (1986) study show about language and thought?",
   "clues": [
    "blackbird",
    "label",
@@ -8201,6 +8586,7 @@
   "deck": "Language & Thought",
   "sec": "Language & thought",
   "name": "Animal language & Kanzi",
+  "q": "Can animals use language, and what did studies of Kanzi show?",
   "clues": [
    "communication vs language",
    "150 words",
@@ -8220,6 +8606,7 @@
   "deck": "Language & Thought",
   "sec": "Language & thought",
   "name": "Bilingualism",
+  "q": "What cognitive benefits are thought to come from bilingualism, and what does the evidence show?",
   "clues": [
    "two languages",
    "Gunnerud et al. (2020)"
