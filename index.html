@@ -472,7 +472,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
 <script>
 const SLOTS=["--psy","--beh","--hum","--trt","--gen"];
-const DECK_ORDER=["Intro to Psychology","Nerve Cells","Synapses","Nervous System","Personality 1","Personality 2","Motivation","Emotion","Intelligence","Memory","Learning 1","Learning 2","Language & Thought"];
+const DECK_ORDER=["Intro to Psychology","Nerve Cells","Synapses","Nervous System","Sensation & Perception","Personality 1","Personality 2","Motivation","Emotion","Intelligence","Memory","Learning 1","Learning 2","Language & Thought"];
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let C=[];                       // the deck: [{id,deck,sec,name,clues[],ans}]
 let done=new Set(store.get("pr-done2",[]));
@@ -802,7 +802,7 @@ function setClues(open){
 }
 $("#s-cluebtn").onclick=()=>setClues($("#s-clues").hidden);
 /* source slides: encrypted files in /slides, key only given to signed-in users */
-const DECKNAME={"intro":"Introduction to Psychology (Module 0)","personality-1":"Personality (Part 1)","personality-2":"Personality (Part 2)","motivation":"Motivation & Emotion","intelligence":"Intelligence","memory":"Memory","learning-1":"Learning (Part 1)","learning-2":"Learning (Part 2)","nerve-cells":"Nerve Cells and Impulses","synapses":"Synapses","nervous-system":"Anatomy of the Nervous System","language-thought":"Language & Thought"};
+const DECKNAME={"intro":"Introduction to Psychology (Module 0)","personality-1":"Personality (Part 1)","personality-2":"Personality (Part 2)","motivation":"Motivation & Emotion","intelligence":"Intelligence","memory":"Memory","learning-1":"Learning (Part 1)","learning-2":"Learning (Part 2)","nerve-cells":"Nerve Cells and Impulses","synapses":"Synapses","nervous-system":"Anatomy of the Nervous System","language-thought":"Language & Thought","sensation-perception":"Sensation & Perception"};
 function cardSrc(c){return c&&(c.src||((defaults.find(d=>d.id===c.id)||{}).src))}
 function srcLabel(s){return `From ${DECKNAME[s.f]||s.f} · slide${s.p.length>1?"s":""} ${s.p.join(", ")}`}
 let slideKey=null;const slideCache=new Map();

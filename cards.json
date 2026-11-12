@@ -8618,5 +8618,725 @@
     41
    ]
   }
+ },
+ {
+  "id": "sp1",
+  "deck": "Sensation & Perception",
+  "sec": "Sensation",
+  "name": "Sensation, sensory receptors & transduction",
+  "q": "What is sensation, what are sensory receptors, and what is transduction?",
+  "clues": [
+   "receptors activated",
+   "energy, not neurotransmitters",
+   "outside → neural"
+  ],
+  "ans": "Sensation: special receptors in the sense organs are activated\nSensory receptors: specialised neurons stimulated by different kinds of energy, not neurotransmitters (e.g. eyes by light)\nTransduction: turning outside stimuli into neural activity",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    3
+   ]
+  },
+  "sim": [
+   "sp2"
+  ]
+ },
+ {
+  "id": "sp2",
+  "deck": "Sensation & Perception",
+  "sec": "Sensation",
+  "name": "Absolute threshold vs JND",
+  "q": "How does the absolute threshold differ from the just noticeable difference (JND)?",
+  "clues": [
+   "lowest level",
+   "smallest difference",
+   "50 percent"
+  ],
+  "ans": "Absolute threshold: lowest level of stimulation a person can consciously detect 50% of the time it is present\nJust noticeable difference (difference threshold): smallest difference between two stimuli detectable 50% of the time",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "sp3"
+  ]
+ },
+ {
+  "id": "sp3",
+  "deck": "Sensation & Perception",
+  "sec": "Sensation",
+  "name": "Absolute threshold examples",
+  "q": "Give an example of the absolute threshold for each of the five senses.",
+  "clues": [
+   "candle",
+   "watch tick",
+   "perfume",
+   "sugar",
+   "bee's wing"
+  ],
+  "ans": "Sight: a candle flame 30 miles away on a clear, dark night\nHearing: a mechanical watch ticking 20 feet away in a quiet room\nSmell: one drop of perfume through a three-room apartment\nTaste: 1 teaspoon of sugar in 2 gallons of water\nTouch: a bee's wing falling on the cheek from 1 cm above",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "sp2"
+  ]
+ },
+ {
+  "id": "sp4",
+  "deck": "Sensation & Perception",
+  "sec": "Sensation",
+  "name": "Subliminal stimuli & subliminal perception",
+  "q": "What are subliminal stimuli, and what is subliminal perception?",
+  "clues": [
+   "below the threshold",
+   "unconscious mind"
+  ],
+  "ans": "Subliminal stimuli: below the level of conscious awareness\nStrong enough to activate receptors, but not to be consciously noticed (sublimin = below the threshold)\nSubliminal perception: subliminal stimuli act on the unconscious mind, possibly influencing behaviour",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "sp2"
+  ]
+ },
+ {
+  "id": "sp5",
+  "deck": "Sensation & Perception",
+  "sec": "Sensation",
+  "name": "Habituation vs sensory adaptation",
+  "q": "How does habituation differ from sensory adaptation? Give an example of each.",
+  "clues": [
+   "brain ignores",
+   "receptors stop signalling",
+   "aircon noise",
+   "food taste fades"
+  ],
+  "ans": "Habituation: the brain stops attending to constant, unchanging information (e.g. not hearing the classroom aircon)\nSensory adaptation: receptor cells become less responsive to an unchanging stimulus and stop sending signals (e.g. food taste fades after eating the same thing)\nMicrosaccades (tiny eye movements) prevent sensory adaptation in vision",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    7
+   ]
+  }
+ },
+ {
+  "id": "sp6",
+  "deck": "Sensation & Perception",
+  "sec": "Vision",
+  "name": "Light: brightness, colour & saturation",
+  "q": "What is light, and which wave properties give brightness, colour and saturation?",
+  "clues": [
+   "photons",
+   "amplitude",
+   "wavelength",
+   "purity"
+  ],
+  "ans": "Light: a physical stimulus made of photons (wave packets) with specific wavelengths\nBrightness: amplitude of the wave (higher wave = brighter)\nColour (hue): length of the wave\nSaturation: perceived purity of the colour",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "sp7"
+  ]
+ },
+ {
+  "id": "sp7",
+  "deck": "Sensation & Perception",
+  "sec": "Vision",
+  "name": "Visible spectrum",
+  "q": "What range of wavelengths is the visible spectrum, and which colours sit where?",
+  "clues": [
+   "400 nm",
+   "500 nm",
+   "700 nm"
+  ],
+  "ans": "Starts at about 400 nm: violet\nAbout 500 nm: blue\nUp to about 700 nm: red",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "sp6"
+  ]
+ },
+ {
+  "id": "sp8",
+  "deck": "Sensation & Perception",
+  "sec": "Vision",
+  "name": "Structure of the eye",
+  "q": "What do the cornea, pupil, iris, lens, fovea and blind spot do?",
+  "clues": [
+   "bends light",
+   "opening",
+   "coloured muscles",
+   "focus",
+   "sharpest",
+   "no photoreceptors"
+  ],
+  "ans": "Cornea: curved, transparent dome that bends incoming light so it can focus on the retina\nPupil: opening in the iris that changes size with the amount of light\nIris: coloured muscles that control the pupil\nLens: transparent disc that changes shape to bring objects into focus\nFovea: central retina, sharpest focus, most cones\nBlind spot: where the optic nerve leaves the eye; no photoreceptors",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "sp9"
+  ]
+ },
+ {
+  "id": "sp9",
+  "deck": "Sensation & Perception",
+  "sec": "Vision",
+  "name": "Retina and its three layers",
+  "q": "What is the retina, and what are its three layers?",
+  "clues": [
+   "final stop for light",
+   "optic nerve",
+   "interneuron",
+   "rods and cones"
+  ],
+  "ans": "Final stop for light in the eye\nGanglion cells: their axons form the optic nerve\nBipolar cells: interneurons\nPhotoreceptors (rods and cones): respond to light and turn it into neural activity",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "sp10"
+  ]
+ },
+ {
+  "id": "sp10",
+  "deck": "Sensation & Perception",
+  "sec": "Vision",
+  "name": "Rods vs cones",
+  "q": "How do rods differ from cones in function, lighting and location?",
+  "clues": [
+   "low light",
+   "colour and sharpness",
+   "periphery vs fovea"
+  ],
+  "ans": "Rods: non-colour vision in low light; work well in dim light; concentrated in the periphery\nCones: colour vision and sharpness; work best in bright light; concentrated in the fovea",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "sp9"
+  ]
+ },
+ {
+  "id": "sp11",
+  "deck": "Sensation & Perception",
+  "sec": "Vision",
+  "name": "Visual pathway",
+  "q": "How does visual information travel from each visual field to the brain?",
+  "clues": [
+   "contralateral",
+   "opposite side"
+  ],
+  "ans": "Contralateral\nLeft visual field → right visual cortex\nRight visual field → left visual cortex",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    15
+   ]
+  }
+ },
+ {
+  "id": "sp12",
+  "deck": "Sensation & Perception",
+  "sec": "Colour vision",
+  "name": "Trichromatic theory",
+  "q": "What does the trichromatic theory say about colour vision, and who proposed it?",
+  "clues": [
+   "Young and Helmholtz",
+   "three cone types",
+   "relative activity"
+  ],
+  "ans": "Proposed by Thomas Young (1802), modified by Hermann von Helmholtz (1852)\nColour vision depends on three cone types, each sensitive to a range of wavelengths\nShort (≈420 nm, blue-violet), medium (≈530 nm, green), long (≈560 nm, green-yellow)\nThe brain works out colour from the relative activity across the three cones",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "sp13"
+  ]
+ },
+ {
+  "id": "sp13",
+  "deck": "Sensation & Perception",
+  "sec": "Colour vision",
+  "name": "Opponent-process theory & afterimages",
+  "q": "What does the opponent-process theory say, and how does it explain afterimages?",
+  "clues": [
+   "Hering",
+   "pairs",
+   "fatigue"
+  ],
+  "ans": "Proposed by Ewald Hering (1874)\nVisual neurons are stimulated by one colour and inhibited by another\nFour primaries in opponent pairs: red–green, blue–yellow\nAfterimage: stare at green → green cells fatigue; switch to white → opponent red cells are more active, so you see red",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "sp12"
+  ]
+ },
+ {
+  "id": "sp14",
+  "deck": "Sensation & Perception",
+  "sec": "Colour vision",
+  "name": "Colour vision deficiency",
+  "q": "What causes colour vision deficiency, and how do monochromatic and dichromatic vision differ?",
+  "clues": [
+   "defective cones",
+   "shades of grey",
+   "protanopia, deuteranopia, tritanopia"
+  ],
+  "ans": "Caused by defective cones in the retina (genetic mutations)\nMonochromatic: no colour, only shades of grey\nDichromatic: one cone type doesn't work, so colour comes from only two\nProtanopia (red cones) and deuteranopia (green cones): can't tell red from green\nTritanopia (no blue cones): can't tell blue from yellow",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "sp12"
+  ]
+ },
+ {
+  "id": "sp15",
+  "deck": "Sensation & Perception",
+  "sec": "Hearing",
+  "name": "Sound waves",
+  "q": "Which properties of sound waves give pitch, volume and timbre, and what is the range of human hearing?",
+  "clues": [
+   "wavelength",
+   "amplitude",
+   "purity",
+   "hertz"
+  ],
+  "ans": "Wavelength → frequency or pitch\nAmplitude → volume (soft or loud)\nPurity → timbre (richness of tone)\nHertz (Hz): cycles per second\nHuman hearing: about 20 to 20,000 Hz",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "sp16"
+  ]
+ },
+ {
+  "id": "sp16",
+  "deck": "Sensation & Perception",
+  "sec": "Hearing",
+  "name": "Inner ear: cochlea, organ of Corti & auditory nerve",
+  "q": "What are the cochlea, the organ of Corti and the auditory nerve?",
+  "clues": [
+   "snail-shaped",
+   "hair cells",
+   "bundle of axons"
+  ],
+  "ans": "Cochlea: snail-shaped, fluid-filled structure of the inner ear; fluid surrounds the basilar membrane\nOrgan of Corti: where the hearing receptor cells (hair cells) are\nAuditory nerve: bundle of axons from the hair cells; receives the message from the organ of Corti",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    21,
+    22,
+    23
+   ]
+  },
+  "sim": [
+   "sp15"
+  ]
+ },
+ {
+  "id": "sp17",
+  "deck": "Sensation & Perception",
+  "sec": "Taste & smell",
+  "name": "Gustation and taste buds",
+  "q": "How does gustation work, and where is taste processed in the brain?",
+  "clues": [
+   "taste buds",
+   "sensitivity",
+   "gustatory cortex"
+  ],
+  "ans": "Taste buds: taste receptor cells, mostly on the tongue\nMore taste buds = more sensitive to tastes\nEach taste bud has about 20 receptors; works like neurotransmission\nTaste goes to the gustatory cortex (anterior insula and frontal operculum)",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    25,
+    26
+   ]
+  },
+  "sim": [
+   "sp18",
+   "sp19"
+  ]
+ },
+ {
+  "id": "sp18",
+  "deck": "Sensation & Perception",
+  "sec": "Taste & smell",
+  "name": "Basic tastes",
+  "q": "What are the five basic tastes, and what is the possible sixth?",
+  "clues": [
+   "umami",
+   "glutamate",
+   "fatty acids"
+  ],
+  "ans": "Sweet, sour, salty, bitter, umami\nUmami comes from glutamate (e.g. MSG)\nPossible sixth: oleogustus, the taste of fatty acids\nTastes are processed all over the tongue",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "sp17"
+  ]
+ },
+ {
+  "id": "sp19",
+  "deck": "Sensation & Perception",
+  "sec": "Taste & smell",
+  "name": "Olfaction",
+  "q": "How does olfaction work, and how is its brain pathway different from other senses?",
+  "clues": [
+   "chemical sense",
+   "cilia",
+   "olfactory bulbs",
+   "no thalamus"
+  ],
+  "ans": "Sense of smell; a chemical sense like taste\nOlfactory receptor cells at the top of the nasal passage turn odours into neural impulses; each has cilia\nSignals go straight to the olfactory bulbs, without passing through the thalamus\nFrom the bulbs to the piriform cortex, orbitofrontal cortex and amygdala",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    28,
+    29
+   ]
+  },
+  "sim": [
+   "sp17"
+  ]
+ },
+ {
+  "id": "sp20",
+  "deck": "Sensation & Perception",
+  "sec": "Skin senses & pain",
+  "name": "Skin senses and their receptors",
+  "q": "What do free nerve endings, Meissner's corpuscles, Pacinian corpuscles and Ruffini endings detect?",
+  "clues": [
+   "pain, touch, temperature",
+   "touch",
+   "pressure",
+   "stretching"
+  ],
+  "ans": "Skin senses (somaesthetic): touch, pressure, temperature, pain\nFree nerve endings: pain, touch, temperature\nMeissner's corpuscle: touch\nPacinian corpuscle: pressure\nRuffini ending: pressure and stretching",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "sp21"
+  ]
+ },
+ {
+  "id": "sp21",
+  "deck": "Sensation & Perception",
+  "sec": "Skin senses & pain",
+  "name": "Gate-control theory of pain",
+  "q": "What does the gate-control theory of pain say about how pain can be reduced?",
+  "clues": [
+   "spinal cord gate",
+   "rubbing a sore spot",
+   "endorphins"
+  ],
+  "ans": "Pain signals must pass through a gate in the spinal cord\nNon-pain signals from the body or brain can close the gate\nE.g. rubbing a sore spot inhibits pain\nEndorphins inhibit pain transmission",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    32
+   ]
+  },
+  "sim": [
+   "sp20"
+  ]
+ },
+ {
+  "id": "sp22",
+  "deck": "Sensation & Perception",
+  "sec": "Perceptual organisation",
+  "name": "Perception",
+  "q": "What is perception, and how does it differ from sensation?",
+  "clues": [
+   "interpreted and organised",
+   "two people, one cloud"
+  ],
+  "ans": "The way sensations at any moment are interpreted and organised in a meaningful way\nE.g. two people look at the same cloud: both see it, but perceive it differently",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    34
+   ]
+  },
+  "sim": [
+   "sp1",
+   "sp31"
+  ]
+ },
+ {
+  "id": "sp23",
+  "deck": "Sensation & Perception",
+  "sec": "Perceptual organisation",
+  "name": "Figure-ground",
+  "q": "What is the figure-ground principle, and what are reversible figures?",
+  "clues": [
+   "objects on a background",
+   "can be reversed"
+  ],
+  "ans": "Tendency to perceive objects (figures) as existing on a background\nReversible figures: illusions where figure and ground can switch",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    36
+   ]
+  },
+  "sim": [
+   "sp24"
+  ]
+ },
+ {
+  "id": "sp24",
+  "deck": "Sensation & Perception",
+  "sec": "Perceptual organisation",
+  "name": "Proximity vs similarity",
+  "q": "How do the Gestalt principles of proximity and similarity group objects?",
+  "clues": [
+   "close together",
+   "look alike"
+  ],
+  "ans": "Proximity: objects close to each other are seen as one group\nSimilarity: things that look alike are seen as one group",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    37
+   ]
+  },
+  "sim": [
+   "sp25",
+   "sp23"
+  ]
+ },
+ {
+  "id": "sp25",
+  "deck": "Sensation & Perception",
+  "sec": "Perceptual organisation",
+  "name": "Closure, continuity & contiguity",
+  "q": "What are the Gestalt principles of closure, continuity and contiguity?",
+  "clues": [
+   "complete figures",
+   "simplest pattern",
+   "close in time"
+  ],
+  "ans": "Closure: completing figures that are incomplete\nContinuity: seeing things as simply as possible, as a continuous pattern rather than broken up\nContiguity: two things that happen close together in time are seen as related",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    38
+   ]
+  },
+  "sim": [
+   "sp24"
+  ]
+ },
+ {
+  "id": "sp26",
+  "deck": "Sensation & Perception",
+  "sec": "Depth perception",
+  "name": "Depth perception: monocular vs binocular cues",
+  "q": "What is depth perception, and how do monocular cues differ from binocular cues?",
+  "clues": [
+   "three dimensions",
+   "one eye",
+   "both eyes",
+   "artists"
+  ],
+  "ans": "Depth perception: seeing the world in three dimensions\nMonocular (pictorial) cues: work with one eye; artists use them to show depth\nBinocular cues: need both eyes",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    39
+   ]
+  },
+  "sim": [
+   "sp27",
+   "sp29"
+  ]
+ },
+ {
+  "id": "sp27",
+  "deck": "Sensation & Perception",
+  "sec": "Depth perception",
+  "name": "Linear perspective, relative size & texture gradient",
+  "q": "How do linear perspective, relative size and texture gradient signal distance?",
+  "clues": [
+   "parallel lines",
+   "smaller = farther",
+   "finer texture"
+  ],
+  "ans": "Linear perspective: parallel lines appear to converge in the distance\nRelative size: an object that looks smaller than expected is assumed to be farther away\nTexture gradient: textured surfaces look smaller and finer as distance increases",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    40
+   ]
+  },
+  "sim": [
+   "sp28"
+  ]
+ },
+ {
+  "id": "sp28",
+  "deck": "Sensation & Perception",
+  "sec": "Depth perception",
+  "name": "Aerial perspective, overlap, motion parallax & accommodation",
+  "q": "How do aerial perspective, overlap, motion parallax and accommodation signal distance?",
+  "clues": [
+   "haziness",
+   "blocking",
+   "close objects move faster",
+   "lens thickness"
+  ],
+  "ans": "Aerial perspective: farther objects look hazier, so seem more distant\nOverlap (interposition): a blocked object is assumed to be behind and farther away\nMotion parallax: close objects seem to move faster than far ones\nAccommodation: the brain uses changes in lens thickness to judge distance",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    41,
+    42
+   ]
+  },
+  "sim": [
+   "sp27"
+  ]
+ },
+ {
+  "id": "sp29",
+  "deck": "Sensation & Perception",
+  "sec": "Depth perception",
+  "name": "Convergence vs binocular disparity",
+  "q": "How do the binocular cues of convergence and binocular disparity work?",
+  "clues": [
+   "eyes rotate inward",
+   "muscular cue",
+   "difference between images"
+  ],
+  "ans": "Convergence: both eyes rotate to focus on one object; more for close objects, less for far ones (a muscular cue)\nBinocular disparity: difference between the two eyes' images; bigger for close objects, smaller for distant ones",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    43,
+    44
+   ]
+  },
+  "sim": [
+   "sp26"
+  ]
+ },
+ {
+  "id": "sp30",
+  "deck": "Sensation & Perception",
+  "sec": "Illusions & processing",
+  "name": "Perceptual illusions",
+  "q": "What is a perceptual illusion? Explain the Müller-Lyer and moon illusions.",
+  "clues": [
+   "doesn't match reality",
+   "line length",
+   "horizon"
+  ],
+  "ans": "A perception that doesn't match reality\nMüller-Lyer: inward- or outward-turning ends make equal lines look different lengths\nMoon illusion: on the horizon, buildings in front make the moon look larger; in the sky there's nothing to compare\nRotating snakes and the Enigma: motion seen partly due to eye movements (microsaccades)\nHermann's grid: dots appear at the intersections",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    45,
+    46,
+    47,
+    48,
+    49
+   ]
+  },
+  "sim": [
+   "sp31"
+  ]
+ },
+ {
+  "id": "sp31",
+  "deck": "Sensation & Perception",
+  "sec": "Illusions & processing",
+  "name": "Perceptual set",
+  "q": "What is a perceptual set (perceptual expectancy)?",
+  "clues": [
+   "previous experience",
+   "expect to see"
+  ],
+  "ans": "Tendency to perceive things a certain way because of previous experiences or expectations\nWhat you see depends on what you expect to see",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    50
+   ]
+  },
+  "sim": [
+   "sp32"
+  ]
+ },
+ {
+  "id": "sp32",
+  "deck": "Sensation & Perception",
+  "sec": "Illusions & processing",
+  "name": "Top-down vs bottom-up processing",
+  "q": "How does top-down processing differ from bottom-up processing? Use the puzzle example.",
+  "clues": [
+   "pre-existing knowledge",
+   "small features first",
+   "puzzle box picture"
+  ],
+  "ans": "Top-down: uses pre-existing knowledge to organise features into a whole (e.g. using the finished picture to do a puzzle)\nBottom-up: analyses small features to build a complete perception (e.g. doing a new puzzle without the picture)\nMost of the time both are used together",
+  "src": {
+   "f": "sensation-perception",
+   "p": [
+    51,
+    52
+   ]
+  },
+  "sim": [
+   "sp31"
+  ]
  }
 ]
