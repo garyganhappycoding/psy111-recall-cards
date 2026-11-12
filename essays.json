@@ -1996,5 +1996,352 @@
   ],
   "tips": "Work through the parts chapter by chapter but connect them: the brain damage explains what he cannot do, learning theory explains whether he tries, and thinking concepts explain how he adapts. Contrast Broca's with Wernicke's to show understanding, and use the 'contralateral' link explicitly. Quote his words as evidence.",
   "total": 20
+ },
+ {
+  "id": "e21",
+  "type": "A",
+  "title": "The failed accounting mid-term",
+  "decks": [
+   "Personality 1"
+  ],
+  "scenario": "Jun Hao, a 20-year-old business student in Kuala Lumpur, scored 38% on his accounting mid-term. That night his friends invited him to a 1 a.m. mamak session. Part of him wanted to go immediately: 'Forget the books, I deserve some fun.' Another inner voice reminded him that his parents had used their savings to pay his fees, and he felt a heavy wave of guilt. In the end he told his friends he would join only after finishing two practice questions. Over the next few days, Jun Hao told everyone the paper was 'set unfairly by a lecturer who hates business students', even though most of his classmates passed comfortably. When his younger brother asked to borrow his laptop, Jun Hao shouted at him and slammed the door. His housemates notice that whenever he studies he bites his nails until they bleed; his mother recalls weaning him abruptly at six months when she returned to work. Recently, he has started pouring his frustration into intense badminton training every evening.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE concepts from Freud's psychodynamic theory of personality that are illustrated in Jun Hao's behaviour.",
+    "marks": 8,
+    "model": "Structure of personality: id (unconscious, innate, pleasure principle - immediate gratification), superego (moral centre containing the conscience, which produces guilt) and ego (mostly conscious, reality principle, referee between id and superego). Defence mechanisms: unconscious ways of distorting reality to cope with anxiety from id-ego-superego conflict; correctly names rationalisation (acceptable excuse for a mistake), displacement (emotion redirected onto a target that is not the cause) and sublimation (unacceptable urge turned into socially acceptable behaviour). Psychosexual stages / oral fixation: oral stage (first 18 months, mouth, conflict = weaning); unresolved conflict leads to fixation, shown in adulthood as nail biting, overeating or smoking.",
+    "points": [
+     {
+      "t": "Structure of personality: id (unconscious, innate, pleasure principle - immediate gratification), superego (moral centre containing the conscience, which produces guilt) and ego (mostly conscious, reality principle, referee between id and superego).",
+      "m": 3
+     },
+     {
+      "t": "Defence mechanisms: unconscious ways of distorting reality to cope with anxiety from id-ego-superego conflict; correctly names rationalisation (acceptable excuse for a mistake), displacement (emotion redirected onto a target that is not the cause) and sublimation (unacceptable urge turned into socially acceptable behaviour).",
+      "m": 3
+     },
+     {
+      "t": "Psychosexual stages / oral fixation: oral stage (first 18 months, mouth, conflict = weaning); unresolved conflict leads to fixation, shown in adulthood as nail biting, overeating or smoking.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Analyse why Jun Hao's behaviour fits each concept you identified, using specific evidence from the scenario.",
+    "marks": 7,
+    "model": "Id vs superego: 'forget the books, I deserve some fun' is the id's pleasure principle; the guilt about his parents' savings is the superego's conscience. Ego: agreeing to go to the mamak only after two practice questions is the reality principle - a compromise that satisfies the id without painful consequences. Rationalisation: blaming a lecturer who 'hates business students' is an acceptable excuse that protects his ego, shown to be a distortion because most classmates passed. Displacement: anger about the failed mark is redirected onto his younger brother, who did not cause it (shouting, slamming the door). Sublimation: channelling frustration into badminton training is a socially acceptable outlet for the aggressive urge. Oral fixation: abrupt weaning at six months (oral-stage conflict) links to nail biting until bleeding under stress in adulthood.",
+    "points": [
+     {
+      "t": "Id vs superego: 'forget the books, I deserve some fun' is the id's pleasure principle; the guilt about his parents' savings is the superego's conscience.",
+      "m": 2
+     },
+     {
+      "t": "Ego: agreeing to go to the mamak only after two practice questions is the reality principle - a compromise that satisfies the id without painful consequences.",
+      "m": 1
+     },
+     {
+      "t": "Rationalisation: blaming a lecturer who 'hates business students' is an acceptable excuse that protects his ego, shown to be a distortion because most classmates passed.",
+      "m": 1
+     },
+     {
+      "t": "Displacement: anger about the failed mark is redirected onto his younger brother, who did not cause it (shouting, slamming the door).",
+      "m": 1
+     },
+     {
+      "t": "Sublimation: channelling frustration into badminton training is a socially acceptable outlet for the aggressive urge.",
+      "m": 1
+     },
+     {
+      "t": "Oral fixation: abrupt weaning at six months (oral-stage conflict) links to nail biting until bleeding under stress in adulthood.",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Evaluate how a university counsellor could apply this psychodynamic understanding to support Jun Hao, and state one limitation of relying on this explanation.",
+    "marks": 5,
+    "model": "Counsellor helps Jun Hao become aware that his excuses (rationalisation) and outbursts (displacement) are ways of escaping anxiety about failing, so he can face the real cause and plan revision. Encourages healthier outlets such as the badminton training (sublimation) instead of displacing anger onto family, and addresses the guilt pressure from the superego. Limitation: Freud's theory is not scientific and hard to falsify - e.g. the link between weaning at six months and nail biting cannot be tested; it was based on a limited sample of wealthy Victorian Austrian women, so it may not generalise to a Malaysian student. A behavioural explanation (nail biting as a learned habit reinforced by tension relief) could be offered.",
+    "points": [
+     {
+      "t": "Counsellor helps Jun Hao become aware that his excuses (rationalisation) and outbursts (displacement) are ways of escaping anxiety about failing, so he can face the real cause and plan revision.",
+      "m": 2
+     },
+     {
+      "t": "Encourages healthier outlets such as the badminton training (sublimation) instead of displacing anger onto family, and addresses the guilt pressure from the superego.",
+      "m": 1
+     },
+     {
+      "t": "Limitation: Freud's theory is not scientific and hard to falsify - e.g. the link between weaning at six months and nail biting cannot be tested; it was based on a limited sample of wealthy Victorian Austrian women, so it may not generalise to a Malaysian student. A behavioural explanation (nail biting as a learned habit reinforced by tension relief) could be offered.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Use PEEL for each concept: name it, define it in Freud's terms, quote the exact scenario detail (e.g. 'lecturer who hates business students'), then link back to anxiety reduction. Do not just list defence mechanisms - show that each one is unconscious and protects the ego. In (c), balance an application with a named criticism from the chapter.",
+  "total": 20
+ },
+ {
+  "id": "e22",
+  "type": "B",
+  "title": "Is Kavitha 'not smart'?",
+  "decks": [
+   "Intelligence"
+  ],
+  "scenario": "Kavitha, 17, from Ipoh, scored Cs in SPM Additional Mathematics and Bahasa Melayu, and her uncle has decided she is 'just not smart'. Yet since she was 14, Kavitha has managed the accounts of her family's banana-leaf restaurant, negotiating prices with suppliers and calming angry customers. When the restaurant lost customers during the pandemic, she invented a WhatsApp pre-order system and a 'build-your-own-thali' menu that doubled weekday sales. She choreographs Bharatanatyam dances for temple festivals, and teachers say she senses quickly when classmates are upset. On a school-administered ability test she struggled with timed vocabulary items but solved unfamiliar abstract pattern puzzles faster than most of her class. Her cousin Arjun, by contrast, scores straight As in every subject, wins state chess tournaments and, according to his teachers, 'is good at everything'. The family now argues over whether Kavitha should be pushed into tuition or encouraged to study business and the performing arts.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain how Spearman's theory of intelligence would interpret the abilities of Kavitha and Arjun.",
+    "marks": 5,
+    "model": "Spearman: g factor = general intelligence (reasoning, problem solving) plus s factors = specific abilities in certain areas. Arjun fits a high g: superiority in one area predicts superiority overall - straight As, chess and 'good at everything'. Kavitha would be seen as moderate g (Cs in Add Maths and BM) with some strong s factors (e.g. dance, pattern puzzles); this matches the uncle's single-score judgement that she is 'not smart'.",
+    "points": [
+     {
+      "t": "Spearman: g factor = general intelligence (reasoning, problem solving) plus s factors = specific abilities in certain areas.",
+      "m": 2
+     },
+     {
+      "t": "Arjun fits a high g: superiority in one area predicts superiority overall - straight As, chess and 'good at everything'.",
+      "m": 1
+     },
+     {
+      "t": "Kavitha would be seen as moderate g (Cs in Add Maths and BM) with some strong s factors (e.g. dance, pattern puzzles); this matches the uncle's single-score judgement that she is 'not smart'.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Analyse Kavitha's abilities using Gardner's theory of multiple intelligences and Sternberg's triarchic theory, linking each to evidence in the scenario.",
+    "marks": 7,
+    "model": "Gardner: intelligence is not one ability but nine separate kinds; reason, logic and knowledge are different aspects. Bodily-kinesthetic (choreographing Bharatanatyam), interpersonal (sensing upset classmates, calming angry customers) and logical-mathematical in a practical form (managing restaurant accounts) are separate strengths. Sternberg: three intelligences - analytical, creative, practical. Practical intelligence: negotiating with suppliers and handling customers to get along and succeed in real life. Creative intelligence: inventing the WhatsApp pre-order system and thali menu - new solutions to a new problem (pandemic). Analytical intelligence (breaking problems into parts) is what school exams reward, explaining her average SPM grades despite real-world success.",
+    "points": [
+     {
+      "t": "Gardner: intelligence is not one ability but nine separate kinds; reason, logic and knowledge are different aspects.",
+      "m": 1
+     },
+     {
+      "t": "Bodily-kinesthetic (choreographing Bharatanatyam), interpersonal (sensing upset classmates, calming angry customers) and logical-mathematical in a practical form (managing restaurant accounts) are separate strengths.",
+      "m": 2
+     },
+     {
+      "t": "Sternberg: three intelligences - analytical, creative, practical.",
+      "m": 1
+     },
+     {
+      "t": "Practical intelligence: negotiating with suppliers and handling customers to get along and succeed in real life.",
+      "m": 1
+     },
+     {
+      "t": "Creative intelligence: inventing the WhatsApp pre-order system and thali menu - new solutions to a new problem (pandemic).",
+      "m": 1
+     },
+     {
+      "t": "Analytical intelligence (breaking problems into parts) is what school exams reward, explaining her average SPM grades despite real-world success.",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Evaluate which theory of intelligence best explains this case. Justify your choice using the research support and criticisms of the theories.",
+    "marks": 8,
+    "model": "Spearman's g is criticised for oversimplifying intelligence; it explains Arjun well but cannot explain why Kavitha's real-world performance far exceeds her exam grades. Gardner describes Kavitha's range well, but has little or no evidence and is criticised for describing abilities/talents rather than intelligence (Hunt, 2001) - dance may be a talent, not intelligence. Sternberg's practical and creative intelligence fit the restaurant evidence closely and explain the gap between exam and life success. CHC theory is the most researched and supported (basis of modern tests such as Wechsler): crystallised intelligence (acquired knowledge, e.g. vocabulary, which she struggled with) vs fluid intelligence (solving unfamiliar abstract puzzles, a strength) explains her uneven test profile. Clear justified judgement, e.g. CHC best explains the test data and has strongest evidence, while Sternberg adds the practical/creative side; conclusion that the uncle's single label is not supported.",
+    "points": [
+     {
+      "t": "Spearman's g is criticised for oversimplifying intelligence; it explains Arjun well but cannot explain why Kavitha's real-world performance far exceeds her exam grades.",
+      "m": 2
+     },
+     {
+      "t": "Gardner describes Kavitha's range well, but has little or no evidence and is criticised for describing abilities/talents rather than intelligence (Hunt, 2001) - dance may be a talent, not intelligence.",
+      "m": 2
+     },
+     {
+      "t": "Sternberg's practical and creative intelligence fit the restaurant evidence closely and explain the gap between exam and life success.",
+      "m": 1
+     },
+     {
+      "t": "CHC theory is the most researched and supported (basis of modern tests such as Wechsler): crystallised intelligence (acquired knowledge, e.g. vocabulary, which she struggled with) vs fluid intelligence (solving unfamiliar abstract puzzles, a strength) explains her uneven test profile.",
+      "m": 2
+     },
+     {
+      "t": "Clear justified judgement, e.g. CHC best explains the test data and has strongest evidence, while Sternberg adds the practical/creative side; conclusion that the uncle's single label is not supported.",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "tips": "Treat each theory as a lens: state its core claim, then apply it to named details (thali menu, Bharatanatyam, pattern puzzles). In the evaluation, do not just pick a favourite - weigh evidence (CHC most supported) against criticisms (g oversimplifies; Gardner lacks evidence) and end with a clear judgement.",
+  "total": 20
+ },
+ {
+  "id": "e23",
+  "type": "C",
+  "title": "Redesigning hiring at a Penang start-up",
+  "decks": [
+   "Personality 2",
+   "Personality 1"
+  ],
+  "scenario": "MayaTech, a Penang tech start-up, plans to hire 40 customer-support staff. The HR manager, Encik Faizal, wants to use a free online MBTI quiz and select only 'ENFJ types' because he believes they are best with customers. A senior manager suggests showing candidates Rorschach inkblots 'to uncover their hidden personality'. Last year the company relied on 20-minute unstructured chats; managers admitted they hired people who 'looked confident and dressed well', and several new staff became highly anxious and resigned within weeks of handling angry callers. Some candidates also complained that interview questions assumed Western workplace norms, such as openly challenging a boss, which felt uncomfortable to those raised to respect elders and hierarchy. The CEO asks you, a psychology graduate, to redesign the assessment process so that it is fairer and better at predicting who will cope with stressful calls. The budget covers one standardised personality inventory, structured interviews and a short observed work sample.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Design a three-step personality-assessment process for MayaTech using principles from the personality chapters. Justify each step with reference to the problems in the scenario.",
+    "marks": 10,
+    "model": "Step 1 - standardised personality inventory such as the NEO-PI-3 (240 items measuring OCEAN): standardised, computer-scored and free of scorer bias, with much better validity and reliability than a free online quiz. Justification: target low neuroticism (emotional stability) to predict coping with angry callers - addresses the staff who became anxious and resigned; plus agreeableness and conscientiousness for service work; Big Five traits are independent and consistent across cultures, suiting Malaysian applicants. Step 2 - semi-structured interview with the same set questions and follow-ups for every candidate, scored against criteria. Justification: reduces the halo effect and interviewer bias seen when managers hired those who 'looked confident and dressed well'; questions about past behaviour under pressure add evidence beyond self-report. Step 3 - behavioural assessment: a simulated angry-customer call observed with a rating scale (e.g. calmness 1-5) and frequency counts (e.g. number of interruptions, empathy statements), using two raters. Justification: trait-situation interaction - how a trait is expressed depends on the situation, so observing behaviour in the actual job situation predicts performance better than a general label; multiple raters reduce observer bias.",
+    "points": [
+     {
+      "t": "Step 1 - standardised personality inventory such as the NEO-PI-3 (240 items measuring OCEAN): standardised, computer-scored and free of scorer bias, with much better validity and reliability than a free online quiz.",
+      "m": 2
+     },
+     {
+      "t": "Justification: target low neuroticism (emotional stability) to predict coping with angry callers - addresses the staff who became anxious and resigned; plus agreeableness and conscientiousness for service work; Big Five traits are independent and consistent across cultures, suiting Malaysian applicants.",
+      "m": 2
+     },
+     {
+      "t": "Step 2 - semi-structured interview with the same set questions and follow-ups for every candidate, scored against criteria.",
+      "m": 1
+     },
+     {
+      "t": "Justification: reduces the halo effect and interviewer bias seen when managers hired those who 'looked confident and dressed well'; questions about past behaviour under pressure add evidence beyond self-report.",
+      "m": 2
+     },
+     {
+      "t": "Step 3 - behavioural assessment: a simulated angry-customer call observed with a rating scale (e.g. calmness 1-5) and frequency counts (e.g. number of interruptions, empathy statements), using two raters.",
+      "m": 2
+     },
+     {
+      "t": "Justification: trait-situation interaction - how a trait is expressed depends on the situation, so observing behaviour in the actual job situation predicts performance better than a general label; multiple raters reduce observer bias.",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Justify why the MBTI quiz and Rorschach inkblots should not be the main selection tools.",
+    "marks": 5,
+    "model": "MBTI: based on Jung's ideas, sorts people into 16 types, has limited validity and reliability - a person may get a different type on retest, so selecting only 'ENFJ' is unjustified; it is mainly for career guidance, not selection. A free online quiz is not a standardised instrument with norms, so scores cannot be trusted or compared fairly. Rorschach: projective test of 10 ambiguous inkblots; very subjective, poor reliability and validity, no standard grading scale, responses vary with context - it was designed for clinical description/diagnosis, not predicting customer-service coping.",
+    "points": [
+     {
+      "t": "MBTI: based on Jung's ideas, sorts people into 16 types, has limited validity and reliability - a person may get a different type on retest, so selecting only 'ENFJ' is unjustified; it is mainly for career guidance, not selection.",
+      "m": 2
+     },
+     {
+      "t": "A free online quiz is not a standardised instrument with norms, so scores cannot be trusted or compared fairly.",
+      "m": 1
+     },
+     {
+      "t": "Rorschach: projective test of 10 ambiguous inkblots; very subjective, poor reliability and validity, no standard grading scale, responses vary with context - it was designed for clinical description/diagnosis, not predicting customer-service coping.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Anticipate one problem that could still arise with your design and explain how you would reduce it.",
+    "marks": 5,
+    "model": "Problem: inventories are self-report, so candidates may give socially acceptable answers (faking low neuroticism to get the job) or interpret items differently. Reduction: use an inventory with validity scales for over-/under-reporting (as in the MMPI-3) and cross-check against the behavioural work sample (eclectic approach combining methods). Alternative/additional problem: cultural fit - Malaysian candidates from collectivistic, high power-distance backgrounds (Hofstede) may appear less assertive; reduce by rewording interview items to avoid assuming Western norms like challenging a boss, and judge against local norms. Observer effect in the work sample can be reduced by a warm-up call before rating.",
+    "points": [
+     {
+      "t": "Problem: inventories are self-report, so candidates may give socially acceptable answers (faking low neuroticism to get the job) or interpret items differently.",
+      "m": 2
+     },
+     {
+      "t": "Reduction: use an inventory with validity scales for over-/under-reporting (as in the MMPI-3) and cross-check against the behavioural work sample (eclectic approach combining methods).",
+      "m": 1
+     },
+     {
+      "t": "Alternative/additional problem: cultural fit - Malaysian candidates from collectivistic, high power-distance backgrounds (Hofstede) may appear less assertive; reduce by rewording interview items to avoid assuming Western norms like challenging a boss, and judge against local norms. Observer effect in the work sample can be reduced by a warm-up call before rating.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Structure (a) as Step - What - Why: name the tool, describe what it measures, then tie it to a specific failure in the scenario (anxious resignations, 'dressed well' hires, Western-norm questions). In (b) use the chapter's exact criticisms (reliability, validity, subjectivity). In (c) pick a realistic weakness of your own design and give a concrete fix.",
+  "total": 20
+ },
+ {
+  "id": "e24",
+  "type": "D",
+  "title": "Siti's first semester",
+  "decks": [
+   "Intelligence",
+   "Personality 1",
+   "Personality 2"
+  ],
+  "scenario": "Siti, 19, grew up in a Kelantan village and is now a first-year student at a private university in Kuala Lumpur. During orientation she sat an English-language intelligence test; before it began, a staff member joked that 'kampung students usually score low on this one'. She scored 85. A month later a counsellor retested her using non-verbal abstract-reasoning puzzles, and she scored 112. Siti's parents love her, but they praise her only when she tops the class, and she often says, 'I should be a doctor like my cousin, but I'm just an ordinary girl.' After failing her first quiz she told friends, 'Grades depend on luck and whether the lecturer likes you,' and stopped attending tutorials. Things changed when a senior from her hometown, who had also failed early quizzes but is now on the Dean's List, began studying with her. Siti joined the study group, started asking questions in class, and her marks steadily improved, which made her more willing to attend tutorials.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Using concepts from the Intelligence chapter, analyse why Siti's two test scores differed and what each score means.",
+    "marks": 7,
+    "model": "Deviation IQ: mean 100, SD about 15; 85 is one SD below the mean, 112 is above average - a 27-point gap on tests taken a month apart questions whether the first score was valid. Cultural bias: IQ tests reflect the designer's culture, language and content; an English-language test disadvantages a student from a Kelantan Malay-medium background, so it measured language more than intelligence (low validity for her). Culture-fair test: the non-verbal abstract-reasoning retest resembles Raven's Progressive Matrices, reducing language bias, so 112 is the better estimate. Stereotype threat: the staff member's 'kampung students usually score low' remark activated a negative stereotype immediately before testing, which can lower IQ scores.",
+    "points": [
+     {
+      "t": "Deviation IQ: mean 100, SD about 15; 85 is one SD below the mean, 112 is above average - a 27-point gap on tests taken a month apart questions whether the first score was valid.",
+      "m": 2
+     },
+     {
+      "t": "Cultural bias: IQ tests reflect the designer's culture, language and content; an English-language test disadvantages a student from a Kelantan Malay-medium background, so it measured language more than intelligence (low validity for her).",
+      "m": 2
+     },
+     {
+      "t": "Culture-fair test: the non-verbal abstract-reasoning retest resembles Raven's Progressive Matrices, reducing language bias, so 112 is the better estimate.",
+      "m": 1
+     },
+     {
+      "t": "Stereotype threat: the staff member's 'kampung students usually score low' remark activated a negative stereotype immediately before testing, which can lower IQ scores.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Using concepts from the Personality chapters, analyse Siti's self-view and her reaction to failing the quiz, and explain the change after meeting the senior.",
+    "marks": 8,
+    "model": "Conditional positive regard (Rogers): parents praise only when she tops the class, so love feels earned rather than unconditional. Real vs ideal self mismatch: ideal self 'should be a doctor like my cousin' vs real self 'just an ordinary girl' - the gap produces anxiety and blocks self-actualisation. External locus of control (Rotter): attributing grades to 'luck and whether the lecturer likes you'; low expectancy that effort will be reinforced explains why she stopped attending tutorials. Self-efficacy and reciprocal determinism (Bandura): the senior's success raised her perceived competence (competence perceived through others); environment (study group) changed behaviour (asking questions), which improved marks, which further raised her belief and attendance - each factor influencing the others.",
+    "points": [
+     {
+      "t": "Conditional positive regard (Rogers): parents praise only when she tops the class, so love feels earned rather than unconditional.",
+      "m": 2
+     },
+     {
+      "t": "Real vs ideal self mismatch: ideal self 'should be a doctor like my cousin' vs real self 'just an ordinary girl' - the gap produces anxiety and blocks self-actualisation.",
+      "m": 2
+     },
+     {
+      "t": "External locus of control (Rotter): attributing grades to 'luck and whether the lecturer likes you'; low expectancy that effort will be reinforced explains why she stopped attending tutorials.",
+      "m": 2
+     },
+     {
+      "t": "Self-efficacy and reciprocal determinism (Bandura): the senior's success raised her perceived competence (competence perceived through others); environment (study group) changed behaviour (asking questions), which improved marks, which further raised her belief and attendance - each factor influencing the others.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Recommend how the university's first-year support programme could apply concepts from BOTH chapters to help students like Siti. Justify each recommendation.",
+    "marks": 5,
+    "model": "Use culture-fair, non-verbal or bilingual tests for any placement testing and train staff to avoid stereotype-laden comments - justified by cultural bias and stereotype threat lowering scores. Peer-mentoring scheme pairing first-years with seniors from similar backgrounds - builds self-efficacy through others' success and observational learning, as the senior did for Siti. Counselling offering unconditional positive regard and reframing failures as controllable (shifting towards internal locus of control) to narrow the real-ideal self gap.",
+    "points": [
+     {
+      "t": "Use culture-fair, non-verbal or bilingual tests for any placement testing and train staff to avoid stereotype-laden comments - justified by cultural bias and stereotype threat lowering scores.",
+      "m": 2
+     },
+     {
+      "t": "Peer-mentoring scheme pairing first-years with seniors from similar backgrounds - builds self-efficacy through others' success and observational learning, as the senior did for Siti.",
+      "m": 2
+     },
+     {
+      "t": "Counselling offering unconditional positive regard and reframing failures as controllable (shifting towards internal locus of control) to narrow the real-ideal self gap.",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "tips": "Organise by chapter: first the intelligence explanation of the scores (use numbers: 85 = 1 SD below), then the personality explanation of her beliefs, quoting her own words as evidence. In (c), make each recommendation name the concept it is built on and the scenario problem it solves.",
+  "total": 20
  }
 ]
