@@ -1,0 +1,6158 @@
+[
+ {
+  "id": "t1-1",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Core skills of a psychology student",
+  "q": "What four core skills does PSY113 say a psychology student needs to be able to do?",
+  "clues": [
+   "Think about claims, positions and other people's views",
+   "One skill is about writing"
+  ],
+  "ans": "Question claims, statements and assertions made\nForm arguments that support or defend a position\nCritique others' views in a fair and objective manner\nWrite professionally",
+  "src": {
+   "lec": 1,
+   "p": [
+    2
+   ]
+  },
+  "sim": [
+   "t1-9",
+   "t1-23"
+  ]
+ },
+ {
+  "id": "t1-2",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Assessment breakdown (CA vs FA)",
+  "q": "How is PSY113's assessment split between Continuous Assessment (CA) and Final Assessment (FA)?",
+  "clues": [
+   "Two big buckets, 60/40",
+   "CA has three components"
+  ],
+  "ans": "CA = 60%: Individual Assignment 20%, Group Assignment 30%, Tutorials 10%\nFA = 40%: Final Exam 40%",
+  "src": {
+   "lec": 1,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t1-3",
+   "t1-7"
+  ]
+ },
+ {
+  "id": "t1-3",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Passing requirements",
+  "q": "What are the passing requirements for PSY113 (CA, FA and must-attempt rule)?",
+  "clues": [
+   "Two separate pass marks",
+   "A minimum per assessment too"
+  ],
+  "ans": "Pass CA: at least 30 out of 60%\nPass FA: at least 20 out of 40%\nAll assessments are must-attempt: get at least 20% of the marks for each one",
+  "src": {
+   "lec": 1,
+   "p": [
+    5,
+    12
+   ]
+  },
+  "sim": [
+   "t1-4",
+   "t1-2"
+  ]
+ },
+ {
+  "id": "t1-4",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Remedial grade vs FL grade",
+  "q": "What is the difference between a Remedial grade and an FL grade in PSY113?",
+  "clues": [
+   "Depends on how many of CA/FA you fail",
+   "One lets you redo only part"
+  ],
+  "ans": "Remedial: you failed only ONE of CA or FA; retake the failed assessment next semester\nFL: you failed BOTH CA and FA, or did not get at least 20% on an assessment\nFL means retaking the entire subject, including all assignments",
+  "src": {
+   "lec": 1,
+   "p": [
+    5,
+    12
+   ]
+  },
+  "sim": [
+   "t1-3"
+  ]
+ },
+ {
+  "id": "t1-5",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Assignment 1 – Journal Article Elements",
+  "q": "What does Assignment 1 (Journal Article Elements) require and assess?",
+  "clues": [
+   "Individual, 20%",
+   "Based on one article on LMS"
+  ],
+  "ans": "Individual, 20%, due Week 7 (9 Oct 2026)\nRead the given article; identify, list and describe its key components\nPropose an implication and a follow-up (new) study\nAssesses reading academic journals and paraphrasing technical language in your own words",
+  "src": {
+   "lec": 1,
+   "p": [
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "t1-6"
+  ]
+ },
+ {
+  "id": "t1-6",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Assignment 2 – Literature Review",
+  "q": "What does Assignment 2 (Literature Review) require?",
+  "clues": [
+   "Group, 30%",
+   "Ends with something new"
+  ],
+  "ans": "Group of 5–7, 30%, due Week 13 (13 Nov 2026)\nSelect a topic from the brief, find related literature and review it\nWrite the literature review, identify a research gap, propose a new study\nAssesses reading journals and paraphrasing technical language",
+  "src": {
+   "lec": 1,
+   "p": [
+    7,
+    9
+   ]
+  },
+  "sim": [
+   "t1-5",
+   "t1-8"
+  ]
+ },
+ {
+  "id": "t1-7",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Tutorials (10%)",
+  "q": "How are PSY113 tutorials graded and what attendance is required?",
+  "clues": [
+   "Two components per tutorial",
+   "Attendance can bar you from something"
+  ],
+  "ans": "Held Weeks 3, 5, 8, 10, 13; each worth 2%\nPer tutorial: quiz 1% + participation 1%\n80% attendance (4 of 5) needed or you are barred from the final exam\nMust get at least 20% of the component (2 of 10%); attendance also needed to be placed in an assignment group",
+  "src": {
+   "lec": 1,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t1-2"
+  ]
+ },
+ {
+  "id": "t1-8",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Group assignment expectations",
+  "q": "What expectations does the lecture set for group assignments?",
+  "clues": [
+   "Plan early",
+   "Consequences for free-riders"
+  ],
+  "ans": "Start early\nSet expectations: meeting times, roles and responsibilities, standard of work\nNon-contributing members can be reported\nThey risk mark deduction or failing the assignment; be a team player",
+  "src": {
+   "lec": 1,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t1-9"
+  ]
+ },
+ {
+  "id": "t1-9",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Course overview",
+  "name": "Expectations for this course",
+  "q": "What five expectations does the lecturer have of students in this course?",
+  "clues": [
+   "Five verbs",
+   "One is about questions"
+  ],
+  "ans": "Communicate with lecturer/tutors for guidance\nAttend lectures and tutorials\nStart assignments early\nAsk questions (alternative views welcome)\nBe responsible",
+  "src": {
+   "lec": 1,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t1-8",
+   "t1-1"
+  ]
+ },
+ {
+  "id": "t1-10",
+  "deck": "L1 · Research as Conversation",
+  "sec": "The scientific method",
+  "name": "Science and the scientific method",
+  "q": "How does the lecture define science and the scientific method?",
+  "clues": [
+   "Science relies on three things",
+   "Method = principles and procedures"
+  ],
+  "ans": "Science: an approach to knowing that relies on observation, testing and falsification\nScientific method: a set of principles and procedures researchers use to develop questions, collect data and reach conclusions\nUses evidence (data) to answer research questions",
+  "src": {
+   "lec": 1,
+   "p": [
+    15,
+    17
+   ]
+  },
+  "sim": [
+   "t1-11",
+   "t1-13"
+  ]
+ },
+ {
+  "id": "t1-11",
+  "deck": "L1 · Research as Conversation",
+  "sec": "The scientific method",
+  "name": "Certainty in science",
+  "q": "How certain is knowledge obtained through the scientific method?",
+  "clues": [
+   "Not black and white",
+   "Especially in one field"
+  ],
+  "ans": "Based on a degree of certainty\nNo claim in science is absolutely certain\nEven more so in the psychological sciences",
+  "src": {
+   "lec": 1,
+   "p": [
+    15
+   ]
+  },
+  "sim": [
+   "t1-10"
+  ]
+ },
+ {
+  "id": "t1-12",
+  "deck": "L1 · Research as Conversation",
+  "sec": "The scientific method",
+  "name": "Scientific vs non-scientific questions",
+  "q": "What distinguishes scientific questions from non-scientific questions?",
+  "clues": [
+   "Can it be tested?",
+   "Think 'meaning of life'"
+  ],
+  "ans": "Scientific: can be tested with the scientific method by collecting data (e.g. does sleep deprivation affect cognitive performance?)\nNon-scientific: cannot be tested; usually philosophical, answered by argument\nNon-scientific questions are subjective, shaped by opinions, personal beliefs and culture (e.g. does God exist?)",
+  "src": {
+   "lec": 1,
+   "p": [
+    15,
+    16
+   ]
+  },
+  "sim": [
+   "t1-10"
+  ]
+ },
+ {
+  "id": "t1-13",
+  "deck": "L1 · Research as Conversation",
+  "sec": "The scientific method",
+  "name": "Steps of the scientific method",
+  "q": "What are the basic steps of the scientific method?",
+  "clues": [
+   "Starts with a question",
+   "Ends with reporting"
+  ],
+  "ans": "Ask a question\nDo background research\nConstruct hypotheses\nTest with an experiment / collect data\nAnalyse data and draw conclusions (supported or not; loop back if not)\nReport results",
+  "src": {
+   "lec": 1,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t1-10",
+   "t1-20"
+  ]
+ },
+ {
+  "id": "t1-14",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Research as a conversation",
+  "name": "Research as a scientific conversation",
+  "q": "What does it mean that scientific research is a 'conversation'?",
+  "clues": [
+   "Exchange via journals",
+   "Others respond with studies"
+  ],
+  "ans": "An exchange of thoughts, information and arguments; each person adds something new and relevant\nHappens when researchers publish work in scientific journals\nOthers read it, ask new questions and respond with their own studies\nDisagreements are debated until a conclusion with the fewest errors or biases is reached",
+  "src": {
+   "lec": 1,
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "t1-15",
+   "t1-16"
+  ]
+ },
+ {
+  "id": "t1-15",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Research as a conversation",
+  "name": "Participating in the scientific conversation",
+  "q": "How can you participate in the scientific conversation?",
+  "clues": [
+   "First know what's being discussed",
+   "Three ways to contribute"
+  ],
+  "ans": "Read research articles (preferably recent) to know what is being discussed\nCritique weak arguments or questionable findings\nBuild/extend on findings, suggest alternative views, or conduct a new study\nListen to other researchers' responses to your studies; you are free to question anyone's claims",
+  "src": {
+   "lec": 1,
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "t1-14"
+  ]
+ },
+ {
+  "id": "t1-16",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Research as a conversation",
+  "name": "Scientific vs nonsensical conversation",
+  "q": "What separates a scientific conversation from a nonsensical conversation (sleep example)?",
+  "clues": [
+   "Relevance of each reply",
+   "Anecdotes about uncles and koalas"
+  ],
+  "ans": "Scientific: each reply adds something new AND relevant that builds on the claim (e.g. sleep amount differs for cognition vs mood; sleep quality matters)\nNonsensical: replies drift off-topic or rely on irrelevant anecdotes (lazy uncles, babies, koalas)",
+  "src": {
+   "lec": 1,
+   "p": [
+    20,
+    21
+   ]
+  },
+  "sim": [
+   "t1-14"
+  ]
+ },
+ {
+  "id": "t1-17",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Key components",
+  "name": "Variable",
+  "q": "What is a variable, and what kinds of variables does Lecture 1 give as examples?",
+  "clues": [
+   "Something that changes",
+   "Three example categories"
+  ],
+  "ans": "Something that is studied and can change in value\nTraits: age, height, IQ, personality\nInterventions/manipulations: caffeine, alcohol, smell\nOutcomes: test marks, task performance",
+  "src": {
+   "lec": 1,
+   "p": [
+    22,
+    23
+   ]
+  },
+  "sim": [
+   "t1-18",
+   "t1-19"
+  ]
+ },
+ {
+  "id": "t1-18",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Key components",
+  "name": "Causal vs non-causal relationship",
+  "q": "What is the difference between a causal and a non-causal relationship?",
+  "clues": [
+   "Does one produce the other?",
+   "Related is not the same as caused"
+  ],
+  "ans": "Causal: a change in one variable causes the change in another\nNon-causal: the two variables are related, but one cannot be said to cause the other\nJust because two variables are related does not mean one causes the other",
+  "src": {
+   "lec": 1,
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "t1-19",
+   "t1-17"
+  ]
+ },
+ {
+  "id": "t1-19",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Key components",
+  "name": "Research question",
+  "q": "What is a research question, and what two types can be formed?",
+  "clues": [
+   "Comes after identifying variables",
+   "Caffeine vs self-esteem examples"
+  ],
+  "ans": "Formed after identifying the variables of interest\nCan ask about causal relationships (e.g. Can caffeine increase levels of attention?)\nCan ask about non-causal relationships (e.g. Is there a relationship between self-esteem and academic grades?)",
+  "src": {
+   "lec": 1,
+   "p": [
+    22,
+    25
+   ]
+  },
+  "sim": [
+   "t1-20",
+   "t1-18"
+  ]
+ },
+ {
+  "id": "t1-20",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Key components",
+  "name": "Hypothesis",
+  "q": "What is a hypothesis and what makes a good one?",
+  "clues": [
+   "Follows from the research question",
+   "Coffee before bedtime example"
+  ],
+  "ans": "A prediction about the expected relationship between your variables\nGood hypotheses have strong scientific backing, based on logical and relevant evidence\nE.g. participants who drink coffee 3 hours before bed will have poorer sleep quality than those who don't",
+  "src": {
+   "lec": 1,
+   "p": [
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "t1-19",
+   "t1-13"
+  ]
+ },
+ {
+  "id": "t1-21",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Reading scientific writing",
+  "name": "Obstacles to understanding scientific writing",
+  "q": "How does the lecture suggest overcoming obstacles to understanding scientific writing?",
+  "clues": [
+   "One section to start with",
+   "Journals share something"
+  ],
+  "ans": "Scientific writing is hard at first but you get used to it and become a more critical consumer\nStart by reading the abstract\nMost journals follow a particular format and structure; knowing each part helps you navigate",
+  "src": {
+   "lec": 1,
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "t1-24"
+  ]
+ },
+ {
+  "id": "t1-22",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Academic & professional writing",
+  "name": "Types of professional writing",
+  "q": "What types of professional writing will you produce at university versus at work?",
+  "clues": [
+   "Two lists",
+   "Lab reports vs tenders"
+  ],
+  "ans": "University: essays, literature reviews, research proposals, critiques of journal articles, scientific/lab reports\nWork: project reports, proposals/tenders, performance evaluations, coaching reports, professional correspondence",
+  "src": {
+   "lec": 1,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t1-23"
+  ]
+ },
+ {
+  "id": "t1-23",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Academic & professional writing",
+  "name": "School vs university writing",
+  "q": "How does writing in primary/secondary school differ from writing during and after university?",
+  "clues": [
+   "Memorising vs critiquing",
+   "How excellence is shown"
+  ],
+  "ans": "School: write as students; learn by accepting and memorising; not expected to question; excellence = rote memorisation\nUniversity: write as professionals-to-be; actively question, query and critique\nExcellence = thinking critically, deriving own conclusions, communicating reasoning clearly\nKnowing/remembering is not enough; you must support and justify what you say",
+  "src": {
+   "lec": 1,
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "t1-22",
+   "t1-24"
+  ]
+ },
+ {
+  "id": "t1-24",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Academic & professional writing",
+  "name": "Qualities of good scientific writing",
+  "q": "What three qualities make good scientific writing?",
+  "clues": [
+   "Three P-words",
+   "Not a science fiction novel"
+  ],
+  "ans": "Precise and succinct: get to the point; use precise terms for the phenomena studied\nPurposeful: reports new data/findings and contributes to the scientific conversation\nPersuasive: relies on good arguments to persuade, convince or defend ideas",
+  "src": {
+   "lec": 1,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t1-23",
+   "t1-25"
+  ]
+ },
+ {
+  "id": "t1-25",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Academic & professional writing",
+  "name": "Communicating in psychology",
+  "q": "What is expected of you when communicating in psychology (e.g. the vaccines–autism dialogue)?",
+  "clues": [
+   "Not just 'the article says so'",
+   "Integrate and justify"
+  ],
+  "ans": "Convey understanding of human thought, emotion and behaviour\nIntegrate past research, compare and contrast findings, justify your position\nQuestion what you read: is it sufficiently supported and credible?\nExplain why YOU agree with a source, not just cite it",
+  "src": {
+   "lec": 1,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t1-26"
+  ]
+ },
+ {
+  "id": "t1-26",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Arguments",
+  "name": "Argument (what it is and is not)",
+  "q": "What is an argument, and what is an argument NOT?",
+  "clues": [
+   "Claim + something",
+   "Raising your voice"
+  ],
+  "ans": "A claim/assertion that something is true, supported by logical reasons for believing it\nYou tell the other person why you believe the assertion\nNot a verbal fight; raising your voice or personal attacks means you've already lost",
+  "src": {
+   "lec": 1,
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "t1-27",
+   "t1-25"
+  ]
+ },
+ {
+  "id": "t1-27",
+  "deck": "L1 · Research as Conversation",
+  "sec": "Arguments",
+  "name": "Good vs bad arguments",
+  "q": "What makes a good argument better than a bad one in the depression-genetics and punishment examples?",
+  "clues": [
+   "Neighbours vs a research review",
+   "'Definitely' vs 'likely'"
+  ],
+  "ans": "Bad: relies on personal anecdotes/few cases (neighbour, friend, own father) and overclaims ('definitely')\nGood: relies on research evidence from a larger sample (review: 70% of depressed Malaysians have a family member with depression)\nGood arguments use cautious conclusions ('likely')\nPersonal experience (being hit yet paying taxes) does not justify a general claim",
+  "src": {
+   "lec": 1,
+   "p": [
+    32,
+    33
+   ]
+  },
+  "sim": [
+   "t1-26"
+  ]
+ },
+ {
+  "id": "t2-1",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Scientific literature",
+  "name": "Joining the scientific conversation",
+  "q": "Why do you need to understand what a scientific conversation is about before joining it?",
+  "clues": [
+   "Not all conversations are equal",
+   "Quality varies"
+  ],
+  "ans": "To join, you need to know what is being discussed\nNot all conversations have the same scientific quality\nUnderstanding it helps you decide whether it is a conversation you want to/can join",
+  "src": {
+   "lec": 2,
+   "p": [
+    2
+   ]
+  },
+  "sim": [
+   "t2-2"
+  ]
+ },
+ {
+  "id": "t2-2",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Scientific literature",
+  "name": "Scholarly (scientific) literature",
+  "q": "What can you expect from scholarly (scientific) literature?",
+  "clues": [
+   "Original work of two kinds",
+   "Who produces and reviews it"
+  ],
+  "ans": "Original empirical (data) or theoretical (theoretical arguments) work\nAuthor is critical and reviews empirical/theoretical work\nAuthor summarises, argues or defends arguments about that work\nProduced and reviewed by experts/academics, with some verifiable measure of credibility",
+  "src": {
+   "lec": 2,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t2-13",
+   "t2-1"
+  ]
+ },
+ {
+  "id": "t2-3",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Scientific literature",
+  "name": "Journal articles vs academic books",
+  "q": "How do journal articles differ from academic books/textbooks as sources of scientific literature?",
+  "clues": [
+   "Compare scope, goals, review standard, recency, content",
+   "Handbook chapter vs caffeine study"
+  ],
+  "ans": "Scope: articles are targeted/focused; books cover broader topics\nGoals: articles justify theories and test new ideas; books give an overview/synthesis of a domain\nReview: articles have a high peer-review standard; books lower (not necessarily less credible)\nRecency: articles more likely to have latest findings; books give a broader, historical view\nContent: articles detail methodology; books briefly mention it and describe phenomena/theories",
+  "src": {
+   "lec": 2,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t2-4",
+   "t2-6"
+  ]
+ },
+ {
+  "id": "t2-4",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Types of journal articles",
+  "name": "Empirical article",
+  "q": "What is an empirical journal article?",
+  "clues": [
+   "Has new data",
+   "Most common type you'll read"
+  ],
+  "ans": "Presents new, usually primary data, analysed to test hypotheses and answer a research question\nIncludes methods and analyses\nMakes claims about the meaning of results\nMost psychology empirical papers are quantitative with statistical analyses",
+  "src": {
+   "lec": 2,
+   "p": [
+    8,
+    17
+   ]
+  },
+  "sim": [
+   "t2-5",
+   "t2-8"
+  ]
+ },
+ {
+  "id": "t2-5",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Types of journal articles",
+  "name": "Theoretical / conceptual article",
+  "q": "What is a theoretical or conceptual journal article?",
+  "clues": [
+   "Builds a model",
+   "No new data"
+  ],
+  "ans": "Author(s) present their own model/theory about a concept based on existing empirical findings\nNo new data is collected to generate the model/theory\nDescribes components within a concept, their characteristics and relationships",
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t2-4",
+   "t2-8",
+   "t2-6"
+  ]
+ },
+ {
+  "id": "t2-6",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Types of journal articles",
+  "name": "Review article",
+  "q": "What is a review article and what two forms can it take?",
+  "clues": [
+   "Summarises a field",
+   "Two forms, one is statistical"
+  ],
+  "ans": "Provides a summary of results/patterns/theories in a particular field\nHighlights key themes in past research and proposes future directions\nEither a systematic review or a meta-analysis",
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t2-5",
+   "t2-7"
+  ]
+ },
+ {
+  "id": "t2-7",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Types of journal articles",
+  "name": "Conference proceedings",
+  "q": "What are conference proceedings?",
+  "clues": [
+   "Tied to an event",
+   "Can contain any article type"
+  ],
+  "ans": "A collection of papers accepted at a conference\nMay be empirical, conceptual, theoretical or review papers\nAlso peer-reviewed before being accepted at the conference",
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t2-6"
+  ]
+ },
+ {
+  "id": "t2-8",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Types of journal articles",
+  "name": "Empirical vs theoretical article",
+  "q": "What is the key difference between an empirical article and a theoretical/conceptual article?",
+  "clues": [
+   "Think about data collection",
+   "Testing vs building"
+  ],
+  "ans": "Empirical: collects new (primary) data and analyses it to test hypotheses\nTheoretical/conceptual: no new data; builds a model/theory from existing empirical findings",
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t2-4",
+   "t2-5"
+  ]
+ },
+ {
+  "id": "t2-9",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Peer review",
+  "name": "Peer review",
+  "q": "What is peer review and why does it matter?",
+  "clues": [
+   "Done by 'peers' before publication",
+   "A form of quality control"
+  ],
+  "ans": "Review of an article by other experts (peers) in the field before it is allowed to be published\nA form of quality control ensuring rigour and validity\nMatters because findings can have implications for society at large",
+  "src": {
+   "lec": 2,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t2-10",
+   "t2-11"
+  ]
+ },
+ {
+  "id": "t2-10",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Peer review",
+  "name": "Peer review evaluation criteria",
+  "q": "What aspects of a paper do reviewers judge during peer review?",
+  "clues": [
+   "Five aspects",
+   "Includes grammar"
+  ],
+  "ans": "Value and novelty of findings\nSoundness of methods\nConsistency of results\nStrength of arguments\nLanguage and grammar",
+  "src": {
+   "lec": 2,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t2-9",
+   "t2-11"
+  ]
+ },
+ {
+  "id": "t2-11",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Peer review",
+  "name": "Peer review process and outcomes",
+  "q": "What are the steps and possible outcomes of the (simplified) peer-review process?",
+  "clues": [
+   "Starts with screening",
+   "Revise-and-resubmit is one outcome"
+  ],
+  "ans": "Submission, then 1st screening for basic criteria (fits journal topic/scope)\nOutcomes: reject, revise-and-resubmit, or accept and publish\nAfter revise-and-resubmit, the author revises based on reviewer comments and it is accepted or rejected\nA rejected author may resubmit to another more suitable journal",
+  "src": {
+   "lec": 2,
+   "p": [
+    11,
+    12
+   ]
+  },
+  "sim": [
+   "t2-9",
+   "t2-10"
+  ]
+ },
+ {
+  "id": "t2-12",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Peer review",
+  "name": "Wakefield vaccines–autism case",
+  "q": "What does the Wakefield (1998) vaccines–autism case illustrate about scientific literature?",
+  "clues": [
+   "MMR vaccine",
+   "Retracted after 12 years"
+  ],
+  "ans": "A poorly-controlled study claimed MMR vaccines were associated with autism\nRetracted 12 years later, but the vaccine scare damage was done\nUndisclosed conflict of interest: authors paid by lawyers hired by parents of autistic children\nShows why scholarly work must be properly reviewed and vetted before reaching the public",
+  "src": {
+   "lec": 2,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t2-9"
+  ]
+ },
+ {
+  "id": "t2-13",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Credibility of sources",
+  "name": "What is NOT scientific literature",
+  "q": "What kinds of sources are NOT considered scientific literature, and why?",
+  "clues": [
+   "Popular sources",
+   "A PhD alone isn't enough"
+  ],
+  "ans": "Blog posts, newspaper articles, magazine articles\nWikipedia, WikiHow and other wikis, HowStuffWorks, LiveStrong\nThey may look scientific but could be written by opinionated experts\nHaving a PhD is not proof of credibility if the person lacks expertise in that area",
+  "src": {
+   "lec": 2,
+   "p": [
+    13,
+    4,
+    5
+   ]
+  },
+  "sim": [
+   "t2-14",
+   "t2-2"
+  ]
+ },
+ {
+  "id": "t2-14",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Credibility of sources",
+  "name": "White/policy papers (grey area)",
+  "q": "Why are white/policy papers a 'grey area' as sources?",
+  "clues": [
+   "Not peer-reviewed",
+   "Cigarette company example"
+  ],
+  "ans": "Reports written by organisations for government policies/purposes\nNot peer-reviewed or published in journals/textbooks\nMay contain research or summaries, so can still be valid and rigorous\nMay be driven by personal/financial interests; check if the author is credible and non-partisan (e.g. WHO) and the topic is relevant",
+  "src": {
+   "lec": 2,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t2-13"
+  ]
+ },
+ {
+  "id": "t2-15",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Credibility of sources",
+  "name": "Information literacy",
+  "q": "What is information literacy and how does it make you a better consumer of information?",
+  "clues": [
+   "Locate, evaluate, use",
+   "Even experts can be wrong"
+  ],
+  "ans": "The ability to know what information is needed and to locate, evaluate and effectively use it\nIncludes distinguishing credible from non-credible sources\nLets you favour evidence-based info and be sceptical of outrageous claims\nBe critical even of experts: they disagree, so check different (contradicting) sources and reach your own conclusion",
+  "src": {
+   "lec": 2,
+   "p": [
+    15
+   ]
+  },
+  "sim": [
+   "t2-13",
+   "t2-14"
+  ]
+ },
+ {
+  "id": "t2-16",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Empirical papers",
+  "name": "Empirical paper as a story",
+  "q": "How does the 'story' analogy map onto the parts of an empirical paper?",
+  "clues": [
+   "Four story parts",
+   "Incomplete story"
+  ],
+  "ans": "Interesting topic and similar past stories = literature review\nStory is incomplete, predictions made = research gap and hypotheses\nHow the story was built with data = methods and analysis\nWhat the next part should be = discussion and future research",
+  "src": {
+   "lec": 2,
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "t2-19",
+   "t2-20"
+  ]
+ },
+ {
+  "id": "t2-17",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Title and abstract",
+  "q": "What should the title and the abstract of an empirical paper contain?",
+  "clues": [
+   "Specific vs vague titles",
+   "A word count range"
+  ],
+  "ans": "Title: the specific topic of study (e.g. 'Positive emotions trigger upward spirals toward emotional well-being', not just 'Emotions and well-being')\nAbstract: a brief 150–250 word summary of the report",
+  "src": {
+   "lec": 2,
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "t2-18"
+  ]
+ },
+ {
+  "id": "t2-18",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Introduction / literature review section",
+  "q": "What does the introduction/literature review section of an empirical paper do?",
+  "clues": [
+   "First part after the abstract",
+   "Justifies the study"
+  ],
+  "ans": "Gives background, defines key variables, presents theories and past research\nHighlights what has NOT been done and why it SHOULD be done\nStates aim, theoretical framework, research question, hypotheses and potential contributions\nPositions the study in its research area; not always labelled 'introduction'; leads logically to the method",
+  "src": {
+   "lec": 2,
+   "p": [
+    19,
+    22
+   ]
+  },
+  "sim": [
+   "t2-19",
+   "t2-17"
+  ]
+ },
+ {
+  "id": "t2-19",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Core contents of the introduction",
+  "q": "What six core contents should an introduction/literature review contain?",
+  "clues": [
+   "Starts with background, ends with contributions",
+   "Includes a gap"
+  ],
+  "ans": "Background: what the paper is about and why it matters\nLiterature/past research: relevant variables, definitions, past findings\nTheoretical framework: how and why variables are related; informs hypotheses\nResearch gap: what hasn't been studied and why it should be\nResearch question and hypotheses\nExpected contributions and implications",
+  "src": {
+   "lec": 2,
+   "p": [
+    23
+   ]
+  },
+  "sim": [
+   "t2-18",
+   "t2-20",
+   "t2-21"
+  ]
+ },
+ {
+  "id": "t2-20",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Research gap",
+  "q": "What is a research gap in an empirical paper?",
+  "clues": [
+   "What's missing",
+   "Leads to the research question"
+  ],
+  "ans": "The aspects of a research topic that have not yet been studied/examined\nPlus why they should be examined\nKnowing the gap tells you what question to ask (research question)",
+  "src": {
+   "lec": 2,
+   "p": [
+    19,
+    23
+   ]
+  },
+  "sim": [
+   "t2-19",
+   "t2-21"
+  ]
+ },
+ {
+  "id": "t2-21",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Theoretical framework",
+  "q": "What role does the theoretical framework play in an empirical paper's introduction?",
+  "clues": [
+   "Explains connections",
+   "Feeds into predictions"
+  ],
+  "ans": "Explains how and why the variables are connected/related\nInforms the hypotheses\nPresented in the introduction/literature review",
+  "src": {
+   "lec": 2,
+   "p": [
+    19,
+    23
+   ]
+  },
+  "sim": [
+   "t2-20",
+   "t2-19"
+  ]
+ },
+ {
+  "id": "t2-22",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Method section",
+  "q": "What four kinds of information should the Method section of an empirical paper provide?",
+  "clues": [
+   "Design, who, how measured, what was done",
+   "Should allow replication"
+  ],
+  "ans": "General method/approach: design (experiment, survey, longitudinal?)\nSample: who participated, characteristics, inclusion/exclusion\nMeasures/materials: how variables were measured (operational definitions)\nProcedure: what participants did; the manipulation if an experiment\nDetailed enough for others to replicate the study",
+  "src": {
+   "lec": 2,
+   "p": [
+    20,
+    33
+   ]
+  },
+  "sim": [
+   "t2-23",
+   "t2-27"
+  ]
+ },
+ {
+  "id": "t2-23",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Results section",
+  "q": "What does the Results section of an empirical paper contain?",
+  "clues": [
+   "Numbers and tests",
+   "Verdict on the hypotheses"
+  ],
+  "ans": "Collation of data and a brief description of the data collected\nStatistical analyses conducted to test the hypotheses\nWhether the data supported or did not support the hypotheses",
+  "src": {
+   "lec": 2,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t2-24",
+   "t2-25"
+  ]
+ },
+ {
+  "id": "t2-24",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Discussion section",
+  "q": "What does the Discussion section of an empirical paper contain?",
+  "clues": [
+   "Non-statistical",
+   "Looks back and forward"
+  ],
+  "ans": "Non-technical/non-statistical interpretation of results\nWhat results mean for the study and the wider literature\nAnswer to the research question\nLimitations and weaknesses\nSuggestions for future studies; theoretical and practical implications",
+  "src": {
+   "lec": 2,
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "t2-23",
+   "t2-25"
+  ]
+ },
+ {
+  "id": "t2-25",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Structure of empirical papers",
+  "name": "Results vs Discussion",
+  "q": "How does the Results section differ from the Discussion section?",
+  "clues": [
+   "Statistical vs non-statistical",
+   "Reporting vs interpreting"
+  ],
+  "ans": "Results: reports data and statistical analyses; states whether hypotheses were supported\nDiscussion: non-statistical interpretation, meaning in the wider literature, answer to the research question, limitations, future studies, implications",
+  "src": {
+   "lec": 2,
+   "p": [
+    20,
+    21
+   ]
+  },
+  "sim": [
+   "t2-23",
+   "t2-24"
+  ]
+ },
+ {
+  "id": "t2-26",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Defining variables",
+  "name": "Conceptual definition",
+  "q": "What is a conceptual definition of a variable?",
+  "clues": [
+   "About meaning",
+   "Creativity as 'novel and useful'"
+  ],
+  "ans": "Defines the variable according to its meaning/characteristics\nE.g. creativity = 'the production of novel, useful products' (Mumford, 2003)\nA variable can have several conceptual definitions",
+  "src": {
+   "lec": 2,
+   "p": [
+    24
+   ]
+  },
+  "sim": [
+   "t2-27",
+   "t2-28"
+  ]
+ },
+ {
+  "id": "t2-27",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Defining variables",
+  "name": "Operational definition",
+  "q": "What is an operational definition of a variable?",
+  "clues": [
+   "About measurement",
+   "Found in the Measures part of the Method"
+  ],
+  "ans": "Defines how the variable is measured\nE.g. creativity = total score on the Torrance Tests of Creative Thinking (TTCT) or the Creative Achievement Questionnaire (CAQ)\nListed under Measures in the Method section",
+  "src": {
+   "lec": 2,
+   "p": [
+    24,
+    32,
+    33
+   ]
+  },
+  "sim": [
+   "t2-26",
+   "t2-28"
+  ]
+ },
+ {
+  "id": "t2-28",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Defining variables",
+  "name": "Conceptual vs operational definitions",
+  "q": "What is the difference between conceptual and operational definitions?",
+  "clues": [
+   "Meaning vs measurement",
+   "Creativity example"
+  ],
+  "ans": "Conceptual: what the variable means (its characteristics)\nOperational: how the variable is measured\nE.g. creativity conceptually = production of novel and useful ideas; operationally = total TTCT score",
+  "src": {
+   "lec": 2,
+   "p": [
+    24
+   ]
+  },
+  "sim": [
+   "t2-26",
+   "t2-27"
+  ]
+ },
+ {
+  "id": "t2-29",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Reading an empirical paper",
+  "name": "Variables (Lecture 2 definition)",
+  "q": "How does Lecture 2 define variables, using the handedness–creativity example?",
+  "clues": [
+   "Vary in degree, amount or intensity",
+   "Two variables in the example"
+  ],
+  "ans": "Any measurable phenomena that can change (vary) in degree, amount or intensity\nHandedness: whether someone is right- or left-handed\nCreativity: the extent someone can think up novel or inventive ideas/solutions",
+  "src": {
+   "lec": 2,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t2-30",
+   "t2-28"
+  ]
+ },
+ {
+  "id": "t2-30",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Reading an empirical paper",
+  "name": "Research question in an empirical paper",
+  "q": "What can a research question in an empirical paper specify?",
+  "clues": [
+   "Relationship between variables",
+   "Smartphone example"
+  ],
+  "ans": "A specific expected relationship between two specific variables\nE.g. Are right-handers more creative than left-handers?\nE.g. Does excessive smartphone usage negatively affect satisfaction with life?",
+  "src": {
+   "lec": 2,
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "t2-31",
+   "t2-29"
+  ]
+ },
+ {
+  "id": "t2-31",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Reading an empirical paper",
+  "name": "Hypotheses and how to find them",
+  "q": "What are an empirical article's hypotheses, and how do you find them when they are not explicitly stated?",
+  "clues": [
+   "Expected answers",
+   "Look for certain verbs"
+  ],
+  "ans": "The expected answers to the research question, based on past research evidence\nPresent predictions of results and how the data are expected to appear\nSometimes listed separately (Hypothesis 1, 2…)\nIf not explicit (as in Beall & Tracy, 2013), look for 'expect', 'predict', 'hypothesize'",
+  "src": {
+   "lec": 2,
+   "p": [
+    30,
+    31
+   ]
+  },
+  "sim": [
+   "t2-30",
+   "t2-20"
+  ]
+ },
+ {
+  "id": "t2-32",
+  "deck": "L2 · Scientific Reports I",
+  "sec": "Reading an empirical paper",
+  "name": "Beall & Tracy (2013) practice article",
+  "q": "What is the Beall and Tracy (2013) article used for in Lecture 2, and what are its variables?",
+  "clues": [
+   "Psychological Science",
+   "Clothing colour"
+  ],
+  "ans": "Practice article for Assignment 1: 'Women are more likely to wear red or pink at peak fertility'\nUsed to find the research question, hypotheses and methods\nVariables: shirt colour and fertility\nIts hypotheses are not explicitly stated",
+  "src": {
+   "lec": 2,
+   "p": [
+    26,
+    32
+   ]
+  },
+  "sim": [
+   "t2-31",
+   "t2-22"
+  ]
+ },
+ {
+  "id": "t4-1",
+  "deck": "L4 · Academic Writing I",
+  "sec": "What is academic writing",
+  "name": "Academic writing",
+  "q": "How does Lecture 4 define academic writing?",
+  "clues": [
+   "A form of professional writing",
+   "Formal and logical"
+  ],
+  "ans": "The formal and logical expression of intellectual information\nA form of professional writing conveying research findings/scholarly discussion clearly, objectively and critically\nObjective in tone: represents facts, not opinions or personal feelings\nUsed in assignments, reports and publications; need not be dry or boring",
+  "src": {
+   "lec": 4,
+   "p": [
+    2,
+    4
+   ]
+  },
+  "sim": [
+   "t4-2",
+   "t4-3"
+  ]
+ },
+ {
+  "id": "t4-2",
+  "deck": "L4 · Academic Writing I",
+  "sec": "What is academic writing",
+  "name": "Four characteristics of academic writing",
+  "q": "What four characteristics does academic (scholarly) writing tend to have?",
+  "clues": [
+   "Four adjectives",
+   "One is about tone"
+  ],
+  "ans": "Critical\nInformed\nIntellectual\nObjective",
+  "src": {
+   "lec": 4,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t4-1",
+   "t4-6"
+  ]
+ },
+ {
+  "id": "t4-3",
+  "deck": "L4 · Academic Writing I",
+  "sec": "What is academic writing",
+  "name": "Mature tone",
+  "q": "Why does academic writing require a mature tone?",
+  "clues": [
+   "Trust and authority",
+   "Your writing 'voice'"
+  ],
+  "ans": "Conveys maturity and authority, so the writer seems trustworthy and the information accurate and reliable\nYour voice shows how well you know your topic\nReaders judge how convincing/persuasive you are from your tone",
+  "src": {
+   "lec": 4,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t4-4",
+   "t4-5"
+  ]
+ },
+ {
+  "id": "t4-4",
+  "deck": "L4 · Academic Writing I",
+  "sec": "What is academic writing",
+  "name": "High school vs university writing",
+  "q": "How does writing in high school differ from writing in university according to Lecture 4?",
+  "clues": [
+   "Understanding vs something deeper",
+   "What your writing indicates"
+  ],
+  "ans": "High school: writing indicates your understanding\nUniversity and beyond: writing indicates the quality of your thoughts",
+  "src": {
+   "lec": 4,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t4-3"
+  ]
+ },
+ {
+  "id": "t4-5",
+  "deck": "L4 · Academic Writing I",
+  "sec": "What is academic writing",
+  "name": "Formality and audience",
+  "q": "Who is the typical audience of academic writing, and how does this affect formality?",
+  "clues": [
+   "Not your friends",
+   "Tone varies by context"
+  ],
+  "ans": "Academic writing conveys a degree of formality; tone/style varies by context\nTypical audience: researchers, professionals from various industries, professors/lecturers/teachers\nNOT your course mates or friends",
+  "src": {
+   "lec": 4,
+   "p": [
+    6,
+    7
+   ]
+  },
+  "sim": [
+   "t4-3"
+  ]
+ },
+ {
+  "id": "t4-6",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Qualities of academic writing",
+  "name": "Four qualities of academic writing",
+  "q": "What four qualities does academic writing typically have?",
+  "clues": [
+   "Density, nouns, perspective, caution",
+   "Every word counts"
+  ],
+  "ans": "Moderate–high lexical density: concise, every word counts\nNominal style: favours nouns over verbs\nImpersonal constructions: third-person perspective\nHedging and emphasizing: conveys cautious judgment",
+  "src": {
+   "lec": 4,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t4-7",
+   "t4-18",
+   "t4-21",
+   "t4-23"
+  ]
+ },
+ {
+  "id": "t4-7",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Lexical density",
+  "name": "Lexical density",
+  "q": "What is lexical density?",
+  "clues": [
+   "Compactness",
+   "Economy of words"
+  ],
+  "ans": "The compactness of language: how economical the writer is with words\nHigh density conveys a lot of information in fewer words\nBut high density also makes text more specialised/technical",
+  "src": {
+   "lec": 4,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t4-8",
+   "t4-11"
+  ]
+ },
+ {
+  "id": "t4-8",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Lexical density",
+  "name": "Lexical density formula",
+  "q": "How is lexical density calculated?",
+  "clues": [
+   "A ratio times 100",
+   "Worked example: 8/13"
+  ],
+  "ans": "(Number of content/lexical words ÷ total number of words) × 100\nTotal words = content words + function words\nE.g. 'An autistic child is weaker in communication skills compared to a regular child' = 8/13 × 100 = 61.5%",
+  "src": {
+   "lec": 4,
+   "p": [
+    9,
+    10
+   ]
+  },
+  "sim": [
+   "t4-9",
+   "t4-7"
+  ]
+ },
+ {
+  "id": "t4-9",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Lexical density",
+  "name": "Content words vs function words",
+  "q": "What is the difference between content (lexical) words and function words?",
+  "clues": [
+   "Which carry meaning?",
+   "'the', 'if', 'and'"
+  ],
+  "ans": "Content words: nouns, adjectives, verbs, adverbs; any word that carries meaning\nFunction words: articles, prepositions, conjunctions (e.g. if, then, thus, the, and)\nFunction words connect words but carry no meaning by themselves",
+  "src": {
+   "lec": 4,
+   "p": [
+    9,
+    10
+   ]
+  },
+  "sim": [
+   "t4-8"
+  ]
+ },
+ {
+  "id": "t4-10",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Lexical density",
+  "name": "Typical lexical density by source",
+  "q": "What are the typical lexical density ranges for different types of text?",
+  "clues": [
+   "Three source types",
+   "Spoken is lowest"
+  ],
+  "ans": "Expository writing (Wikipedia, newspapers): 55–58%\nFiction, general prose: 48–51%\nInterview transcripts, spoken language: about 45%",
+  "src": {
+   "lec": 4,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t4-11"
+  ]
+ },
+ {
+  "id": "t4-11",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Lexical density",
+  "name": "Levels of lexical density",
+  "q": "What characterises high, moderate, low and very low lexical density texts?",
+  "clues": [
+   "Four levels",
+   "Experts vs most people"
+  ],
+  "ans": "High: specialised texts, easiest for experts; may sound technical/complex\nModerate: accessible to well-educated non-experts with good vocabulary\nLow: understood by most people; conversational\nVery low: may seem meaningless, vague or hesitant; excessively verbose",
+  "src": {
+   "lec": 4,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t4-12",
+   "t4-10"
+  ]
+ },
+ {
+  "id": "t4-12",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Lexical density",
+  "name": "High vs low lexical density (example)",
+  "q": "How does the social support–academic stress example illustrate high vs low lexical density?",
+  "clues": [
+   "50% vs 88%",
+   "'As a matter of fact…'"
+  ],
+  "ans": "Low (50%): 'As a matter of fact, it has been shown repeatedly that social support is an important predictor of academic stress.'\nHigh (88%): 'Studies show that social support lowers academic stress.'\nSame idea, far fewer filler words in the high-density version",
+  "src": {
+   "lec": 4,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t4-11",
+   "t4-7"
+  ]
+ },
+ {
+  "id": "t4-13",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Being concise",
+  "name": "Concise and jargon-free writing",
+  "q": "When is high lexical density acceptable, and what does Strunk's 'every word tell' mean?",
+  "clues": [
+   "Defined terms",
+   "No unnecessary lines in a drawing"
+  ],
+  "ans": "High density is acceptable if all specialist terms/constructs/variables are clearly defined\nStrunk (2000): no unnecessary words in a sentence or sentences in a paragraph\nThis does not mean all sentences must be short or lack detail, but that every word tell",
+  "src": {
+   "lec": 4,
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "t4-14",
+   "t4-7"
+  ]
+ },
+ {
+  "id": "t4-14",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Being concise",
+  "name": "Getting to the point (consent form example)",
+  "q": "What does the consent form / Stroop test example show about getting to the point?",
+  "clues": [
+   "47 words vs 18 words",
+   "Similar density"
+  ],
+  "ans": "Wordy version: 47 words repeating the consent-form steps\nConcise version: 18 words ('After signing the consent form, the participants were administered the Stroop test…')\nSame information in far fewer words; cut repetition and unnecessary steps\nAcademic readers want your main point as soon as possible",
+  "src": {
+   "lec": 4,
+   "p": [
+    13,
+    16
+   ]
+  },
+  "sim": [
+   "t4-13",
+   "t4-15"
+  ]
+ },
+ {
+  "id": "t4-15",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Being concise",
+  "name": "Telegraphing",
+  "q": "What is 'telegraphing' in writing and what should you do about it?",
+  "clues": [
+   "Show, don't tell",
+   "'This review will show that…'"
+  ],
+  "ans": "Announcing what the text is about to do instead of doing it\nE.g. 'This review will show that…', 'This introduction will discuss…', 'This is relevant because…'\nThese phrases are unnecessary and should be removed",
+  "src": {
+   "lec": 4,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t4-16",
+   "t4-17"
+  ]
+ },
+ {
+  "id": "t4-16",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Being concise",
+  "name": "Weasel words",
+  "q": "What are weasel words?",
+  "clues": [
+   "Ambiguous and misleading",
+   "Vague attribution"
+  ],
+  "ans": "Ambiguous and misleading phrases to avoid\nE.g. 'Many people believe that…'\nE.g. 'Researchers generally believe…'",
+  "src": {
+   "lec": 4,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t4-15",
+   "t4-17"
+  ]
+ },
+ {
+  "id": "t4-17",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Being concise",
+  "name": "Telegraphing vs weasel words",
+  "q": "What is the difference between telegraphing and weasel words?",
+  "clues": [
+   "One announces, one is vague",
+   "Both should be avoided"
+  ],
+  "ans": "Telegraphing: unnecessary signposting of what the text will do ('This review will show…')\nWeasel words: ambiguous/misleading claims with vague sources ('Many people believe…')\nBoth should be removed to write concisely",
+  "src": {
+   "lec": 4,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t4-15",
+   "t4-16"
+  ]
+ },
+ {
+  "id": "t4-18",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Nominal style",
+  "name": "Nominal style / nominalization",
+  "q": "What is nominalization (nominal style) and why is it used in academic writing?",
+  "clues": [
+   "Turning one word class into another",
+   "Tone benefit"
+  ],
+  "ans": "Turning verbs (actions) into nouns (concepts/ideas)\nCreates a more convincing and confident tone\nE.g. 'The writing of a manuscript necessarily involves matters of time management' vs 'Manuscript writing requires effective time management skills'",
+  "src": {
+   "lec": 4,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t4-19",
+   "t4-20"
+  ]
+ },
+ {
+  "id": "t4-19",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Nominal style",
+  "name": "Verbs vs nouns",
+  "q": "How does Lecture 4 define verbs and nouns for nominalization?",
+  "clues": [
+   "Actions vs things",
+   "Concepts/ideas"
+  ],
+  "ans": "Verbs: words describing actions, states or occurrences\nNouns: words describing a class of person, place or thing\nNominalization turns verbs (actions) into nouns (concepts)",
+  "src": {
+   "lec": 4,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t4-18"
+  ]
+ },
+ {
+  "id": "t4-20",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Nominal style",
+  "name": "Nominalization examples",
+  "q": "How are the teen promiscuity and academic stress sentences nominalized?",
+  "clues": [
+   "Action chunks become concept nouns",
+   "Two lecture examples"
+  ],
+  "ans": "'getting involved in promiscuous behaviour' becomes 'promiscuity'; 'catch and spread STDs' becomes 'sexual health concern'\nResult: 'Promiscuity among teens presents a sexual health concern.'\n'worry… getting stressed' becomes 'academic stress and worry'; 'have to do a lot of assignments' becomes 'hectic assignment schedule'",
+  "src": {
+   "lec": 4,
+   "p": [
+    18,
+    19,
+    20
+   ]
+  },
+  "sim": [
+   "t4-18"
+  ]
+ },
+ {
+  "id": "t4-21",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Impersonal construction",
+  "name": "Impersonal construction",
+  "q": "What is impersonal construction in academic writing?",
+  "clues": [
+   "Backgrounding",
+   "Passive or third-person"
+  ],
+  "ans": "'Backgrounding' the subjects: both participants and the author\nUses passive or third-person perspective\nMakes the phenomenon, not the researcher, the focus of the sentence\nE.g. 'The questionnaires were then administered to the participants' rather than 'The researcher then handed out the questionnaires'",
+  "src": {
+   "lec": 4,
+   "p": [
+    21,
+    23
+   ]
+  },
+  "sim": [
+   "t4-22",
+   "t4-6"
+  ]
+ },
+ {
+  "id": "t4-22",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Impersonal construction",
+  "name": "Limiting personal pronouns",
+  "q": "Why should you limit personal pronouns in academic writing, and when are they acceptable?",
+  "clues": [
+   "I, we, you, me, my, ours, us",
+   "Group projects"
+  ],
+  "ans": "Over-use makes text sound casual: less formal, authoritative and objective\nAcceptable if the pronoun improves clarity and brevity\nIn group research, refer to yourselves as 'the researchers' or 'the research team' instead of 'we/us'",
+  "src": {
+   "lec": 4,
+   "p": [
+    22,
+    30
+   ]
+  },
+  "sim": [
+   "t4-21"
+  ]
+ },
+ {
+  "id": "t4-23",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Hedging",
+  "name": "Hedging language",
+  "q": "What is hedging language and what does it show about the writer?",
+  "clues": [
+   "Cautious language",
+   "Tentative claims"
+  ],
+  "ans": "The use of more cautious language indicating tentativeness of claims/conclusions\nShows the writer is open to revising conclusions with new evidence\nShows the writer acknowledges own bias and potential for inaccuracy\nHedging words: may, possibly, indicates, suggests",
+  "src": {
+   "lec": 4,
+   "p": [
+    25
+   ]
+  },
+  "sim": [
+   "t4-24",
+   "t4-25"
+  ]
+ },
+ {
+  "id": "t4-24",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Hedging",
+  "name": "Words implying certainty",
+  "q": "Which words implying certainty should academic writers avoid, and why?",
+  "clues": [
+   "Five words",
+   "Overly strong"
+  ],
+  "ans": "prove, must, fact, definitely, always\nThey come across as overly strong\nThey can call your judgment into question",
+  "src": {
+   "lec": 4,
+   "p": [
+    25
+   ]
+  },
+  "sim": [
+   "t4-23",
+   "t4-25"
+  ]
+ },
+ {
+  "id": "t4-25",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Hedging",
+  "name": "Hedged vs overconfident claims",
+  "q": "How does the social support example contrast a hedged claim with an overconfident claim?",
+  "clues": [
+   "'prove… will determine' vs 'suggest… may predict'",
+   "Classical music activity"
+  ],
+  "ans": "Overconfident: 'These findings prove that social support will determine how stressed a student is'\nHedged: 'These findings suggest that the level of social support… may predict academic stress'\nHedging terms used: suggest, may (also 'hints', 'might' in the classical music example)\nImpersonal construction also adds objectivity",
+  "src": {
+   "lec": 4,
+   "p": [
+    26,
+    27
+   ]
+  },
+  "sim": [
+   "t4-23",
+   "t4-24"
+  ]
+ },
+ {
+  "id": "t4-26",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Avoiding bias",
+  "name": "Avoiding bias in writing",
+  "q": "What kinds of bias should be avoided in academic writing, and how can wording be fixed?",
+  "clues": [
+   "Sexism, racism…",
+   "'50 men and 50 girls'"
+  ],
+  "ans": "Bias can seem like favouritism or be offensive: sexism, racism, nationalism, religious bias\n'50 men and 50 girls' becomes '50 men and 50 women'\n'rate… regarding her effectiveness' becomes 'their effectiveness'\n'The elderly (50+)' becomes 'participants aged 50 and above'; 'black people' becomes 'African participants'",
+  "src": {
+   "lec": 4,
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "t4-27"
+  ]
+ },
+ {
+  "id": "t4-27",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Notes on writing",
+  "name": "Notes on academic writing",
+  "q": "What general notes does Lecture 4 give for applying academic writing style?",
+  "clues": [
+   "Sentence by sentence",
+   "Contractions"
+  ],
+  "ans": "Apply nominalization and lexical density sentence by sentence\nRe-read for overall flow and tone\nKeep a constructive, respectful tone in literature reviews; don't be excessively critical\nAvoid informal expressions/contractions (don't, can't, wouldn't)",
+  "src": {
+   "lec": 4,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t4-26",
+   "t4-6"
+  ]
+ },
+ {
+  "id": "t4-28",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Reading for writing",
+  "name": "Benefits of reading for writing",
+  "q": "How does reading broadly help your writing?",
+  "clues": [
+   "Learn by example",
+   "Your own voice"
+  ],
+  "ans": "Improves language skills and vocabulary\nExposes you to better writing so you learn by example\nShows good pacing, phrasing and structure\nHelps you adopt your own unique author writing voice",
+  "src": {
+   "lec": 4,
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "t4-29"
+  ]
+ },
+ {
+  "id": "t4-29",
+  "deck": "L4 · Academic Writing I",
+  "sec": "Reading for writing",
+  "name": "Reading-for-writing strategies",
+  "q": "What strategies does Lecture 4 suggest for reading in order to improve writing?",
+  "clues": [
+   "An hour a day",
+   "Compare articles and notice words"
+  ],
+  "ans": "Read regularly (e.g. an hour a day; books are a good start)\nAnalyse structure and flow: why did the author say this, here, in this tone?\nCompare articles: similarities, differences, what we don't know, possible research gaps\nNotice words used and how (if at all) variables are defined",
+  "src": {
+   "lec": 4,
+   "p": [
+    32,
+    33
+   ]
+  },
+  "sim": [
+   "t4-28"
+  ]
+ },
+ {
+  "id": "t5-1",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Specialized terms",
+  "name": "Specialized terms vs common usage",
+  "q": "Why should you be careful with specialized terms in scientific reports, and what should you cite when defining them?",
+  "clues": [
+   "Think of words like 'significant', 'affect', 'reliable'",
+   "Dictionary vs conceptual definition"
+  ],
+  "ans": "Terms in scientific reports may mean something different from everyday conversational use\nDictionary definitions are NOT conceptual definitions\nSo cite an academic article, not a dictionary, when defining terms\nScientific writing uses terms precisely and consistently, giving a fixed label for variables",
+  "src": {
+   "lec": 5,
+   "p": [
+    2,
+    4
+   ]
+  },
+  "sim": [
+   "t5-2",
+   "t5-3"
+  ]
+ },
+ {
+  "id": "t5-2",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Specialized terms",
+  "name": "'Significant' (scientific meaning)",
+  "q": "What does 'significant' mean in scientific writing, compared with its everyday meaning?",
+  "clues": [
+   "Dictionary sense 2b is the closest",
+   "Linked to a statistical test"
+  ],
+  "ans": "Everyday: having meaning, or having influence/effect\nClosest dictionary sense: probably caused by something other than mere chance\nScientific: a statistically significant difference or relationship between defined variables\nAs indicated by a valid statistical test (e.g. t-tests, ANOVAs, multiple regression)",
+  "src": {
+   "lec": 5,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t5-1",
+   "t5-3"
+  ]
+ },
+ {
+  "id": "t5-3",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Specialized terms",
+  "name": "Validity vs reliability",
+  "q": "How do validity and reliability differ in scientific reports?",
+  "clues": [
+   "One is about appropriateness",
+   "One is about consistency"
+  ],
+  "ans": "Validity: use of appropriate procedures, measures or techniques for answering a research question\nReliability: whether the design/measures return consistent results\nEveryday 'validity' = well-grounded, sound, or legally acceptable\nEveryday 'reliability' = same results on repeated trials",
+  "src": {
+   "lec": 5,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t5-2",
+   "t5-1"
+  ]
+ },
+ {
+  "id": "t5-4",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Specialized terms",
+  "name": "Causal language",
+  "q": "When is causal language (effect, affect, impact, cause, increase, decrease, influence) appropriate?",
+  "clues": [
+   "Depends on study design",
+   "Requires manipulating a variable"
+  ],
+  "ans": "Only appropriate for experimental studies\nExperiments manipulate one variable to see its effects on another\nOnly then can you say 'a change in X affects/causes/increases a change in Y'\nIf the study is not an experiment, avoid any word implying causality",
+  "src": {
+   "lec": 5,
+   "p": [
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "t5-5",
+   "t5-6"
+  ]
+ },
+ {
+  "id": "t5-5",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Specialized terms",
+  "name": "Language for correlational studies",
+  "q": "What wording is appropriate for describing results in non-experimental (correlational) studies?",
+  "clues": [
+   "Typically survey-based",
+   "About relationships, not causes"
+  ],
+  "ans": "'related to…'\n'associated with…'\n'positive relationship between…'\n'negative relationship between…'",
+  "src": {
+   "lec": 5,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t5-4",
+   "t5-6"
+  ]
+ },
+ {
+  "id": "t5-6",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Specialized terms",
+  "name": "Language for group comparisons (non-experimental)",
+  "q": "What wording is appropriate in non-experimental studies that compare groups rather than assess relationships?",
+  "clues": [
+   "Comparing averages between groups",
+   "Still no causal words"
+  ],
+  "ans": "'Difference between…'\n'X will be significantly higher than…'\n'The average score of Y will be higher than…'",
+  "src": {
+   "lec": 5,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t5-5",
+   "t5-4"
+  ]
+ },
+ {
+  "id": "t5-7",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Writing as an iterative process",
+  "q": "What does it mean that writing is an iterative process, and what do good science writers do?",
+  "clues": [
+   "Write, re-write, re-write",
+   "Which stage takes longer?"
+  ],
+  "ans": "You write, re-write and re-write until the work is as good as it can or should be\nUsually free/rough writing followed by lots of editing\nEditing usually takes longer and needs more attention than the initial writing\nGood writers assess clarity, flow and structure\nGood science writers are ruthless: cut unnecessary detail, elaborate on anything unclear",
+  "src": {
+   "lec": 5,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t5-8"
+  ]
+ },
+ {
+  "id": "t5-8",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Six steps of the drafting process",
+  "q": "What are the six steps of the drafting process, in order?",
+  "clues": [
+   "Starts with jotting ideas",
+   "Ends with fine details"
+  ],
+  "ans": "1 Free writing\n2 Develop an outline\n3 First draft\n4 Redrafting/Revising\n5 Editing\n6 Polishing",
+  "src": {
+   "lec": 5,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t5-7",
+   "t5-9"
+  ]
+ },
+ {
+  "id": "t5-9",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Free writing vs developing an outline",
+  "q": "How does the free writing stage differ from the develop-an-outline stage of drafting?",
+  "clues": [
+   "One is just listing",
+   "The other adds order"
+  ],
+  "ans": "Free writing: simply jot down any ideas\nList concepts, variables, terms, theories or anything you want mentioned\nOutline: list these ideas in a particular order",
+  "src": {
+   "lec": 5,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t5-10",
+   "t5-8"
+  ]
+ },
+ {
+  "id": "t5-10",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "First draft",
+  "q": "What should you do (and not worry about) during the first draft stage?",
+  "clues": [
+   "Flesh out ideas",
+   "'Poor writing > ...'"
+  ],
+  "ans": "Flesh out the ideas and elaborate on points freely\nDon't worry about grammar; don't stop if you can't find the right words\nPoor writing > No writing\nDon't worry too much about the word limit yet",
+  "src": {
+   "lec": 5,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t5-9",
+   "t5-11"
+  ]
+ },
+ {
+  "id": "t5-11",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Redrafting/Revising",
+  "q": "What do you check for during the redrafting/revising stage?",
+  "clues": [
+   "Clarity and order of ideas",
+   "Strength of arguments"
+  ],
+  "ans": "Re-read and ask whether ideas can be expressed more clearly\nAre ideas in an ideal, logical order? (affects flow)\nDo some points need more justification/evidence?\nConsider who might agree or disagree with your points",
+  "src": {
+   "lec": 5,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t5-12",
+   "t5-13"
+  ]
+ },
+ {
+  "id": "t5-12",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Editing stage",
+  "q": "What happens during the editing stage of drafting?",
+  "clues": [
+   "Sentence- and paragraph-level",
+   "'Fluff'"
+  ],
+  "ans": "Sentence-level and paragraph-level changes, incl. rewriting sentences or whole paragraphs\nEdit word choice, grammar, order of words/sentences\nKeep only what is absolutely necessary; simplify where possible\nAvoid fluff – never add material just to raise word count",
+  "src": {
+   "lec": 5,
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "t5-11",
+   "t5-13"
+  ]
+ },
+ {
+  "id": "t5-13",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Polishing stage",
+  "q": "What do you pay attention to in the polishing stage?",
+  "clues": [
+   "'The devil is in the details'",
+   "Errors a word processor misses"
+  ],
+  "ans": "Formatting\nMinor spelling and grammar errors (e.g. 'an' vs 'and' – may not be caught by the word processor)\nPunctuation\nTake a break when proofreading",
+  "src": {
+   "lec": 5,
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "t5-12",
+   "t5-11"
+  ]
+ },
+ {
+  "id": "t5-14",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "The drafting process",
+  "name": "Additional drafting tips",
+  "q": "What additional tips does the lecture give for rethinking your writing and examining it from the outside?",
+  "clues": [
+   "Objective reader",
+   "Trusted others; time away"
+  ],
+  "ans": "Critically examine your arguments: would an objective reader be convinced?\nRe-read after taking a break (you can be too close to your work – leave it a day or two)\nGet brutally honest feedback from a trusted friend, tutor or classmate\nIf you don't spot obvious errors, others will",
+  "src": {
+   "lec": 5,
+   "p": [
+    14,
+    15
+   ]
+  },
+  "sim": [
+   "t5-11"
+  ]
+ },
+ {
+  "id": "t5-15",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Constructing good paragraphs",
+  "name": "Good paragraphing guidelines",
+  "q": "What are the lecture's guidelines for paragraph length and structure?",
+  "clues": [
+   "Number of sentences",
+   "What is an MDWT?"
+  ],
+  "ans": "Divide paragraphs by points; one key point per paragraph\nKeep them short – usually 3–5 sentences on one point\nSingle sentences are not paragraphs\nNo paragraphs = Massive Death Wall of Text (MDWT)",
+  "src": {
+   "lec": 5,
+   "p": [
+    16,
+    17,
+    25
+   ]
+  },
+  "sim": [
+   "t5-16",
+   "t5-17"
+  ]
+ },
+ {
+  "id": "t5-16",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Constructing good paragraphs",
+  "name": "One point per paragraph & transitions",
+  "q": "How should a 'one point per paragraph' paragraph be ordered and linked to the next?",
+  "clues": [
+   "General before specific",
+   "Linking paragraphs"
+  ],
+  "ans": "Limit to one key point per paragraph\nBegin with a general statement, then give details\nThe end of a paragraph should lead to the beginning of the next\nUse transition sentences to show connections between paragraphs",
+  "src": {
+   "lec": 5,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t5-15",
+   "t5-17"
+  ]
+ },
+ {
+  "id": "t5-17",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Constructing good paragraphs",
+  "name": "Sandwich paragraph structure",
+  "q": "What are the three components of the sandwich paragraph structure?",
+  "clues": [
+   "Top slice, filling, bottom slice",
+   "General → evidence → relevance"
+  ],
+  "ans": "Topic sentence: the general point/main idea to elaborate on\nElaboration of point: evidence supporting the topic sentence\nLast/concluding sentence: explains relevance to the broader argument and connects to the next idea",
+  "src": {
+   "lec": 5,
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "t5-18",
+   "t5-16"
+  ]
+ },
+ {
+  "id": "t5-18",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Constructing good paragraphs",
+  "name": "Piranha sandwich example",
+  "q": "In the piranha sandwich example, what role does each part of the paragraph play?",
+  "clues": [
+   "Main claim about danger",
+   "Diet evidence with a reference"
+  ],
+  "ans": "Topic sentence: piranhas are, for the most part, harmless\nElaboration: evidence (Thompson, 2014) that their diet is mainly smaller fish and aquatic plants, not humans\nConcluding sentence: emphasizes diet and sets up the next paragraph (e.g. keeping piranhas well-fed)",
+  "src": {
+   "lec": 5,
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "t5-17"
+  ]
+ },
+ {
+  "id": "t5-19",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Professional correspondence",
+  "name": "Four considerations in professional correspondence",
+  "q": "What four things should you consider in professional correspondence?",
+  "clues": [
+   "Who you write to: professors, authors, lecturers",
+   "Four single words"
+  ],
+  "ans": "Formality\nCulture\nTone\nGoals",
+  "src": {
+   "lec": 5,
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "t5-20",
+   "t5-21"
+  ]
+ },
+ {
+  "id": "t5-20",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Professional correspondence",
+  "name": "Importance of corresponding professionally",
+  "q": "Why is corresponding professionally important, both for you and for your organization?",
+  "clues": [
+   "Response speed and impression",
+   "Reputation of whom you represent"
+  ],
+  "ans": "For you: recipient more receptive and may reply faster; favourable impression; less misinterpretation (no tone of voice in text)\nFor your organization: maintains the reputation of those you represent; builds and maintains favourable relationships",
+  "src": {
+   "lec": 5,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t5-19"
+  ]
+ },
+ {
+  "id": "t5-21",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Professional correspondence",
+  "name": "Degrees of formality spectrum",
+  "q": "What are the four points on the degrees of formality spectrum, with an example of each?",
+  "clues": [
+   "From friends' texts to legal documents",
+   "Where do lecturers sit?"
+  ],
+  "ans": "Highly informal: texts to a good friend, casual social media\nSomewhat informal: messages to colleagues, favours, organizing social events\nSomewhat formal: persons-in-charge, supervisors, lecturers, stakeholders, professional contacts\nHighly formal: legal documentation, policies and procedures\nProfessional correspondence is usually moderate–high formality",
+  "src": {
+   "lec": 5,
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "t5-22",
+   "t5-19"
+  ]
+ },
+ {
+  "id": "t5-22",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Professional correspondence",
+  "name": "Colloquial features that reduce formality",
+  "q": "Which colloquial features reduce the formality of correspondence?",
+  "clues": [
+   "Greetings",
+   "Culture-specific suffixes; symbols"
+  ],
+  "ans": "Colloquial = used in ordinary or familiar conversation\nInformal greetings (Yo, What's up, Howdy, G'Day, Cheers)\nEmphasizing suffixes/words, some culture-specific (-lah, meh, sia, eh, huh)\n'Creative' text, emoticons and emojis (??, !!, :D, ^_^)",
+  "src": {
+   "lec": 5,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t5-23",
+   "t5-21"
+  ]
+ },
+ {
+  "id": "t5-23",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Professional correspondence",
+  "name": "Staying formal until indicated otherwise",
+  "q": "What tone should you start correspondence in, and when is it acceptable to become less formal?",
+  "clues": [
+   "Deferential",
+   "Who goes informal first?"
+  ],
+  "ans": "Begin in a deferential (respectful) and polite tone using formal titles (Dr., Datuk, Datin, Mr., Mrs., Miss)\nStay formal until indicated otherwise\nMay change if the recipient prefers first-name address\n(Somewhat) okay if the recipient uses an informal tone (e.g. emojis) first",
+  "src": {
+   "lec": 5,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t5-24",
+   "t5-22"
+  ]
+ },
+ {
+  "id": "t5-24",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Professional correspondence",
+  "name": "Culture: Asian vs Western recipients",
+  "q": "How does expected formality differ between Asian and Western recipients, and why?",
+  "clues": [
+   "Honorifics",
+   "Power distance"
+  ],
+  "ans": "Asian recipients: very formal – honorifics, acknowledging titles, highly deferential tone\nWestern recipients: slightly less formal – may sign off with first name only\nDue to more egalitarian, low power distance norms in Western cultures\nSafest to keep addressing formally – emails may be forwarded",
+  "src": {
+   "lec": 5,
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "t5-23"
+  ]
+ },
+ {
+  "id": "t5-25",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Writing the first email",
+  "name": "Identifying recipient titles and salutations",
+  "q": "How should you identify and address a recipient's titles in a first professional email?",
+  "clues": [
+   "Academic ranks",
+   "What if no title can be found?"
+  ],
+  "ans": "Acknowledge their titles – shows you know who they are and take them seriously\nFind the proper title: Lecturer, Senior Lecturer, Associate Professor, Professor\nGoogle them; note titles like Datuk, Datin, Tun, Dr. (incl. honorary doctorates)\nIf unknown: 'Dr.', 'Mr.' or 'Ms.' are safe bets\nNo formal title: full name or Mr./Ms. [Last Name]",
+  "src": {
+   "lec": 5,
+   "p": [
+    33,
+    34
+   ]
+  },
+  "sim": [
+   "t5-26",
+   "t5-23"
+  ]
+ },
+ {
+  "id": "t5-26",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Writing the first email",
+  "name": "Presenting yourself professionally",
+  "q": "How should you introduce yourself professionally in each of the three correspondence scenarios?",
+  "clues": [
+   "Outside vs inside your organization",
+   "Your own lecturer needs an ID"
+  ],
+  "ans": "No second chance at a first impression (incl. a professional email address)\nOutside organization: [Full Name] from [Organization], [Country if overseas]\nWithin organization: [Full Name] from [Department] at [Organization]\nOwn lecturer: [Full Name], [Student ID] from [Class/Subject]",
+  "src": {
+   "lec": 5,
+   "p": [
+    32,
+    35
+   ]
+  },
+  "sim": [
+   "t5-25",
+   "t5-27"
+  ]
+ },
+ {
+  "id": "t5-27",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Writing the first email",
+  "name": "Stating the purpose concisely",
+  "q": "What guidelines does the lecture give for stating the purpose of an email concisely?",
+  "clues": [
+   "Ideal word count",
+   "Subject line length"
+  ],
+  "ans": "Be concise – emails of 75–100 words are most likely to get a response\nEffective subject lines are typically under 50 characters\nAssume the recipient is very busy and wants to know quickly and clearly what the email is about",
+  "src": {
+   "lec": 5,
+   "p": [
+    36
+   ]
+  },
+  "sim": [
+   "t5-28",
+   "t5-26"
+  ]
+ },
+ {
+  "id": "t5-28",
+  "deck": "L5 · Academic Writing 2",
+  "sec": "Writing the first email",
+  "name": "Formal sign-off",
+  "q": "What should a formal email sign-off include?",
+  "clues": [
+   "How to be reached",
+   "A traditional closing phrase"
+  ],
+  "ans": "Preface with 'Yours Sincerely' (or equivalent)\nContact details so the recipient can reach you in several ways\nOptionally a professional social media account",
+  "src": {
+   "lec": 5,
+   "p": [
+    37
+   ]
+  },
+  "sim": [
+   "t5-27"
+  ]
+ },
+ {
+  "id": "t6-1",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "What is a literature review",
+  "name": "Literature + Review",
+  "q": "How does the lecture define 'literature', 'review' and therefore 'literature review'?",
+  "clues": [
+   "Break the term into two words",
+   "Purpose relates to future research"
+  ],
+  "ans": "Literature: any written works, past findings or existing research on an area of study\nReview: an assessment or evaluation, with the intention of instituting change if necessary\nLiterature review: an assessment or evaluation of existing research, to identify grounds for further research",
+  "src": {
+   "lec": 6,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t6-2"
+  ]
+ },
+ {
+  "id": "t6-2",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "What is a literature review",
+  "name": "APA definition and purpose of a literature review",
+  "q": "According to the APA definition, what four things does a literature review do?",
+  "clues": [
+   "Starts with the topic/problem",
+   "Ends with the next step"
+  ],
+  "ans": "Defines and clarifies the topic or problem\nSummarizes previous investigations to show the current state of research\nIdentifies relations, contradictions, gaps and inconsistencies in the literature\nSuggests the next step(s) in addressing the topic or problem",
+  "src": {
+   "lec": 6,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t6-1",
+   "t6-3"
+  ]
+ },
+ {
+  "id": "t6-3",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "What is a literature review",
+  "name": "Literature review vs mere summary",
+  "q": "Why is a good literature review more than just a summary of past research?",
+  "clues": [
+   "Compare and contrast",
+   "What it aims to suggest"
+  ],
+  "ans": "It compares and contrasts past research\nAims to suggest new research ideas and possibilities\nIncludes past research, findings, theories, models and explanations to show what we currently know",
+  "src": {
+   "lec": 6,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t6-2",
+   "t6-4"
+  ]
+ },
+ {
+  "id": "t6-4",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "What is a literature review",
+  "name": "Four things a good literature review shows",
+  "q": "What four things do you need to show in a good literature review?",
+  "clues": [
+   "Terms, links, support, 'why bother'",
+   "'... evidence, evidence'"
+  ],
+  "ans": "Definition of variables: clear conceptual definitions\nLogical connections between variables: a strong theoretical framework\nEvidence: relevant past evidence justifying the framework\nImportance: convincing arguments for why more research on the topic matters",
+  "src": {
+   "lec": 6,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t6-3"
+  ]
+ },
+ {
+  "id": "t6-5",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Process overview",
+  "name": "Five initial stages of conducting a literature review",
+  "q": "What are the five initial stages of conducting a literature review, in order?",
+  "clues": [
+   "Most of the work happens before writing",
+   "Starts with scope, ends with a table"
+  ],
+  "ans": "1 Define your search scope and initial search\n2 Quick read\n3 Decide on relevance\n4 Critical reading\n5 Extract and organize\nMuch of the work is done before any writing, making writing quicker and less stressful",
+  "src": {
+   "lec": 6,
+   "p": [
+    8,
+    18
+   ]
+  },
+  "sim": [
+   "t6-6",
+   "t6-12"
+  ]
+ },
+ {
+  "id": "t6-6",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Search scope",
+  "name": "Defining your search scope",
+  "q": "How do you begin defining your search scope for a literature review?",
+  "clues": [
+   "Ask yourself a question about interest",
+   "Usually broad, unless..."
+  ],
+  "ans": "Ask: what are you interested in?\nInterest may come from previous studies or suggestions for future research in an article\nInitial search is usually purposefully broad\nIf you already know your topic, you can start narrow",
+  "src": {
+   "lec": 6,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t6-7",
+   "t6-5"
+  ]
+ },
+ {
+  "id": "t6-7",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Search scope",
+  "name": "Broad vs narrow initial search",
+  "q": "What is the difference between a broad and a narrow initial search of the literature?",
+  "clues": [
+   "Depth vs breadth of understanding",
+   "Textbooks vs keywords"
+  ],
+  "ans": "Broad: no specific topic yet; review a broad psychology domain (e.g. developmental)\nBroad is exploratory – broad but shallow understanding; textbooks help\nNarrow: you already know the specific topic (e.g. music therapy for ADHD)\nNarrow uses keywords to find research in that area",
+  "src": {
+   "lec": 6,
+   "p": [
+    10,
+    11,
+    12
+   ]
+  },
+  "sim": [
+   "t6-8",
+   "t6-6"
+  ]
+ },
+ {
+  "id": "t6-8",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Search scope",
+  "name": "What to identify in a narrow search",
+  "q": "What aspects of the research can you identify when doing a narrow search?",
+  "clues": [
+   "Five aspects",
+   "Variables, links, findings, theories, measures"
+  ],
+  "ans": "Definition and description of the variables\nA rough assumption about how the variables may be related\nGeneral findings/pattern of results\nCommonly used theoretical frameworks/theories\nHow the variables were measured or manipulated",
+  "src": {
+   "lec": 6,
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "t6-7"
+  ]
+ },
+ {
+  "id": "t6-9",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Initial search strategies",
+  "name": "Searching with keywords",
+  "q": "What are keywords and how do they help an initial literature search?",
+  "clues": [
+   "Located near the abstract",
+   "ADHD example"
+  ],
+  "ans": "Commonly used terms for frequently studied variables in an area\nUsually placed after the abstract\nHelp narrow your search very quickly\nE.g. ADHD, attention-deficit hyperactivity disorder, impulse control\nA thesaurus and reference lists help find more",
+  "src": {
+   "lec": 6,
+   "p": [
+    12,
+    14
+   ]
+  },
+  "sim": [
+   "t6-10",
+   "t6-11"
+  ]
+ },
+ {
+  "id": "t6-10",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Initial search strategies",
+  "name": "Using an article's references",
+  "q": "How can one highly relevant article be used to find more literature?",
+  "clues": [
+   "Look backwards from the article",
+   "Two Google Scholar links"
+  ],
+  "ans": "Scan its reference list for similar articles\nOn Google Scholar, click 'Related articles'\nExplore the 'Cited by' link",
+  "src": {
+   "lec": 6,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t6-9",
+   "t6-11"
+  ]
+ },
+ {
+  "id": "t6-11",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Initial search strategies",
+  "name": "Searching topics with limited research",
+  "q": "What should you do when a topic, like the Fear of Missing Out, has limited research?",
+  "clues": [
+   "Widen your area",
+   "Related concepts"
+  ],
+  "ans": "Expand your search area\nFOMO = pervasive apprehension that others might be having rewarding experiences from which one is absent (Przybylski et al., 2013)\nBesides the article's references, search related terms: feeling left out, social isolation/loneliness, ostracism",
+  "src": {
+   "lec": 6,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t6-10",
+   "t6-9"
+  ]
+ },
+ {
+  "id": "t6-12",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Quick reading",
+  "name": "Quick reading: what each section tells you",
+  "q": "During a quick reading, what information does each section of an article give you?",
+  "clues": [
+   "Four parts of an article",
+   "Abstract word count"
+  ],
+  "ans": "Title: the variables of interest\nAbstract: a bird's-eye view of the research in about 150–200 words\nIntroduction: the general area of research the paper focuses on\nDiscussion/conclusion: the main take-away of the article",
+  "src": {
+   "lec": 6,
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "t6-13",
+   "t6-15"
+  ]
+ },
+ {
+  "id": "t6-13",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Relevance",
+  "name": "Guidelines for deciding relevance",
+  "q": "What questions help you decide whether an article is relevant to your research topic?",
+  "clues": [
+   "Variables, theory, aim",
+   "Don't be too strict"
+  ],
+  "ans": "Are variables similar to how you defined them, conceptually and operationally?\nDoes it have at least two relevant (or closely related) variables?\nIs its theoretical framework relevant to how your variables connect?\nDoes it have a similar purpose or aim?\nDon't be overly strict – set marginal articles aside rather than discard them",
+  "src": {
+   "lec": 6,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t6-14",
+   "t6-12"
+  ]
+ },
+ {
+  "id": "t6-14",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Relevance",
+  "name": "Closely-related vs broadly-related vs unrelated studies",
+  "q": "For a topic on music therapy for children with ADHD, how do closely-related, broadly-related and unrelated studies differ?",
+  "clues": [
+   "Same disorder vs overlapping symptoms",
+   "A different disorder"
+  ],
+  "ans": "A study can be relevant if variables are closely related, even if not identical\nClosely related: diagnosis and treatment of ADHD\nBroadly related: teacher ratings of hyperactivity, inattentiveness, defiance\nUnrelated: identification of children with autism spectrum disorders",
+  "src": {
+   "lec": 6,
+   "p": [
+    21,
+    22
+   ]
+  },
+  "sim": [
+   "t6-13"
+  ]
+ },
+ {
+  "id": "t6-15",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Critical reading",
+  "name": "Active (critical) vs passive reading",
+  "q": "How does active (critical) reading differ from passive reading?",
+  "clues": [
+   "Gist vs thorough understanding",
+   "Engaging with the paper"
+  ],
+  "ans": "Critical reading = active reading: understand the article thoroughly\nPay more attention to specifics of the article\nEngage with and critique what you read\nPassive reading: only understand the basics or gist",
+  "src": {
+   "lec": 6,
+   "p": [
+    25
+   ]
+  },
+  "sim": [
+   "t6-16",
+   "t6-12"
+  ]
+ },
+ {
+  "id": "t6-16",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Critical reading",
+  "name": "Approaching an article critically",
+  "q": "What guidelines and practical tips help you approach an article critically?",
+  "clues": [
+   "Keep something in mind throughout",
+   "Physical study aids"
+  ],
+  "ans": "Keep your research question in mind\nFocus on details relevant to it\nAsk questions as you read; analyze what you read\nBuild your own arguments from your reading\nTips: highlight, make notes on the article, bookmark with sticky notes",
+  "src": {
+   "lec": 6,
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "t6-15"
+  ]
+ },
+ {
+  "id": "t6-17",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Extract and organize",
+  "name": "Literature review table",
+  "q": "What is the purpose of a literature review table?",
+  "clues": [
+   "Final stage of conducting the review",
+   "Doubles as a writing aid"
+  ],
+  "ans": "Organizes everything you have read (extract and organize stage)\nForms an outline to help you write the literature review\nCan be built author-centric or concept-centric",
+  "src": {
+   "lec": 6,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t6-18",
+   "t6-19"
+  ]
+ },
+ {
+  "id": "t6-18",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Extract and organize",
+  "name": "Author-centric approach",
+  "q": "What is the author-centric approach to a literature review table, and when should you use it?",
+  "clues": [
+   "One row per study",
+   "Recommended for Assignment 2"
+  ],
+  "ans": "Organize literature by what each study found\nColumns like type of paper, hypothesis, method, results (e.g. Kim et al., 2009; Gattino et al., 2011)\nUse to dive deep into the specifics of each study, or if new to the topic\nRecommended for the second assignment",
+  "src": {
+   "lec": 6,
+   "p": [
+    27,
+    28,
+    29
+   ]
+  },
+  "sim": [
+   "t6-19",
+   "t6-20"
+  ]
+ },
+ {
+  "id": "t6-19",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Extract and organize",
+  "name": "Concept-centric approach",
+  "q": "What is the concept-centric approach to a literature review table, and when should you use it?",
+  "clues": [
+   "Organized by themes",
+   "Useful for review papers"
+  ],
+  "ans": "Organize literature by themes or general findings across studies\nEach theme lists sample papers (e.g. music therapy benefits for children with autism)\nUse if already familiar with the area and updating on latest findings\nUseful for writing review papers",
+  "src": {
+   "lec": 6,
+   "p": [
+    27,
+    29
+   ]
+  },
+  "sim": [
+   "t6-18",
+   "t6-20"
+  ]
+ },
+ {
+  "id": "t6-20",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Extract and organize",
+  "name": "Author-centric vs concept-centric",
+  "q": "How do the author-centric and concept-centric approaches to a literature review table compare?",
+  "clues": [
+   "Unit of organization",
+   "Who each suits"
+  ],
+  "ans": "Author-centric: organized study by study; deep dive into specifics; suits beginners and Assignment 2\nConcept-centric: organized by themes/general findings; suits those familiar with the area and review papers\nBoth have advantages",
+  "src": {
+   "lec": 6,
+   "p": [
+    27,
+    29
+   ]
+  },
+  "sim": [
+   "t6-18",
+   "t6-19"
+  ]
+ },
+ {
+  "id": "t6-21",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Final notes",
+  "name": "Important articles",
+  "q": "How should you treat articles that are especially important to your proposed research?",
+  "clues": [
+   "Very closely related",
+   "May suggest methods"
+  ],
+  "ans": "They are very closely related to your proposed research area\nSome propose methods especially relevant to your research\nSingle them out and read them critically",
+  "src": {
+   "lec": 6,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t6-22"
+  ]
+ },
+ {
+  "id": "t6-22",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Final notes",
+  "name": "Stumbling upon new articles",
+  "q": "What should you do if you stumble upon a new article after you thought you had finished collecting literature?",
+  "clues": [
+   "It may change your plans",
+   "Or your question is already answered"
+  ],
+  "ans": "New evidence may make you rethink your research question\nOr you may find your question has already been answered\nIn either case you may need to revise your research question",
+  "src": {
+   "lec": 6,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t6-21"
+  ]
+ },
+ {
+  "id": "t6-23",
+  "deck": "L6 · Conducting a Lit Review",
+  "sec": "Resources",
+  "name": "Resources for literature reviews",
+  "q": "Which resources does the lecture recommend for preparing a literature review?",
+  "clues": [
+   "A manual",
+   "Online repositories"
+  ],
+  "ans": "Scientific/Psychology Report Manual – how to prepare a scientific report, useful up to your thesis\nJournal article databases: PsycInfo, EBSCOHost, ScienceDirect, Google Scholar, Academia.edu, ResearchGate, PLoS One",
+  "src": {
+   "lec": 6,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t6-9"
+  ]
+ },
+ {
+  "id": "t7-1",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Purpose and structure",
+  "name": "Purpose of a literature review",
+  "q": "What does a literature review aim to persuade the reader of about you as the writer?",
+  "clues": [
+   "Breadth and depth",
+   "A gap worth filling"
+  ],
+  "ans": "You have read and understood the topic in depth (breadth and depth)\nYou know the variables and can explain how they connect\nYou have identified a worthwhile research gap\nYou can justify the importance of addressing it\nIn future it can also justify funding your research",
+  "src": {
+   "lec": 7,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t7-2"
+  ]
+ },
+ {
+  "id": "t7-2",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Purpose and structure",
+  "name": "Qualities of good literature reviews",
+  "q": "What qualities do good literature reviews share regardless of their structure?",
+  "clues": [
+   "Flow",
+   "Clarity of terms; attitude of a first-timer"
+  ],
+  "ans": "Arguments flow smoothly and logically from point to point\nLittle to no ambiguity in how terms are used/defined\nUse the sandwich method for paragraphs\nFirst-time writers should be tentative, cautious and humble",
+  "src": {
+   "lec": 7,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t7-1",
+   "t7-3"
+  ]
+ },
+ {
+  "id": "t7-3",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Purpose and structure",
+  "name": "Broad-narrow-broad approach",
+  "q": "What happens in each part of the broad-narrow-broad approach to a scientific article?",
+  "clues": [
+   "Opening, middle, closing",
+   "Hourglass shape"
+  ],
+  "ans": "Broad opening: introduce the topic, define key terms, give context\nNarrow middle: specific research gap, hypotheses, methods, analysis and results\nBroad closing: discussion of how results relate back to the topic, limitations, future directions, theoretical and practical implications",
+  "src": {
+   "lec": 7,
+   "p": [
+    5,
+    6
+   ]
+  },
+  "sim": [
+   "t7-4"
+  ]
+ },
+ {
+  "id": "t7-4",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Purpose and structure",
+  "name": "Broad-narrow-broad for the assignment",
+  "q": "Which sections of the broad-narrow-broad structure are included in the literature review assignment, and which are left out?",
+  "clues": [
+   "No data are collected",
+   "Five sections remain"
+  ],
+  "ans": "Include: general introduction; review of existing literature; research gap and research question; focus of current study and hypotheses; theoretical and practical implications\nLeave out: method, analysis, results, limitations (no data collected)",
+  "src": {
+   "lec": 7,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t7-3"
+  ]
+ },
+ {
+  "id": "t7-5",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Writing the top half",
+  "name": "Writing the top half",
+  "q": "What goes into the general introduction and the review section when writing the top half of a literature review?",
+  "clues": [
+   "Importance in context",
+   "Terms, framework, critique"
+  ],
+  "ans": "General introduction: introduce the key topic; highlight why it is important for the current context\nReview: define key terms/variables; explain the theoretical framework with evidence; summarize and critique existing evidence\nCritique, don't merely summarize\nGradually narrow toward the research gap and question",
+  "src": {
+   "lec": 7,
+   "p": [
+    8,
+    9
+   ]
+  },
+  "sim": [
+   "t7-6",
+   "t7-7"
+  ]
+ },
+ {
+  "id": "t7-6",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "General introduction",
+  "name": "Writing a strong general introduction",
+  "q": "What makes a strong general introduction to the topic?",
+  "clues": [
+   "Explain it to family and friends",
+   "What to avoid in the first sentence"
+  ],
+  "ans": "Clear and relevant; introduce the topic broadly as you would to non-psychologists\nAvoid research findings or theory in the first sentence\nTell readers why the topic is relevant to them and why they should keep reading\nShow how it influences their lives – statistics help (e.g. '400 million cups of coffee a day')",
+  "src": {
+   "lec": 7,
+   "p": [
+    10,
+    11
+   ]
+  },
+  "sim": [
+   "t7-5",
+   "t7-7"
+  ]
+ },
+ {
+  "id": "t7-7",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Review of existing literature",
+  "name": "Review of existing literature section",
+  "q": "What should the review of existing literature section contain?",
+  "clues": [
+   "The main body",
+   "Key word: 'explain'"
+  ],
+  "ans": "The main content: an overview of available literature, detailing articles set aside earlier\nDefine specialized terms when they are introduced\nExplain the theoretical framework – how and why variables are related\nCite relevant articles to support the framework",
+  "src": {
+   "lec": 7,
+   "p": [
+    12,
+    13
+   ]
+  },
+  "sim": [
+   "t7-8",
+   "t7-5"
+  ]
+ },
+ {
+  "id": "t7-8",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Theoretical framework",
+  "name": "Theoretical framework",
+  "q": "What is a theoretical framework, and does it need to be a formal theory?",
+  "clues": [
+   "Explains connections",
+   "Coffee phytochemistry example"
+  ],
+  "ans": "The explanation for the connections between variables\nDoes not need to be a formal model or theory\nE.g. coffee's rich phytochemistry explains why coffee consumption leads to positive health outcomes\nCan be presented via a named model, a concept, or an explanatory mechanism",
+  "src": {
+   "lec": 7,
+   "p": [
+    13,
+    14,
+    15
+   ]
+  },
+  "sim": [
+   "t7-9",
+   "t7-10"
+  ]
+ },
+ {
+  "id": "t7-9",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Theoretical framework",
+  "name": "Using multiple theoretical frameworks",
+  "q": "What does the lecture advise about using multiple theoretical frameworks?",
+  "clues": [
+   "Advanced skill",
+   "Parsimony"
+  ],
+  "ans": "If using several, state clearly why each was included\nCompare and contrast, integrate or combine, and judge each one's validity and strength\nFairly advanced – avoid unless confident\nHighly recommended to choose only ONE for a parsimonious explanation",
+  "src": {
+   "lec": 7,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t7-8"
+  ]
+ },
+ {
+  "id": "t7-10",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Theoretical framework",
+  "name": "Three ways to present a theoretical framework",
+  "q": "What are the three ways a theoretical framework can be presented, with the lecture's example of each?",
+  "clues": [
+   "A named model, a concept, a mechanism",
+   "Video games, Facebook, culture and memory"
+  ],
+  "ans": "Formally named model: General Aggression Model – aggressive games trigger aggressive cognitions, emotions, behaviours\nConcept: availability heuristic – heavy Facebook users recall more positive posts and form distorted perceptions of others\nExplanatory mechanism: limited processing capacity, priorities shaped by culture, so memories (incl. false memories) reflect cultural values",
+  "src": {
+   "lec": 7,
+   "p": [
+    16,
+    17,
+    18
+   ]
+  },
+  "sim": [
+   "t7-8"
+  ]
+ },
+ {
+  "id": "t7-11",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Citing past research",
+  "name": "Why cite past research for the framework",
+  "q": "Why must you cite past research to support your theoretical framework?",
+  "clues": [
+   "Weight and continuity",
+   "Otherwise it sounds like..."
+  ],
+  "ans": "Gives weight to your arguments\nAdds continuity and strength\nWithout it, the framework sounds like personal opinion\nUnsupported claims get called into question",
+  "src": {
+   "lec": 7,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t7-12",
+   "t7-13"
+  ]
+ },
+ {
+  "id": "t7-12",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Citing past research",
+  "name": "When past research supports the framework",
+  "q": "When is a past study relevant for supporting your theoretical framework?",
+  "clues": [
+   "Four criteria",
+   "Describing findings alone is not enough"
+  ],
+  "ans": "Explain how the study contributes to the framework, not just what it found\nRelevant if it: claims a relationship between the variables\nEstablishes a direction of causality between them\nExplains why the variables are related\nSupports or disproves the framework",
+  "src": {
+   "lec": 7,
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "t7-11",
+   "t7-14"
+  ]
+ },
+ {
+  "id": "t7-13",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Citing past research",
+  "name": "Citation spamming",
+  "q": "What is citation spamming, and what is the better alternative shown in the lecture?",
+  "clues": [
+   "Many brackets in one sentence",
+   "A single meta-analysis"
+  ],
+  "ans": "Loading sentences with many citations (e.g. many studies on caffeine and heart rate, breathing, wakefulness)\nA large number of citations is not an indication of deep reading\nBetter: cite a focused source, e.g. one meta-analysis (Cano-Marquina et al., 2013) showing wide effects of coffee",
+  "src": {
+   "lec": 7,
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "t7-14",
+   "t7-11"
+  ]
+ },
+ {
+  "id": "t7-14",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Citing past research",
+  "name": "Include vs exclude when citing a past study",
+  "q": "What should you include and exclude when describing a past study in a literature review?",
+  "clues": [
+   "Emphasize findings",
+   "p-values and procedures"
+  ],
+  "ans": "Include: citation and authors; brief description of what they did; key findings (emphasized); brief argument for relevance\nExclude: inferential statistics (e.g. p < .05); detailed procedures or measures; the past study's own theoretical/practical implications",
+  "src": {
+   "lec": 7,
+   "p": [
+    23
+   ]
+  },
+  "sim": [
+   "t7-13",
+   "t7-12"
+  ]
+ },
+ {
+  "id": "t7-15",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Research gap",
+  "name": "Research gap",
+  "q": "What is a research gap, and how is one illustrated in the coffee example?",
+  "clues": [
+   "Not yet addressed, but should be",
+   "Personality and caffeine"
+  ],
+  "ans": "An area of study that has not yet been addressed – but should be\nDerived after reviewing the literature, leading to a research question\nCoffee: limited evidence on individual (personality) differences in coffee consumption\nE.g. caffeine enhances working memory for extraverts but not introverts (Smillie & Gökçen, 2010)",
+  "src": {
+   "lec": 7,
+   "p": [
+    24
+   ]
+  },
+  "sim": [
+   "t7-16",
+   "t7-17"
+  ]
+ },
+ {
+  "id": "t7-16",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Research gap",
+  "name": "Strong vs moderate vs weak research gaps",
+  "q": "How do strong, moderate and weak research gaps differ?",
+  "clues": [
+   "Novelty and new models",
+   "Replication; already-suggested future research"
+  ],
+  "ans": "Strong: novel, intriguing, addresses an obvious, important gap; may help create a new model/framework\nModerate: replication and logical extension of the lead paper, or compares two competing methods/models\nWeak: minimal potential to add/challenge understanding; just a future-research suggestion already in the lead article",
+  "src": {
+   "lec": 7,
+   "p": [
+    25,
+    28
+   ]
+  },
+  "sim": [
+   "t7-15",
+   "t7-17"
+  ]
+ },
+ {
+  "id": "t7-17",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Research gap",
+  "name": "Research gap pitfalls to avoid",
+  "q": "What must you avoid when identifying a research gap?",
+  "clues": [
+   "Gaps you won't address",
+   "'A Malaysian sample' isn't enough"
+  ],
+  "ans": "Identifying gaps you have no intention of addressing\nNaming limitations of past studies and doing nothing about them\nClaiming your study merely improves on method\nNot enough: same study with larger/different sample, different gender/age, or a Malaysian sample",
+  "src": {
+   "lec": 7,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t7-16",
+   "t7-18"
+  ]
+ },
+ {
+  "id": "t7-18",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Research gap",
+  "name": "Arguing for the research question",
+  "q": "How should you argue convincingly that your research question needs to be addressed?",
+  "clues": [
+   "Chain evidence together",
+   "Extraverted coffee drinkers"
+  ],
+  "ans": "Link evidence step by step to the question\nE.g. extraverts benefit more cognitively from caffeine (Lara, 2015); cognitive performance relates to later health literacy (Federman et al., 2009)\nSo ask: do extraverted coffee drinkers have better long-term health than introverted ones?\nState why answers matter (practical dietary implications)",
+  "src": {
+   "lec": 7,
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "t7-15"
+  ]
+ },
+ {
+  "id": "t7-19",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Implications",
+  "name": "Expected theoretical implications",
+  "q": "What are expected theoretical implications, and what questions help you write them?",
+  "clues": [
+   "'So-what' for theory",
+   "Four ways a study can contribute"
+  ],
+  "ans": "The 'so-what' for our understanding of theory or phenomena; why other researchers should take note\nCan be briefly stated at the end of the literature review\nAsk if the study: advances understanding of theory; contributes to revising theory or challenges findings\nImproves understanding of how variables relate; adds nuances/dimensions to theories or models",
+  "src": {
+   "lec": 7,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t7-20",
+   "t7-21"
+  ]
+ },
+ {
+  "id": "t7-20",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Implications",
+  "name": "Weak vs strong theoretical implications",
+  "q": "How do weak and strong expected theoretical implications differ?",
+  "clues": [
+   "'Adds new understanding to the literature'",
+   "Naming specific prior studies"
+  ],
+  "ans": "Weak/mediocre: only says findings 'add new understanding to the literature'\nStrong: go one step further – refine or extend existing theories\nProvide foundations for new theory or models\nE.g. linking to Jones and Lejuez (2005) on caffeine and sensation seeking",
+  "src": {
+   "lec": 7,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t7-19",
+   "t7-22"
+  ]
+ },
+ {
+  "id": "t7-21",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Implications",
+  "name": "Expected practical implications",
+  "q": "What are expected practical implications, and what are the do's and don'ts for writing them?",
+  "clues": [
+   "'So-what' for the real world",
+   "Specific vs grand"
+  ],
+  "ans": "The 'so-what' for the real world – why non-researchers, decision makers and society should care\nThink about usefulness to society, organizations, practitioners, populations; resulting treatments/interventions\nDo: be specific to your study; link logically to your theoretical framework\nDon't: be overly broad/vague; propose unfeasible or overly grand implications",
+  "src": {
+   "lec": 7,
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "t7-22",
+   "t7-19"
+  ]
+ },
+ {
+  "id": "t7-22",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Implications",
+  "name": "Vague vs specific practical implications",
+  "q": "What distinguishes a vague practical implication from a specific and thoughtful one in the coffee example?",
+  "clues": [
+   "'Contribute knowledge'",
+   "Personality-based dietary advice"
+  ],
+  "ans": "Vague: only says it will 'contribute knowledge' so people know coffee affects health – obvious, fits any coffee study\nSpecific: proposes evidence-based dietary suggestions adjusting coffee intake by personality (e.g. extraverts vs introverts)\nSpecific states a clear application to people's personalities and food/drink intake",
+  "src": {
+   "lec": 7,
+   "p": [
+    32,
+    33
+   ]
+  },
+  "sim": [
+   "t7-21",
+   "t7-20"
+  ]
+ },
+ {
+  "id": "t7-23",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "SDGs",
+  "name": "Linking implications to the SDGs",
+  "q": "How can the Sustainable Development Goals (SDGs) be used when writing expected practical implications?",
+  "clues": [
+   "17 UN goals",
+   "Small contributions count"
+  ],
+  "ans": "The UN's 17 SDGs promote global well-being, sustainability and social development\nConsider how your research aim/contribution aligns with an SDG\nShows broader societal relevance and impact of psychological research\nYour study need not solve an SDG – small contributions matter\nE.g. personality-based diet study aligns with SDG 3 (Good Health and Well-Being)",
+  "src": {
+   "lec": 7,
+   "p": [
+    34,
+    35,
+    37
+   ]
+  },
+  "sim": [
+   "t7-24",
+   "t7-21"
+  ]
+ },
+ {
+  "id": "t7-24",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "SDGs",
+  "name": "Psychology fields and SDGs",
+  "q": "How do fields of psychology relate to the SDGs, according to the lecture's example?",
+  "clues": [
+   "Some links are more direct",
+   "Food waste study"
+  ],
+  "ans": "Some SDGs connect more directly to specific fields (e.g. health/clinical/counselling/positive psychology; educational; social; I/O)\nPsychology can still contribute to other SDGs\nE.g. Russell et al. (2017): negative emotions and habits linked to food waste – relates to SDG 12",
+  "src": {
+   "lec": 7,
+   "p": [
+    36
+   ]
+  },
+  "sim": [
+   "t7-23"
+  ]
+ },
+ {
+  "id": "t7-25",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Outlining",
+  "name": "Literature review outline and tree diagram",
+  "q": "How does a literature review outline (with a tree diagram) help you write?",
+  "clues": [
+   "Positions points relative to each other",
+   "Coffee example headers"
+  ],
+  "ans": "Helps you write efficiently, position points and refine arguments\nOrganizes a coherent, logical, well-supported review; lets you edit or discard irrelevant points\nMost helpful for the broad parts: introduction and review of literature\nTree diagram first, then point form under headers (e.g. Introduction: consumption rates, coffee trade; Review: debate, phytochemistry, effects)",
+  "src": {
+   "lec": 7,
+   "p": [
+    41,
+    42,
+    43
+   ]
+  },
+  "sim": [
+   "t7-26"
+  ]
+ },
+ {
+  "id": "t7-26",
+  "deck": "L7 · Writing a Lit Review",
+  "sec": "Outlining",
+  "name": "Assessing the flow of an outline",
+  "q": "What questions should you ask when assessing the flow of your literature review outline?",
+  "clues": [
+   "Do it before writing, as a group",
+   "'Why is this here?'"
+  ],
+  "ans": "Does the flow of points make sense?\nAre any parts out of place (irrelevant) or better placed elsewhere?\nWould someone ask 'Why is this here?' or 'What was the point of this?'",
+  "src": {
+   "lec": 7,
+   "p": [
+    44
+   ]
+  },
+  "sim": [
+   "t7-25"
+  ]
+ },
+ {
+  "id": "t8-1",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Integrity in writing",
+  "name": "Integrity in scientific writing",
+  "q": "What does integrity in scientific writing mean, and how do we practise it?",
+  "clues": [
+   "It is about other people's ideas",
+   "Two skills this lecture focuses on"
+  ],
+  "ans": "Fully and properly acknowledging others' ideas\nPractised by using correct citations and paraphrasing\nDoing so helps us avoid plagiarizing another's work",
+  "src": {
+   "lec": 8,
+   "p": [
+    2
+   ]
+  },
+  "sim": [
+   "t8-4",
+   "t8-6"
+  ]
+ },
+ {
+  "id": "t8-2",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Key terms",
+  "name": "Paraphrasing",
+  "q": "What is paraphrasing?",
+  "clues": [
+   "Whose words do you use?",
+   "Whose ideas are they?"
+  ],
+  "ans": "Using your own words to interpret important information and ideas from someone else's work\nExpressing another's ideas in your own words\nStill requires a citation to the source",
+  "src": {
+   "lec": 8,
+   "p": [
+    4,
+    5,
+    29
+   ]
+  },
+  "sim": [
+   "t8-3",
+   "t8-14"
+  ]
+ },
+ {
+  "id": "t8-3",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Key terms",
+  "name": "Citation",
+  "q": "What is a citation?",
+  "clues": [
+   "Giving credit",
+   "Tells readers something about origin"
+  ],
+  "ans": "To refer to, mention or give credit to an idea that is not yours\nAcknowledges the idea is not yours\nTells readers where the idea originated from",
+  "src": {
+   "lec": 8,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t8-2",
+   "t8-4"
+  ]
+ },
+ {
+  "id": "t8-4",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Key terms",
+  "name": "Plagiarism",
+  "q": "What is plagiarism, and can it be unintentional?",
+  "clues": [
+   "Missing credit",
+   "Think about intent"
+  ],
+  "ans": "Copying or stating another's ideas without giving due credit\nMentioning ideas or claims without a citation\nCan be either deliberate or accidental",
+  "src": {
+   "lec": 8,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t8-3",
+   "t8-8"
+  ]
+ },
+ {
+  "id": "t8-5",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Paraphrasing and citations",
+  "name": "Why we cite",
+  "q": "What two things does citing tell your readers?",
+  "clues": [
+   "One is about honesty",
+   "One is about further reading"
+  ],
+  "ans": "That you are not making things up\nWhere to refer to for more information about a claim",
+  "src": {
+   "lec": 8,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t8-3",
+   "t8-6"
+  ]
+ },
+ {
+  "id": "t8-6",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Paraphrasing and citations",
+  "name": "Importance of paraphrasing",
+  "q": "Why is paraphrasing considered a key skill in academic and professional careers?",
+  "clues": [
+   "What does it show about you?",
+   "Two things it demonstrates"
+  ],
+  "ans": "You need to express others' ideas in your own words when writing\nIt demonstrates comprehension of the source material\nIt demonstrates acknowledgement of the source material",
+  "src": {
+   "lec": 8,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t8-5",
+   "t8-11"
+  ]
+ },
+ {
+  "id": "t8-7",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Integrity when paraphrasing",
+  "name": "Why plagiarism matters",
+  "q": "Why is plagiarism treated as severe academic and professional misconduct?",
+  "clues": [
+   "Three reasons on the slide",
+   "Think trust, character, others' effort"
+  ],
+  "ans": "Poor paraphrasing reflects carelessness or outright dishonesty\nIt is a breach of trust\nIt reflects poorly on your character and your organization\nIt disregards others' hard-earned work\nIn academia it takes marks for others' work and gains an unfair advantage over honest students",
+  "src": {
+   "lec": 8,
+   "p": [
+    9,
+    10
+   ]
+  },
+  "sim": [
+   "t8-4",
+   "t8-8"
+  ]
+ },
+ {
+  "id": "t8-8",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "What counts as plagiarism",
+  "name": "What counts as plagiarism",
+  "q": "What actions will lead to suspicions of plagiarism?",
+  "clues": [
+   "A specific word count",
+   "Structure matters too"
+  ],
+  "ans": "Copying three or more words in a sequence without a citation\nMaking only minor changes (changing a few words, using synonyms, switching clause/paragraph order)\nCopying the structure of presentation from the source\nNot citing the source of the original material\nAnything uncited is assumed original; if shown otherwise, you can be accused",
+  "src": {
+   "lec": 8,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t8-4",
+   "t8-14"
+  ]
+ },
+ {
+  "id": "t8-9",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "RAP strategy",
+  "name": "RAP strategy",
+  "q": "What are the three steps of the RAP strategy for paraphrasing?",
+  "clues": [
+   "An acronym",
+   "Reading, questioning, rewriting"
+  ],
+  "ans": "R: Read the original paragraph\nA: Ask for the main idea and the evidence supporting it\nP: Put it in your own words (do not reproduce the original structure)\nResearch suggests RAP improves recall from 48% to 84% (Schumaker, 1984)",
+  "src": {
+   "lec": 8,
+   "p": [
+    12,
+    16
+   ]
+  },
+  "sim": [
+   "t8-10",
+   "t8-11"
+  ]
+ },
+ {
+  "id": "t8-10",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "RAP strategy",
+  "name": "Generation effect",
+  "q": "What is the Generation Effect and how does it relate to paraphrasing?",
+  "clues": [
+   "A memory phenomenon",
+   "Who produced the information?"
+  ],
+  "ans": "We remember things better if we were the source of that information\nExplains why paraphrasing improves comprehension\nRestating ideas in your own words makes you the generator",
+  "src": {
+   "lec": 8,
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "t8-9",
+   "t8-11"
+  ]
+ },
+ {
+  "id": "t8-11",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "RAP strategy",
+  "name": "How paraphrasing improves comprehension",
+  "q": "How does paraphrasing improve comprehension, and what happens without comprehension?",
+  "clues": [
+   "Effort and restating",
+   "Parrots"
+  ],
+  "ans": "You make the effort to concentrate, read and identify the author's main ideas\nYou re-state the ideas in sentences that make sense to you\nWithout comprehension we merely parrot/mimic others' ideas\nWe may even misinterpret another's ideas",
+  "src": {
+   "lec": 8,
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "t8-9",
+   "t8-10"
+  ]
+ },
+ {
+  "id": "t8-12",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Good, bad and ugly",
+  "name": "Good vs bad paraphrase",
+  "q": "What distinguishes a good paraphrase from a bad one?",
+  "clues": [
+   "Compare the three Shidlo and Schroeder attempts",
+   "Structure, words, citation"
+  ],
+  "ans": "Bad: swaps a few words or names but keeps the original sentence structure (and may lack a citation)\nWeak: cited but still follows the original's structure closely\nGood: own structure and wording, captures the main idea, adds interpretation, and is cited\nA good paraphrase retains the original meaning",
+  "src": {
+   "lec": 8,
+   "p": [
+    7,
+    14,
+    15,
+    18
+   ]
+  },
+  "sim": [
+   "t8-8",
+   "t8-2"
+  ]
+ },
+ {
+  "id": "t8-13",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "APA formatting",
+  "name": "APA formatting",
+  "q": "What is APA formatting, and what other styles is it distinguished from?",
+  "clues": [
+   "Named after an organization",
+   "Three other styles"
+  ],
+  "ans": "Standards of manuscript formatting and presentation prescribed by the American Psychological Association\nEnsures consistency and uniformity in presenting scientific papers\nDiffers from MLA, Harvard Referencing Style, and Chicago Manual of Style",
+  "src": {
+   "lec": 8,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t8-14"
+  ]
+ },
+ {
+  "id": "t8-14",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "APA formatting",
+  "name": "General stylistic guidelines",
+  "q": "What are the APA general stylistic guidelines for a manuscript?",
+  "clues": [
+   "Spacing",
+   "Margins",
+   "Font"
+  ],
+  "ans": "Double spacing\n1-inch (2.54 cm) margins all along the document\nTimes New Roman, 12 pt",
+  "src": {
+   "lec": 8,
+   "p": [
+    21,
+    22
+   ]
+  },
+  "sim": [
+   "t8-13",
+   "t8-30"
+  ]
+ },
+ {
+  "id": "t8-15",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Report body",
+  "name": "APA header levels",
+  "q": "How are the five APA header levels formatted?",
+  "clues": [
+   "Centered vs flush left vs indented",
+   "Where the paragraph starts"
+  ],
+  "ans": "Level 1: Centered, Boldface, Title Case; paragraph begins below\nLevel 2: Flush Left, Boldface, Title Case; paragraph begins below\nLevel 3: Flush Left, Boldface Italic, Title Case\nLevel 4: Indented, Boldface, Title Case, ending with a period; paragraph continues on the same line\nLevel 5: as Level 4 but Boldface Italic",
+  "src": {
+   "lec": 8,
+   "p": [
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "t8-16"
+  ]
+ },
+ {
+  "id": "t8-16",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Report body",
+  "name": "Introduction heading rule",
+  "q": "What heading should the introduction of an APA paper have?",
+  "clues": [
+   "Not the obvious word",
+   "Think about the paper's title"
+  ],
+  "ans": "Do not use a generic 'Introduction' header (unless explicitly asked)\nUse the chosen title of the paper instead\nThe first header within the introduction should be a Level 2 header",
+  "src": {
+   "lec": 8,
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "t8-15"
+  ]
+ },
+ {
+  "id": "t8-17",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Report body",
+  "name": "APA tables",
+  "q": "What are the APA rules for tables?",
+  "clues": [
+   "Lines",
+   "Decimal places",
+   "Title position"
+  ],
+  "ans": "No vertical lines\np-values to three decimal places (e.g., p = .624)\nOther values to two decimal places (e.g., M = 4.25, SD = 6.43)\nTable titles go above the table",
+  "src": {
+   "lec": 8,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t8-18"
+  ]
+ },
+ {
+  "id": "t8-18",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Report body",
+  "name": "APA figures",
+  "q": "What are the APA rules for figures?",
+  "clues": [
+   "How to draw graphs",
+   "Legend position",
+   "Title position"
+  ],
+  "ans": "Most statistical output (graphs) can be simple line drawings\nLegends go at the top or to the right of the main figure\nFigure titles go above the figure",
+  "src": {
+   "lec": 8,
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "t8-17"
+  ]
+ },
+ {
+  "id": "t8-19",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "In-text citations",
+  "name": "Parenthetical vs narrative citation",
+  "q": "What is the difference between a parenthetical and a narrative in-text citation?",
+  "clues": [
+   "Where the names sit",
+   "Which joining word or symbol is used"
+  ],
+  "ans": "Parenthetical: names and year inside brackets, e.g., (Christian & Griffiths, 2016)\nNarrative: names part of the sentence, year in brackets, e.g., Christian and Griffiths (2016)\nUse '&' inside brackets, 'and' in narrative\nChoice depends on sentence structure",
+  "src": {
+   "lec": 8,
+   "p": [
+    29,
+    30
+   ]
+  },
+  "sim": [
+   "t8-20",
+   "t8-21"
+  ]
+ },
+ {
+  "id": "t8-20",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "In-text citations",
+  "name": "Author names in citations",
+  "q": "Whose names and which part of the name go into an APA in-text citation for one or two authors?",
+  "clues": [
+   "First or last name?",
+   "No initials"
+  ],
+  "ans": "Always cite the authors' surnames (last/family names)\nOne author: Fredrickson (2004) or (Fredrickson, 2004)\nTwo authors: name both every time, e.g., (Christian & Griffiths, 2016)",
+  "src": {
+   "lec": 8,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t8-19",
+   "t8-21"
+  ]
+ },
+ {
+  "id": "t8-21",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "In-text citations",
+  "name": "Et al. rule (3+ authors)",
+  "q": "How do you cite a source with more than two authors in APA (current edition)?",
+  "clues": [
+   "Even the first time",
+   "A Latin abbreviation"
+  ],
+  "ans": "Shorten every citation, including the first, to first author + 'et al.'\nE.g., Fredrickson et al. (2003) or (Fredrickson et al., 2003)\nListing all authors on first mention is APA 6th edition and no longer accepted",
+  "src": {
+   "lec": 8,
+   "p": [
+    31
+   ]
+  },
+  "sim": [
+   "t8-20",
+   "t8-19"
+  ]
+ },
+ {
+  "id": "t8-22",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Primary and secondary citations",
+  "name": "Primary vs secondary citation",
+  "q": "What is the difference between a primary citation and a secondary citation?",
+  "clues": [
+   "Did you read the original?",
+   "'Author A says that Author B says...'"
+  ],
+  "ans": "Primary: citing the original source you read first-hand ('this author claims that...')\nSecondary: citing Author B as described in Author A's article without reading Author B's article\nUse primary citations whenever possible\nOnly use secondary citations if you really cannot find the source article",
+  "src": {
+   "lec": 8,
+   "p": [
+    32
+   ]
+  },
+  "sim": [
+   "t8-23",
+   "t8-24"
+  ]
+ },
+ {
+  "id": "t8-23",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Primary and secondary citations",
+  "name": "Secondary citation format",
+  "q": "How do you format a secondary citation, and what does it imply?",
+  "clues": [
+   "Two words link the sources",
+   "Which source comes second?"
+  ],
+  "ans": "Original source, then 'as cited in', then the source you read\nE.g., (Henderlong & Lepper, 2002, as cited in Brummelman et al., 2004)\nImplies you only read the second source (Brummelman et al.)",
+  "src": {
+   "lec": 8,
+   "p": [
+    33
+   ]
+  },
+  "sim": [
+   "t8-22",
+   "t8-24"
+  ]
+ },
+ {
+  "id": "t8-24",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Primary and secondary citations",
+  "name": "Secondary references and tertiary citations",
+  "q": "What is allowed and not allowed for secondary sources in the reference list, and what about tertiary citations?",
+  "clues": [
+   "In-text vs reference list",
+   "Three layers deep"
+  ],
+  "ans": "Secondary citations may be used in text, but not secondary references\nDo not include secondary references in the reference list\nNever use tertiary citations (X as cited in Y as cited in Z)\nTertiary citations are messy, confusing and likely to misinterpret the original claim",
+  "src": {
+   "lec": 8,
+   "p": [
+    34
+   ]
+  },
+  "sim": [
+   "t8-22",
+   "t8-23"
+  ]
+ },
+ {
+  "id": "t8-25",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "In-text citations",
+  "name": "Multiple citations of the same source",
+  "q": "How should you refer again to the same study within a passage?",
+  "clues": [
+   "Avoid repetition",
+   "Pronouns and descriptions"
+  ],
+  "ans": "You do not have to repeat all the authors' names each time\nWhen it is clear you mean the same study, use 'the authors', 'they', 'their first study'\nE.g., Brummelman et al. (2013)... The authors conducted three studies...",
+  "src": {
+   "lec": 8,
+   "p": [
+    35
+   ]
+  },
+  "sim": [
+   "t8-26",
+   "t8-27"
+  ]
+ },
+ {
+  "id": "t8-26",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "In-text citations",
+  "name": "Citing two or more sources",
+  "q": "What are the two rules for citing two or more sources together?",
+  "clues": [
+   "Order",
+   "Punctuation between them"
+  ],
+  "ans": "List references in alphabetical order\nSeparate each reference with a semicolon (;)\nE.g., (Henderlong & Lepper, 2002; McKay & Fanning, 2000)\nUseful when sources support the same point or to summarize an area of research",
+  "src": {
+   "lec": 8,
+   "p": [
+    36
+   ]
+  },
+  "sim": [
+   "t8-25",
+   "t8-27"
+  ]
+ },
+ {
+  "id": "t8-27",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "In-text citations",
+  "name": "Same author, same year",
+  "q": "How do you distinguish two articles by the same author published in the same year?",
+  "clues": [
+   "A suffix",
+   "Ordered like the reference list"
+  ],
+  "ans": "Add a letter suffix (a, b, c) after the year\nArrange alphabetically as per your reference list\nE.g., Fredrickson (2013a) and Fredrickson (2013b)",
+  "src": {
+   "lec": 8,
+   "p": [
+    37
+   ]
+  },
+  "sim": [
+   "t8-26",
+   "t8-25"
+  ]
+ },
+ {
+  "id": "t8-28",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Direct quotes",
+  "name": "Direct quote rules",
+  "q": "What are the APA rules for using a direct quote?",
+  "clues": [
+   "Punctuation marks",
+   "A number you must add",
+   "A limit"
+  ],
+  "ans": "Use quotation marks around the exact words\nUse the usual author surname and year citation\nGive the page number, e.g., (Ng, 2017, p. 57) or Haldeman (1994, p. 221)\nLimit quotes to no more than 10% of your total work; over-use risks plagiarism",
+  "src": {
+   "lec": 8,
+   "p": [
+    38,
+    40
+   ]
+  },
+  "sim": [
+   "t8-29",
+   "t8-30"
+  ]
+ },
+ {
+  "id": "t8-29",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Direct quotes",
+  "name": "When to use direct quotes",
+  "q": "When is it ideal to use a direct quotation instead of a paraphrase?",
+  "clues": [
+   "Four situations",
+   "Critique, meaning, authority, definitions"
+  ],
+  "ans": "When presenting an author's position/theory and you want to critique its wording\nWhen paraphrasing may lose or misinterpret the intended idea\nWhen appealing to the author's authority\nWhen giving an accurate word-for-word definition of a construct, term or variable",
+  "src": {
+   "lec": 8,
+   "p": [
+    39
+   ]
+  },
+  "sim": [
+   "t8-28",
+   "t8-2"
+  ]
+ },
+ {
+  "id": "t8-30",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Direct quotes",
+  "name": "Editing direct quotes",
+  "q": "How do you show that a direct quote has been altered or shortened?",
+  "clues": [
+   "Two kinds of punctuation",
+   "Grammar vs length"
+  ],
+  "ans": "Square brackets [ ] mark text changed so it reads grammatically\nThree full stops (...) mark that original text has been shortened (truncated)\nOnly minor edits are allowed",
+  "src": {
+   "lec": 8,
+   "p": [
+    41
+   ]
+  },
+  "sim": [
+   "t8-28"
+  ]
+ },
+ {
+  "id": "t8-31",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Reference list",
+  "name": "Reference list vs bibliography",
+  "q": "What is the difference between a reference list and a bibliography?",
+  "clues": [
+   "Cited vs read",
+   "Which one APA wants"
+  ],
+  "ans": "Reference list: all references cited in your written text (your primary citations)\nBibliography: all materials read in order to write your text\nThey are not to be confused",
+  "src": {
+   "lec": 8,
+   "p": [
+    45
+   ]
+  },
+  "sim": [
+   "t8-32"
+  ]
+ },
+ {
+  "id": "t8-32",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Reference list",
+  "name": "Reference list formatting rules",
+  "q": "What are the formatting rules for an APA reference list?",
+  "clues": [
+   "Where it starts",
+   "Order",
+   "Indentation and spacing"
+  ],
+  "ans": "Start immediately after the article (after the concluding paragraph), on a new page\nArrange entries in alphabetical order\nUse a hanging indentation for every entry\nDouble line spacing\nCross-check against your in-text citations",
+  "src": {
+   "lec": 8,
+   "p": [
+    45,
+    53,
+    54
+   ]
+  },
+  "sim": [
+   "t8-31",
+   "t8-33"
+  ]
+ },
+ {
+  "id": "t8-33",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Reference list",
+  "name": "Journal article reference format",
+  "q": "What is the APA reference format for a journal article?",
+  "clues": [
+   "Six parts in order",
+   "What is italicized?"
+  ],
+  "ans": "Author(s). (Year). Title of article. Journal Name, volume(issue), page range. DOI\nArticle title: capitalize first word only\nJournal name in italics and Title Case; volume in italics\nComma after the first author's initials before '&'\nDOI presented as a hyperlink",
+  "src": {
+   "lec": 8,
+   "p": [
+    46,
+    47,
+    48
+   ]
+  },
+  "sim": [
+   "t8-34",
+   "t8-35"
+  ]
+ },
+ {
+  "id": "t8-34",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Reference list",
+  "name": "Book vs book chapter reference format",
+  "q": "How does the APA reference format for a book differ from that for a book chapter?",
+  "clues": [
+   "Editors",
+   "Page range"
+  ],
+  "ans": "Book: Author(s). (Year). Title of book. Publisher. DOI (if available)\nChapter: Author, A. (Year). Title of chapter. In B. Editor (Ed.), Title of book (pp. xx-xx). Publisher. DOI (if available)\nChapter entries add 'In' + editors (Ed./Eds.) and the chapter's page range\nUse a chapter entry when a text has chapters by different authors and you cite one",
+  "src": {
+   "lec": 8,
+   "p": [
+    46,
+    51,
+    52,
+    55
+   ]
+  },
+  "sim": [
+   "t8-33"
+  ]
+ },
+ {
+  "id": "t8-35",
+  "deck": "L8 · Integrity & Paraphrasing",
+  "sec": "Reference list",
+  "name": "DOI",
+  "q": "What is a DOI, where is it found, and what if an article has none?",
+  "clues": [
+   "A unique identifier",
+   "First page",
+   "Two fallback options"
+  ],
+  "ans": "Digital object identifier: a unique numerical identifier for online documents\nUsually at the top or bottom of an article's first page; doi.org can look it up\nNo DOI, retrieved from a non-database website: give the URL as a hyperlink\nNo DOI, from a journal website or hardcopy only: end the entry at the page numbers",
+  "src": {
+   "lec": 8,
+   "p": [
+    49,
+    50
+   ]
+  },
+  "sim": [
+   "t8-33"
+  ]
+ },
+ {
+  "id": "t10-1",
+  "deck": "L10 · Deductive Logic",
+  "sec": "What is logic",
+  "name": "Logic",
+  "q": "How does the lecture define logic?",
+  "clues": [
+   "A field of study",
+   "Correct and incorrect..."
+  ],
+  "ans": "The study of correct and incorrect forms of reasoning\nInvolves assessing the accuracy and relevance of evidence supporting your claims\nThe basis for thinking and arguing scientifically",
+  "src": {
+   "lec": 10,
+   "p": [
+    2,
+    4
+   ]
+  },
+  "sim": [
+   "t10-2",
+   "t10-3"
+  ]
+ },
+ {
+  "id": "t10-2",
+  "deck": "L10 · Deductive Logic",
+  "sec": "What is logic",
+  "name": "Being 'reasonable'",
+  "q": "What does it mean for something to be 'reasonable' in the logical sense?",
+  "clues": [
+   "Evidence",
+   "Structure"
+  ],
+  "ans": "Something has supporting evidence\nImplies a logical and coherent structure\nOur assertions make sense",
+  "src": {
+   "lec": 10,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t10-1"
+  ]
+ },
+ {
+  "id": "t10-3",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Arguments",
+  "name": "Argument (what it is and is not)",
+  "q": "What is an argument, and what is it not?",
+  "clues": [
+   "Reasons for belief",
+   "Not a shouting match"
+  ],
+  "ans": "A statement in which you give people a reason for believing what you said\nShows WHAT is true and WHY it is true\nNOT a verbal fight or shouting match",
+  "src": {
+   "lec": 10,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t10-1",
+   "t10-7"
+  ]
+ },
+ {
+  "id": "t10-4",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Arguments",
+  "name": "Reasons we argue",
+  "q": "What are the four reasons we argue, according to the lecture?",
+  "clues": [
+   "Funding, meetings, lunch, the family car",
+   "One is about understanding"
+  ],
+  "ans": "To persuade (e.g., getting research funds)\nTo give reasons or explanations (e.g., why peers should attend meetings)\nTo come to a compromise (e.g., deciding on lunch)\nTo be clearly understood, and to understand others (e.g., borrowing the family car)",
+  "src": {
+   "lec": 10,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t10-3"
+  ]
+ },
+ {
+  "id": "t10-5",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Arguments",
+  "name": "Logic vs relevance (convincing arguments)",
+  "q": "What two bases make an argument convincing, and what question does each ask?",
+  "clues": [
+   "'Because I said no!' fails both",
+   "One is about acceptance of statements, one about the conclusion"
+  ],
+  "ans": "Logic: are you justified in accepting the statements, and do they link from one to the other?\nRelevance: does the conclusion follow from the statements made?\nAn argument like 'Because I'm your father and I said no!' is not convincing",
+  "src": {
+   "lec": 10,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t10-3",
+   "t10-12"
+  ]
+ },
+ {
+  "id": "t10-6",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Structure of an argument",
+  "name": "Proposition",
+  "q": "What is a proposition?",
+  "clues": [
+   "Truth value",
+   "Two roles in an argument"
+  ],
+  "ans": "A sentence that can be either true or false\nArguments consist of a series of propositions\nWithin an argument a proposition is either a premise or a conclusion",
+  "src": {
+   "lec": 10,
+   "p": [
+    8,
+    9,
+    10
+   ]
+  },
+  "sim": [
+   "t10-7",
+   "t10-8"
+  ]
+ },
+ {
+  "id": "t10-7",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Structure of an argument",
+  "name": "Premise vs conclusion",
+  "q": "What is the difference between a premise and a conclusion?",
+  "clues": [
+   "Reason vs claim",
+   "Which one is defended?"
+  ],
+  "ans": "Premises: the reasons to believe the conclusion\nConclusion: the claim/perspective you are making or defending\nBoth are propositions (can be true or false)",
+  "src": {
+   "lec": 10,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t10-6",
+   "t10-9"
+  ]
+ },
+ {
+  "id": "t10-8",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Structure of an argument",
+  "name": "Identifying propositions",
+  "q": "How do you decide whether a sentence such as 'Woof!' or 'Hypnosis is a controversial form of therapy' is a proposition?",
+  "clues": [
+   "Does it make a claim?",
+   "Value statements count too"
+  ],
+  "ans": "Ask whether it makes a claim that can be shown to be true or false\n'Hypnosis is a controversial form of therapy' and 'Education should be free for everyone' are propositions\n'Woof!', 'Good for you!' and 'This bowl of pumpkin soup' are not: no claim is made",
+  "src": {
+   "lec": 10,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t10-6"
+  ]
+ },
+ {
+  "id": "t10-9",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Standard form",
+  "name": "Standard form of an argument",
+  "q": "What is the standard form of an argument and why use it?",
+  "clues": [
+   "A layout",
+   "A line separates parts"
+  ],
+  "ans": "Premise 1, Premise 2 (add premises as necessary), a line, then the Conclusion\nPresents propositions logically\nShows how the premises support the conclusion\nE.g., The sun is highest at noon / It is noon / So the sun is currently at its highest point",
+  "src": {
+   "lec": 10,
+   "p": [
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  "sim": [
+   "t10-10",
+   "t10-7"
+  ]
+ },
+ {
+  "id": "t10-10",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Standard form",
+  "name": "Arguments in natural language",
+  "q": "How do arguments in natural language differ from standard form?",
+  "clues": [
+   "Order",
+   "Signal words like 'since' and 'because'"
+  ],
+  "ans": "In daily speech the conclusion can come before the premises\nPremises first: 'Since Amy always drinks coffee in the morning, she will be drinking coffee...'\nConclusion first: 'Amy will be drinking coffee..., because she always drinks coffee in the morning'\nWe often make arguments without realizing it",
+  "src": {
+   "lec": 10,
+   "p": [
+    12,
+    14
+   ]
+  },
+  "sim": [
+   "t10-9"
+  ]
+ },
+ {
+  "id": "t10-11",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Deductive arguments",
+  "name": "Deductive argument",
+  "q": "What is a deductive argument?",
+  "clues": [
+   "Kind of truth it aims for",
+   "Two quality criteria"
+  ],
+  "ans": "A series of propositions reasoning from one or more premises to a logically-certain conclusion\nConcerned with guaranteed truth\nQuality judged by validity and soundness\nOne of the two forms of argument in the course (the other is inductive)",
+  "src": {
+   "lec": 10,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t10-12",
+   "t10-25"
+  ]
+ },
+ {
+  "id": "t10-12",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Validity",
+  "name": "Validity",
+  "q": "When is a deductive argument valid?",
+  "clues": [
+   "Think of a situation that is impossible",
+   "Premises true, conclusion...?"
+  ],
+  "ans": "When it is not possible for all premises to be true AND the conclusion false at the same time\nIf the premises are true, the conclusion must be true\nIf the conclusion could be false with true premises, it is not valid\nValidity concerns structure, not the factual truth of the claims",
+  "src": {
+   "lec": 10,
+   "p": [
+    17,
+    22
+   ]
+  },
+  "sim": [
+   "t10-16",
+   "t10-19"
+  ]
+ },
+ {
+  "id": "t10-13",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Validity",
+  "name": "Venn diagrams for validity",
+  "q": "How can Venn diagrams be used to test the validity of a deductive argument?",
+  "clues": [
+   "Circles for categories",
+   "Can the person fall outside?"
+  ],
+  "ans": "Draw circles for the categories in the premises (e.g., women, did give birth)\nPlace the subject (e.g., Alex) where the premises require\nIf the subject could sit in a region that makes the conclusion false, the argument is invalid\nSome arguments need more than two circles",
+  "src": {
+   "lec": 10,
+   "p": [
+    18,
+    19,
+    20,
+    21,
+    22
+   ]
+  },
+  "sim": [
+   "t10-14",
+   "t10-15"
+  ]
+ },
+ {
+  "id": "t10-14",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Validity",
+  "name": "Alex gave birth: valid vs invalid",
+  "q": "Why is 'Only women can give birth; Alex gave birth; so Alex is a woman' valid, but 'Only women can give birth; Alex is a woman; so Alex gave birth' invalid?",
+  "clues": [
+   "Direction of the inference",
+   "Not all women gave birth"
+  ],
+  "ans": "First: anyone who gave birth must be in the women circle, so the conclusion cannot be false\nSecond: Alex could be a woman who did not give birth\nSo the second conclusion may be false even if the premises are true: invalid",
+  "src": {
+   "lec": 10,
+   "p": [
+    18,
+    19,
+    20
+   ]
+  },
+  "sim": [
+   "t10-13",
+   "t10-20"
+  ]
+ },
+ {
+  "id": "t10-15",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Validity",
+  "name": "'Some roses are pink' argument",
+  "q": "Why is 'All roses are flowers; some flowers are pink; therefore some roses are pink' invalid?",
+  "clues": [
+   "'Some' flowers, not 'some roses'",
+   "Factual truth is irrelevant here"
+  ],
+  "ans": "The pink flowers might not include any roses\nThe premises do not force the roses circle to overlap the pink circle\nWe judge only whether the conclusion logically follows, not whether pink roses actually exist",
+  "src": {
+   "lec": 10,
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "t10-13",
+   "t10-21"
+  ]
+ },
+ {
+  "id": "t10-16",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Soundness",
+  "name": "Soundness",
+  "q": "When is a deductive argument sound?",
+  "clues": [
+   "Two conditions",
+   "Structure plus facts"
+  ],
+  "ans": "When the argument's form is valid AND all its premises are actually true\nSoundness is the second criterion for a good deductive argument\nAn invalid argument is automatically unsound",
+  "src": {
+   "lec": 10,
+   "p": [
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "t10-12",
+   "t10-18"
+  ]
+ },
+ {
+  "id": "t10-17",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Soundness",
+  "name": "Validity: necessary but insufficient",
+  "q": "Why is validity described as necessary but insufficient for a good argument?",
+  "clues": [
+   "First criterion",
+   "What else is needed?"
+  ],
+  "ans": "Validity is the essential first criterion for a good deductive argument\nBut a valid argument can still have false premises\nSoundness (true premises) is also needed\nValid but silly arguments are possible, but usually not sound",
+  "src": {
+   "lec": 10,
+   "p": [
+    23,
+    24
+   ]
+  },
+  "sim": [
+   "t10-16",
+   "t10-18"
+  ]
+ },
+ {
+  "id": "t10-18",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Soundness",
+  "name": "Three outcomes: invalid, valid-unsound, valid-sound",
+  "q": "What can be said about an argument that is (a) invalid, (b) valid but unsound, (c) valid and sound?",
+  "clues": [
+   "Valid structure + true premises = ?",
+   "Which is automatically unsound?"
+  ],
+  "ans": "Invalid: automatically unsound; a bad or nonsensical argument\nValid but unsound: structurally fine but not necessarily convincing\nValid and sound: structurally fine and convincing (a good argument)",
+  "src": {
+   "lec": 10,
+   "p": [
+    25
+   ]
+  },
+  "sim": [
+   "t10-16",
+   "t10-19"
+  ]
+ },
+ {
+  "id": "t10-19",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Soundness",
+  "name": "Validity vs soundness",
+  "q": "What is the difference between validity and soundness?",
+  "clues": [
+   "Form vs content",
+   "Israel vs Wellington example"
+  ],
+  "ans": "Validity is about form: the conclusion must follow if the premises are true\nSoundness adds that all premises are actually true\n'Israel is the capital of New Zealand; Amy is visiting Israel; so Amy is in New Zealand' is valid but unsound\nReplacing Israel with Wellington makes it valid and sound",
+  "src": {
+   "lec": 10,
+   "p": [
+    17,
+    24,
+    26,
+    27,
+    28
+   ]
+  },
+  "sim": [
+   "t10-12",
+   "t10-16"
+  ]
+ },
+ {
+  "id": "t10-20",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Fallacies in deduction",
+  "name": "Affirming the consequent",
+  "q": "What is the fallacy of affirming the consequent?",
+  "clues": [
+   "If-then statement",
+   "Reasoning backwards from the result"
+  ],
+  "ans": "Form: If P then Q; Q; therefore P\nE.g., If it rains, the game is cancelled; the game is cancelled; so it rained\nInvalid: Q could have other causes (haze, power outage, viral outbreak)\nBeing invalid, it is automatically unsound",
+  "src": {
+   "lec": 10,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t10-14",
+   "t10-24"
+  ]
+ },
+ {
+  "id": "t10-21",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Quality of deductive arguments",
+  "name": "True conclusion, bad argument",
+  "q": "Can a deductive argument with a true conclusion still be a bad argument?",
+  "clues": [
+   "Santa controls the sun",
+   "Do the premises give reasons?"
+  ],
+  "ans": "Yes: the conclusion must follow from the premises\nE.g., Santa's elves travel east to west; Santa controls the sun; so the sun rises in the east\nConclusion is true, but premises give no reason to believe it\nSuch an argument is invalid and unsound",
+  "src": {
+   "lec": 10,
+   "p": [
+    33
+   ]
+  },
+  "sim": [
+   "t10-15",
+   "t10-22"
+  ]
+ },
+ {
+  "id": "t10-22",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Deductive logic in psychology",
+  "name": "Believability bias",
+  "q": "What is the believability bias, and how does deductive logic help avoid it?",
+  "clues": [
+   "Sounds right vs is right",
+   "Form matters"
+  ],
+  "ans": "Accepting an argument because it sounds believable although its form is invalid\nUnderstanding validity helps us check whether the conclusion follows from the premises",
+  "src": {
+   "lec": 10,
+   "p": [
+    32
+   ]
+  },
+  "sim": [
+   "t10-21",
+   "t10-23"
+  ]
+ },
+ {
+  "id": "t10-23",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Deductive logic in psychology",
+  "name": "Value of deductive logic in psychology",
+  "q": "If psychology has few absolutes, what is the value of deductive logic?",
+  "clues": [
+   "Hard sciences vs human behaviour",
+   "Structure"
+  ],
+  "ans": "Hard sciences (chemistry, physics, biology) can have valid and sound arguments, even theorems\nPsychology has few absolutes in human behaviour\nDeductive logic still helps us structure good arguments and avoid bad ones\nIt answers: does the conclusion follow from the premises?",
+  "src": {
+   "lec": 10,
+   "p": [
+    31,
+    32
+   ]
+  },
+  "sim": [
+   "t10-22",
+   "t10-25"
+  ]
+ },
+ {
+  "id": "t10-24",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Deductive logic in psychology",
+  "name": "Coffee and memory invalid argument",
+  "q": "Why is 'Coffee drinkers have better memory; our participants showed better memory; so our participants drank coffee' a bad argument?",
+  "clues": [
+   "Same shape as the game-cancelled example",
+   "Other causes of good memory"
+  ],
+  "ans": "It is invalid: better memory may have causes other than coffee\nShares the form of affirming the consequent\nBecause it is invalid, it is automatically unsound",
+  "src": {
+   "lec": 10,
+   "p": [
+    34
+   ]
+  },
+  "sim": [
+   "t10-20",
+   "t10-14"
+  ]
+ },
+ {
+  "id": "t10-25",
+  "deck": "L10 · Deductive Logic",
+  "sec": "Looking ahead",
+  "name": "Deductive vs inductive logic (preview)",
+  "q": "How does deductive logic differ from the inductive logic previewed for the next lecture?",
+  "clues": [
+   "Certainty vs degree",
+   "A goal of science"
+  ],
+  "ans": "Deductive: aims at guaranteed truth / logically-certain conclusions\nInductive: tells us the degree to which we should believe an argument, since psychology can't guarantee absolute truth\nInductive logic links to generalization, a goal of scientific research",
+  "src": {
+   "lec": 10,
+   "p": [
+    16,
+    36
+   ]
+  },
+  "sim": [
+   "t10-11",
+   "t10-23"
+  ]
+ },
+ {
+  "id": "t11-1",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Recap",
+  "name": "To argue",
+  "q": "What does it mean to argue, in argumentative logic?",
+  "clues": [
+   "Think 'reasons'",
+   "The target is a claim or belief"
+  ],
+  "ans": "To give reasons to believe a statement, claim, or belief",
+  "src": {
+   "lec": 11,
+   "p": [
+    2
+   ]
+  },
+  "sim": [
+   "t11-2",
+   "t11-3"
+  ]
+ },
+ {
+  "id": "t11-2",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Recap",
+  "name": "Validity vs soundness",
+  "q": "How are deductive arguments assessed in terms of validity vs soundness?",
+  "clues": [
+   "One is about structure",
+   "One is about the premises' content"
+  ],
+  "ans": "Validity = structural correctness of the argument\nSoundness = truth of the premises\nDeductive arguments are judged on both",
+  "src": {
+   "lec": 11,
+   "p": [
+    2
+   ]
+  },
+  "sim": [
+   "t11-3",
+   "t11-6"
+  ]
+ },
+ {
+  "id": "t11-3",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Deductive vs inductive",
+  "name": "Deductive argument",
+  "q": "What is a deductive argument and what does it aim for?",
+  "clues": [
+   "Think certainty",
+   "All-or-nothing"
+  ],
+  "ans": "A series of propositions reasoning from one or more premises to a logically-certain conclusion\nAims for certainty: a 100% guaranteed true conclusion\nAll-or-nothing\nFew things in human experience can be guaranteed with absolute certainty",
+  "src": {
+   "lec": 11,
+   "p": [
+    4,
+    5
+   ]
+  },
+  "sim": [
+   "t11-4",
+   "t11-5"
+  ]
+ },
+ {
+  "id": "t11-4",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Deductive vs inductive",
+  "name": "Inductive argument",
+  "q": "What is an inductive argument?",
+  "clues": [
+   "Not about absolute truth",
+   "Think 'likely'"
+  ],
+  "ans": "A series of propositions reasoning from one or more premises to a probable conclusion\nNot concerned with absolute truth\nGives evidence/statements showing the conclusion is likely\nLets us state a very plausible, very likely conclusion",
+  "src": {
+   "lec": 11,
+   "p": [
+    5,
+    6
+   ]
+  },
+  "sim": [
+   "t11-3",
+   "t11-5"
+  ]
+ },
+ {
+  "id": "t11-5",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Deductive vs inductive",
+  "name": "Deductive vs inductive arguments",
+  "q": "How do deductive vs inductive arguments differ?",
+  "clues": [
+   "Certain vs probable",
+   "How is each judged?"
+  ],
+  "ans": "Deductive: logically-certain conclusion; all-or-nothing\nInductive: probable conclusion; continuum of strength\nDeductive judged by validity/soundness; inductive by strength\nSun-rising example: cannot be certain, but highly likely",
+  "src": {
+   "lec": 11,
+   "p": [
+    4,
+    5,
+    6
+   ]
+  },
+  "sim": [
+   "t11-3",
+   "t11-4"
+  ]
+ },
+ {
+  "id": "t11-6",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Characteristics",
+  "name": "Inductive arguments are invalid",
+  "q": "Why are all inductive arguments considered invalid?",
+  "clues": [
+   "Can true premises give a false conclusion?",
+   "They don't try to prove absolute truth"
+  ],
+  "ans": "They are not concerned with absolute truth\nAll premises can be true while the conclusion is false\ne.g. Amy could still place 1st despite the premises",
+  "src": {
+   "lec": 11,
+   "p": [
+    5,
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "t11-7",
+   "t11-9"
+  ]
+ },
+ {
+  "id": "t11-7",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Characteristics",
+  "name": "Three characteristics of inductive arguments",
+  "q": "What are the three characteristics of inductive arguments?",
+  "clues": [
+   "One is about validity",
+   "One is about revision",
+   "One is about degree"
+  ],
+  "ans": "Invalid\nDefeasible\nVary in strength",
+  "src": {
+   "lec": 11,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t11-6",
+   "t11-8",
+   "t11-9"
+  ]
+ },
+ {
+  "id": "t11-8",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Characteristics",
+  "name": "Defeasible",
+  "q": "What does it mean that inductive arguments are defeasible?",
+  "clues": [
+   "Open to change",
+   "Premises can come and go"
+  ],
+  "ans": "Open to revision, objection or annulment (elimination)\nYou can add or remove premises to the argument",
+  "src": {
+   "lec": 11,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t11-9",
+   "t11-7"
+  ]
+ },
+ {
+  "id": "t11-9",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Characteristics",
+  "name": "Vary in strength",
+  "q": "What does it mean that inductive arguments vary in strength?",
+  "clues": [
+   "Continuum, not all-or-nothing",
+   "Linked to revising premises"
+  ],
+  "ans": "Because they can be revised, their strength can change\nAdding/removing premises can turn a weak argument strong, or vice versa",
+  "src": {
+   "lec": 11,
+   "p": [
+    5,
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "t11-8",
+   "t11-10"
+  ]
+ },
+ {
+  "id": "t11-10",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Strength",
+  "name": "Strengthening vs weakening a conclusion (Amy example)",
+  "q": "In the Amy marathon example, what is the difference between strengthening vs weakening the conclusion?",
+  "clues": [
+   "The conclusion is that Amy is unlikely to place 1st",
+   "Which direction makes her win more likely?"
+  ],
+  "ans": "Conclusion: Amy is very unlikely to place 1st\nWeakening premises make it more likely Amy places 1st\nStrengthening premises make it more likely Amy loses\nThe argument is invalid but can vary in strength",
+  "src": {
+   "lec": 11,
+   "p": [
+    8,
+    9
+   ]
+  },
+  "sim": [
+   "t11-9",
+   "t11-11"
+  ]
+ },
+ {
+  "id": "t11-11",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Strength",
+  "name": "Criteria for a strong premise",
+  "q": "What three criteria determine whether a premise added to an inductive argument is strong?",
+  "clues": [
+   "Fact?",
+   "Evidence?",
+   "Connection to the conclusion?"
+  ],
+  "ans": "True: based in truth, fact and/or reality\nJustified: there is evidence to back it\nRelevant: it bears on the conclusion\nMeeting all three = a strong premise; also consider context and stakes",
+  "src": {
+   "lec": 11,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t11-17",
+   "t11-10"
+  ]
+ },
+ {
+  "id": "t11-12",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Context and stakes",
+  "name": "Context of an argument",
+  "q": "What is the context of an inductive argument?",
+  "clues": [
+   "Situation",
+   "Wine example: Friday night vs doctor's advice"
+  ],
+  "ans": "The situation/circumstance in which the inductive argument is made\ne.g. drinking wine because others are (less important) vs because a doctor recommended a Mediterranean diet (more important)",
+  "src": {
+   "lec": 11,
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "t11-13",
+   "t11-14"
+  ]
+ },
+ {
+  "id": "t11-13",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Context and stakes",
+  "name": "Stakes of an argument",
+  "q": "What are the stakes of an inductive argument?",
+  "clues": [
+   "Consequences",
+   "Higher with a doctor's prescription"
+  ],
+  "ans": "The potential impact of the conclusion following from the inductive argument\nStakes are higher when e.g. a doctor prescribed the diet\nStakes are lower if there is no evidence for the health benefit",
+  "src": {
+   "lec": 11,
+   "p": [
+    12,
+    13
+   ]
+  },
+  "sim": [
+   "t11-12",
+   "t11-14"
+  ]
+ },
+ {
+  "id": "t11-14",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Context and stakes",
+  "name": "Context vs stakes",
+  "q": "How does the context of an argument differ from its stakes?",
+  "clues": [
+   "Circumstance vs consequence",
+   "Both affect how premises are judged"
+  ],
+  "ans": "Context = the situation/circumstance in which the argument is made\nStakes = the potential impact of the conclusion\nBoth should be considered when adding/challenging premises (e.g. human rights debates)",
+  "src": {
+   "lec": 11,
+   "p": [
+    12,
+    13,
+    14
+   ]
+  },
+  "sim": [
+   "t11-12",
+   "t11-13"
+  ]
+ },
+ {
+  "id": "t11-15",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Generalization",
+  "name": "Generalizing",
+  "q": "What does generalizing mean in the psychological sciences?",
+  "clues": [
+   "Small group to wider group",
+   "Inductive, not certain"
+  ],
+  "ans": "Observing characteristics/behavioural tendencies in a small group of people\nThen arguing that others like that group will share them\nInductive arguments are useful for generalizing, though not certain",
+  "src": {
+   "lec": 11,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t11-16",
+   "t11-18"
+  ]
+ },
+ {
+  "id": "t11-16",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Generalization",
+  "name": "Swan generalization",
+  "q": "Why is the white-swan argument a poor generalization?",
+  "clues": [
+   "100 swans seen",
+   "Claim about all swans"
+  ],
+  "ans": "Premises: I have seen 100 swans; every one was white\nConclusion: it is likely all swans are white\nExtends a small sample to all swans, including those never seen\nObviously not a good generalization",
+  "src": {
+   "lec": 11,
+   "p": [
+    17,
+    25
+   ]
+  },
+  "sim": [
+   "t11-15",
+   "t11-17",
+   "t11-24"
+  ]
+ },
+ {
+  "id": "t11-17",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Generalization",
+  "name": "Criteria for strong generalizations",
+  "q": "What three criteria make generalizations stronger?",
+  "clues": [
+   "One is about reasoning",
+   "One is about numbers",
+   "One is about bias"
+  ],
+  "ans": "Logic: premises justified, relevant and/or true; conclusion flows from premises\nSample size: is the sample large enough?\nObjectivity: is the sample or data collection biased?",
+  "src": {
+   "lec": 11,
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "t11-11",
+   "t11-18"
+  ]
+ },
+ {
+  "id": "t11-18",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Generalization",
+  "name": "Objectivity (generalization criterion)",
+  "q": "What does the objectivity criterion for generalizations ask?",
+  "clues": [
+   "About bias",
+   "Sample and method"
+  ],
+  "ans": "Is the sample biased?\nWas the approach to data collection biased in any way?",
+  "src": {
+   "lec": 11,
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "t11-17",
+   "t11-16"
+  ]
+ },
+ {
+  "id": "t11-19",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Generalization",
+  "name": "Applying generalizations to specific cases",
+  "q": "Why are generalizations only useful if we can apply them back to specific cases?",
+  "clues": [
+   "Main goal of psych research",
+   "Meta-analyses as examples"
+  ],
+  "ans": "A main goal of psychological research is to apply findings from a small study to a larger population\ne.g. St. John's Wort (23 trials), mindfulness meta-analysis (39 studies), extraversion/agreeableness and well-being (148 studies)",
+  "src": {
+   "lec": 11,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t11-15",
+   "t11-17"
+  ]
+ },
+ {
+  "id": "t11-20",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "Falsifiability",
+  "q": "What is falsifiability in science?",
+  "clues": [
+   "Can it be proven wrong?",
+   "The invisible dragon"
+  ],
+  "ans": "A premise must be falsifiable in science\nAsks: can the proposition be proven wrong?\nIf a claim cannot be proven true or otherwise, it is not reasonable to accept it",
+  "src": {
+   "lec": 11,
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "t11-21",
+   "t11-23"
+  ]
+ },
+ {
+  "id": "t11-21",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "Invisible dragon example",
+  "q": "What does the invisible dragon example illustrate?",
+  "clues": [
+   "No way to detect it",
+   "Should you accept the claim?"
+  ],
+  "ans": "The dragon is invisible, weightless, odourless and cannot be touched\nNo test could show it exists or not\nAn unfalsifiable claim is not reasonable to accept",
+  "src": {
+   "lec": 11,
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "t11-20",
+   "t11-22"
+  ]
+ },
+ {
+  "id": "t11-22",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "Unfalsifiable claims (Activity 5)",
+  "q": "What makes claims like the 'repressed memory' or 'vegans are in denial' statements unfalsifiable?",
+  "clues": [
+   "What happens to contrary evidence?",
+   "Denial is turned into support"
+  ],
+  "ans": "Any counter-evidence is explained away (denial = repression/denial; contrary data = flawed)\nSo no conceivable event could prove them wrong\nContrast: 'the sun rises in the east' can be tested",
+  "src": {
+   "lec": 11,
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "t11-20",
+   "t11-21"
+  ]
+ },
+ {
+  "id": "t11-23",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "Falsification (how science progresses)",
+  "q": "How does science progress through falsification?",
+  "clues": [
+   "Elimination",
+   "What to believe and what not to"
+  ],
+  "ans": "Bad ideas, inaccurate theories or flawed findings are eliminated\nWhat remains is closer to the truth\nResearch tells us what to believe and what not to believe",
+  "src": {
+   "lec": 11,
+   "p": [
+    23
+   ]
+  },
+  "sim": [
+   "t11-24",
+   "t11-25"
+  ]
+ },
+ {
+  "id": "t11-24",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "Karl Popper's view",
+  "q": "What did Karl Popper (1963) argue about confirmation and refutability?",
+  "clues": [
+   "Confirmations are easy",
+   "Irrefutability is not a virtue"
+  ],
+  "ans": "Confirmations are easy to find for nearly any theory if we look for them\nA theory not refutable by any conceivable event is non-scientific\nIrrefutability is a vice, not a virtue\nEvery genuine test of a theory is an attempt to falsify it",
+  "src": {
+   "lec": 11,
+   "p": [
+    23
+   ]
+  },
+  "sim": [
+   "t11-23",
+   "t11-26"
+  ]
+ },
+ {
+  "id": "t11-25",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "Progress through falsifiability",
+  "q": "What happens to a theory under progress through falsifiability?",
+  "clues": [
+   "Look for evidence against it",
+   "Three possible outcomes"
+  ],
+  "ans": "A more stringent test: how much evidence goes against the theory\nMuch support, little disproof: retain it as a good representation of reality\nNew challenging evidence: revise or discard it\ne.g. left/right brain, handwriting, skull bumps, blood-type personality were discarded",
+  "src": {
+   "lec": 11,
+   "p": [
+    24
+   ]
+  },
+  "sim": [
+   "t11-23",
+   "t11-24"
+  ]
+ },
+ {
+  "id": "t11-26",
+  "deck": "L11 · Inductive Logic",
+  "sec": "Falsifiability",
+  "name": "White swans vs non-white swans",
+  "q": "In the swan argument, should you look for more white swans or non-white swans, and why?",
+  "clues": [
+   "Confirmation vs refutation",
+   "Popper"
+  ],
+  "ans": "Look for non-white swans\nConfirmations are easy to find\nA genuine test tries to falsify the generalization",
+  "src": {
+   "lec": 11,
+   "p": [
+    25,
+    23
+   ]
+  },
+  "sim": [
+   "t11-16",
+   "t11-24"
+  ]
+ },
+ {
+  "id": "t12-1",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "Fallacy",
+  "q": "What is a fallacy in argumentative logic?",
+  "clues": [
+   "An error",
+   "Premises only appear to support"
+  ],
+  "ans": "A failure in reasoning that renders an argument invalid\nPremises are presented as supporting the conclusion when in reality they do not\nEveryone makes fallacious arguments",
+  "src": {
+   "lec": 12,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t12-2",
+   "t12-7"
+  ]
+ },
+ {
+  "id": "t12-2",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "Types of logical fallacies",
+  "q": "What types of logical fallacies are covered in the lecture?",
+  "clues": [
+   "Eight groups",
+   "One group has three sub-forms"
+  ],
+  "ans": "Slippery slope; false dichotomy; ambiguity\nFallacies of relevance (ad hominem, appeal to authority, popular assent)\nCircular arguments; straw man; red herring; false equivalence",
+  "src": {
+   "lec": 12,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t12-1",
+   "t12-8"
+  ]
+ },
+ {
+  "id": "t12-3",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "Slippery slope",
+  "q": "What is the slippery slope fallacy?",
+  "clues": [
+   "If x, then disaster",
+   "Violent video games example"
+  ],
+  "ans": "Asserting that a course of action will lead to an unwanted, bad or disastrous outcome\nFormat: if you allow x, the terrible y will happen!\nFallacy: there is no evidence the bad consequence will happen",
+  "src": {
+   "lec": 12,
+   "p": [
+    6
+   ]
+  },
+  "sim": [
+   "t12-4",
+   "t12-23"
+  ]
+ },
+ {
+  "id": "t12-4",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "False dichotomy",
+  "q": "What is the false dichotomy fallacy?",
+  "clues": [
+   "Only two",
+   "Pizza or week-old pasta"
+  ],
+  "ans": "Proposing that there are only two possibilities\nFormat: we only have two choices, x or y\nFallacy: no evidence there are only two options/outcomes",
+  "src": {
+   "lec": 12,
+   "p": [
+    7
+   ]
+  },
+  "sim": [
+   "t12-3",
+   "t12-23"
+  ]
+ },
+ {
+  "id": "t12-5",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "Ambiguity",
+  "q": "What is the fallacy of ambiguity?",
+  "clues": [
+   "More than one meaning",
+   "Light feathers"
+  ],
+  "ans": "Phrasing an argument so it has more than one acceptable interpretation\nNo specific format; depends on the words used\nSwitching between interpretations leads to faulty conclusions\ne.g. 'a feather is light; light things are not dark; so no dark feathers'",
+  "src": {
+   "lec": 12,
+   "p": [
+    8,
+    9
+   ]
+  },
+  "sim": [
+   "t12-6",
+   "t12-22"
+  ]
+ },
+ {
+  "id": "t12-6",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "Vagueness (when acceptable)",
+  "q": "When is vagueness acceptable, according to the note on ambiguity?",
+  "clues": [
+   "Plans without full info",
+   "Not for high stakes"
+  ],
+  "ans": "Natural language contains hard-to-avoid vagueness\nAcceptable when we lack full information, e.g. 'I'll visit the US sometime next year'\nNot deliberately misleading\nShould be avoided for factual claims in high-stakes situations",
+  "src": {
+   "lec": 12,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t12-5"
+  ]
+ },
+ {
+  "id": "t12-7",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Fallacies of relevance (non sequitur)",
+  "q": "What is a fallacy of relevance?",
+  "clues": [
+   "Latin term",
+   "The premise doesn't connect"
+  ],
+  "ans": "Proposing a premise irrelevant to supporting the conclusion (a 'non sequitur')\nFormat: we should/should not believe x because <irrelevant point>\nThe conclusion does not follow from the premises\nInvalid for deductive arguments; weak for inductive arguments",
+  "src": {
+   "lec": 12,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t12-8",
+   "t12-1"
+  ]
+ },
+ {
+  "id": "t12-8",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Three forms of fallacies of relevance",
+  "q": "What are the three main forms of fallacies of relevance?",
+  "clues": [
+   "The person",
+   "An expert",
+   "The majority"
+  ],
+  "ans": "Ad hominem\nAppeal to authority\nAppeal to popular assent\nOther irrelevant appeals: appeals to emotion and tradition",
+  "src": {
+   "lec": 12,
+   "p": [
+    12,
+    17
+   ]
+  },
+  "sim": [
+   "t12-7",
+   "t12-2"
+  ]
+ },
+ {
+  "id": "t12-9",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Ad hominem",
+  "q": "What is the ad hominem fallacy?",
+  "clues": [
+   "Latin: 'to the man'",
+   "Attack instead of a reason"
+  ],
+  "ans": "Attacking the person instead of giving a reason about the argument\nTargets their entitlement to speak, their premises or their conclusions\nFormat: we should not believe x because person y is not entitled / uses bad reasons / gives bad conclusions",
+  "src": {
+   "lec": 12,
+   "p": [
+    12,
+    13
+   ]
+  },
+  "sim": [
+   "t12-10",
+   "t12-13"
+  ]
+ },
+ {
+  "id": "t12-10",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Three targets of ad hominem",
+  "q": "What three things can an ad hominem attack target (Cooper example)?",
+  "clues": [
+   "Qualification",
+   "Reasons",
+   "Conclusions"
+  ],
+  "ans": "Entitlement to speak: 'never been in a relationship, so not qualified'\nReasons/premises: 'his reasons are just theories'\nConclusions: 'anything he concludes is not believable'",
+  "src": {
+   "lec": 12,
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "t12-9",
+   "t12-11"
+  ]
+ },
+ {
+  "id": "t12-11",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Legitimate credibility concerns vs ad hominem",
+  "q": "When is questioning a person's credibility legitimate rather than an ad hominem fallacy?",
+  "clues": [
+   "Good reasons",
+   "Conflicts of interest"
+  ],
+  "ans": "When we have good reasons, e.g. concerns about authority/expertise\nOr suspected conflicts of interest affecting truth claims\nBut a well-supported argument should not be dismissed simply because of who the person is",
+  "src": {
+   "lec": 12,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t12-9",
+   "t12-10"
+  ]
+ },
+ {
+  "id": "t12-12",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Appeal to authority",
+  "q": "What is the appeal to authority fallacy?",
+  "clues": [
+   "Expert said so",
+   "CEO example"
+  ],
+  "ans": "Supporting an argument because it is made by someone with authority or expertise\nFormat: we should believe x because person y is entitled / uses good reasons / gives good conclusions\nUses the speaker's credibility to claim the conclusion is true\nOpposite of ad hominem",
+  "src": {
+   "lec": 12,
+   "p": [
+    12,
+    15
+   ]
+  },
+  "sim": [
+   "t12-13",
+   "t12-15"
+  ]
+ },
+ {
+  "id": "t12-13",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Ad hominem vs appeal to authority",
+  "q": "How does ad hominem differ from appeal to authority?",
+  "clues": [
+   "Opposites",
+   "Reject vs accept"
+  ],
+  "ans": "Ad hominem: reject x because of who the person is\nAppeal to authority: accept x because of who the person is\nBoth rest on the person, not the argument",
+  "src": {
+   "lec": 12,
+   "p": [
+    12,
+    13,
+    15
+   ]
+  },
+  "sim": [
+   "t12-9",
+   "t12-12"
+  ]
+ },
+ {
+  "id": "t12-14",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Appeal to popular assent",
+  "q": "What is the appeal to popular assent fallacy?",
+  "clues": [
+   "Majority",
+   "8 out of 10 dentists"
+  ],
+  "ans": "Supporting an argument because the majority agrees (or disagrees) with it\nFormat: we should believe x because most people / a large sample / everyone believes x\nFallacy: majority belief does not make it true",
+  "src": {
+   "lec": 12,
+   "p": [
+    12,
+    16
+   ]
+  },
+  "sim": [
+   "t12-12",
+   "t12-15"
+  ]
+ },
+ {
+  "id": "t12-15",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Appeal to authority vs popular assent",
+  "q": "How does an appeal to authority differ from an appeal to popular assent?",
+  "clues": [
+   "One person vs many",
+   "Both endorse a position"
+  ],
+  "ans": "Authority: endorse x because an expert/authority holds it\nPopular assent: endorse x because the majority holds it\nBoth treat who believes x as proof x is true",
+  "src": {
+   "lec": 12,
+   "p": [
+    15,
+    16
+   ]
+  },
+  "sim": [
+   "t12-12",
+   "t12-14"
+  ]
+ },
+ {
+  "id": "t12-16",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Appeal to emotion",
+  "q": "What is an appeal to emotion?",
+  "clues": [
+   "Guilt or pity",
+   "'If you loved me...'"
+  ],
+  "ans": "A fallacy of relevance appealing to another person's emotions, such as guilt or pity\ne.g. 'If we find this boy guilty, his life will be in ruins!'",
+  "src": {
+   "lec": 12,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t12-17",
+   "t12-14"
+  ]
+ },
+ {
+  "id": "t12-17",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Relevance",
+  "name": "Appeal to tradition",
+  "q": "What is an appeal to tradition?",
+  "clues": [
+   "Always been done",
+   "Lectures vs online learning"
+  ],
+  "ans": "A fallacy of relevance: 'this is how it's always been done, why fix it?'\ne.g. 'We have always celebrated Thanksgiving together; you can't break that tradition'",
+  "src": {
+   "lec": 12,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t12-16",
+   "t12-14"
+  ]
+ },
+ {
+  "id": "t12-18",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Other fallacies",
+  "name": "Circular argument",
+  "q": "What is a circular argument?",
+  "clues": [
+   "Premise contains conclusion",
+   "Intoxicating beverages"
+  ],
+  "ans": "The premises contain the conclusion\nFormat: A implies B, which implies A...\nOr assuming what we are trying to prove\ne.g. 'Ban intoxicating beverages because they make people drunk'",
+  "src": {
+   "lec": 12,
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "t12-7",
+   "t12-22"
+  ]
+ },
+ {
+  "id": "t12-19",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Other fallacies",
+  "name": "Straw man",
+  "q": "What is a straw man argument?",
+  "clues": [
+   "Misrepresentation",
+   "Birth control example"
+  ],
+  "ans": "Wilfully misrepresenting the argument we want to refute, then arguing against that misrepresentation\nUsually appears in responses to others' arguments\nFormat: 'So you're saying y?'\ne.g. free birth control/safe sex recast as encouraging promiscuity",
+  "src": {
+   "lec": 12,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t12-20",
+   "t12-21"
+  ]
+ },
+ {
+  "id": "t12-20",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Other fallacies",
+  "name": "Red herring",
+  "q": "What is a red herring fallacy?",
+  "clues": [
+   "Distractor",
+   "'What is moral anyway?'"
+  ],
+  "ans": "Diverting attention from the topic by introducing another topic (a distractor)\nMost evident in responses to the other person\nFormat: 'Yes, but let's think about y...'\ne.g. responding to 'cheating is wrong' by debating what morality is",
+  "src": {
+   "lec": 12,
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "t12-19",
+   "t12-21"
+  ]
+ },
+ {
+  "id": "t12-21",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Other fallacies",
+  "name": "Straw man vs red herring",
+  "q": "How does a straw man differ from a red herring?",
+  "clues": [
+   "Distort vs divert",
+   "Both appear in responses"
+  ],
+  "ans": "Straw man: misrepresents the original argument, then attacks the distortion\nRed herring: changes the subject to a different topic\nBoth are most evident in how we respond to others",
+  "src": {
+   "lec": 12,
+   "p": [
+    20,
+    21
+   ]
+  },
+  "sim": [
+   "t12-19",
+   "t12-20"
+  ]
+ },
+ {
+  "id": "t12-22",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Other fallacies",
+  "name": "False equivalence",
+  "q": "What is the false equivalence fallacy?",
+  "clues": [
+   "Treating as the same",
+   "Red light vs murder"
+  ],
+  "ans": "Presenting two concepts/arguments as the same when the equivalence is not logical\nFormat: both x and y are the same (even when they are not!)\ne.g. apples and oranges are round fruits so must taste the same",
+  "src": {
+   "lec": 12,
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "t12-5",
+   "t12-18"
+  ]
+ },
+ {
+  "id": "t12-23",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Fallacies",
+  "name": "Slippery slope vs false dichotomy",
+  "q": "How does a slippery slope differ from a false dichotomy?",
+  "clues": [
+   "Chain to disaster vs only two options",
+   "Food trucks vs dogs in apartment"
+  ],
+  "ans": "Slippery slope: allowing x will lead to a bad/disastrous y\nFalse dichotomy: claims only two possibilities exist\nNeither has evidence for its claim",
+  "src": {
+   "lec": 12,
+   "p": [
+    6,
+    7,
+    24,
+    25
+   ]
+  },
+  "sim": [
+   "t12-3",
+   "t12-4"
+  ]
+ },
+ {
+  "id": "t12-24",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Constructing arguments",
+  "name": "Strategies for arguing",
+  "q": "What questions guide the construction of good arguments (strategies for arguing)?",
+  "clues": [
+   "Valid, sound, relevant?",
+   "Generous? Aggressive?"
+  ],
+  "ans": "Can you build a valid, sound and relevant argument? If not, a strong one?\nAre you supporting it with facts?\nAre you committing any fallacies?\nAre you being generous with the other person's argument?\nAre you arguing, or being verbally aggressive?",
+  "src": {
+   "lec": 12,
+   "p": [
+    26
+   ]
+  },
+  "sim": [
+   "t12-25"
+  ]
+ },
+ {
+  "id": "t12-25",
+  "deck": "L12 · Logical Fallacies",
+  "sec": "Constructing arguments",
+  "name": "Tools from the three logic lectures",
+  "q": "What tools does each of the three logic lectures contribute to making arguments?",
+  "clues": [
+   "Structure",
+   "Evidence",
+   "Errors"
+  ],
+  "ans": "Deductive lecture: standard form; validity/proper structure\nInductive lecture: using evidence to strengthen arguments; enhancing generalizability\nFallacies lecture: common errors in reasoning and how to avoid them\nPsychology has few absolutes",
+  "src": {
+   "lec": 12,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t12-24"
+  ]
+ }
+]

@@ -4,6 +4,8 @@ Tap-to-reveal study cards and paraphrase tables for PSY 111 at HELP University.
 
 Topics: Intro to Psychology (Module 0), Nerve Cells, Synapses, Nervous System, Sensation & Perception, Personality 1, Personality 2, Motivation, Emotion, Intelligence, Memory, Learning 1, Learning 2, Language & Thought.
 
+PSY 113 lives at /psy113/ (same login; its progress is stored separately in the p113_state table).
+
 Modes: **Learning** (read the card, tap Done, then answer from memory), **Test** (answer straight away) and
 **Quiz** (pick Full / Quick 10 / Compare similar concepts / Ultimate, then 4-option questions with score and a retry for missed ones).
 Each card can be asked 4 ways — name the concept from its description, choose the description for a given concept,

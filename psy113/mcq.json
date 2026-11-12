@@ -1,0 +1,2381 @@
+[
+ {
+  "id": "m1-1",
+  "lec": 1,
+  "q": "To pass PSY113, which combination of results is required?",
+  "opts": [
+   "At least 30% (of 60%) in CA and at least 20% (of 40%) in FA, with every assessment attempted",
+   "At least 50% overall, regardless of CA and FA",
+   "At least 60% in CA only",
+   "At least 20% in the final exam only"
+  ],
+  "a": 0,
+  "why": "The course requires passing both CA (30/60) and FA (20/40), and all assessments are must-attempt (at least 20% each)."
+ },
+ {
+  "id": "m1-2",
+  "lec": 1,
+  "q": "Aisha passed her Continuous Assessment but failed the Final Assessment. All assessments were attempted. What happens?",
+  "opts": [
+   "She receives an FL grade and retakes the whole subject",
+   "She passes because CA is worth more",
+   "She receives a remedial grade and retakes the failed assessment next semester",
+   "She must redo all the assignments only"
+  ],
+  "a": 2,
+  "why": "Failing only one of CA or FA leads to a remedial grade; FL is for failing both or not attempting an assessment."
+ },
+ {
+  "id": "m1-3",
+  "lec": 1,
+  "q": "How many tutorials must a student attend to avoid being barred from the final exam?",
+  "opts": [
+   "2 out of 5",
+   "3 out of 5",
+   "5 out of 5",
+   "4 out of 5"
+  ],
+  "a": 3,
+  "why": "80% attendance, i.e. 4 of the 5 tutorials, is required."
+ },
+ {
+  "id": "m1-4",
+  "lec": 1,
+  "q": "According to Lecture 1, science is an approach to knowing that relies on:",
+  "opts": [
+   "Observation, testing and falsification",
+   "Authority, tradition and intuition",
+   "Personal beliefs and cultural background",
+   "Argument alone, as in philosophy"
+  ],
+  "a": 0,
+  "why": "The lecture defines science as relying on observation, testing and falsification."
+ },
+ {
+  "id": "m1-5",
+  "lec": 1,
+  "q": "Which of the following is a NON-scientific question?",
+  "opts": [
+   "How does sleep deprivation affect cognitive performance?",
+   "Does spending money on others promote happiness?",
+   "What is the purpose of my life?",
+   "Which drugs are most effective in managing depression?"
+  ],
+  "a": 2,
+  "why": "Non-scientific questions are philosophical and subjective and cannot be tested with the scientific method."
+ },
+ {
+  "id": "m1-6",
+  "lec": 1,
+  "q": "Which statement about certainty in science is consistent with Lecture 1?",
+  "opts": [
+   "Well-replicated findings in psychology are absolutely certain",
+   "No claim in science is absolutely certain, especially in psychology",
+   "Scientific knowledge is certain once peer reviewed",
+   "Certainty depends only on the researcher's reputation"
+  ],
+  "a": 1,
+  "why": "Knowledge from the scientific method is based on a degree of certainty; no claim is absolutely certain."
+ },
+ {
+  "id": "m1-7",
+  "lec": 1,
+  "q": "In the basic scientific method, what step comes directly after doing background research?",
+  "opts": [
+   "Report results",
+   "Analyse data",
+   "Construct hypotheses",
+   "Collect data"
+  ],
+  "a": 2,
+  "why": "The sequence is ask a question, background research, construct hypotheses, test/collect data, analyse, report."
+ },
+ {
+  "id": "m1-8",
+  "lec": 1,
+  "q": "A researcher reads a recent journal article, spots a weak argument, and designs a new study to test an alternative explanation. In Lecture 1's terms, she is:",
+  "opts": [
+   "Participating in the scientific conversation",
+   "Engaging in a nonsensical conversation",
+   "Asking a non-scientific question",
+   "Avoiding the peer conversation"
+  ],
+  "a": 0,
+  "why": "Critiquing weak findings and building on them with a new study are ways of contributing to the scientific conversation."
+ },
+ {
+  "id": "m1-9",
+  "lec": 1,
+  "q": "Someone replies to 'more sleep leads to better mental functioning' with 'Koalas sleep 22 hours a day!' This reply is an example of:",
+  "opts": [
+   "A causal hypothesis",
+   "A nonsensical conversation, because it is not relevant",
+   "A good argument backed by evidence",
+   "A non-causal research question"
+  ],
+  "a": 1,
+  "why": "In a scientific conversation each contribution must be new AND relevant; the koala reply is off-topic."
+ },
+ {
+  "id": "m1-10",
+  "lec": 1,
+  "q": "'Higher hours of sleep, good sleep quality and strong social support lead to better mental health functioning.' How many variables are in this statement?",
+  "opts": [
+   "Two",
+   "Three",
+   "Five",
+   "Four"
+  ],
+  "a": 3,
+  "why": "Hours of sleep, sleep quality, social support and mental health functioning are four variables."
+ },
+ {
+  "id": "m1-11",
+  "lec": 1,
+  "q": "Students who eat breakfast tend to have higher grades, but the researcher cannot say breakfast causes higher grades. This is a:",
+  "opts": [
+   "Non-causal relationship",
+   "Causal relationship",
+   "Hypothesis",
+   "Non-scientific question"
+  ],
+  "a": 0,
+  "why": "A non-causal relationship means two variables are related but one cannot be said to cause the other."
+ },
+ {
+  "id": "m1-12",
+  "lec": 1,
+  "q": "Which is a research question about a CAUSAL relationship?",
+  "opts": [
+   "Is there a relationship between self-esteem and academic grades?",
+   "Can caffeine increase levels of attention?",
+   "What is the meaning of life?",
+   "Participants who drink coffee will sleep worse."
+  ],
+  "a": 1,
+  "why": "'Can caffeine increase attention?' asks whether one variable causes change in another; the last option is a hypothesis, not a question."
+ },
+ {
+  "id": "m1-13",
+  "lec": 1,
+  "q": "'Participants who drink coffee 3 hours before bedtime will have poorer sleep quality than those who don't.' This statement is best described as a:",
+  "opts": [
+   "Research question",
+   "Variable",
+   "Hypothesis",
+   "Conclusion"
+  ],
+  "a": 2,
+  "why": "A hypothesis is a prediction about the expected relationship between variables."
+ },
+ {
+  "id": "m1-14",
+  "lec": 1,
+  "q": "According to Lecture 1, what is a simple way to start familiarizing yourself with journal articles?",
+  "opts": [
+   "Read the references first",
+   "Skip to the results tables",
+   "Read the abstract",
+   "Read only the discussion"
+  ],
+  "a": 2,
+  "why": "The lecture suggests starting by reading the abstract, and learning the standard journal structure."
+ },
+ {
+  "id": "m1-15",
+  "lec": 1,
+  "q": "Which describes excellence in writing DURING and AFTER university, rather than in school?",
+  "opts": [
+   "Accurate rote memorisation of what others say",
+   "Accepting materials without questioning",
+   "Repeating the lecturer's words",
+   "Thinking critically, deriving your own conclusions and communicating reasoning clearly"
+  ],
+  "a": 3,
+  "why": "University writing means writing as professionals-to-be who question and critique and justify their reasoning."
+ },
+ {
+  "id": "m1-16",
+  "lec": 1,
+  "q": "'You are not writing a science fiction novel. Get to the point!' describes which quality of good scientific writing?",
+  "opts": [
+   "Persuasive",
+   "Purposeful",
+   "Precise and succinct",
+   "Impersonal"
+  ],
+  "a": 2,
+  "why": "Precise and succinct writing gets to the point and uses precise terms."
+ },
+ {
+  "id": "m1-17",
+  "lec": 1,
+  "q": "During a debate, Ben starts shouting and calls his opponent ignorant. According to Lecture 1:",
+  "opts": [
+   "Ben has made a strong argument",
+   "Ben has already lost the argument",
+   "Ben is using hedging language",
+   "Ben is participating in the scientific conversation"
+  ],
+  "a": 1,
+  "why": "Arguments are not verbal fights; raising your voice or making personal attacks means you have already lost."
+ },
+ {
+  "id": "m1-18",
+  "lec": 1,
+  "q": "Which argument would best support the claim that depression may partly be due to genetic factors?",
+  "opts": [
+   "My neighbour and friend have depression, and so do their mothers",
+   "A research review found 70% of Malaysians with depression have a directly related family member diagnosed with depression",
+   "My father had depression, so it is definitely genetic",
+   "Many people believe depression runs in families"
+  ],
+  "a": 1,
+  "why": "A good argument relies on research evidence from a larger sample rather than personal anecdotes."
+ },
+ {
+  "id": "m2-1",
+  "lec": 2,
+  "q": "Which source is a type of scholarly literature you can safely use as a main reference in a PSY113 assignment?",
+  "opts": [
+   "A blog post by a psychologist",
+   "A peer-reviewed journal article",
+   "A Wikipedia page with many references",
+   "A magazine feature article"
+  ],
+  "a": 1,
+  "why": "Journal articles are scholarly, peer-reviewed literature; blogs, wikis and magazines are not scientific literature."
+ },
+ {
+  "id": "m2-2",
+  "lec": 2,
+  "q": "A paper collects new survey data from 300 students and analyses it to test whether sleep predicts GPA. This is a(n):",
+  "opts": [
+   "Theoretical article",
+   "Review article",
+   "Empirical article",
+   "White paper"
+  ],
+  "a": 2,
+  "why": "Empirical articles present new, usually primary data, analysed to test hypotheses."
+ },
+ {
+  "id": "m2-3",
+  "lec": 2,
+  "q": "An author proposes a new model of motivation built from existing findings, without collecting any new data. This is a:",
+  "opts": [
+   "Empirical article",
+   "Conference proceeding",
+   "Meta-analysis",
+   "Theoretical/conceptual article"
+  ],
+  "a": 3,
+  "why": "Theoretical/conceptual articles present a model based on existing findings, with no new data."
+ },
+ {
+  "id": "m2-4",
+  "lec": 2,
+  "q": "A systematic review and a meta-analysis are both forms of which type of journal article?",
+  "opts": [
+   "Review article",
+   "Empirical article",
+   "Conference proceedings",
+   "Theoretical article"
+  ],
+  "a": 0,
+  "why": "Review articles summarise a field and may be either a systematic review or a meta-analysis."
+ },
+ {
+  "id": "m2-5",
+  "lec": 2,
+  "q": "Compared with academic books, journal articles are more likely to:",
+  "opts": [
+   "Cover broad topics and give a historical overview",
+   "Contain the latest findings and detailed methodology",
+   "Have a lower peer-review standard",
+   "Give only brief mention of methods"
+  ],
+  "a": 1,
+  "why": "Journal articles are more focused, more recent, peer-reviewed to a high standard and detail their methodology."
+ },
+ {
+  "id": "m2-6",
+  "lec": 2,
+  "q": "Which of the following is NOT one of the criteria peer reviewers judge?",
+  "opts": [
+   "Soundness of methods",
+   "Value and novelty of findings",
+   "The author's popularity on social media",
+   "Language and grammar"
+  ],
+  "a": 2,
+  "why": "Reviewers judge novelty, methods, consistency of results, strength of arguments, and language/grammar."
+ },
+ {
+  "id": "m2-7",
+  "lec": 2,
+  "q": "Why is the Wakefield et al. (1998) paper used as a case study in Lecture 2?",
+  "opts": [
+   "It shows the harm when poorly controlled, conflicted research reaches the public before proper vetting",
+   "It is the best example of a meta-analysis",
+   "It proved vaccines cause autism",
+   "It shows that retractions happen within weeks"
+  ],
+  "a": 0,
+  "why": "The poorly controlled MMR–autism study with an undisclosed conflict of interest took 12 years to retract, showing why vetting matters."
+ },
+ {
+  "id": "m2-8",
+  "lec": 2,
+  "q": "A tobacco company publishes a report finding its products do not cause lung cancer. According to Lecture 2, the main concern is that:",
+  "opts": [
+   "Reports can never contain research",
+   "It was published in a journal",
+   "It was written by WHO",
+   "There may be financial interests informing the research"
+  ],
+  "a": 3,
+  "why": "White/policy papers are not peer-reviewed and may be driven by personal or financial agendas."
+ },
+ {
+  "id": "m2-9",
+  "lec": 2,
+  "q": "Information literacy is best described as:",
+  "opts": [
+   "The ability to read quickly",
+   "The ability to know what information is needed and to locate, evaluate and use it effectively",
+   "Accepting what experts say as absolute truth",
+   "Memorising APA rules"
+  ],
+  "a": 1,
+  "why": "Lecture 2 defines information literacy as knowing what information is needed and locating, evaluating and using it."
+ },
+ {
+  "id": "m2-10",
+  "lec": 2,
+  "q": "Which section of an empirical paper should be detailed enough for other researchers to replicate the study?",
+  "opts": [
+   "Abstract",
+   "Discussion",
+   "Method",
+   "Title"
+  ],
+  "a": 2,
+  "why": "The Method section describes design, sample, measures and procedure in enough detail for replication."
+ },
+ {
+  "id": "m2-11",
+  "lec": 2,
+  "q": "In which section would you expect to find a non-statistical interpretation of results, limitations and suggestions for future studies?",
+  "opts": [
+   "Discussion",
+   "Results",
+   "Method",
+   "Introduction"
+  ],
+  "a": 0,
+  "why": "The Discussion interprets results non-technically, notes limitations, and suggests future studies and implications."
+ },
+ {
+  "id": "m2-12",
+  "lec": 2,
+  "q": "The part of the introduction that explains how and why the variables are related, and that informs the hypotheses, is the:",
+  "opts": [
+   "Research gap",
+   "Abstract",
+   "Procedure",
+   "Theoretical framework"
+  ],
+  "a": 3,
+  "why": "The theoretical framework explains how and why variables are connected and informs the hypotheses."
+ },
+ {
+  "id": "m2-13",
+  "lec": 2,
+  "q": "'Anxiety is a state of apprehension about future threats.' This is an example of a(n):",
+  "opts": [
+   "Operational definition",
+   "Conceptual definition",
+   "Hypothesis",
+   "Research gap"
+  ],
+  "a": 1,
+  "why": "Conceptual definitions describe what a variable means; operational definitions describe how it is measured."
+ },
+ {
+  "id": "m2-14",
+  "lec": 2,
+  "q": "A study measures creativity as the total score on the Torrance Tests of Creative Thinking (TTCT). This is a(n):",
+  "opts": [
+   "Operational definition",
+   "Conceptual definition",
+   "Theoretical framework",
+   "Research question"
+  ],
+  "a": 0,
+  "why": "An operational definition states how a variable is measured, e.g. total TTCT score."
+ },
+ {
+  "id": "m2-15",
+  "lec": 2,
+  "q": "An article does not label its hypotheses. Which phrase would most likely signal a hypothesis?",
+  "opts": [
+   "'Participants were recruited from…'",
+   "'Table 2 shows…'",
+   "'We predicted that women at peak fertility would…'",
+   "'Future research should…'"
+  ],
+  "a": 2,
+  "why": "When hypotheses are not explicit, look for words like 'expect', 'predict' and 'hypothesize'."
+ },
+ {
+  "id": "m2-16",
+  "lec": 2,
+  "q": "In the Beall and Tracy (2013) article, the variables identified in the lecture are:",
+  "opts": [
+   "Handedness and creativity",
+   "Smartphone use and life satisfaction",
+   "Caffeine and attention",
+   "Shirt colour and fertility"
+  ],
+  "a": 3,
+  "why": "The lecture identifies shirt colour and fertility as the study's variables."
+ },
+ {
+  "id": "m2-17",
+  "lec": 2,
+  "q": "Which part of the Method section tells you who was included and excluded from a study?",
+  "opts": [
+   "Procedure",
+   "Sample",
+   "Measures",
+   "General approach"
+  ],
+  "a": 1,
+  "why": "The Sample describes who participated, their characteristics, and inclusion/exclusion."
+ },
+ {
+  "id": "m2-18",
+  "lec": 2,
+  "q": "The abstract of an empirical paper is best described as:",
+  "opts": [
+   "A brief 150–250 word summary of the report",
+   "A list of the references used",
+   "The section stating the limitations",
+   "The detailed procedure"
+  ],
+  "a": 0,
+  "why": "Lecture 2 describes the abstract as a brief 150–250 word summary of the report."
+ },
+ {
+  "id": "m4-1",
+  "lec": 4,
+  "q": "Academic writing is best defined as:",
+  "opts": [
+   "The formal and logical expression of intellectual information",
+   "Any writing that uses technical jargon",
+   "Writing that expresses the author's personal feelings",
+   "Informal writing for course mates"
+  ],
+  "a": 0,
+  "why": "Lecture 4 defines academic writing as the formal and logical expression of intellectual information, objective in tone."
+ },
+ {
+  "id": "m4-2",
+  "lec": 4,
+  "q": "According to Lecture 4, in university your writing is an indication of:",
+  "opts": [
+   "Your memorisation ability",
+   "The quality of your thoughts",
+   "Your vocabulary size only",
+   "How long you studied"
+  ],
+  "a": 1,
+  "why": "In high school writing indicates understanding; in university it indicates the quality of your thoughts."
+ },
+ {
+  "id": "m4-3",
+  "lec": 4,
+  "q": "Which is NOT a typical audience for academic writing?",
+  "opts": [
+   "Researchers",
+   "Professors and lecturers",
+   "Your course mates and friends",
+   "Professionals from various industries"
+  ],
+  "a": 2,
+  "why": "The lecture states the typical audience will NOT be your course mates or friends."
+ },
+ {
+  "id": "m4-4",
+  "lec": 4,
+  "q": "Which of the following is a FUNCTION word?",
+  "opts": [
+   "communication",
+   "weaker",
+   "regular",
+   "the"
+  ],
+  "a": 3,
+  "why": "Function words (articles, prepositions, conjunctions) connect words but carry no meaning by themselves."
+ },
+ {
+  "id": "m4-5",
+  "lec": 4,
+  "q": "A 20-word paragraph contains 12 content words. What is its lexical density?",
+  "opts": [
+   "40%",
+   "60%",
+   "12%",
+   "167%"
+  ],
+  "a": 1,
+  "why": "Lexical density = content words ÷ total words × 100 = 12/20 × 100 = 60%."
+ },
+ {
+  "id": "m4-6",
+  "lec": 4,
+  "q": "Interview transcripts and spoken language typically have a lexical density of about:",
+  "opts": [
+   "45%",
+   "55–58%",
+   "48–51%",
+   "88%"
+  ],
+  "a": 0,
+  "why": "Spoken language is about 45%; fiction 48–51%; expository writing 55–58%."
+ },
+ {
+  "id": "m4-7",
+  "lec": 4,
+  "q": "A text that sounds vague, hesitant and uses far more words than needed most likely has:",
+  "opts": [
+   "High lexical density",
+   "Moderate lexical density",
+   "Very low lexical density",
+   "A nominal style"
+  ],
+  "a": 2,
+  "why": "Very low lexical density texts can seem meaningless, vague or hesitant and excessively verbose."
+ },
+ {
+  "id": "m4-8",
+  "lec": 4,
+  "q": "High lexical density is acceptable in academic writing when:",
+  "opts": [
+   "The text is spoken aloud",
+   "All specialist terms, constructs and variables have been clearly defined",
+   "The writer uses many personal pronouns",
+   "The audience is friends"
+  ],
+  "a": 1,
+  "why": "High density is acceptable if all specialist terms are clearly defined."
+ },
+ {
+  "id": "m4-9",
+  "lec": 4,
+  "q": "A student writes: 'This literature review will discuss studies on sleep.' What problem does this show?",
+  "opts": [
+   "Weasel words",
+   "Nominalization",
+   "Hedging",
+   "Telegraphing"
+  ],
+  "a": 3,
+  "why": "Telegraphing announces what the text will do ('This review will show…') and should be removed."
+ },
+ {
+  "id": "m4-10",
+  "lec": 4,
+  "q": "'Many people believe that social media harms teens' is an example of:",
+  "opts": [
+   "Weasel words",
+   "Impersonal construction",
+   "Telegraphing",
+   "Hedging"
+  ],
+  "a": 0,
+  "why": "Weasel words are ambiguous, misleading phrases like 'Many people believe that…'."
+ },
+ {
+  "id": "m4-11",
+  "lec": 4,
+  "q": "Which revision best applies nominalization to 'Teenagers are increasingly getting involved in promiscuous behaviour, and they could catch and spread STDs'?",
+  "opts": [
+   "Teens are getting involved and catching STDs",
+   "Promiscuity among teens presents a sexual health concern",
+   "We found that teens spread STDs",
+   "It is a fact that teenagers spread STDs"
+  ],
+  "a": 1,
+  "why": "Nominalization turns verb phrases (actions) into nouns (concepts): 'promiscuity', 'sexual health concern'."
+ },
+ {
+  "id": "m4-12",
+  "lec": 4,
+  "q": "Nominalization involves:",
+  "opts": [
+   "Turning nouns into verbs",
+   "Removing all nouns",
+   "Turning verbs (actions) into nouns (concepts)",
+   "Adding personal pronouns"
+  ],
+  "a": 2,
+  "why": "Nominal style turns verbs into nouns to create a more convincing, confident tone."
+ },
+ {
+  "id": "m4-13",
+  "lec": 4,
+  "q": "Which sentence uses impersonal construction?",
+  "opts": [
+   "I handed out the questionnaires",
+   "The researcher handed out the questionnaires",
+   "We gave participants questionnaires",
+   "The questionnaires were then administered to the participants"
+  ],
+  "a": 3,
+  "why": "Impersonal construction backgrounds the author and participants, often using the passive voice."
+ },
+ {
+  "id": "m4-14",
+  "lec": 4,
+  "q": "A group of five students writes up their study. Following Lecture 4's advice, they should refer to themselves as:",
+  "opts": [
+   "'the research team'",
+   "'we'",
+   "'us'",
+   "'I and my friends'"
+  ],
+  "a": 0,
+  "why": "In group research, impersonal construction means using 'the researchers' or 'the research team' instead of 'we/us'."
+ },
+ {
+  "id": "m4-15",
+  "lec": 4,
+  "q": "Which sentence uses the most appropriate hedging language?",
+  "opts": [
+   "These findings prove that social support determines stress",
+   "It is a fact that social support always reduces stress",
+   "These findings suggest that social support may predict academic stress",
+   "Social support must lower stress"
+  ],
+  "a": 2,
+  "why": "Hedging uses cautious words such as 'suggest' and 'may'; 'prove', 'fact', 'always' and 'must' imply certainty."
+ },
+ {
+  "id": "m4-16",
+  "lec": 4,
+  "q": "Using hedging language shows that the writer:",
+  "opts": [
+   "Is unsure about their topic and lacks knowledge",
+   "Is open to revising conclusions with new evidence and acknowledges potential bias",
+   "Wants to sound more casual",
+   "Is avoiding nominalization"
+  ],
+  "a": 1,
+  "why": "Hedging indicates tentativeness, openness to new evidence, and acknowledgement of possible bias or inaccuracy."
+ },
+ {
+  "id": "m4-17",
+  "lec": 4,
+  "q": "'There were 50 men and 50 girls, aged 18–25.' What is the best revision according to Lecture 4?",
+  "opts": [
+   "There were 50 boys and 50 girls, aged 18–25",
+   "There were 100 people, aged 18–25, mostly men",
+   "There were 50 gentlemen and 50 ladies, aged 18–25",
+   "There were 50 men and 50 women, aged 18–25"
+  ],
+  "a": 3,
+  "why": "Avoid biased (e.g. sexist) wording; adult females should be called women, parallel to men."
+ },
+ {
+  "id": "m4-18",
+  "lec": 4,
+  "q": "Which is NOT listed in Lecture 4 as a benefit of reading broadly?",
+  "opts": [
+   "Improving your vocabulary",
+   "Learning good pacing, phrasing and structure by example",
+   "Guaranteeing a higher lexical density in every sentence",
+   "Helping you develop your own author writing voice"
+  ],
+  "a": 2,
+  "why": "Reading improves language, vocabulary, structure and writing voice; the lecture does not claim it guarantees higher lexical density."
+ },
+ {
+  "id": "m5-1",
+  "lec": 5,
+  "q": "A student surveys 200 adults and finds that people who sleep less report more stress. Which sentence is most appropriate for the results section?",
+  "opts": [
+   "Lack of sleep causes higher stress.",
+   "Less sleep increases stress levels.",
+   "Sleep duration was negatively associated with stress.",
+   "Sleep has a strong impact on stress."
+  ],
+  "a": 2,
+  "why": "Causal words (cause, increase, impact) are only appropriate for experiments; correlational survey studies should use 'associated with' or 'negative relationship between'."
+ },
+ {
+  "id": "m5-2",
+  "lec": 5,
+  "q": "In scientific writing, 'significant' most closely means:",
+  "opts": [
+   "Important or meaningful to the reader",
+   "A difference or relationship between variables indicated by a valid statistical test",
+   "Large enough to have practical influence",
+   "Supported by a dictionary definition"
+  ],
+  "a": 1,
+  "why": "The lecture defines 'significant' as a statistically significant difference or relationship shown by a valid statistical test (e.g. t-test, ANOVA)."
+ },
+ {
+  "id": "m5-3",
+  "lec": 5,
+  "q": "A questionnaire gives very similar scores when the same participants complete it twice, two weeks apart. This describes its:",
+  "opts": [
+   "Reliability",
+   "Validity",
+   "Significance",
+   "Causality"
+  ],
+  "a": 0,
+  "why": "Reliability refers to whether the design/measures return consistent results."
+ },
+ {
+  "id": "m5-4",
+  "lec": 5,
+  "q": "A researcher uses a measure of shoe size to answer a question about intelligence. The main problem is with:",
+  "opts": [
+   "Reliability",
+   "Nominalization",
+   "Hedging",
+   "Validity"
+  ],
+  "a": 3,
+  "why": "Validity is the use of appropriate procedures, measures or techniques for answering a research question."
+ },
+ {
+  "id": "m5-5",
+  "lec": 5,
+  "q": "Why does the lecture recommend citing an academic article rather than a dictionary when defining terms?",
+  "opts": [
+   "Dictionaries are always out of date",
+   "Dictionary definitions are not conceptual definitions",
+   "APA style forbids citing dictionaries",
+   "Dictionaries do not include psychology words"
+  ],
+  "a": 1,
+  "why": "The lecture notes that dictionary definitions are NOT conceptual definitions, so academic sources should be used."
+ },
+ {
+  "id": "m5-6",
+  "lec": 5,
+  "q": "Which is the correct order of the drafting process?",
+  "opts": [
+   "Outline, free writing, first draft, editing, revising, polishing",
+   "Free writing, outline, first draft, revising, editing, polishing",
+   "Free writing, first draft, outline, editing, polishing, revising",
+   "First draft, outline, free writing, revising, polishing, editing"
+  ],
+  "a": 1,
+  "why": "The six steps are free writing, develop an outline, first draft, redrafting/revising, editing, polishing."
+ },
+ {
+  "id": "m5-7",
+  "lec": 5,
+  "q": "Mei is writing her first draft and keeps stopping to fix grammar and check the word count. Based on the lecture, what advice fits best?",
+  "opts": [
+   "Keep writing freely; poor writing is better than no writing",
+   "Stop and fix every sentence before moving on",
+   "Cut the draft to the word limit before continuing",
+   "Return to free writing and list more theories"
+  ],
+  "a": 0,
+  "why": "In the first draft you flesh out ideas freely without worrying about grammar or word limit: 'Poor writing > No writing'."
+ },
+ {
+  "id": "m5-8",
+  "lec": 5,
+  "q": "Asking 'Is more evidence needed for this point?' and 'Who might disagree with this?' belongs mainly to which stage?",
+  "opts": [
+   "Polishing",
+   "Free writing",
+   "Redrafting/Revising",
+   "Developing an outline"
+  ],
+  "a": 2,
+  "why": "Revising involves checking clarity, logical order, and whether arguments need more justification, and considering who might agree or disagree."
+ },
+ {
+  "id": "m5-9",
+  "lec": 5,
+  "q": "Checking formatting, punctuation and errors like 'an' vs 'and' is part of:",
+  "opts": [
+   "Editing",
+   "Revising",
+   "First draft",
+   "Polishing"
+  ],
+  "a": 3,
+  "why": "Polishing focuses on formatting, minor spelling/grammar errors and punctuation – 'the devil is in the details'."
+ },
+ {
+  "id": "m5-10",
+  "lec": 5,
+  "q": "According to the lecture, which statement about editing is correct?",
+  "opts": [
+   "Editing usually takes less time than the initial writing",
+   "You should add material during editing to reach the word count",
+   "Editing usually takes longer and requires more attention than initial writing",
+   "Editing only involves spelling corrections"
+  ],
+  "a": 2,
+  "why": "The lecture states editing usually takes longer and requires more attention; fluff should never be added to raise word count."
+ },
+ {
+  "id": "m5-11",
+  "lec": 5,
+  "q": "In the sandwich structure, what is the job of the concluding sentence?",
+  "opts": [
+   "Introduce the general point of the paragraph",
+   "Provide a reference supporting the claim",
+   "Explain relevance to the broader argument and connect to the next idea",
+   "Summarize every study cited so far"
+  ],
+  "a": 2,
+  "why": "The last/concluding sentence explains the paragraph's relevance and how it connects to the next idea."
+ },
+ {
+  "id": "m5-12",
+  "lec": 5,
+  "q": "'Their diet consists mainly of smaller fish and aquatic plants (Thompson, 2014).' In the piranha paragraph, this sentence is part of the:",
+  "opts": [
+   "Elaboration of point",
+   "Topic sentence",
+   "Concluding sentence",
+   "Transition to the previous paragraph"
+  ],
+  "a": 0,
+  "why": "The elaboration of point provides evidence, with a reference, supporting the topic sentence that piranhas are relatively harmless."
+ },
+ {
+  "id": "m5-13",
+  "lec": 5,
+  "q": "Which paragraph best follows the lecture's guidelines?",
+  "opts": [
+   "One sentence stating a key finding",
+   "Four sentences all developing one point, ending with a link to the next idea",
+   "Twelve sentences covering three different theories",
+   "A full page without breaks so the argument is not interrupted"
+  ],
+  "a": 1,
+  "why": "Good paragraphs are usually 3–5 sentences on one point; single sentences are not paragraphs and no paragraphing creates a 'Massive Death Wall of Text'."
+ },
+ {
+  "id": "m5-14",
+  "lec": 5,
+  "q": "An email to your lecturer requesting an extension falls where on the formality spectrum?",
+  "opts": [
+   "Highly informal",
+   "Somewhat informal",
+   "Highly formal",
+   "Somewhat formal"
+  ],
+  "a": 3,
+  "why": "Messages to persons-in-charge, supervisors and lecturers are 'somewhat formal'; highly formal is for legal documents and policies."
+ },
+ {
+  "id": "m5-15",
+  "lec": 5,
+  "q": "You are emailing a Western professor who signed their reply with just their first name. What does the lecture advise?",
+  "opts": [
+   "Switch to first name and emojis immediately",
+   "Keep addressing the recipient formally to stay on the safe side",
+   "Use Malaysian suffixes like '-lah' to sound friendly",
+   "Drop the greeting entirely"
+  ],
+  "a": 1,
+  "why": "Although Western recipients tend to be less formal, it is advisable to keep addressing them formally – you never know who the email may be forwarded to."
+ },
+ {
+  "id": "m5-16",
+  "lec": 5,
+  "q": "Which first email is most likely to get a reply according to the lecture?",
+  "opts": [
+   "A 300-word email with a 90-character subject line",
+   "A 75–100 word email with a subject line under 50 characters",
+   "A one-line email with no subject",
+   "A 500-word email explaining your full background"
+  ],
+  "a": 1,
+  "why": "Research cited in the lecture suggests emails of 75–100 words are most likely to get a response, and effective subject lines are under 50 characters."
+ },
+ {
+  "id": "m5-17",
+  "lec": 5,
+  "q": "When emailing your own lecturer, how should you introduce yourself?",
+  "opts": [
+   "[Full Name] from [Organization], [Country]",
+   "[Full Name] from [Department] at [Organization]",
+   "[Full Name], [Student ID] from [Class/Subject Name]",
+   "Your nickname and your Instagram handle"
+  ],
+  "a": 2,
+  "why": "For your own lecturer the recommended format is full name, student ID number and class/subject name."
+ },
+ {
+  "id": "m6-1",
+  "lec": 6,
+  "q": "Which best describes a literature review according to the lecture?",
+  "opts": [
+   "A summary of every study ever published on a topic",
+   "An assessment or evaluation of existing research to identify grounds for further research",
+   "A list of references in APA format",
+   "A report of new data collected by the author"
+  ],
+  "a": 1,
+  "why": "Literature + review = an assessment or evaluation of existing research with the purpose of identifying grounds for further research."
+ },
+ {
+  "id": "m6-2",
+  "lec": 6,
+  "q": "Which is NOT one of the functions of a literature review in the APA definition?",
+  "opts": [
+   "Defines and clarifies the topic or problem",
+   "Identifies contradictions, gaps and inconsistencies",
+   "Reports the statistical results of a new experiment",
+   "Suggests the next step in addressing the problem"
+  ],
+  "a": 2,
+  "why": "The APA definition covers defining the topic, summarizing previous investigations, identifying relations/gaps/inconsistencies, and suggesting next steps – not reporting new results."
+ },
+ {
+  "id": "m6-3",
+  "lec": 6,
+  "q": "Jun's literature review clearly defines his variables and cites many studies, but never explains why the variables should be related. What is missing?",
+  "opts": [
+   "A theoretical framework showing logical connections between variables",
+   "A reference list",
+   "Conceptual definitions",
+   "Keywords"
+  ],
+  "a": 0,
+  "why": "A good literature review shows logical connections between variables via a strong theoretical framework, alongside definitions, evidence and importance."
+ },
+ {
+  "id": "m6-4",
+  "lec": 6,
+  "q": "What is the correct order of the initial stages of conducting a literature review?",
+  "opts": [
+   "Quick read, define search scope, critical reading, decide on relevance, extract and organize",
+   "Define search scope and initial search, quick read, decide on relevance, critical reading, extract and organize",
+   "Critical reading, quick read, extract and organize, decide on relevance, define search scope",
+   "Define search scope, critical reading, quick read, extract and organize, decide on relevance"
+  ],
+  "a": 1,
+  "why": "The lecture's sequence is search scope/initial search, quick read, relevance, critical reading, then extract and organize."
+ },
+ {
+  "id": "m6-5",
+  "lec": 6,
+  "q": "Aisha only knows she likes developmental psychology and starts reading a textbook to find questions that interest her. This is an example of:",
+  "opts": [
+   "A narrow search",
+   "Critical reading",
+   "A broad search",
+   "A concept-centric table"
+  ],
+  "a": 2,
+  "why": "A broad search reviews a general domain; it is exploratory, giving broad but shallow understanding, and textbooks are a good resource."
+ },
+ {
+  "id": "m6-6",
+  "lec": 6,
+  "q": "A broad initial search typically results in:",
+  "opts": [
+   "Deep but narrow understanding of one variable",
+   "Broad but shallow understanding of the topic",
+   "A finished research question",
+   "A completed literature review table"
+  ],
+  "a": 1,
+  "why": "The lecture describes the broad search as exploratory, resulting in broad but shallow understanding."
+ },
+ {
+  "id": "m6-7",
+  "lec": 6,
+  "q": "Where are an article's keywords usually located?",
+  "opts": [
+   "In the title",
+   "After the abstract",
+   "In the reference list",
+   "At the end of the discussion"
+  ],
+  "a": 1,
+  "why": "Keywords are usually placed after the abstract and help narrow your search quickly."
+ },
+ {
+  "id": "m6-8",
+  "lec": 6,
+  "q": "You found one article that fits your topic perfectly. Which strategy does the lecture recommend for finding more?",
+  "opts": [
+   "Search only its title words in a dictionary",
+   "Scan its reference list and use Google Scholar's 'Related articles' and 'Cited by'",
+   "Contact the journal editor",
+   "Use only textbooks from now on"
+  ],
+  "a": 1,
+  "why": "Using the article's references, plus 'Related articles' and 'Cited by' on Google Scholar, is the recommended approach."
+ },
+ {
+  "id": "m6-9",
+  "lec": 6,
+  "q": "Ravi wants to study the Fear of Missing Out but finds very few studies. Which is the best next step?",
+  "opts": [
+   "Change topics immediately",
+   "Search related terms such as social isolation, feeling left out and ostracism",
+   "Rely only on news articles",
+   "Use only studies published this year"
+  ],
+  "a": 1,
+  "why": "For topics with limited research, expand your search area by searching related terms like feeling left out, social isolation/loneliness and ostracism."
+ },
+ {
+  "id": "m6-10",
+  "lec": 6,
+  "q": "In a quick read, which part gives a 'bird's eye' view of the research in about 150–200 words?",
+  "opts": [
+   "The title",
+   "The introduction",
+   "The abstract",
+   "The discussion"
+  ],
+  "a": 2,
+  "why": "The abstract gives a bird's-eye view in about 150–200 words; the title tells you the variables."
+ },
+ {
+  "id": "m6-11",
+  "lec": 6,
+  "q": "During the relevance stage, an article seems only marginally related to your topic. What does the lecture advise?",
+  "opts": [
+   "Discard it immediately",
+   "Cite it as your main source",
+   "Set it aside, as it may be useful for your eventual write-up",
+   "Rewrite its findings to fit your topic"
+  ],
+  "a": 2,
+  "why": "Do not be overly strict at this stage; set the article aside rather than discarding it, as it may be marginally relevant later."
+ },
+ {
+  "id": "m6-12",
+  "lec": 6,
+  "q": "Your topic is music therapy for children with ADHD. Which study title would be considered unrelated?",
+  "opts": [
+   "Diagnosis and treatment of attention deficit hyperactivity disorder (ADHD)",
+   "Agreement between teachers' ratings and observations of hyperactivity, inattentiveness, and defiance",
+   "Identification and evaluation of children with autism spectrum disorders",
+   "Music listening and impulsivity in children with ADHD"
+  ],
+  "a": 2,
+  "why": "The lecture classifies the autism identification study as unrelated; the ADHD diagnosis study is closely related and the teacher ratings study broadly related."
+ },
+ {
+  "id": "m6-13",
+  "lec": 6,
+  "q": "Which describes active (critical) reading?",
+  "opts": [
+   "Skimming to grasp the gist",
+   "Reading only the title and abstract",
+   "Understanding the article thoroughly while engaging with and critiquing it",
+   "Copying the abstract into your notes"
+  ],
+  "a": 2,
+  "why": "Critical reading is active reading – attending to specifics and critiquing; passive reading only grasps the basics or gist."
+ },
+ {
+  "id": "m6-14",
+  "lec": 6,
+  "q": "Which is part of the lecture's guidelines for approaching an article critically?",
+  "opts": [
+   "Ignore your research question to stay objective",
+   "Ask questions as you read and build your own arguments",
+   "Read every section with equal attention regardless of relevance",
+   "Avoid writing on the article"
+  ],
+  "a": 1,
+  "why": "Guidelines: keep the research question in mind, focus on relevant details, ask questions, analyze, and build your own arguments; making notes and highlighting are encouraged."
+ },
+ {
+  "id": "m6-15",
+  "lec": 6,
+  "q": "A table where each row is one study, with columns for hypothesis, method and results, uses which approach?",
+  "opts": [
+   "Concept-centric",
+   "Author-centric",
+   "Broad-narrow-broad",
+   "Sandwich"
+  ],
+  "a": 1,
+  "why": "The author-centric approach extracts and organizes literature by what each study found."
+ },
+ {
+  "id": "m6-16",
+  "lec": 6,
+  "q": "An experienced researcher wants to update herself on the latest findings and write a review paper. Which literature table approach suits her best?",
+  "opts": [
+   "Author-centric",
+   "Concept-centric",
+   "Passive reading",
+   "Free writing"
+  ],
+  "a": 1,
+  "why": "The concept-centric approach suits people familiar with the area who want to update on latest findings, and is useful for review papers."
+ },
+ {
+  "id": "m6-17",
+  "lec": 6,
+  "q": "Which approach does the lecture recommend for the second assignment?",
+  "opts": [
+   "Concept-centric, because it is more advanced",
+   "Author-centric, to dive deep into each study",
+   "No table is needed",
+   "Either, as long as it is alphabetical"
+  ],
+  "a": 1,
+  "why": "The author-centric approach is recommended for the second assignment and for those new to a topic."
+ },
+ {
+  "id": "m6-18",
+  "lec": 6,
+  "q": "Late in your search you find a study that has already answered your research question. According to the lecture, you should:",
+  "opts": [
+   "Ignore it so your proposal stays original",
+   "Revise your research question",
+   "Copy its method exactly",
+   "Stop the literature review entirely"
+  ],
+  "a": 1,
+  "why": "If a new article makes you rethink your question, or shows it has already been answered, you may need to revise your research question."
+ },
+ {
+  "id": "m7-1",
+  "lec": 7,
+  "q": "Which sequence correctly reflects the broad-narrow-broad approach?",
+  "opts": [
+   "Results, general introduction, research gap, discussion",
+   "General introduction, review of literature, research gap, method and results, discussion and implications",
+   "Research gap, general introduction, implications, review of literature",
+   "Discussion, method, general introduction, results"
+  ],
+  "a": 1,
+  "why": "The article opens broadly (introduction, review), narrows to the gap, hypotheses, methods and results, then broadens again in the discussion and implications."
+ },
+ {
+  "id": "m7-2",
+  "lec": 7,
+  "q": "For the PSY113 literature review assignment, which section should be left out?",
+  "opts": [
+   "Research gap and research question",
+   "Theoretical and practical implications",
+   "Results",
+   "General introduction to the topic"
+  ],
+  "a": 2,
+  "why": "Because no data are collected, the method, analysis, results and limitations sections are left out."
+ },
+ {
+  "id": "m7-3",
+  "lec": 7,
+  "q": "Which is the best first sentence for a general introduction on coffee and health?",
+  "opts": [
+   "According to the General Aggression Model, caffeine increases arousal.",
+   "Smillie and Gökçen (2010) found caffeine enhances working memory in extraverts.",
+   "Coffee is the most widely consumed beverage in the world after water.",
+   "p < .05 was found for caffeine and heart rate."
+  ],
+  "a": 2,
+  "why": "The lecture advises avoiding research findings or theory in the first sentence and introducing the topic broadly and relevantly, as you would to non-psychologists."
+ },
+ {
+  "id": "m7-4",
+  "lec": 7,
+  "q": "What is the main purpose of including a statistic like '400 million cups of coffee are consumed every day' in the introduction?",
+  "opts": [
+   "To prove the hypothesis",
+   "To show readers how the topic influences their lives and set the context",
+   "To replace the theoretical framework",
+   "To demonstrate statistical significance"
+  ],
+  "a": 1,
+  "why": "Statistics help tell readers how the topic affects their lives and describe the context of interest for the study."
+ },
+ {
+  "id": "m7-5",
+  "lec": 7,
+  "q": "According to the lecture, a theoretical framework is best defined as:",
+  "opts": [
+   "A formally named theory published in a textbook",
+   "The explanation for the connections between variables",
+   "A list of all studies on a topic",
+   "The hypotheses of the current study"
+  ],
+  "a": 1,
+  "why": "A theoretical framework is the explanation for the connections between variables and does not need to be a formal model or theory."
+ },
+ {
+  "id": "m7-6",
+  "lec": 7,
+  "q": "A student wants to explain why heavy Facebook users see others as happier by using the availability heuristic. This presents a theoretical framework using:",
+  "opts": [
+   "A formally-named model",
+   "A concept",
+   "An explanatory mechanism",
+   "A meta-analysis"
+  ],
+  "a": 1,
+  "why": "The lecture's Facebook example (Chou & Edge, 2012) illustrates a theoretical framework presented using a concept – the availability heuristic."
+ },
+ {
+  "id": "m7-7",
+  "lec": 7,
+  "q": "What does the lecture recommend about the number of theoretical frameworks for a first literature review?",
+  "opts": [
+   "Use at least three to show breadth",
+   "Choose only one for a parsimonious explanation",
+   "Avoid theoretical frameworks entirely",
+   "Use as many as the word count allows"
+  ],
+  "a": 1,
+  "why": "Using multiple frameworks is a fairly advanced skill; it is highly recommended to choose only ONE for a parsimonious explanation."
+ },
+ {
+  "id": "m7-8",
+  "lec": 7,
+  "q": "Without citing supporting research, a theoretical framework will:",
+  "opts": [
+   "Seem more original and therefore stronger",
+   "Sound like a personal opinion and be called into question",
+   "Automatically become a research gap",
+   "Be accepted if it is logical"
+  ],
+  "a": 1,
+  "why": "Citations give weight and continuity; without evidence the framework sounds like personal opinion and arguments get questioned."
+ },
+ {
+  "id": "m7-9",
+  "lec": 7,
+  "q": "Which should be EXCLUDED when describing a past study in your literature review?",
+  "opts": [
+   "The authors and year",
+   "The key findings",
+   "A brief argument for why the study is relevant",
+   "Inferential statistics such as p < .05"
+  ],
+  "a": 3,
+  "why": "Exclude inferential statistics, detailed procedures/measures and the study's own implications; include authors, brief description, key findings and relevance."
+ },
+ {
+  "id": "m7-10",
+  "lec": 7,
+  "q": "A sentence lists eleven citations in brackets to show that caffeine affects heart rate, breathing and wakefulness. What is the lecture's view?",
+  "opts": [
+   "Excellent – many citations show deep reading",
+   "This is citation spamming; many citations are not an indication of deep reading",
+   "It is required for a strong theoretical framework",
+   "It is acceptable only in the introduction"
+  ],
+  "a": 1,
+  "why": "The lecture warns against spamming citations; a focused source such as one meta-analysis is preferred."
+ },
+ {
+  "id": "m7-11",
+  "lec": 7,
+  "q": "A past study is relevant to supporting your theoretical framework if it:",
+  "opts": [
+   "Was published in the same country as you",
+   "Establishes a direction of causality between your variables of interest",
+   "Uses exactly the same sample size you plan to use",
+   "Has the most citations on Google Scholar"
+  ],
+  "a": 1,
+  "why": "Relevant studies claim a relationship between the variables, establish causal direction, explain why variables are related, or support/disprove the framework."
+ },
+ {
+  "id": "m7-12",
+  "lec": 7,
+  "q": "A proposed study replicates the lead paper and logically extends it by adding one new variable. Its research gap is best classified as:",
+  "opts": [
+   "Strong",
+   "Moderate",
+   "Weak",
+   "Not a research gap"
+  ],
+  "a": 1,
+  "why": "A moderately-strong gap proposes a replication and logical extension from the lead paper, or compares two competing methods/models."
+ },
+ {
+  "id": "m7-13",
+  "lec": 7,
+  "q": "A student proposes to study exactly what the lead article listed under 'suggestions for future research'. This gap is most likely:",
+  "opts": [
+   "Weak",
+   "Strong",
+   "Moderate",
+   "Novel"
+  ],
+  "a": 0,
+  "why": "A weak gap has minimal potential to add/challenge understanding and may simply be a future-research suggestion already mentioned in the lead article."
+ },
+ {
+  "id": "m7-14",
+  "lec": 7,
+  "q": "Which justification for a new study does the lecture say is NOT enough?",
+  "opts": [
+   "It may help create a new theoretical model",
+   "It addresses an obvious and important gap in the area",
+   "It repeats a published study using a Malaysian sample",
+   "It compares two competing models"
+  ],
+  "a": 2,
+  "why": "Merely conducting the same study with a different/larger sample, gender, age or a Malaysian sample is NOT enough of a contribution."
+ },
+ {
+  "id": "m7-15",
+  "lec": 7,
+  "q": "'The findings may extend Jones and Lejuez (2005), who found caffeine consumption associated with sensation seeking.' This is an example of a:",
+  "opts": [
+   "Weak theoretical implication",
+   "Strong theoretical implication",
+   "Vague practical implication",
+   "Research gap"
+  ],
+  "a": 1,
+  "why": "Strong theoretical implications go beyond 'adding understanding' by refining or extending specific existing theories and studies."
+ },
+ {
+  "id": "m7-16",
+  "lec": 7,
+  "q": "Which practical implication best follows the lecture's 'Do' list?",
+  "opts": [
+   "This study will contribute knowledge about coffee.",
+   "This study will end all diet-related illness worldwide.",
+   "Coffee intake guidelines could be tailored to personality, e.g. differing recommendations for extraverts and introverts.",
+   "People will know coffee affects their health."
+  ],
+  "a": 2,
+  "why": "Practical implications should be specific to the study and linked to its theoretical framework, not vague ('contribute knowledge') or overly grand."
+ },
+ {
+  "id": "m7-17",
+  "lec": 7,
+  "q": "A study on encouraging hotel guests to use less energy-intensive air-conditioner settings is presented in the lecture to illustrate:",
+  "opts": [
+   "Citation spamming",
+   "Linking research to the Sustainable Development Goals",
+   "A formally-named theoretical framework",
+   "An author-centric literature table"
+  ],
+  "a": 1,
+  "why": "The SDG activity asks students to identify which SDGs studies like this one (reducing carbon emissions) may contribute to."
+ },
+ {
+  "id": "m7-18",
+  "lec": 7,
+  "q": "When assessing the flow of a literature review outline, which question does the lecture suggest asking?",
+  "opts": [
+   "How many citations does each point have?",
+   "Would someone ask 'Why is this here?'",
+   "Is each point under 50 characters?",
+   "Does each point include a p-value?"
+  ],
+  "a": 1,
+  "why": "Assess whether the flow makes sense, whether parts are out of place, and whether a reader would ask 'Why is this here?' or 'What was the point of this?'"
+ },
+ {
+  "id": "m8-1",
+  "lec": 8,
+  "q": "Which term means giving credit to an idea that is not yours and telling readers where it came from?",
+  "opts": [
+   "Paraphrasing",
+   "Citation",
+   "Reference list",
+   "Bibliography"
+  ],
+  "a": 1,
+  "why": "The lecture defines citation as referring to or giving credit to an idea that is not yours, telling readers where it originated."
+ },
+ {
+  "id": "m8-2",
+  "lec": 8,
+  "q": "According to the lecture, which of the following is TRUE about plagiarism?",
+  "opts": [
+   "It can be deliberate or accidental",
+   "It only counts if it is deliberate",
+   "It only applies to direct quotes",
+   "It is acceptable if you change a few words"
+  ],
+  "a": 0,
+  "why": "Plagiarism can be either deliberate or accidental; minor word changes still count."
+ },
+ {
+  "id": "m8-3",
+  "lec": 8,
+  "q": "A student copies a sentence from a journal article, swaps three words for synonyms, and adds no citation. What is this?",
+  "opts": [
+   "An acceptable paraphrase",
+   "A secondary citation",
+   "A direct quote",
+   "Plagiarism"
+  ],
+  "a": 3,
+  "why": "Using synonyms to change a few words and not citing are both listed as things that count as plagiarism."
+ },
+ {
+  "id": "m8-4",
+  "lec": 8,
+  "q": "Copying how many words in a sequence without a citation will lead to suspicions of plagiarism?",
+  "opts": [
+   "Two or more",
+   "Five or more",
+   "Three or more",
+   "Ten or more"
+  ],
+  "a": 2,
+  "why": "The lecture says copying three or more words in a sequence without a citation counts as plagiarism."
+ },
+ {
+  "id": "m8-5",
+  "lec": 8,
+  "q": "What does the 'A' in the RAP strategy stand for?",
+  "opts": [
+   "Analyse the author's credentials",
+   "Ask for the main idea and supporting evidence",
+   "Attribute the source",
+   "Arrange the ideas alphabetically"
+  ],
+  "a": 1,
+  "why": "RAP = Read the original, Ask for the main idea and evidence, Put it in your own words."
+ },
+ {
+  "id": "m8-6",
+  "lec": 8,
+  "q": "Mei remembers her notes better when she rewrites textbook ideas in her own words rather than copying them. Which concept explains this?",
+  "opts": [
+   "Generation effect",
+   "Believability bias",
+   "Arousal-and-mood hypothesis",
+   "Secondary citation"
+  ],
+  "a": 0,
+  "why": "The Generation Effect: we remember things better if we were the source of that information."
+ },
+ {
+  "id": "m8-7",
+  "lec": 8,
+  "q": "Which paraphrase attempt in the lecture's 'Good, Bad and Ugly' example was best?",
+  "opts": [
+   "The one that swapped the authors' names and a few words",
+   "The one that kept the original sentence order but added a citation",
+   "The one that quoted the whole passage",
+   "The one that restructured the idea, interpreted the main point and cited the source"
+  ],
+  "a": 3,
+  "why": "A good paraphrase uses its own structure and words, captures the main idea and still cites the source."
+ },
+ {
+  "id": "m8-8",
+  "lec": 8,
+  "q": "Which is the correct APA in-text citation for an article by Carrie Amber Jones (1998)?",
+  "opts": [
+   "(C. A. Jones, 1998)",
+   "(Carrie, 1998)",
+   "(Jones, 1998)",
+   "(Jones, C. A., 1998)"
+  ],
+  "a": 2,
+  "why": "Always cite the author's surname only, with the year."
+ },
+ {
+  "id": "m8-9",
+  "lec": 8,
+  "q": "Which is the correct parenthetical citation for a 2016 article by Brian Christian and Tom Griffiths?",
+  "opts": [
+   "(Christian and Griffiths, 2016)",
+   "(Christian & Griffiths, 2016)",
+   "(Brian & Tom, 2016)",
+   "(Christian, Griffiths 2016)"
+  ],
+  "a": 1,
+  "why": "Parenthetical citations use the ampersand (&); narrative ones use 'and'."
+ },
+ {
+  "id": "m8-10",
+  "lec": 8,
+  "q": "A paper by Cohn, Fredrickson, Brown, Mikels and Conway (2009) is mentioned for the first time. How should it be cited in the text?",
+  "opts": [
+   "Cohn et al. (2009)",
+   "Cohn, Fredrickson, Brown, Mikels, and Conway (2009)",
+   "Cohn, Fredrickson, Brown, Mikels, & Conway (2009)",
+   "Cohn et al."
+  ],
+  "a": 0,
+  "why": "For more than two authors, every citation including the first uses first author + et al. + year."
+ },
+ {
+  "id": "m8-11",
+  "lec": 8,
+  "q": "Given the citation (McKay & Fanning, 2000, as cited in Brummelman et al., 2013), which source did the writer actually read?",
+  "opts": [
+   "McKay & Fanning (2000)",
+   "Neither source",
+   "Both sources",
+   "Brummelman et al. (2013)"
+  ],
+  "a": 3,
+  "why": "A secondary citation implies you only read the second source (the one after 'as cited in')."
+ },
+ {
+  "id": "m8-12",
+  "lec": 8,
+  "q": "Which source should appear in the reference list when you use (Henderlong & Lepper, 2002, as cited in Brummelman et al., 2004)?",
+  "opts": [
+   "Henderlong & Lepper (2002) only",
+   "Both sources",
+   "Brummelman et al. (2004) only",
+   "Neither, secondary citations are not referenced"
+  ],
+  "a": 2,
+  "why": "You may use secondary citations but not secondary references; only the source you read goes in the list."
+ },
+ {
+  "id": "m8-13",
+  "lec": 8,
+  "q": "Which is a correct APA citation for a direct quotation?",
+  "opts": [
+   "(Ng, 2017: 57)",
+   "(Ng, 2017, p. 57)",
+   "(Ng, 2017; p. 57)",
+   "(Ng, 2017; p.57)"
+  ],
+  "a": 1,
+  "why": "Direct quotes follow the usual author-year format plus the page number, separated by commas."
+ },
+ {
+  "id": "m8-14",
+  "lec": 8,
+  "q": "When citing two sources that support the same point in one bracket, what rules apply?",
+  "opts": [
+   "Alphabetical order, separated by semicolons",
+   "Chronological order, separated by commas",
+   "Most important first, separated by 'and'",
+   "Any order, separated by semicolons"
+  ],
+  "a": 0,
+  "why": "List the references alphabetically and separate each with a semicolon."
+ },
+ {
+  "id": "m8-15",
+  "lec": 8,
+  "q": "Fredrickson published two articles in 2013 that you cite. How should you distinguish them?",
+  "opts": [
+   "Fredrickson (2013-1) and Fredrickson (2013-2)",
+   "Add the article titles to the citation",
+   "Fredrickson et al. (2013)",
+   "Fredrickson (2013a) and Fredrickson (2013b)"
+  ],
+  "a": 3,
+  "why": "Add a letter suffix (a, b, c) after the year, ordered as in the reference list."
+ },
+ {
+  "id": "m8-16",
+  "lec": 8,
+  "q": "In a direct quote, what does text in square brackets [ ] indicate?",
+  "opts": [
+   "Text removed from the quote",
+   "The page number",
+   "Text changed so the quote reads grammatically",
+   "A secondary citation"
+  ],
+  "a": 2,
+  "why": "Square brackets show changed text; three full stops show that text was shortened."
+ },
+ {
+  "id": "m8-17",
+  "lec": 8,
+  "q": "Which is the best reason to use a direct quote rather than a paraphrase?",
+  "opts": [
+   "The passage is long and hard to read",
+   "You want an accurate word-for-word definition of a construct",
+   "You want to fill the word count",
+   "The source has more than two authors"
+  ],
+  "a": 1,
+  "why": "The lecture lists giving an exact definition of a construct, term or variable as a reason to quote directly."
+ },
+ {
+  "id": "m8-18",
+  "lec": 8,
+  "q": "What is the difference between a reference list and a bibliography?",
+  "opts": [
+   "A reference list lists works cited in the text; a bibliography lists all materials read",
+   "A reference list lists everything read; a bibliography lists only cited works",
+   "They are the same thing in APA",
+   "A bibliography is only used for books"
+  ],
+  "a": 0,
+  "why": "Reference list = all references cited; bibliography = all materials read to write the text."
+ },
+ {
+  "id": "m8-19",
+  "lec": 8,
+  "q": "Which APA rule applies to tables?",
+  "opts": [
+   "Use vertical lines to separate columns",
+   "Report p-values to two decimal places",
+   "Place the table title below the table",
+   "Place the table title above the table"
+  ],
+  "a": 3,
+  "why": "Tables have no vertical lines, p-values to three decimals, and titles go above the table."
+ },
+ {
+  "id": "m8-20",
+  "lec": 8,
+  "q": "'Brattico, E. (2015). From pleasure to liking and back... In J. P. Huston et al. (Eds.), Art, Aesthetics and the Brain (pp. 303-319). Oxford University Press.' What type of source is this?",
+  "opts": [
+   "Journal article",
+   "Book",
+   "Book chapter",
+   "Conference proceeding"
+  ],
+  "a": 2,
+  "why": "The 'In ... (Eds.), Title (pp. xx-xx)' pattern marks a book chapter entry."
+ },
+ {
+  "id": "m10-1",
+  "lec": 10,
+  "q": "According to the lecture, logic is best defined as:",
+  "opts": [
+   "A verbal disagreement between two people",
+   "The study of correct and incorrect forms of reasoning",
+   "The collection of evidence through experiments",
+   "The use of persuasive language"
+  ],
+  "a": 1,
+  "why": "Logic is the study of correct and incorrect forms of reasoning."
+ },
+ {
+  "id": "m10-2",
+  "lec": 10,
+  "q": "Which statement about arguments is TRUE according to the lecture?",
+  "opts": [
+   "An argument gives people a reason for believing what you said",
+   "An argument is a verbal fight",
+   "An argument must contain only one premise",
+   "An argument is any sentence that sounds convincing"
+  ],
+  "a": 0,
+  "why": "An argument shows what is true and why; it is not a shouting match."
+ },
+ {
+  "id": "m10-3",
+  "lec": 10,
+  "q": "Which of the following is NOT a proposition?",
+  "opts": [
+   "Birds are descendants of dinosaurs",
+   "Education should be free for everyone",
+   "Hypnosis is a controversial form of therapy",
+   "This bowl of pumpkin soup"
+  ],
+  "a": 3,
+  "why": "A proposition must make a claim that can be true or false; 'This bowl of pumpkin soup' makes no claim."
+ },
+ {
+  "id": "m10-4",
+  "lec": 10,
+  "q": "In an argument, the claim or perspective you are defending is called the:",
+  "opts": [
+   "Premise",
+   "Proposition only",
+   "Conclusion",
+   "Consequent"
+  ],
+  "a": 2,
+  "why": "Premises are the reasons; the conclusion is the claim being defended."
+ },
+ {
+  "id": "m10-5",
+  "lec": 10,
+  "q": "A father says, 'You can't borrow the car because I'm your father and I said no!' Why is this argument unconvincing?",
+  "opts": [
+   "It is in standard form",
+   "Its statements give no justified link to the conclusion",
+   "It has too many premises",
+   "It is a deductive argument"
+  ],
+  "a": 1,
+  "why": "Convincing arguments need logic (justified, linked statements) and relevance (conclusion follows)."
+ },
+ {
+  "id": "m10-6",
+  "lec": 10,
+  "q": "'Amy will be drinking coffee when I meet her, because she always drinks coffee in the morning.' In this sentence, which part is the conclusion?",
+  "opts": [
+   "'Amy will be drinking coffee when I meet her'",
+   "'she always drinks coffee in the morning'",
+   "'because'",
+   "There is no conclusion"
+  ],
+  "a": 0,
+  "why": "In natural language the conclusion can come before the premises; 'because' introduces the premise."
+ },
+ {
+  "id": "m10-7",
+  "lec": 10,
+  "q": "A deductive argument is valid when:",
+  "opts": [
+   "All its premises are factually true",
+   "Its conclusion is factually true",
+   "Most people find it believable",
+   "It is impossible for all premises to be true and the conclusion false at the same time"
+  ],
+  "a": 3,
+  "why": "Validity is the rule that true premises cannot lead to a false conclusion."
+ },
+ {
+  "id": "m10-8",
+  "lec": 10,
+  "q": "Premise 1: Only women can give birth. Premise 2: Alex is a woman. Conclusion: Alex gave birth. This argument is:",
+  "opts": [
+   "Valid and sound",
+   "Valid but unsound",
+   "Invalid, because Alex may be a woman who did not give birth",
+   "Invalid, because only women can give birth"
+  ],
+  "a": 2,
+  "why": "The conclusion can be false even if both premises are true, so it is invalid."
+ },
+ {
+  "id": "m10-9",
+  "lec": 10,
+  "q": "Premise 1: All roses are flowers. Premise 2: Some flowers are pink. Conclusion: Some roses are pink. Which is correct?",
+  "opts": [
+   "Valid, because pink roses exist",
+   "Invalid, because the pink flowers may not include any roses",
+   "Sound, because all premises are true",
+   "Valid, because roses are flowers"
+  ],
+  "a": 1,
+  "why": "Validity ignores real-world facts; the premises do not guarantee that roses overlap with pink flowers."
+ },
+ {
+  "id": "m10-10",
+  "lec": 10,
+  "q": "A deductive argument is sound when:",
+  "opts": [
+   "It is valid and all premises are actually true",
+   "Its conclusion is true",
+   "It has at least three premises",
+   "It avoids emotional language"
+  ],
+  "a": 0,
+  "why": "Soundness = valid form + all premises true."
+ },
+ {
+  "id": "m10-11",
+  "lec": 10,
+  "q": "Premise 1: Israel is the capital of New Zealand. Premise 2: Amy is visiting Israel. Conclusion: Amy is in New Zealand. This argument is:",
+  "opts": [
+   "Invalid and unsound",
+   "Valid and sound",
+   "Invalid but sound",
+   "Valid but unsound"
+  ],
+  "a": 3,
+  "why": "If the premises were true the conclusion would have to be true (valid), but Premise 1 is false (unsound)."
+ },
+ {
+  "id": "m10-12",
+  "lec": 10,
+  "q": "Which combination is impossible according to the lecture?",
+  "opts": [
+   "Valid and sound",
+   "Valid and unsound",
+   "Invalid and sound",
+   "Invalid and unsound"
+  ],
+  "a": 2,
+  "why": "An invalid argument is automatically unsound."
+ },
+ {
+  "id": "m10-13",
+  "lec": 10,
+  "q": "'If it rains, the game will be cancelled. The game is cancelled. Therefore it rained.' This argument commits which fallacy?",
+  "opts": [
+   "Believability bias",
+   "Affirming the consequent",
+   "Secondary citation",
+   "Generalization"
+  ],
+  "a": 1,
+  "why": "Inferring the cause from the result ignores other reasons (haze, power outage) and is affirming the consequent."
+ },
+ {
+  "id": "m10-14",
+  "lec": 10,
+  "q": "Why is validity described as 'necessary but insufficient' for a good deductive argument?",
+  "opts": [
+   "A valid argument can still have false premises",
+   "A valid argument must always have a true conclusion",
+   "Validity only applies to inductive arguments",
+   "Sound arguments do not need to be valid"
+  ],
+  "a": 0,
+  "why": "Validity is the first criterion, but soundness (true premises) is also needed."
+ },
+ {
+  "id": "m10-15",
+  "lec": 10,
+  "q": "A researcher argues: 'Coffee drinkers have better memory. Our participants showed better memory. Therefore our participants drank coffee.' What is the problem?",
+  "opts": [
+   "It is valid but unsound",
+   "It is sound but invalid",
+   "It is valid and sound",
+   "It is invalid, since better memory could have other causes"
+  ],
+  "a": 3,
+  "why": "The conclusion does not follow; as an invalid argument it is automatically unsound."
+ },
+ {
+  "id": "m10-16",
+  "lec": 10,
+  "q": "'Santa's elves travel east to west. Santa controls the sun. Therefore the sun rises in the east.' The lecture concludes that this argument is:",
+  "opts": [
+   "Good, because the conclusion is true",
+   "Valid but unsound",
+   "Invalid and unsound, although the conclusion is true",
+   "Sound but invalid"
+  ],
+  "a": 2,
+  "why": "A true conclusion does not make a good argument; the premises give no reason to believe it."
+ },
+ {
+  "id": "m10-17",
+  "lec": 10,
+  "q": "A student accepts an argument because it 'sounds right', even though its conclusion does not follow from its premises. This illustrates:",
+  "opts": [
+   "The generation effect",
+   "The believability bias",
+   "Soundness",
+   "Standard form"
+  ],
+  "a": 1,
+  "why": "Believability bias: an argument may sound believable but have an invalid form."
+ },
+ {
+  "id": "m10-18",
+  "lec": 10,
+  "q": "Which situation is NOT one of the lecture's reasons for arguing?",
+  "opts": [
+   "To win a shouting match",
+   "To come to a compromise",
+   "To persuade",
+   "To be clearly understood and to understand others"
+  ],
+  "a": 0,
+  "why": "Reasons listed: persuade, give reasons/explanations, compromise, be understood. Arguments are not shouting matches."
+ },
+ {
+  "id": "m10-19",
+  "lec": 10,
+  "q": "Why does the lecture say inductive logic is helpful in psychology?",
+  "opts": [
+   "It guarantees absolute truth",
+   "It only applies to chemistry and physics",
+   "It removes the need for premises",
+   "It tells us the degree to which we should believe an argument"
+  ],
+  "a": 3,
+  "why": "Psychology has few absolutes, so inductive logic gives degrees of belief and links to generalization."
+ },
+ {
+  "id": "m11-1",
+  "lec": 11,
+  "q": "Which statement best describes an inductive argument?",
+  "opts": [
+   "Premises lead to a logically-certain conclusion",
+   "Premises lead to a probable conclusion",
+   "Premises are always false but the conclusion true",
+   "Premises restate the conclusion"
+  ],
+  "a": 1,
+  "why": "Inductive arguments reason from premises to a probable conclusion, unlike deductive arguments, which aim for certainty."
+ },
+ {
+  "id": "m11-2",
+  "lec": 11,
+  "q": "Why are ALL inductive arguments considered invalid?",
+  "opts": [
+   "Their premises are usually false",
+   "They contain logical fallacies",
+   "All premises can be true while the conclusion is still false",
+   "They are judged on soundness only"
+  ],
+  "a": 2,
+  "why": "Inductive arguments are not concerned with absolute truth, so true premises do not guarantee a true conclusion."
+ },
+ {
+  "id": "m11-3",
+  "lec": 11,
+  "q": "Deductive arguments are described as 'all-or-nothing'. How are inductive arguments described?",
+  "opts": [
+   "A continuum of strength",
+   "Valid or invalid",
+   "Sound or unsound",
+   "Certain or uncertain"
+  ],
+  "a": 0,
+  "why": "The lecture contrasts deductive (all-or-nothing) with inductive arguments (continuum of strength)."
+ },
+ {
+  "id": "m11-4",
+  "lec": 11,
+  "q": "A debater adds a new premise that overturns her opponent's inductive conclusion. Which characteristic of inductive arguments does this show?",
+  "opts": [
+   "Validity",
+   "Soundness",
+   "Circularity",
+   "Defeasibility"
+  ],
+  "a": 3,
+  "why": "Inductive arguments are defeasible: open to revision, objection or annulment by adding or removing premises."
+ },
+ {
+  "id": "m11-5",
+  "lec": 11,
+  "q": "Conclusion: 'Amy is very unlikely to place 1st in tomorrow's marathon.' Which added premise WEAKENS this conclusion?",
+  "opts": [
+   "Amy has had a high fever all week",
+   "Amy has won her last five marathons while in remission",
+   "Amy has never run a full marathon",
+   "Most of tomorrow's runners are professional athletes"
+  ],
+  "a": 1,
+  "why": "Weakening premises make it more likely Amy places 1st, moving the argument along its continuum of strength."
+ },
+ {
+  "id": "m11-6",
+  "lec": 11,
+  "q": "Before adding a premise to an inductive argument, which three questions should you ask?",
+  "opts": [
+   "Is it true, justified and relevant?",
+   "Is it valid, sound and certain?",
+   "Is it popular, authoritative and traditional?",
+   "Is it large, unbiased and logical?"
+  ],
+  "a": 0,
+  "why": "A strong premise is true (based in fact), justified (backed by evidence) and relevant to the conclusion."
+ },
+ {
+  "id": "m11-7",
+  "lec": 11,
+  "q": "A student adds the premise 'My cousin says expressive writing works' to an argument. Which criterion for a strong premise does it most clearly fail?",
+  "opts": [
+   "Relevance",
+   "Context",
+   "Justification",
+   "Objectivity"
+  ],
+  "a": 2,
+  "why": "A justified premise has evidence to back it; one person's say-so is not evidence."
+ },
+ {
+  "id": "m11-8",
+  "lec": 11,
+  "q": "In the red wine example, the doctor's recommendation of a Mediterranean diet is an example of:",
+  "opts": [
+   "A more important context",
+   "A false dichotomy",
+   "A weak premise",
+   "A falsification"
+  ],
+  "a": 0,
+  "why": "Context is the situation in which the argument is made; a doctor's advice is a more important context than 'everyone else is drinking'."
+ },
+ {
+  "id": "m11-9",
+  "lec": 11,
+  "q": "The 'stakes' of an inductive argument refer to:",
+  "opts": [
+   "The number of premises",
+   "The circumstance in which it is made",
+   "The potential impact of the conclusion",
+   "The sample size behind it"
+  ],
+  "a": 2,
+  "why": "Stakes are the potential impact of the conclusion following from the inductive argument; context is the circumstance."
+ },
+ {
+  "id": "m11-10",
+  "lec": 11,
+  "q": "A researcher studies 40 university students and argues that adults in general show the same behaviour. This is an example of:",
+  "opts": [
+   "Falsification",
+   "Generalizing",
+   "Circular reasoning",
+   "Deductive reasoning"
+  ],
+  "a": 1,
+  "why": "Generalizing means observing tendencies in a small group and arguing that others like them will share those tendencies."
+ },
+ {
+  "id": "m11-11",
+  "lec": 11,
+  "q": "Which is NOT one of the three criteria for enhancing the strength of generalizations?",
+  "opts": [
+   "Logic",
+   "Sample size",
+   "Objectivity",
+   "Popularity"
+  ],
+  "a": 3,
+  "why": "Stronger generalizations follow logic, an adequate sample size and objectivity."
+ },
+ {
+  "id": "m11-12",
+  "lec": 11,
+  "q": "A survey on stress recruits only students who visit the counselling centre and generalizes to all students. Which criterion is most clearly violated?",
+  "opts": [
+   "Objectivity",
+   "Validity",
+   "Defeasibility",
+   "Soundness"
+  ],
+  "a": 0,
+  "why": "Objectivity asks whether the sample or data collection approach is biased; this sample is biased."
+ },
+ {
+  "id": "m11-13",
+  "lec": 11,
+  "q": "What does the 'invisible, weightless, odourless dragon' example illustrate?",
+  "opts": [
+   "A strong inductive argument",
+   "Generalizing from a small sample",
+   "A claim that cannot be falsified is not reasonable to accept",
+   "An appeal to authority"
+  ],
+  "a": 2,
+  "why": "A premise must be falsifiable; if a claim can't be proven true or otherwise, it is not reasonable to accept it."
+ },
+ {
+  "id": "m11-14",
+  "lec": 11,
+  "q": "Which statement is falsifiable?",
+  "opts": [
+   "Vegans secretly hate meat-eaters, and deny it if asked",
+   "Everyone lusted over their opposite-sex parent; denial shows repression",
+   "The sun rises in the east",
+   "Conversion therapy fails; any evidence it works is flawed"
+  ],
+  "a": 2,
+  "why": "Observation could show the sun rising elsewhere; the other claims explain away any contrary evidence."
+ },
+ {
+  "id": "m11-15",
+  "lec": 11,
+  "q": "According to Karl Popper (1963), irrefutability of a theory is:",
+  "opts": [
+   "A virtue",
+   "A vice",
+   "A requirement for validity",
+   "Irrelevant to science"
+  ],
+  "a": 1,
+  "why": "Popper wrote that a theory not refutable by any conceivable event is non-scientific; irrefutability is a vice."
+ },
+ {
+  "id": "m11-16",
+  "lec": 11,
+  "q": "A theory has gathered much supporting evidence and almost none against it over time. According to the lecture, scientists should:",
+  "opts": [
+   "Retain it as a good representation of reality",
+   "Discard it as unfalsifiable",
+   "Treat it as absolutely proven",
+   "Stop testing it"
+  ],
+  "a": 0,
+  "why": "With more support and few disproofs, we retain the theory; it can still be revised if new evidence challenges it."
+ },
+ {
+  "id": "m11-17",
+  "lec": 11,
+  "q": "To properly test the claim 'all swans are white', you should:",
+  "opts": [
+   "Count more white swans",
+   "Look for non-white swans",
+   "Ask swan experts",
+   "Survey people's beliefs about swans"
+  ],
+  "a": 1,
+  "why": "Every genuine test of a theory is an attempt to falsify it; confirmations are easy to find."
+ },
+ {
+  "id": "m11-18",
+  "lec": 11,
+  "q": "Which belief was discarded through falsification, according to the lecture?",
+  "opts": [
+   "Your blood type determines your personality",
+   "Extraversion predicts subjective well-being",
+   "Mindfulness is associated with lowered anxiety",
+   "The sun rises in the east"
+  ],
+  "a": 0,
+  "why": "Blood-type personality, handwriting analysis, skull bumps and left/right brain are beliefs falsified over time."
+ },
+ {
+  "id": "m12-1",
+  "lec": 12,
+  "q": "In argumentative logic, a fallacy is best defined as:",
+  "opts": [
+   "A false premise",
+   "A failure in reasoning that renders an argument invalid",
+   "An argument with a probable conclusion",
+   "A deliberately vague statement"
+  ],
+  "a": 1,
+  "why": "A fallacy is a failure in reasoning that renders an argument invalid; premises appear to support the conclusion but do not."
+ },
+ {
+  "id": "m12-2",
+  "lec": 12,
+  "q": "'If we let students use calculators, soon they won't be able to think at all!' This is:",
+  "opts": [
+   "False dichotomy",
+   "Red herring",
+   "Slippery slope",
+   "Circular argument"
+  ],
+  "a": 2,
+  "why": "A slippery slope asserts that allowing x will lead to a bad outcome y, without evidence."
+ },
+ {
+  "id": "m12-3",
+  "lec": 12,
+  "q": "'Either we stop allowing food trucks on campus, or we bankrupt our own café.' Which fallacy?",
+  "opts": [
+   "Slippery slope",
+   "False equivalence",
+   "Ambiguity",
+   "False dichotomy"
+  ],
+  "a": 3,
+  "why": "A false dichotomy proposes only two possibilities when there is no evidence that only two exist."
+ },
+ {
+  "id": "m12-4",
+  "lec": 12,
+  "q": "'A feather is light. Things that are light are not dark. Hence, there are no dark feathers.' Which fallacy?",
+  "opts": [
+   "Ambiguity",
+   "Circular argument",
+   "Appeal to tradition",
+   "Straw man"
+  ],
+  "a": 0,
+  "why": "The word 'light' switches between two meanings (weight vs colour), which is the fallacy of ambiguity."
+ },
+ {
+  "id": "m12-5",
+  "lec": 12,
+  "q": "According to the lecture, vagueness should generally be avoided when:",
+  "opts": [
+   "Making casual future plans",
+   "Making factual claims in high-stakes situations",
+   "We lack full information",
+   "Speaking informally with friends"
+  ],
+  "a": 1,
+  "why": "Vagueness is acceptable for uncertain plans, but should be avoided for factual claims in high-stakes situations."
+ },
+ {
+  "id": "m12-6",
+  "lec": 12,
+  "q": "A fallacy of relevance is also called a 'non sequitur' because:",
+  "opts": [
+   "The premises contain the conclusion",
+   "It uses only two options",
+   "The conclusion does not follow from an irrelevant premise",
+   "It misrepresents the opponent"
+  ],
+  "a": 2,
+  "why": "Fallacies of relevance offer an irrelevant premise, so the conclusion simply does not follow."
+ },
+ {
+  "id": "m12-7",
+  "lec": 12,
+  "q": "A fallacy of relevance makes a deductive argument ____ and an inductive argument ____.",
+  "opts": [
+   "invalid; weak",
+   "sound; strong",
+   "valid; weak",
+   "invalid; strong"
+  ],
+  "a": 0,
+  "why": "The lecture states fallacies of relevance are invalid for deductive arguments and weak for inductive ones."
+ },
+ {
+  "id": "m12-8",
+  "lec": 12,
+  "q": "'Cooper has never been in a relationship, so he's not qualified to talk about healthy relationships.' This ad hominem attacks Cooper's:",
+  "opts": [
+   "Premises",
+   "Conclusions",
+   "Entitlement to speak",
+   "Popularity"
+  ],
+  "a": 2,
+  "why": "This form of ad hominem attacks the person's entitlement to speak on the issue."
+ },
+ {
+  "id": "m12-9",
+  "lec": 12,
+  "q": "'This management style is the best approach to success because the CEO said so.' Which fallacy?",
+  "opts": [
+   "Appeal to popular assent",
+   "Ad hominem",
+   "Appeal to emotion",
+   "Appeal to authority"
+  ],
+  "a": 3,
+  "why": "Supporting an argument because someone with authority made it is an appeal to authority."
+ },
+ {
+  "id": "m12-10",
+  "lec": 12,
+  "q": "Which fallacy is described as the opposite of the ad hominem fallacy?",
+  "opts": [
+   "Appeal to authority",
+   "Straw man",
+   "Appeal to tradition",
+   "Red herring"
+  ],
+  "a": 0,
+  "why": "Ad hominem rejects a claim because of the person; appeal to authority accepts it because of the person."
+ },
+ {
+  "id": "m12-11",
+  "lec": 12,
+  "q": "'8 out of 10 dentists recommend Oral-B.' Which fallacy does the lecture use this to illustrate?",
+  "opts": [
+   "Appeal to emotion",
+   "Appeal to popular assent",
+   "False equivalence",
+   "Ambiguity"
+  ],
+  "a": 1,
+  "why": "Endorsing a position because a majority or large sample supports it is an appeal to popular assent."
+ },
+ {
+  "id": "m12-12",
+  "lec": 12,
+  "q": "'We have always used lectures to teach at university, so why change to online learning?' This is:",
+  "opts": [
+   "An appeal to emotion",
+   "A circular argument",
+   "An appeal to tradition",
+   "A false dichotomy"
+  ],
+  "a": 2,
+  "why": "Appeals to tradition argue 'this is how it's always been done'."
+ },
+ {
+  "id": "m12-13",
+  "lec": 12,
+  "q": "'If you loved me, you would not have said those things to me.' This is an example of:",
+  "opts": [
+   "Appeal to emotion",
+   "Ad hominem",
+   "Slippery slope",
+   "Red herring"
+  ],
+  "a": 0,
+  "why": "Appeals to emotion target another person's feelings such as guilt or pity."
+ },
+ {
+  "id": "m12-14",
+  "lec": 12,
+  "q": "'Intoxicating beverages should be banned, because they make people drunk.' Why is this circular?",
+  "opts": [
+   "It offers only two options",
+   "The premise essentially contains the conclusion",
+   "It attacks the speaker",
+   "It changes the subject"
+  ],
+  "a": 1,
+  "why": "A circular argument's premises contain the conclusion, or assume what it is trying to prove."
+ },
+ {
+  "id": "m12-15",
+  "lec": 12,
+  "q": "A: 'Free birth control would reduce unwanted pregnancies.' B: 'So you want to encourage everyone to sleep around?' B commits:",
+  "opts": [
+   "Red herring",
+   "False equivalence",
+   "Appeal to authority",
+   "Straw man"
+  ],
+  "a": 3,
+  "why": "A straw man wilfully misrepresents the other's argument (safe sex becomes promiscuity) and attacks the distortion."
+ },
+ {
+  "id": "m12-16",
+  "lec": 12,
+  "q": "A: 'Cheating on your spouse is wrong; you should tell them.' B: 'But who decides what is moral, anyway?' B commits:",
+  "opts": [
+   "Red herring",
+   "Straw man",
+   "Ad hominem",
+   "Ambiguity"
+  ],
+  "a": 0,
+  "why": "A red herring diverts attention by introducing another topic, here the nature of morality."
+ },
+ {
+  "id": "m12-17",
+  "lec": 12,
+  "q": "'John ran a red light. Bill murdered his wife. Both broke the law, so both should be jailed.' Which fallacy?",
+  "opts": [
+   "False dichotomy",
+   "Slippery slope",
+   "False equivalence",
+   "Appeal to popular assent"
+  ],
+  "a": 2,
+  "why": "False equivalence presents two things as the same when the equivalence is not logical."
+ },
+ {
+  "id": "m12-18",
+  "lec": 12,
+  "q": "A reviewer points out that a drug study's author is paid by the drug's manufacturer. According to the lecture, this is:",
+  "opts": [
+   "Always an ad hominem fallacy",
+   "A legitimate concern about a possible conflict of interest",
+   "An appeal to authority",
+   "A red herring"
+  ],
+  "a": 1,
+  "why": "We may raise concerns about conflicts of interest with good reasons, but should not dismiss a well-supported argument just because of the person."
+ },
+ {
+  "id": "m12-19",
+  "lec": 12,
+  "q": "Which is one of the lecture's 'strategies for arguing'?",
+  "opts": [
+   "Win by any means necessary",
+   "Rely on the majority view",
+   "Ask whether you are being generous with the other person's argument",
+   "Avoid using facts to keep it simple"
+  ],
+  "a": 2,
+  "why": "Strategies include being generous with the other's argument, using facts, avoiding fallacies and not being verbally aggressive."
+ }
+]
