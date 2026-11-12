@@ -927,12 +927,12 @@
   "lec": 6,
   "q": "Which best describes a literature review according to the lecture?",
   "opts": [
-   "A summary of every study ever published on a topic",
    "An assessment or evaluation of existing research to identify grounds for further research",
+   "A summary of every study ever published on a topic",
    "A list of references in APA format",
    "A report of new data collected by the author"
   ],
-  "a": 1,
+  "a": 0,
   "why": "Literature + review = an assessment or evaluation of existing research with the purpose of identifying grounds for further research."
  },
  {
@@ -942,10 +942,10 @@
   "opts": [
    "Defines and clarifies the topic or problem",
    "Identifies contradictions, gaps and inconsistencies",
-   "Reports the statistical results of a new experiment",
-   "Suggests the next step in addressing the problem"
+   "Suggests the next step in addressing the problem",
+   "Reports the statistical results of a new experiment"
   ],
-  "a": 2,
+  "a": 3,
   "why": "The APA definition covers defining the topic, summarizing previous investigations, identifying relations/gaps/inconsistencies, and suggesting next steps – not reporting new results."
  },
  {
@@ -953,12 +953,12 @@
   "lec": 6,
   "q": "Jun's literature review clearly defines his variables and cites many studies, but never explains why the variables should be related. What is missing?",
   "opts": [
-   "A theoretical framework showing logical connections between variables",
    "A reference list",
+   "A theoretical framework showing logical connections between variables",
    "Conceptual definitions",
    "Keywords"
   ],
-  "a": 0,
+  "a": 1,
   "why": "A good literature review shows logical connections between variables via a strong theoretical framework, alongside definitions, evidence and importance."
  },
  {
@@ -967,11 +967,11 @@
   "q": "What is the correct order of the initial stages of conducting a literature review?",
   "opts": [
    "Quick read, define search scope, critical reading, decide on relevance, extract and organize",
-   "Define search scope and initial search, quick read, decide on relevance, critical reading, extract and organize",
    "Critical reading, quick read, extract and organize, decide on relevance, define search scope",
+   "Define search scope and initial search, quick read, decide on relevance, critical reading, extract and organize",
    "Define search scope, critical reading, quick read, extract and organize, decide on relevance"
   ],
-  "a": 1,
+  "a": 2,
   "why": "The lecture's sequence is search scope/initial search, quick read, relevance, critical reading, then extract and organize."
  },
  {
@@ -979,12 +979,12 @@
   "lec": 6,
   "q": "Aisha only knows she likes developmental psychology and starts reading a textbook to find questions that interest her. This is an example of:",
   "opts": [
+   "A broad search",
    "A narrow search",
    "Critical reading",
-   "A broad search",
    "A concept-centric table"
   ],
-  "a": 2,
+  "a": 0,
   "why": "A broad search reviews a general domain; it is exploratory, giving broad but shallow understanding, and textbooks are a good resource."
  },
  {
@@ -993,11 +993,11 @@
   "q": "A broad initial search typically results in:",
   "opts": [
    "Deep but narrow understanding of one variable",
-   "Broad but shallow understanding of the topic",
    "A finished research question",
-   "A completed literature review table"
+   "A completed literature review table",
+   "Broad but shallow understanding of the topic"
   ],
-  "a": 1,
+  "a": 3,
   "why": "The lecture describes the broad search as exploratory, resulting in broad but shallow understanding."
  },
  {
@@ -1019,11 +1019,11 @@
   "q": "You found one article that fits your topic perfectly. Which strategy does the lecture recommend for finding more?",
   "opts": [
    "Search only its title words in a dictionary",
-   "Scan its reference list and use Google Scholar's 'Related articles' and 'Cited by'",
    "Contact the journal editor",
+   "Scan its reference list and use Google Scholar's 'Related articles' and 'Cited by'",
    "Use only textbooks from now on"
   ],
-  "a": 1,
+  "a": 2,
   "why": "Using the article's references, plus 'Related articles' and 'Cited by' on Google Scholar, is the recommended approach."
  },
  {
@@ -1031,12 +1031,12 @@
   "lec": 6,
   "q": "Ravi wants to study the Fear of Missing Out but finds very few studies. Which is the best next step?",
   "opts": [
-   "Change topics immediately",
    "Search related terms such as social isolation, feeling left out and ostracism",
+   "Change topics immediately",
    "Rely only on news articles",
    "Use only studies published this year"
   ],
-  "a": 1,
+  "a": 0,
   "why": "For topics with limited research, expand your search area by searching related terms like feeling left out, social isolation/loneliness and ostracism."
  },
  {
@@ -1046,10 +1046,10 @@
   "opts": [
    "The title",
    "The introduction",
-   "The abstract",
-   "The discussion"
+   "The discussion",
+   "The abstract"
   ],
-  "a": 2,
+  "a": 3,
   "why": "The abstract gives a bird's-eye view in about 150–200 words; the title tells you the variables."
  },
  {
@@ -1058,11 +1058,11 @@
   "q": "During the relevance stage, an article seems only marginally related to your topic. What does the lecture advise?",
   "opts": [
    "Discard it immediately",
-   "Cite it as your main source",
    "Set it aside, as it may be useful for your eventual write-up",
+   "Cite it as your main source",
    "Rewrite its findings to fit your topic"
   ],
-  "a": 2,
+  "a": 1,
   "why": "Do not be overly strict at this stage; set the article aside rather than discarding it, as it may be marginally relevant later."
  },
  {
@@ -1083,12 +1083,12 @@
   "lec": 6,
   "q": "Which describes active (critical) reading?",
   "opts": [
+   "Understanding the article thoroughly while engaging with and critiquing it",
    "Skimming to grasp the gist",
    "Reading only the title and abstract",
-   "Understanding the article thoroughly while engaging with and critiquing it",
    "Copying the abstract into your notes"
   ],
-  "a": 2,
+  "a": 0,
   "why": "Critical reading is active reading – attending to specifics and critiquing; passive reading only grasps the basics or gist."
  },
  {
@@ -1097,11 +1097,11 @@
   "q": "Which is part of the lecture's guidelines for approaching an article critically?",
   "opts": [
    "Ignore your research question to stay objective",
-   "Ask questions as you read and build your own arguments",
    "Read every section with equal attention regardless of relevance",
-   "Avoid writing on the article"
+   "Avoid writing on the article",
+   "Ask questions as you read and build your own arguments"
   ],
-  "a": 1,
+  "a": 3,
   "why": "Guidelines: keep the research question in mind, focus on relevant details, ask questions, analyze, and build your own arguments; making notes and highlighting are encouraged."
  },
  {
@@ -1123,11 +1123,11 @@
   "q": "An experienced researcher wants to update herself on the latest findings and write a review paper. Which literature table approach suits her best?",
   "opts": [
    "Author-centric",
-   "Concept-centric",
    "Passive reading",
+   "Concept-centric",
    "Free writing"
   ],
-  "a": 1,
+  "a": 2,
   "why": "The concept-centric approach suits people familiar with the area who want to update on latest findings, and is useful for review papers."
  },
  {
@@ -1135,12 +1135,12 @@
   "lec": 6,
   "q": "Which approach does the lecture recommend for the second assignment?",
   "opts": [
-   "Concept-centric, because it is more advanced",
    "Author-centric, to dive deep into each study",
+   "Concept-centric, because it is more advanced",
    "No table is needed",
    "Either, as long as it is alphabetical"
   ],
-  "a": 1,
+  "a": 0,
   "why": "The author-centric approach is recommended for the second assignment and for those new to a topic."
  },
  {
@@ -1149,11 +1149,11 @@
   "q": "Late in your search you find a study that has already answered your research question. According to the lecture, you should:",
   "opts": [
    "Ignore it so your proposal stays original",
-   "Revise your research question",
    "Copy its method exactly",
-   "Stop the literature review entirely"
+   "Stop the literature review entirely",
+   "Revise your research question"
   ],
-  "a": 1,
+  "a": 3,
   "why": "If a new article makes you rethink your question, or shows it has already been answered, you may need to revise your research question."
  },
  {
@@ -1161,12 +1161,12 @@
   "lec": 7,
   "q": "Which sequence correctly reflects the broad-narrow-broad approach?",
   "opts": [
-   "Results, general introduction, research gap, discussion",
    "General introduction, review of literature, research gap, method and results, discussion and implications",
+   "Results, general introduction, research gap, discussion",
    "Research gap, general introduction, implications, review of literature",
    "Discussion, method, general introduction, results"
   ],
-  "a": 1,
+  "a": 0,
   "why": "The article opens broadly (introduction, review), narrows to the gap, hypotheses, methods and results, then broadens again in the discussion and implications."
  },
  {
@@ -1176,10 +1176,10 @@
   "opts": [
    "Research gap and research question",
    "Theoretical and practical implications",
-   "Results",
-   "General introduction to the topic"
+   "General introduction to the topic",
+   "Results"
   ],
-  "a": 2,
+  "a": 3,
   "why": "Because no data are collected, the method, analysis, results and limitations sections are left out."
  },
  {
@@ -1188,11 +1188,11 @@
   "q": "Which is the best first sentence for a general introduction on coffee and health?",
   "opts": [
    "According to the General Aggression Model, caffeine increases arousal.",
-   "Smillie and Gökçen (2010) found caffeine enhances working memory in extraverts.",
    "Coffee is the most widely consumed beverage in the world after water.",
+   "Smillie and Gökçen (2010) found caffeine enhances working memory in extraverts.",
    "p < .05 was found for caffeine and heart rate."
   ],
-  "a": 2,
+  "a": 1,
   "why": "The lecture advises avoiding research findings or theory in the first sentence and introducing the topic broadly and relevantly, as you would to non-psychologists."
  },
  {
@@ -1201,11 +1201,11 @@
   "q": "What is the main purpose of including a statistic like '400 million cups of coffee are consumed every day' in the introduction?",
   "opts": [
    "To prove the hypothesis",
-   "To show readers how the topic influences their lives and set the context",
    "To replace the theoretical framework",
+   "To show readers how the topic influences their lives and set the context",
    "To demonstrate statistical significance"
   ],
-  "a": 1,
+  "a": 2,
   "why": "Statistics help tell readers how the topic affects their lives and describe the context of interest for the study."
  },
  {
@@ -1213,12 +1213,12 @@
   "lec": 7,
   "q": "According to the lecture, a theoretical framework is best defined as:",
   "opts": [
-   "A formally named theory published in a textbook",
    "The explanation for the connections between variables",
+   "A formally named theory published in a textbook",
    "A list of all studies on a topic",
    "The hypotheses of the current study"
   ],
-  "a": 1,
+  "a": 0,
   "why": "A theoretical framework is the explanation for the connections between variables and does not need to be a formal model or theory."
  },
  {
@@ -1227,11 +1227,11 @@
   "q": "A student wants to explain why heavy Facebook users see others as happier by using the availability heuristic. This presents a theoretical framework using:",
   "opts": [
    "A formally-named model",
-   "A concept",
    "An explanatory mechanism",
-   "A meta-analysis"
+   "A meta-analysis",
+   "A concept"
   ],
-  "a": 1,
+  "a": 3,
   "why": "The lecture's Facebook example (Chou & Edge, 2012) illustrates a theoretical framework presented using a concept – the availability heuristic."
  },
  {
@@ -1253,11 +1253,11 @@
   "q": "Without citing supporting research, a theoretical framework will:",
   "opts": [
    "Seem more original and therefore stronger",
-   "Sound like a personal opinion and be called into question",
    "Automatically become a research gap",
+   "Sound like a personal opinion and be called into question",
    "Be accepted if it is logical"
   ],
-  "a": 1,
+  "a": 2,
   "why": "Citations give weight and continuity; without evidence the framework sounds like personal opinion and arguments get questioned."
  },
  {
@@ -1265,12 +1265,12 @@
   "lec": 7,
   "q": "Which should be EXCLUDED when describing a past study in your literature review?",
   "opts": [
+   "Inferential statistics such as p < .05",
    "The authors and year",
    "The key findings",
-   "A brief argument for why the study is relevant",
-   "Inferential statistics such as p < .05"
+   "A brief argument for why the study is relevant"
   ],
-  "a": 3,
+  "a": 0,
   "why": "Exclude inferential statistics, detailed procedures/measures and the study's own implications; include authors, brief description, key findings and relevance."
  },
  {
@@ -1279,11 +1279,11 @@
   "q": "A sentence lists eleven citations in brackets to show that caffeine affects heart rate, breathing and wakefulness. What is the lecture's view?",
   "opts": [
    "Excellent – many citations show deep reading",
-   "This is citation spamming; many citations are not an indication of deep reading",
    "It is required for a strong theoretical framework",
-   "It is acceptable only in the introduction"
+   "It is acceptable only in the introduction",
+   "This is citation spamming; many citations are not an indication of deep reading"
   ],
-  "a": 1,
+  "a": 3,
   "why": "The lecture warns against spamming citations; a focused source such as one meta-analysis is preferred."
  },
  {
@@ -1305,11 +1305,11 @@
   "q": "A proposed study replicates the lead paper and logically extends it by adding one new variable. Its research gap is best classified as:",
   "opts": [
    "Strong",
-   "Moderate",
    "Weak",
+   "Moderate",
    "Not a research gap"
   ],
-  "a": 1,
+  "a": 2,
   "why": "A moderately-strong gap proposes a replication and logical extension from the lead paper, or compares two competing methods/models."
  },
  {
@@ -1332,10 +1332,10 @@
   "opts": [
    "It may help create a new theoretical model",
    "It addresses an obvious and important gap in the area",
-   "It repeats a published study using a Malaysian sample",
-   "It compares two competing models"
+   "It compares two competing models",
+   "It repeats a published study using a Malaysian sample"
   ],
-  "a": 2,
+  "a": 3,
   "why": "Merely conducting the same study with a different/larger sample, gender, age or a Malaysian sample is NOT enough of a contribution."
  },
  {
@@ -1369,12 +1369,12 @@
   "lec": 7,
   "q": "A study on encouraging hotel guests to use less energy-intensive air-conditioner settings is presented in the lecture to illustrate:",
   "opts": [
-   "Citation spamming",
    "Linking research to the Sustainable Development Goals",
+   "Citation spamming",
    "A formally-named theoretical framework",
    "An author-centric literature table"
   ],
-  "a": 1,
+  "a": 0,
   "why": "The SDG activity asks students to identify which SDGs studies like this one (reducing carbon emissions) may contribute to."
  },
  {
@@ -1383,11 +1383,11 @@
   "q": "When assessing the flow of a literature review outline, which question does the lecture suggest asking?",
   "opts": [
    "How many citations does each point have?",
-   "Would someone ask 'Why is this here?'",
    "Is each point under 50 characters?",
-   "Does each point include a p-value?"
+   "Does each point include a p-value?",
+   "Would someone ask 'Why is this here?'"
   ],
-  "a": 1,
+  "a": 3,
   "why": "Assess whether the flow makes sense, whether parts are out of place, and whether a reader would ask 'Why is this here?' or 'What was the point of this?'"
  },
  {

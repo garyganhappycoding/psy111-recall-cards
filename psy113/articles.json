@@ -1,1 +1,2450 @@
-[]
+[
+ {
+  "id": "a1",
+  "level": 1,
+  "title": "Typing Versus Writing: Laptop Note-Taking and Conceptual Understanding of Lectures",
+  "short": "Laptop vs longhand notes",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Mueller & Oppenheimer (2014), Psychological Science)",
+  "doi": "10.1177/0956797614524581",
+  "url": "https://doi.org/10.1177/0956797614524581",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment",
+  "based_on": "Mueller, P. A., & Oppenheimer, D. M. (2014). The pen is mightier than the keyboard: Advantages of longhand over laptop note taking. Psychological Science, 25(6), 1159–1168. https://doi.org/10.1177/0956797614524581",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Many university students now take lecture notes on laptops rather than by hand.",
+     "The aim of this study was to find out whether the way students take notes affects how well they understand lecture content.",
+     "We hypothesised that students who took notes by hand would answer conceptual questions better than students who took notes on a laptop.",
+     "In an experiment, 66 undergraduate students watched short video lectures while taking notes either on a laptop or with pen and paper.",
+     "Laptop and longhand note-takers recalled facts equally well, but longhand note-takers performed better on conceptual questions.",
+     "The findings suggest that typing notes word for word may reduce the deeper processing that supports understanding."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Laptops have become common in lecture halls, and many students believe that typing allows them to record more of what the lecturer says.",
+     "Note-taking is widely thought to help learning in two ways: by encouraging students to process information as they write, and by giving them a record to review later (Di Vesta & Gray, 1972).",
+     "In this study, conceptual understanding is defined as the ability to explain, apply and connect ideas from a lecture, rather than simply remember isolated facts.",
+     "Past research has shown that laptops can distract students through internet use and multitasking (Sana, Weston, & Cepeda, 2013).",
+     "However, even when laptops are used only for note-taking, typing is fast enough that students may copy the lecturer's words without thinking about them.",
+     "This study draws on the levels-of-processing framework (Craik & Lockhart, 1972), which proposes that information processed deeply for meaning is understood and remembered better than information processed only at a shallow level.",
+     "According to this framework, writing by hand is slower, so longhand note-takers must summarise and rephrase ideas, which should lead to deeper processing and better understanding.",
+     "Although many studies have examined laptops as a source of distraction, little research has tested whether laptop note-taking harms learning when distraction is removed.",
+     "Therefore, the research question was: does taking notes on a laptop rather than by hand affect students' conceptual understanding of lecture material?",
+     "We hypothesised that students who took notes by hand would score higher on conceptual questions than students who took notes on a laptop.",
+     "We also expected that laptop notes would contain more word-for-word copying of the lecture than handwritten notes."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "This study used an experiment in which students were randomly assigned to one of two note-taking conditions.",
+     "The sample consisted of 66 undergraduate students from a university in the United States who took part for course credit or payment.",
+     "Note-taking method was manipulated by giving half of the students a laptop with the internet switched off and the other half a notebook and pen.",
+     "Conceptual understanding was measured with questions that required students to explain or apply ideas from the lectures, such as comparing two approaches described by a speaker.",
+     "Factual recall was measured with questions that asked for specific details, such as names, dates or numbers mentioned in the lectures.",
+     "Verbatim copying was measured by comparing the words in each student's notes with the words in the lecture transcript.",
+     "Students were tested in small groups and watched several short, recorded talks on topics that were interesting but not common knowledge.",
+     "They were told to take notes in their usual way, as if they were in a normal class.",
+     "After the talks, students completed unrelated filler tasks for about 30 minutes so that the test did not simply measure short-term memory.",
+     "Finally, students answered the factual and conceptual questions about the lectures without looking at their notes."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Laptop and longhand note-takers performed about equally well on the factual recall questions.",
+     "However, students who took notes by hand performed better on the conceptual questions than students who used laptops (p < .05).",
+     "Laptop users wrote more words in total, but their notes also contained much more word-for-word copying of the lecture.",
+     "Students who copied more of the lecture word for word tended to score lower on the conceptual questions."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "In answer to the research question, taking notes on a laptop rather than by hand reduced students' conceptual understanding of lecture material, even without internet distraction.",
+     "This supports the levels-of-processing framework, because the slower, more selective processing involved in handwriting appears to lead to deeper understanding.",
+     "In practice, lecturers and students should be cautious about relying on laptops for note-taking, or students should be taught to summarise in their own words when typing.",
+     "One limitation is that students were tested soon after the lectures and did not study their notes, which is different from how students normally prepare for exams.",
+     "Future research should test whether the advantage of handwritten notes remains when students are allowed to review their notes before a delayed test."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the research question.",
+    "ans": [
+     "1.8"
+    ],
+    "ok": [
+     "0.1"
+    ],
+    "model": "Does taking notes on a laptop rather than by hand affect students' conceptual understanding of lecture material?",
+    "why": "The research question is usually near the end of the Introduction, just before the hypothesis; here it is signposted by 'the research question was'."
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the main hypothesis in the Introduction.",
+    "ans": [
+     "1.9"
+    ],
+    "ok": [
+     "0.2"
+    ],
+    "model": "Students who take notes by hand will score higher on conceptual questions than students who take notes on a laptop.",
+    "why": "A hypothesis is a testable prediction about how the variables are related; look for 'we hypothesised' or 'we predicted'."
+   },
+   {
+    "key": "vars",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the two main variables in this study.",
+    "accept": [
+     [
+      "laptop|typ|note|longhand|hand|writ|pen",
+      "understand|conceptual|concept|learn"
+     ]
+    ],
+    "model": "Note-taking method (laptop vs longhand) and conceptual understanding of the lecture.",
+    "why": "Variables are what the study changes or measures; the title and research question usually name both."
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of conceptual understanding.",
+    "ans": [
+     "1.2"
+    ],
+    "model": "Conceptual understanding is the ability to explain, apply and connect ideas from a lecture, not just remember isolated facts.",
+    "why": "A conceptual definition explains what a variable means in words (like a dictionary), often with 'is defined as' or 'refers to'."
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was conceptual understanding measured? Find the sentence.",
+    "ans": [
+     "2.3"
+    ],
+    "model": "With test questions that required students to explain or apply ideas from the lectures (e.g., comparing two approaches).",
+    "why": "An operational definition tells you exactly how a variable was measured; look in the Method for 'was measured with/by'."
+   },
+   {
+    "key": "method",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What general method (approach) did this study use?",
+    "options": [
+     "Experiment",
+     "Survey (correlational)",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Experiment",
+    "model": "Experiment: students were randomly assigned to laptop or longhand note-taking and their understanding was then compared.",
+    "why": "If the researchers deliberately change something (here, the note-taking method) and randomly assign people to conditions, it is an experiment."
+   },
+   {
+    "key": "sample",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants, and how many were there?",
+    "accept": [
+     [
+      "66|sixty",
+      "student|undergrad|participant"
+     ]
+    ],
+    "model": "66 undergraduate students at a US university.",
+    "why": "The sample is described near the start of the Method; note both the number and who the participants were."
+   },
+   {
+    "key": "manip",
+    "label": "Procedure (manipulation)",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence describing how note-taking method was manipulated.",
+    "ans": [
+     "2.2"
+    ],
+    "model": "Half of the students got a laptop (internet off) and half got a notebook and pen.",
+    "why": "The manipulation is what the researchers changed between groups; look for 'was manipulated by' or 'were assigned to'."
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework.",
+    "ans": [
+     "1.5"
+    ],
+    "ok": [
+     "1.6"
+    ],
+    "model": "The levels-of-processing framework (Craik & Lockhart, 1972): deeper, meaning-based processing leads to better understanding and memory.",
+    "why": "The theoretical framework is a named theory that explains WHY the variables should be linked; look for 'draws on', 'based on' or a theory with a citation."
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the sentence that identifies the research gap.",
+    "ans": [
+     "1.7"
+    ],
+    "model": "Little research had tested whether laptop note-taking harms learning when distraction (internet) is removed.",
+    "why": "A research gap says what past studies have NOT yet done; watch for 'little research', 'few studies' or 'no study has'."
+   },
+   {
+    "key": "results",
+    "label": "Results (hypothesis supported?)",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Was the main hypothesis supported by the results?",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported",
+    "model": "Supported: longhand note-takers did better on conceptual questions than laptop note-takers.",
+    "why": "Compare the hypothesis with the Results: the predicted difference on conceptual questions was found (p < .05)."
+   },
+   {
+    "key": "lim",
+    "label": "Limitation",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find a limitation of this study.",
+    "ans": [
+     "4.3"
+    ],
+    "model": "Students were tested soon after the lectures without studying their notes, unlike real exam preparation.",
+    "why": "Limitations are weaknesses the authors admit, usually in the Discussion, often introduced with 'one limitation is'."
+   }
+  ]
+ },
+ {
+  "id": "a2",
+  "level": 1,
+  "title": "Remembering Where You Learned: Context-Dependent Memory in Divers on Land and Underwater",
+  "short": "Divers learning underwater",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Godden & Baddeley (1975), British Journal of Psychology)",
+  "doi": "10.1111/j.2044-8295.1975.tb01468.x",
+  "url": "https://doi.org/10.1111/j.2044-8295.1975.tb01468.x",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment (each participant in all conditions)",
+  "based_on": "Godden, D. R., & Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and underwater. British Journal of Psychology, 66(3), 325–331. https://doi.org/10.1111/j.2044-8295.1975.tb01468.x",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Memory is often better when people are tested in the same place where they first learned the information.",
+     "The aim of this study was to test whether recall of words depends on whether the learning and recall environments match.",
+     "We hypothesised that divers would recall more words when they learned and recalled them in the same environment than when the environments were different.",
+     "Eighteen experienced divers learned lists of words either on land or underwater and then recalled them either on land or underwater.",
+     "Words learned in one environment were recalled better in that same environment.",
+     "These findings provide strong real-world evidence for context-dependent memory."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "People often notice that they can remember something more easily when they return to the place where they first learned it.",
+     "Context-dependent memory is defined as the finding that information is recalled better when the physical environment at recall matches the environment at learning.",
+     "Earlier laboratory studies tested this idea by changing features such as the room or background noise, but the effects they found were often small and inconsistent.",
+     "One reason may be that the differences between laboratory rooms were too small to act as strong memory cues.",
+     "This study is based on the encoding specificity principle (Tulving & Thomson, 1973), which states that memory cues are effective only if they were present when the information was first learned.",
+     "According to this principle, features of the surrounding environment are stored together with the learned material, so returning to that environment should help people retrieve it.",
+     "Underwater and dry land are two very different natural environments, and divers move between them as part of their normal activity.",
+     "Despite this, no previous study had tested context-dependent memory using two natural environments that differ as strongly as land and underwater.",
+     "The research question was: is recall of words better when divers learn and recall them in the same environment rather than in different environments?",
+     "We hypothesised that words learned underwater would be recalled better underwater, and words learned on land would be recalled better on land."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "This study was an experiment in which every participant took part in all four combinations of learning environment and recall environment.",
+     "The sample consisted of 18 members of a university diving club, both men and women, who were experienced divers.",
+     "The environment was manipulated by having divers learn and recall the words either sitting at the edge of the shore or about 6 metres underwater.",
+     "The learning material was lists of 36 unrelated two- and three-syllable words, presented through a recording that could be heard both on land and underwater.",
+     "Recall was measured as the number of words from each list that a diver could write down correctly, in any order.",
+     "Each diver completed four sessions: learn on land and recall on land, learn on land and recall underwater, learn underwater and recall underwater, and learn underwater and recall on land.",
+     "The order of the four sessions was varied across divers so that practice or tiredness would not favour any one condition.",
+     "In every session, divers heard a list of words, waited a few minutes, and then wrote down as many words as they could on a waterproof board or on paper.",
+     "When divers needed to change environment between learning and recall, they moved from land to water or from water to land during the waiting period."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Divers recalled more words when the learning and recall environments were the same than when they were different (p < .05).",
+     "Words learned underwater were recalled better underwater, and words learned on land were recalled better on land.",
+     "On average, recall was roughly 40% higher when the two environments matched.",
+     "Whether divers learned on land or underwater did not by itself make a large difference to overall recall."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "In answer to the research question, recall of words was better when divers learned and recalled them in the same environment.",
+     "These results support the encoding specificity principle, because features of the environment appeared to act as cues that helped divers retrieve the words.",
+     "A practical implication is that diver training should take place in the environment where the knowledge will be used, for example by practising safety procedures underwater rather than only on land.",
+     "A limitation is that the sample was small and consisted only of experienced divers, so the results may not apply to other people or to more ordinary changes of setting.",
+     "Future research could examine whether simply imagining the original learning environment is enough to improve recall when people cannot return to it."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the research question.",
+    "ans": [
+     "1.8"
+    ],
+    "ok": [
+     "0.1"
+    ],
+    "model": "Is recall of words better when divers learn and recall them in the same environment rather than in different environments?",
+    "why": "The research question usually appears at the end of the Introduction; here it is signposted by 'the research question was'."
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the hypothesis in the Introduction.",
+    "ans": [
+     "1.9"
+    ],
+    "ok": [
+     "0.2"
+    ],
+    "model": "Words learned underwater will be recalled better underwater, and words learned on land will be recalled better on land.",
+    "why": "A hypothesis is the specific prediction the study tests; look for 'we hypothesised'."
+   },
+   {
+    "key": "vars",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the two main variables in this study.",
+    "accept": [
+     [
+      "environment|context|place|setting|land|underwater|water|match",
+      "recall|memory|remember|word"
+     ]
+    ],
+    "model": "Environment (learning and recall on land vs underwater, i.e. whether contexts match) and recall of words.",
+    "why": "One variable is what the researchers changed (the environment), the other is what they measured (how many words were recalled)."
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of context-dependent memory.",
+    "ans": [
+     "1.1"
+    ],
+    "model": "Context-dependent memory means information is recalled better when the environment at recall matches the environment at learning.",
+    "why": "A conceptual definition explains the meaning of a concept in words; look for 'is defined as'."
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was recall measured? Find the sentence.",
+    "ans": [
+     "2.4"
+    ],
+    "model": "Recall was the number of words from each list a diver wrote down correctly, in any order.",
+    "why": "Operational definitions in the Method say exactly how a variable was counted or scored."
+   },
+   {
+    "key": "method",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What general method (approach) did this study use?",
+    "options": [
+     "Experiment",
+     "Survey (correlational)",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Experiment",
+    "model": "Experiment: the researchers controlled where divers learned and recalled the words and compared recall across conditions.",
+    "why": "The researchers deliberately changed the environment and measured the effect on recall, so this is an experiment (each diver did every condition)."
+   },
+   {
+    "key": "sample",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants, and how many were there?",
+    "accept": [
+     [
+      "18|eighteen",
+      "diver|divers|club|participant"
+     ]
+    ],
+    "model": "18 experienced divers from a university diving club.",
+    "why": "Look at the start of the Method for the number and type of participants."
+   },
+   {
+    "key": "manip",
+    "label": "Procedure (manipulation)",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence describing how the environment was manipulated.",
+    "ans": [
+     "2.2"
+    ],
+    "ok": [
+     "2.5"
+    ],
+    "model": "Divers learned and recalled words either on the shore or about 6 metres underwater.",
+    "why": "The manipulation is the thing the researchers changed on purpose; look for 'was manipulated by'."
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework.",
+    "ans": [
+     "1.4"
+    ],
+    "ok": [
+     "1.5"
+    ],
+    "model": "The encoding specificity principle (Tulving & Thomson, 1973): cues present at learning help retrieval later.",
+    "why": "The framework is a named theory (with a citation) that explains why matching environments should help memory."
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the sentence that identifies the research gap.",
+    "ans": [
+     "1.7"
+    ],
+    "model": "No earlier study had tested context-dependent memory with two very different natural environments such as land and underwater.",
+    "why": "A gap describes what past research has not done yet; look for 'no previous study' or 'little research'."
+   },
+   {
+    "key": "results",
+    "label": "Results (hypothesis supported?)",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Was the main hypothesis supported by the results?",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported",
+    "model": "Supported: recall was better when the learning and recall environments matched.",
+    "why": "The Results match the prediction: same-environment recall was higher than different-environment recall."
+   },
+   {
+    "key": "imp",
+    "label": "Practical implication",
+    "tag": "IMP",
+    "kind": "sentence",
+    "prompt": "Find the practical implication of the findings.",
+    "ans": [
+     "4.2"
+    ],
+    "model": "Diver training should happen in the environment where the knowledge will be used (e.g., practising safety procedures underwater).",
+    "why": "Practical implications say how the findings can be used in real life; look for 'in practice' or 'a practical implication'."
+   }
+  ]
+ },
+ {
+  "id": "a3",
+  "level": 1,
+  "title": "Out of Sight, Out of Mind? Smartphone Location and Available Cognitive Capacity",
+  "short": "Phone on the desk",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Ward, Duke, Gneezy & Bos (2017), Journal of the Association for Consumer Research)",
+  "doi": "10.1086/691462",
+  "url": "https://doi.org/10.1086/691462",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment",
+  "based_on": "Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: The mere presence of one's own smartphone reduces available cognitive capacity. Journal of the Association for Consumer Research, 2(2), 140–154. https://doi.org/10.1086/691462",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Smartphones are always within reach for most young adults, even when they are not being used.",
+     "The aim of this study was to find out whether the mere presence of one's own smartphone reduces available cognitive capacity.",
+     "We hypothesised that the closer and more noticeable a participant's phone was, the lower their performance on tests of cognitive capacity would be.",
+     "About 520 undergraduate students completed two cognitive tests while their silenced phone was on the desk, in their pocket or bag, or in another room.",
+     "Participants whose phones were in another room performed best, and those whose phones were on the desk performed worst.",
+     "The results suggest that simply having a smartphone nearby can drain limited mental resources."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "People check their smartphones many times a day, and phones are often kept on desks during study and work.",
+     "In this study, available cognitive capacity is defined as the amount of limited mental resources, such as working memory and attention, that a person can use for a task at a given moment.",
+     "Past research has shown that receiving notifications or using a phone during a task harms performance (Stothart, Mitchum, & Yehnert, 2015).",
+     "However, most studies have focused on what happens when people actively use their phones or are interrupted by them.",
+     "This study is based on the limited-capacity model of attention (Kahneman, 1973), which states that people have a fixed pool of attention that must be shared between everything they are processing.",
+     "According to this model, a personally important object such as one's own smartphone may automatically draw on attention, leaving fewer resources for the task at hand, even when the person tries to ignore it.",
+     "Little is known about whether the mere presence of a smartphone, when it is silent and not being used, reduces cognitive capacity.",
+     "The research question was: does the location of a person's own smartphone affect their available cognitive capacity?",
+     "We hypothesised that participants would perform worst when their phone was on the desk, better when it was in their pocket or bag, and best when it was in another room."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "This study used an experiment in which participants were randomly assigned to one of three phone-location conditions.",
+     "The sample consisted of approximately 520 undergraduate students from a large university in the United States who owned a smartphone.",
+     "Phone location was manipulated by asking participants to place their silenced phone face down on the desk, keep it in their pocket or bag, or leave it with their belongings in another room.",
+     "Working memory capacity was measured with the Operation Span task, in which participants solved simple maths problems while remembering a series of letters.",
+     "Fluid intelligence was measured with a set of items from Raven's Progressive Matrices, which require participants to complete visual patterns.",
+     "Participants arrived at the laboratory and were told that the study was about how well people perform on different types of tasks.",
+     "Before the tasks started, all participants were asked to turn off the sound and vibration on their phones.",
+     "After placing their phones according to their condition, participants completed the two cognitive tests on a computer.",
+     "At the end, participants answered questions about how often they had thought about their phone during the tasks."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Participants whose phones were in another room scored significantly higher on both cognitive tests than those whose phones were on the desk (p < .05).",
+     "Participants with their phones in their pocket or bag scored in between the other two groups.",
+     "Most participants reported that they had not been thinking about their phones during the tasks, even in the desk condition."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "In answer to the research question, the location of participants' own smartphones did affect their available cognitive capacity, with closer phones linked to lower performance.",
+     "These findings support the limited-capacity model of attention, because ignoring a nearby phone seems to use up some of the attention needed for the task.",
+     "This effect seemed to occur without participants being aware of it, which suggests that the phone draws on attention automatically.",
+     "A practical implication is that students who want to concentrate during study or exams should leave their phones in a different room rather than simply turning them face down.",
+     "A limitation is that the study took place in a laboratory with short tests, so it is unclear how strongly the effect applies to longer, real-life study sessions.",
+     "Future research should test whether the effect is stronger for people who feel more dependent on their smartphones."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the research question.",
+    "ans": [
+     "1.7"
+    ],
+    "ok": [
+     "0.1"
+    ],
+    "model": "Does the location of a person's own smartphone affect their available cognitive capacity?",
+    "why": "The research question is the question the whole study tries to answer, usually at the end of the Introduction."
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the hypothesis in the Introduction.",
+    "ans": [
+     "1.8"
+    ],
+    "ok": [
+     "0.2"
+    ],
+    "model": "Performance will be worst with the phone on the desk, better with it in a pocket/bag, and best with it in another room.",
+    "why": "The hypothesis predicts the direction of the result; look for 'we hypothesised'."
+   },
+   {
+    "key": "vars",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the two main variables in this study.",
+    "accept": [
+     [
+      "phone|smartphone|location|presence",
+      "capacit|cognit|memory|attention|intelligence|performance|test"
+     ]
+    ],
+    "model": "Smartphone location (desk, pocket/bag, other room) and available cognitive capacity (test performance).",
+    "why": "The research question names both: what is changed (phone location) and what is measured (cognitive capacity)."
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of available cognitive capacity.",
+    "ans": [
+     "1.1"
+    ],
+    "model": "The amount of limited mental resources (e.g., working memory, attention) a person can use for a task at a given moment.",
+    "why": "A conceptual definition describes the meaning of the concept, not how it is measured; look for 'is defined as'."
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was working memory capacity measured? Find the sentence.",
+    "ans": [
+     "2.3"
+    ],
+    "model": "With the Operation Span task: solving simple maths problems while remembering a series of letters.",
+    "why": "Operational definitions name the specific task or questionnaire used; look for 'was measured with' in the Method."
+   },
+   {
+    "key": "method",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What general method (approach) did this study use?",
+    "options": [
+     "Experiment",
+     "Survey (correlational)",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Experiment",
+    "model": "Experiment: participants were randomly assigned to three phone-location conditions and their test scores were compared.",
+    "why": "Random assignment to conditions that the researchers controlled (where the phone was) is the sign of an experiment."
+   },
+   {
+    "key": "sample",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants, and how many were there?",
+    "accept": [
+     [
+      "520|500",
+      "student|undergrad|participant"
+     ]
+    ],
+    "model": "About 520 undergraduate students from a large US university who owned a smartphone.",
+    "why": "Check the start of the Method for the number of participants and who they were."
+   },
+   {
+    "key": "manip",
+    "label": "Procedure (manipulation)",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence describing how phone location was manipulated.",
+    "ans": [
+     "2.2"
+    ],
+    "model": "Participants put their silenced phone face down on the desk, in their pocket or bag, or in another room.",
+    "why": "The manipulation is what differs between the groups; look for 'was manipulated by'."
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework.",
+    "ans": [
+     "1.4"
+    ],
+    "ok": [
+     "1.5"
+    ],
+    "model": "The limited-capacity model of attention (Kahneman, 1973): attention is a fixed pool shared between everything we process.",
+    "why": "The framework is a named theory with a citation that explains why a nearby phone could lower performance."
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the sentence that identifies the research gap.",
+    "ans": [
+     "1.6"
+    ],
+    "model": "Little was known about whether a phone that is merely present (silent, unused) reduces cognitive capacity.",
+    "why": "The gap often follows 'However, most studies have...' and starts with phrases like 'little is known'."
+   },
+   {
+    "key": "results",
+    "label": "Results (hypothesis supported?)",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Was the main hypothesis supported by the results?",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported",
+    "model": "Supported: the further away the phone, the better participants performed (other room best, desk worst).",
+    "why": "Check whether the Results show the predicted pattern; here they do (p < .05)."
+   },
+   {
+    "key": "fut",
+    "label": "Future research",
+    "tag": "FUT",
+    "kind": "sentence",
+    "prompt": "Find the suggestion for future research.",
+    "ans": [
+     "4.5"
+    ],
+    "model": "Test whether the effect is stronger for people who are more dependent on their smartphones.",
+    "why": "Future research suggestions are near the end of the Discussion, usually starting with 'future research should'."
+   }
+  ]
+ },
+ {
+  "id": "a4",
+  "level": 2,
+  "title": "Counting Blessings or Burdens: An Experimental Study of Gratitude and Well-Being in Daily Life",
+  "short": "Counting blessings and well-being",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Emmons & McCullough (2003), Journal of Personality and Social Psychology)",
+  "doi": "10.1037/0022-3514.84.2.377",
+  "url": "https://doi.org/10.1037/0022-3514.84.2.377",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment (weekly over 10 weeks)",
+  "based_on": "Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life. Journal of Personality and Social Psychology, 84(2), 377–389. https://doi.org/10.1037/0022-3514.84.2.377",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Gratitude is often described as a key ingredient of a happy life, but few studies have tested whether practising gratitude actually causes people to feel better.",
+     "This study examined the effects of a weekly gratitude exercise on psychological and physical well-being.",
+     "University students wrote weekly about things they were grateful for, daily hassles, or ordinary life events for ten weeks.",
+     "Compared with the other groups, students who listed things they were grateful for felt better about their lives as a whole and were more optimistic about the coming week.",
+     "They also reported fewer physical complaints and spent more time exercising.",
+     "Regularly noticing the good things in life may be a simple way to improve well-being."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Over the past two decades, psychologists have become increasingly interested in positive qualities that help people live fulfilling lives.",
+     "Gratitude can be understood as a feeling of thankfulness and appreciation that arises when a person recognises that they have received something good, often from another person.",
+     "Subjective well-being refers to how people evaluate their own lives, including how satisfied they are and how often they experience positive rather than negative feelings (Diener, 1984).",
+     "Correlational studies have found that people who feel grateful more often tend to report greater happiness and life satisfaction.",
+     "However, because these studies measured gratitude and well-being at the same time, they cannot show whether gratitude leads to well-being or whether happy people simply feel more grateful.",
+     "The broaden-and-build theory of positive emotions (Fredrickson, 2001) offers one explanation for why gratitude might improve well-being.",
+     "This theory proposes that positive emotions widen people's thinking and, over time, build lasting personal resources such as optimism, social bonds and healthy habits.",
+     "From this view, regularly experiencing gratitude should build these resources and in turn raise overall well-being.",
+     "The present study therefore set out to examine whether deliberately focusing on blessings, compared with focusing on hassles or neutral events, would change people's well-being over several weeks.",
+     "Students who recorded their blessings were expected to report greater life satisfaction, more optimism and fewer physical symptoms than students in the hassles and neutral groups."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "A between-groups experiment was conducted in which participants were randomly assigned to one of three writing conditions for ten weeks.",
+     "Participants were 192 undergraduate students enrolled in a health psychology course at a university in the United States, who took part for course credit.",
+     "In the gratitude condition, students were asked to write down up to five things in their life that they were grateful or thankful for during the past week.",
+     "In the hassles condition, students listed up to five irritating or annoying events from the week, and in the neutral condition they listed up to five events that had affected them in some way.",
+     "Well-being was measured each week with single rating items asking how students felt about their life as a whole and how they expected the upcoming week to be, on scales from very negative to very positive.",
+     "Physical well-being was measured with a checklist of common physical symptoms, such as headaches, stomach pain and coughing, together with the number of hours spent exercising that week.",
+     "Students also rated their mood each week using a list of positive and negative emotion words.",
+     "Each week, students completed a short booklet containing the writing task followed by the well-being and health questions.",
+     "The booklets were completed over ten consecutive weeks during the semester and returned to the researchers."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Students in the gratitude condition rated their lives as a whole more positively than students in the hassles and neutral conditions (p < .05).",
+     "They were also more optimistic about the coming week and reported fewer physical symptoms than students in the other conditions.",
+     "In addition, students in the gratitude condition spent about one and a half hours more per week exercising than those in the hassles condition.",
+     "Differences in day-to-day positive and negative mood between the groups were small."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "Overall, deliberately focusing on blessings led to higher well-being than focusing on hassles or neutral events.",
+     "Because participants were randomly assigned, these findings go beyond earlier correlational work by suggesting that gratitude can cause improvements in well-being.",
+     "The results are consistent with the broaden-and-build theory, as gratitude appeared to build resources such as optimism and healthy behaviour.",
+     "In practical terms, a brief weekly gratitude list is a cheap and easy exercise that counsellors and universities could recommend to students.",
+     "One limitation is that all measures were self-reports, so students may have described themselves in a more positive way than was accurate.",
+     "Another limitation is that the participants were all university students, so the results may not apply to older adults or people with health problems.",
+     "Future research should follow participants for longer after the exercise ends to see whether the benefits last."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question (aim)",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "There is no sentence labelled 'research question'. Find the sentence in the Introduction that states the aim of the study.",
+    "ans": [
+     "1.8"
+    ],
+    "ok": [
+     "0.1"
+    ],
+    "model": "Does focusing on blessings (vs hassles or neutral events) change people's well-being over several weeks?",
+    "why": "When there is no 'research question' label, look for the aim: 'set out to examine', 'this study examined'. You can turn it into a question."
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the hypothesis (it is phrased as an expectation).",
+    "ans": [
+     "1.9"
+    ],
+    "model": "Students who record blessings will report greater life satisfaction, more optimism and fewer physical symptoms than the hassles and neutral groups.",
+    "why": "Hypotheses are not always labelled; words like 'expected' or 'predicted' signal a prediction about the results."
+   },
+   {
+    "key": "vars",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the two main variables in this study.",
+    "accept": [
+     [
+      "gratitude|grateful|blessing|thank|writing|condition",
+      "well|satisf|happi|optimis|symptom|health"
+     ]
+    ],
+    "model": "Gratitude focus (counting blessings vs hassles vs neutral events) and well-being (psychological and physical).",
+    "why": "One variable is the writing task the researchers changed; the other is what they measured each week (well-being, which has psychological and physical parts)."
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of subjective well-being.",
+    "ans": [
+     "1.2"
+    ],
+    "model": "How people evaluate their own lives, including satisfaction and how often they feel positive rather than negative feelings.",
+    "why": "'Refers to' often introduces a conceptual definition: it explains what the concept means, not how it was measured."
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was physical well-being measured? Find the sentence.",
+    "ans": [
+     "2.5"
+    ],
+    "model": "With a checklist of physical symptoms (e.g., headaches, stomach pain, coughing) plus weekly hours of exercise.",
+    "why": "Two kinds of well-being were measured; make sure you pick the sentence about PHYSICAL well-being in the Method."
+   },
+   {
+    "key": "method",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What general method (approach) did this study use?",
+    "options": [
+     "Experiment",
+     "Survey (correlational)",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Experiment",
+    "model": "Experiment: students were randomly assigned to gratitude, hassles or neutral writing conditions (repeated weekly for ten weeks).",
+    "why": "Even though it lasted ten weeks, the key feature is that researchers assigned people to different conditions they controlled, so it is an experiment."
+   },
+   {
+    "key": "sample",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants, and how many were there?",
+    "accept": [
+     [
+      "192",
+      "student|undergrad|participant"
+     ]
+    ],
+    "model": "192 undergraduate students in a health psychology course at a US university.",
+    "why": "The sample sentence gives the number and the type of participants; here it starts with 'Participants were'."
+   },
+   {
+    "key": "manip",
+    "label": "Procedure (manipulation)",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the manipulation: what was the gratitude group asked to do?",
+    "ans": [
+     "2.2"
+    ],
+    "model": "Write down up to five things they were grateful or thankful for in the past week.",
+    "why": "The manipulation is spread over two sentences here (one per group); the question asks only about the gratitude group."
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework.",
+    "ans": [
+     "1.5"
+    ],
+    "ok": [
+     "1.6"
+    ],
+    "model": "Broaden-and-build theory (Fredrickson, 2001): positive emotions broaden thinking and build lasting resources that raise well-being.",
+    "why": "Look for a named theory with a citation that explains WHY gratitude should improve well-being."
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the sentence in the Introduction that shows the research gap.",
+    "ans": [
+     "1.4"
+    ],
+    "ok": [
+     "0.0"
+    ],
+    "model": "Past studies were correlational, so they could not show whether gratitude causes well-being.",
+    "why": "Here the gap is a weakness of earlier studies (correlation, not cause); 'However, ... cannot show' signals it."
+   },
+   {
+    "key": "results",
+    "label": "Results (hypothesis supported?)",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Was the main hypothesis supported by the results?",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported",
+    "model": "Supported: the gratitude group reported better life ratings, more optimism, fewer symptoms and more exercise.",
+    "why": "Compare each predicted outcome (life satisfaction, optimism, physical symptoms) with the Results; all were in the predicted direction. The small mood difference was not part of the hypothesis."
+   },
+   {
+    "key": "lim",
+    "label": "Limitation",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find a limitation about how the variables were measured.",
+    "ans": [
+     "4.4"
+    ],
+    "ok": [
+     "4.5"
+    ],
+    "model": "All measures were self-reports, so students may have described themselves too positively.",
+    "why": "Limitations usually start with 'one limitation is'; this one concerns measurement (self-report bias)."
+   }
+  ]
+ },
+ {
+  "id": "a5",
+  "level": 2,
+  "title": "Less Scrolling, Less Loneliness? An Experiment on Limiting Social Media Use Among University Students",
+  "short": "Limiting social media use",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Hunt, Marx, Lipson & Young (2018), Journal of Social and Clinical Psychology)",
+  "doi": "10.1521/jscp.2018.37.10.751",
+  "url": "https://doi.org/10.1521/jscp.2018.37.10.751",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment (3 weeks, before and after)",
+  "based_on": "Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018). No more FOMO: Limiting social media decreases loneliness and depression. Journal of Social and Clinical Psychology, 37(10), 751–768. https://doi.org/10.1521/jscp.2018.37.10.751",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Many studies have linked heavy social media use with poorer mental health, but most could not show that social media use is the cause.",
+     "This study tested whether limiting social media use would improve the well-being of university students.",
+     "Undergraduates who used Facebook, Instagram and Snapchat on iPhones either limited each platform to 10 minutes per day or used social media as usual for three weeks.",
+     "Students who limited their use showed larger decreases in loneliness and depression than students in the usual-use group.",
+     "Both groups showed reductions in anxiety and fear of missing out, possibly because monitoring one's own use increases self-awareness.",
+     "These results suggest that cutting back on social media may benefit students' mental health."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Social media platforms such as Facebook, Instagram and Snapchat are a central part of daily life for most university students.",
+     "Loneliness refers to the distressing feeling that one's social relationships are fewer or less satisfying than one would like.",
+     "Depression, in this study, refers to a persistent low mood together with symptoms such as loss of interest, poor sleep and feelings of worthlessness.",
+     "Survey studies have found that young people who spend more time on social media tend to report more loneliness and depressive symptoms (Primack et al., 2017).",
+     "However, these correlational findings cannot tell us whether social media use leads to poorer mental health or whether lonely and depressed people simply use social media more.",
+     "In addition, many earlier studies relied on students' own estimates of their screen time, which are often inaccurate.",
+     "One explanation for the link comes from social comparison theory (Festinger, 1954), which proposes that people judge their own lives and abilities by comparing themselves with others.",
+     "On social media, users mostly see carefully selected, positive images of others' lives, which may lead to unfavourable comparisons and make people feel worse about themselves.",
+     "The present study aimed to test experimentally whether limiting the use of social media, measured objectively, would improve students' well-being.",
+     "It was predicted that students who limited their social media use would show greater decreases in loneliness and depression than students who continued to use social media as usual."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "An experiment was carried out in which participants were randomly assigned to a limited-use group or a usual-use group for three weeks.",
+     "The sample consisted of 143 undergraduate students at a university in the United States who owned an iPhone and had accounts on Facebook, Instagram and Snapchat.",
+     "Students in the limited-use group were asked to spend no more than 10 minutes per platform per day, or about 30 minutes in total, while the usual-use group continued as normal.",
+     "Social media use was measured objectively using screenshots of each phone's battery usage screen, which shows how many minutes were spent in each app.",
+     "Loneliness was measured with the UCLA Loneliness Scale, a questionnaire in which participants rate how often they feel left out or isolated.",
+     "Depression was measured with the Beck Depression Inventory, a widely used questionnaire about symptoms such as sadness, guilt and tiredness.",
+     "Participants also completed questionnaires measuring anxiety, fear of missing out, self-esteem and social support.",
+     "At the start of the study, all participants completed the questionnaires and recorded one week of baseline social media use.",
+     "They then followed the instructions for their group for three weeks, sending screenshots of their usage to the researchers each day.",
+     "At the end of the three weeks, participants completed the same questionnaires again."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Students in the limited-use group reduced their social media use substantially and reported greater decreases in loneliness than students in the usual-use group (p < .05).",
+     "Depressive symptoms also decreased more in the limited-use group, especially among students who had higher depression scores at the start.",
+     "Anxiety and fear of missing out decreased in both groups, so these changes could not be explained by limiting social media alone."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "Overall, the findings indicate that reducing social media use to around 30 minutes per day can lead to meaningful improvements in loneliness and depression.",
+     "This experimental evidence strengthens the argument that social media use may contribute to poorer well-being rather than only being linked with it.",
+     "The results fit with social comparison theory, since spending less time viewing others' idealised lives may reduce unfavourable comparisons.",
+     "Practically, universities and counsellors could encourage students to set daily time limits on social media rather than quitting completely.",
+     "A limitation is that the study included only iPhone users at one university and only three social media platforms, so the results may not generalise to other students or platforms.",
+     "Future research should examine whether the benefits last beyond three weeks and whether they appear with other platforms such as TikTok or YouTube."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question (aim)",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "There is no sentence labelled 'research question'. Find the sentence in the Introduction that states the aim.",
+    "ans": [
+     "1.8"
+    ],
+    "ok": [
+     "0.1"
+    ],
+    "model": "Does limiting social media use (measured objectively) improve students' well-being?",
+    "why": "The aim is often written as 'the present study aimed to...'; rewrite it as a question to get the research question."
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the hypothesis (it is phrased as a prediction).",
+    "ans": [
+     "1.9"
+    ],
+    "model": "Students who limit social media will show greater decreases in loneliness and depression than students who use it as usual.",
+    "why": "'It was predicted that' signals a hypothesis even without the word 'hypothesis'."
+   },
+   {
+    "key": "vars",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the main variables in this study (what was changed and what was measured).",
+    "accept": [
+     [
+      "social|media|facebook|instagram|snapchat|screen|limit",
+      "lonel|depress"
+     ]
+    ],
+    "model": "Social media use (limited vs usual) and loneliness and depression.",
+    "why": "The researchers changed social media use; the main outcomes in the hypothesis are loneliness and depression."
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of loneliness.",
+    "ans": [
+     "1.1"
+    ],
+    "model": "The distressing feeling that one's social relationships are fewer or less satisfying than one would like.",
+    "why": "Two variables are defined in a row here; choose the one about loneliness. 'Refers to' signals a conceptual definition."
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was social media use measured? Find the sentence.",
+    "ans": [
+     "2.3"
+    ],
+    "model": "Objectively, with screenshots of the phone's battery usage screen showing minutes spent in each app.",
+    "why": "Operational definitions are in the Method; note that this one is objective rather than a self-report estimate."
+   },
+   {
+    "key": "method",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What general method (approach) did this study use?",
+    "options": [
+     "Experiment",
+     "Survey (correlational)",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Experiment",
+    "model": "Experiment: students were randomly assigned to limit their social media or use it as usual for three weeks.",
+    "why": "Random assignment to a condition the researchers set (limited vs usual use) makes this an experiment, even though measures were taken before and after."
+   },
+   {
+    "key": "sample",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants, and how many were there?",
+    "accept": [
+     [
+      "143",
+      "student|undergrad|participant"
+     ]
+    ],
+    "model": "143 undergraduate students at a US university who used iPhones and had Facebook, Instagram and Snapchat.",
+    "why": "The sample sentence states the number of participants and who they were, including any requirements to take part."
+   },
+   {
+    "key": "manip",
+    "label": "Procedure (manipulation)",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence describing the manipulation.",
+    "ans": [
+     "2.2"
+    ],
+    "model": "The limited-use group spent no more than 10 minutes per platform per day (about 30 minutes total); the usual-use group continued as normal.",
+    "why": "The manipulation is what the two groups were told to do differently."
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework.",
+    "ans": [
+     "1.6"
+    ],
+    "ok": [
+     "1.7"
+    ],
+    "model": "Social comparison theory (Festinger, 1954): people judge themselves by comparing with others, and idealised posts lead to unfavourable comparisons.",
+    "why": "Look for a named theory with a citation that explains why social media might make people feel worse."
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find a sentence in the Introduction that shows the research gap.",
+    "ans": [
+     "1.4"
+    ],
+    "ok": [
+     "1.5"
+    ],
+    "model": "Earlier studies were correlational (could not show cause) and relied on inaccurate self-estimates of screen time.",
+    "why": "The gap is spread over two sentences here: both describe weaknesses of earlier research that this study fixes."
+   },
+   {
+    "key": "results",
+    "label": "Results (hypothesis supported?)",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Was the main hypothesis supported by the results?",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported",
+    "model": "Supported: loneliness and depression decreased more in the limited-use group than in the usual-use group.",
+    "why": "The hypothesis was about loneliness and depression; both showed the predicted pattern. Anxiety and FOMO were not part of the hypothesis."
+   },
+   {
+    "key": "imp",
+    "label": "Practical implication",
+    "tag": "IMP",
+    "kind": "sentence",
+    "prompt": "Find the practical implication of the findings.",
+    "ans": [
+     "4.3"
+    ],
+    "model": "Universities and counsellors could encourage students to set daily time limits on social media instead of quitting completely.",
+    "why": "Practical implications describe real-world uses of the findings; look for 'practically' or 'in practice'."
+   }
+  ]
+ },
+ {
+  "id": "a6",
+  "level": 2,
+  "title": "Short-Term Relief, Long-Term Cost: A Semester-Long Study of Procrastination, Stress, Health and Academic Performance",
+  "short": "Procrastination, stress and health",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Tice & Baumeister (1997), Psychological Science)",
+  "doi": "10.1111/j.1467-9280.1997.tb00460.x",
+  "url": "https://doi.org/10.1111/j.1467-9280.1997.tb00460.x",
+  "license": "Written for practice; details simplified",
+  "design": "Longitudinal survey",
+  "based_on": "Tice, D. M., & Baumeister, R. F. (1997). Longitudinal study of procrastination, performance, stress, and health: The costs and benefits of dawdling. Psychological Science, 8(6), 454–458. https://doi.org/10.1111/j.1467-9280.1997.tb00460.x",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Procrastination is common among university students, but its consequences for their well-being over time are not well understood.",
+     "This longitudinal study followed undergraduate students across one academic semester to examine how procrastination related to stress, physical symptoms and academic performance.",
+     "Students completed a procrastination questionnaire at the start of the course and reported their stress and illness symptoms both early and late in the semester.",
+     "Students who procrastinated reported less stress and fewer symptoms early in the semester than students who did not procrastinate.",
+     "By the end of the semester, however, procrastinators reported more stress and more symptoms, and they received lower grades.",
+     "The findings suggest that procrastination offers short-term relief at a long-term cost."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Most students admit that they sometimes delay starting an assignment until the last minute (Steel, 2007).",
+     "In this study, procrastination is defined as voluntarily delaying an intended task even though the person knows the delay is likely to make things worse.",
+     "Some students claim that they work best under pressure and that putting work off allows them to enjoy their free time with less worry.",
+     "Past research has nevertheless linked procrastination to poorer academic performance (Steel, 2007).",
+     "The present study draws on the self-regulation failure framework (Baumeister, Heatherton, & Tice, 1994), which views procrastination as giving in to short-term mood relief at the expense of long-term goals.",
+     "According to this framework, procrastinators should feel better while a deadline is still far away, but should pay a price in stress, health and performance as unfinished work piles up near the deadline.",
+     "However, most earlier studies measured procrastination and well-being at only one point in time, so it remains unclear whether the costs and benefits of procrastination change over the course of a semester.",
+     "The aim of this study was to track how procrastination relates to stress, illness symptoms and grades from the beginning to the end of a university semester.",
+     "It was expected that procrastinators would report less stress early in the semester, but more stress, more illness symptoms and lower grades by the end of the semester."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "A longitudinal survey design was used, with the same students measured at two points in the semester.",
+     "Participants were 60 undergraduate students enrolled in a health psychology course at a university in the United States.",
+     "Most participants were in their late teens or early twenties, and they took part in exchange for course credit.",
+     "Procrastination was measured with a self-report questionnaire (Lay, 1986) on which students rated how well a series of statements about delaying tasks described them, with higher total scores indicating more procrastination.",
+     "Stress was measured by asking students to rate how stressed they had felt over the past week on a scale from 1 (not at all) to 7 (extremely).",
+     "Physical health was measured with a checklist of common symptoms, such as headaches, colds and stomach problems, that students ticked if they had experienced them in the past week.",
+     "Academic performance was measured by the grades each student received on a term paper and on the course exams.",
+     "The procrastination questionnaire was completed in the first weeks of the semester, when the term paper was assigned with a clear deadline.",
+     "Stress and symptom reports were collected once early in the semester and again in the final week before the paper was due.",
+     "The researchers also recorded whether each paper was handed in early, on time or late."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Procrastinators handed in their papers later and received lower grades on both the paper and the exams than non-procrastinators.",
+     "Early in the semester, procrastinators reported less stress and fewer symptoms than non-procrastinators.",
+     "Late in the semester, this pattern reversed, with procrastinators reporting more stress and more symptoms (p < .05).",
+     "When both time points were combined, procrastinators were worse off overall, so their early benefit did not make up for the later cost."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "In answer to the research question, procrastination appears to help students feel better at first but leaves them more stressed, less healthy and lower-performing by the end of the semester.",
+     "These results support the self-regulation failure view that procrastination trades long-term well-being for short-term mood relief.",
+     "In practice, universities could help students by setting interim deadlines and teaching time-management skills early in the semester.",
+     "One limitation is that stress and symptoms were self-reported, so students may have under- or over-reported how they felt.",
+     "In addition, the sample came from a single course at one university, which limits how far the findings can be generalised to other students.",
+     "Future research could test whether an intervention that reduces procrastination also prevents the rise in stress and illness at the end of the semester."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the aim (research question) of the study.",
+    "model": "How does procrastination relate to stress, illness symptoms and grades from the start to the end of a semester?",
+    "why": "Look for 'The aim of this study was...' near the end of the Introduction. An aim can be turned into a question: 'How does X relate to Y over time?'",
+    "ans": [
+     "1.7"
+    ],
+    "ok": [
+     "0.1"
+    ]
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the hypothesis.",
+    "model": "Procrastinators would feel less stress early on, but more stress, more illness and lower grades by the end of the semester.",
+    "why": "Hypotheses are predictions, so look for words like 'expected' or 'predicted' straight after the aim.",
+    "ans": [
+     "1.8"
+    ]
+   },
+   {
+    "key": "var",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the main variables in this study (at least two).",
+    "model": "Procrastination, and outcomes of stress, physical health (illness symptoms) and grades (academic performance).",
+    "why": "Variables are the things that were measured and can differ between people. Check the Method: each 'X was measured...' sentence names one.",
+    "accept": [
+     [
+      "procrastinat",
+      "stress"
+     ],
+     [
+      "procrastinat",
+      "health|ill|symptom|sick"
+     ],
+     [
+      "procrastinat",
+      "grade|perform|mark|result|academic"
+     ],
+     [
+      "delay",
+      "stress"
+     ]
+    ]
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of procrastination.",
+    "model": "Procrastination = voluntarily delaying an intended task even though the person knows the delay will probably make things worse.",
+    "why": "A conceptual definition explains what a concept MEANS in words (often 'is defined as...'), not how it was measured.",
+    "ans": [
+     "1.1"
+    ]
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was stress measured? Find the operational definition.",
+    "model": "Students rated how stressed they had felt over the past week on a 1 (not at all) to 7 (extremely) scale.",
+    "why": "An operational definition tells you the exact procedure or scale used to measure a variable. Look in the Method for 'Stress was measured...'.",
+    "ans": [
+     "2.4"
+    ]
+   },
+   {
+    "key": "gm",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What was the general method (approach) of this study?",
+    "model": "Longitudinal study: the same students were surveyed at two points in the semester; nothing was manipulated.",
+    "why": "The same people were measured early AND late in the semester, which makes it longitudinal. No group was given a treatment, so it is not an experiment.",
+    "options": [
+     "Experiment",
+     "Survey (correlational) at one time point",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Longitudinal study"
+   },
+   {
+    "key": "samp",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants and how many were there?",
+    "model": "60 undergraduate students in a health psychology course in the United States.",
+    "why": "The sample sentence usually starts the Method with 'Participants were...' and gives a number plus a description.",
+    "accept": [
+     [
+      "60|sixty",
+      "student|undergrad|universit"
+     ]
+    ]
+   },
+   {
+    "key": "proc",
+    "label": "Procedure",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence that tells you WHEN stress and symptoms were measured.",
+    "model": "Once early in the semester and again in the final week before the paper was due.",
+    "why": "Procedure sentences describe the order and timing of what happened to participants.",
+    "ans": [
+     "2.8"
+    ]
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework.",
+    "model": "The self-regulation failure framework (Baumeister, Heatherton, & Tice, 1994): procrastination trades long-term goals for short-term mood relief.",
+    "why": "A theoretical framework is a named theory with a citation that explains WHY the variables should be linked. Look for 'draws on' or 'framework'.",
+    "ans": [
+     "1.4"
+    ],
+    "ok": [
+     "1.5"
+    ]
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the research gap this study aims to fill.",
+    "model": "Earlier studies measured procrastination and well-being only once, so it is unclear how its costs and benefits change across a semester.",
+    "why": "Gaps are signalled by 'However', 'little is known', or 'remains unclear', and they explain what earlier studies missed.",
+    "ans": [
+     "1.6"
+    ]
+   },
+   {
+    "key": "res",
+    "label": "Results",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Were the hypotheses supported?",
+    "model": "Supported: procrastinators felt better early on but had more stress, more symptoms and lower grades by the end, exactly as expected.",
+    "why": "Compare the hypothesis with the Results section point by point: early benefit, later cost and lower grades all appeared.",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported"
+   },
+   {
+    "key": "lim",
+    "label": "Limitation",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find a limitation of the study.",
+    "model": "Stress and symptoms were self-reported, so they may be inaccurate (also: one course at one university).",
+    "why": "Limitations are weaknesses the authors admit, often starting with 'One limitation is...' in the Discussion.",
+    "ans": [
+     "4.3"
+    ],
+    "ok": [
+     "4.4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a7",
+  "level": 2,
+  "title": "Sleep Across the Semester: Objectively Measured Sleep Duration and Quality and Exam Performance in University Students",
+  "short": "Sleep trackers and exam scores",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Okano, Kaczmarzyk, Dave, Gabrieli & Grossman (2019), npj Science of Learning)",
+  "doi": "10.1038/s41539-019-0055-z",
+  "url": "https://doi.org/10.1038/s41539-019-0055-z",
+  "license": "Written for practice; details simplified",
+  "design": "Correlational (observational) study",
+  "based_on": "Okano, K., Kaczmarzyk, J. R., Dave, N., Gabrieli, J. D. E., & Grossman, J. C. (2019). Sleep quality, duration, and consistency are associated with better academic performance in college students. npj Science of Learning, 4, Article 16. https://doi.org/10.1038/s41539-019-0055-z",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Many university students sleep too little, yet the link between everyday sleep and academic performance has rarely been measured objectively.",
+     "This study used wearable activity trackers to record the sleep of undergraduate students throughout one semester of an introductory chemistry course.",
+     "Sleep duration, sleep quality and sleep consistency were compared with students' scores on the course exams.",
+     "Students who slept longer, slept better and kept more regular sleep habits during the semester tended to earn higher exam scores.",
+     "Sleep on the single night before an exam, however, was not related to performance on that exam.",
+     "The results highlight the value of good sleep habits across the whole semester, not just before tests."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Sleep problems are widespread among university students, many of whom stay up late to study, socialise or use their phones (Lund, Reider, Whiting, & Prichard, 2010).",
+     "Sleep quality can be understood as how deep and uninterrupted a person's sleep is, rather than simply how many hours the person spends in bed.",
+     "Laboratory studies show that sleep supports learning, because memories formed during the day are strengthened while we sleep (Walker & Stickgold, 2004).",
+     "This idea, known as sleep-dependent memory consolidation, suggests that students who sleep well throughout a course should remember more of the material when they are tested.",
+     "Surveys have also found that students who report poor sleep tend to have lower grades (Curcio, Ferrara, & De Gennaro, 2006).",
+     "However, most of this research relied on students' own memory of how they slept, which can be inaccurate.",
+     "Very few studies have measured real-world sleep objectively, night after night, across an entire semester and linked it to actual course grades.",
+     "This study therefore aimed to examine whether objectively measured sleep duration and quality across a semester are related to exam performance in university students.",
+     "It was expected that students who slept longer and had better-quality sleep during the semester would achieve higher exam scores."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "An observational, correlational design was used: sleep was recorded as it naturally occurred, and no one was asked to change how they slept.",
+     "Participants were 88 undergraduate students taking an introductory chemistry course at a university in the United States.",
+     "Each student wore a wrist-worn activity tracker (a Fitbit) day and night for the whole semester.",
+     "Sleep duration was measured as the number of hours the tracker recorded the student as asleep each night, averaged across the semester.",
+     "Sleep quality was measured by the tracker's record of restlessness, with fewer movements and awakenings during the night counting as better-quality sleep.",
+     "Sleep consistency was measured by how much a student's sleep length and bedtime varied from night to night.",
+     "Academic performance was measured using students' scores on the course quizzes, midterm exams and final exam.",
+     "Students received the trackers at the start of the semester and were asked to wear them continuously until the final exam.",
+     "At the end of the semester, the researchers matched each student's sleep records with their exam scores."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Students who slept longer and had better-quality sleep across the semester earned higher exam scores than students who slept less or more restlessly (p < .05).",
+     "More consistent sleep from night to night was also linked to better performance.",
+     "Together, the sleep measures accounted for roughly one quarter of the differences in students' grades.",
+     "In contrast, how long students slept on the night before an exam was not related to their score on that exam."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "The findings suggest that good sleep across a whole semester, rather than on a single night, is associated with better academic performance.",
+     "This supports the idea that sleep helps to consolidate learning gradually over many nights.",
+     "Practically, universities could teach students about healthy sleep habits and avoid schedules that encourage late-night studying.",
+     "Because the study was correlational, it cannot show that better sleep causes higher grades, since other factors such as motivation or stress may affect both.",
+     "Furthermore, activity trackers estimate sleep from movement and are less accurate than laboratory sleep recordings.",
+     "Future research could randomly assign students to a sleep-improvement programme to test whether better sleep actually leads to higher exam scores."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the aim (research question) of the study.",
+    "model": "Is objectively measured sleep duration and quality across a semester related to exam performance in university students?",
+    "why": "Here the research question is phrased as an aim ('aimed to examine whether...'). It comes just before the hypothesis.",
+    "ans": [
+     "1.7"
+    ]
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H",
+    "kind": "sentence",
+    "prompt": "Find the sentence that states the hypothesis.",
+    "model": "Students who slept longer and better during the semester would get higher exam scores.",
+    "why": "A hypothesis is a specific prediction: look for 'It was expected that...'.",
+    "ans": [
+     "1.8"
+    ]
+   },
+   {
+    "key": "var",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the two main variables.",
+    "model": "Sleep (duration and quality) and exam performance (exam scores/grades).",
+    "why": "Both variables were measured, not manipulated. One is about sleep, the other about academic results.",
+    "accept": [
+     [
+      "sleep",
+      "exam|grade|perform|score|academic|result|mark"
+     ]
+    ]
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of sleep quality.",
+    "model": "Sleep quality = how deep and uninterrupted sleep is, not just the number of hours in bed.",
+    "why": "A conceptual definition explains the meaning of a concept in words ('can be understood as...'). It does not mention trackers or scores.",
+    "ans": [
+     "1.1"
+    ]
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was sleep quality measured? Find the operational definition.",
+    "model": "By the tracker's restlessness record: fewer movements and awakenings at night = better quality.",
+    "why": "Compare with the conceptual definition: the operational definition tells you the concrete measuring tool (the Fitbit's restlessness data).",
+    "ans": [
+     "2.4"
+    ]
+   },
+   {
+    "key": "gm",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What was the general method (approach) of this study?",
+    "model": "Correlational (observational): sleep was recorded as it naturally happened and related to grades; nothing was manipulated.",
+    "why": "No one was assigned to sleep more or less, so it is not an experiment; the authors say 'observational, correlational design'.",
+    "options": [
+     "Experiment",
+     "Correlational (observational) study",
+     "Qualitative interviews",
+     "Case study"
+    ],
+    "ans": "Correlational (observational) study"
+   },
+   {
+    "key": "samp",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants and how many were there?",
+    "model": "88 undergraduate students in an introductory chemistry course in the United States.",
+    "why": "Find 'Participants were...' at the start of the Method; give both the number and who they were.",
+    "accept": [
+     [
+      "88|eighty",
+      "student|undergrad|universit"
+     ]
+    ]
+   },
+   {
+    "key": "proc",
+    "label": "Procedure",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence that describes how long the students wore the trackers.",
+    "model": "From the start of the semester continuously until the final exam.",
+    "why": "Procedure sentences describe what participants did and when, in order.",
+    "ans": [
+     "2.7"
+    ]
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theoretical framework linking sleep to performance.",
+    "model": "Sleep-dependent memory consolidation: memories are strengthened during sleep, so good sleep should improve later test performance.",
+    "why": "Look for a named idea ('known as...') that explains WHY sleep should affect grades.",
+    "ans": [
+     "1.3"
+    ],
+    "ok": [
+     "1.2"
+    ]
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the research gap.",
+    "model": "Few studies measured real-world sleep objectively across a whole semester and linked it to actual grades.",
+    "why": "The gap follows 'However' and says what past studies did not do (they relied on self-report).",
+    "ans": [
+     "1.6"
+    ],
+    "ok": [
+     "1.5"
+    ]
+   },
+   {
+    "key": "res",
+    "label": "Results",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Was the hypothesis supported?",
+    "model": "Supported: longer and better-quality sleep across the semester went with higher exam scores (the night before an exam did not matter, but that was not the hypothesis).",
+    "why": "Check only what the hypothesis predicted: semester-long sleep duration and quality vs exam scores.",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported"
+   },
+   {
+    "key": "lim",
+    "label": "Limitation",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find the limitation that explains why we cannot conclude that sleep CAUSES better grades.",
+    "model": "The study was correlational, so other factors (e.g., motivation, stress) could affect both sleep and grades.",
+    "why": "Correlational designs cannot show cause and effect; look for 'cannot show that ... causes'.",
+    "ans": [
+     "4.3"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a8",
+  "level": 3,
+  "title": "Scrolling and Feeling: Facebook Use Predicts Declines in Momentary Affect and Life Satisfaction in Young Adults",
+  "short": "Facebook use and well-being",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Kross et al. (2013), PLOS ONE)",
+  "doi": "10.1371/journal.pone.0069841",
+  "url": "https://doi.org/10.1371/journal.pone.0069841",
+  "license": "Written for practice; details simplified",
+  "design": "Experience sampling (repeated measures)",
+  "based_on": "Kross, E., Verduyn, P., Demiralp, E., Park, J., Lee, D. S., Lin, N., Shablack, H., Jonides, J., & Ybarra, O. (2013). Facebook use predicts declines in subjective well-being in young adults. PLOS ONE, 8(8), Article e69841. https://doi.org/10.1371/journal.pone.0069841",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Online social networks such as Facebook allow people to stay connected, yet it is unclear how using them affects the way people feel.",
+     "This study used experience sampling to track young adults' Facebook use and well-being several times a day for two weeks.",
+     "Participants reported how they felt from moment to moment and rated their overall life satisfaction before and after the two-week period.",
+     "The more people used Facebook at one time, the worse they felt the next time they were contacted.",
+     "The more people used Facebook over the two weeks, the more their life satisfaction declined.",
+     "Direct contact with other people did not show these negative effects, suggesting that Facebook use may undermine rather than enhance well-being in young adults."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Facebook has hundreds of millions of daily users, and many young adults check it many times a day.",
+     "Because it can satisfy the basic human need for social connection (Baumeister & Leary, 1995), one might expect Facebook use to make people feel better.",
+     "In this study, subjective well-being refers to how people evaluate their lives, including both how they feel from moment to moment and how satisfied they are with their lives overall (Diener, 1984).",
+     "Previous studies of Facebook and well-being have produced mixed results, with some linking use to greater social support and others to loneliness or envy.",
+     "People have a natural tendency to evaluate themselves by comparing their own abilities and lives with those of others (Festinger, 1954).",
+     "On Facebook, users mostly see carefully selected highlights of their friends' lives, which may lead them to conclude that others are happier and more successful than they are.",
+     "Such upward comparisons could leave users feeling worse about both their current experience and their life as a whole.",
+     "Most earlier studies, however, measured Facebook use and well-being only once, using cross-sectional surveys that cannot show whether Facebook use comes before changes in well-being.",
+     "The present study asked whether Facebook use in daily life predicts changes in young adults' momentary feelings and in their life satisfaction over time.",
+     "It was predicted, first, that using Facebook more between two text messages would be followed by feeling worse at the second message.",
+     "Second, greater Facebook use across the two weeks was expected to be followed by a decline in life satisfaction."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "The study used an experience-sampling design, a repeated-measures approach in which the same people answer short questions several times a day as they go about their normal lives.",
+     "Participants were 82 young adults, mostly in their late teens and early twenties, who owned a smartphone and a Facebook account and were recruited through advertisements in a university town.",
+     "Before the study began, participants completed the Satisfaction with Life Scale (Diener, Emmons, Larsen, & Griffin, 1985), rating how strongly they agreed with statements about being satisfied with their lives.",
+     "Over the next 14 days, participants received five text messages a day at random times between late morning and midnight.",
+     "Each text message contained a link to a short online survey.",
+     "Momentary affect was measured by asking participants \"How do you feel right now?\" and having them answer on a scale from very positive to very negative.",
+     "Facebook use was measured by asking \"How much have you used Facebook since we last asked you?\" on a scale from not at all to a lot.",
+     "Participants also rated how worried and how lonely they felt, and how much they had interacted with other people directly, face to face or by phone, since the last message.",
+     "At the end of the two weeks, participants completed the life satisfaction scale a second time."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "The more participants used Facebook between two text messages, the worse they felt at the next message (p < .05).",
+     "Participants who used Facebook more over the two weeks also showed larger drops in life satisfaction from the start to the end of the study.",
+     "Feeling bad did not lead people to use Facebook more afterwards, which suggests that the link ran from Facebook use to mood rather than the reverse.",
+     "In contrast, direct contact with other people was not followed by feeling worse; if anything, it was followed by feeling better."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "Overall, Facebook use predicted declines in both momentary feelings and life satisfaction in this sample of young adults.",
+     "These findings fit the view that comparing oneself with others' polished online lives can lower well-being, although social comparison itself was not directly measured.",
+     "For young people and counsellors, the results suggest that time on Facebook may not meet social needs as well as direct contact, so online time could be balanced with face-to-face interaction.",
+     "One limitation is that the study was not an experiment, so other things happening during the day could explain why Facebook use and lower well-being go together.",
+     "The sample was also fairly small and came from one town, so the results may not apply to other age groups or cultures.",
+     "Future research should measure social comparison directly and test experimentally whether reducing Facebook use improves well-being."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the research question.",
+    "model": "Does Facebook use in daily life predict changes in young adults' momentary feelings and life satisfaction over time?",
+    "why": "The research question is the overall thing the study 'asked' or 'investigated'; it is broader than the two predictions that follow it.",
+    "ans": [
+     "1.8"
+    ]
+   },
+   {
+    "key": "h1",
+    "label": "Hypothesis 1",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the FIRST hypothesis (about momentary feelings).",
+    "model": "More Facebook use between two messages would be followed by feeling worse at the second message.",
+    "why": "Hypotheses use 'predicted' or 'expected'. Note that the Abstract sentence 'the more... the worse' is a RESULT, not a hypothesis.",
+    "ans": [
+     "1.9"
+    ]
+   },
+   {
+    "key": "h2",
+    "label": "Hypothesis 2",
+    "tag": "H2",
+    "kind": "sentence",
+    "prompt": "Find the SECOND hypothesis (about life satisfaction).",
+    "model": "More Facebook use over the two weeks would be followed by a decline in life satisfaction.",
+    "why": "Look for 'Second, ... was expected': signal words show where the second prediction begins.",
+    "ans": [
+     "1.10"
+    ]
+   },
+   {
+    "key": "var",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the three main variables.",
+    "model": "Facebook use, momentary affect (how people feel right now) and life satisfaction.",
+    "why": "Check the Method: each 'X was measured by...' sentence names a variable. Here there are three main ones.",
+    "accept": [
+     [
+      "facebook|fb|social",
+      "feel|affect|mood|emotion|happi",
+      "satisf"
+     ],
+     [
+      "facebook|fb|social",
+      "momentar",
+      "life"
+     ]
+    ]
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of subjective well-being.",
+    "model": "How people evaluate their lives: both moment-to-moment feelings and overall life satisfaction.",
+    "why": "Look for 'refers to' in the Introduction; it explains the meaning of the concept, not the questionnaire used.",
+    "ans": [
+     "1.2"
+    ]
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was momentary affect measured? Find the operational definition.",
+    "model": "Participants answered 'How do you feel right now?' from very positive to very negative in each text-message survey.",
+    "why": "The operational definition gives the exact question or scale used.",
+    "ans": [
+     "2.5"
+    ]
+   },
+   {
+    "key": "gm",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What was the general method (approach) of this study?",
+    "model": "Experience sampling: repeated short surveys of the same people five times a day for two weeks (no manipulation).",
+    "why": "Nobody was told how much to use Facebook, so it is not an experiment; the same people were measured many times.",
+    "options": [
+     "Experiment",
+     "Experience sampling (repeated measures over two weeks)",
+     "Single survey at one time point",
+     "Qualitative interviews"
+    ],
+    "ans": "Experience sampling (repeated measures over two weeks)"
+   },
+   {
+    "key": "samp",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants and how many were there?",
+    "model": "82 young adults (late teens/early twenties) with smartphones and Facebook accounts, from a university town.",
+    "why": "Give the number and a description of who they were.",
+    "accept": [
+     [
+      "82|eighty",
+      "adult|young|people|participant|student|user"
+     ]
+    ]
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "The theory is never called a 'framework'. Find the sentence that introduces it, and name it.",
+    "model": "Social comparison theory (Festinger, 1954): people judge themselves by comparing with others; on Facebook these comparisons are mostly upward.",
+    "why": "Look for a cited classic idea that explains WHY Facebook could lower well-being; the next sentences apply it to Facebook.",
+    "ans": [
+     "1.4"
+    ],
+    "ok": [
+     "1.5"
+    ]
+   },
+   {
+    "key": "gap",
+    "label": "Research gap",
+    "tag": "GAP",
+    "kind": "sentence",
+    "prompt": "Find the research gap.",
+    "model": "Earlier studies measured Facebook use and well-being only once, so they could not show whether Facebook use comes first.",
+    "why": "The gap starts with 'however' and points out a weakness of earlier research designs.",
+    "ans": [
+     "1.7"
+    ]
+   },
+   {
+    "key": "res",
+    "label": "Results",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Were the hypotheses supported?",
+    "model": "Supported: more Facebook use was followed by feeling worse and by larger drops in life satisfaction.",
+    "why": "Check each hypothesis against the Results: H1 (momentary feelings) and H2 (life satisfaction) both came out as predicted.",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported"
+   },
+   {
+    "key": "lim",
+    "label": "Limitation",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find the limitation about the study's design.",
+    "model": "It was not an experiment, so other daily events could explain the link between Facebook use and lower well-being.",
+    "why": "Limitations about design often say 'not an experiment' or 'correlational', meaning cause cannot be proven.",
+    "ans": [
+     "4.3"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a9",
+  "level": 3,
+  "title": "Testing Versus Restudying: The Effect of Retrieval Practice on Short- and Long-Term Recall of Prose Passages",
+  "short": "Practice testing vs rereading",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Roediger & Karpicke (2006), Psychological Science)",
+  "doi": "10.1111/j.1467-9280.2006.01693.x",
+  "url": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment",
+  "based_on": "Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Students usually prepare for exams by rereading their notes, but taking practice tests may be a more effective way to learn.",
+     "This experiment compared repeated studying with repeated testing as ways of learning short prose passages.",
+     "University students either restudied a passage or took a recall test on it, and their memory was tested again after 5 minutes or after one week.",
+     "After 5 minutes, students who had restudied remembered slightly more than students who had been tested.",
+     "After one week, however, the pattern reversed, and students who had been tested remembered considerably more.",
+     "Testing therefore does not always beat restudying straight away, but it produces much better long-term retention."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "Tests are usually seen as tools for checking what students know rather than as tools for learning.",
+     "The testing effect refers to the finding that retrieving information from memory, for example by answering a test, improves later memory for that information more than spending the same amount of time restudying it.",
+     "Early laboratory studies found this effect mainly with simple materials such as lists of words (Carrier & Pashler, 1992).",
+     "One explanation comes from the idea of desirable difficulties, which holds that some learning conditions feel harder at the time but strengthen memory in the long run (Bjork, 1994).",
+     "Retrieving an answer takes effort, and this effort is thought to make the memory easier to retrieve again later, whereas rereading feels easy but leaves a weaker memory trace.",
+     "This view also suggests that the benefit of testing should grow as time passes, because effortful retrieval protects memories from being forgotten.",
+     "However, little research had examined whether the testing effect holds for the kind of prose passages that students read in their courses, and over delays as long as a week.",
+     "The present study asked whether taking a test on a prose passage leads to better recall than restudying it, both shortly after learning and one week later.",
+     "It was predicted that students who were tested would recall more of the passage than students who restudied it, at both the short and the long delay.",
+     "It was further predicted that the advantage of testing would be larger after one week than after 5 minutes."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "A laboratory experiment was conducted in which students were randomly assigned to conditions.",
+     "Participants were 120 undergraduate students who took part in exchange for course credit.",
+     "The learning materials were short prose passages on science topics, such as the sun and sea otters, each containing about 30 main ideas.",
+     "In the first phase, every student read a passage for 7 minutes.",
+     "In the second phase, students were either given another 7 minutes to restudy the same passage or given 7 minutes to write down as much of the passage as they could remember without looking at it.",
+     "Between the phases, students solved simple maths problems for a few minutes so that they could not rehearse the passage.",
+     "Students were also randomly assigned to take a final recall test either 5 minutes or one week after the second phase.",
+     "Recall was measured as the percentage of the passage's main ideas that each student wrote down correctly on the final test.",
+     "Students in the one-week condition returned to the laboratory to take their final test."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "After 5 minutes, students who had restudied recalled more of the main ideas (about 81%) than students who had been tested (about 75%).",
+     "After one week, students who had been tested recalled more (about 56%) than students who had restudied (about 42%), and this difference was statistically significant (p < .05).",
+     "Thus, the advantage of testing appeared only after the long delay, while restudying produced better recall at the short delay.",
+     "Students who had restudied also forgot much more over the week than students who had been tested."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "The answer to the research question depends on timing: restudying helped more in the short term, whereas testing led to much better long-term retention.",
+     "The first prediction therefore held only for the one-week delay, whereas the second prediction was borne out.",
+     "These findings support the view that effortful retrieval acts as a desirable difficulty that protects memories against forgetting.",
+     "In practice, students preparing for exams should replace some rereading with self-testing, such as flashcards or practice questions, even though rereading may feel more effective.",
+     "A limitation is that the study used short passages in a laboratory, which may not reflect learning large amounts of course material over a semester.",
+     "Future research could test retrieval practice in real classrooms and over longer delays, such as a whole semester."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the research question.",
+    "model": "Does taking a test on a prose passage lead to better recall than restudying it, both shortly after and one week later?",
+    "why": "Look for 'The present study asked whether...' just before the predictions.",
+    "ans": [
+     "1.7"
+    ]
+   },
+   {
+    "key": "h1",
+    "label": "Hypothesis 1",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the FIRST hypothesis.",
+    "model": "Tested students would recall more than restudy students at BOTH the 5-minute and one-week delay.",
+    "why": "Predictions use 'predicted'. Note exactly what is predicted (both delays) so you can check it against the Results later.",
+    "ans": [
+     "1.8"
+    ]
+   },
+   {
+    "key": "h2",
+    "label": "Hypothesis 2",
+    "tag": "H2",
+    "kind": "sentence",
+    "prompt": "Find the SECOND hypothesis.",
+    "model": "The testing advantage would be larger after one week than after 5 minutes.",
+    "why": "'It was further predicted' signals an additional hypothesis.",
+    "ans": [
+     "1.9"
+    ]
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of the testing effect.",
+    "model": "Retrieving information from memory (e.g., answering a test) improves later memory more than restudying for the same time.",
+    "why": "Look for 'refers to' near the start of the Introduction; it explains what the term means.",
+    "ans": [
+     "1.1"
+    ]
+   },
+   {
+    "key": "gm",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What was the general method (approach) of this study?",
+    "model": "Experiment: students were randomly assigned to restudy or testing conditions (and to a 5-minute or one-week delay).",
+    "why": "Random assignment to conditions that the researchers controlled = experiment.",
+    "options": [
+     "Experiment",
+     "Survey (correlational) at one time point",
+     "Longitudinal study",
+     "Qualitative interviews"
+    ],
+    "ans": "Experiment"
+   },
+   {
+    "key": "samp",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants and how many were there?",
+    "model": "120 undergraduate students taking part for course credit.",
+    "why": "Find 'Participants were...' at the start of the Method.",
+    "accept": [
+     [
+      "120|hundred",
+      "student|undergrad|universit"
+     ]
+    ]
+   },
+   {
+    "key": "manip",
+    "label": "Procedure / manipulation",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence that describes the manipulation (what differed between the groups).",
+    "model": "In phase two, students either restudied the passage for 7 minutes or spent 7 minutes recalling it from memory (a test).",
+    "why": "The manipulation is what the researchers deliberately changed between groups; look for 'either... or...'.",
+    "ans": [
+     "2.4"
+    ],
+    "ok": [
+     "2.6"
+    ]
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was recall measured? Find the operational definition.",
+    "model": "The percentage of the passage's main ideas each student wrote down correctly on the final test.",
+    "why": "The operational definition turns 'memory' into a number: here a percentage of ideas recalled.",
+    "ans": [
+     "2.7"
+    ]
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "Find the sentence that names the theory explaining why testing should help, and name it.",
+    "model": "Desirable difficulties (Bjork, 1994): harder, effortful learning (like retrieval) strengthens long-term memory.",
+    "why": "The framework is a named idea with a citation that explains WHY testing should beat rereading.",
+    "ans": [
+     "1.3"
+    ],
+    "ok": [
+     "1.4"
+    ]
+   },
+   {
+    "key": "res",
+    "label": "Results",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Were the hypotheses supported?",
+    "model": "Partly supported: testing was better after one week (H2 supported), but restudying was better after 5 minutes, so H1 held only for the long delay.",
+    "why": "Check H1 at each delay separately: it failed at 5 minutes but held at one week.",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Partly supported"
+   },
+   {
+    "key": "imp",
+    "label": "Practical implication",
+    "tag": "IMP",
+    "kind": "sentence",
+    "prompt": "Find the practical implication for students.",
+    "model": "Students should replace some rereading with self-testing such as flashcards or practice questions.",
+    "why": "Practical implications tell real people what to DO; look for 'In practice'.",
+    "ans": [
+     "4.3"
+    ]
+   },
+   {
+    "key": "lim",
+    "label": "Limitation",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find a limitation of the study.",
+    "model": "Short passages in a laboratory may not reflect learning lots of course material over a semester.",
+    "why": "Look for 'A limitation is...' in the Discussion.",
+    "ans": [
+     "4.4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a10",
+  "level": 3,
+  "title": "A Walk in Nature Reduces Rumination and Activity in a Brain Region Linked to Negative Self-Focused Thinking",
+  "short": "Nature walks and rumination",
+  "authors": "Practice article",
+  "year": 2026,
+  "journal": "PSY113 Practice (adapted from Bratman, Hamilton, Hahn, Daily & Gross (2015), PNAS)",
+  "doi": "10.1073/pnas.1510459112",
+  "url": "https://doi.org/10.1073/pnas.1510459112",
+  "license": "Written for practice; details simplified",
+  "design": "Experiment (pre/post)",
+  "based_on": "Bratman, G. N., Hamilton, J. P., Hahn, K. S., Daily, G. C., & Gross, J. J. (2015). Nature experience reduces rumination and subgenual prefrontal cortex activation. Proceedings of the National Academy of Sciences, 112(28), 8567–8572. https://doi.org/10.1073/pnas.1510459112",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "More than half of the world's population now lives in cities, and city living has been linked to higher rates of mental illness such as depression.",
+     "This experiment tested whether a walk in nature reduces rumination, a pattern of repetitive negative thinking about oneself that is a risk factor for depression.",
+     "Healthy adults were randomly assigned to take a 90-minute walk in either a natural or an urban setting, and rumination and brain activity were measured before and after the walk.",
+     "Participants who walked in nature reported less rumination afterwards and showed reduced activity in a brain region linked to sad, self-focused thinking.",
+     "Participants who walked in the urban setting showed neither change.",
+     "These results suggest that access to natural areas may help protect mental health in an increasingly urban world."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "City living brings many benefits, but people who live in cities face a higher risk of mood and anxiety disorders than people in rural areas (Peen, Schoevers, Beekman, & Dekker, 2010).",
+     "At the same time, city dwellers have less contact with natural environments than ever before.",
+     "Rumination is defined here as a repetitive, self-focused pattern of thinking about negative aspects of oneself and one's life, such as mistakes or failures (Nolen-Hoeksema, 2000).",
+     "People who ruminate a lot are more likely to develop depression.",
+     "Brain imaging studies have linked rumination and sad mood to increased activity in the subgenual prefrontal cortex, a small region at the front of the brain.",
+     "According to the view that natural settings restore our mental resources (Kaplan, 1995), nature gently holds our attention without effort and gives the mind a break from demanding thought.",
+     "If nature draws attention outward in this way, a walk in a natural setting should leave less room for negative thoughts about oneself and should therefore reduce rumination.",
+     "Past studies have shown that time in nature improves mood and attention, but whether it reduces rumination and the brain activity linked to it had not been tested experimentally.",
+     "The present study investigated whether a walk in nature, compared with a walk in an urban setting, reduces rumination and activity in the subgenual prefrontal cortex.",
+     "It was predicted that participants who walked in nature would show a larger drop in self-reported rumination than those who walked in the city.",
+     "It was also predicted that the nature walk, but not the urban walk, would reduce activity in the subgenual prefrontal cortex."
+    ]
+   },
+   {
+    "h": "Method",
+    "s": [
+     "The study was an experiment with measurements taken both before and after the walk (a pre/post design).",
+     "Participants were 38 healthy adults living in an urban area who had no history of mental illness.",
+     "Participants were randomly assigned to walk for 90 minutes either along a quiet path through grassland with scattered trees or along a busy, multi-lane road in a city.",
+     "Both groups walked alone, followed a set route and took photographs at points along the way so that the researchers could confirm the route had been followed.",
+     "Rumination was measured with a self-report questionnaire on which participants rated how much they agreed with statements about dwelling on things about themselves that they wished they could stop thinking about.",
+     "Activity in the subgenual prefrontal cortex was measured with a brain scan (functional MRI) that recorded how much blood was flowing to this region while participants rested.",
+     "Both measures were taken on the same day, once before and once after the walk.",
+     "Heart rate and breathing rate were also recorded to check whether the two walks differed in physical effort."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Participants who walked in nature reported a significant decrease in rumination from before to after the walk (p < .05), whereas those who walked in the city did not.",
+     "Activity in the subgenual prefrontal cortex also decreased after the nature walk but not after the urban walk.",
+     "Heart rate and breathing did not differ between the two groups, suggesting that the effects were not simply due to differences in physical exercise."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "The findings indicate that a single walk in nature can reduce both self-reported rumination and the brain activity associated with it.",
+     "This supports the idea that natural environments restore the mind by drawing attention away from negative, self-focused thoughts.",
+     "Practically, the results suggest that city planners should protect and create accessible green spaces as a low-cost way to support mental health.",
+     "One limitation is that participants were healthy volunteers, so it is not known whether the same benefit would appear in people with depression.",
+     "In addition, the study measured only short-term changes on a single day.",
+     "Future research should examine whether regular nature walks over weeks or months produce lasting reductions in rumination and depressive symptoms."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "rq",
+    "label": "Research question",
+    "tag": "RQ",
+    "kind": "sentence",
+    "prompt": "Find the research question.",
+    "model": "Does a walk in nature, compared with an urban walk, reduce rumination and subgenual prefrontal cortex activity?",
+    "why": "Look for 'The present study investigated whether...' at the end of the Introduction, before the predictions.",
+    "ans": [
+     "1.8"
+    ]
+   },
+   {
+    "key": "h1",
+    "label": "Hypothesis 1",
+    "tag": "H1",
+    "kind": "sentence",
+    "prompt": "Find the hypothesis about self-reported rumination.",
+    "model": "Nature walkers would show a larger drop in rumination than city walkers.",
+    "why": "Predictions use 'It was predicted that...'; this one is about the questionnaire measure.",
+    "ans": [
+     "1.9"
+    ]
+   },
+   {
+    "key": "h2",
+    "label": "Hypothesis 2",
+    "tag": "H2",
+    "kind": "sentence",
+    "prompt": "Find the hypothesis about brain activity.",
+    "model": "The nature walk, but not the urban walk, would reduce subgenual prefrontal cortex activity.",
+    "why": "'It was also predicted' introduces a second prediction, this time about the brain measure.",
+    "ans": [
+     "1.10"
+    ]
+   },
+   {
+    "key": "var",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the main variables (at least two).",
+    "model": "Type of walk/setting (nature vs urban), rumination, and subgenual prefrontal cortex (brain) activity.",
+    "why": "One variable is what the researchers changed (the walk setting); the others are what they measured before and after.",
+    "accept": [
+     [
+      "nature|natur|green|walk|environment|setting|urban|city",
+      "rumina"
+     ],
+     [
+      "rumina",
+      "brain|prefrontal|cortex|sgpfc"
+     ]
+    ]
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the conceptual definition of rumination in the Introduction.",
+    "model": "Rumination = repetitive, self-focused thinking about negative aspects of oneself and one's life.",
+    "why": "Look for 'is defined here as'. The Abstract also gives a short version.",
+    "ans": [
+     "1.2"
+    ],
+    "ok": [
+     "0.1"
+    ]
+   },
+   {
+    "key": "gm",
+    "label": "General method",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "What was the general method (approach) of this study?",
+    "model": "Experiment with pre/post measures: participants were randomly assigned to a nature or urban walk.",
+    "why": "Random assignment to a walk the researchers chose = experiment; 'before and after' adds pre/post measurement.",
+    "options": [
+     "Experiment (pre/post measures)",
+     "Correlational survey",
+     "Longitudinal survey over months",
+     "Case study"
+    ],
+    "ans": "Experiment (pre/post measures)"
+   },
+   {
+    "key": "samp",
+    "label": "Sample",
+    "tag": "SAMP",
+    "kind": "text",
+    "prompt": "Who were the participants and how many were there?",
+    "model": "38 healthy adults living in a city with no history of mental illness.",
+    "why": "Give both the number and who they were.",
+    "accept": [
+     [
+      "38|thirty",
+      "adult|people|participant|resident|volunteer|healthy"
+     ]
+    ]
+   },
+   {
+    "key": "manip",
+    "label": "Procedure / manipulation",
+    "tag": "PROC",
+    "kind": "sentence",
+    "prompt": "Find the sentence that describes the manipulation.",
+    "model": "Random assignment to a 90-minute walk in grassland with trees (nature) or along a busy multi-lane road (urban).",
+    "why": "The manipulation is the condition the researchers controlled; look for 'randomly assigned... either... or...'.",
+    "ans": [
+     "2.2"
+    ]
+   },
+   {
+    "key": "od",
+    "label": "Operational definition",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was rumination measured? Find the operational definition.",
+    "model": "A self-report questionnaire rating agreement with statements about dwelling on things about oneself.",
+    "why": "Look in the Method for 'Rumination was measured with...'; don't confuse it with the brain measure.",
+    "ans": [
+     "2.4"
+    ]
+   },
+   {
+    "key": "tf",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "sentence",
+    "prompt": "The framework is not labelled. Find the sentence that introduces it, and name it.",
+    "model": "Attention restoration theory (Kaplan, 1995): nature holds attention effortlessly and restores mental resources, which should reduce rumination.",
+    "why": "Look for a cited theory that explains WHY nature should reduce rumination; the following sentence links it to the variables.",
+    "ans": [
+     "1.5"
+    ],
+    "ok": [
+     "1.6"
+    ]
+   },
+   {
+    "key": "res",
+    "label": "Results",
+    "tag": "RES",
+    "kind": "choice",
+    "prompt": "Were the hypotheses supported?",
+    "model": "Supported: rumination and subgenual prefrontal cortex activity both dropped after the nature walk but not after the urban walk.",
+    "why": "Check each hypothesis against the Results: both the questionnaire and the brain measure changed as predicted.",
+    "options": [
+     "Supported",
+     "Partly supported",
+     "Not supported"
+    ],
+    "ans": "Supported"
+   },
+   {
+    "key": "fut",
+    "label": "Future research",
+    "tag": "FUT",
+    "kind": "sentence",
+    "prompt": "Find the suggestion for future research.",
+    "model": "Test whether regular nature walks over weeks or months give lasting reductions in rumination and depressive symptoms.",
+    "why": "Future research suggestions usually appear at the end of the Discussion and start with 'Future research should/could...'.",
+    "ans": [
+     "4.5"
+    ]
+   }
+  ]
+ }
+]

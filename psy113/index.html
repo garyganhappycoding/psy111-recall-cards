@@ -378,7 +378,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div>
       <div class="eyebrow" id="eyebrow">PSY 113</div>
       <h1>PSY 113 <em>scientific thinking</em> trainer</h1>
-      <p class="sub">Learn the concepts lecture by lecture, sit a 50-question MCQ exam drawn from every lecture, then practise reading real journal articles to find the research question, hypothesis, variables and more.</p>
+      <p class="sub">Learn the concepts lecture by lecture, sit a 50-question MCQ exam drawn from every lecture, then practise reading journal-style articles based on real studies to find the research question, hypothesis, variables and more.</p>
     </div>
     <div class="progress"><span id="pct">Loading cards…</span><div class="bar"><i id="barfill"></i></div><div class="status" id="status"></div><div class="acct" id="acct"></div></div>
   </header>
@@ -418,7 +418,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   </section>
 
   <section id="view-art" hidden>
-    <p class="note">Read a real psychology journal article and find its parts: the research question, hypothesis, variables, design and more. Tap sentences in the article or type your answer, then check. The articles go from easy to harder.</p>
+    <p class="note">Each practice article is a short, simplified version of a real published psychology study (the original is linked inside). Find its parts: the research question, hypothesis, variables, definitions, method, theoretical framework and more. Tap sentences in the article or type your answer, then check. Articles go from easy to harder.</p>
     <div class="artgrid" id="artgrid"></div>
   </section>
 
@@ -1233,11 +1233,11 @@ function lecRef(c){const s=c&&c.src;if(!s||!s.lec)return "";const p=s.p||[];retu
 let exN=store.get("p113-exn",50),exLecs=null;
 function lecturesInBank(){return [...new Set(Object.values(MCQ).map(m=>m.lec))].sort((a,b)=>a-b)}
 function renderExam(){
-  const lecs=lecturesInBank();if(!exLecs)exLecs=new Set(store.get("p113-exlecs",lecs));
+  const lecs=lecturesInBank();ensureLecs();
   document.querySelectorAll("#ex-n button").forEach(b=>{b.setAttribute("aria-pressed",+b.dataset.n===exN);b.onclick=()=>{exN=+b.dataset.n;store.set("p113-exn",exN);renderExam()}});
   const box=$("#ex-lecs");box.innerHTML="";
   lecs.forEach(l=>{const lab=document.createElement("label");const cb=document.createElement("input");cb.type="checkbox";cb.checked=exLecs.has(l);
-    cb.onchange=()=>{cb.checked?exLecs.add(l):exLecs.delete(l);store.set("p113-exlecs",[...exLecs]);renderExam()};
+    cb.onchange=()=>{cb.checked?exLecs.add(l):exLecs.delete(l);store.set("p113-exoff",lecturesInBank().filter(x=>!exLecs.has(x)));renderExam()};
     const n=Object.values(MCQ).filter(m=>m.lec===l).length;lab.append(cb,`Lecture ${l} (${n})`);box.appendChild(lab)});
   const pool=Object.values(MCQ).filter(m=>exLecs.has(m.lec));
   $("#ex-pool").textContent=pool.length?`${pool.length} questions in the bank for these lectures. Each exam picks ${Math.min(exN,pool.length)} at random, spread across the lectures.`:"Pick at least one lecture.";
@@ -1245,7 +1245,8 @@ function renderExam(){
   const h=$("#ex-hist");h.innerHTML="";$("#ex-histbox").hidden=!exams.length;
   exams.slice(0,8).forEach(x=>{const li=document.createElement("li");const sc=document.createElement("span");sc.className="sc";sc.textContent=`${x.score}/${x.total} (${Math.round(x.score/x.total*100)}%)`;li.append(sc,` · ${fmtWhen(x.at)}`+(x.total<x.of?` · stopped at ${x.total} of ${x.of}`:""));h.appendChild(li)});
 }
-function pickExam(n){
+function ensureLecs(){if(!exLecs){const off=new Set(store.get("p113-exoff",[]));exLecs=new Set(lecturesInBank().filter(l=>!off.has(l)))}}
+function pickExam(n){ensureLecs();
   // spread questions across lectures: round-robin over shuffled per-lecture pools
   const by={};Object.values(MCQ).filter(m=>exLecs.has(m.lec)).forEach(m=>(by[m.lec]=by[m.lec]||[]).push(m));
   Object.keys(by).forEach(k=>by[k]=shuffleArr(by[k]));const keys=shuffleArr(Object.keys(by));const out=[];
@@ -1265,7 +1266,7 @@ function renderArts(){
     const st=artState[a.id];
     b.innerHTML=`<span class="lvl"></span><h4></h4><span class="meta"></span><span class="best"></span>`;
     b.querySelector(".lvl").textContent=`Article ${i+1} · ${lv}`;b.querySelector("h4").textContent=a.short||a.title;
-    b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`;
+    b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`+(a.based_on?` · based on ${(a.based_on.match(/^[^(]*\(\d{4}\)/)||[a.based_on])[0]}`:"");
     b.querySelector(".best").textContent=st&&st.best!=null?`Best score: ${st.best}%`:"Not tried yet";
     b.onclick=()=>openArticle(a.id);g.appendChild(b)});
 }
@@ -1276,8 +1277,8 @@ function openArticle(id){
   a.items.forEach(it=>{const v=st&&st.answers?st.answers[it.key]:null;sel[it.key]=it.kind==="sentence"?new Set(v||[]):(v||"")});
   art={a,sel,picking:null,checked:false,over:{}};
   const [lv]=levelInfo(a.level);$("#a-tag").textContent=`Article practice · ${lv}`;$("#a-title").textContent=a.title;
-  const cite=$("#a-cite");cite.textContent=`${a.authors} (${a.year}). ${a.journal}. ${a.license}. `;
-  if(a.url){const l=document.createElement("a");l.href=a.url;l.target="_blank";l.rel="noopener";l.textContent="Open the full article";cite.appendChild(l)}
+  const cite=$("#a-cite");cite.textContent=a.based_on?`Practice article written for PSY 113 (details simplified). Adapted from: ${a.based_on} `:`${a.authors} (${a.year}). ${a.journal}. ${a.license}. `;
+  if(a.url){const l=document.createElement("a");l.href=a.url;l.target="_blank";l.rel="noopener";l.textContent=a.based_on?"Original study":"Open the full article";cite.appendChild(l)}
   const tx=$("#a-text");tx.innerHTML="";
   a.text.forEach((sec,si)=>{const h=document.createElement("h5");h.textContent=sec.h;tx.appendChild(h);const p=document.createElement("p");
     sec.s.forEach((t,j)=>{const sp=document.createElement("span");sp.className="sent";sp.dataset.id=sentId(si,j);sp.textContent=t;sp.onclick=()=>pickSentence(sp.dataset.id);p.append(sp," ")});tx.appendChild(p)});
