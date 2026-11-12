@@ -1,0 +1,2000 @@
+[
+ {
+  "id": "ea-1",
+  "type": "A",
+  "title": "The 'snake' on Bukit Broga",
+  "decks": [
+   "Emotion",
+   "Nervous System"
+  ],
+  "scenario": "Aina, a 19-year-old HELP student, joins friends for a sunrise hike up Bukit Broga. At 5.45 a.m. the trail is still dark. Halfway up, she sees a long, dark, curved shape lying across the path and leaps backwards with a gasp before she has 'thought' anything at all. Her heart is pounding, she is breathing fast and her friend Kavitha later says her eyes were 'huge'. About a second later Aina shines her phone torch on the shape and realises it is a tree root. She laughs nervously: 'Aiyo, I thought it was a snake!' Kavitha says she knew Aina was terrified the instant she saw her face: wide eyes, raised eyebrows, mouth open. The group rests on a bench for ten minutes. Aina's heart rate slowly settles, her stomach starts to growl, and she suddenly wants to eat the nasi lemak in her bag. For the rest of the hike she still flinches slightly at every curved root, even though she now 'knows' they are roots.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE psychological concepts from the Emotion and Nervous System topics that are illustrated in this scenario.",
+    "marks": 8,
+    "model": "First, emotional responses to threat can reach the amygdala, the almond-shaped limbic structure linked to fear responses and fear memory, through two routes. The low road is a fast, crude, subcortical route that lets us react before we are consciously aware of what the stimulus is. The high road is a slower, cortical route that recognises what the threat actually is and allows conscious control (\"Danger!\" first, then \"It's a shark!\"). Second, the autonomic nervous system has two divisions. The sympathetic division reacts to stress and arousal and prepares the body for rigorous activity (fight-or-flight): heart rate rises, breathing speeds up and the pupils dilate. The parasympathetic division restores the body after arousal and supports day-to-day functioning (eat-drink-and-rest): it lowers heart rate, increases digestion and conserves energy. Third, facial expressions of emotion appear to be universal across cultures, so people from different backgrounds can recognise basic emotions such as fear from the face.",
+    "points": [
+     {
+      "t": "Names the low road and high road to the amygdala",
+      "m": 1
+     },
+     {
+      "t": "Explains the low road as fast, crude and subcortical (reaction before conscious awareness)",
+      "m": 1
+     },
+     {
+      "t": "Explains the high road as slower and cortical (recognises the threat, allows conscious control)",
+      "m": 1
+     },
+     {
+      "t": "States the amygdala is linked to fear responses / fear memory",
+      "m": 1
+     },
+     {
+      "t": "Names the sympathetic nervous system and links it to fight-or-flight",
+      "m": 1
+     },
+     {
+      "t": "Lists at least two sympathetic effects (heart rate up, faster breathing, pupils dilate)",
+      "m": 1
+     },
+     {
+      "t": "Names the parasympathetic nervous system and explains it restores the body (lower heart rate, more digestion, eat-drink-and-rest)",
+      "m": 1
+     },
+     {
+      "t": "Names universal facial expressions of emotion (recognised across cultures)",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Using specific evidence from the scenario, explain WHY Aina's behaviour fits each concept you identified.",
+    "marks": 8,
+    "model": "Aina leapt backwards 'before she had thought anything at all'. This fits the low road: the crude shape was enough for the fast subcortical route to trigger the amygdala's fear response before her cortex had identified the object. About a second later she used the torch and realised it was a root; this is the high road, where slower cortical processing recognises what the stimulus really is and lets her take conscious control, so she laughs instead of running. The fact that she keeps flinching at roots even though she 'knows' they are harmless also suggests the low road reacts to rough features independently of her conscious knowledge. Her pounding heart, fast breathing and 'huge' eyes are classic sympathetic arousal, preparing her body to escape. During the ten-minute rest her heart rate settles and her stomach starts to growl and she wants to eat: the parasympathetic division is restoring her body, lowering heart rate and increasing digestion. Finally, Kavitha read Aina's fear instantly from her wide eyes, raised eyebrows and open mouth, which fits the idea that facial expressions of fear are universal and easily recognised.",
+    "points": [
+     {
+      "t": "Links leaping back 'before thinking' to the low road (fast, before awareness)",
+      "m": 2
+     },
+     {
+      "t": "Links using the torch and realising it is a root to the high road (slower, conscious recognition and control)",
+      "m": 2
+     },
+     {
+      "t": "Links pounding heart, fast breathing and wide eyes/dilated pupils to sympathetic arousal",
+      "m": 2
+     },
+     {
+      "t": "Links heart rate settling and stomach growling/wanting food during rest to the parasympathetic system increasing digestion and lowering heart rate",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Suggest ONE real-life application of these concepts and explain how it would help.",
+    "marks": 4,
+    "model": "These concepts could be used in a short safety briefing for first-time hikers or in explaining sudden fear to someone with an animal phobia. The guide would explain that the first jolt of fear is the low road reacting automatically, so it is normal and not a sign of weakness. Hikers would be taught to pause and check (for example, shine a torch) before reacting further, which engages the slower high road and gives conscious control, reducing panicked running on a steep, dark trail. The briefing would also suggest slowing the breath and resting for a few minutes after a scare, because this supports the parasympathetic system in lowering heart rate and restoring the body, so hikers recover before continuing.",
+    "points": [
+     {
+      "t": "Proposes a concrete real-life use (e.g. hiker safety briefing, explaining phobic reactions)",
+      "m": 1
+     },
+     {
+      "t": "Uses the low road to explain why the first fear reaction is automatic/normal",
+      "m": 1
+     },
+     {
+      "t": "Includes a step that engages the high road (pause, check, re-identify the stimulus)",
+      "m": 1
+     },
+     {
+      "t": "Includes a recovery step linked to the parasympathetic system (rest, slow breathing) and states the benefit",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Saying the high road is the fast route, or that the low road passes through the cortex.",
+   "Attributing the racing heart to the parasympathetic system, or saying the sympathetic system increases digestion."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-2",
+  "type": "A",
+  "title": "Burnt hand at the char kway teow stall",
+  "decks": [
+   "Nerve Cells",
+   "Nervous System",
+   "Synapses",
+   "Sensation & Perception"
+  ],
+  "scenario": "Wei Jie, 20, helps at his family's char kway teow stall at a Penang hawker centre on weekends. Early in the evening his knuckle lightly brushes the edge of the hot wok for a split second; he barely notices it and keeps cooking. Two hours later, rushing during the dinner crowd, he reaches for a plate and his whole palm rests against the wok's rim. His hand jerks away before he is aware of any pain; only a moment later does a sharp, intense burning sensation hit him and he shouts. This burn feels far more painful than the earlier brush, even though the wok is the same temperature. He immediately shakes his hand and rubs around the burnt area, and says the pain 'feels a bit less' while he does this. His younger sister, who is studying biology for SPM, insists: 'The second burn hurt more because the nerve signal was bigger.'",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE concepts from the Nerve Cells, Nervous System, Synapses and/or Sensation & Perception topics illustrated in this scenario.",
+    "marks": 9,
+    "model": "The first concept is the spinal reflex involving three types of neurons. Sensory (afferent) neurons carry information from the senses to the central nervous system, for example when touching a hot surface. Interneurons, found in the centre of the spinal cord (grey matter, which is responsible for reflexes), receive this information and send commands out through motor (efferent) neurons, which carry messages from the CNS to the muscles. The second concept is how neurons code stimulus strength. An action potential only fires if stimulation passes the threshold of excitement, and under the all-or-none law it fires at full strength or not at all. Because action potentials are equal in size and speed within a neuron, a stronger stimulus is signalled by a higher frequency of firing and by more neurons firing. The third concept is the gate-control theory of pain: pain signals must pass through a 'gate' in the spinal cord, and non-pain signals from the body or brain can close the gate, which is why rubbing a sore spot reduces pain. Endorphins, inhibitory neurotransmitters involved in pain relief, also inhibit pain transmission.",
+    "points": [
+     {
+      "t": "Explains sensory (afferent) neurons carry information from the senses to the CNS",
+      "m": 1
+     },
+     {
+      "t": "Explains interneurons in the spinal cord centre/grey matter connect sensory to motor neurons",
+      "m": 1
+     },
+     {
+      "t": "Explains motor (efferent) neurons carry commands from the CNS to muscles",
+      "m": 1
+     },
+     {
+      "t": "States the all-or-none law (fires at full strength or not at all)",
+      "m": 1
+     },
+     {
+      "t": "Mentions the threshold of excitement must be reached for an action potential",
+      "m": 1
+     },
+     {
+      "t": "States that strength is coded by frequency of firing and number of neurons firing",
+      "m": 1
+     },
+     {
+      "t": "States gate-control theory: pain signals pass a gate in the spinal cord",
+      "m": 1
+     },
+     {
+      "t": "Explains non-pain signals (e.g. rubbing) can close the gate",
+      "m": 1
+     },
+     {
+      "t": "Mentions endorphins inhibit pain transmission",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Using evidence from the scenario, explain WHY Wei Jie's experience fits each concept. In your answer, explain whether his sister's claim is correct.",
+    "marks": 7,
+    "model": "Wei Jie's hand jerked away before he was aware of pain. This fits a spinal reflex: sensory neurons from his palm sent the signal to interneurons in the spinal cord, which directly activated motor neurons to the arm muscles. The withdrawal did not need to wait for the brain; the message travelling up to the brain, where pain is consciously felt, arrived a moment later, which is why the burning sensation came after the movement. His sister is wrong that the signal was 'bigger'. By the all-or-none law, each action potential is the same size whatever the stimulus. The brief knuckle brush activated relatively few receptors for a very short time, whereas the whole palm resting on the rim activated many more sensory neurons, and the intense, longer contact made each one fire more frequently. Greater frequency and more neurons firing is how the nervous system signalled the stronger pain. Finally, when he shook and rubbed his hand the pain felt less, which fits gate-control theory: the rubbing sends non-pain touch signals that close the spinal 'gate', reducing the pain signals reaching the brain.",
+    "points": [
+     {
+      "t": "Explains the hand moving before pain was felt as a spinal reflex not requiring the brain first",
+      "m": 1
+     },
+     {
+      "t": "Explains pain is felt slightly later because the signal must travel up to the brain",
+      "m": 1
+     },
+     {
+      "t": "States the sister is wrong because of the all-or-none law (action potentials do not get bigger)",
+      "m": 1
+     },
+     {
+      "t": "Links whole palm contact to more neurons firing",
+      "m": 1
+     },
+     {
+      "t": "Links the more intense/longer contact to higher frequency of firing",
+      "m": 1
+     },
+     {
+      "t": "Links rubbing/shaking the hand to non-pain signals closing the gate",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Suggest ONE real-life application of these concepts and explain how it would help.",
+    "marks": 4,
+    "model": "A practical application is a short pain-management guide for parents and staff at a kindergarten, or for hawker-stall first aid. Based on gate-control theory, adults could gently rub around (not on) a minor bump or bruise, or give gentle touch, to send non-pain signals that close the spinal gate and reduce the child's pain while they comfort them. The guide would also explain that a fast withdrawal reflex is the body's automatic protection and that how much something hurts is coded by how many neurons fire and how often, so a big area of contact can hurt more even at the same temperature. However, the guide must stress a limitation: rubbing only changes the pain signal; it does not treat the injury, so a burn still needs proper first aid such as cooling, and serious injuries need medical care.",
+    "points": [
+     {
+      "t": "Proposes a concrete real-life use (e.g. pain comfort for children, first-aid guide)",
+      "m": 1
+     },
+     {
+      "t": "Explains how the application works using gate-control theory",
+      "m": 1
+     },
+     {
+      "t": "Uses reflex or stimulus-strength coding correctly within the application",
+      "m": 1
+     },
+     {
+      "t": "Notes a realistic limitation (e.g. reduces pain signals but does not heal the injury)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Agreeing with the sister that stronger stimuli produce bigger or faster action potentials (violates the all-or-none law).",
+   "Saying the brain decided to pull the hand away first, or mixing up afferent (sensory) and efferent (motor) neurons."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-3",
+  "type": "A",
+  "title": "Night drive on the North-South Highway",
+  "decks": [
+   "Sensation & Perception"
+  ],
+  "scenario": "Farah, 22, drives home from Ipoh to Kuala Lumpur on the North-South Highway after a family dinner, leaving at 11 p.m. The highway is poorly lit and it is drizzling. She notices she can hardly tell what colour the cars around her are; they all look grey. Oddly, a faint motorcycle tail light is easier to see when she glances slightly to the side of it than when she stares straight at it. Ahead, she sees what she thinks is a lorry far in the distance because it looks so small, and she speeds up. Suddenly she realises it is actually a small van very close in front of her and brakes hard. She mentions that the rows of street lamps 'seem to meet at one point' far ahead. Later, she sees a dark shape by the road shoulder and is certain it is a stalled motorcyclist, because her brother had warned her that motorcyclists often shelter under bridges when it rains. It turns out to be a rubbish bag.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE concepts from Sensation & Perception that are illustrated in this scenario.",
+    "marks": 9,
+    "model": "The first concept is the difference between the two photoreceptors in the retina. Rods give non-colour vision, work well in dim light and are concentrated in the periphery of the retina. Cones give colour vision and sharpness, work best in bright light and are concentrated in the fovea, the central part of the retina with the sharpest focus. The second concept is monocular (pictorial) depth cues, which work with only one eye. Relative size means that an object that looks smaller than expected is assumed to be farther away. Linear perspective means parallel lines appear to converge in the distance. The third concept is perceptual set: the tendency to perceive things in a certain way because of previous experiences or expectations, so what we see depends on what we expect to see. This relates to top-down processing, where pre-existing knowledge is used to organise features into a whole, as opposed to bottom-up processing, which analyses small features to build a perception.",
+    "points": [
+     {
+      "t": "Explains rods: dim light, no colour, concentrated in the periphery",
+      "m": 2
+     },
+     {
+      "t": "Explains cones: colour and sharpness, bright light, concentrated in the fovea",
+      "m": 1
+     },
+     {
+      "t": "Defines monocular depth cues as cues that work with one eye",
+      "m": 1
+     },
+     {
+      "t": "Explains relative size correctly",
+      "m": 1
+     },
+     {
+      "t": "Explains linear perspective (parallel lines converge in the distance)",
+      "m": 1
+     },
+     {
+      "t": "Defines perceptual set (perceiving based on expectations/previous experience)",
+      "m": 1
+     },
+     {
+      "t": "Distinguishes top-down (prior knowledge) from bottom-up (features first) processing",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Using specific evidence from the scenario, explain WHY Farah's experiences fit each concept.",
+    "marks": 7,
+    "model": "Farah can hardly tell the colours of the cars because on a dark highway there is too little light for her cones to work well, so her vision relies mainly on rods, which do not detect colour; everything looks grey. The tail light is easier to see when she looks slightly to the side because that places the image on the periphery of her retina, where rods are concentrated, rather than the fovea, which is packed with cones that work poorly in dim light. She misjudged the van because of relative size: her brain assumed the vehicle was a lorry and, since it looked smaller than a lorry should, it concluded it must be far away. The cue was misleading because her assumption about the object's real size was wrong. The rows of street lamps 'meeting' in the distance is linear perspective, a cue she uses to judge how far the road stretches. Finally, seeing a rubbish bag as a motorcyclist shows perceptual set and top-down processing: her brother's warning created an expectation, and she used that prior knowledge to interpret an ambiguous dark shape rather than building the perception from its actual features.",
+    "points": [
+     {
+      "t": "Links grey-looking cars to cones working poorly in dim light / reliance on rods",
+      "m": 2
+     },
+     {
+      "t": "Links seeing the tail light better off-centre to rods in the periphery rather than the fovea",
+      "m": 1
+     },
+     {
+      "t": "Links misjudging the van to relative size based on an expected (lorry) size",
+      "m": 2
+     },
+     {
+      "t": "Links seeing the rubbish bag as a motorcyclist to perceptual set/top-down processing based on the brother's warning",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Suggest ONE real-life application of these concepts and explain how it would help reduce night-time accidents.",
+    "marks": 4,
+    "model": "PLUS (the highway operator) or JPJ could add a short night-driving module to driving-school training. Learners would be taught that in dim light colour vision is poor because cones need bright light, so they should not rely on colour (for example, of a car or a sign background) to identify things, and that glancing slightly to the side can help detect faint lights because rods are in the periphery. They would also be warned that relative size can mislead when you are not sure what a vehicle is, so they should keep a longer following distance and slow down rather than speed up when distance is uncertain, and that expectations (perceptual set) can make them 'see' what they expect, so they should check ambiguous shapes before acting. This would reduce accidents caused by misjudging distance or misidentifying objects in the dark.",
+    "points": [
+     {
+      "t": "Proposes a concrete application (e.g. driving-school night module, road-sign design)",
+      "m": 1
+     },
+     {
+      "t": "Links advice to rods/cones (colour unreliable in dim light, peripheral glance)",
+      "m": 1
+     },
+     {
+      "t": "Links advice to a depth-cue error or perceptual set",
+      "m": 1
+     },
+     {
+      "t": "Explains clearly how this would reduce accidents",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Saying rods are responsible for colour vision or are concentrated in the fovea.",
+   "Calling relative size or linear perspective a binocular cue."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-4",
+  "type": "B",
+  "title": "Footsteps in the car park",
+  "decks": [
+   "Emotion",
+   "Nervous System"
+  ],
+  "scenario": "Three HELP students describe walking alone to a dimly lit multi-storey car park in Damansara after the library closes at 11 p.m. and hearing fast footsteps behind them. Hafiz says: 'My heart was pounding and I was already walking faster before I even knew I was scared. Only when I noticed how hard my heart was beating did I think: I'm terrified.' Mei, who had the same experience last week, disagrees: 'For me, the fear and the racing heart came at exactly the same moment. One didn't cause the other.' Arjun, in the same situation, recognised the footsteps as belonging to Encik Ravi, the security guard he chats with every night. 'I thought, that's just Encik Ravi doing his rounds,' he says, 'so I wasn't scared at all and my heart stayed calm.' Their lecturer comments that two weeks earlier Hafiz had described the same pounding heart at a K-pop concert in Bukit Jalil, but there he called it excitement.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain each student's account using a DIFFERENT theory of emotion: James-Lange (Hafiz), Cannon-Bard (Mei) and Lazarus's cognitive-mediational theory (Arjun).",
+    "marks": 9,
+    "model": "Hafiz's account fits the James-Lange theory, proposed by William James and Carl Lange. It states that a stimulus first produces bodily arousal, and the person then interprets and labels this arousal as an emotion. Hafiz's heart pounded and he walked faster first, and only after he noticed his heartbeat did he conclude he was terrified, so his emotion followed his awareness of his body. Mei's account fits the Cannon-Bard theory of Walter Cannon and Philip Bard. They argued that the physiological reaction and the emotion occur at the same time, because the thalamus sends signals to the cortex (producing the feeling) and to the sympathetic nervous system (producing arousal) simultaneously. Mei's statement that the fear and racing heart came 'at exactly the same moment' and that neither caused the other matches this. Arjun's account fits Lazarus's cognitive-mediational theory, which says a stimulus must first be appraised (interpreted), and this appraisal produces the emotion, which is followed by the bodily response. Arjun appraised the footsteps as 'just Encik Ravi', a harmless situation, so no fear arose and his heart stayed calm: the appraisal mediated between the stimulus and the emotion.",
+    "points": [
+     {
+      "t": "States James-Lange sequence: stimulus then bodily arousal first",
+      "m": 1
+     },
+     {
+      "t": "Explains the arousal is then interpreted/labelled as the emotion",
+      "m": 1
+     },
+     {
+      "t": "Links Hafiz noticing his heartbeat before labelling himself terrified",
+      "m": 1
+     },
+     {
+      "t": "States Cannon-Bard: physiological reaction and emotion occur simultaneously",
+      "m": 1
+     },
+     {
+      "t": "Explains the thalamus sends signals to the cortex and sympathetic NS at the same time",
+      "m": 1
+     },
+     {
+      "t": "Links Mei's 'same moment' account to Cannon-Bard",
+      "m": 1
+     },
+     {
+      "t": "States Lazarus: stimulus must be appraised first",
+      "m": 1
+     },
+     {
+      "t": "Gives the sequence appraisal then emotion then bodily response",
+      "m": 1
+     },
+     {
+      "t": "Links Arjun's harmless appraisal of Encik Ravi to no fear and a calm heart",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Use Schachter and Singer's cognitive arousal theory to explain why Hafiz called his pounding heart 'fear' in the car park but 'excitement' at the concert.",
+    "marks": 4,
+    "model": "Schachter and Singer's cognitive arousal (two-factor) theory states that emotion requires two things: physical arousal AND a cognitive label for that arousal, which is based on cues in the environment. Only when both are present is the emotion experienced. In both situations Hafiz experienced similar sympathetic arousal: a pounding heart. In the car park the environmental cues were a dark, empty place late at night and unknown footsteps behind him, so he labelled the arousal as fear. At the K-pop concert the cues were music, lights and a cheering crowd, so the same kind of arousal was labelled excitement. The theory therefore explains how one bodily state can become different emotions depending on how it is labelled.",
+    "points": [
+     {
+      "t": "Names Schachter and Singer's two-factor/cognitive arousal theory",
+      "m": 1
+     },
+     {
+      "t": "States both physical arousal AND a cognitive label are needed",
+      "m": 1
+     },
+     {
+      "t": "Uses car-park environmental cues (dark, late, footsteps) to explain the label 'fear'",
+      "m": 1
+     },
+     {
+      "t": "Contrasts with concert cues producing the label 'excitement' for similar arousal",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Evaluate the theories. Using evidence and criticisms from the course, which theory best explains the three students' experiences overall? Justify your conclusion.",
+    "marks": 7,
+    "model": "The James-Lange theory fits Hafiz's description, but the evidence against it is strong. People who are paralysed, and therefore receive less feedback from the body, still report feeling emotions as strongly as before, and people with pure autonomic failure experience the same emotions, only less intensely. This suggests bodily arousal may intensify emotion but is not its only cause. Cannon criticised James-Lange by arguing that bodily changes are not distinct enough to tell emotions apart. However, later research weakens this point: sadness, anger and fear raise heart rate more than disgust, and anger differs from fear on vascular measures, so there are some physical differences between emotions. Cannon-Bard is also criticised because the vagus nerve sends feedback from the body to the brain, so the body and the experience of emotion are not completely independent as the theory claims. The case that the other theories cannot explain is Arjun: he heard the same footsteps but felt no fear, because of how he interpreted them. Lazarus's appraisal theory, and Schachter and Singer's labelling, explain this, and also explain Hafiz's different labels at the concert and car park. Overall, a cognitive account in which appraisal or interpretation shapes the emotion fits all three students best, while accepting the James-Lange insight that bodily arousal (and feedback, as in the facial feedback hypothesis) can influence how intense the emotion feels. No single theory explains everything.",
+    "points": [
+     {
+      "t": "Cites paralysed people still feeling emotions strongly as evidence against James-Lange",
+      "m": 1
+     },
+     {
+      "t": "Cites pure autonomic failure (same emotions, less intense)",
+      "m": 1
+     },
+     {
+      "t": "States Cannon's criticism that bodily changes are not distinct enough to distinguish emotions",
+      "m": 1
+     },
+     {
+      "t": "Counters with evidence of physiological differences (e.g. anger vs fear vascular measures, higher heart rate in sadness/anger/fear than disgust)",
+      "m": 1
+     },
+     {
+      "t": "States the criticism of Cannon-Bard that the vagus nerve sends bodily feedback to the brain",
+      "m": 1
+     },
+     {
+      "t": "Argues that cognitive/appraisal theories explain Arjun's lack of fear (same stimulus, different interpretation)",
+      "m": 1
+     },
+     {
+      "t": "Reaches a clear, reasoned conclusion (e.g. cognitive theories fit best, body influences intensity, no single theory explains all)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Reversing the James-Lange order (emotion first, then the body) or saying Cannon-Bard claims arousal causes the emotion.",
+   "Evaluating with opinions only (e.g. 'this theory makes more sense') instead of citing course evidence such as paralysed patients or pure autonomic failure."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-5",
+  "type": "B",
+  "title": "Why does Daniel climb?",
+  "decks": [
+   "Motivation"
+  ],
+  "scenario": "Daniel, 21, an engineering student, spends every weekend climbing limestone crags near Batu Caves and keeps choosing harder, more exposed routes. He started climbing alone at 15, long before anyone paid him, and says: 'On normal weekdays, when everything is calm, I feel restless and bored. On the wall my heart pounds and I feel completely alive.' He often forgets to eat or drink while climbing and is not doing it to satisfy any physical need. Three months ago an outdoor-gear brand offered him RM800 a month to post climbing videos, and since then he climbs on extra days when he has filming to do. His mother explains his hobby differently: 'Boys just have risk-taking in their blood.' His younger brother, by contrast, finds climbing terrifying and prefers to stay home reading.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain Daniel's climbing using (i) the instinct approach and (ii) drive-reduction theory.",
+    "marks": 6,
+    "model": "The instinct approach views instincts as biologically determined, innate patterns of behaviour found in both people and animals, and early theorists such as McDougall (1908) proposed that people are governed by instincts such as curiosity, flight, acquisition and aggression. From this view, Daniel's risk-taking would be an inherited instinct, similar to his mother's claim that boys 'have risk-taking in their blood'. Drive-reduction theory states that behaviour comes from internal drives. A need is a requirement for something essential for survival, and a drive is the tension and arousal caused by that need; the drive motivates action that satisfies the need and reduces tension. Drives can be primary (survival needs such as hunger and thirst) or acquired, learned through experience (such as the need for money or social approval). Applied to Daniel, the theory struggles: he is not reducing a primary drive (he even forgets to eat or drink), and climbing increases rather than reduces his tension and arousal. At most, it could argue that climbing now satisfies an acquired drive for money or approval since the sponsorship.",
+    "points": [
+     {
+      "t": "Defines instincts as biologically determined, innate behaviour patterns",
+      "m": 1
+     },
+     {
+      "t": "Refers to McDougall's list (e.g. curiosity, aggression) or the idea that people are governed by instincts",
+      "m": 1
+     },
+     {
+      "t": "Links the mother's 'in their blood' claim to the instinct approach",
+      "m": 1
+     },
+     {
+      "t": "Explains drive-reduction: needs create drives (tension/arousal) that motivate behaviour to reduce tension",
+      "m": 1
+     },
+     {
+      "t": "Distinguishes primary from acquired drives",
+      "m": 1
+     },
+     {
+      "t": "Applies to Daniel: no physiological need is reduced and climbing increases arousal (or only an acquired drive fits)",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Explain Daniel's climbing using (i) arousal theory and (ii) the incentive approach.",
+    "marks": 6,
+    "model": "Arousal theory proposes that each person has an optimal level of tension or arousal and maintains it by increasing or decreasing stimulation. Sensation seekers need more arousal than others. For example, the free-solo climber Alex Honnold's amygdala responded less to fear images, suggesting he needs stronger stimulation to feel aroused. Daniel feels restless and bored on calm weekdays because his arousal is below his optimal level; climbing harder, more exposed routes raises his arousal, and he feels 'completely alive'. His brother, who finds climbing terrifying, has a lower optimal level. The incentive approach says behaviour is a response to an external stimulus and its rewards: incentives attract or lure people into action, and they work independently of need or arousal. The RM800 monthly sponsorship is an incentive, and the fact that Daniel now climbs on extra days when he has filming to do shows the external reward is pulling him into more climbing.",
+    "points": [
+     {
+      "t": "States arousal theory: an optimal level of arousal maintained by increasing/decreasing stimulation",
+      "m": 1
+     },
+     {
+      "t": "Identifies sensation seekers as needing more arousal (Honnold example acceptable)",
+      "m": 1
+     },
+     {
+      "t": "Links weekday boredom and choosing harder routes to raising arousal towards his optimal level",
+      "m": 1
+     },
+     {
+      "t": "States the incentive approach: external rewards attract/lure people to act",
+      "m": 1
+     },
+     {
+      "t": "States incentives work independently of need or arousal",
+      "m": 1
+     },
+     {
+      "t": "Links the RM800 sponsorship and extra climbing on filming days to incentives",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Evaluate the four explanations. Which best explains Daniel's behaviour, and why? Use criticisms and evidence from the course.",
+    "marks": 8,
+    "model": "The instinct approach is weak here. Its main criticism is that it does not explain why instincts exist; saying Daniel climbs because of a 'risk instinct' simply renames the behaviour. It also cannot explain why his brother, raised in the same family, finds climbing terrifying. Its one strength is showing that some behaviour may be hereditary. Drive-reduction theory fits poorly because of its known limits: homeostasis, the body's tendency to maintain a steady state, cannot explain why people eat when not hungry or why some people seek more arousal rather than less. Daniel is a clear case of the second limit, deliberately seeking tension. Arousal theory fits best for the origin and core of his behaviour: it explains his weekday restlessness, his choice of increasingly exposed routes and the difference between him and his brother as individual differences in optimal arousal, which is supported by evidence such as Honnold's reduced amygdala response. The incentive approach explains only the recent increase in climbing frequency, not why he started; he climbed for six years before any money, so his motivation was originally intrinsic (the act itself was rewarding), with extrinsic motivation added later. Overall, arousal theory is the best primary explanation, supplemented by the incentive approach, matching the modern view that behaviour reflects both the 'push' of internal factors and the 'pull' of external rewards.",
+    "points": [
+     {
+      "t": "States the instinct approach's weakness: it does not explain why instincts exist / just names the behaviour",
+      "m": 1
+     },
+     {
+      "t": "Uses the brother (same family, opposite behaviour) or a similar point against a simple instinct/heredity account",
+      "m": 1
+     },
+     {
+      "t": "States the drive-reduction/homeostasis limit that it cannot explain why some people seek more arousal",
+      "m": 1
+     },
+     {
+      "t": "Argues arousal theory best explains weekday restlessness and seeking harder routes",
+      "m": 1
+     },
+     {
+      "t": "Supports arousal theory with course evidence (e.g. Honnold's amygdala) or individual differences (brother)",
+      "m": 1
+     },
+     {
+      "t": "Notes incentives explain the recent increase but not the origin, as he climbed before payment",
+      "m": 1
+     },
+     {
+      "t": "Distinguishes his original intrinsic motivation from the later extrinsic motivation",
+      "m": 1
+     },
+     {
+      "t": "Reaches a clear conclusion (e.g. arousal theory primary + incentive secondary; push and pull)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Claiming drive-reduction theory explains thrill-seeking because climbing 'reduces boredom'; the theory is about reducing tension from biological or acquired needs, and Daniel increases tension.",
+   "Treating incentives and intrinsic motivation as the same thing; the sponsorship is an external (extrinsic) reward."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-6",
+  "type": "B",
+  "title": "Mei Ling's fear of dogs: four perspectives",
+  "decks": [
+   "Intro to Psychology",
+   "Emotion",
+   "Nervous System"
+  ],
+  "scenario": "Mei Ling, 19, takes long detours in her Subang Jaya neighbourhood to avoid houses with dogs. When she was 6, she was happily playing with a neighbour's puppy when a large dog suddenly charged the gate, barking loudly; she fell over and screamed. Since then, seeing any dog, even a small one or a dog video on Instagram, makes her heart race and her body freeze within a split second. She says, 'I know most dogs are harmless, but my body reacts before I can stop it.' Her mother is also afraid of dogs and always pulled Mei Ling to the other side of the road when she was small. A counsellor Mei Ling once saw suggested her fear might be 'about something deeper from childhood that you have pushed out of your mind'. Her classmate says, 'Fear of animals is just natural. Humans evolved to be scared of things that bite.'",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain Mei Ling's fear from FOUR modern perspectives: behavioural, psychodynamic, biopsychological and evolutionary. Use evidence from the scenario for each.",
+    "marks": 12,
+    "model": "The behavioural perspective focuses on observable behaviour and how it is learned. Behaviourism, proposed by Watson and based on Pavlov's finding that reflexes can be conditioned, holds that phobias are learned. In the Little Albert case study, a baby was taught to fear a white rat in this way. Similarly, Mei Ling's fear began when dogs were paired with a sudden, frightening event (the loud barking and falling), and her detours are observable avoidance behaviour that has continued since. The psychodynamic perspective, the modern version of Freud's psychoanalysis, stresses the unconscious mind and the importance of early childhood experiences, though modern theorists such as Jung, Anna Freud and Erikson focus on the development of the self and motives behind behaviour rather than sexual motivations. The counsellor's idea that the fear reflects something 'pushed out of your mind' from childhood reflects this view: the fear is a sign of unconscious material. The biopsychological perspective explains behaviour through biological events such as nervous system activity, hormones and genes. Her racing heart reflects sympathetic arousal, and the amygdala, which is involved in fear responses and fear memory, can be triggered through the fast low road before conscious awareness. This explains why she 'knows' dogs are harmless but her body reacts first. Her mother's fear could also suggest a genetic influence. The evolutionary perspective explains universal mental characteristics as having adaptive or survival value; universal fears are one example. Her classmate's comment reflects this: ancestors who feared animals that bite were more likely to survive.",
+    "points": [
+     {
+      "t": "Behavioural: focuses on observable, learned behaviour (Watson/Pavlov, phobias are learned)",
+      "m": 1
+     },
+     {
+      "t": "Behavioural: refers to Little Albert as a parallel case of a learned fear",
+      "m": 1
+     },
+     {
+      "t": "Behavioural: links the barking/fall paired with dogs and the avoidance detours",
+      "m": 1
+     },
+     {
+      "t": "Psychodynamic: identifies the unconscious mind and importance of early childhood",
+      "m": 1
+     },
+     {
+      "t": "Psychodynamic: notes the modern focus on self/motives rather than sexual motivation (or names Jung, Anna Freud or Erikson)",
+      "m": 1
+     },
+     {
+      "t": "Psychodynamic: links the counsellor's 'pushed out of your mind' suggestion",
+      "m": 1
+     },
+     {
+      "t": "Biopsychological: explains behaviour via biological events (nervous system, hormones, genes)",
+      "m": 1
+     },
+     {
+      "t": "Biopsychological: links racing heart/freezing to sympathetic arousal or the amygdala's fear response",
+      "m": 1
+     },
+     {
+      "t": "Biopsychological: uses the low road (reaction before awareness) to explain 'my body reacts before I can stop it'",
+      "m": 1
+     },
+     {
+      "t": "Evolutionary: explains behaviour as having adaptive/survival value",
+      "m": 1
+     },
+     {
+      "t": "Evolutionary: mentions universal fears / shared human characteristics",
+      "m": 1
+     },
+     {
+      "t": "Evolutionary: links the classmate's 'things that bite' comment",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Evaluate the four explanations. Which perspective (or combination) explains Mei Ling's case best, and why?",
+    "marks": 8,
+    "model": "The behavioural explanation fits the case strongly because there is a clear learning event: at age 6, dogs were paired with a frightening experience, and the fear spread to all dogs, much like Little Albert's fear. It also explains her mother's role, since watching her mother avoid dogs could teach the same fear, and it deals with observable, measurable behaviour, in line with the scientific approach. The biopsychological explanation adds the mechanism that behaviourism alone does not: why knowing dogs are harmless does not stop the fear. Because the low road to the amygdala is fast and subcortical, her body reacts before the slower high road (her conscious knowledge) can take control. The psychodynamic explanation is the weakest here: a hidden unconscious conflict is difficult to observe or test, and there is a simpler, observable explanation (the dog attack). The evolutionary perspective explains why dogs are an easy target for fear in general, but it cannot explain why Mei Ling in particular is afraid while many people love dogs, or why she fears even small dogs on Instagram. Her mother's fear is also ambiguous: it could be genetic (biopsychological) or learned by observation (behavioural/sociocultural), showing the perspectives overlap. Overall, a combination of the behavioural perspective (how the fear was acquired) and the biopsychological perspective (how it operates in the body) explains the case best, consistent with the course point that no single perspective explains all behaviour.",
+    "points": [
+     {
+      "t": "Argues behavioural fits well because of the clear pairing/learning event (with Little Albert or generalisation to all dogs)",
+      "m": 2
+     },
+     {
+      "t": "Argues biopsychological explains why insight does not stop the reaction (low road faster than high road)",
+      "m": 2
+     },
+     {
+      "t": "Criticises psychodynamic: unconscious conflict is hard to observe/test or a simpler explanation exists",
+      "m": 1
+     },
+     {
+      "t": "Criticises evolutionary: cannot explain why she specifically is afraid when others are not",
+      "m": 1
+     },
+     {
+      "t": "Discusses the mother's fear as either genetic or learned, showing overlap between perspectives",
+      "m": 1
+     },
+     {
+      "t": "Concludes with a reasoned combination and/or the point that no single perspective explains all behaviour",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Describing the psychodynamic perspective as identical to Freud's original focus on sexual urges, ignoring the modern focus on self and motives.",
+   "Explaining every perspective in general terms without tying each one to a specific detail in the scenario (the barking dog, the counsellor, the racing heart, the classmate's comment)."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-7",
+  "type": "C",
+  "title": "Calming the SPM trial 'blank-out'",
+  "decks": [
+   "Motivation",
+   "Emotion",
+   "Nervous System"
+  ],
+  "scenario": "Puan Rozita teaches Form 5 at a secondary school in Johor Bahru. In the SPM trial Additional Mathematics paper, several of her strongest students 'blanked out'. Afterwards they reported pounding hearts, sweaty hands, shallow breathing and thoughts such as 'If I fail this, my whole future is over' and 'My parents will be so disappointed'. Some said they 'just went blank' on questions they had solved easily at home. Strangely, the same students scored below their ability on an easy ten-minute quiz a month earlier; they said they were 'bored', rushed through it and made careless mistakes. Many of them also believe they are 'just not a maths person' when they get a question wrong. The real SPM is eight weeks away, and the school gives Puan Rozita a 20-minute homeroom slot every morning to run a programme.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Analyse the students' problem using at least TWO course concepts.",
+    "marks": 6,
+    "model": "The Yerkes-Dodson law states that performance is best at moderate arousal and gets worse when arousal is too low or too high, and that the best level depends on the task: easy tasks are done best at high-moderate arousal, while difficult tasks are done best at low-moderate arousal. The trial Additional Mathematics paper was difficult and high-stakes, and the students' arousal was far too high, so performance collapsed and they 'blanked out'. On the easy quiz the opposite happened: arousal was too low (they were bored), so they rushed and made careless mistakes. Their pounding hearts, sweaty hands and shallow breathing are signs of sympathetic nervous system arousal, the fight-or-flight response. Lazarus's cognitive-mediational theory explains where this arousal came from: a stimulus must be appraised first, and the appraisal produces the emotion and then the bodily response. Thoughts such as 'my whole future is over' are threatening appraisals of the exam, which produce fear and strong arousal.",
+    "points": [
+     {
+      "t": "Names the Yerkes-Dodson law",
+      "m": 1
+     },
+     {
+      "t": "Explains moderate arousal gives best performance, with difficult tasks needing low-moderate arousal",
+      "m": 1
+     },
+     {
+      "t": "Applies it to both situations: very high arousal on the hard paper and too-low arousal (boredom) on the easy quiz",
+      "m": 1
+     },
+     {
+      "t": "Identifies the physical symptoms as sympathetic nervous system arousal",
+      "m": 1
+     },
+     {
+      "t": "Names Lazarus's cognitive-mediational (appraisal) theory",
+      "m": 1
+     },
+     {
+      "t": "Links 'my whole future is over' to a threat appraisal that produces fear and arousal",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Design an eight-week intervention using the morning homeroom slots. Describe at least THREE steps and justify each with course principles.",
+    "marks": 10,
+    "model": "Step 1, reappraisal training (weeks 1 to 8): students learn to catch catastrophic thoughts and rewrite them, for example changing 'If I fail, my future is over' to 'This is one paper; my racing heart means my body is getting ready to focus.' This is justified by Lazarus's theory, since changing the appraisal changes the emotion and bodily response that follow, and by research showing reappraisal involves the lateral orbitofrontal cortex and lowers amygdala activity. Step 2, slow-breathing practice (daily, five minutes, then before each paper): slow, deep breathing helps the parasympathetic nervous system, which restores the body after arousal by lowering heart rate, to bring arousal down from 'too high' to low-moderate. Step 3, matching arousal to the task: hard past-year papers are practised under timed but supportive conditions so students learn to work at a calmer, low-moderate arousal, while easy quizzes are made more challenging (for example, a speed target or a small team competition) to raise arousal from bored to high-moderate. This applies the Yerkes-Dodson law directly. Step 4, a growth-mindset session: using Dweck's self-theory, students learn that intelligence is changeable, which is linked to an internal locus of control and higher achievement motivation, so mistakes become signals to practise rather than proof they are 'not a maths person', reducing the threat in each wrong answer. Finally, students are taught a quick in-exam distraction strategy: if they freeze, move to another question for a minute. Distraction is a regulation strategy linked to the anterior cingulate cortex, which also lowers amygdala activity.",
+    "points": [
+     {
+      "t": "Describes a reappraisal step (rewriting catastrophic exam thoughts)",
+      "m": 1
+     },
+     {
+      "t": "Justifies reappraisal using Lazarus (changing appraisal changes emotion)",
+      "m": 1
+     },
+     {
+      "t": "Justifies reappraisal using the lateral orbitofrontal cortex / reduced amygdala activity",
+      "m": 1
+     },
+     {
+      "t": "Describes a slow-breathing or relaxation step",
+      "m": 1
+     },
+     {
+      "t": "Justifies it by the parasympathetic system lowering heart rate/arousal",
+      "m": 1
+     },
+     {
+      "t": "Describes a step that adjusts arousal by task difficulty (calmer practice for hard papers and/or more challenge for easy quizzes)",
+      "m": 1
+     },
+     {
+      "t": "Justifies it using Yerkes-Dodson (difficult = low-moderate, easy = high-moderate)",
+      "m": 1
+     },
+     {
+      "t": "Describes a growth-mindset step",
+      "m": 1
+     },
+     {
+      "t": "Justifies it with Dweck (intelligence changeable, internal locus, higher achievement motivation)",
+      "m": 1
+     },
+     {
+      "t": "Includes a distraction strategy linked to the anterior cingulate cortex",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Identify ONE realistic problem with your intervention, explain it using course concepts, and suggest how to deal with it and how Puan Rozita would know whether the programme worked.",
+    "marks": 4,
+    "model": "One problem is that some students may overcorrect and become too relaxed. According to the Yerkes-Dodson law, arousal that is too low also harms performance, so a student who treats SPM like the easy quiz might become careless again. To deal with this, the aim of the programme should be explained as reaching moderate arousal, not zero arousal, and students should practise noticing their own level (for example, rating their arousal from 1 to 10 before a paper) and use breathing only when it is too high. To check whether it worked, Puan Rozita could compare the students' scores and self-rated arousal on timed mock papers before and after the programme, ideally against a class that did not take part, following the scientific approach of testing a hypothesis rather than relying on impressions.",
+    "points": [
+     {
+      "t": "Identifies a realistic problem (e.g. arousal reduced too far, poor buy-in, reappraisal hard in the moment)",
+      "m": 1
+     },
+     {
+      "t": "Explains the problem using a course concept (e.g. Yerkes-Dodson, low road reacting before conscious control)",
+      "m": 1
+     },
+     {
+      "t": "Suggests a concrete way to deal with it",
+      "m": 1
+     },
+     {
+      "t": "Describes a sensible way to measure success (e.g. mock scores/arousal ratings before vs after, comparison group)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Aiming to remove all arousal; the Yerkes-Dodson law says moderate arousal is best, and too little arousal also harms performance.",
+   "Listing generic tips (sleep well, study harder) without justifying each step with a named course concept."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-8",
+  "type": "C",
+  "title": "Midnight suppers in the residential hall",
+  "decks": [
+   "Motivation",
+   "Synapses",
+   "Nervous System"
+  ],
+  "scenario": "The wellness committee of a university residential hall in Subang notices that many first-year residents report low energy, poor concentration and unhealthy eating. A short survey (with consent) finds a common pattern: because of back-to-back classes, students often skip lunch, then eat a very large fried meal plus bubble tea around midnight while studying. Many say they order GrabFood with friends 'even when I'm not hungry, because everyone is ordering', or eat when stressed about assignments 'because it makes me feel better'. The study lounge has a vending machine full of chips and sweet drinks right next to the tables, and several students say they 'start craving' as soon as they sit near it. Students eat quickly while scrolling their phones and often feel uncomfortably full afterwards. The committee asks you to design a four-week healthy-eating programme.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain the biological AND social/psychological factors behind the residents' eating pattern.",
+    "marks": 6,
+    "model": "Biologically, hunger is regulated by hormones from the pancreas. Insulin lowers blood glucose and glucagon raises it. When students skip lunch, blood glucose falls over the day. The hypothalamus plays a key role: the lateral hypothalamus influences the start of eating when insulin rises, while the ventromedial hypothalamus may stop eating when glucose levels rise. Leptin, a hormone from fat cells, signals the hypothalamus that there is 'enough food', reducing appetite and increasing fullness. Eating very quickly while distracted may mean students finish a large meal before these fullness signals have a chance to act, leaving them uncomfortably full. Psychologically and socially, hunger is also shaped by social cues and conventions, so students order food when friends do, and food can be used as comfort or escape, which explains stress eating. Simply anticipating food can trigger an insulin response, so sitting next to the vending machine produces cravings. This also fits the incentive approach: the snacks act as external incentives that pull students into eating independently of real need.",
+    "points": [
+     {
+      "t": "Explains insulin lowers and glucagon raises blood glucose (pancreas hormones)",
+      "m": 1
+     },
+     {
+      "t": "Explains the role of the lateral hypothalamus (start eating) and/or ventromedial hypothalamus (stop eating)",
+      "m": 1
+     },
+     {
+      "t": "Explains leptin signals the hypothalamus 'enough food' and links fast eating to overfullness",
+      "m": 1
+     },
+     {
+      "t": "Identifies social cues/conventions and food as comfort/escape (group orders, stress eating)",
+      "m": 1
+     },
+     {
+      "t": "Explains anticipating food can trigger an insulin response (vending machine cravings)",
+      "m": 1
+     },
+     {
+      "t": "Links the vending machine/GrabFood to the incentive approach (external pull independent of need)",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Design a four-week programme with at least FOUR steps, justifying each step with course concepts.",
+    "marks": 10,
+    "model": "Step 1, regular meals: the committee works with the cafeteria to offer a quick 'grab-and-go' lunch pack between classes. Eating regularly keeps blood glucose more stable through insulin and glucagon, so students do not reach midnight extremely hungry and overeat. Step 2, change the environment: move the vending machine out of the study lounge and replace it with a fruit and water station. Since the anticipation of food can trigger an insulin response and snacks act as incentives that pull people to eat regardless of need, removing the cue should reduce cravings. Step 3, change the social norm: create 'healthy supper' study groups where floor-mates share a lighter supper together at a set time. Because eating is strongly shaped by social cues and conventions, using the group's influence should help. Linking this to self-determination theory, students choose the menu themselves (autonomy) and do it with friends (relatedness), which supports intrinsic motivation. Step 4, alternative stress coping: when assignment stress hits, students are encouraged to take a ten-minute walk or exercise class instead of eating, since food is often used as comfort or escape, and exercise also helps offset increases in the weight set point. Step 5, mindful eating education: a short talk explains that leptin signals fullness to the hypothalamus; students practise eating slowly without phones so they notice fullness before overeating.",
+    "points": [
+     {
+      "t": "Describes a regular-meal step (e.g. lunch packs)",
+      "m": 1
+     },
+     {
+      "t": "Justifies it with insulin/glucagon and stable glucose (or hypothalamus hunger signals)",
+      "m": 1
+     },
+     {
+      "t": "Describes an environmental change (e.g. moving the vending machine)",
+      "m": 1
+     },
+     {
+      "t": "Justifies it with the anticipatory insulin response and/or the incentive approach",
+      "m": 1
+     },
+     {
+      "t": "Describes a social step (e.g. healthy supper groups)",
+      "m": 1
+     },
+     {
+      "t": "Justifies it with social components of hunger and/or self-determination theory (autonomy, relatedness)",
+      "m": 1
+     },
+     {
+      "t": "Describes an alternative stress-coping step (e.g. exercise or a walk)",
+      "m": 1
+     },
+     {
+      "t": "Justifies it with food as comfort/escape and/or exercise offsetting the set point",
+      "m": 1
+     },
+     {
+      "t": "Describes an eating-slowly / fullness-awareness step",
+      "m": 1
+     },
+     {
+      "t": "Justifies it with leptin signalling fullness to the hypothalamus",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Identify ONE realistic problem the programme might face, explain it using course concepts, and suggest a solution. Include one ethical consideration for the committee's data collection.",
+    "marks": 4,
+    "model": "A realistic problem is that students may lose motivation after the first week if the programme feels imposed. According to self-determination theory, when people feel controlled rather than autonomous, intrinsic motivation drops, and students may simply walk to the convenience store instead. The solution is to let residents help design the programme, for example voting on the fruit station items and choosing supper-group menus, which supports autonomy and relatedness. Another expected problem is that body weight changes slowly, because the body tries to maintain its weight set point and people differ in metabolism, so the committee should measure energy, concentration and eating habits rather than weight. Ethically, if the committee collects survey data on eating, it must obtain informed consent, allow students to withdraw at any time and keep their data confidential.",
+    "points": [
+     {
+      "t": "Identifies a realistic problem (e.g. loss of motivation, slow change due to set point)",
+      "m": 1
+     },
+     {
+      "t": "Explains it with a course concept (e.g. SDT autonomy, weight set point/metabolism)",
+      "m": 1
+     },
+     {
+      "t": "Suggests a concrete solution",
+      "m": 1
+     },
+     {
+      "t": "Names an ethical safeguard for data (informed consent, right to withdraw or confidentiality)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Swapping the roles of the hypothalamus areas (the lateral hypothalamus starts eating; damage to the ventromedial hypothalamus leads to overeating).",
+   "Saying insulin raises blood glucose; insulin lowers it and glucagon raises it."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-9",
+  "type": "D",
+  "title": "Encik Rahman's stroke",
+  "decks": [
+   "Nervous System",
+   "Nerve Cells",
+   "Sensation & Perception",
+   "Intro to Psychology"
+  ],
+  "scenario": "Encik Rahman, 62, a retired right-handed teacher in Kuantan, wakes up unable to move his right arm and leg properly. In hospital he clearly understands what the doctor says, nods correctly and follows instructions, but his speech is slow and effortful: 'Nasi... want... nasi.' He gets visibly frustrated. He keeps bumping into objects on his right side, and tests show he cannot see anything in the right half of his visual field with either eye. Within an hour of arrival, doctors order a quick scan to check for bleeding or injury in the brain. Weeks later, a university research team invites him to join a study in which his brain activity will be recorded while he tries to name pictures. Ten years ago he cut a nerve in his forearm in a motorbike accident, and feeling in his hand slowly returned over several months. His daughter asks the doctor, 'Will his brain heal the same way his arm did?'",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Using your knowledge of the brain and the visual pathway, explain which areas are likely to be damaged and why each symptom points to that area.",
+    "marks": 8,
+    "model": "Encik Rahman's symptoms all point to damage in the left hemisphere. First, the weakness in his right arm and leg indicates damage to the left motor cortex in the frontal lobe, because each hemisphere controls the opposite (contralateral) side of the body. Second, his speech is slow, effortful and broken ('Nasi... want... nasi') while his understanding is intact. This is Broca's aphasia, caused by damage to Broca's area in the left frontal lobe, which is responsible for fluent speech production. It is not Wernicke's aphasia, in which a person speaks smoothly but without coherent meaning and has trouble understanding word meaning; since he understands and follows instructions, Wernicke's area in the left temporal lobe appears to be spared. Third, losing the right half of his visual field in both eyes suggests damage to the left occipital lobe (visual cortex), because the visual pathway is contralateral: the right visual field is processed by the left visual cortex. Together, the motor, speech and visual symptoms suggest a stroke affecting the left frontal and occipital regions.",
+    "points": [
+     {
+      "t": "Links right-side weakness to the left motor cortex (frontal lobe)",
+      "m": 1
+     },
+     {
+      "t": "Explains contralateral control (each hemisphere controls the opposite side of the body)",
+      "m": 1
+     },
+     {
+      "t": "Identifies Broca's aphasia and Broca's area in the left frontal lobe",
+      "m": 1
+     },
+     {
+      "t": "Explains Broca's aphasia: understands but has difficulty producing fluent speech",
+      "m": 1
+     },
+     {
+      "t": "Uses intact comprehension to argue Wernicke's area (left temporal lobe) is spared / distinguishes from Wernicke's aphasia",
+      "m": 1
+     },
+     {
+      "t": "Links right visual field loss to the left occipital lobe/visual cortex",
+      "m": 1
+     },
+     {
+      "t": "Explains the visual pathway is contralateral (right visual field to left visual cortex)",
+      "m": 1
+     },
+     {
+      "t": "Concludes that the pattern indicates left-hemisphere damage",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Answer his daughter's question. Use your knowledge of nerve cells to explain why his arm nerve recovered but brain damage may not recover in the same way.",
+    "marks": 6,
+    "model": "No, his brain is unlikely to heal in the same way. His forearm nerve is part of the peripheral nervous system, while his brain is part of the central nervous system, and their support cells differ. Many axons are coated in a myelin sheath, a fatty layer that insulates, protects and speeds up neural impulses by allowing saltatory conduction, where the action potential jumps from one node of Ranvier to the next. In the PNS, the myelin is built by Schwann cells, which can help axons reconnect and repair themselves if damaged; this explains why feeling returned to his hand over several months. In the CNS, myelin is built by oligodendrocytes, and damage there is more likely to be permanent. After the stroke, glial cells such as microglia and astrocytes remove waste from dead neurons, but this clean-up does not replace them. Where neurons or myelin are lost, impulses may be slowed or stopped, which is why some of his difficulties may last, although other skills may be relearned with rehabilitation.",
+    "points": [
+     {
+      "t": "States the arm nerve is in the PNS and the brain is in the CNS",
+      "m": 1
+     },
+     {
+      "t": "Explains the role of the myelin sheath (insulates, protects, speeds impulses)",
+      "m": 1
+     },
+     {
+      "t": "Explains Schwann cells in the PNS can help repair/reconnect damaged axons",
+      "m": 1
+     },
+     {
+      "t": "Explains oligodendrocytes in the CNS are more likely to be permanently damaged",
+      "m": 1
+     },
+     {
+      "t": "Explains the consequence of lost myelin/neurons (slower or blocked impulses, loss of saltatory conduction)",
+      "m": 1
+     },
+     {
+      "t": "Mentions microglia/astrocytes remove waste after neurons die (clean up but do not replace)",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Recommend a suitable brain-imaging method for (i) the urgent hospital scan and (ii) the research study, and explain TWO ethical safeguards the research team must follow with Encik Rahman.",
+    "marks": 6,
+    "model": "For the urgent hospital scan, a CT scan is suitable. CT uses computer-controlled X-rays and is good at detecting tumours, injuries and abnormal structure, such as bleeding, and it can be used even if a patient has metal in the body, which matters when doctors have little time to check. For the research study, fMRI is the best choice because it maps brain function rather than just structure: it tracks blood oxygenation, where more oxygen indicates more activity, and gives clear detail, so researchers can see which areas are active while he tries to name pictures. Ethically, the team needs an institutional review board, such as a university ethics committee, to approve the study, and they must obtain informed consent. Because of his aphasia, they must make sure he truly understands the study, for example using simple written information and yes/no checks, rather than assuming consent from a nod. He must also be told he can withdraw at any time without affecting his treatment, his data must be kept confidential, and he must be debriefed afterwards.",
+    "points": [
+     {
+      "t": "Recommends CT for the urgent scan",
+      "m": 1
+     },
+     {
+      "t": "Justifies CT (detects injury/abnormal structure; usable with metal in the body)",
+      "m": 1
+     },
+     {
+      "t": "Recommends fMRI (or PET) for the research study",
+      "m": 1
+     },
+     {
+      "t": "Justifies it as measuring function/activity (fMRI tracks oxygenation)",
+      "m": 1
+     },
+     {
+      "t": "Explains informed consent, adapted for his aphasia",
+      "m": 1
+     },
+     {
+      "t": "Explains a second safeguard (right to withdraw, confidentiality, IRB approval or debriefing)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Saying the left hemisphere controls the left side of the body, or that his right visual field loss comes from the right occipital lobe.",
+   "Confusing Broca's aphasia (understands but cannot speak fluently) with Wernicke's aphasia (fluent but meaningless speech)."
+  ],
+  "total": 20
+ },
+ {
+  "id": "ea-10",
+  "type": "D",
+  "title": "Priya's prescription and her family's medicines",
+  "decks": [
+   "Intro to Psychology",
+   "Synapses",
+   "Nerve Cells",
+   "Nervous System"
+  ],
+  "scenario": "Priya, 20, a HELP student, has had months of low mood, poor sleep and loss of appetite. The campus counselling psychologist assesses her and refers her to a psychiatrist, who prescribes an SSRI. Priya asks, 'Why couldn't the psychologist just give me the medicine?' At a family dinner, she learns that her grandmother has taken an older antidepressant, an MAOI, for years. Her uncle has Parkinson's disease, with a tremor and slow, stiff movements. Her cousin takes antipsychotic medication for schizophrenia and has recently developed stiffness and slowed movements that the family says 'look like Uncle's'. That night, Priya reads a social-media post claiming: 'SSRIs work by making your neurons fire bigger, stronger signals.' She wants to understand what is really happening in her brain and her relatives' brains.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain why the psychologist referred Priya to a psychiatrist, and how the two professionals could work together.",
+    "marks": 4,
+    "model": "A psychologist holds a doctorate (such as a Ph.D. or Psy.D.), must be licensed, and works on behaviour and mental processes, for example through assessment and therapy, but typically does not prescribe medication. A psychiatrist is a medical doctor who specialises in the diagnosis and treatment of psychological disorders and can prescribe medication. Because the psychologist judged that Priya's symptoms might benefit from medication, she was referred to the psychiatrist, the professional allowed to prescribe it. The two can work together: the psychiatrist manages the medication and its effects, while the psychologist provides therapy, for example helping her change unhelpful thinking patterns. This reflects the idea that no single perspective explains all behaviour, combining biological and psychological approaches.",
+    "points": [
+     {
+      "t": "States a psychologist has a doctorate/licence and typically does not prescribe",
+      "m": 1
+     },
+     {
+      "t": "States a psychiatrist is a medical doctor who can prescribe medication",
+      "m": 1
+     },
+     {
+      "t": "Explains the referral was made because medication was considered",
+      "m": 1
+     },
+     {
+      "t": "Describes how they can work together (medication + therapy / multiple perspectives)",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Explain how normal neurotransmission works at the synapse, and how SSRIs and MAOIs each change it. Link to Priya's symptoms.",
+    "marks": 7,
+    "model": "In normal neurotransmission, an action potential reaches the axon terminal and causes calcium to enter. This releases neurotransmitter from synaptic vesicles into the synaptic cleft by exocytosis. The neurotransmitter crosses the cleft and binds to receptor sites on the postsynaptic neuron, which are shaped to fit only certain neurotransmitters. It must then separate from the receptors so the next signal can occur. It is removed either by reuptake, when it is taken back into the presynaptic neuron, or by enzymatic degradation, when an enzyme such as monoamine oxidase (MAO) changes its structure so it can no longer act. An SSRI blocks the reuptake of serotonin, so more serotonin stays in the synapse and can keep acting on receptors. An MAOI blocks monoamine oxidase, so less neurotransmitter is broken down. Because MAO breaks down serotonin, dopamine and norepinephrine, MAOIs affect several neurotransmitters, making them broader in action than SSRIs, which target serotonin. Both increase the effect of the neurotransmitter, acting in an agonist-like way. This is relevant to Priya because serotonin is involved in sleep, mood, anxiety and appetite, the exact areas where she has symptoms.",
+    "points": [
+     {
+      "t": "Describes release: action potential, calcium entry, exocytosis from vesicles into the cleft",
+      "m": 1
+     },
+     {
+      "t": "Describes binding to specific receptor sites on the postsynaptic neuron",
+      "m": 1
+     },
+     {
+      "t": "Describes removal by reuptake and enzymatic degradation (MAO)",
+      "m": 1
+     },
+     {
+      "t": "Explains SSRIs block serotonin reuptake so more serotonin stays in the synapse",
+      "m": 1
+     },
+     {
+      "t": "Explains MAOIs block monoamine oxidase so less neurotransmitter is broken down",
+      "m": 1
+     },
+     {
+      "t": "Notes MAOIs affect several monoamines (serotonin, dopamine, norepinephrine) vs SSRIs targeting serotonin",
+      "m": 1
+     },
+     {
+      "t": "Links serotonin's functions (sleep, mood, appetite) to Priya's symptoms",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Explain the uncle's symptoms, and why the cousin's antipsychotic medication might produce movements that 'look like Uncle's'.",
+    "marks": 5,
+    "model": "Dopamine is involved in the control of movement and in pleasure. The substantia nigra, in the midbrain tegmentum, gives rise to the dopamine pathway involved in readiness to move, and the basal ganglia are mainly involved in motor control. Parkinson's disease is linked to too little dopamine in certain areas, which explains the uncle's tremor and slow, stiff movement. Schizophrenia, by contrast, is linked to too much dopamine in other areas, so antipsychotic drugs act as dopamine antagonists: they block or reduce the cell's response to dopamine. However, if the drug also reduces dopamine's effect in the movement pathways, the cousin is left with a shortage of dopamine signalling similar to Parkinson's disease. This is why his stiffness and slowed movements resemble his uncle's, even though the cause is a drug rather than the disease.",
+    "points": [
+     {
+      "t": "States dopamine is involved in movement (and pleasure)",
+      "m": 1
+     },
+     {
+      "t": "Links Parkinson's to too little dopamine in certain areas",
+      "m": 1
+     },
+     {
+      "t": "Names the substantia nigra dopamine pathway (readiness to move) or basal ganglia motor control",
+      "m": 1
+     },
+     {
+      "t": "Explains antipsychotics are dopamine antagonists that block/reduce the response (schizophrenia linked to too much dopamine)",
+      "m": 1
+     },
+     {
+      "t": "Concludes that blocking dopamine in movement pathways produces Parkinson-like movement problems",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(d)",
+    "q": "Evaluate the social-media claim that SSRIs 'make neurons fire bigger, stronger signals', and suggest how Priya could approach such claims in future.",
+    "marks": 4,
+    "model": "The claim is incorrect. Under the all-or-none law, an action potential fires at full strength or not at all, and action potentials are equal in size and speed within a neuron, so no drug makes them 'bigger'. Signal strength is coded by the frequency of firing and the number of neurons firing. SSRIs act at the synapse, not on the size of the action potential: by leaving more serotonin in the cleft, they change the postsynaptic effects (the balance of EPSPs and IPSPs), and therefore how likely or how often the next neuron fires. In future, Priya could apply critical thinking, making reasoned judgments about claims, by checking whether a claim fits established knowledge, looking for reliable sources, and asking her psychiatrist rather than trusting social-media posts.",
+    "points": [
+     {
+      "t": "States the claim is wrong because of the all-or-none law (action potentials do not get bigger)",
+      "m": 1
+     },
+     {
+      "t": "Explains strength is coded by firing frequency and number of neurons",
+      "m": 1
+     },
+     {
+      "t": "Explains SSRIs act at the synapse, changing postsynaptic effects/likelihood of firing rather than action-potential size",
+      "m": 1
+     },
+     {
+      "t": "Suggests a critical-thinking approach (reasoned judgment, reliable sources, ask the psychiatrist)",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   "Saying SSRIs increase serotonin production; they block reuptake, so existing serotonin stays longer in the synapse.",
+   "Describing antipsychotics as dopamine agonists, or saying Parkinson's is caused by too much dopamine."
+  ],
+  "total": 20
+ },
+ {
+  "id": "e11",
+  "type": "A",
+  "title": "Jia Hui and the cendol",
+  "decks": [
+   "Learning 1"
+  ],
+  "scenario": "Jia Hui, a 19-year-old HELP student, bought a cup of cendol at a pasar malam in Cheras. About three hours later she developed severe food poisoning and vomited through the night. She had eaten cendol dozens of times before without any problem, yet after that single night even the smell of gula melaka made her feel queasy. She also felt sick at the sight of kuih lopes and onde-onde, which use the same palm-sugar syrup, but not at the white sugar in her morning coffee. Her mother, convinced it was 'all in her head', made her eat small spoonfuls of gula melaka pudding every weekend, and each time nothing bad happened. By the end of the semester Jia Hui could finish a whole bowl of cendol with no nausea at all. Six months later, walking past a cendol cart at a night market in Melaka, she suddenly felt a wave of queasiness again, although it faded within a few minutes.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE classical conditioning concepts illustrated in Jia Hui's experience.",
+    "marks": 8,
+    "model": "Conditioned taste aversion: a nausea/aversive response to a particular taste because that taste was followed by nausea; it forms after only ONE pairing, unlike most classical conditioning. Biological preparedness: animals (including humans) are prepared to learn taste-nausea links quickly, even with a long delay, because avoiding poisonous food has survival value. Stimulus generalisation vs discrimination: responding to stimuli similar to the original CS (generalisation), but not to a similar stimulus that has never been paired with the UCS (discrimination). Extinction and spontaneous recovery: the CR weakens when the CS is repeatedly presented without the UCS; after extinction the CR can reappear (spontaneous recovery), showing learning is relatively permanent.",
+    "points": [
+     {
+      "t": "Conditioned taste aversion: a nausea/aversive response to a particular taste because that taste was followed by nausea; it forms after only ONE pairing, unlike most classical conditioning.",
+      "m": 2
+     },
+     {
+      "t": "Biological preparedness: animals (including humans) are prepared to learn taste-nausea links quickly, even with a long delay, because avoiding poisonous food has survival value.",
+      "m": 2
+     },
+     {
+      "t": "Stimulus generalisation vs discrimination: responding to stimuli similar to the original CS (generalisation), but not to a similar stimulus that has never been paired with the UCS (discrimination).",
+      "m": 2
+     },
+     {
+      "t": "Extinction and spontaneous recovery: the CR weakens when the CS is repeatedly presented without the UCS; after extinction the CR can reappear (spontaneous recovery), showing learning is relatively permanent.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Analyse why Jia Hui's behaviour fits each concept you identified, labelling the NS, UCS, UCR, CS and CR and using specific evidence from the scenario.",
+    "marks": 7,
+    "model": "Labels: gula melaka taste/smell was the NS (dozens of earlier cendols, no nausea); food poisoning/bacteria = UCS; vomiting/nausea = UCR; after pairing, gula melaka = CS and queasiness at its smell = CR. Taste aversion + preparedness: only ONE pairing was needed, and the nausea came about three hours later, breaking the usual principle that CS and UCS must be only seconds apart; preparedness explains why the brain still linked them. Generalisation/discrimination: queasy at kuih lopes and onde-onde (similar palm-sugar syrup) = generalisation; no reaction to white sugar in coffee = discrimination, as plain sugar was never paired with the poisoning. Extinction: mother's weekly spoonfuls of pudding presented the CS repeatedly with NO UCS (nothing bad happened), so by semester's end she ate a whole bowl with no nausea. Spontaneous recovery: six months later the cendol cart in Melaka brought back queasiness; it was weaker and faded in minutes, typical of a recovered response after extinction.",
+    "points": [
+     {
+      "t": "Labels: gula melaka taste/smell was the NS (dozens of earlier cendols, no nausea); food poisoning/bacteria = UCS; vomiting/nausea = UCR; after pairing, gula melaka = CS and queasiness at its smell = CR.",
+      "m": 2
+     },
+     {
+      "t": "Taste aversion + preparedness: only ONE pairing was needed, and the nausea came about three hours later, breaking the usual principle that CS and UCS must be only seconds apart; preparedness explains why the brain still linked them.",
+      "m": 2
+     },
+     {
+      "t": "Generalisation/discrimination: queasy at kuih lopes and onde-onde (similar palm-sugar syrup) = generalisation; no reaction to white sugar in coffee = discrimination, as plain sugar was never paired with the poisoning.",
+      "m": 1
+     },
+     {
+      "t": "Extinction: mother's weekly spoonfuls of pudding presented the CS repeatedly with NO UCS (nothing bad happened), so by semester's end she ate a whole bowl with no nausea.",
+      "m": 1
+     },
+     {
+      "t": "Spontaneous recovery: six months later the cendol cart in Melaka brought back queasiness; it was weaker and faded in minutes, typical of a recovered response after extinction.",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Apply ONE of these concepts to a real-life situation outside this scenario, explaining how it could be used or managed.",
+    "marks": 5,
+    "model": "Names a valid application, e.g. patients having chemotherapy (which causes nausea) can develop aversions to foods eaten before treatment; or using extinction in exposure-based treatment of a conditioned fear. Explains the mechanism accurately: e.g. avoid giving a favourite food just before treatment so it does not become a CS for nausea; or present the feared CS repeatedly without the UCS. Anticipates a limit: e.g. spontaneous recovery means the fear/aversion may return, so occasional 'booster' exposure sessions are needed (link to Jia Hui's Melaka episode).",
+    "points": [
+     {
+      "t": "Names a valid application, e.g. patients having chemotherapy (which causes nausea) can develop aversions to foods eaten before treatment; or using extinction in exposure-based treatment of a conditioned fear.",
+      "m": 2
+     },
+     {
+      "t": "Explains the mechanism accurately: e.g. avoid giving a favourite food just before treatment so it does not become a CS for nausea; or present the feared CS repeatedly without the UCS.",
+      "m": 2
+     },
+     {
+      "t": "Anticipates a limit: e.g. spontaneous recovery means the fear/aversion may return, so occasional 'booster' exposure sessions are needed (link to Jia Hui's Melaka episode).",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "tips": "Use PEEL for each concept: name the concept, define it, point to the exact scenario detail (one night, three-hour delay, kuih lopes vs coffee sugar, weekly pudding, Melaka cart), then link back to classical conditioning. Label all five elements (NS, UCS, UCR, CS, CR) explicitly; examiners reward correct labelling. Higher marks go to answers that note how taste aversion breaks the normal timing rule.",
+  "total": 20
+ },
+ {
+  "id": "e12",
+  "type": "A",
+  "title": "Kumar's all-nighter",
+  "decks": [
+   "Memory"
+  ],
+  "scenario": "Two days before his PSY111 final, Kumar has not opened his notes. On Saturday he studies from 9 a.m. to 3 a.m. in his bedroom with lo-fi music playing, reading all 14 chapters in order and repeating key terms aloud over and over. On Sunday he spends the evening memorising new Spanish vocabulary for an elective quiz the next morning. In the exam hall on Monday, he clearly remembers the first chapter he read (Intro to Psychology) and the last one (Language & Thought), but Nerve Cells, Synapses and Memory in the middle are a blur. For one question, he knows the scientist who ran rats through a maze 'starts with T' but cannot produce the name; yet when an MCQ lists 'Tolman' as an option, he picks it instantly. Afterwards he complains: 'I swear I knew it in my room last night, I could even hear the music while revising.' Two weeks later, he can recall almost nothing from the course.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE memory concepts that help account for Kumar's exam performance.",
+    "marks": 8,
+    "model": "Serial position effect: information at the beginning (primacy) and end (recency) of a list is remembered better than the middle. Massed vs distributed practice: cramming (massed) gives poorer retrieval than spaced sessions; linked to Ebbinghaus's forgetting curve, where forgetting is fastest soon after learning then tapers. Recall vs recognition: recall uses few external cues and is prone to retrieval failure such as the tip-of-the-tongue (TOT) phenomenon; recognition matches information to what is stored and is easier. Encoding specificity (context-dependent memory) OR rote rehearsal vs elaborative rehearsal OR retroactive interference (credit any one, correctly explained, as the third concept if one of the above is not used).",
+    "points": [
+     {
+      "t": "Serial position effect: information at the beginning (primacy) and end (recency) of a list is remembered better than the middle.",
+      "m": 2
+     },
+     {
+      "t": "Massed vs distributed practice: cramming (massed) gives poorer retrieval than spaced sessions; linked to Ebbinghaus's forgetting curve, where forgetting is fastest soon after learning then tapers.",
+      "m": 2
+     },
+     {
+      "t": "Recall vs recognition: recall uses few external cues and is prone to retrieval failure such as the tip-of-the-tongue (TOT) phenomenon; recognition matches information to what is stored and is easier.",
+      "m": 2
+     },
+     {
+      "t": "Encoding specificity (context-dependent memory) OR rote rehearsal vs elaborative rehearsal OR retroactive interference (credit any one, correctly explained, as the third concept if one of the above is not used).",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Analyse why Kumar's experience fits each concept, using specific evidence from the scenario.",
+    "marks": 7,
+    "model": "Serial position: first chapter (Intro) and last chapter (Language & Thought) recalled, middle chapters (Nerve Cells, Synapses, Memory) a blur, because he read all 14 chapters in order in one long list. Massed practice/forgetting curve: one 18-hour session (9 a.m.-3 a.m.) two days before the exam, and almost nothing left two weeks later, matching rapid forgetting without spaced review. Recall vs recognition: 'starts with T' but can't produce it = TOT/retrieval failure in recall; picking 'Tolman' instantly from MCQ options = recognition, showing the memory was stored but lacked retrieval cues. Further evidence: repeating terms 'over and over' is rote/maintenance rehearsal (shallow processing), and/or bedroom + lo-fi music context missing in the exam hall (context-dependent encoding specificity), and/or Sunday's Spanish (newer) interfering with Saturday's psychology (retroactive interference).",
+    "points": [
+     {
+      "t": "Serial position: first chapter (Intro) and last chapter (Language & Thought) recalled, middle chapters (Nerve Cells, Synapses, Memory) a blur, because he read all 14 chapters in order in one long list.",
+      "m": 2
+     },
+     {
+      "t": "Massed practice/forgetting curve: one 18-hour session (9 a.m.-3 a.m.) two days before the exam, and almost nothing left two weeks later, matching rapid forgetting without spaced review.",
+      "m": 2
+     },
+     {
+      "t": "Recall vs recognition: 'starts with T' but can't produce it = TOT/retrieval failure in recall; picking 'Tolman' instantly from MCQ options = recognition, showing the memory was stored but lacked retrieval cues.",
+      "m": 2
+     },
+     {
+      "t": "Further evidence: repeating terms 'over and over' is rote/maintenance rehearsal (shallow processing), and/or bedroom + lo-fi music context missing in the exam hall (context-dependent encoding specificity), and/or Sunday's Spanish (newer) interfering with Saturday's psychology (retroactive interference).",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Apply these concepts to recommend how Kumar should prepare for his next exam, justifying each recommendation.",
+    "marks": 5,
+    "model": "Distributed practice: spread study over several weeks with spaced reviews to counter the steep early drop of the forgetting curve. Elaborative rehearsal / deeper (semantic) processing, e.g. linking concepts to own examples, so more retrieval cues are stored and recall (not only recognition) improves. Counter serial position (vary chapter order / give extra time to middle chapters) or reduce interference (avoid learning similar new material just before the exam) or practise in exam-like conditions.",
+    "points": [
+     {
+      "t": "Distributed practice: spread study over several weeks with spaced reviews to counter the steep early drop of the forgetting curve.",
+      "m": 2
+     },
+     {
+      "t": "Elaborative rehearsal / deeper (semantic) processing, e.g. linking concepts to own examples, so more retrieval cues are stored and recall (not only recognition) improves.",
+      "m": 2
+     },
+     {
+      "t": "Counter serial position (vary chapter order / give extra time to middle chapters) or reduce interference (avoid learning similar new material just before the exam) or practise in exam-like conditions.",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "tips": "Pick the three concepts with the strongest evidence and keep the same three across parts (a) and (b), so your answer reads as one argument. In (b) quote the detail (e.g. 'starts with T' vs picking 'Tolman') and explain the mechanism, not just the label. In (c), tie each tip back to a named concept.",
+  "total": 20
+ },
+ {
+  "id": "e13",
+  "type": "A",
+  "title": "Farah's 'slow' hand",
+  "decks": [
+   "Nerve Cells"
+  ],
+  "scenario": "Farah, a 32-year-old accountant in Petaling Jaya, first noticed something was wrong when her right hand felt 'slow': she would decide to pick up her teh tarik and the hand seemed to move a split second late, and her fingers sometimes felt numb or tingly. After tests, her neurologist explained that her immune system was attacking the fatty coating around axons in her brain and spinal cord, so signals were 'leaking' and travelling much more slowly. Farah asked why her cousin, who damaged a nerve in his forearm in a motorcycle accident, had mostly recovered within a year, while her doctor warned that her damage might not repair itself in the same way. During a sensory test, the doctor touched her foot lightly with a pin and then pressed firmly. Farah said the firm press felt 'much stronger' and asked whether that meant her nerves were sending a 'bigger electric shock' to her brain. The doctor smiled: 'Not bigger, just more often, and from more cells.'",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Identify and explain THREE concepts about neurons and neural transmission illustrated in this scenario.",
+    "marks": 8,
+    "model": "Myelin sheath: fatty coating on the axon that insulates, protects and speeds up neural impulses. Nodes of Ranvier and saltatory conduction: the action potential is regenerated at unmyelinated gaps and 'jumps' from node to node, which makes conduction fast. Oligodendrocytes vs Schwann cells: both form myelin; oligodendrocytes (CNS) are more likely to be permanently damaged, Schwann cells (PNS) can repair and reconnect. All-or-none law and coding of stimulus strength: an action potential fires fully or not at all; intensity is coded by firing frequency and number of neurons firing, not by bigger impulses.",
+    "points": [
+     {
+      "t": "Myelin sheath: fatty coating on the axon that insulates, protects and speeds up neural impulses.",
+      "m": 2
+     },
+     {
+      "t": "Nodes of Ranvier and saltatory conduction: the action potential is regenerated at unmyelinated gaps and 'jumps' from node to node, which makes conduction fast.",
+      "m": 2
+     },
+     {
+      "t": "Oligodendrocytes vs Schwann cells: both form myelin; oligodendrocytes (CNS) are more likely to be permanently damaged, Schwann cells (PNS) can repair and reconnect.",
+      "m": 2
+     },
+     {
+      "t": "All-or-none law and coding of stimulus strength: an action potential fires fully or not at all; intensity is coded by firing frequency and number of neurons firing, not by bigger impulses.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Analyse how each concept explains Farah's symptoms and the doctor's comments, using evidence from the scenario.",
+    "marks": 7,
+    "model": "Damage to the 'fatty coating' = loss of myelin, so impulses are no longer insulated ('leaking') and saltatory conduction between nodes fails, slowing signals: this is why her hand moves 'a split second late'. Numbness/tingling: poorly conducted signals in sensory (afferent) neurons may fail to reach threshold or arrive distorted; the slow hand involves motor (efferent) neurons from CNS to muscles. Her damage is in the brain and spinal cord (CNS), where myelin is made by oligodendrocytes that are more likely to be permanently damaged; the cousin's forearm nerve is in the PNS, where Schwann cells can repair, explaining his recovery within a year. The firm press did not create a 'bigger electric shock': by the all-or-none law each action potential is the same size; the stronger feeling comes from higher firing frequency ('more often') and more neurons firing ('more cells'), exactly as the doctor said.",
+    "points": [
+     {
+      "t": "Damage to the 'fatty coating' = loss of myelin, so impulses are no longer insulated ('leaking') and saltatory conduction between nodes fails, slowing signals: this is why her hand moves 'a split second late'.",
+      "m": 2
+     },
+     {
+      "t": "Numbness/tingling: poorly conducted signals in sensory (afferent) neurons may fail to reach threshold or arrive distorted; the slow hand involves motor (efferent) neurons from CNS to muscles.",
+      "m": 1
+     },
+     {
+      "t": "Her damage is in the brain and spinal cord (CNS), where myelin is made by oligodendrocytes that are more likely to be permanently damaged; the cousin's forearm nerve is in the PNS, where Schwann cells can repair, explaining his recovery within a year.",
+      "m": 2
+     },
+     {
+      "t": "The firm press did not create a 'bigger electric shock': by the all-or-none law each action potential is the same size; the stronger feeling comes from higher firing frequency ('more often') and more neurons firing ('more cells'), exactly as the doctor said.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Apply your understanding of neural conduction to ONE practical implication for Farah's daily life or care.",
+    "marks": 5,
+    "model": "Identifies a relevant implication, e.g. slower reaction time when driving (braking), handling hot drinks, or typing at work as an accountant. Explains it through the concept: demyelinated axons conduct slowly, so the delay between deciding and moving (motor) or feeling (sensory) is longer. Suggests a sensible adjustment, e.g. extra following distance, safety checks, regular neurological monitoring, since CNS damage may not self-repair.",
+    "points": [
+     {
+      "t": "Identifies a relevant implication, e.g. slower reaction time when driving (braking), handling hot drinks, or typing at work as an accountant.",
+      "m": 2
+     },
+     {
+      "t": "Explains it through the concept: demyelinated axons conduct slowly, so the delay between deciding and moving (motor) or feeling (sensory) is longer.",
+      "m": 2
+     },
+     {
+      "t": "Suggests a sensible adjustment, e.g. extra following distance, safety checks, regular neurological monitoring, since CNS damage may not self-repair.",
+      "m": 1
+     }
+    ]
+   }
+  ],
+  "tips": "Structure each paragraph as concept → mechanism → scenario evidence. The strongest answers use the doctor's exact words ('leaking', 'more often, and from more cells') and the CNS/PNS contrast with the cousin. Avoid saying stronger stimuli make 'bigger' action potentials, which is the misconception the question is testing.",
+  "total": 20
+ },
+ {
+  "id": "e14",
+  "type": "B",
+  "title": "Arif the navigator",
+  "decks": [
+   "Learning 1",
+   "Learning 2"
+  ],
+  "scenario": "Arif, 10, has ridden in his mother's car to his tuition centre in SS2 three times a week for a year. He is usually on his phone but sometimes looks out of the window, and he has never been asked to give directions. One evening his mother's phone dies and Waze is unavailable. Half-joking, she says that if he can guide her there, he can choose dinner. To her surprise, Arif directs her turn by turn, and when the main road is jammed he points out a shortcut behind the mamak. 'Who taught you that?' she asks. His older sister says Arif often sits in front when their father drives; their father always takes that shortcut, grinning, 'Clever, right? Saved ten minutes!' Arif shrugs: 'I just knew. I never needed to show it before.' Delighted, his mother announces she will give him RM2 every time he navigates correctly, and his father jokes that Arif will soon be taking shortcuts everywhere.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain Arif's sudden navigation skill using TWO cognitive learning theories: Tolman's latent learning and Bandura's observational learning. Support each with evidence from the scenario.",
+    "marks": 8,
+    "model": "Latent learning: learning that remains hidden until there is a reason/reward to show it; Arif rode the route for a year without reward or need, then performed perfectly once dinner choice was offered. Link to Tolman & Honzik (1930): like Group 2 rats, whose errors dropped immediately after the first reward on Day 11, Arif must have formed a cognitive map earlier; 'I never needed to show it before'. Observational learning: learning by watching a model; Arif watched his father take the shortcut from the front seat, and the father was rewarded (saved ten minutes, praised himself 'Clever, right?'). Bandura's four elements and the learning/performance distinction: attention (front seat), retention (remembered the route), reproduction (could direct turns), motivation (dinner reward) — learning occurred earlier but was only performed when motivated.",
+    "points": [
+     {
+      "t": "Latent learning: learning that remains hidden until there is a reason/reward to show it; Arif rode the route for a year without reward or need, then performed perfectly once dinner choice was offered.",
+      "m": 2
+     },
+     {
+      "t": "Link to Tolman & Honzik (1930): like Group 2 rats, whose errors dropped immediately after the first reward on Day 11, Arif must have formed a cognitive map earlier; 'I never needed to show it before'.",
+      "m": 2
+     },
+     {
+      "t": "Observational learning: learning by watching a model; Arif watched his father take the shortcut from the front seat, and the father was rewarded (saved ten minutes, praised himself 'Clever, right?').",
+      "m": 2
+     },
+     {
+      "t": "Bandura's four elements and the learning/performance distinction: attention (front seat), retention (remembered the route), reproduction (could direct turns), motivation (dinner reward) — learning occurred earlier but was only performed when motivated.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Explain how a strict operant conditioning (Skinner/Thorndike) account would try to explain Arif's behaviour, and identify its main limitation here.",
+    "marks": 5,
+    "model": "Operant account: behaviour is learned through consequences; reinforced responses are repeated (law of effect, Skinner box). It would point to the dinner choice and the planned RM2 as positive reinforcement that increases navigating in future. Limitation: Arif had NEVER performed or been reinforced for navigating before, yet was correct first time; operant conditioning cannot explain correct performance without prior reinforced responses or shaping, so reinforcement explains performance, not the learning itself.",
+    "points": [
+     {
+      "t": "Operant account: behaviour is learned through consequences; reinforced responses are repeated (law of effect, Skinner box).",
+      "m": 2
+     },
+     {
+      "t": "It would point to the dinner choice and the planned RM2 as positive reinforcement that increases navigating in future.",
+      "m": 1
+     },
+     {
+      "t": "Limitation: Arif had NEVER performed or been reinforced for navigating before, yet was correct first time; operant conditioning cannot explain correct performance without prior reinforced responses or shaping, so reinforcement explains performance, not the learning itself.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Evaluate which theory best explains Arif's case, and predict the effect of the RM2 plan using concepts from both chapters.",
+    "marks": 7,
+    "model": "Judgement: a cognitive account (latent and/or observational learning) fits best, because the knowledge existed before any reward; the reward only triggered performance. Weighs latent vs observational: the general route fits latent learning (passive exposure, cognitive map), while the specific shortcut is better explained by observational learning (copying a rewarded model); a strong answer says both contributed. Uses evidence/criticism: cognitive theorists showed behaviourism ignored mental events (Tolman's maze, Bobo doll model-rewarded studies show consequences to the model affect imitation). Prediction for RM2: as continuous positive reinforcement it will increase navigating, but responses on continuous reinforcement extinguish quickly if payment stops; partial (e.g. variable ratio) reinforcement would be more resistant to extinction.",
+    "points": [
+     {
+      "t": "Judgement: a cognitive account (latent and/or observational learning) fits best, because the knowledge existed before any reward; the reward only triggered performance.",
+      "m": 2
+     },
+     {
+      "t": "Weighs latent vs observational: the general route fits latent learning (passive exposure, cognitive map), while the specific shortcut is better explained by observational learning (copying a rewarded model); a strong answer says both contributed.",
+      "m": 2
+     },
+     {
+      "t": "Uses evidence/criticism: cognitive theorists showed behaviourism ignored mental events (Tolman's maze, Bobo doll model-rewarded studies show consequences to the model affect imitation).",
+      "m": 1
+     },
+     {
+      "t": "Prediction for RM2: as continuous positive reinforcement it will increase navigating, but responses on continuous reinforcement extinguish quickly if payment stops; partial (e.g. variable ratio) reinforcement would be more resistant to extinction.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Treat it as a debate: present each theory with its key study and the scenario evidence, then make a clear judgement. Distinguish learning from performance; that is the hinge of the whole case. Top answers recognise that more than one theory can explain different parts (route vs shortcut).",
+  "total": 20
+ },
+ {
+  "id": "e15",
+  "type": "B",
+  "title": "Mei Xin's cousins and colours",
+  "decks": [
+   "Language & Thought"
+  ],
+  "scenario": "Mei Xin, 4, is growing up in Penang. Her grandmother speaks Hokkien, her parents speak Mandarin and her kindergarten uses English. In Mandarin she has learned separate words for her father's brother's son (tanggē) and her mother's sister's son (biaogē), whereas in English both are just 'cousin'. When asked which cousins share her family surname, Mei Xin answers immediately, while her English-only classmate Sophie, who calls all of hers 'cousin', has no idea. However, when the teacher shows both girls a set of blue and green colour chips, they sort and later recognise the shades almost identically, even though Grandma's Hokkien often uses one word for both blue and green. Mei Xin's father insists, 'Her languages are shaping how she thinks.' Her mother disagrees: 'Children understand family and colours first, then they just learn the labels.' Their neighbour, a teacher, says it is more complicated than either of them believes.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Explain how the theory of linguistic relativity (Sapir-Whorf) could account for the father's view, using evidence from the scenario.",
+    "marks": 6,
+    "model": "Linguistic relativity: the language a person speaks controls/shapes their thoughts and concepts. Mandarin forces a distinction between paternal (tanggē, same surname) and maternal (biaogē) cousins, so Mei Xin has built separate concepts and answers the surname question immediately. Sophie's single label 'cousin' gives no such category, so she cannot answer; this parallels Gelman & Markman (1986), where a label ('blackbird') shaped children's inferences more than appearance.",
+    "points": [
+     {
+      "t": "Linguistic relativity: the language a person speaks controls/shapes their thoughts and concepts.",
+      "m": 2
+     },
+     {
+      "t": "Mandarin forces a distinction between paternal (tanggē, same surname) and maternal (biaogē) cousins, so Mei Xin has built separate concepts and answers the surname question immediately.",
+      "m": 2
+     },
+     {
+      "t": "Sophie's single label 'cousin' gives no such category, so she cannot answer; this parallels Gelman & Markman (1986), where a label ('blackbird') shaped children's inferences more than appearance.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Explain how cognitive universalism and Piaget's view of language and thought could account for the mother's view, using evidence from the scenario.",
+    "marks": 6,
+    "model": "Cognitive universalism: concepts are universal and shape language, rather than language shaping concepts. Piaget: concepts develop first, then language (contrast Vygotsky: language first, then concepts); the mother's 'understand first, then learn labels' is Piagetian. Evidence: both girls sorted and recognised blue and green shades almost identically despite Hokkien's single blue/green word, like the Dani (two colour words) perceiving colour like English speakers.",
+    "points": [
+     {
+      "t": "Cognitive universalism: concepts are universal and shape language, rather than language shaping concepts.",
+      "m": 2
+     },
+     {
+      "t": "Piaget: concepts develop first, then language (contrast Vygotsky: language first, then concepts); the mother's 'understand first, then learn labels' is Piagetian.",
+      "m": 2
+     },
+     {
+      "t": "Evidence: both girls sorted and recognised blue and green shades almost identically despite Hokkien's single blue/green word, like the Dani (two colour words) perceiving colour like English speakers.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Evaluate which view best explains Mei Xin's case, using research evidence from the chapter. Support the neighbour's claim that it is 'more complicated'.",
+    "marks": 8,
+    "model": "Perception: colour results support cognitive universalism; basic perception does not appear to be controlled by vocabulary (Dani; the Inuit 'many words for snow' claim turned out false). Higher-level concepts: the cousin/surname result supports a weaker relativity; as Gelman & Markman suggest, language may shape higher-level concepts and inferences rather than perception. Balanced judgement: findings are mixed, so neither parent is fully right; the evidence suggests a two-way relationship, with language influencing some categories while universal concepts shape others. Critical point: e.g. Sophie could understand paternal vs maternal cousins if explained, so language makes some distinctions easier/faster rather than impossible; or Vygotsky's view that language helps build concepts adds a developmental angle.",
+    "points": [
+     {
+      "t": "Perception: colour results support cognitive universalism; basic perception does not appear to be controlled by vocabulary (Dani; the Inuit 'many words for snow' claim turned out false).",
+      "m": 2
+     },
+     {
+      "t": "Higher-level concepts: the cousin/surname result supports a weaker relativity; as Gelman & Markman suggest, language may shape higher-level concepts and inferences rather than perception.",
+      "m": 2
+     },
+     {
+      "t": "Balanced judgement: findings are mixed, so neither parent is fully right; the evidence suggests a two-way relationship, with language influencing some categories while universal concepts shape others.",
+      "m": 2
+     },
+     {
+      "t": "Critical point: e.g. Sophie could understand paternal vs maternal cousins if explained, so language makes some distinctions easier/faster rather than impossible; or Vygotsky's view that language helps build concepts adds a developmental angle.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Use one paragraph per theory, each with a named study and a scenario detail, then a separate evaluation paragraph. Separate perception (colours) from higher-level concepts (kinship); this distinction earns the evaluation marks. End with a clear, qualified judgement rather than 'both are right'.",
+  "total": 20
+ },
+ {
+  "id": "e16",
+  "type": "C",
+  "title": "Daniel's unfinished worksheets",
+  "decks": [
+   "Learning 1"
+  ],
+  "scenario": "Encik Hafiz runs a small tuition centre in Klang. One pupil, Daniel, 9, rarely finishes his worksheets: he does about two questions, then starts tapping his pencil, wandering to the window and chatting. Each time this happens, a tutor walks over and spends several minutes talking with him, sometimes joking, before steering him back to work. When Daniel does hand in a worksheet, nobody comments. Last month a frustrated tutor shouted at him and made him stand outside for the rest of the lesson. Since then Daniel has started hiding unfinished worksheets in his bag and claiming he 'forgot them at home', and he looks tense whenever that tutor walks in. Daniel loves Pokémon cards and gets excited about using the class iPad. His mother says he can finish a short puzzle easily but 'gives up when there are too many questions on one page'. Encik Hafiz asks you, as a psychology student, to design a programme to help Daniel complete his worksheets.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Analyse what is currently maintaining Daniel's off-task behaviour and why the punishment used last month backfired.",
+    "marks": 6,
+    "model": "Tutor attention after wandering/chatting acts as positive reinforcement (adds a pleasant stimulus), increasing off-task behaviour; finishing a worksheet gets no reinforcement, so on-task work is weakened. Escape from hard worksheets may also negatively reinforce wandering off (removing an unpleasant task). Severe punishment problems: shouting + standing outside led to avoidance and lying (hiding worksheets, 'forgot them at home') rather than more work. It also created fear/anxiety (tense when that tutor enters), which can be seen as a conditioned emotional response to the tutor.",
+    "points": [
+     {
+      "t": "Tutor attention after wandering/chatting acts as positive reinforcement (adds a pleasant stimulus), increasing off-task behaviour; finishing a worksheet gets no reinforcement, so on-task work is weakened.",
+      "m": 2
+     },
+     {
+      "t": "Escape from hard worksheets may also negatively reinforce wandering off (removing an unpleasant task).",
+      "m": 1
+     },
+     {
+      "t": "Severe punishment problems: shouting + standing outside led to avoidance and lying (hiding worksheets, 'forgot them at home') rather than more work.",
+      "m": 2
+     },
+     {
+      "t": "It also created fear/anxiety (tense when that tutor enters), which can be seen as a conditioned emotional response to the tutor.",
+      "m": 1
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Design a behaviour modification programme for Daniel using at least THREE operant conditioning principles. Justify each step with reference to the scenario.",
+    "marks": 10,
+    "model": "Define a specific, measurable target behaviour (e.g. number of questions completed per page) and remove attention for off-task behaviour (operant extinction), while still giving attention for working. Shaping by successive approximation: start with short pages of 3 questions (he can finish short puzzles), reinforce each step, then gradually increase to a full worksheet; justified by his giving up 'when there are too many questions'. Token economy: stickers/points (secondary reinforcers) for each completed section, exchanged for Pokémon cards or iPad time (backup reinforcers he values). Effectiveness of reinforcement: give tokens immediately after completion and only for the desired behaviour (specificity), and add praise so finishing is never ignored again. Schedules: begin with continuous reinforcement for fast acquisition, then move to a partial schedule (e.g. variable ratio) so the behaviour resists extinction; if needed, use brief time-out (mild negative punishment) instead of shouting, paired with reinforcing the right behaviour.",
+    "points": [
+     {
+      "t": "Define a specific, measurable target behaviour (e.g. number of questions completed per page) and remove attention for off-task behaviour (operant extinction), while still giving attention for working.",
+      "m": 2
+     },
+     {
+      "t": "Shaping by successive approximation: start with short pages of 3 questions (he can finish short puzzles), reinforce each step, then gradually increase to a full worksheet; justified by his giving up 'when there are too many questions'.",
+      "m": 2
+     },
+     {
+      "t": "Token economy: stickers/points (secondary reinforcers) for each completed section, exchanged for Pokémon cards or iPad time (backup reinforcers he values).",
+      "m": 2
+     },
+     {
+      "t": "Effectiveness of reinforcement: give tokens immediately after completion and only for the desired behaviour (specificity), and add praise so finishing is never ignored again.",
+      "m": 2
+     },
+     {
+      "t": "Schedules: begin with continuous reinforcement for fast acquisition, then move to a partial schedule (e.g. variable ratio) so the behaviour resists extinction; if needed, use brief time-out (mild negative punishment) instead of shouting, paired with reinforcing the right behaviour.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Anticipate ONE problem that could arise with your programme and explain how you would deal with it.",
+    "marks": 4,
+    "model": "Identifies a realistic problem, e.g. off-task behaviour briefly increases when attention is withdrawn, spontaneous recovery of chatting after a break, or satiation with Pokémon cards / working only for tokens. Gives a principled solution, e.g. stay consistent with extinction and keep reinforcing work, rotate backup reinforcers, and fade tokens to a partial schedule plus praise so the behaviour is maintained.",
+    "points": [
+     {
+      "t": "Identifies a realistic problem, e.g. off-task behaviour briefly increases when attention is withdrawn, spontaneous recovery of chatting after a break, or satiation with Pokémon cards / working only for tokens.",
+      "m": 2
+     },
+     {
+      "t": "Gives a principled solution, e.g. stay consistent with extinction and keep reinforcing work, rotate backup reinforcers, and fade tokens to a partial schedule plus praise so the behaviour is maintained.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Start with a functional analysis: what reinforces the problem behaviour now? Then build the programme step by step, naming the principle, the concrete action and why it suits Daniel (short puzzles, Pokémon, iPad). Mentioning schedules for maintenance and avoiding harsh punishment shows evaluation, not just recall.",
+  "total": 20
+ },
+ {
+  "id": "e17",
+  "type": "C",
+  "title": "The hit-and-run witness",
+  "decks": [
+   "Memory"
+  ],
+  "scenario": "Late on a rainy Friday night, Siti, 21, sees a car hit a motorcyclist outside a convenience store in Subang and drive off. It all happens in about three seconds. Shaken, she tells the first officer: 'A dark car, I think a sedan, going quite fast.' While waiting, she hears a bystander insist loudly that it was 'a black Honda that ran the red light'. On Monday, a different officer asks her, 'How fast was the black Honda going when it smashed through the red light?' and shows her a single photo of a suspect's car: 'This is the car, right?' Siti now says confidently that it was a black Honda and that she 'clearly saw' it run the red light, although traffic-camera footage shows the light was amber. She adds, 'I'll never forget that night; it's burned into my mind.' Worried that the case could collapse in court, the police chief asks you to design a better procedure for interviewing eyewitnesses in future.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Analyse why Siti's account changed between Friday and Monday, using memory concepts and evidence from the scenario.",
+    "marks": 6,
+    "model": "Constructive processing: memories are rebuilt at each retrieval and can be revised by newer information; Siti's vague 'dark car, I think a sedan' became a detailed 'black Honda'. Misinformation effect: misleading post-event information (bystander's 'black Honda... ran the red light'; officer's leading words 'smashed through the red light') was incorporated, even though the light was amber. Recognition false positive with a single photo ('This is the car, right?'), plus emotional/flashbulb-like confidence ('burned into my mind'): vividness and confidence do not guarantee accuracy.",
+    "points": [
+     {
+      "t": "Constructive processing: memories are rebuilt at each retrieval and can be revised by newer information; Siti's vague 'dark car, I think a sedan' became a detailed 'black Honda'.",
+      "m": 2
+     },
+     {
+      "t": "Misinformation effect: misleading post-event information (bystander's 'black Honda... ran the red light'; officer's leading words 'smashed through the red light') was incorporated, even though the light was amber.",
+      "m": 2
+     },
+     {
+      "t": "Recognition false positive with a single photo ('This is the car, right?'), plus emotional/flashbulb-like confidence ('burned into my mind'): vividness and confidence do not guarantee accuracy.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Design an eyewitness interview procedure with at least FOUR steps. Justify each step using memory principles.",
+    "marks": 10,
+    "model": "Interview immediately and record the first account: Ebbinghaus's forgetting curve shows rapid early loss, and an early record is less contaminated by later information. Separate witnesses and ask them not to discuss the event: prevents misinformation from other witnesses (the bystander's claim). Begin with free recall using open, neutral questions ('Tell me everything you saw'), only then specific non-leading questions: avoids inserting details ('smashed', 'black Honda') that constructive processing would absorb. Context reinstatement: ask the witness to mentally picture the rain, the time, the store lights; encoding specificity says cues present at encoding aid retrieval (context-/state-dependent). Use a fair line-up of several similar cars/photos with a 'may not be present' warning instead of one photo, reducing false-positive recognition; record confidence at that moment.",
+    "points": [
+     {
+      "t": "Interview immediately and record the first account: Ebbinghaus's forgetting curve shows rapid early loss, and an early record is less contaminated by later information.",
+      "m": 2
+     },
+     {
+      "t": "Separate witnesses and ask them not to discuss the event: prevents misinformation from other witnesses (the bystander's claim).",
+      "m": 2
+     },
+     {
+      "t": "Begin with free recall using open, neutral questions ('Tell me everything you saw'), only then specific non-leading questions: avoids inserting details ('smashed', 'black Honda') that constructive processing would absorb.",
+      "m": 2
+     },
+     {
+      "t": "Context reinstatement: ask the witness to mentally picture the rain, the time, the store lights; encoding specificity says cues present at encoding aid retrieval (context-/state-dependent).",
+      "m": 2
+     },
+     {
+      "t": "Use a fair line-up of several similar cars/photos with a 'may not be present' warning instead of one photo, reducing false-positive recognition; record confidence at that moment.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Anticipate ONE limitation of your procedure and explain how it could be reduced.",
+    "marks": 4,
+    "model": "Identifies a limitation, e.g. some contamination may happen before police arrive (bystanders, social media), or a stressful 3-second event may have been poorly encoded (encoding failure) so no procedure can recover it. Proposes a reasonable mitigation, e.g. ask witnesses what they heard from others, treat witness evidence as one source alongside CCTV, train officers in neutral wording and audit recorded interviews.",
+    "points": [
+     {
+      "t": "Identifies a limitation, e.g. some contamination may happen before police arrive (bystanders, social media), or a stressful 3-second event may have been poorly encoded (encoding failure) so no procedure can recover it.",
+      "m": 2
+     },
+     {
+      "t": "Proposes a reasonable mitigation, e.g. ask witnesses what they heard from others, treat witness evidence as one source alongside CCTV, train officers in neutral wording and audit recorded interviews.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "In (a), name the concept, quote the exact change in Siti's words, and explain the mechanism. In (b), number your steps and justify each with a named principle; a list of steps with no justification scores low. Show evaluation in (c) by admitting what interviewing cannot fix.",
+  "total": 20
+ },
+ {
+  "id": "e18",
+  "type": "D",
+  "title": "Mdm Lee's mahjong afternoons",
+  "decks": [
+   "Memory",
+   "Nervous System",
+   "Synapses"
+  ],
+  "scenario": "Mdm Lee, 78, lives with her son in Ipoh. For the past two years she has repeatedly asked what day it is and cannot remember conversations from that same morning, yet she vividly describes her wedding in 1968 and exactly where she was when she heard about the 1969 riots. Every Sunday she still plays mahjong with her friends, shuffling and arranging tiles quickly and smoothly, though she often cannot remember whose turn it is or what she has just discarded. Her doctor explains that a structure deep in her temporal lobe has shrunk and that brain cells using a chemical messenger important for memory are dying. He prescribes a drug that slows the breakdown of this chemical in the synapse. Her son mentions she has high blood pressure and type II diabetes, and has stopped her daily walks. Recently she has also begun forgetting the names of her grandchildren, whom she has known for over twenty years.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Memory: Analyse Mdm Lee's pattern of remembering and forgetting using concepts of amnesia and types of long-term memory.",
+    "marks": 6,
+    "model": "The pattern fits Alzheimer's disease: mainly anterograde amnesia first (cannot form new LTM: repeats the day, forgets morning conversations), with retrograde amnesia appearing later (now forgetting grandchildren's names). Declarative memory impaired for new events (episodic: whose turn, what was discarded) while nondeclarative/procedural memory is intact (shuffling and arranging tiles quickly and smoothly). Old emotional events (wedding, where she was during the 1969 riots) are well preserved; the riots memory resembles a flashbulb memory, automatically encoded because of strong emotion, and older consolidated memories are lost last.",
+    "points": [
+     {
+      "t": "The pattern fits Alzheimer's disease: mainly anterograde amnesia first (cannot form new LTM: repeats the day, forgets morning conversations), with retrograde amnesia appearing later (now forgetting grandchildren's names).",
+      "m": 2
+     },
+     {
+      "t": "Declarative memory impaired for new events (episodic: whose turn, what was discarded) while nondeclarative/procedural memory is intact (shuffling and arranging tiles quickly and smoothly).",
+      "m": 2
+     },
+     {
+      "t": "Old emotional events (wedding, where she was during the 1969 riots) are well preserved; the riots memory resembles a flashbulb memory, automatically encoded because of strong emotion, and older consolidated memories are lost last.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Nervous System: Explain which brain structures are likely involved in what she has lost and what she has kept.",
+    "marks": 6,
+    "model": "The 'structure deep in her temporal lobe' is the hippocampus (medial temporal lobe), which forms new long-term declarative memories; its shrinkage explains failure to form new memories. Comparison with Patient H.M.: removal of hippocampi left him unable to form new declarative memories but with nondeclarative memory intact, the same dissociation as Mdm Lee. Procedural mahjong skills rely on the cerebellum and motor cortex (and basal ganglia for motor learning), which are relatively spared; the amygdala's role in emotional memory relates to her vivid emotional memories.",
+    "points": [
+     {
+      "t": "The 'structure deep in her temporal lobe' is the hippocampus (medial temporal lobe), which forms new long-term declarative memories; its shrinkage explains failure to form new memories.",
+      "m": 2
+     },
+     {
+      "t": "Comparison with Patient H.M.: removal of hippocampi left him unable to form new declarative memories but with nondeclarative memory intact, the same dissociation as Mdm Lee.",
+      "m": 2
+     },
+     {
+      "t": "Procedural mahjong skills rely on the cerebellum and motor cortex (and basal ganglia for motor learning), which are relatively spared; the amygdala's role in emotional memory relates to her vivid emotional memories.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Synapses: Explain how the prescribed drug is intended to work at the synapse.",
+    "marks": 4,
+    "model": "The chemical messenger is acetylcholine (ACh), which plays a role in memory in the hippocampus. Normally ACh is cleared by enzymatic degradation; slowing this breakdown keeps more ACh in the synaptic cleft to bind receptor sites, enhancing transmission (agonist-like effect); it can slow but not stop or reverse the disease.",
+    "points": [
+     {
+      "t": "The chemical messenger is acetylcholine (ACh), which plays a role in memory in the hippocampus.",
+      "m": 2
+     },
+     {
+      "t": "Normally ACh is cleared by enzymatic degradation; slowing this breakdown keeps more ACh in the synaptic cleft to bind receptor sites, enhancing transmission (agonist-like effect); it can slow but not stop or reverse the disease.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(d)",
+    "q": "Apply your analysis to give her son TWO evidence-based suggestions for supporting Mdm Lee.",
+    "marks": 4,
+    "model": "Lifestyle: manage risk factors named in the scenario (high blood pressure, type II diabetes, lack of exercise) by restarting daily walks and following medical advice. Use intact procedural/old memories: keep routines and mahjong, provide external retrieval cues (calendar, labelled photos of grandchildren) to compensate for anterograde amnesia.",
+    "points": [
+     {
+      "t": "Lifestyle: manage risk factors named in the scenario (high blood pressure, type II diabetes, lack of exercise) by restarting daily walks and following medical advice.",
+      "m": 2
+     },
+     {
+      "t": "Use intact procedural/old memories: keep routines and mahjong, provide external retrieval cues (calendar, labelled photos of grandchildren) to compensate for anterograde amnesia.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Answer chapter by chapter as the parts ask, but keep linking back to the same evidence (mahjong tiles vs whose turn; wedding vs this morning). Naming H.M. and the hippocampus together shows integration across chapters. For the drug, explain the synaptic mechanism, not just the name of the neurotransmitter.",
+  "total": 20
+ },
+ {
+  "id": "e19",
+  "type": "D",
+  "title": "Wei Jie and Hall B",
+  "decks": [
+   "Nervous System",
+   "Learning 1",
+   "Synapses"
+  ],
+  "scenario": "Wei Jie, 20, failed his first statistics test badly after 'blanking out' in Hall B. Now, whenever he walks into Hall B, even for a club talk, his heart races, his palms sweat, his mouth goes dry and his stomach churns. The same happens, more mildly, in other large lecture halls. Before the midterm, he told his lecturer he was sick and sat a make-up test alone in a small office; he felt an immediate wave of relief, and he has since 'fallen sick' before two more tests. His GP prescribed a short course of a benzodiazepine, explaining that it 'boosts the brain's main braking chemical'. On the medication Wei Jie felt calmer but drowsy, and noticed his reactions on the badminton court were slower. After the course ended, his anxiety in Hall B returned as strongly as before. His counsellor says the medicine 'treated the symptoms but not the learning', and that his avoidance is 'keeping the fear alive'.",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Nervous System: Explain Wei Jie's physical reactions in Hall B with reference to the divisions of the nervous system.",
+    "marks": 5,
+    "model": "These are involuntary responses controlled by the autonomic nervous system (part of the PNS), which regulates organs and glands, not the voluntary somatic system. Sympathetic division activates fight-or-flight: racing heart, sweating palms, dry mouth and churning stomach (digestion suppressed) in Hall B. The parasympathetic division restores calm afterwards (lowers heart rate, resumes digestion); the 'wave of relief' in the small office reflects arousal dropping; adrenal medulla epinephrine/norepinephrine act like the sympathetic system.",
+    "points": [
+     {
+      "t": "These are involuntary responses controlled by the autonomic nervous system (part of the PNS), which regulates organs and glands, not the voluntary somatic system.",
+      "m": 1
+     },
+     {
+      "t": "Sympathetic division activates fight-or-flight: racing heart, sweating palms, dry mouth and churning stomach (digestion suppressed) in Hall B.",
+      "m": 2
+     },
+     {
+      "t": "The parasympathetic division restores calm afterwards (lowers heart rate, resumes digestion); the 'wave of relief' in the small office reflects arousal dropping; adrenal medulla epinephrine/norepinephrine act like the sympathetic system.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Learning: Analyse how classical and operant conditioning explain the development and maintenance of Wei Jie's anxiety.",
+    "marks": 7,
+    "model": "Classical conditioning: Hall B (NS) was paired with the distress of failing/blanking out (UCS → fear UCR); Hall B became a CS producing a conditioned emotional response (CR), even for a club talk. Stimulus generalisation: milder fear in other large lecture halls similar to Hall B. Operant conditioning: 'falling sick' and sitting the test alone removes the anxiety (relief), so avoidance is negatively reinforced and increases (two more 'sick' days). Maintenance: because he avoids Hall B, the CS is never presented without the UCS, so extinction cannot occur ('keeping the fear alive').",
+    "points": [
+     {
+      "t": "Classical conditioning: Hall B (NS) was paired with the distress of failing/blanking out (UCS → fear UCR); Hall B became a CS producing a conditioned emotional response (CR), even for a club talk.",
+      "m": 2
+     },
+     {
+      "t": "Stimulus generalisation: milder fear in other large lecture halls similar to Hall B.",
+      "m": 1
+     },
+     {
+      "t": "Operant conditioning: 'falling sick' and sitting the test alone removes the anxiety (relief), so avoidance is negatively reinforced and increases (two more 'sick' days).",
+      "m": 2
+     },
+     {
+      "t": "Maintenance: because he avoids Hall B, the CS is never presented without the UCS, so extinction cannot occur ('keeping the fear alive').",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Synapses: Explain how the benzodiazepine produced both its intended and side effects.",
+    "marks": 4,
+    "model": "The 'main braking chemical' is GABA, the major inhibitory neurotransmitter; benzodiazepines are GABA agonists that enhance its effect at receptors. More inhibition (IPSPs, hyperpolarisation) makes neurons less likely to fire: reduces anxiety but also produces drowsiness and slower reactions (GABA inhibits movement), as on the badminton court.",
+    "points": [
+     {
+      "t": "The 'main braking chemical' is GABA, the major inhibitory neurotransmitter; benzodiazepines are GABA agonists that enhance its effect at receptors.",
+      "m": 2
+     },
+     {
+      "t": "More inhibition (IPSPs, hyperpolarisation) makes neurons less likely to fire: reduces anxiety but also produces drowsiness and slower reactions (GABA inhibits movement), as on the badminton court.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(d)",
+    "q": "Apply your analysis to explain why the anxiety returned after medication and propose a better approach.",
+    "marks": 4,
+    "model": "The drug changed synaptic activity temporarily but did not change the learned CS-CR association, so the CER returned when the course ended. Better approach: gradual repeated exposure to Hall B without failure (extinction), starting with low-stakes visits, while stopping the negatively reinforced avoidance; possibly combine with relaxation/biofeedback.",
+    "points": [
+     {
+      "t": "The drug changed synaptic activity temporarily but did not change the learned CS-CR association, so the CER returned when the course ended.",
+      "m": 2
+     },
+     {
+      "t": "Better approach: gradual repeated exposure to Hall B without failure (extinction), starting with low-stakes visits, while stopping the negatively reinforced avoidance; possibly combine with relaxation/biofeedback.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Integrate rather than list: show how a learned association (Learning) triggers a bodily state (Nervous System) that a drug alters chemically (Synapses). Label NS/UCS/CS/CR and the type of reinforcement precisely; 'negative reinforcement' is often confused with punishment. Link every claim to a scenario detail.",
+  "total": 20
+ },
+ {
+  "id": "e20",
+  "type": "D",
+  "title": "Uncle Ravi's recovery",
+  "decks": [
+   "Nervous System",
+   "Learning 2",
+   "Language & Thought"
+  ],
+  "scenario": "Uncle Ravi, 62, a retired teacher in Seremban, had a stroke affecting the left frontal lobe. Afterwards his right arm and leg were weak, and although he understood everything his family said, his speech was slow and effortful: 'Want... tea... hot.' In early speech-therapy sessions he repeatedly failed to say his grandson's name. After three weeks he stopped trying, even when the therapist made the task much easier; he would shake his head and look away. The therapist then paired him with Mr Tan, another stroke patient a few months ahead in recovery. Uncle Ravi watched closely as Mr Tan practised phrases, was praised, and laughed off his mistakes, and he began copying Mr Tan's exercises. One afternoon, struggling to button his shirt one-handed, he stared at his lunch tray, then suddenly picked up a spoon and used its handle to push the buttons through, grinning: 'Ah! Like... this!'",
+  "parts": [
+   {
+    "label": "(a)",
+    "q": "Nervous System: Explain Uncle Ravi's speech and movement problems with reference to the brain areas affected.",
+    "marks": 6,
+    "model": "Broca's area in the left frontal lobe controls fluent speech production; damage causes Broca's aphasia: he understands others but speech is slow, effortful and poorly produced ('Want... tea... hot'). Contrast with Wernicke's aphasia (left temporal lobe): fluent but meaningless speech with poor comprehension, which does NOT match his intact understanding. Right-sided weakness: the motor cortex in the frontal lobe controls movement, and each hemisphere controls the opposite (contralateral) side, so a LEFT-hemisphere stroke weakens the RIGHT arm and leg.",
+    "points": [
+     {
+      "t": "Broca's area in the left frontal lobe controls fluent speech production; damage causes Broca's aphasia: he understands others but speech is slow, effortful and poorly produced ('Want... tea... hot').",
+      "m": 2
+     },
+     {
+      "t": "Contrast with Wernicke's aphasia (left temporal lobe): fluent but meaningless speech with poor comprehension, which does NOT match his intact understanding.",
+      "m": 2
+     },
+     {
+      "t": "Right-sided weakness: the motor cortex in the frontal lobe controls movement, and each hemisphere controls the opposite (contralateral) side, so a LEFT-hemisphere stroke weakens the RIGHT arm and leg.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(b)",
+    "q": "Learning: Analyse his withdrawal from therapy and later improvement using concepts from cognitive learning theory.",
+    "marks": 6,
+    "model": "Learned helplessness (Seligman & Maier): after repeated failures (grandson's name), he stopped trying even when the task was made easier, like the dogs that stayed on the shock side despite escape being possible. Observational learning (Bandura): he learned by watching Mr Tan, a model who was rewarded with praise; seeing the model rewarded raises motivation to imitate. Four elements: attention (watched closely), retention (remembered exercises), reproduction (copied them), motivation (praise, Mr Tan's success, similar model further along).",
+    "points": [
+     {
+      "t": "Learned helplessness (Seligman & Maier): after repeated failures (grandson's name), he stopped trying even when the task was made easier, like the dogs that stayed on the shock side despite escape being possible.",
+      "m": 2
+     },
+     {
+      "t": "Observational learning (Bandura): he learned by watching Mr Tan, a model who was rewarded with praise; seeing the model rewarded raises motivation to imitate.",
+      "m": 2
+     },
+     {
+      "t": "Four elements: attention (watched closely), retention (remembered exercises), reproduction (copied them), motivation (praise, Mr Tan's success, similar model further along).",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(c)",
+    "q": "Language & Thought: Analyse the spoon episode and the structure of his speech using concepts from this chapter.",
+    "marks": 4,
+    "model": "Overcoming functional fixedness: he stopped seeing the spoon only as an eating tool and used it as a button hook; the sudden solution after staring at the tray = insight ('Ah! Like... this!'), not trial and error. His speech keeps content words but lacks grammatical morphemes and full syntax ('Want tea hot' instead of 'I want hot tea'); meaning (semantics) is preserved, showing production rather than understanding is impaired.",
+    "points": [
+     {
+      "t": "Overcoming functional fixedness: he stopped seeing the spoon only as an eating tool and used it as a button hook; the sudden solution after staring at the tray = insight ('Ah! Like... this!'), not trial and error.",
+      "m": 2
+     },
+     {
+      "t": "His speech keeps content words but lacks grammatical morphemes and full syntax ('Want tea hot' instead of 'I want hot tea'); meaning (semantics) is preserved, showing production rather than understanding is impaired.",
+      "m": 2
+     }
+    ]
+   },
+   {
+    "label": "(d)",
+    "q": "Apply your analysis to suggest TWO features of a rehabilitation programme for stroke patients like Uncle Ravi.",
+    "marks": 4,
+    "model": "Prevent/reverse learned helplessness: start with very easy, guaranteed-success tasks and build up gradually (shaping), so effort is followed by success. Use peer models slightly ahead in recovery (observational learning) and encourage creative/divergent problem-solving for daily tasks (e.g. adaptive use of objects) to build independence.",
+    "points": [
+     {
+      "t": "Prevent/reverse learned helplessness: start with very easy, guaranteed-success tasks and build up gradually (shaping), so effort is followed by success.",
+      "m": 2
+     },
+     {
+      "t": "Use peer models slightly ahead in recovery (observational learning) and encourage creative/divergent problem-solving for daily tasks (e.g. adaptive use of objects) to build independence.",
+      "m": 2
+     }
+    ]
+   }
+  ],
+  "tips": "Work through the parts chapter by chapter but connect them: the brain damage explains what he cannot do, learning theory explains whether he tries, and thinking concepts explain how he adapts. Contrast Broca's with Wernicke's to show understanding, and use the 'contralateral' link explicitly. Quote his words as evidence.",
+  "total": 20
+ }
+]

@@ -1307,6 +1307,781 @@
   ]
  },
  {
+  "id": "t3-1",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Theoretical framework (definition)",
+  "q": "What is the theoretical framework of an empirical study?",
+  "clues": [
+   "Linked to the hypotheses",
+   "Two related words: explain and justify"
+  ],
+  "ans": "The explanations and/or justification for the study's hypotheses\nA reasoned explanation of how and why the variables are connected\nA rationale for making predictions between two variables",
+  "src": {
+   "lec": 3,
+   "p": [
+    3,
+    5
+   ]
+  },
+  "sim": [
+   "t3-2",
+   "t3-5"
+  ]
+ },
+ {
+  "id": "t3-2",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Purpose: how and why",
+  "q": "What two questions should a theoretical framework answer about variables A and B?",
+  "clues": [
+   "Two question words",
+   "About the connection between variables"
+  ],
+  "ans": "How is A related to B?\nWhy is A related to B?\nIt should explain HOW and WHY the variables are connected",
+  "src": {
+   "lec": 3,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t3-1",
+   "t3-3"
+  ]
+ },
+ {
+  "id": "t3-3",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Convincing the reader",
+  "q": "In a theoretical framework, what are you trying to convince your reader of?",
+  "clues": [
+   "Why these variables sit in the same study",
+   "Justification"
+  ],
+  "ans": "Why these variables are being studied together in the same study\nWhat your justification is for studying these variables together",
+  "src": {
+   "lec": 3,
+   "p": [
+    4
+   ]
+  },
+  "sim": [
+   "t3-2"
+  ]
+ },
+ {
+  "id": "t3-4",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Testosterone–aggression example",
+  "q": "In the lecture's example of a theoretical framework for 'Men are more physically aggressive than women', what is the reasoning?",
+  "clues": [
+   "A hormone",
+   "Three-step chain of logic"
+  ],
+  "ans": "High testosterone predicts competitiveness, desire for status and dominance\nThese translate to greater likelihood of physical aggression\nMen have higher testosterone than women\nTherefore men are more likely to be physically aggressive",
+  "src": {
+   "lec": 3,
+   "p": [
+    3
+   ]
+  },
+  "sim": [
+   "t3-6",
+   "t3-7"
+  ]
+ },
+ {
+  "id": "t3-5",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Theoretical framework is / is not",
+  "q": "What is a theoretical framework NOT, according to the lecture?",
+  "clues": [
+   "Three misconceptions",
+   "Naming, past results, theory"
+  ],
+  "ans": "Not always explicitly labelled a 'framework' or 'model' (you may need to infer it from a thorough reading)\nNot just a summary of past results (that doesn't say how variables relate)\nNot the same as a theory (listing a theory without explanation is not a framework)",
+  "src": {
+   "lec": 3,
+   "p": [
+    5
+   ]
+  },
+  "sim": [
+   "t3-1",
+   "t3-9"
+  ]
+ },
+ {
+  "id": "t3-6",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Smartphone–life satisfaction example (set-up)",
+  "q": "What were the research question and aim in the lecture's smartphone example of forming a theoretical framework?",
+  "clues": [
+   "Background: many people use smartphones yet seem less happy",
+   "Direction of the relationship"
+  ],
+  "ans": "RQ: Does excessive smartphone usage negatively relate to satisfaction with one's life?\nAim: to examine if hours of smartphone usage is negatively related to life satisfaction\nHypothesis: negative relationship between hours on the smartphone and satisfaction with life",
+  "src": {
+   "lec": 3,
+   "p": [
+    6,
+    8
+   ]
+  },
+  "sim": [
+   "t3-7",
+   "t3-8"
+  ]
+ },
+ {
+  "id": "t3-7",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Social comparison processes as framework",
+  "q": "How do social comparison processes (Festinger, 1954) explain the link between smartphone use and lower life satisfaction?",
+  "clues": [
+   "It's not the phone itself but what people do on it",
+   "Two emotions"
+  ],
+  "ans": "It is the actions done through smartphones, not mere use, that lower life satisfaction\nPeople use smartphones for social media, which presents others' lives more favourably\nUnfavourable comparisons make one's own life seem less satisfying\nThey also cause envy and jealousy, which lower life satisfaction",
+  "src": {
+   "lec": 3,
+   "p": [
+    7,
+    8
+   ]
+  },
+  "sim": [
+   "t3-6",
+   "t3-8",
+   "t3-5"
+  ]
+ },
+ {
+  "id": "t3-8",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Graphical representation of the framework",
+  "q": "In the graphical representation of the smartphone theoretical framework, which part is the theoretical framework itself?",
+  "clues": [
+   "Four boxes in a chain",
+   "Not the starting observation or the end claim"
+  ],
+  "ans": "The middle steps linking smartphone use to lower life satisfaction\nUsing social media leads to unfavourable comparisons with others' lives\nThese lead to envy, jealousy and dissatisfaction (social comparison theory)\nThis middle chain must be explained using research evidence",
+  "src": {
+   "lec": 3,
+   "p": [
+    8
+   ]
+  },
+  "sim": [
+   "t3-7"
+  ]
+ },
+ {
+  "id": "t3-9",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Key word: explanation",
+  "q": "If you remember only one word about the theoretical framework, what should it be, and why?",
+  "clues": [
+   "Single word",
+   "What the framework does to a relationship"
+  ],
+  "ans": "'Explanation'\nThe theoretical framework explains the relationship between two variables",
+  "src": {
+   "lec": 3,
+   "p": [
+    9
+   ]
+  },
+  "sim": [
+   "t3-1",
+   "t3-10"
+  ]
+ },
+ {
+  "id": "t3-10",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Water-to-ice example",
+  "q": "In the 'how does water become ice?' example, which explanation works like a good theoretical framework, and why?",
+  "clues": [
+   "One explains molecules, one just states a threshold",
+   "Mechanism vs restating"
+  ],
+  "ans": "Explanation 1 (molecules lose energy, slow down and stick together at around 0°C)\nIt explains the mechanism: HOW and WHY cooling leads to ice\nExplanation 2 only states that water turns to ice at 0°C or below, without explaining why",
+  "src": {
+   "lec": 3,
+   "p": [
+    10
+   ]
+  },
+  "sim": [
+   "t3-9",
+   "t3-2"
+  ]
+ },
+ {
+  "id": "t3-11",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Challenge in psychology frameworks",
+  "q": "What is the added challenge when describing a theoretical framework in most areas of psychology?",
+  "clues": [
+   "Contrast with biopsychology/neuropsychology",
+   "Nature of the concepts"
+  ],
+  "ans": "You need to explain how abstract, intangible concepts relate to one another\nExcept perhaps in biopsychology or neuropsychology",
+  "src": {
+   "lec": 3,
+   "p": [
+    12
+   ]
+  },
+  "sim": [
+   "t3-1",
+   "t3-10"
+  ]
+ },
+ {
+  "id": "t3-12",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Theoretical framework",
+  "name": "Assignment 1: theoretical framework",
+  "q": "What must you do with the theoretical framework for Assignment 1?",
+  "clues": [
+   "Article: Beall & Tracy (2013)",
+   "Whose words?"
+  ],
+  "ans": "Identify the theoretical framework in the article (Beall & Tracy, 2013, red/pink at peak fertility)\nDescribe it in your own words",
+  "src": {
+   "lec": 3,
+   "p": [
+    11
+   ]
+  },
+  "sim": [
+   "t3-25"
+  ]
+ },
+ {
+  "id": "t3-13",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "Results section (definition)",
+  "q": "Where is the Results section of an empirical paper and what does it contain?",
+  "clues": [
+   "Comes after a particular section",
+   "Statistical tests"
+  ],
+  "ans": "Presented after the Methods section\nDetails the findings: the outcomes of the statistical tests conducted on the hypotheses\nDo not skip it, even if you don't understand the statistics/symbols (α, β, ΔR², r, χ², F, t, p)",
+  "src": {
+   "lec": 3,
+   "p": [
+    13
+   ]
+  },
+  "sim": [
+   "t3-14",
+   "t3-16"
+  ]
+ },
+ {
+  "id": "t3-14",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "Why the Results section is important",
+  "q": "Why is the Results section important to read?",
+  "clues": [
+   "Three reasons",
+   "Hypotheses, deeper insight, size"
+  ],
+  "ans": "It is the first section to report whether the hypothesis is supported (look for 'This supports Hypothesis 1')\nIt gives deeper insight into findings (follow-up/additional tests that test hypotheses more strictly)\nIt gives details about the strength/magnitude of the effect",
+  "src": {
+   "lec": 3,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t3-13",
+   "t3-15"
+  ]
+ },
+ {
+  "id": "t3-15",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "Effect strength / magnitude",
+  "q": "Why does the Results section's information on the strength or magnitude of an effect matter?",
+  "clues": [
+   "Significant isn't always big",
+   "Minor differences"
+  ],
+  "ans": "Sometimes there is only a very minor difference (effect) or a weak relationship between variables\nYou want to know how strong the effect of the relationship is",
+  "src": {
+   "lec": 3,
+   "p": [
+    14
+   ]
+  },
+  "sim": [
+   "t3-17",
+   "t3-18"
+  ]
+ },
+ {
+  "id": "t3-16",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "Reading Results against the hypothesis",
+  "q": "What should you always refer to in order to understand the Results section, and why?",
+  "clues": [
+   "Something stated earlier in the paper",
+   "Correspondence"
+  ],
+  "ans": "Always refer to the hypothesis\nThe Results should be written to correspond with the predictions\nThis lets you answer the research question",
+  "src": {
+   "lec": 3,
+   "p": [
+    15,
+    14
+   ]
+  },
+  "sim": [
+   "t3-14",
+   "t3-13"
+  ]
+ },
+ {
+  "id": "t3-17",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "'Significant' / statistical significance",
+  "q": "What does 'significant' usually mean in a Results section?",
+  "clues": [
+   "A statistical idea",
+   "Chance"
+  ],
+  "ans": "It usually implies statistical significance\nThe observed effect could not have happened by chance",
+  "src": {
+   "lec": 3,
+   "p": [
+    15
+   ]
+  },
+  "sim": [
+   "t3-18",
+   "t3-15"
+  ]
+ },
+ {
+  "id": "t3-18",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "p values (p < .05)",
+  "q": "What does a p value less than .05 (p < .05) mean in a Results section?",
+  "clues": [
+   "Simple version vs correct interpretation",
+   "The 'null'"
+  ],
+  "ans": "Simple version: the observed effect could not have happened by chance\nCorrect interpretation: the value is so unlikely that the null should be rejected\nResults may also be shown graphically to aid understanding",
+  "src": {
+   "lec": 3,
+   "p": [
+    15
+   ]
+  },
+  "sim": [
+   "t3-17",
+   "t3-15"
+  ]
+ },
+ {
+  "id": "t3-19",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Results section",
+  "name": "Tip: avoiding the statistics",
+  "q": "What does the lecture suggest if you feel very uncomfortable reading the Results section?",
+  "clues": [
+   "Skip to two other sections",
+   "But not forever"
+  ],
+  "ans": "Read the literature review, then jump to the Discussion for a description of findings without statistics\nYou can't avoid statistics forever, so get used to them as soon as you can",
+  "src": {
+   "lec": 3,
+   "p": [
+    20
+   ]
+  },
+  "sim": [
+   "t3-13",
+   "t3-21"
+  ]
+ },
+ {
+  "id": "t3-20",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Four purposes of the Discussion",
+  "q": "What four purposes does the Discussion section usually serve?",
+  "clues": [
+   "Starts by restating, ends looking ahead",
+   "One is about wider literature"
+  ],
+  "ans": "Summary of results\nLinks back to broader literature\nImplications\nLimitations and directions for future research",
+  "src": {
+   "lec": 3,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t3-21",
+   "t3-22",
+   "t3-23"
+  ]
+ },
+ {
+  "id": "t3-21",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Discussion: summary of results",
+  "q": "What does the 'summary of results' part of the Discussion do?",
+  "clues": [
+   "Key findings",
+   "Hypotheses"
+  ],
+  "ans": "Summarises the key findings of the study\nRe-states briefly which hypotheses were supported\n(The Discussion is usually easier to read than the Results)",
+  "src": {
+   "lec": 3,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t3-20",
+   "t3-14"
+  ]
+ },
+ {
+  "id": "t3-22",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Discussion: links back to broader literature",
+  "q": "What does the 'links back to broader literature' part of the Discussion do?",
+  "clues": [
+   "Big picture",
+   "Topic area"
+  ],
+  "ans": "Provides a 'big picture' view of the findings\nRelates them back to research within the topic area",
+  "src": {
+   "lec": 3,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t3-20",
+   "t3-31"
+  ]
+ },
+ {
+  "id": "t3-23",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Discussion: limitations and future research",
+  "q": "What does the 'limitations and directions for future research' part of the Discussion do?",
+  "clues": [
+   "Weaknesses",
+   "What should come next"
+  ],
+  "ans": "Acknowledges the limitations and weaknesses of the current study\nSuggests what future research should focus on, maybe a new research question",
+  "src": {
+   "lec": 3,
+   "p": [
+    16
+   ]
+  },
+  "sim": [
+   "t3-20",
+   "t3-25"
+  ]
+ },
+ {
+  "id": "t3-24",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Theoretical vs practical implications",
+  "q": "What is the difference between theoretical and practical implications?",
+  "clues": [
+   "One is about theories, one about the real world",
+   "Each has guiding questions"
+  ],
+  "ans": "Theoretical: what findings mean for future research and the advancement of psychological theories\nAsk: does the study support, challenge or extend theories? What novel insights does it add?\nPractical: what findings mean for the real world (applications)\nAsk: who benefits most? How can findings be applied? What recommendations can be offered?",
+  "src": {
+   "lec": 3,
+   "p": [
+    17
+   ]
+  },
+  "sim": [
+   "t3-26",
+   "t3-22"
+  ]
+ },
+ {
+  "id": "t3-25",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Assignment 1: future research",
+  "q": "What are the rules for the future research suggestion in Assignment 1?",
+  "clues": [
+   "Whose idea?",
+   "Penalty for copying"
+  ],
+  "ans": "Assignment 1 focuses on results and suggesting what future research should do\nSuggest another study that logically extends/builds on the current findings\nIt must be your own idea, and you must justify why\nRestating the article's own future research suggestion gets ZERO marks for that section",
+  "src": {
+   "lec": 3,
+   "p": [
+    18
+   ]
+  },
+  "sim": [
+   "t3-23",
+   "t3-12"
+  ]
+ },
+ {
+  "id": "t3-26",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Discussion section",
+  "name": "Beall & Tracy (2013) practical implications task",
+  "q": "What questions does the lecture ask you to answer about the practical implications of Beall and Tracy (2013)?",
+  "clues": [
+   "Red or pink when ovulating",
+   "Benefit and use"
+  ],
+  "ans": "Who will benefit from understanding that women tend to wear red or pink when ovulating?\nHow can this knowledge be used for practical purposes?\nAlso: what future research did the researchers suggest?",
+  "src": {
+   "lec": 3,
+   "p": [
+    19
+   ]
+  },
+  "sim": [
+   "t3-24",
+   "t3-25"
+  ]
+ },
+ {
+  "id": "t3-27",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Evaluating papers",
+  "name": "Why evaluate scientific literature",
+  "q": "Why should you read scientific articles skeptically and critically?",
+  "clues": [
+   "What good scientists do",
+   "Side benefit"
+  ],
+  "ans": "All (good) scientists are skeptical and critical of claims made in any research article\nAs a budding scientist you should be too\nSide benefit: you become more critical of non-scientific articles as well",
+  "src": {
+   "lec": 3,
+   "p": [
+    21
+   ]
+  },
+  "sim": [
+   "t3-28",
+   "t3-30"
+  ]
+ },
+ {
+  "id": "t3-28",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Evaluating papers",
+  "name": "Evaluating the Introduction & Literature Review",
+  "q": "What questions should you ask when evaluating the Introduction and Literature Review?",
+  "clues": [
+   "Coverage, framework, RQ, flow",
+   "Does evidence support the framework?"
+  ],
+  "ans": "Good coverage of directly relevant literature?\nDoes the theoretical framework justify the hypotheses? Does the evidence support the framework and phenomenon?\nIs the research question logical, new and relevant?\nFlow and structure: does each point flow naturally to the next?",
+  "src": {
+   "lec": 3,
+   "p": [
+    22
+   ]
+  },
+  "sim": [
+   "t3-29",
+   "t3-31",
+   "t3-34"
+  ]
+ },
+ {
+  "id": "t3-29",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Evaluating papers",
+  "name": "Evaluating the Methods section",
+  "q": "What questions should you ask when evaluating the Methods section?",
+  "clues": [
+   "Data collection, measures, bias",
+   "Could it be done better?"
+  ],
+  "ans": "Is it a reasonable, appropriate way to collect data to answer the RQ? Is there a more appropriate way?\nAre the measures representative of the variables?\nAre the experimental procedures/survey administration unbiased?",
+  "src": {
+   "lec": 3,
+   "p": [
+    23
+   ]
+  },
+  "sim": [
+   "t3-28",
+   "t3-33",
+   "t3-35"
+  ]
+ },
+ {
+  "id": "t3-30",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Evaluating papers",
+  "name": "Evaluating the Results section",
+  "q": "What questions should you ask when evaluating the Results section?",
+  "clues": [
+   "Consistency with past research",
+   "Fair conclusions; statistics (advanced)"
+  ],
+  "ans": "What did the authors find? Is it consistent with past research? If not, can they explain why?\nAre conclusions and interpretations from the results fair and logical?\nWere appropriate statistical analyses used? (advanced)",
+  "src": {
+   "lec": 3,
+   "p": [
+    24
+   ]
+  },
+  "sim": [
+   "t3-32",
+   "t3-31"
+  ]
+ },
+ {
+  "id": "t3-31",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Evaluating papers",
+  "name": "Evaluating the Discussion section",
+  "q": "What questions should you ask when evaluating the Discussion section?",
+  "clues": [
+   "Interpretation, literature, alternatives",
+   "Limitations, future research, implications"
+  ],
+  "ans": "Did authors accurately and comprehensively interpret the results?\nDid they reference relevant literature and consider alternative explanations?\nWere limitations discussed?\nWere future research directions suggested?\nWere broader practical and/or theoretical implications discussed?",
+  "src": {
+   "lec": 3,
+   "p": [
+    25
+   ]
+  },
+  "sim": [
+   "t3-30",
+   "t3-20"
+  ]
+ },
+ {
+  "id": "t3-32",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Flawed-study activity",
+  "name": "Study 1: coffee and alertness",
+  "q": "In the flawed-study activity, where is the flaw in Study 1 (coffee increases student alertness)?",
+  "clues": [
+   "Compare the results with the hypothesis",
+   "Who spotted more errors?"
+  ],
+  "ans": "Likely flaw: Results (answer not given on slides)\nThe non-coffee group spotted more errors, the opposite of the hypothesis\nYet the authors claim 'the hypothesis is supported', an unfair/illogical conclusion",
+  "src": {
+   "lec": 3,
+   "p": [
+    27
+   ]
+  },
+  "sim": [
+   "t3-30",
+   "t3-34"
+  ]
+ },
+ {
+  "id": "t3-33",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Flawed-study activity",
+  "name": "Study 2: commitment and motivation",
+  "q": "In the flawed-study activity, where is the flaw in Study 2 (commitment and motivation)?",
+  "clues": [
+   "Who is the literature about?",
+   "Who was sampled?"
+  ],
+  "ans": "Likely flaw: Methods (answer not given on slides)\nThe literature is about employees' commitment to their organisation\nBut the sample was 345 psychology students, so the measures/sample don't represent the variables\n(Only the commitment measure is described as reliable and established)",
+  "src": {
+   "lec": 3,
+   "p": [
+    28
+   ]
+  },
+  "sim": [
+   "t3-29",
+   "t3-35"
+  ]
+ },
+ {
+  "id": "t3-34",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Flawed-study activity",
+  "name": "Study 3: self-awareness and emotions",
+  "q": "In the flawed-study activity, where is the flaw in Study 3 (labelling the causes of our emotions)?",
+  "clues": [
+   "What does the literature say about high self-awareness?",
+   "Check the direction of the hypothesis"
+  ],
+  "ans": "Likely flaw: Introduction/theoretical framework (answer not given on slides)\nThe framework says high self-awareness makes people less susceptible to misattribution, implying a positive link with identifying emotions\nYet the RQ and hypothesis predict a negative relationship, so the framework does not justify the hypothesis",
+  "src": {
+   "lec": 3,
+   "p": [
+    29
+   ]
+  },
+  "sim": [
+   "t3-28",
+   "t3-32"
+  ]
+ },
+ {
+  "id": "t3-35",
+  "deck": "L3 · Scientific Reports II",
+  "sec": "Flawed-study activity",
+  "name": "Study 4: Facebook and trust",
+  "q": "In the flawed-study activity, what is wrong with Study 4 (Facebook ruins relationships)?",
+  "clues": [
+   "Is there a comparison group?",
+   "Compare the variable in the RQ and the hypothesis"
+  ],
+  "ans": "Likely flaw: Methods (answer not given on slides)\nThe hypothesis compares couples who stay off Facebook with those who keep using it, but all 64 couples were measured the same way, with no comparison group\nAlso, the hypothesis names relationship 'satisfaction' while the RQ, method and results are about trust",
+  "src": {
+   "lec": 3,
+   "p": [
+    30
+   ]
+  },
+  "sim": [
+   "t3-29",
+   "t3-33"
+  ]
+ },
+ {
   "id": "t4-1",
   "deck": "L4 · Academic Writing I",
   "sec": "What is academic writing",

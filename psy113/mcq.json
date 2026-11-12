@@ -468,6 +468,266 @@
   "why": "Lecture 2 describes the abstract as a brief 150–250 word summary of the report."
  },
  {
+  "id": "m3-1",
+  "lec": 3,
+  "q": "A paper states: 'People who sleep less have weaker self-control because sleep loss depletes the glucose the prefrontal cortex needs to regulate impulses; therefore we predict a negative relationship between sleep debt and self-control.' Which part of the paper is this?",
+  "opts": [
+   "The theoretical framework",
+   "The Results section",
+   "The limitations in the Discussion",
+   "The operational definitions in the Methods"
+  ],
+  "a": 0,
+  "why": "It explains how and why two variables are connected to justify a hypothesis, which is what a theoretical framework is."
+ },
+ {
+  "id": "m3-2",
+  "lec": 3,
+  "q": "A paper states: 'Consistent with Hypothesis 2, loneliness significantly predicted depressive symptoms, r = .41, p < .001.' Which part of the paper is this?",
+  "opts": [
+   "Introduction",
+   "Discussion – theoretical implications",
+   "Results",
+   "Method"
+  ],
+  "a": 2,
+  "why": "The Results section reports the outcomes of statistical tests and whether each hypothesis is supported."
+ },
+ {
+  "id": "m3-3",
+  "lec": 3,
+  "q": "A paper states: 'Because our sample consisted only of undergraduate students, the findings may not generalise to older adults; future studies should test working adults.' This belongs to which purpose of the Discussion?",
+  "opts": [
+   "Summary of results",
+   "Links back to broader literature",
+   "Practical implications",
+   "Limitations and directions for future research"
+  ],
+  "a": 3,
+  "why": "Acknowledging weaknesses and suggesting what future research should focus on is the limitations and future research purpose."
+ },
+ {
+  "id": "m3-4",
+  "lec": 3,
+  "q": "A paper states: 'These findings suggest school counsellors could introduce short mindfulness sessions before exams to reduce test anxiety.' What is this?",
+  "opts": [
+   "A theoretical implication",
+   "A practical implication",
+   "A theoretical framework",
+   "A research question"
+  ],
+  "a": 1,
+  "why": "Practical implications concern real-world applications: who benefits and how the findings can be applied."
+ },
+ {
+  "id": "m3-5",
+  "lec": 3,
+  "q": "A paper states: 'Our results extend self-determination theory by showing that autonomy matters even in collectivist cultures.' What is this?",
+  "opts": [
+   "A practical implication",
+   "A limitation",
+   "A theoretical implication",
+   "A summary of past results"
+  ],
+  "a": 2,
+  "why": "Theoretical implications describe how a study supports, challenges or extends existing psychological theories."
+ },
+ {
+  "id": "m3-6",
+  "lec": 3,
+  "q": "A student's Assignment 1 says the theoretical framework of an article is: 'The authors used evolutionary theory.' According to the lecture, what is wrong with this?",
+  "opts": [
+   "Nothing; naming the theory is enough",
+   "A framework must always be labelled as a 'model' in the article",
+   "Listing a theory without explaining how and why the variables connect is not a theoretical framework",
+   "The framework should be taken from the Results section"
+  ],
+  "a": 2,
+  "why": "A theoretical framework is not the same as a theory; simply listing a theory without explanation does not make it a framework."
+ },
+ {
+  "id": "m3-7",
+  "lec": 3,
+  "q": "A literature review lists five studies that all found a link between exercise and mood, but never says why the two are connected. What is missing?",
+  "opts": [
+   "A theoretical framework explaining how and why the variables are related",
+   "A p value",
+   "A summary of results",
+   "A limitations section"
+  ],
+  "a": 0,
+  "why": "A summary of past results does not tell you how variables are related; the framework must give the explanation."
+ },
+ {
+  "id": "m3-8",
+  "lec": 3,
+  "q": "A paper's Discussion opens: 'As predicted, students who journalled daily reported lower stress than controls, supporting Hypothesis 1; Hypothesis 2 was not supported.' Which purpose of the Discussion is this?",
+  "opts": [
+   "Links back to broader literature",
+   "Summary of results",
+   "Theoretical implications",
+   "Limitations and directions for future research"
+  ],
+  "a": 1,
+  "why": "The summary of results restates the key findings and briefly says which hypotheses were supported."
+ },
+ {
+  "id": "m3-9",
+  "lec": 3,
+  "q": "In the 'how does water become ice?' example, why is Explanation 1 more convincing than 'water turns into ice at 0°C or below'?",
+  "opts": [
+   "It mentions a precise temperature",
+   "It is shorter and clearer",
+   "It cites a published source",
+   "It explains the mechanism (molecules losing energy and sticking together)"
+  ],
+  "a": 3,
+  "why": "A good framework explains how and why, not just restating that one thing follows another."
+ },
+ {
+  "id": "m3-10",
+  "lec": 3,
+  "q": "In the lecture's smartphone example, which theory explains why smartphone use may lower life satisfaction?",
+  "opts": [
+   "Social comparison processes (Festinger, 1954)",
+   "Misattribution of arousal",
+   "Partner surveillance",
+   "Testosterone and dominance"
+  ],
+  "a": 0,
+  "why": "People use smartphones for social media, make unfavourable comparisons with others, and feel envy and dissatisfaction."
+ },
+ {
+  "id": "m3-11",
+  "lec": 3,
+  "q": "A Results section reports a statistically significant difference, but the difference between groups is tiny. Why does the lecture say the Results section is still worth reading closely?",
+  "opts": [
+   "It tells you the article was peer reviewed",
+   "It gives details about the strength/magnitude of the effect",
+   "It lists the theoretical framework",
+   "It gives the author's own opinion"
+  ],
+  "a": 1,
+  "why": "Results give the strength/magnitude of an effect, which matters because some effects or relationships are very weak."
+ },
+ {
+  "id": "m3-12",
+  "lec": 3,
+  "q": "A Results section reports p = .03 for the difference between two groups. Using the lecture's rule of thumb, how should you read this?",
+  "opts": [
+   "The effect is large",
+   "The hypothesis is automatically rejected",
+   "The observed effect is unlikely to be due to chance, so the null is rejected",
+   "The study had a biased procedure"
+  ],
+  "a": 2,
+  "why": "p < .05 means the effect is so unlikely by chance that the null should be rejected."
+ },
+ {
+  "id": "m3-13",
+  "lec": 3,
+  "q": "For Assignment 1, a student writes: 'The article suggests future studies test other colours; I will also suggest testing other colours.' Another writes: 'Since the effect was found in the US, a future study should test whether it holds in Malaysia, because cultural norms about clothing colour may differ.' Which approach follows the lecture's rules?",
+  "opts": [
+   "The first, because it stays faithful to the article",
+   "Both are equally acceptable",
+   "The second, because it is the student's own justified idea that builds on the findings",
+   "Neither, because Assignment 1 does not ask for future research"
+  ],
+  "a": 2,
+  "why": "Future research must be your own idea that logically extends the findings, with a justification; restating the article's suggestion earns ZERO for that section."
+ },
+ {
+  "id": "m3-14",
+  "lec": 3,
+  "q": "When evaluating a Methods section, which question is the lecture's?",
+  "opts": [
+   "Is the research question new and relevant?",
+   "Did the authors discuss practical implications?",
+   "Are the results consistent with past research?",
+   "Are the measures used representative of the variables?"
+  ],
+  "a": 3,
+  "why": "Methods evaluation asks about appropriate data collection, representative measures and unbiased procedures."
+ },
+ {
+  "id": "m3-15",
+  "lec": 3,
+  "q": "A reviewer asks: 'Did the authors consider alternative explanations for their findings?' Which section is being evaluated?",
+  "opts": [
+   "Discussion",
+   "Methods",
+   "Introduction",
+   "Abstract"
+  ],
+  "a": 0,
+  "why": "Evaluating the Discussion includes whether relevant literature and alternative explanations were discussed."
+ },
+ {
+  "id": "m3-16",
+  "lec": 3,
+  "q": "Study 1: coffee drinkers spotted FEWER errors than non-drinkers, yet the authors conclude 'the hypothesis is supported.' Where is the flaw?",
+  "opts": [
+   "Introduction – the literature is irrelevant",
+   "Results – the conclusion contradicts the finding",
+   "Method – there was no eye tracking",
+   "Discussion – limitations are missing"
+  ],
+  "a": 1,
+  "why": "A Results evaluation asks whether conclusions drawn from results are fair and logical; here they are not."
+ },
+ {
+  "id": "m3-17",
+  "lec": 3,
+  "q": "Study 3's literature says highly self-aware people are LESS susceptible to misattributing emotions, but the hypothesis predicts a NEGATIVE relationship between self-awareness and identifying emotions. Which question from the lecture flags this flaw?",
+  "opts": [
+   "Are the procedures unbiased?",
+   "Are appropriate statistics used?",
+   "Does the theoretical framework justify the hypotheses?",
+   "Was a limitation discussed?"
+  ],
+  "a": 2,
+  "why": "The framework implies a positive relationship, so it does not justify the stated hypothesis (an Introduction/framework flaw)."
+ },
+ {
+  "id": "m3-18",
+  "lec": 3,
+  "q": "Study 2 reviews research on employees' commitment to their organisation, then surveys 345 psychology students. Which section's evaluation question best identifies this problem?",
+  "opts": [
+   "Methods: is this an appropriate way to collect data and are measures representative of the variables?",
+   "Results: are results consistent with past research?",
+   "Discussion: were implications discussed?",
+   "Introduction: does each point flow to the next?"
+  ],
+  "a": 0,
+  "why": "The sample does not match the population and variables described in the literature, which is a Methods issue."
+ },
+ {
+  "id": "m3-19",
+  "lec": 3,
+  "q": "Study 4's hypothesis compares couples who stay off Facebook with couples who keep using it, but all 64 couples were simply measured twice. What is the main methods problem?",
+  "opts": [
+   "Trust was measured by both partners",
+   "There was no comparison group of couples who continued using Facebook",
+   "The study lasted a month",
+   "The sample size was too large"
+  ],
+  "a": 1,
+  "why": "Without a group that kept using Facebook, the method cannot test the comparison stated in the hypothesis."
+ },
+ {
+  "id": "m3-20",
+  "lec": 3,
+  "q": "A paper's Discussion states: 'Our finding that gratitude predicts sleep quality mirrors earlier work on positive emotions and health, placing it within a broader pattern in wellbeing research.' Which purpose of the Discussion is this?",
+  "opts": [
+   "Practical implications",
+   "Limitations",
+   "Summary of results",
+   "Links back to broader literature"
+  ],
+  "a": 3,
+  "why": "Linking back to broader literature gives a 'big picture' view by relating the findings to research within the topic area."
+ },
+ {
   "id": "m4-1",
   "lec": 4,
   "q": "Academic writing is best defined as:",

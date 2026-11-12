@@ -1,5 +1,7 @@
 import re,sys
-src=open('index.html').read();s=src
+import subprocess
+# built from the PSY 111 page as it was before PSY 111 got Exam mode (commit 2ca76ec)
+src=subprocess.check_output(['git','show','2ca76ec:index.html'],text=True);s=src
 def rep(a,b,n=1):
     global s
     c=s.count(a)

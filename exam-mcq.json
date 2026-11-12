@@ -1,0 +1,2438 @@
+[
+ {
+  "id": "xa-1",
+  "deck": "Intro to Psychology",
+  "type": "scenario",
+  "q": "In a lab, trained observers listen to a metronome and carefully report each click as a set of basic sensations, images and feelings. The researcher wants to map the building blocks of conscious experience. Which school of thought does this best represent?",
+  "opts": [
+   "Functionalism, as developed by William James",
+   "Structuralism, as developed by Titchener",
+   "Gestalt psychology, as developed by Wertheimer",
+   "Behaviourism, as developed by John B. Watson"
+  ],
+  "a": 1,
+  "why": "Breaking experience into sensations, images and affections is Titchener's structuralism. Functionalism is tempting because it is also an early school, but it asks what the mind does to help us adapt, not what elements it is made of."
+ },
+ {
+  "id": "xa-2",
+  "deck": "Intro to Psychology",
+  "type": "scenario",
+  "q": "Puan Siti, a counsellor, tells her client Danial that he is free to choose a new path after failing his first semester, and that their work is about helping him become his full, actual self. Which perspective is she using?",
+  "opts": [
+   "Psychodynamic perspective",
+   "Cognitive perspective",
+   "Behavioural perspective",
+   "Humanistic perspective"
+  ],
+  "a": 3,
+  "why": "Free will and self-actualisation are the core ideas of the humanistic 'third force' (Maslow, Rogers). Psychodynamic is tempting because it also deals with the self, but it focuses on unconscious motivations and early experience rather than free choice."
+ },
+ {
+  "id": "xa-3",
+  "deck": "Intro to Psychology",
+  "type": "scenario",
+  "q": "A researcher argues that people in every culture fear snakes and heights because ancestors who avoided them were more likely to survive and reproduce. Which perspective is she taking?",
+  "opts": [
+   "Biopsychological perspective",
+   "Evolutionary perspective",
+   "Sociocultural perspective",
+   "Behavioural perspective"
+  ],
+  "a": 1,
+  "why": "Explaining a universal trait by its adaptive or survival value is the evolutionary perspective. Biopsychological is tempting because it is also biological, but it explains behaviour through current bodily events such as hormones or nervous-system activity, not survival history."
+ },
+ {
+  "id": "xa-4",
+  "deck": "Intro to Psychology",
+  "type": "predict",
+  "q": "Mei Ling is a participant in a HELP study. Halfway through a stressful timed task she says she wants to stop, even though she signed the consent form. Under common ethical guidelines, what should happen?",
+  "opts": [
+   "She must finish because her consent form is binding",
+   "She may stop only after the researcher debriefs her fully",
+   "She may withdraw immediately without having to finish",
+   "She may stop only if the review board approves first"
+  ],
+  "a": 2,
+  "why": "Participants may withdraw at any time, regardless of having consented earlier. Debriefing is also a guideline, but it is not a condition she must meet before she is allowed to leave."
+ },
+ {
+  "id": "xa-5",
+  "deck": "Intro to Psychology",
+  "type": "predict",
+  "q": "A HELP lecturer plans a study in which participants are briefly misled about its true purpose. Before any data are collected, what is most likely to happen?",
+  "opts": [
+   "The study is automatically rejected because deception is banned",
+   "An ethics review board judges whether the deception is justified",
+   "Participants are told the hypothesis so consent is not needed",
+   "The study goes ahead and is reviewed only after it is published"
+  ],
+  "a": 1,
+  "why": "Institutional review boards (e.g. the HELP Ethics Review Board) review each proposed study, and deception is allowed only if it is justified and followed by debriefing. Deception is not automatically banned, so the rejection option is wrong."
+ },
+ {
+  "id": "xa-6",
+  "deck": "Intro to Psychology",
+  "type": "nearmiss",
+  "q": "Aina has severe depression and her doctor thinks medication may help. Which professional can prescribe it, and why?",
+  "opts": [
+   "A psychiatrist, because a psychiatrist is a medical doctor",
+   "A psychologist, because a Ph.D. licence allows prescribing",
+   "A psychiatric social worker, because they hold an L.C.S.W.",
+   "A psychologist, because they specialise in clinical disorders"
+  ],
+  "a": 0,
+  "why": "A psychiatrist is a medical doctor and can prescribe medication. A psychologist is tempting because many treat disorders, but a psychologist holds a Ph.D., Psy.D. or Ed.D. and typically doesn't prescribe."
+ },
+ {
+  "id": "xa-7",
+  "deck": "Intro to Psychology",
+  "type": "nearmiss",
+  "q": "A therapist explores how Encik Lim's sense of self formed in childhood and what motivates his choices, with little attention to sexual urges. Why is this psychodynamic rather than classic psychoanalysis?",
+  "opts": [
+   "It rejects the unconscious and studies only behaviour",
+   "It focuses on the self and motives, not sexual motivations",
+   "It was developed by Freud himself in his early clinic",
+   "It explains behaviour through hormones and genes"
+  ],
+  "a": 1,
+  "why": "The psychodynamic perspective is the modern version of psychoanalysis and focuses on the developing self and motives rather than sexual motivations. Rejecting the unconscious and studying only behaviour describes behaviourism, not psychodynamics."
+ },
+ {
+  "id": "xa-8",
+  "deck": "Intro to Psychology",
+  "type": "nearmiss",
+  "q": "Danial studies how memory helps first-year students adapt to university life. Why does this fit functionalism rather than structuralism?",
+  "opts": [
+   "It asks what the mind does to help people adapt",
+   "It breaks memory into sensations, images and affections",
+   "It holds that the whole is greater than its parts",
+   "It studies only behaviour that can be directly measured"
+  ],
+  "a": 0,
+  "why": "Functionalism (William James) asks how the mind helps people adapt, live, work and play. Breaking experience into sensations, images and affections is structuralism, the very school this example contrasts with."
+ },
+ {
+  "id": "xa-9",
+  "deck": "Intro to Psychology",
+  "type": "evidence",
+  "q": "A baby who showed no fear of a white rat began to cry at the sight of it after the rat was repeatedly paired with a loud noise. Which claim does this case most directly support?",
+  "opts": [
+   "Freud's claim that phobias come from repressed urges",
+   "The claim that fears are universal survival traits",
+   "Watson's claim that phobias are learned",
+   "Wundt's claim that consciousness has basic elements"
+  ],
+  "a": 2,
+  "why": "Little Albert was Watson's demonstration that a fear (phobia) can be conditioned, i.e. learned. Freud's explanation is tempting because it also concerns phobias, but the fear here was produced by pairing, not by repressed urges."
+ },
+ {
+  "id": "xa-10",
+  "deck": "Intro to Psychology",
+  "type": "evidence",
+  "q": "People recognise the song 'Negaraku' instantly even when every note is shifted into a different key, so no single note is the same as before. Which school does this finding best support?",
+  "opts": [
+   "Structuralism",
+   "Functionalism",
+   "Gestalt psychology",
+   "Behaviourism"
+  ],
+  "a": 2,
+  "why": "Recognising the tune even though every element changed shows the whole is greater than the sum of its parts, the Gestalt claim. It weakens structuralism, which assumes experience can be understood by breaking it into its basic elements."
+ },
+ {
+  "id": "xa-11",
+  "deck": "Intro to Psychology",
+  "type": "oddone",
+  "q": "Three of these researchers follow common ethical guidelines. Which one does NOT?",
+  "opts": [
+   "Explains the study to participants after using deception",
+   "Stores participants' answers under codes, not names",
+   "Explains risks clearly before participants sign consent",
+   "Tells a participant she can't leave because she was paid"
+  ],
+  "a": 3,
+  "why": "Participants may withdraw at any time, so refusing to let someone leave breaks the guidelines. Debriefing after deception is not a violation; it is the required follow-up when deception is justified."
+ },
+ {
+  "id": "xa-12",
+  "deck": "Intro to Psychology",
+  "type": "oddone",
+  "q": "Three of these studies take a sociocultural perspective. Which one does NOT?",
+  "opts": [
+   "Measuring cortisol levels in students before SPM exams",
+   "Comparing how Malaysian and Australian students question lecturers",
+   "Studying how roles in a futsal group shape members' behaviour",
+   "Comparing cultural norms about eye contact with elders"
+  ],
+  "a": 0,
+  "why": "Measuring a hormone such as cortisol explains behaviour through biological events in the body, which is the biopsychological perspective. The futsal group study may look less 'cultural', but social roles and groups are part of social psychology within the sociocultural perspective."
+ },
+ {
+  "id": "xa-13",
+  "deck": "Nerve Cells",
+  "type": "scenario",
+  "q": "Aina touches a hot pot. A neuron in the centre of her spinal cord receives the pain signal and passes a command to the neurons that move her arm away. What type of neuron is this?",
+  "opts": [
+   "Interneuron",
+   "Sensory (afferent) neuron",
+   "Motor (efferent) neuron",
+   "Glial cell"
+  ],
+  "a": 0,
+  "why": "Interneurons sit in the centre of the spinal cord, receiving input from sensory neurons and sending commands through motor neurons. A sensory neuron is tempting, but it only carries information from the senses to the CNS; it doesn't pass commands on to motor neurons."
+ },
+ {
+  "id": "xa-14",
+  "deck": "Nerve Cells",
+  "type": "scenario",
+  "q": "While Danial solves a hard calculus problem, certain cells widen nearby blood vessels so the busy brain area receives more nutrients. Which cells are doing this?",
+  "opts": [
+   "Astrocytes",
+   "Microglia",
+   "Oligodendrocytes",
+   "Radial glia"
+  ],
+  "a": 0,
+  "why": "Astrocytes control blood flow and dilate blood vessels during heightened activity. Microglia are tempting because they are also glial cells that remove waste, but they act like an immune system and don't regulate blood flow."
+ },
+ {
+  "id": "xa-15",
+  "deck": "Nerve Cells",
+  "type": "predict",
+  "q": "A neuron at rest receives a stimulus that depolarises it to just below its threshold of excitement. What will most likely happen?",
+  "opts": [
+   "A small action potential is fired",
+   "No action potential is fired",
+   "A full action potential fires slowly",
+   "The neuron enters hyperpolarisation"
+  ],
+  "a": 1,
+  "why": "Below threshold there is no action potential, and by the all-or-none law there is no partial version. A small action potential is tempting, but action potentials fire at full strength or not at all."
+ },
+ {
+  "id": "xa-16",
+  "deck": "Nerve Cells",
+  "type": "predict",
+  "q": "Right after a neuron fires, a researcher applies a very strong stimulus during its absolute refractory period. What will happen?",
+  "opts": [
+   "It will fire because the stimulus is strong",
+   "It will fire a weaker action potential",
+   "It will fire faster than usual",
+   "It won't fire, however strong the stimulus"
+  ],
+  "a": 3,
+  "why": "During the absolute refractory period a neuron cannot fire again regardless of stimulation. 'It fires because the stimulus is strong' describes the relative refractory period, when a stronger-than-usual stimulus is needed."
+ },
+ {
+  "id": "xa-17",
+  "deck": "Nerve Cells",
+  "type": "nearmiss",
+  "q": "A light touch and a hard pinch both trigger action potentials of the same size in Mei Ling's sensory neurons, yet the pinch feels stronger. How is the difference coded?",
+  "opts": [
+   "Larger action potentials for the pinch",
+   "Faster action potentials for the pinch",
+   "Longer-lasting depolarisation per spike",
+   "More frequent firing and more neurons firing"
+  ],
+  "a": 3,
+  "why": "Within a neuron, action potentials have equal intensity and speed, so strength is coded by firing frequency and the number of neurons firing. 'Larger action potentials' is tempting, but the all-or-none law rules it out."
+ },
+ {
+  "id": "xa-18",
+  "deck": "Nerve Cells",
+  "type": "nearmiss",
+  "q": "Encik Lim's damaged nerve in his forearm slowly recovers, but a patient with myelin damage in the spinal cord does not. What best explains the difference?",
+  "opts": [
+   "CNS oligodendrocytes can repair; PNS Schwann cells may not",
+   "Forearm nerves have no myelin, so nothing needs repair",
+   "PNS Schwann cells can repair; CNS oligodendrocytes may not",
+   "Microglia rebuild myelin in the PNS but not in the CNS"
+  ],
+  "a": 2,
+  "why": "Schwann cells (PNS) can reconnect and repair themselves, while oligodendrocytes (CNS) are more likely to be permanently damaged. The reversed option is tempting because both cell types build myelin, but it swaps their locations."
+ },
+ {
+  "id": "xa-19",
+  "deck": "Nerve Cells",
+  "type": "evidence",
+  "q": "Researchers find that a drug which blocks voltage-gated sodium channels prevents a neuron from producing any action potential. What does this support?",
+  "opts": [
+   "Depolarisation depends on potassium rushing in",
+   "Resting potential depends on sodium flowing in",
+   "Depolarisation depends on sodium rushing in",
+   "Action potentials depend on chloride flowing out"
+  ],
+  "a": 2,
+  "why": "In an action potential, sodium channels open and sodium rushes in, making the inside positive (depolarisation). Potassium is tempting, but potassium rushing out is what causes repolarisation and hyperpolarisation, not depolarisation."
+ },
+ {
+  "id": "xa-20",
+  "deck": "Nerve Cells",
+  "type": "evidence",
+  "q": "Recordings show that along a myelinated axon, the action potential is regenerated only at small unmyelinated gaps and travels faster than along a bare axon. Which concept does this support?",
+  "opts": [
+   "Spreading from the axon hillock along bare membrane",
+   "The all-or-none law of neural firing",
+   "Saltatory conduction between nodes of Ranvier",
+   "The relative refractory period"
+  ],
+  "a": 2,
+  "why": "Regeneration only at the gaps (nodes of Ranvier), with a jump from node to node that boosts speed, is saltatory conduction. The axon hillock is tempting because action potentials begin there, but that doesn't explain jumping between gaps."
+ },
+ {
+  "id": "xa-21",
+  "deck": "Nerve Cells",
+  "type": "brain",
+  "q": "A patient's nerve messages have become slow and unreliable. Tests show the fatty coating that insulates his axons is breaking down. Which part of the neuron is affected?",
+  "opts": [
+   "Dendrites",
+   "Myelin sheath",
+   "Soma and nucleus",
+   "Axon terminals"
+  ],
+  "a": 1,
+  "why": "The myelin sheath is the fatty coating that insulates the axon and speeds up impulses, so its loss slows conduction. Axon terminals are tempting, but they communicate with other cells; they are not the insulating coat."
+ },
+ {
+  "id": "xa-22",
+  "deck": "Nerve Cells",
+  "type": "brain",
+  "q": "A toxin stops potassium channels from opening after an action potential peaks. What is the most likely result?",
+  "opts": [
+   "The neuron can't depolarise in the first place",
+   "The neuron can't repolarise back towards rest",
+   "Sodium is pumped out faster than normal",
+   "The neuron overshoots into hyperpolarisation"
+  ],
+  "a": 1,
+  "why": "After the peak, potassium rushes out to bring the charge back down and then below rest. Without this, the neuron stays depolarised and can't repolarise or hyperpolarise. Hyperpolarisation is tempting, but it needs potassium to rush out, which the toxin prevents."
+ },
+ {
+  "id": "xa-23",
+  "deck": "Nerve Cells",
+  "type": "oddone",
+  "q": "Three of these describe a neuron at resting potential. Which one does NOT?",
+  "opts": [
+   "Sodium and potassium channels are closed",
+   "The inside is about −70 mV",
+   "Sodium is more concentrated outside",
+   "Sodium ions rush into the axon"
+  ],
+  "a": 3,
+  "why": "Sodium rushing in is depolarisation during an action potential, not rest. Having more sodium outside is true at rest; that gradient sets the stage for a rapid action potential."
+ },
+ {
+  "id": "xa-24",
+  "deck": "Nerve Cells",
+  "type": "oddone",
+  "q": "Three of these are jobs done by glial cells. Which one is NOT?",
+  "opts": [
+   "Carrying the message from the soma to the terminals",
+   "Guiding neurons to their places in the fetal brain",
+   "Building myelin around axons in the arm",
+   "Removing viruses and fungi from brain tissue"
+  ],
+  "a": 0,
+  "why": "Carrying the message from the soma to the axon terminals is the axon's job, which is part of the neuron. Building myelin is a glial job (Schwann cells in the PNS), as are guiding migration (radial glia) and removing microorganisms (microglia)."
+ },
+ {
+  "id": "xa-25",
+  "deck": "Synapses",
+  "type": "scenario",
+  "q": "A single light tap on Aina's arm doesn't trigger a reflex, but five rapid taps on the same spot do. Which process explains this?",
+  "opts": [
+   "Spatial summation",
+   "Temporal summation",
+   "An IPSP",
+   "The all-or-none law"
+  ],
+  "a": 1,
+  "why": "Repeated stimuli at one spot over a short time add up, which is temporal summation. Spatial summation is tempting, but it needs input from several locations at once, not repeated input at one location."
+ },
+ {
+  "id": "xa-26",
+  "deck": "Synapses",
+  "type": "scenario",
+  "q": "Danial is prescribed a benzodiazepine for anxiety. It works by enhancing GABA's effect at GABA receptors. How is this drug best described?",
+  "opts": [
+   "A GABA antagonist",
+   "A reuptake inhibitor (SSRI)",
+   "A monoamine oxidase inhibitor",
+   "A GABA agonist"
+  ],
+  "a": 3,
+  "why": "An agonist mimics or enhances a neurotransmitter's effect at the receptor, and benzodiazepines are GABA agonists. An antagonist is the opposite: it blocks or reduces the response."
+ },
+ {
+  "id": "xa-27",
+  "deck": "Synapses",
+  "type": "predict",
+  "q": "A patient starts taking an MAOI. What is most likely to happen at her serotonin and dopamine synapses?",
+  "opts": [
+   "More is broken down, so less stays in the synapse",
+   "Less is broken down, so more stays in the synapse",
+   "Reuptake is blocked, so it stays in the presynaptic cell",
+   "Receptors are blocked, so it can't bind"
+  ],
+  "a": 1,
+  "why": "MAOIs block monoamine oxidase, the enzyme that breaks down serotonin, dopamine and norepinephrine, so more remains available. Blocking reuptake is how SSRIs work, not MAOIs."
+ },
+ {
+  "id": "xa-28",
+  "deck": "Synapses",
+  "type": "predict",
+  "q": "At one moment a postsynaptic neuron receives 3 EPSPs and 6 IPSPs of similar size from different synapses. What will most likely happen?",
+  "opts": [
+   "It will fire, since any EPSP triggers an impulse",
+   "It will fire a weaker action potential",
+   "It won't fire, since inhibition outweighs excitation",
+   "It will fire once the IPSPs turn into EPSPs"
+  ],
+  "a": 2,
+  "why": "Whether a neuron fires depends on the ratio of IPSPs to EPSPs at that moment, and here inhibition dominates. 'A weaker action potential' is tempting, but action potentials are all-or-none."
+ },
+ {
+  "id": "xa-29",
+  "deck": "Synapses",
+  "type": "nearmiss",
+  "q": "SSRIs and MAOIs both raise neurotransmitter levels in the synapse. Why is an SSRI said to act on reuptake rather than enzymatic degradation?",
+  "opts": [
+   "It stops serotonin returning to the presynaptic cell",
+   "It stops enzymes from breaking serotonin down",
+   "It makes the presynaptic cell synthesise more serotonin",
+   "It mimics serotonin at the postsynaptic receptor"
+  ],
+  "a": 0,
+  "why": "SSRIs block reuptake, so serotonin is not taken back into the presynaptic neuron. Stopping enzymes from breaking it down is enzymatic degradation, which is the MAOI mechanism."
+ },
+ {
+  "id": "xa-30",
+  "deck": "Synapses",
+  "type": "nearmiss",
+  "q": "Visual information must update within milliseconds. Why are ionotropic rather than metabotropic effects better suited to it?",
+  "opts": [
+   "They use second messengers for lasting effects",
+   "They act through hormones carried in the blood",
+   "They open ion channels directly in under 1 ms",
+   "They take about 30 ms but last for minutes"
+  ],
+  "a": 2,
+  "why": "Ionotropic receptors are ligand-gated: the neurotransmitter opens the channel immediately (< 1 ms), and the effect is brief. Second messengers and minutes-long effects describe metabotropic receptors, which suit taste, smell and attention."
+ },
+ {
+  "id": "xa-31",
+  "deck": "Synapses",
+  "type": "evidence",
+  "q": "Loewi stimulated the vagus nerve of a frog, slowing its heart, then moved the surrounding fluid to a second frog's heart, which also slowed. What did this show?",
+  "opts": [
+   "Communication across the synapse is chemical",
+   "Communication across the synapse is electrical",
+   "The heart is controlled by hormones from glands",
+   "Reflexes are slower than conduction along an axon"
+  ],
+  "a": 0,
+  "why": "A substance in the fluid alone was enough to slow the second heart, so the message was carried by a chemical (neurotransmitter). Electrical transmission was the rival idea that this experiment weakened."
+ },
+ {
+  "id": "xa-32",
+  "deck": "Synapses",
+  "type": "evidence",
+  "q": "Sherrington found that a reflex travels more slowly than an impulse along an axon, and that several weak stimuli at slightly different times give a stronger reflex than one. What did he conclude?",
+  "opts": [
+   "Axons conduct impulses more slowly than expected",
+   "Reflexes are controlled by hormones in the blood",
+   "Neurons are physically joined into one network",
+   "Special processes happen at the junction between neurons"
+  ],
+  "a": 3,
+  "why": "These delays and summation effects suggested special processes at the gap between neurons, which he named the synapse. 'Neurons are physically joined' contradicts this; the delay points to a gap, not a continuous network."
+ },
+ {
+  "id": "xa-33",
+  "deck": "Synapses",
+  "type": "brain",
+  "q": "Encik Lim has tremors and difficulty starting movements. Doctors find too little of one neurotransmitter in brain areas that control movement. Which one?",
+  "opts": [
+   "Serotonin",
+   "Dopamine",
+   "GABA",
+   "Acetylcholine"
+  ],
+  "a": 1,
+  "why": "Too little dopamine in certain areas is linked to Parkinson's disease, and dopamine is involved in control of movement. Acetylcholine is tempting because it controls muscle contractions, but Parkinson's is linked to a dopamine shortage."
+ },
+ {
+  "id": "xa-34",
+  "deck": "Synapses",
+  "type": "brain",
+  "q": "A patient with schizophrenia is given an antipsychotic drug. Based on how such drugs work, what does it do at the synapse?",
+  "opts": [
+   "Mimics dopamine, increasing the response",
+   "Blocks serotonin reuptake, raising serotonin",
+   "Blocks dopamine receptors, reducing the response",
+   "Enhances GABA, increasing inhibition"
+  ],
+  "a": 2,
+  "why": "Antipsychotics are dopamine antagonists, and schizophrenia is linked to too much dopamine in certain areas. Mimicking dopamine would make it an agonist, which would worsen the problem."
+ },
+ {
+  "id": "xa-35",
+  "deck": "Synapses",
+  "type": "oddone",
+  "q": "Three of these are inhibitory effects. Which one is NOT?",
+  "opts": [
+   "Glutamate strengthening connections while studying",
+   "GABA reducing movement as you fall asleep",
+   "Endorphins dulling pain near the end of a run",
+   "Chloride ions entering a postsynaptic cell"
+  ],
+  "a": 0,
+  "why": "Glutamate is the major excitatory neurotransmitter, involved in learning and plasticity. Chloride entering the cell might look neutral, but it produces an IPSP, which is a hyperpolarising brake."
+ },
+ {
+  "id": "xa-36",
+  "deck": "Synapses",
+  "type": "oddone",
+  "q": "Three of these match a hormone to its gland and effect correctly. Which one does NOT?",
+  "opts": [
+   "Melatonin from the pineal gland, causing sleepiness",
+   "Cortisol from the adrenal cortex, raising blood sugar",
+   "Leptin from the pancreas, increasing appetite",
+   "Oxytocin from the posterior pituitary, releasing milk"
+  ],
+  "a": 2,
+  "why": "Leptin comes from fat cells and decreases appetite; the pancreas makes insulin and glucagon. The other three pairings match the lecture's gland-by-gland list."
+ },
+ {
+  "id": "xa-37",
+  "deck": "Nervous System",
+  "type": "scenario",
+  "q": "Walking home at night, Encik Lim is chased by a stray dog. His heart pounds, his pupils widen and his digestion stops. Which division is in control?",
+  "opts": [
+   "Parasympathetic nervous system",
+   "Somatic nervous system",
+   "Central nervous system only",
+   "Sympathetic nervous system"
+  ],
+  "a": 3,
+  "why": "The sympathetic division reacts to stress and prepares the body for fight-or-flight. The parasympathetic division does the opposite: it lowers heart rate and increases digestion after the threat passes."
+ },
+ {
+  "id": "xa-38",
+  "deck": "Nervous System",
+  "type": "scenario",
+  "q": "Mei Ling wants to record, millisecond by millisecond, when the brain responds as people read a word. Pinpointing the exact brain location matters less. Which method suits her best?",
+  "opts": [
+   "fMRI",
+   "PET",
+   "CT",
+   "EEG"
+  ],
+  "a": 3,
+  "why": "EEG has good temporal (timing) but poor spatial resolution, which fits her goal. fMRI is tempting because it measures function in clearer detail, but it tracks slower changes in oxygenation and is chosen for location, not millisecond timing."
+ },
+ {
+  "id": "xa-39",
+  "deck": "Nervous System",
+  "type": "predict",
+  "q": "A stroke damages the motor cortex in Aina's left hemisphere. What is she most likely to experience?",
+  "opts": [
+   "Weakness in the left side of her body",
+   "Weakness in the right side of her body",
+   "Loss of hearing in her left ear only",
+   "Loss of the sense of smell"
+  ],
+  "a": 1,
+  "why": "Each hemisphere controls the opposite (contralateral) side of the body, so left motor cortex damage affects the right side. Left-side weakness would be ipsilateral, which motor control is not."
+ },
+ {
+  "id": "xa-40",
+  "deck": "Nervous System",
+  "type": "predict",
+  "q": "After surgery that removed tissue from both medial temporal lobes, Danial still remembers his childhood. What problem is he most likely to have?",
+  "opts": [
+   "Forming new long-term declarative memories",
+   "Keeping his balance and coordinating movements",
+   "Regulating body temperature and hunger",
+   "Producing fluent, well-pronounced speech"
+  ],
+  "a": 0,
+  "why": "The hippocampus in the medial temporal lobe forms long-term declarative memories, so new memories are affected while old ones remain. Balance and coordination is the cerebellum's role, not the hippocampus."
+ },
+ {
+  "id": "xa-41",
+  "deck": "Nervous System",
+  "type": "nearmiss",
+  "q": "A patient speaks smoothly and quickly, but what she says makes no sense, and she struggles to understand others. Why is this Wernicke's aphasia rather than Broca's aphasia?",
+  "opts": [
+   "Broca's patients speak fluently but without meaning",
+   "Wernicke's area is in the frontal lobe and controls speech",
+   "Broca's patients understand others but struggle to pronounce",
+   "Wernicke's patients understand others but can't speak"
+  ],
+  "a": 2,
+  "why": "Wernicke's aphasia (left temporal lobe) gives fluent but meaningless speech with poor understanding, while Broca's aphasia (left frontal lobe) leaves understanding intact but impairs pronunciation. 'Fluent but without meaning' describes Wernicke's, not Broca's."
+ },
+ {
+  "id": "xa-42",
+  "deck": "Nervous System",
+  "type": "nearmiss",
+  "q": "After a small tumour, a patient's body temperature, hunger and sleep-wake cycle are all disrupted, but his vision and hearing are normal. Why does this point to the hypothalamus rather than the thalamus?",
+  "opts": [
+   "The thalamus regulates these drives; the hypothalamus relays senses",
+   "The hypothalamus regulates these drives; the thalamus relays senses",
+   "The hypothalamus is in the hindbrain and controls breathing",
+   "The thalamus only relays smell, which is unaffected here"
+  ],
+  "a": 1,
+  "why": "The hypothalamus regulates temperature, eating, drinking and sleep-wake cycles, while the thalamus is the relay station for most senses, so thalamic damage would reduce sensation. The last option is wrong because smell is the one sense that does not pass through the thalamus."
+ },
+ {
+  "id": "xa-43",
+  "deck": "Nervous System",
+  "type": "evidence",
+  "q": "After an iron rod injured his left prefrontal cortex, Phineas Gage became impulsive and lost his inhibition, though he survived. What does this case support?",
+  "opts": [
+   "The PFC is responsible for sensing touch and temperature",
+   "The PFC controls balance and coordination of movement",
+   "The PFC regulates self-control and impulsive behaviour",
+   "The PFC is the brain's relay station for senses"
+  ],
+  "a": 2,
+  "why": "Gage's change in personality and loss of inhibition supports the PFC's role in executive functions such as self-control. Touch and temperature belong to the parietal lobe, not the frontal lobe."
+ },
+ {
+  "id": "xa-44",
+  "deck": "Nervous System",
+  "type": "evidence",
+  "q": "In a lesioning study, rats with a small region near the hippocampus destroyed stop showing fear responses to a tone that used to signal shock. Which conclusion is best supported?",
+  "opts": [
+   "The cerebellum stores conditioned fear habits",
+   "The thalamus produces emotional responses",
+   "The medulla controls fearful behaviour",
+   "The amygdala is involved in fear and fear memory"
+  ],
+  "a": 3,
+  "why": "The almond-shaped amygdala near the hippocampus is responsible for fear responses and fear memory. The cerebellum is tempting because it stores learned reflexes and habits, but the region described is the amygdala, and fear is its job."
+ },
+ {
+  "id": "xa-45",
+  "deck": "Nervous System",
+  "type": "brain",
+  "q": "After a fall onto the back of his head, Danial becomes clumsy, loses his balance and slurs his speech. Which structure was most likely damaged?",
+  "opts": [
+   "Medulla",
+   "Basal ganglia",
+   "Cerebellum",
+   "Occipital lobe"
+  ],
+  "a": 2,
+  "why": "Cerebellum damage causes clumsiness, poor balance, slurred speech and timing difficulty. The occipital lobe is also at the back of the head, but damage there would affect vision, not balance."
+ },
+ {
+  "id": "xa-46",
+  "deck": "Nervous System",
+  "type": "brain",
+  "q": "A neck injury damages the lowest part of the brain, just above the spinal cord. Doctors immediately put the patient on a breathing machine. Which structure was injured?",
+  "opts": [
+   "Pons",
+   "Cerebellum",
+   "Reticular formation",
+   "Medulla"
+  ],
+  "a": 3,
+  "why": "The medulla, the first swelling at the top of the spinal cord, controls life-sustaining functions such as breathing and heart rate. The pons is tempting because it sits just above the medulla, but it is involved in sleep, dreaming and arousal."
+ },
+ {
+  "id": "xa-47",
+  "deck": "Nervous System",
+  "type": "oddone",
+  "q": "Three of these are controlled by the autonomic nervous system. Which one is NOT?",
+  "opts": [
+   "Pupils widening during a scary movie",
+   "Choosing to kick a football towards the goal",
+   "Stomach digesting a plate of nasi lemak",
+   "Heart rate slowing while resting at home"
+  ],
+  "a": 1,
+  "why": "Kicking a ball is a voluntary muscle movement, controlled by the somatic nervous system. Pupil changes, digestion and heart rate are involuntary, so they are all autonomic."
+ },
+ {
+  "id": "xa-48",
+  "deck": "Nervous System",
+  "type": "oddone",
+  "q": "Three of these brain methods are noninvasive. Which one is NOT?",
+  "opts": [
+   "Deep brain stimulation",
+   "Transcranial magnetic stimulation",
+   "Transcranial direct current stimulation",
+   "Electroencephalography"
+  ],
+  "a": 0,
+  "why": "Deep brain stimulation is invasive: it uses an implanted generator and electrodes. tDCS also uses electric current, but the very low current is passed through scalp electrodes, so it is noninvasive."
+ },
+ {
+  "id": "xa-49",
+  "deck": "Sensation & Perception",
+  "type": "scenario",
+  "q": "On the LRT, Aina notices that nearby lamp posts rush past while distant hills seem to drift by slowly. Which depth cue is she using?",
+  "opts": [
+   "Linear perspective",
+   "Relative size",
+   "Binocular disparity",
+   "Motion parallax"
+  ],
+  "a": 3,
+  "why": "Close objects appearing to move faster than far ones is motion parallax. Relative size is tempting, but it is based on how small an object looks, not how fast it seems to move."
+ },
+ {
+  "id": "xa-50",
+  "deck": "Sensation & Perception",
+  "type": "scenario",
+  "q": "Encik Lim bangs his elbow on a table and immediately rubs it, and the pain eases. Which theory best explains this?",
+  "opts": [
+   "Gate-control theory of pain",
+   "Opponent-process theory",
+   "Sensory adaptation",
+   "Subliminal perception"
+  ],
+  "a": 0,
+  "why": "Gate-control theory says non-pain signals, such as rubbing, can close the spinal 'gate' that pain signals must pass through. Sensory adaptation is tempting, but it takes time with an unchanging stimulus and doesn't explain an instant reduction from rubbing."
+ },
+ {
+  "id": "xa-51",
+  "deck": "Sensation & Perception",
+  "type": "predict",
+  "q": "Mei Ling stares at a bright green square for 60 seconds and then looks at a white wall. What will she most likely see, and why?",
+  "opts": [
+   "A green afterimage, as green cones keep firing",
+   "A blue afterimage, as blue and green are opponents",
+   "A red afterimage, as fatigued green cells let red dominate",
+   "No afterimage, as white light hits all cones equally"
+  ],
+  "a": 2,
+  "why": "In opponent-process theory, staring at green fatigues green cells; on white, the opponent red cells are more active, so she sees red. Blue is tempting, but the opponent pairs are red–green and blue–yellow."
+ },
+ {
+  "id": "xa-52",
+  "deck": "Sensation & Perception",
+  "type": "predict",
+  "q": "At a dimly lit night market, Danial can make out the shapes of stalls but struggles to tell the colours of the shirts on sale. What best explains this?",
+  "opts": [
+   "Cones dominate in dim light and code only shapes",
+   "The blind spot widens when light levels drop",
+   "Sensory adaptation switches off colour receptors",
+   "Rods dominate in dim light and don't code colour"
+  ],
+  "a": 3,
+  "why": "Rods work well in dim light but give non-colour vision, while cones need bright light for colour. The second option is wrong because it reverses the roles of rods and cones."
+ },
+ {
+  "id": "xa-53",
+  "deck": "Sensation & Perception",
+  "type": "nearmiss",
+  "q": "After a few minutes, Puan Siti no longer hears the classroom aircon, although her ears still respond to it. Why is this habituation rather than sensory adaptation?",
+  "opts": [
+   "Her receptors stop sending signals to her brain",
+   "The hum falls below her absolute threshold",
+   "The sound becomes a subliminal stimulus",
+   "Her brain stops attending, though receptors still signal"
+  ],
+  "a": 3,
+  "why": "In habituation, the brain stops attending to constant information that is still being received. In sensory adaptation, the receptor cells themselves stop responding, which doesn't fit here because her ears still respond."
+ },
+ {
+  "id": "xa-54",
+  "deck": "Sensation & Perception",
+  "type": "nearmiss",
+  "q": "A kopitiam owner slowly adds more sugar to a cup of teh. A customer can tell this cup is sweeter than the usual cup only half the time. Why is this a just noticeable difference, not an absolute threshold?",
+  "opts": [
+   "It is detected 50% of the time, not every time",
+   "It involves taste, not vision or hearing",
+   "It compares two stimuli, not detecting one at all",
+   "It is below conscious awareness, not above it"
+  ],
+  "a": 2,
+  "why": "A JND is the smallest difference between two stimuli detected 50% of the time; an absolute threshold is the lowest level of a single stimulus that can be detected. The 50% option is tempting, but both thresholds use the 50% rule, so it can't tell them apart."
+ },
+ {
+  "id": "xa-55",
+  "deck": "Sensation & Perception",
+  "type": "evidence",
+  "q": "Researchers find visual neurons that are excited by red light and inhibited by green light, and others excited by blue and inhibited by yellow. Which theory does this most directly support?",
+  "opts": [
+   "Trichromatic theory",
+   "Opponent-process theory",
+   "Gate-control theory",
+   "Gestalt principle of similarity"
+  ],
+  "a": 1,
+  "why": "Neurons stimulated by one colour and inhibited by its partner in red–green and blue–yellow pairs is Hering's opponent-process theory. Trichromatic theory is tempting, but it is about three cone types sensitive to ranges of wavelengths, not opposing pairs."
+ },
+ {
+  "id": "xa-56",
+  "deck": "Sensation & Perception",
+  "type": "evidence",
+  "q": "Students shown a list of letters read an ambiguous symbol as 'B', while students shown a list of numbers read the same symbol as '13'. What does this finding demonstrate?",
+  "opts": [
+   "Perceptual set and top-down processing",
+   "Bottom-up processing of small features",
+   "Sensory adaptation to repeated stimuli",
+   "The Gestalt principle of closure"
+  ],
+  "a": 0,
+  "why": "What they expected to see from previous context shaped what they perceived, which is perceptual set driven by top-down knowledge. Bottom-up processing is the reverse: it builds a perception from features alone, so it can't explain why the same features were read differently."
+ },
+ {
+  "id": "xa-57",
+  "deck": "Sensation & Perception",
+  "type": "brain",
+  "q": "A stroke damages Aina's right visual cortex. Which part of her vision is most likely to be lost?",
+  "opts": [
+   "Her right visual field",
+   "Colour vision in both eyes",
+   "Only her blind spot",
+   "Her left visual field"
+  ],
+  "a": 3,
+  "why": "The visual pathway is contralateral: the left visual field is processed by the right visual cortex. Losing the right visual field would follow damage to the left visual cortex."
+ },
+ {
+  "id": "xa-58",
+  "deck": "Sensation & Perception",
+  "type": "brain",
+  "q": "After thalamus damage, a patient's sight, hearing and touch are partly lost, yet his sense of smell is normal. What best explains this?",
+  "opts": [
+   "Smell signals reach the olfactory bulbs without the thalamus",
+   "Smell is processed by the thalamus on the opposite side",
+   "Olfactory receptors are protected inside the cochlea",
+   "Smell is a skin sense carried by free nerve endings"
+  ],
+  "a": 0,
+  "why": "Most sensory information passes through the thalamus, but olfactory signals go straight to the olfactory bulbs and then to the piriform and orbitofrontal cortex. The other options misplace smell entirely."
+ },
+ {
+  "id": "xa-59",
+  "deck": "Sensation & Perception",
+  "type": "oddone",
+  "q": "Three of these are monocular depth cues. Which one is NOT?",
+  "opts": [
+   "Railway tracks seeming to meet far away",
+   "The difference between your two eyes' images",
+   "A car blocking part of a lorry behind it",
+   "Grass looking finer further across a field"
+  ],
+  "a": 1,
+  "why": "The difference between the two eyes' images is binocular disparity, which needs both eyes. The others are linear perspective, overlap and texture gradient, which all work with one eye."
+ },
+ {
+  "id": "xa-60",
+  "deck": "Sensation & Perception",
+  "type": "oddone",
+  "q": "Three of these are Gestalt principles of perceptual organisation. Which one is NOT?",
+  "opts": [
+   "The moon looking larger on the horizon",
+   "Seeing a broken circle as a full circle",
+   "Seeing a dashed line as one smooth path",
+   "Grouping students by matching uniforms"
+  ],
+  "a": 0,
+  "why": "The moon looking larger on the horizon is a perceptual illusion caused by comparison with buildings, not a grouping principle. The others are closure, continuity and similarity."
+ },
+ {
+  "id": "xb-1",
+  "deck": "Personality 1",
+  "type": "scenario",
+  "q": "Danial is scolded by his manager for arriving late after an LRT breakdown. He says nothing at work, but that evening he shouts at his younger brother for leaving shoes at the door. Which defence mechanism best explains his outburst?",
+  "opts": [
+   "Rationalisation",
+   "Displacement",
+   "Repression",
+   "Sublimation"
+  ],
+  "a": 1,
+  "why": "His anger is redirected onto a safer target (his brother) who did not cause it, which is displacement. Rationalisation would mean inventing an acceptable excuse, not shifting anger onto someone else."
+ },
+ {
+  "id": "xb-2",
+  "deck": "Personality 1",
+  "type": "nearmiss",
+  "q": "After failing her SPM trial Add Maths paper, Mei Ling tells everyone, \"The paper was unfair, and I don't need that subject for psychology anyway.\" Why is this rationalisation rather than denial?",
+  "opts": [
+   "She refuses to acknowledge that she failed the paper at all",
+   "She pushes the memory of failing out of conscious awareness",
+   "She redirects her disappointment onto the exam setters",
+   "She admits she failed but makes up acceptable excuses for it"
+  ],
+  "a": 3,
+  "why": "Rationalisation means accepting the event happened but inventing acceptable reasons for it. Denial would require her to refuse to recognise the failure, yet she openly mentions it."
+ },
+ {
+  "id": "xb-3",
+  "deck": "Personality 1",
+  "type": "nearmiss",
+  "q": "Seven-year-old Haziq sees the last piece of kuih on the table but does not take it. Which reason would show that his SUPERego, rather than his ego, is in control?",
+  "opts": [
+   "His mother is watching and he does not want to be scolded",
+   "He plans to take it later when nobody is in the kitchen",
+   "He would feel guilty because taking it without asking is wrong",
+   "He has just eaten, so he does not really want it now"
+  ],
+  "a": 2,
+  "why": "Guilt from knowing an act is wrong comes from the conscience, part of the superego. Avoiding a scolding is the ego's reality principle: it blocks the id only because of negative consequences."
+ },
+ {
+  "id": "xb-4",
+  "deck": "Personality 1",
+  "type": "predict",
+  "q": "A baby is weaned from breastfeeding very suddenly and harshly at eight months, leaving the conflict unresolved. According to Freud, which adult pattern is this person most likely to show?",
+  "opts": [
+   "Being extremely tidy, stubborn and stingy",
+   "Chain smoking, nail biting or overeating",
+   "Promiscuous sexual behaviour in relationships",
+   "Seeing the opposite sex as \"awful\" in adulthood"
+  ],
+  "a": 1,
+  "why": "Weaning is the conflict of the oral stage (first 18 months), and oral fixation shows as mouth-focused habits. Tidiness and stinginess describe an anal-retentive fixation from toilet training conflicts."
+ },
+ {
+  "id": "xb-5",
+  "deck": "Personality 1",
+  "type": "evidence",
+  "q": "A researcher tries to test whether unresolved oral conflict causes smoking. She realises that whether a person smokes or not, a Freudian could explain the result using hidden unconscious motives. Which criticism of psychodynamic theory does this best illustrate?",
+  "opts": [
+   "Its sample was limited to wealthy Victorian women",
+   "Behaviourists say it ignores observable behaviour",
+   "It is idealistic and more philosophical than scientific",
+   "It is too ambiguous and therefore hard to falsify"
+  ],
+  "a": 3,
+  "why": "If every possible outcome can be explained, the theory cannot be proven wrong, which is the ambiguity/falsifiability criticism. The limited-sample criticism is about who Freud studied, not about untestable predictions."
+ },
+ {
+  "id": "xb-6",
+  "deck": "Personality 1",
+  "type": "scenario",
+  "q": "Kai believes he is bad at public speaking, so he avoids volunteering for class presentations. His groupmates stop asking him to present, which makes him feel even less capable. Which concept best explains this cycle?",
+  "opts": [
+   "Bandura's reciprocal determinism",
+   "Rotter's external locus of control",
+   "Rogers' conditional positive regard",
+   "Trait-situation interaction"
+  ],
+  "a": 0,
+  "why": "His beliefs (cognition), his avoidance (behaviour) and his groupmates' reactions (environment) keep influencing one another, which is reciprocal determinism. External locus of control would require him to blame fate or others for outcomes, which he does not."
+ },
+ {
+  "id": "xb-7",
+  "deck": "Personality 1",
+  "type": "predict",
+  "q": "Aina and Danial have similar presentation skills. Aina has succeeded at past presentations and her lecturer often praises her; Danial has failed several before. Both are given a difficult new presentation. What does Bandura's theory predict?",
+  "opts": [
+   "Aina will try harder and persist longer because of higher self-efficacy",
+   "Both will try equally hard because their actual skills are similar",
+   "Danial will persist longer because he has more to prove this time",
+   "Aina will give up sooner because past success makes her careless"
+  ],
+  "a": 0,
+  "why": "Self-efficacy depends on past experience and perceived competence from self and others, and higher self-efficacy leads to more effort. Equal skill is not enough, because expectancy of success, not just ability, drives effort."
+ },
+ {
+  "id": "xb-8",
+  "deck": "Personality 1",
+  "type": "nearmiss",
+  "q": "Farah says, \"Whether I get the scholarship depends entirely on luck and on whether the panel likes my face.\" Which concept fits her statement best, and why?",
+  "opts": [
+   "Low self-efficacy: she doubts her own skill at the interview tasks",
+   "Low reinforcement value: she prefers other rewards to the scholarship",
+   "External locus of control: she credits outcomes to fate and other people",
+   "Conditional regard: she feels valued only when others approve of her"
+  ],
+  "a": 2,
+  "why": "Attributing outcomes to luck and other people's choices is an external locus of control. Low self-efficacy is tempting, but she never says she lacks ability; she says her actions do not decide the result."
+ },
+ {
+  "id": "xb-9",
+  "deck": "Personality 1",
+  "type": "predict",
+  "q": "Jun sees himself as an average student and a shy club member, but he believes he SHOULD be the top scorer and a confident club president. According to Rogers, what is most likely?",
+  "opts": [
+   "He will become a fully functioning person",
+   "He will feel competent and capable most of the time",
+   "He will experience anxiety and neurotic behaviour",
+   "He will reach self-actualisation more quickly"
+  ],
+  "a": 2,
+  "why": "A large mismatch between the real self and the ideal self produces anxiety and neurotic behaviour. Feeling competent and capable comes from a close match, which Jun does not have."
+ },
+ {
+  "id": "xb-10",
+  "deck": "Personality 1",
+  "type": "scenario",
+  "q": "Mei Ling scores very high on extraversion. She tells jokes and chats loudly at her friend's birthday party but stays quiet and subdued at a funeral wake the next day. Which idea best explains this?",
+  "opts": [
+   "Introversion as a source trait",
+   "Low conscientiousness",
+   "Reciprocal determinism",
+   "Trait-situation interaction"
+  ],
+  "a": 3,
+  "why": "Her trait is stable, but the situation shapes how it is expressed, which is trait-situation interaction. Calling her introverted ignores that her extraversion shows strongly whenever the setting allows it."
+ },
+ {
+  "id": "xb-11",
+  "deck": "Personality 1",
+  "type": "evidence",
+  "q": "Studies in many countries and languages find the same five personality factors, and people's self-ratings largely match ratings by people who know them. Which conclusion is best supported?",
+  "opts": [
+   "Personality structure is set mainly by the culture a person grows up in",
+   "The Big Five are broadly consistent across cultures, with some regional variation",
+   "The five factors are strongly dependent on and overlap with one another",
+   "Cattell's 16 source traits are the most universal description of personality"
+  ],
+  "a": 1,
+  "why": "Consistency across regions, languages and self/observer ratings supports the Big Five as largely universal, though regional variations still exist. If culture set personality structure, the factors would differ between cultures, not repeat."
+ },
+ {
+  "id": "xb-12",
+  "deck": "Personality 1",
+  "type": "oddone",
+  "q": "Three of these people show sublimation. Which one does NOT?",
+  "opts": [
+   "A teenager with strong aggressive urges becomes a skilled boxer",
+   "A person who loves attention becomes a stage performer instead",
+   "A worker angry at his boss comes home and kicks the family cat",
+   "Someone with violent impulses channels them into competitive rugby"
+  ],
+  "a": 2,
+  "why": "Sublimation turns unacceptable urges into socially acceptable activities. Kicking the cat redirects anger onto an innocent target, which is displacement, not an acceptable outlet."
+ },
+ {
+  "id": "xb-13",
+  "deck": "Personality 1",
+  "type": "oddone",
+  "q": "Three of these give a behavioural or social cognitive explanation of someone's personality. Which one does NOT?",
+  "opts": [
+   "Sara became shy because speaking up in class was often punished",
+   "Wei's aggression is traced to an unresolved conflict in the phallic stage",
+   "Ravi became polite after watching his sister get praised for politeness",
+   "Nina studies hard because she expects that effort will be rewarded"
+  ],
+  "a": 1,
+  "why": "Explaining personality through unresolved psychosexual conflict is psychodynamic. The others use operant conditioning, observational learning and expectancy, which are behavioural or social cognitive ideas."
+ },
+ {
+  "id": "xb-14",
+  "deck": "Personality 1",
+  "type": "oddone",
+  "q": "Three of these show CONDITIONAL positive regard. Which one does NOT?",
+  "opts": [
+   "A father praises his daughter only when she brings home straight As",
+   "A coach is warm to a player only after the team has won a match",
+   "A grandmother is affectionate only when the grandchildren visit her",
+   "A mother tells her son she loves him whatever his SPM results are"
+  ],
+  "a": 3,
+  "why": "Love given with no strings attached is unconditional positive regard, which Rogers says is needed to reach full potential. The other three give regard only when the provider's expectations are met."
+ },
+ {
+  "id": "xb-15",
+  "deck": "Personality 2",
+  "type": "scenario",
+  "q": "In a company, junior staff never question the director, and everyone expects that major decisions will be made by a few people at the top. Staff see this as normal and fair. Which Hofstede dimension does this reflect?",
+  "opts": [
+   "High collectivism",
+   "High uncertainty avoidance",
+   "High masculinity",
+   "High power distance"
+  ],
+  "a": 3,
+  "why": "Power distance is how much less powerful members accept and expect that power is held by a few. Collectivism involves respect for hierarchy too, but its core is group duty and loyalty rather than accepting unequal power."
+ },
+ {
+  "id": "xb-16",
+  "deck": "Personality 2",
+  "type": "nearmiss",
+  "q": "Country X has very detailed laws, strict safety regulations, and little tolerance for opinions that differ from the accepted truth. Why does this point to high uncertainty avoidance rather than collectivism?",
+  "opts": [
+   "It shows that people value duty, tradition and group status",
+   "It shows low tolerance of ambiguity and unstructured situations",
+   "It shows that people accept power being held by a small elite",
+   "It shows that people value being assertive and competitive"
+  ],
+  "a": 1,
+  "why": "Strict rules, many safety measures and belief in One Truth are signs of low tolerance for uncertainty. Duty, tradition and group status describe collectivism, which the scenario never mentions."
+ },
+ {
+  "id": "xb-17",
+  "deck": "Personality 2",
+  "type": "evidence",
+  "q": "Identical twins separated at birth both enjoyed carpentry, smoked and drank similar amounts, and each divorced a Linda and married a Betty. Which conclusion does this case support best?",
+  "opts": [
+   "Genes may strongly shape personality and preferences",
+   "Environment plays no role at all in personality",
+   "Personality can be read from the shape of the skull",
+   "Shared family environment explains their similarity"
+  ],
+  "a": 0,
+  "why": "The \"Jim\" twins share genes but were raised apart, so their similarities point to genetic influence. It cannot show environment plays no role, since both were raised in Ohio by parents of similar socioeconomic background."
+ },
+ {
+  "id": "xb-18",
+  "deck": "Personality 2",
+  "type": "brain",
+  "q": "A participant scores very high on neuroticism. Based on DeYoung et al. (2010), which MRI pattern is most likely?",
+  "opts": [
+   "Larger medial orbitofrontal cortex in the reward-value area",
+   "Larger dorsomedial prefrontal cortex; smaller middle cingulate",
+   "Smaller dorsomedial prefrontal cortex; larger middle cingulate cortex",
+   "A visible skull bulge over the area for anxious emotions"
+  ],
+  "a": 2,
+  "why": "Neuroticism was linked to less volume in threat and negative-emotion areas and more in the error-detection and pain area (middle cingulate). A larger medial orbitofrontal cortex was linked to extraversion, not neuroticism."
+ },
+ {
+  "id": "xb-19",
+  "deck": "Personality 2",
+  "type": "predict",
+  "q": "Researchers compare shyness in identical twins raised in different homes with shyness in unrelated adopted children raised in the same home. Based on twin and adoption studies, what result is most likely?",
+  "opts": [
+   "The twins raised apart will be more alike in shyness",
+   "The adopted siblings will be more alike in shyness",
+   "Both pairs will be about equally alike in shyness",
+   "Neither pair will show any similarity in shyness"
+  ],
+  "a": 0,
+  "why": "Twin and adoption studies suggest genes account for much of personality, including shyness, regardless of shared environment. Shared home environment alone would predict the adopted siblings being more alike, which the evidence does not support."
+ },
+ {
+  "id": "xb-20",
+  "deck": "Personality 2",
+  "type": "scenario",
+  "q": "A school psychologist sits at the back of a Year 2 class and records how many times Amir leaves his seat during a 30-minute lesson. Which type of assessment is this?",
+  "opts": [
+   "Personality inventory using standard statements",
+   "Projective test using ambiguous stimuli",
+   "Semi-structured interview with follow-ups",
+   "Behavioural assessment using a frequency count"
+  ],
+  "a": 3,
+  "why": "Counting how often a behaviour occurs in a set time is a frequency count, a behavioural assessment. A personality inventory relies on self-report answers, whereas here Amir reports nothing himself."
+ },
+ {
+  "id": "xb-21",
+  "deck": "Personality 2",
+  "type": "nearmiss",
+  "q": "A client is shown an ambiguous picture of a woman standing at a window and asked to tell a story about what led up to the scene and what happens next. Why is this the TAT rather than the Rorschach?",
+  "opts": [
+   "The client makes up a story about people in a picture",
+   "The client says what an inkblot shape looks like",
+   "The client answers true/false to a fixed list of items",
+   "The client is rated on how often a behaviour occurs"
+  ],
+  "a": 0,
+  "why": "The TAT uses ambiguous pictures of people and asks for a story, looking for projected problems. Both are projective tests, but the Rorschach uses inkblots and asks only what each looks like."
+ },
+ {
+  "id": "xb-22",
+  "deck": "Personality 2",
+  "type": "predict",
+  "q": "Encik Lim applies for a bank job and must complete a personality inventory as part of screening. Which problem is most likely to affect his answers?",
+  "opts": [
+   "The interviewer may judge him by one good first impression",
+   "He may give socially acceptable answers to look good",
+   "His behaviour may change because he knows he is observed",
+   "The scorer may interpret his answers very subjectively"
+  ],
+  "a": 1,
+  "why": "A known weakness of self-report inventories is that people give socially acceptable answers, especially when a job is at stake. A halo effect from an interviewer is a limitation of interviews, not of standardised questionnaires."
+ },
+ {
+  "id": "xb-23",
+  "deck": "Personality 2",
+  "type": "oddone",
+  "q": "Three of these describe completing a personality inventory. Which one does NOT?",
+  "opts": [
+   "Responding to 335 statements with built-in validity scales",
+   "Rating 240 items that cover five main personality dimensions",
+   "Answering a questionnaire that sorts you into 16 types",
+   "Telling a story about each of 20 ambiguous pictures"
+  ],
+  "a": 3,
+  "why": "Telling stories about ambiguous pictures is the TAT, a projective test. The others describe the MMPI-3, NEO-PI-3 and MBTI, which are standardised questionnaires."
+ },
+ {
+  "id": "xb-24",
+  "deck": "Personality 2",
+  "type": "evidence",
+  "q": "A company uses the MBTI to decide who gets promoted. Research shows many people get a different four-letter type when they retake it a few weeks later. What does this finding suggest?",
+  "opts": [
+   "The MBTI measures abnormal behaviour rather than normal personality",
+   "Personality traits change completely within a few weeks",
+   "The MBTI is a projective test, so its scoring is subjective",
+   "The MBTI has limited reliability, so it is a weak basis for decisions"
+  ],
+  "a": 3,
+  "why": "Getting different results on retest is a reliability problem, and the MBTI is known for limited validity and reliability. It is a self-report inventory, not a projective test, so subjective scoring is not the explanation."
+ },
+ {
+  "id": "xb-25",
+  "deck": "Motivation",
+  "type": "brain",
+  "q": "In a lab study, a rat's ventromedial hypothalamus (VMH) is damaged. What is the most likely result?",
+  "opts": [
+   "It overeats and gains a lot of weight",
+   "It stops eating unless it is force-fed",
+   "It eats normally because leptin takes over",
+   "It eats only when its insulin levels rise"
+  ],
+  "a": 0,
+  "why": "The VMH may stop eating when glucose rises, so damage removes this brake and leads to overeating. Stopping eating unless force-fed is the effect of lateral hypothalamus damage."
+ },
+ {
+  "id": "xb-26",
+  "deck": "Motivation",
+  "type": "brain",
+  "q": "Mice with a gene mutation cannot produce leptin. Which outcome would you predict?",
+  "opts": [
+   "They stop eating because the hypothalamus thinks they are full",
+   "They keep eating and become obese, as fullness is not signalled",
+   "Their blood glucose rises because the pancreas makes no insulin",
+   "Their weight set point drops and they become very thin"
+  ],
+  "a": 1,
+  "why": "Leptin tells the hypothalamus there is \"enough food\", reducing appetite and increasing fullness, so without it appetite stays high. Blood glucose control is the job of insulin and glucagon from the pancreas, not leptin."
+ },
+ {
+  "id": "xb-27",
+  "deck": "Motivation",
+  "type": "scenario",
+  "q": "A student living in a shelter is struggling to find regular meals and a safe place to sleep. A counsellor's talk on discovering his life purpose has little effect on him. Which theory best explains this?",
+  "opts": [
+   "Self-determination theory",
+   "Maslow's hierarchy of needs",
+   "McClelland's need theory",
+   "Arousal theory"
+  ],
+  "a": 1,
+  "why": "Maslow argued deficiency needs such as food and safety must be met before growth needs like self-actualisation. Self-determination theory focuses on autonomy, competence and relatedness, not on basic survival needs coming first."
+ },
+ {
+  "id": "xb-28",
+  "deck": "Motivation",
+  "type": "predict",
+  "q": "Aina is sitting a very difficult SPM Additional Mathematics paper and is extremely anxious, with her heart racing. According to the Yerkes-Dodson law, what is most likely?",
+  "opts": [
+   "She performs better, since higher arousal always helps",
+   "She performs best, since hard tasks suit high arousal",
+   "She performs worse, since hard tasks suit low-moderate arousal",
+   "Her arousal has no effect, since the paper is so hard"
+  ],
+  "a": 2,
+  "why": "Moderate arousal gives the best performance, and difficult tasks need low-moderate arousal, so very high anxiety hurts her. High-moderate arousal suits easy tasks, not difficult ones."
+ },
+ {
+  "id": "xb-29",
+  "deck": "Motivation",
+  "type": "scenario",
+  "q": "Danial has eaten, slept well and has no pressing needs, yet he spends his holiday skydiving and bungee jumping because he feels restless when life is calm. Which theory best explains his behaviour?",
+  "opts": [
+   "Drive-reduction theory",
+   "Instinct approach",
+   "Self-determination theory",
+   "Arousal theory"
+  ],
+  "a": 3,
+  "why": "Arousal theory says people keep an optimal level of tension, and sensation seekers increase stimulation to reach it. Drive-reduction theory cannot explain seeking MORE arousal when no physiological need is present."
+ },
+ {
+  "id": "xb-30",
+  "deck": "Motivation",
+  "type": "scenario",
+  "q": "Lina chooses group projects so she can work with friends, avoids arguments, and turns down a team-leader role because it would mean criticising teammates. Which of McClelland's needs is strongest in her?",
+  "opts": [
+   "Need for achievement (nAch)",
+   "Need for power (nPow)",
+   "Need for affiliation (nAff)",
+   "Need for competence (SDT)"
+  ],
+  "a": 2,
+  "why": "Her choices centre on friendly relationships and avoiding conflict, which is nAff. She turns down a chance to influence others, which goes against a strong need for power."
+ },
+ {
+  "id": "xb-31",
+  "deck": "Motivation",
+  "type": "predict",
+  "q": "Siew Ling believes her intelligence is fixed and that grades mostly depend on luck. She fails her first psychology midterm. According to Dweck, how is she most likely to respond?",
+  "opts": [
+   "Study harder, believing effort will help",
+   "Give up, believing she lacks the ability",
+   "Seek out harder tasks to test her limits",
+   "Ask for feedback to master the topic"
+  ],
+  "a": 1,
+  "why": "Dweck linked a fixed view of intelligence and an external locus to low achievement motivation, so failure leads to giving up. Increasing effort fits someone who sees intelligence as changeable and has an internal locus."
+ },
+ {
+  "id": "xb-32",
+  "deck": "Motivation",
+  "type": "nearmiss",
+  "q": "Encik Lim plays chess at the community hall every evening, even though there are no prizes and nobody watches. Why is this intrinsic rather than extrinsic motivation?",
+  "opts": [
+   "He plays to reduce the tension of a physiological need",
+   "He plays to earn praise and approval from other players",
+   "He plays because an external reward lures him into action",
+   "Playing the game is itself what he finds rewarding"
+  ],
+  "a": 3,
+  "why": "Intrinsic motivation means the act itself is rewarding. Playing for praise or another external reward would be extrinsic, because the outcome is separate from the activity."
+ },
+ {
+  "id": "xb-33",
+  "deck": "Motivation",
+  "type": "nearmiss",
+  "q": "Aina has not drunk any water all day after futsal. Her body's requirement for water is the ____, and the uncomfortable tension that pushes her to buy a drink is the ____.",
+  "opts": [
+   "drive; need",
+   "need; drive",
+   "incentive; need",
+   "drive; homeostasis"
+  ],
+  "a": 1,
+  "why": "A need is the requirement for something essential to survival, and a drive is the tension and arousal that the need creates. Swapping them is the common error: the drive is what motivates action, not the requirement itself."
+ },
+ {
+  "id": "xb-34",
+  "deck": "Motivation",
+  "type": "evidence",
+  "q": "In a study, students who chose their own assignment topics and received supportive feedback showed more interest in the work than students given strict instructions and controlling deadlines. Which theory does this support best?",
+  "opts": [
+   "Self-determination theory",
+   "Drive-reduction theory",
+   "Yerkes-Dodson law",
+   "Instinct approach"
+  ],
+  "a": 0,
+  "why": "Self-determination theory says a supportive context that meets needs for autonomy and competence increases intrinsic motivation. Drive-reduction deals with reducing physiological tension, which is not what the study manipulated."
+ },
+ {
+  "id": "xb-35",
+  "deck": "Motivation",
+  "type": "oddone",
+  "q": "Three of these are driven by acquired (secondary) drives. Which one is NOT?",
+  "opts": [
+   "Working overtime to earn more money for a new phone",
+   "Posting photos on Instagram to get likes and comments",
+   "Drinking two bottles of water after a long futsal match",
+   "Studying hard so that parents will praise the results"
+  ],
+  "a": 2,
+  "why": "Thirst after exercise is a primary drive based on the body's survival needs. Money, likes and praise are learned through experience or conditioning, so they are acquired drives."
+ },
+ {
+  "id": "xb-36",
+  "deck": "Motivation",
+  "type": "oddone",
+  "q": "Three of these behaviours are hard for drive-reduction theory to explain. Which one fits drive-reduction theory well?",
+  "opts": [
+   "Ordering cendol for dessert after a full dinner",
+   "Going rock climbing just for the thrill of it",
+   "Eating a big plate of rice after fasting all day",
+   "Doing puzzles for fun when not bored or hungry"
+  ],
+  "a": 2,
+  "why": "Eating after a long fast reduces the tension of a real physiological need, exactly what drive-reduction predicts. Eating when not hungry and seeking extra arousal are the classic limits of drive-reduction theory."
+ },
+ {
+  "id": "xb-37",
+  "deck": "Emotion",
+  "type": "brain",
+  "q": "After surgery that damaged her amygdala, a patient is shown photos of faces. Which difficulty is she most likely to have?",
+  "opts": [
+   "Recalling the names of people she has just met",
+   "Feeling her heart beat faster during exercise",
+   "Recognising fear in other people's facial expressions",
+   "Choosing to distract herself from upsetting thoughts"
+  ],
+  "a": 2,
+  "why": "The amygdala is linked to fear and helps identify facial expressions, so damage impairs recognising fear in faces. Distraction as a regulation strategy is linked to the anterior cingulate cortex, not the amygdala."
+ },
+ {
+  "id": "xb-38",
+  "deck": "Emotion",
+  "type": "brain",
+  "q": "Brain scans show that Haris has noticeably more activity in his right frontal lobe than his left. Based on Davidson (2003), what would you predict about him?",
+  "opts": [
+   "He tends to experience more positive emotions",
+   "He has trouble reading emotion from faces",
+   "He tends to experience more negative emotions",
+   "He reacts to threats before conscious awareness"
+  ],
+  "a": 2,
+  "why": "Davidson linked left frontal activity with positive emotions and right frontal activity with negative emotions. Reading emotion from faces is a right-hemisphere ability, so more right activity would not make that harder."
+ },
+ {
+  "id": "xb-39",
+  "deck": "Emotion",
+  "type": "brain",
+  "q": "Before a scholarship interview, Aina tells herself, \"This is just a chance to practise, not a test of my worth,\" and feels calmer. Which brain area and effect best fit this strategy?",
+  "opts": [
+   "Lateral orbitofrontal cortex; reduced amygdala activity",
+   "Anterior cingulate cortex; reduced amygdala activity",
+   "Lateral orbitofrontal cortex; increased amygdala activity",
+   "Left frontal lobe; increased sympathetic arousal"
+  ],
+  "a": 0,
+  "why": "Reinterpreting the situation is reappraisal, linked to the lateral orbitofrontal cortex, and it lowers amygdala activity. The anterior cingulate cortex is linked to distraction, a different regulation strategy."
+ },
+ {
+  "id": "xb-40",
+  "deck": "Emotion",
+  "type": "scenario",
+  "q": "On a jungle trail at FRIM, Danial jumps back from a curved shape on the path. A moment later he realises it is only a stick. Which process explains why he jumped BEFORE recognising the object?",
+  "opts": [
+   "The low road to the amygdala",
+   "The high road to the amygdala",
+   "The facial feedback hypothesis",
+   "Cognitive appraisal (Lazarus)"
+  ],
+  "a": 0,
+  "why": "The low road is a fast, crude subcortical route that triggers a reaction before conscious awareness. The high road is the slower cortical route that let him recognise it was \"only a stick\"."
+ },
+ {
+  "id": "xb-41",
+  "deck": "Emotion",
+  "type": "nearmiss",
+  "q": "After three cups of kopi, Mei Ling's heart is pounding. She sits beside an attractive classmate and decides she must be falling for him. Why does Schachter and Singer's theory explain this better than James-Lange?",
+  "opts": [
+   "Her bodily arousal comes before she feels the emotion",
+   "Her thalamus triggers arousal and emotion at the same time",
+   "She labels general arousal using cues in her surroundings",
+   "Her smiling face sends feedback that intensifies emotion"
+  ],
+  "a": 2,
+  "why": "Two-factor theory needs both arousal and a label taken from environmental cues, and she uses the classmate as the cue. Arousal coming before emotion is true of both theories, so it does not tell them apart."
+ },
+ {
+  "id": "xb-42",
+  "deck": "Emotion",
+  "type": "evidence",
+  "q": "People with spinal cord injuries, who receive little feedback from their bodies, report feeling emotions as strongly as before their injury. Which theory does this finding most directly weaken?",
+  "opts": [
+   "Cannon-Bard theory",
+   "Cognitive-mediational theory",
+   "James-Lange theory",
+   "Common sense theory"
+  ],
+  "a": 2,
+  "why": "James-Lange says emotion is the interpretation of bodily arousal, so less bodily feedback should mean weaker emotion. Cannon-Bard actually fits this finding, since it says emotion does not depend on first sensing bodily changes."
+ },
+ {
+  "id": "xb-43",
+  "deck": "Emotion",
+  "type": "evidence",
+  "q": "Participants held a pen between their teeth, which forces a smile, or between their lips, which blocks one. The \"smiling\" group rated cartoons as funnier. Which theory does this support?",
+  "opts": [
+   "Cannon-Bard theory",
+   "Common sense theory",
+   "Facial feedback hypothesis",
+   "Cognitive-mediational theory"
+  ],
+  "a": 2,
+  "why": "Strack et al. (1988) showed that facial expressions feed back to the brain and intensify emotion. Cannon-Bard says arousal and emotion occur together from the thalamus, with no role for facial muscles causing emotion."
+ },
+ {
+  "id": "xb-44",
+  "deck": "Emotion",
+  "type": "predict",
+  "q": "Two students receive the same email from their lecturer: \"Please see me in my office tomorrow.\" Afiq thinks he is about to be praised; Wen thinks he is in trouble. According to Lazarus, what will happen?",
+  "opts": [
+   "They will feel the same emotion because the email is identical",
+   "They will feel different emotions because they appraise it differently",
+   "They will feel the same emotion once their arousal levels match",
+   "They will feel no emotion until their faces show an expression"
+  ],
+  "a": 1,
+  "why": "Lazarus said appraisal of a stimulus comes first and determines the emotion, so different interpretations give different emotions. Assuming the same stimulus produces the same emotion is the common sense view, which ignores appraisal."
+ },
+ {
+  "id": "xb-45",
+  "deck": "Emotion",
+  "type": "scenario",
+  "q": "Encik Lim's car skids on a wet highway. He later says, \"My heart started racing at the exact moment I felt afraid; neither came first.\" Which theory matches his experience?",
+  "opts": [
+   "James-Lange theory",
+   "Schachter-Singer theory",
+   "Cognitive-mediational theory",
+   "Cannon-Bard theory"
+  ],
+  "a": 3,
+  "why": "Cannon-Bard holds that the thalamus signals the cortex and the sympathetic nervous system at the same time, so arousal and emotion are simultaneous. James-Lange would put the racing heart first, with fear following."
+ },
+ {
+  "id": "xb-46",
+  "deck": "Emotion",
+  "type": "predict",
+  "q": "Researchers ask an elderly, traditional Chinese-Malaysian grandmother and her highly Westernised granddaughter to describe what love feels like. Based on Tsai et al. (2004), what is most likely?",
+  "opts": [
+   "The grandmother will use more direct emotion words",
+   "The grandmother will use more bodily or social words",
+   "Both will use the same words, as emotions are universal",
+   "The granddaughter will use more bodily or social words"
+  ],
+  "a": 1,
+  "why": "Tsai et al. found traditional Chinese Americans described emotion with bodily or social words, while Americanised groups used direct emotion words like \"love\". Facial expressions may be universal, but labelling emotion is learned and shaped by language and culture."
+ },
+ {
+  "id": "xb-47",
+  "deck": "Emotion",
+  "type": "oddone",
+  "q": "Danial is walking home alone late at night and hears footsteps behind him. Three of these are signs of sympathetic arousal. Which one is NOT?",
+  "opts": [
+   "His heart rate rises sharply and quickly",
+   "He starts breathing much faster",
+   "His pupils dilate to let in more light",
+   "His pupils shrink and digestion speeds up"
+  ],
+  "a": 3,
+  "why": "The sympathetic nervous system raises heart rate, speeds breathing and dilates the pupils. Constricted pupils and faster digestion are signs of a calm, resting state, the opposite of arousal."
+ },
+ {
+  "id": "xb-48",
+  "deck": "Emotion",
+  "type": "nearmiss",
+  "q": "Puan Siti tells her class, \"We do not cry because we are sad; we feel sad because we cry.\" Which theory is she describing, and why is it not common sense theory?",
+  "opts": [
+   "Common sense: the emotion is felt first and then causes the crying",
+   "Cannon-Bard: crying and sadness are triggered together by the thalamus",
+   "Lazarus: the situation must be appraised before crying can occur",
+   "James-Lange: the bodily reaction comes first and is labelled as emotion"
+  ],
+  "a": 3,
+  "why": "James-Lange reverses the common sense order: arousal or a bodily reaction comes first, and interpreting it produces the emotion. Common sense theory puts emotion before the physical reaction, which is exactly what she rejects."
+ },
+ {
+  "id": "xb-49",
+  "deck": "Intelligence",
+  "type": "scenario",
+  "q": "Uncle Ah Kow left school at 15 and scored poorly on exams, but he runs a busy kopitiam, reads customers well and always negotiates good deals with suppliers. In Sternberg's theory, which intelligence is he strongest in?",
+  "opts": [
+   "Analytical intelligence",
+   "Creative intelligence",
+   "Practical intelligence",
+   "Crystallised intelligence"
+  ],
+  "a": 2,
+  "why": "Practical intelligence is using information to get along and succeed in real life, like running a business and handling people. Analytical intelligence is breaking problems into parts, the kind of skill school exams test, where he did poorly."
+ },
+ {
+  "id": "xb-50",
+  "deck": "Intelligence",
+  "type": "nearmiss",
+  "q": "Madam Wong, a 70-year-old retired teacher, beats her grandchildren at vocabulary games but is much slower than them at solving unfamiliar logic puzzles. Which explanation fits CHC theory?",
+  "opts": [
+   "Her fluid intelligence is strong; her crystallised intelligence is weaker",
+   "Her general g factor is high, so all of her abilities must be equal",
+   "Her crystallised intelligence is strong; her fluid intelligence is weaker",
+   "Her practical intelligence is strong; her analytical intelligence is weak"
+  ],
+  "a": 2,
+  "why": "Vocabulary reflects crystallised intelligence (acquired knowledge), while new puzzles need fluid intelligence (problem solving in unfamiliar situations). Swapping the two is the common error: knowledge is crystallised, novel reasoning is fluid."
+ },
+ {
+  "id": "xb-51",
+  "deck": "Intelligence",
+  "type": "nearmiss",
+  "q": "A 10-year-old scores 68 on an IQ test but dresses himself, has friends and handles daily tasks as well as his classmates. Why should he NOT be diagnosed with intellectual disability on this result alone?",
+  "opts": [
+   "Diagnosis requires an IQ score below 50 at the very least",
+   "Diagnosis also needs severe deficits in adaptive behaviour",
+   "Diagnosis can only be made once a person reaches adulthood",
+   "Diagnosis requires a known genetic cause like Down syndrome"
+  ],
+  "a": 1,
+  "why": "Intellectual disability requires an IQ below 70 AND severely deficient adaptive behaviour for one's age. A low score alone is not enough; the cutoff is 70, not 50, so his score is not the issue."
+ },
+ {
+  "id": "xb-52",
+  "deck": "Intelligence",
+  "type": "predict",
+  "q": "Using Terman's ratio formula, an 8-year-old girl answers questions at the level of an average 10-year-old. What is her IQ?",
+  "opts": [
+   "125",
+   "80",
+   "120",
+   "130"
+  ],
+  "a": 0,
+  "why": "IQ = mental age / chronological age x 100, so 10 / 8 x 100 = 125. Choosing 80 comes from dividing the wrong way round (8 / 10 x 100)."
+ },
+ {
+  "id": "xb-53",
+  "deck": "Intelligence",
+  "type": "predict",
+  "q": "On a maths reasoning test, Kumar scores far above his classmates. According to Spearman's theory, how is he most likely to do on verbal and spatial tests?",
+  "opts": [
+   "Below average, because strength in one area costs another",
+   "Average, because each ability is completely independent",
+   "Unpredictable, because only specific (s) abilities exist",
+   "Above average, because one general ability underlies all of them"
+  ],
+  "a": 3,
+  "why": "Spearman's g factor means superiority in one area predicts superiority overall. The idea that abilities are fully independent is closer to Gardner's view, not Spearman's."
+ },
+ {
+  "id": "xb-54",
+  "deck": "Intelligence",
+  "type": "evidence",
+  "q": "Across several modernised countries, average IQ scores have risen steadily over decades, far faster than genes could change. Which conclusion does this best support?",
+  "opts": [
+   "IQ is fixed by genes and cannot be changed",
+   "IQ tests are biased toward the test designer's culture",
+   "Environmental factors can strongly influence IQ scores",
+   "Intelligence is best described by a single g factor"
+  ],
+  "a": 2,
+  "why": "The Flynn effect happens too quickly to be genetic, so it points to environmental influences. Cultural bias concerns differences between groups taking the same test, not rising scores over time."
+ },
+ {
+  "id": "xb-55",
+  "deck": "Intelligence",
+  "type": "evidence",
+  "q": "Twin and adoption studies find IQ correlations rise as genetic relatedness increases, with heritability of about 0.50. What is the most accurate conclusion?",
+  "opts": [
+   "Environment has very little effect on a person's IQ",
+   "Exactly half of each person's IQ points come from their genes",
+   "IQ is mostly determined by schooling and family income",
+   "Genes and environment each account for a large share of IQ variation"
+  ],
+  "a": 3,
+  "why": "Heritability of about 50% means genes explain roughly half of the IQ variation in a population, leaving the rest to environment. It describes a population, so it does not mean half of one individual's IQ points come from genes."
+ },
+ {
+  "id": "xb-56",
+  "deck": "Intelligence",
+  "type": "evidence",
+  "q": "Students who were reminded of a negative stereotype about their group just before an IQ test scored lower than similar students who were not reminded. What does this finding show?",
+  "opts": [
+   "Group differences in IQ are mainly due to heredity",
+   "IQ tests use content that favours the designer's culture",
+   "Situational pressure can lower test scores, separate from ability",
+   "IQ scores have been rising steadily across generations"
+  ],
+  "a": 2,
+  "why": "This is stereotype threat: knowing a negative stereotype can make people score poorly. It challenges Bell Curve-style hereditary claims, since the same students scored differently depending only on the reminder."
+ },
+ {
+  "id": "xb-57",
+  "deck": "Intelligence",
+  "type": "scenario",
+  "q": "A company's new aptitude test gives almost identical scores when employees retake it a month later, but scores turn out to depend on typing speed rather than reasoning ability. How should the test be described?",
+  "opts": [
+   "Valid but not reliable",
+   "Both reliable and valid",
+   "Neither reliable nor valid",
+   "Reliable but not valid"
+  ],
+  "a": 3,
+  "why": "Consistent scores across retests show reliability, but measuring typing speed instead of reasoning means it is not measuring what it should, so it lacks validity. Being consistent does not make a test valid."
+ },
+ {
+  "id": "xb-58",
+  "deck": "Intelligence",
+  "type": "brain",
+  "q": "After a stroke, a patient shows the largest drop in working memory and in solving new reasoning problems. Scans show damage to frontal and parietal areas. Which theory best predicts this pattern?",
+  "opts": [
+   "Gardner's multiple intelligences",
+   "Sternberg's triarchic theory",
+   "Parieto-Frontal Integration Theory (P-FIT)",
+   "Spearman's g factor theory"
+  ],
+  "a": 2,
+  "why": "P-FIT names frontal and parietal areas as key to intelligence and links working memory to fluid intelligence. Spearman's theory describes a general ability but does not locate it in specific brain areas."
+ },
+ {
+  "id": "xb-59",
+  "deck": "Intelligence",
+  "type": "oddone",
+  "q": "A test is given to a child who grew up in a rural Sarawak longhouse. Three of these items are likely to be culturally biased. Which one is closest to culture-fair?",
+  "opts": [
+   "Explaining what people do at an ice-skating rink",
+   "Naming the author of the play Romeo and Juliet",
+   "Describing how to buy a ticket for a subway train",
+   "Choosing the shape that completes an abstract pattern"
+  ],
+  "a": 3,
+  "why": "Culture-fair tests such as Raven's Progressive Matrices use non-verbal abstract reasoning. The other items depend on language and content from a particular culture the child may never have met."
+ },
+ {
+  "id": "xb-60",
+  "deck": "Intelligence",
+  "type": "oddone",
+  "q": "Three of these show high emotional intelligence. Which one does NOT?",
+  "opts": [
+   "Noticing a quiet friend is upset and gently checking in",
+   "Calming her own nerves before an exam to think clearly",
+   "Solving a difficult logic puzzle faster than anyone else",
+   "Using frustration about a failure to push toward a goal"
+  ],
+  "a": 2,
+  "why": "Emotional intelligence is being aware of and managing your own emotions and understanding others' feelings. Solving a logic puzzle quickly reflects fluid reasoning, not emotional skills."
+ },
+ {
+  "id": "xc-1",
+  "deck": "Memory",
+  "type": "scenario",
+  "q": "Mei Ling has to memorise a 12-digit tracking number for a parcel. Instead of repeating it digit by digit, she splits it into three groups of four and remembers them as 'her birth year', 'her house number' and 'her old locker code'. What is she mainly doing to keep it in short-term memory?",
+  "opts": [
+   "Chunking it into fewer, meaningful units",
+   "Relying on echoic memory of the digits",
+   "Using state-dependent retrieval cues",
+   "Maintenance rehearsal of each single digit"
+  ],
+  "a": 0,
+  "why": "Grouping 12 digits into 3 meaningful units fits Miller's 7 ± 2 capacity limit — that is chunking. Maintenance rehearsal would just mean repeating the digits over and over, which is exactly what she avoided."
+ },
+ {
+  "id": "xc-2",
+  "deck": "Memory",
+  "type": "scenario",
+  "q": "Aina bumps into a girl at Mid Valley and cannot recall her name at all. A week later, back at her old tuition centre in Cheras where they studied together, the name suddenly comes to her. Which concept best explains this?",
+  "opts": [
+   "Context-dependent encoding specificity",
+   "The recency effect in serial position",
+   "Automatic encoding of a flashbulb event",
+   "State-dependent encoding specificity"
+  ],
+  "a": 0,
+  "why": "The physical place where the information was learned (the tuition centre) acted as a retrieval cue — context-dependent memory. State-dependent memory would involve matching an internal physiological or emotional state, not a location."
+ },
+ {
+  "id": "xc-3",
+  "deck": "Memory",
+  "type": "scenario",
+  "q": "Encik Lim can still describe exactly which kopitiam he was sitting in, what he was drinking and who was beside him when he heard shocking, unexpected news about a family member years ago — even though he never tried to memorise any of it. What best explains this?",
+  "opts": [
+   "Semantic memory of a widely known fact",
+   "A flashbulb memory formed by automatic encoding",
+   "Eidetic imagery held in iconic memory",
+   "Elaborative rehearsal linking it to old knowledge"
+  ],
+  "a": 1,
+  "why": "An unexpected event with strong emotion entered LTM with little or no effortful encoding — a flashbulb memory. Elaborative rehearsal is tempting, but that requires deliberate effort to make information meaningful, which he never did."
+ },
+ {
+  "id": "xc-4",
+  "deck": "Memory",
+  "type": "predict",
+  "q": "A lecturer reads out a list of 15 unrelated words once, then asks HELP students to write down as many as they can immediately. Which words are students most likely to FORGET?",
+  "opts": [
+   "Words from the very beginning of the list",
+   "Words from the middle of the list",
+   "Words from the very end of the list",
+   "Words from the beginning and end equally"
+  ],
+  "a": 1,
+  "why": "The serial position effect predicts good recall for the start (primacy) and end (recency) of a list, so the middle items are forgotten most. Beginning and end items are the best remembered, not the worst."
+ },
+ {
+  "id": "xc-5",
+  "deck": "Memory",
+  "type": "predict",
+  "q": "Three groups see the same 40 words. Group A counts the vowels in each word, Group B decides what each word rhymes with, and Group C decides whether each word describes something alive. All are then given a surprise recall test. What result is most likely?",
+  "opts": [
+   "C recalls most, B next, A least",
+   "All three groups recall about the same",
+   "B recalls most because STM is auditory",
+   "A recalls most, B next, C least"
+  ],
+  "a": 0,
+  "why": "The levels-of-processing model predicts that deeper (semantic) processing produces better memory than phonemic (rhyme), which beats shallow visual processing (vowel counting). STM's auditory encoding doesn't make rhyme judgements the deepest level."
+ },
+ {
+  "id": "xc-6",
+  "deck": "Memory",
+  "type": "nearmiss",
+  "q": "Puan Siti changed her mobile number last month. When a clerk asks for her number, she keeps reciting her OLD number by mistake. Which type of interference is this, and why?",
+  "opts": [
+   "Proactive — old information is blocking retrieval of the new",
+   "Retroactive — the new number came after the old number",
+   "Retroactive — new information is blocking retrieval of the old",
+   "Proactive — the new number is erasing the old memory trace"
+  ],
+  "a": 0,
+  "why": "The older number is interfering with retrieving the newer one, which is proactive interference. It would only be retroactive if the new number were making her unable to remember the old one."
+ },
+ {
+  "id": "xc-7",
+  "deck": "Memory",
+  "type": "nearmiss",
+  "q": "Danial gets most MCQ questions right but goes blank on short-answer questions about the same topics. Which explanation is most accurate?",
+  "opts": [
+   "MCQs test semantic memory while short answers test episodic memory",
+   "Recall only needs matching to a stored fact; recognition needs retrieval with few cues",
+   "Recognition only needs matching to a stored fact; recall needs retrieval with few cues",
+   "The options trigger false positives, so his MCQ scores are mostly luck"
+  ],
+  "a": 2,
+  "why": "Recognition (MCQ) matches presented information to what is stored, while recall (short answer) has very few external cues, so retrieval failure is more likely. The definitions are swapped in the most tempting distractor."
+ },
+ {
+  "id": "xc-8",
+  "deck": "Memory",
+  "type": "nearmiss",
+  "q": "Danial knows that Malaysia's independence day is 31 August 1957. He also remembers watching the Merdeka fireworks with his cousins last year. How should these two memories be classified?",
+  "opts": [
+   "Semantic, then nondeclarative",
+   "Episodic, then semantic — both declarative",
+   "Semantic, then episodic — both declarative",
+   "Episodic, then episodic — both personal"
+  ],
+  "a": 2,
+  "why": "General factual knowledge (the date) is semantic. A personal event only he experienced (fireworks with cousins) is episodic. Both are conscious, so both are declarative. The date is a shared fact, not a personal event, so 'episodic first' is wrong."
+ },
+ {
+  "id": "xc-9",
+  "deck": "Memory",
+  "type": "evidence",
+  "q": "In Sperling's study, a grid of letters flashed briefly, then a tone signalled which row to report. Participants could report almost any cued row, but the longer the tone was delayed, the fewer letters they reported. What does this show?",
+  "opts": [
+   "Iconic memory briefly holds the whole display, then fades very fast",
+   "An attention filter fully blocks the rows that were not cued",
+   "Echoic memory of the tone lasts longer than iconic memory",
+   "STM holds about 7 ± 2 letters regardless of the delay"
+  ],
+  "a": 0,
+  "why": "Because any row could be reported when cued, the whole grid must have been in iconic memory. The quick drop with delay shows it lasts only about a quarter of a second. The 7 ± 2 limit describes STM, not this brief visual store."
+ },
+ {
+  "id": "xc-10",
+  "deck": "Memory",
+  "type": "evidence",
+  "q": "After watching a video of a car accident, participants were asked how fast the cars were going when they 'smashed' into each other. A week later, many of them said they had seen broken glass, though there was none. Which conclusion does this support most directly?",
+  "opts": [
+   "Unused memory traces decay over a week",
+   "The details were never encoded, so they were forgotten",
+   "Misleading information after an event can alter the memory of it",
+   "People falsely believe they could have predicted the outcome"
+  ],
+  "a": 2,
+  "why": "The leading word 'smashed' was added after the event and changed what people later remembered — the misinformation effect, showing memory is reconstructed. Encoding failure would make them forget a detail, not add one that never existed."
+ },
+ {
+  "id": "xc-11",
+  "deck": "Memory",
+  "type": "brain",
+  "q": "After surgery that removed both hippocampi, a patient practised a mirror-drawing task each day and got steadily better, yet every day insisted he had never seen the task before. What does this pattern show?",
+  "opts": [
+   "The cerebellum was removed, so he cannot form new skills",
+   "His short-term memory was destroyed by the surgery",
+   "The surgery caused retrograde amnesia for all old skills",
+   "New declarative memories need the hippocampus; skill memory does not"
+  ],
+  "a": 3,
+  "why": "Like Patient H.M., he can form new nondeclarative (procedural) memories but not new declarative ones, showing the hippocampus is needed to consolidate new facts and events. Skill learning still improved, so the cerebellum/motor system clearly still worked."
+ },
+ {
+  "id": "xc-12",
+  "deck": "Memory",
+  "type": "brain",
+  "q": "After a motorbike accident, Danial cannot remember anything from the two weeks before the crash. However, he easily remembers the nurses, visitors and conversations he has had since waking up in hospital. What is he experiencing?",
+  "opts": [
+   "Early-stage Alzheimer's disease",
+   "Retrograde amnesia",
+   "Anterograde amnesia",
+   "Infantile amnesia"
+  ],
+  "a": 1,
+  "why": "Loss of memory going backwards from the injury is retrograde amnesia. Anterograde amnesia would mean he could NOT form new memories after the accident, but he forms them easily."
+ },
+ {
+  "id": "xc-13",
+  "deck": "Memory",
+  "type": "brain",
+  "q": "In a lab, a patient hears a tone that is always followed by a loud, startling horn. Later she can clearly state 'the tone comes before the horn', but her body shows no fear reaction at all when the tone plays. Damage to which structure best explains this?",
+  "opts": [
+   "Hippocampus",
+   "Prefrontal cortex",
+   "Amygdala",
+   "Cerebellum"
+  ],
+  "a": 2,
+  "why": "She can still form a new declarative fact (so the hippocampus works) but not a new emotional memory, which depends on the amygdala. Hippocampal damage would produce the opposite pattern — fear without conscious memory of the pairing."
+ },
+ {
+  "id": "xc-14",
+  "deck": "Memory",
+  "type": "oddone",
+  "q": "Three of these are examples of declarative (explicit) memory. Which one is NOT?",
+  "opts": [
+   "Remembering that your tutorial was moved to Room 3",
+   "Recalling the moment you opened your HELP offer letter",
+   "Knowing that the hippocampus helps form new memories",
+   "Feeling uneasy at the smell of clinic antiseptic without knowing why"
+  ],
+  "a": 3,
+  "why": "An unexplained emotional reaction is a conditioned emotional association — nondeclarative memory that shows in behaviour without conscious awareness. The other three are consciously known facts or personal events, so they are declarative."
+ },
+ {
+  "id": "xc-15",
+  "deck": "Learning 1",
+  "type": "scenario",
+  "q": "Every time Aina's mother uses the blender, she feeds the cat right afterwards. After a few weeks, the cat runs to the kitchen and drools as soon as it hears the blender. Which pair correctly labels the blender sound and the drooling to that sound?",
+  "opts": [
+   "Conditioned stimulus; conditioned response",
+   "Neutral stimulus; unconditioned response",
+   "Unconditioned stimulus; unconditioned response",
+   "Conditioned stimulus; unconditioned response"
+  ],
+  "a": 0,
+  "why": "The blender started as neutral but became a CS after pairing with food, and drooling to the blender is learned, so it is a CR. Drooling to food itself would be the UCR — drooling to the sound is not unlearned."
+ },
+ {
+  "id": "xc-16",
+  "deck": "Learning 1",
+  "type": "scenario",
+  "q": "A Year 3 teacher gives pupils a sticker for each finished worksheet. On Friday, ten stickers can be traded for a canteen voucher. Which description fits this programme best?",
+  "opts": [
+   "Shaping through successive approximations",
+   "Primary reinforcement of a biological need",
+   "Negative reinforcement of finishing work",
+   "A token economy using secondary reinforcers"
+  ],
+  "a": 3,
+  "why": "Stickers gain value because they can be exchanged for something else, so they are secondary reinforcers in a token economy. Shaping would involve rewarding small steps towards a new complex behaviour, not rewarding each finished worksheet."
+ },
+ {
+  "id": "xc-17",
+  "deck": "Learning 1",
+  "type": "scenario",
+  "q": "Encik Lim ate satay once and was violently sick that night because of a stomach virus. Now just the smell of satay makes him nauseous, even though he knows the satay wasn't the cause. What best explains this?",
+  "opts": [
+   "Higher-order conditioning from the satay stall",
+   "Stimulus generalisation from earlier illnesses",
+   "Vicarious conditioning from watching others",
+   "Conditioned taste aversion after a single pairing"
+  ],
+  "a": 3,
+  "why": "A taste followed once by nausea produces a lasting aversion — conditioned taste aversion, reflecting biological preparedness. Higher-order conditioning would need an already strong CS paired with a new neutral stimulus, which didn't happen here."
+ },
+ {
+  "id": "xc-18",
+  "deck": "Learning 1",
+  "type": "predict",
+  "q": "Mei Ling plays a mobile gacha game in which a rare character drops after an unpredictable number of paid pulls. Which pattern of playing is most likely?",
+  "opts": [
+   "A pause after each drop, then a burst of pulls",
+   "A fast, steady rate with no pauses, hard to extinguish",
+   "Little play early on, then rapid pulls near a set time",
+   "A slow, steady rate because rewards depend on time"
+  ],
+  "a": 1,
+  "why": "This is a variable ratio schedule: the number of responses needed changes each time, so there is no pause and the response rate is fast, like slot machines. A pause after each reward is the fixed ratio (stair-step) pattern."
+ },
+ {
+  "id": "xc-19",
+  "deck": "Learning 1",
+  "type": "predict",
+  "q": "Pavlov's dog salivates to a bell. The bell is then rung many times without food until salivation stops. The dog rests overnight, and the next morning the bell is rung again. What is most likely?",
+  "opts": [
+   "No salivation, because extinction erased the learning",
+   "Salivation briefly reappears, usually weaker than before",
+   "Salivation returns at full strength and stays there",
+   "The dog salivates to every sound in the laboratory"
+  ],
+  "a": 1,
+  "why": "This is spontaneous recovery: an extinguished response reappears after a rest, showing learning is a relatively permanent change that extinction does not erase. Responding to every sound would be generalisation, which isn't triggered by a rest period."
+ },
+ {
+  "id": "xc-20",
+  "deck": "Learning 1",
+  "type": "predict",
+  "q": "A PSY111 class has a quiz every Friday at 9 am, and it is the only time marks can be earned. What study pattern would you predict for most students across the week?",
+  "opts": [
+   "Constant high-rate study all week with no pauses",
+   "Little study right after the quiz, rising steadily towards Friday",
+   "Study only after a set number of chapters are read",
+   "Random bursts of study unrelated to the quiz day"
+  ],
+  "a": 1,
+  "why": "Reinforcement is only possible after a set amount of time, so this is a fixed interval schedule, which produces a pause after reinforcement and a scalloped rise as the time approaches. Constant high-rate responding is typical of variable schedules."
+ },
+ {
+  "id": "xc-21",
+  "deck": "Learning 1",
+  "type": "predict",
+  "q": "A rat is classically conditioned to fear a 1000 Hz tone paired with shock. It is then tested with a 1100 Hz tone and a 3000 Hz tone, neither paired with shock. What is the most likely result?",
+  "opts": [
+   "More fear to 1100 Hz than to 3000 Hz",
+   "No fear to either, because they were never paired",
+   "More fear to 3000 Hz than to 1100 Hz",
+   "Equal fear to both new tones"
+  ],
+  "a": 0,
+  "why": "Stimulus generalisation, as in Hovland's study: the closer a stimulus is to the original CS, the stronger the response. Zero fear would reflect complete discrimination, which only develops after the similar tones are repeatedly shown NOT to predict shock."
+ },
+ {
+  "id": "xc-22",
+  "deck": "Learning 1",
+  "type": "nearmiss",
+  "q": "Danial starts the car without his seat belt, and an annoying beeping alarm starts. He buckles up and the alarm stops. Soon he always buckles up first. Why is this negative reinforcement rather than punishment?",
+  "opts": [
+   "An unpleasant stimulus is added, and not buckling decreases",
+   "A pleasant stimulus is removed, and buckling up decreases",
+   "An unpleasant stimulus is removed, and buckling up increases",
+   "The alarm is a primary reinforcer that follows buckling up"
+  ],
+  "a": 2,
+  "why": "Reinforcement always increases a behaviour; 'negative' means something unpleasant is removed. The behaviour that increases (buckling up) is followed by the alarm stopping. Punishment would make a behaviour less likely, and the focus here is the behaviour that grows."
+ },
+ {
+  "id": "xc-23",
+  "deck": "Learning 1",
+  "type": "nearmiss",
+  "q": "Puan Siti takes away her son's phone for a week after he comes home two hours late. Which label is correct, and why?",
+  "opts": [
+   "Positive punishment — an unpleasant experience is added after the behaviour",
+   "Extinction — the reinforcement for coming home late has stopped",
+   "Negative punishment — a pleasant item is removed to reduce the behaviour",
+   "Negative reinforcement — something is removed to change the behaviour"
+  ],
+  "a": 2,
+  "why": "Removing something pleasurable to make coming home late less likely is negative punishment. Negative reinforcement is the tempting trap: something is removed, but reinforcement always INCREASES a behaviour, and here she wants it to decrease."
+ },
+ {
+  "id": "xc-24",
+  "deck": "Learning 1",
+  "type": "nearmiss",
+  "q": "A baby starts crying whenever a nurse in a white coat comes near (after several injections). A child tidies her room every Saturday to get pocket money. Which classification is correct?",
+  "opts": [
+   "Both classical, because both involve a learned association",
+   "Baby: operant (crying is rewarded); child: classical (money is a UCS)",
+   "Baby: classical (elicited, involuntary); child: operant (emitted, voluntary)",
+   "Both operant, because both behaviours have consequences"
+  ],
+  "a": 2,
+  "why": "The baby's crying is an involuntary response elicited by a stimulus (white coat) that came before it — classical. The child's voluntary tidying is controlled by the consequence (money) — operant. Crying isn't being kept going by a reward here, so the baby isn't operant."
+ },
+ {
+  "id": "xc-25",
+  "deck": "Learning 1",
+  "type": "nearmiss",
+  "q": "Whenever Arif hits his sister, his mother sends him to sit alone in a quiet corner for five minutes, away from everyone's attention. Why is this time-out rather than simple extinction?",
+  "opts": [
+   "It just stops rewarding the hitting, so the behaviour fades",
+   "It reinforces him for sitting quietly in the corner",
+   "It adds an unpleasant consequence after the hitting",
+   "It removes access to attention as a consequence, a mild punishment by removal"
+  ],
+  "a": 3,
+  "why": "Time-out takes the child away from attention and other sources of reinforcement after the behaviour — negative punishment. Extinction would mean simply ignoring the hitting and letting it continue unreinforced, without removing him from anything."
+ },
+ {
+  "id": "xc-26",
+  "deck": "Learning 1",
+  "type": "evidence",
+  "q": "Rescorla gave two groups of rats a long tone and a shock. In one group the shock came after the tone started; in the other, after the tone stopped. The first group feared the tone starting; the second feared the tone ending. What does this support?",
+  "opts": [
+   "The tone became a second CS via higher-order conditioning",
+   "Rats are biologically prepared to fear sounds",
+   "Pairing in time alone is enough for conditioning",
+   "The CS works by giving information that the UCS is coming"
+  ],
+  "a": 3,
+  "why": "Both groups had the tone and shock close in time, yet they learned different things depending on what predicted the shock. This supports the cognitive view that conditioning depends on expectancy. If timing alone mattered, both groups should have learned the same thing."
+ },
+ {
+  "id": "xc-27",
+  "deck": "Learning 1",
+  "type": "evidence",
+  "q": "After Watson paired a white rat with a frightening loud noise, Little Albert feared the rat — and also a rabbit, a dog and a sealskin coat that had never been paired with the noise. Which conclusion is best supported?",
+  "opts": [
+   "The fear was instinctive drift back to an inborn pattern",
+   "A conditioned emotional response can generalise to similar stimuli",
+   "Albert learned the fear vicariously by watching Watson",
+   "Albert had learned to discriminate the rat from other furry objects"
+  ],
+  "a": 1,
+  "why": "The fear was classically conditioned (a CER) and spread to stimuli similar to the rat — stimulus generalisation. Discrimination would be the opposite: responding ONLY to the rat and not to the similar objects."
+ },
+ {
+  "id": "xc-28",
+  "deck": "Learning 1",
+  "type": "oddone",
+  "q": "Three of these are examples of positive reinforcement. Which one is NOT?",
+  "opts": [
+   "Receiving a bonus for submitting a report early",
+   "Getting merit points for helping at a school event",
+   "Taking Panadol so that a pounding headache goes away",
+   "Being praised by a lecturer for a good answer"
+  ],
+  "a": 2,
+  "why": "Taking Panadol is strengthened by REMOVING something unpleasant (the headache), so it is negative reinforcement. The other three add a pleasant stimulus after the behaviour."
+ },
+ {
+  "id": "xc-29",
+  "deck": "Learning 1",
+  "type": "oddone",
+  "q": "Three of these are examples of classical conditioning. Which one is NOT?",
+  "opts": [
+   "Mei Ling's heart races when she sees the lecturer's red pen",
+   "Mei Ling flinches at the sound of a dentist's drill",
+   "Mei Ling studies harder after her lecturer praises her essay",
+   "Mei Ling feels hungry at the sound of a wok at the kopitiam"
+  ],
+  "a": 2,
+  "why": "Studying harder because of praise is a voluntary behaviour controlled by its consequence — operant conditioning. The other three are involuntary emotional or physical reactions triggered by a stimulus that was paired with something else."
+ },
+ {
+  "id": "xc-30",
+  "deck": "Learning 1",
+  "type": "oddone",
+  "q": "Three of these show problems with severe punishment. Which one does NOT?",
+  "opts": [
+   "A child who is often caned starts hitting younger children",
+   "A child stops at once because the punishment is immediate and consistent",
+   "A child lies about a broken vase to avoid being caned",
+   "A child avoids his father rather than stopping the misbehaviour"
+  ],
+  "a": 1,
+  "why": "Immediate, consistent punishment is how punishment is made effective, not a problem with it. Lying, avoiding the punisher and modelling aggression are listed problems with severe punishment."
+ },
+ {
+  "id": "xc-31",
+  "deck": "Learning 2",
+  "type": "scenario",
+  "q": "During orientation week, Danial wanders around the HELP campus with no particular aim. A month later, a friend says there is free food in a hall he 'explored' once, and he immediately takes the shortest route there. Which kind of learning does this show?",
+  "opts": [
+   "Insight learning",
+   "Observational learning",
+   "Latent learning",
+   "Learned helplessness"
+  ],
+  "a": 2,
+  "why": "He learned the campus layout without any reward, and the learning only showed when it became useful (free food) — like Tolman's rats. Insight would be a sudden solution to a problem, but he didn't have to solve anything; he already knew the way."
+ },
+ {
+  "id": "xc-32",
+  "deck": "Learning 2",
+  "type": "scenario",
+  "q": "Aina failed Add Maths repeatedly in secondary school despite trying hard. In university, she is placed in a much easier statistics course, but she skips the tutorials and says, 'No point, I'm just bad at maths.' What best explains her behaviour?",
+  "opts": [
+   "Negative reinforcement",
+   "The learning/performance distinction",
+   "Latent learning",
+   "Learned helplessness"
+  ],
+  "a": 3,
+  "why": "A history of repeated failure has taught her that effort makes no difference, so she fails to act even when success is now possible — learned helplessness. The learning/performance distinction is about learning a behaviour without performing it, not giving up because of past failure."
+ },
+ {
+  "id": "xc-33",
+  "deck": "Learning 2",
+  "type": "scenario",
+  "q": "Mei Ling spent an hour stuck on a logic puzzle and finally gave up. While walking to the LRT, she suddenly sees how the pieces relate to each other and knows the whole answer at once. What is this?",
+  "opts": [
+   "Trial-and-error learning",
+   "Observational learning",
+   "Insight",
+   "Latent learning"
+  ],
+  "a": 2,
+  "why": "A sudden perception of the relationships among parts of a problem, giving a quick solution, is insight — the 'aha' moment Köhler described. Trial and error is the opposite: trying solutions one after another until one happens to work."
+ },
+ {
+  "id": "xc-34",
+  "deck": "Learning 2",
+  "type": "predict",
+  "q": "In a Bobo doll study, children saw a model punished for hitting the doll, and they did not copy the aggression. The experimenter then offers each child a sticker for every aggressive action they can show. What is most likely?",
+  "opts": [
+   "They only copy the model's non-aggressive play",
+   "They become helpless and refuse to do anything",
+   "They now reproduce the aggressive acts accurately",
+   "They still cannot show any aggressive acts"
+  ],
+  "a": 2,
+  "why": "This is the learning/performance distinction: the children had learned the aggressive acts, but did not perform them until there was a reward. If they truly couldn't show any aggression, it would mean nothing had been learned — which Bandura's results contradict."
+ },
+ {
+  "id": "xc-35",
+  "deck": "Learning 2",
+  "type": "predict",
+  "q": "In Seligman's study, Group A dogs were held in a harness and received shocks they could not escape. They are then placed in a two-sided box where jumping a low hurdle avoids the shock. What will they most likely do?",
+  "opts": [
+   "Quickly jump the hurdle to the safe side",
+   "Jump the hurdle only after watching another dog",
+   "Escape at once through sudden insight",
+   "Stay on the shock side and not try to escape"
+  ],
+  "a": 3,
+  "why": "Dogs that had learned escape was impossible stayed where the shock was — learned helplessness. Quick jumping is what the control group (no inescapable shock) did."
+ },
+ {
+  "id": "xc-36",
+  "deck": "Learning 2",
+  "type": "nearmiss",
+  "q": "Köhler's chimpanzee, after failing to reach a banana, sat still for a while and then stacked boxes and climbed up to get it. Why is this insight rather than latent learning?",
+  "opts": [
+   "The solution came suddenly from seeing how the parts of the problem related",
+   "The behaviour was slowly shaped through rewarded steps",
+   "Learning stayed hidden until a reward made it worth showing",
+   "The chimp copied a model it had seen stacking boxes"
+  ],
+  "a": 0,
+  "why": "Insight is the sudden perception of relationships among the parts of a problem. Latent learning means the knowledge already existed but was hidden until a reward made it useful — the chimp hadn't previously learned to stack boxes for food."
+ },
+ {
+  "id": "xc-37",
+  "deck": "Learning 2",
+  "type": "nearmiss",
+  "q": "In Tolman and Honzik's study, Group 2 rats were first rewarded on Day 11, and on Day 12 their errors dropped to the level of the always-rewarded group. Why is this evidence of latent learning, not just fast learning once food appeared?",
+  "opts": [
+   "The drop was too quick to start from scratch; they had learned in Days 1–10",
+   "The rats suddenly saw how the maze fitted together",
+   "They watched Group 1 run the maze and copied the route",
+   "Food is a primary reinforcer, so it makes learning extremely fast"
+  ],
+  "a": 0,
+  "why": "Learning a maze from zero takes many rewarded trials (Group 1 took days), so an instant drop means the map was already learned without reward. The 'primary reinforcer' idea can't explain matching days of practice in a single trial."
+ },
+ {
+  "id": "xc-38",
+  "deck": "Learning 2",
+  "type": "evidence",
+  "q": "Tolman's rats learned a maze without being rewarded and only showed it when food was introduced. Which view does this finding most clearly CHALLENGE?",
+  "opts": [
+   "Cognition must be included to explain learning",
+   "Learning involves mental events like a map of the maze",
+   "Learning requires reinforcement and is just observable behaviour",
+   "Learning can stay hidden until it becomes useful"
+  ],
+  "a": 2,
+  "why": "Early behaviourism held that learning was observable behaviour shaped by reinforcement; rats learning with no reward and no visible change challenge that. The other options are what the study SUPPORTS — the cognitive view."
+ },
+ {
+  "id": "xc-39",
+  "deck": "Learning 2",
+  "type": "evidence",
+  "q": "In Bandura's original Bobo doll study, children who watched an adult kick and hit the doll later did the same, using the same actions, even though they had never been rewarded for it. What does this most directly support?",
+  "opts": [
+   "Aggression is a conditioned emotional response to the doll",
+   "New behaviour can be learned by watching a model",
+   "Aggression is learned only through direct reinforcement",
+   "Children are biologically prepared to be aggressive"
+  ],
+  "a": 1,
+  "why": "The children copied specific new actions they had only observed, with no reinforcement of their own — observational learning. Direct reinforcement can't explain it, because the children were never rewarded for hitting."
+ },
+ {
+  "id": "xc-40",
+  "deck": "Learning 2",
+  "type": "evidence",
+  "q": "Dogs that had been given inescapable shocks did not try to escape later, while dogs without that history escaped easily. Which conclusion follows most directly?",
+  "opts": [
+   "Past experiences of no control can stop later attempts to act",
+   "Shock is a stronger reinforcer for some dogs than for others",
+   "Dogs learn to escape best by watching other dogs",
+   "The tone became a CS that made dogs more active"
+  ],
+  "a": 0,
+  "why": "Seligman concluded that a history of failing to escape led the dogs to stop trying even when escape was possible — learned helplessness. Nothing in the study involved watching other dogs, so observational learning isn't the conclusion."
+ },
+ {
+  "id": "xc-41",
+  "deck": "Learning 2",
+  "type": "oddone",
+  "q": "Arif watches a YouTube chef make roti canai. Three of these would stop him from reproducing it through observational learning. Which one would NOT?",
+  "opts": [
+   "He forgot the order of the steps by the next day",
+   "He was scrolling his phone while the dough was flipped",
+   "He expects his family to praise him if he makes it",
+   "His hands can't yet stretch the dough thin enough"
+  ],
+  "a": 2,
+  "why": "Expecting praise means motivation is present, which helps performance. The others are failures of attention, memory/retention and motoric reproduction — three of Bandura's four elements."
+ },
+ {
+  "id": "xc-42",
+  "deck": "Learning 2",
+  "type": "oddone",
+  "q": "Three of these are examples of cognitive learning (latent, insight or observational). Which one is NOT?",
+  "opts": [
+   "A child says 'please' more often after getting a sweet each time",
+   "A rat learns a maze while exploring with no reward",
+   "A teenager learns a TikTok dance by watching it",
+   "A chimp suddenly stacks boxes to reach a banana"
+  ],
+  "a": 0,
+  "why": "Saying 'please' more because it is followed by sweets is operant conditioning: behaviour shaped directly by its consequence. The other three are insight, observational and latent learning, which emphasise mental events."
+ },
+ {
+  "id": "xc-43",
+  "deck": "Language & Thought",
+  "type": "scenario",
+  "q": "At a picnic, there's no knife to cut the birthday cake. Danial says they can't cut it, but his friend slices it neatly with the edge of a plastic card. Which barrier was stopping Danial?",
+  "opts": [
+   "Mental set",
+   "Availability heuristic",
+   "Confirmation bias",
+   "Functional fixedness"
+  ],
+  "a": 3,
+  "why": "Danial thought of the card only in terms of its usual function (payment), not as a cutting tool — functional fixedness. Mental set is about sticking with problem-solving methods that worked before, not an object's typical use."
+ },
+ {
+  "id": "xc-44",
+  "deck": "Language & Thought",
+  "type": "scenario",
+  "q": "After seeing news of a plane crash, Puan Siti cancels her flight to Penang and drives five hours instead, even though road travel causes far more deaths per trip. Which process best explains her choice?",
+  "opts": [
+   "Availability heuristic",
+   "Functional fixedness",
+   "Confirmation bias",
+   "Representativeness heuristic"
+  ],
+  "a": 0,
+  "why": "She judged flying as more dangerous because a vivid example came to mind easily — the availability heuristic. Representativeness is about judging whether something belongs to a category because it resembles it, not about how easily examples come to mind."
+ },
+ {
+  "id": "xc-45",
+  "deck": "Language & Thought",
+  "type": "scenario",
+  "q": "Aina walks into a mamak she's never been to. Without thinking, she sits down, calls the waiter, orders teh tarik, eats, then goes to the counter to pay. Which concept guides her behaviour?",
+  "opts": [
+   "An algorithm",
+   "A prototype",
+   "A formal concept",
+   "A script"
+  ],
+  "a": 3,
+  "why": "A script is a type of schema for a familiar sequence of activities, like eating at a mamak. A prototype is the best example of a category (e.g. an apple for 'fruit'), not a sequence of actions."
+ },
+ {
+  "id": "xc-46",
+  "deck": "Language & Thought",
+  "type": "predict",
+  "q": "Participants memorise a map of an island with a hut, a nearby rock and a distant tree. They are asked to mentally travel from the hut to each landmark. What result would Kosslyn et al. predict?",
+  "opts": [
+   "Both trips take the same time, as images have no distance",
+   "Reaching the tree takes longer than reaching the rock",
+   "Times are random because imagery is not spatial",
+   "Reaching the rock takes longer as it's smaller"
+  ],
+  "a": 1,
+  "why": "Kosslyn found that the greater the distance on the memorised map, the longer the mental trip — mental images keep spatial properties like real pictures. Equal times would only happen if images had no spatial layout."
+ },
+ {
+  "id": "xc-47",
+  "deck": "Language & Thought",
+  "type": "predict",
+  "q": "Puan Siti's son is about 18 months old and is developing typically. Which utterance is he most likely to produce?",
+  "opts": [
+   "\"Daddy is going to work in the car.\"",
+   "Soft vowel sounds like \"ooo\" and \"aah\"",
+   "\"Ba-ba-ba-da-da.\"",
+   "\"Daddy go car.\""
+  ],
+  "a": 3,
+  "why": "At around 1.5 years, children typically use telegraphic speech: short strings of key words with grammar words left out. Babbling (consonant-vowel sounds) is typical at about 6 months, and full sentences come in the preschool years."
+ },
+ {
+  "id": "xc-48",
+  "deck": "Language & Thought",
+  "type": "nearmiss",
+  "q": "In a maths tutorial, Danial keeps using a long method that worked on the last ten questions, missing an obvious shortcut on the new question. Why is this mental set rather than functional fixedness?",
+  "opts": [
+   "He's judging the question by how easily similar ones come to mind",
+   "He's relying on an algorithm, which always finds the answer",
+   "He's only using evidence that agrees with what he already believes",
+   "He's sticking to a past strategy, not seeing an object only by its usual use"
+  ],
+  "a": 3,
+  "why": "Mental set means persisting with problem-solving patterns that worked before. Functional fixedness is specifically about thinking of OBJECTS only in their typical function, and no object is involved here."
+ },
+ {
+  "id": "xc-49",
+  "deck": "Language & Thought",
+  "type": "nearmiss",
+  "q": "Encik Lim sees a quiet man with glasses reading a thick book in the library and is sure he must be a lecturer, not a businessman, even though there are far more businessmen in KL. Which heuristic is this, and why?",
+  "opts": [
+   "Availability — lecturers come to mind more easily in a library",
+   "Representativeness — he matches Encik Lim's image of a lecturer",
+   "Availability — he has recently met many lecturers",
+   "Representativeness — lecturers are far more common in KL"
+  ],
+  "a": 1,
+  "why": "He is assuming the man belongs to a category because he shares its typical characteristics — representativeness. Availability would rely on how easily examples come to mind, but the judgement here comes from resemblance."
+ },
+ {
+  "id": "xc-50",
+  "deck": "Language & Thought",
+  "type": "evidence",
+  "q": "The Dani people of New Guinea have only two colour words, yet they perceive and remember colours in much the same way English speakers do. Which view does this finding support?",
+  "opts": [
+   "Vygotsky's language-first view",
+   "Linguistic relativity",
+   "Cognitive universalism",
+   "The availability heuristic"
+  ],
+  "a": 2,
+  "why": "If language controlled thought (linguistic relativity), having two colour words should change colour perception — it didn't. Universal concepts seem to shape perception regardless of vocabulary, supporting cognitive universalism."
+ },
+ {
+  "id": "xc-51",
+  "deck": "Language & Thought",
+  "type": "evidence",
+  "q": "In Gelman and Markman's (1986) study, children were told a new bird was a 'blackbird'. They more often said it fed its babies mashed-up food, like another blackbird, even though it looked more like a different bird. What does this suggest?",
+  "opts": [
+   "A label can shape how children reason about a category",
+   "Language has no effect on how children think",
+   "Children rely only on appearance to make inferences",
+   "Concepts always develop before language, as Piaget said"
+  ],
+  "a": 0,
+  "why": "The shared name shaped the children's inference more than appearance did, supporting a version of linguistic relativity for higher-level concepts. Relying only on appearance is exactly what the children did NOT do."
+ },
+ {
+  "id": "xc-52",
+  "deck": "Language & Thought",
+  "type": "evidence",
+  "q": "A large meta-analysis (Gunnerud et al., 2020) pooled many studies comparing bilingual and monolingual children on executive function. Which conclusion is most consistent with its findings?",
+  "opts": [
+   "Bilingualism prevents cognitive decline in all adults",
+   "The overall bilingual advantage is negligible",
+   "Bilingualism greatly improves all executive functions",
+   "Bilingualism clearly harms executive function"
+  ],
+  "a": 1,
+  "why": "The meta-analysis found that the overall advantages were negligible, despite the popular claims about better executive function. It did not show harm either — just no meaningful overall difference."
+ },
+ {
+  "id": "xc-53",
+  "deck": "Language & Thought",
+  "type": "oddone",
+  "q": "Three of these are examples of divergent thinking. Which one is NOT?",
+  "opts": [
+   "Brainstorming names for the Psychology Student Union",
+   "Mind-mapping ideas for a PSY111 exhibition booth",
+   "Listing 30 unusual uses for an old brick",
+   "Using the quadratic formula to find the one correct answer"
+  ],
+  "a": 3,
+  "why": "Using a formula and logic to reach a single right answer is convergent thinking. The others start from one point and produce many different ideas, which is divergent thinking."
+ },
+ {
+  "id": "xc-54",
+  "deck": "Language & Thought",
+  "type": "oddone",
+  "q": "Three of these words contain exactly two morphemes. Which one does NOT?",
+  "opts": [
+   "elephant",
+   "unkind",
+   "books",
+   "playing"
+  ],
+  "a": 0,
+  "why": "'Elephant' is a single unit of meaning — its parts don't carry meaning on their own. 'Play + ing', 'book + s' and 'un + kind' each combine two morphemes, like the lecture example 'playing'."
+ }
+]
