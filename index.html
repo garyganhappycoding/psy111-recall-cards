@@ -364,6 +364,28 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 .x-review{display:flex;flex-direction:column;gap:12px}
 .x-rev{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--bad);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;font-size:15px}
 .x-rev.ok{border-left-color:var(--ok)}
+.mbadd{all:unset;cursor:pointer;align-self:flex-start;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;border:1px dashed var(--accent);color:var(--accent);margin-top:2px}
+.mbadd[aria-pressed="true"]{border-style:solid;background:var(--accent);color:var(--paper)}
+.mbadd:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.mbhead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.mbbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mblist{display:flex;flex-direction:column;gap:14px;margin-top:12px}
+.mbcard{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--bad);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.mbcard.done{border-left-color:var(--ok);opacity:.85}
+.mbcard .top{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:12px;color:var(--muted)}
+.mbcard .top .deck{font-family:var(--mono);text-transform:uppercase;letter-spacing:.04em}
+.mbcard .q{font-weight:600;font-size:16px;line-height:1.45}
+.mbcard ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:3px;font-size:15px}
+.mbcard ol li.right{color:var(--ok);font-weight:600}.mbcard ol li.yours{color:var(--bad);text-decoration:line-through}
+.mbcard .why{color:var(--muted);font-size:14px}
+.mbcard .ans{display:flex;flex-direction:column;gap:4px;font-size:15px}
+.mbcard .ans .yours{color:var(--bad)}.mbcard .ans .right{color:var(--ok);font-weight:600}
+.mbcard label.nl{font-size:13px;font-weight:600;margin-top:4px}
+.mbcard textarea{min-height:84px}
+.mbcard .acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mbcard .saved{font-size:12px;color:var(--muted)}
+.mbempty{background:var(--paper);border:1px dashed var(--line);border-radius:14px;padding:22px;text-align:center;color:var(--muted);margin-top:12px}
+#tab-mistakes .n{font-family:var(--mono);font-size:11px;margin-left:5px;padding:1px 6px;border-radius:999px;background:var(--bad);color:var(--paper)}
 .x-rev .yours{color:var(--bad)}.x-rev .right{color:var(--ok);font-weight:600}.x-rev .why{color:var(--muted);font-size:14px}
 .x-score{display:flex;flex-wrap:wrap;gap:12px}
 .x-score div{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 16px;min-width:150px}
@@ -412,6 +434,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <button role="tab" id="tab-spin" aria-selected="false">Spin wheel</button>
     <button role="tab" id="tab-xexam" aria-selected="false">Exam mode</button>
     <button role="tab" id="tab-essays" aria-selected="false">Essay practice</button>
+    <button role="tab" id="tab-mistakes" aria-selected="false">Mistake book</button>
   </div>
 
   <section id="view-cards">
@@ -446,6 +469,14 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <p class="note">Every essay question, for practice. Each one is a scenario worth 20 marks: write your answer, then reveal the model answer and tick the checklist to mark yourself.</p>
     <div class="toolbar" id="es-filter"></div>
     <div class="artgrid" id="es-grid"></div>
+  </section>
+
+  <section id="view-mistakes" hidden>
+    <div class="mbhead"><p class="note" style="margin:0">MCQs you saved from Exam mode. Write your own notes on why the answer is right, then practise them again until you can mark them as mastered.</p></div>
+    <div class="toolbar" id="mb-state"></div>
+    <div class="toolbar sub2" id="mb-decks"></div>
+    <div class="mbbar"><button class="btn primary" id="mb-practise">Practise these</button><label class="hint"><input type="checkbox" id="mb-hide"> Hide answers (test yourself first)</label></div>
+    <div class="mblist" id="mb-list"></div>
   </section>
 
   <section id="view-spin" hidden>
@@ -1075,12 +1106,12 @@ let token=store.get("pr-token",null), acctEmail="", authMode="in";
 function queueSync(){if(!user)return;clearTimeout(syncTimer);syncTimer=setTimeout(syncNow,1500)}
 async function syncNow(){
   if(!user||!sb)return;clearTimeout(syncTimer);
-  const {error}=await sb.rpc("recall_save_state_v4",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null,p_status:status,p_attempts:attempts,p_exams:xExams,p_essays:esState});
+  const {error}=await sb.rpc("recall_save_state_v5",{p_token:token,p_done:[...done],p_drafts:drafts,p_cards:customCards?C:null,p_status:status,p_attempts:attempts,p_exams:xExams,p_essays:esState,p_mistakes:mistakes});
   if(error&&/not_signed_in/.test(error.message)){signedOut("Your session ended. Sign in again to keep saving.");return}
   setStatus(error?"Couldn't save to your account. Your work is still on this device.":"Saved to your account");
 }
 async function loadAccount(){
-  const {data,error}=await sb.rpc("recall_get_state_v2",{p_token:token});
+  const {data,error}=await sb.rpc("recall_get_state_v3",{p_token:token});
   if(error){if(/not_signed_in/.test(error.message)){signedOut("");}else{setStatus("Couldn't load your saved progress. Try refreshing.")}return false}
   user={email:data.email};
   const localDeck=store.get("pr-local-deck2",null);
@@ -1088,15 +1119,16 @@ async function loadAccount(){
   {const srv=data.attempts||{},m={};new Set([...Object.keys(srv),...Object.keys(attempts)]).forEach(k=>{const seen=new Set(),all=[];[...(attempts[k]||[]),...(srv[k]||[])].forEach(a=>{if(!seen.has(a.at)){seen.add(a.at);all.push(a)}});all.sort((x,y)=>y.at<x.at?-1:1);m[k]=all.slice(0,20)});attempts=m;}
   {const seen=new Set(xExams.map(x=>x.at));(data.exams||[]).forEach(x=>{if(!seen.has(x.at))xExams.push(x)});xExams.sort((a,b)=>a.at<b.at?1:-1);xExams=xExams.slice(0,30);store.set("pr-xexams",xExams);}
   {const se=data.essays||{};Object.keys(se).forEach(k=>{const a=esState[k],b=se[k];const best=Math.max((a&&a.best)||0,(b&&b.best)||0);esState[k]=(!a||(b.at||"")>(a.at||""))?{...b,best}:{...a,best}});store.set("pr-essays",esState);}
+  {const sm=data.mistakes||{};Object.keys(sm).forEach(k=>{const a=mistakes[k],b=sm[k];if(!a||(b.at||"")>(a.at||""))mistakes[k]=b});store.set("pr-mistakes",mistakes);mbTab();}
   if(data.cards){C=withNewTopics(data.cards);customCards=true}else if(localDeck){C=withNewTopics(localDeck);customCards=true}
   store.set("pr-done2",[...done]);store.set("pr-drafts2",drafts);store.set("pr-status2",status);store.set("pr-attempts2",attempts);
   renderAcct();render();await syncNow();return true;
 }
 function signedOut(msg){
   slideKey=null;slideCache.forEach(p=>p.then(u=>URL.revokeObjectURL(u)).catch(()=>{}));slideCache.clear();
-  user=null;token=null;customCards=false;done=new Set();drafts={};status={};attempts={};xExams=[];esState={};C=defaults;
-  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2","pr-status2","pr-attempts2","pr-xexams","pr-essays"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
-  render();renderAcct();setStatus(msg||"Signed out");
+  user=null;token=null;customCards=false;done=new Set();drafts={};status={};attempts={};xExams=[];esState={};mistakes={};C=defaults;
+  ["pr-token","pr-done2","pr-drafts2","pr-local-deck2","pr-status2","pr-attempts2","pr-xexams","pr-essays","pr-mistakes"].forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
+  render();renderAcct();mbTab();setStatus(msg||"Signed out");
 }
 function renderAcct(){
   const el=$("#acct");el.innerHTML="";
@@ -1173,8 +1205,8 @@ document.addEventListener("keydown",e=>{
   if((e.key==="c"||e.key==="C")&&!$("#s-cluebtn").hidden)$("#s-cluebtn").click();
   if(!$("#s-rate").hidden&&["1","2","3"].includes(e.key))document.querySelectorAll("#s-rate button")[+e.key-1].click()});
 
-function view(v){["cards","table","spin","xexam","essays"].forEach(k=>{$("#view-"+k).hidden=k!==v;$("#tab-"+k).setAttribute("aria-selected",k===v)});$("#topics").hidden=v==="xexam"||v==="essays";render();if(v==="xexam")renderXSetup();if(v==="essays")renderEssayList()}
-$("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");$("#tab-spin").onclick=()=>view("spin");$("#tab-xexam").onclick=()=>view("xexam");$("#tab-essays").onclick=()=>view("essays");
+function view(v){["cards","table","spin","xexam","essays","mistakes"].forEach(k=>{$("#view-"+k).hidden=k!==v;$("#tab-"+k).setAttribute("aria-selected",k===v)});$("#topics").hidden=v==="xexam"||v==="essays"||v==="mistakes";render();if(v==="xexam")renderXSetup();if(v==="essays")renderEssayList();if(v==="mistakes")renderMistakes()}
+$("#tab-cards").onclick=()=>view("cards");$("#tab-table").onclick=()=>view("table");$("#tab-spin").onclick=()=>view("spin");$("#tab-xexam").onclick=()=>view("xexam");$("#tab-essays").onclick=()=>view("essays");$("#tab-mistakes").onclick=()=>view("mistakes");
 
 /* spin wheel: lands on a concept from the current topic (respects section + status filters) */
 let wheelRot=0,spinning=false,spinPick=null,wheelKey="";
@@ -1237,6 +1269,17 @@ $("#spin-norep").checked=store.get("pr-spin-norep",true);
 
 /* ===== Exam mode (Section A: 50 MCQ, Section B: 2 essays) + Essay practice ===== */
 let XMCQ=[],ESSAYS=[],xExams=store.get("pr-xexams",[]),esState=store.get("pr-essays",{});
+/* mistake book: {mcqId:{added,at,pick,note,wrong,right,mastered,removed}} — removed entries are kept as tombstones so removal syncs */
+let mistakes=store.get("pr-mistakes",{}),mbState=store.get("pr-mbstate","learning"),mbDeck="all",mbHide=store.get("pr-mbhide",false);
+const inMB=id=>!!(mistakes[id]&&!mistakes[id].removed);
+function mbSave(){store.set("pr-mistakes",mistakes);queueSync();mbTab()}
+function mbTab(){const t=$("#tab-mistakes");if(!t)return;const n=Object.keys(mistakes).filter(k=>inMB(k)&&!mistakes[k].mastered&&XM(k)).length;t.innerHTML="Mistake book"+(n?`<span class="n">${n}</span>`:"")}
+function mbAdd(id,pick){const now=new Date().toISOString(),p=mistakes[id];
+  mistakes[id]=p&&!p.removed?{...p,at:now}:{...(p||{}),added:now,at:now,pick:pick==null?null:pick,note:(p&&p.note)||"",wrong:Math.max(1,(p&&p.wrong)||0),right:(p&&p.right)||0,mastered:false,removed:false}}
+function mbRemove(id){if(mistakes[id])mistakes[id]={...mistakes[id],removed:true,at:new Date().toISOString()}}
+function mbBtn(id,pick){const b=document.createElement("button");b.className="mbadd";
+  const paint=()=>{const on=inMB(id);b.setAttribute("aria-pressed",on);b.textContent=on?"✓ In your mistake book":"＋ Add to mistake book";b.title=on?"Tap to remove it from your mistake book":"Save this question so you can review it and write notes"};
+  b.onclick=e=>{e.stopPropagation();if(inMB(id))mbRemove(id);else mbAdd(id,pick);mbSave();paint();document.querySelectorAll(".mbaddall").forEach(x=>x.dispatchEvent(new Event("repaint")))};paint();return b}
 let xFmt=store.get("pr-xfmt","full"),xTime=store.get("pr-xtime",0),X=null,xTick=null;
 const ETYPE={A:"Analyse the scenario",B:"Compare theories",C:"Design an intervention",D:"Cross-chapter case"};
 function fmtDur(sec){sec=Math.max(0,Math.round(sec));const h=Math.floor(sec/3600),m=Math.floor(sec%3600/60),s2=sec%60;return (h?h+":"+String(m).padStart(2,"0"):m)+":"+String(s2).padStart(2,"0")}
@@ -1351,7 +1394,7 @@ function renderX(){
       else b.onclick=()=>{it.pick=o;X.confirm=false;renderX()};
       box.appendChild(b)});
     body.appendChild(box);
-    if(X.submitted){const w=document.createElement("div");w.className="x-rev"+(it.pick===m.opts[m.a]?" ok":"");w.innerHTML='<span class="right"></span><span class="why"></span>';w.querySelector(".right").textContent=(it.pick===m.opts[m.a]?"✓ Correct: ":it.pick==null?"Not answered. Answer: ":"✗ Answer: ")+m.opts[m.a];w.querySelector(".why").textContent=m.why;body.appendChild(w)}
+    if(X.submitted){const w=document.createElement("div");w.className="x-rev"+(it.pick===m.opts[m.a]?" ok":"");w.innerHTML='<span class="right"></span><span class="why"></span>';w.querySelector(".right").textContent=(it.pick===m.opts[m.a]?"✓ Correct: ":it.pick==null?"Not answered. Answer: ":"✗ Answer: ")+m.opts[m.a];w.querySelector(".why").textContent=m.why;if(it.pick!==m.opts[m.a])w.appendChild(mbBtn(it.id,it.pick));body.appendChild(w)}
   }else{
     const e=X.ess[cur.i],es=XE(e.id);$("#x-title").textContent=`Section B · Essay ${cur.i+1} of ${X.ess.length} · ${es.total} marks`;
     renderEssayInto(body,es,e.ans,X.submitted?{mark:true,ticks:(X.ticks[e.id]=X.ticks[e.id]||{}),onTick:()=>{saveXMarks();renderXNavOnly()}}:{onInput:()=>{}});
@@ -1377,6 +1420,8 @@ function submitX(auto){
   X.rec={at:new Date().toISOString(),mcq:X.mcqScore,mcqTotal:X.mcq.length,essay:X.ess.length?null:undefined,essayTotal:X.ess.reduce((s,e)=>s+XE(e.id).total,0)||undefined,mins:X.mins,
     kind:X.redo?"redo":(X.mcq.length&&X.ess.length?"full":X.mcq.length?"mcq":"essay"),
     items:X.mcq.map(it=>({id:it.id,opts:it.opts,pick:it.pick})),ess:X.ess.map(e=>({id:e.id,ans:{...e.ans},ticks:{}}))};
+  {let ch=false;X.mcq.forEach(it=>{if(!inMB(it.id)||it.pick==null)return;const mm=mistakes[it.id],ok=it.pick===XM(it.id).opts[XM(it.id).a];
+    mistakes[it.id]={...mm,at:new Date().toISOString(),...(ok?{right:(mm.right||0)+1}:{wrong:(mm.wrong||0)+1,pick:it.pick,mastered:false})};ch=true});if(ch)mbSave();}
   xExams.unshift(X.rec);xExams=xExams.slice(0,40);store.set("pr-xexams",xExams);queueSync();
   // essays written in the exam also count as essay-practice attempts
   X.ess.forEach(e=>{const prev=esState[e.id]||{};esState[e.id]={...prev,ans:{...e.ans},at:new Date().toISOString()}});store.set("pr-essays",esState);
@@ -1402,12 +1447,16 @@ function renderXResults(){
   if(X.mcq.length){
     const wrong=X.mcq.map((it,i)=>({it,i,m:XM(it.id)})).filter(x=>x.it.pick!==x.m.opts[x.m.a]);
     const h=document.createElement("div");h.className="label";h.textContent=wrong.length?`Review the ${wrong.length} MCQs you missed`:"You got every MCQ right!";body.appendChild(h);
+    if(wrong.length){const all=document.createElement("button");all.className="btn mbaddall";all.style.alignSelf="flex-start";
+      const paint=()=>{const left=wrong.filter(x=>!inMB(x.it.id)).length;all.textContent=left?`＋ Add ${left===wrong.length?"all "+left:"the other "+left} to my mistake book`:`✓ All ${wrong.length} are in your mistake book. Open it →`;all.classList.toggle("primary",!!left)};
+      all.onclick=()=>{const left=wrong.filter(x=>!inMB(x.it.id));if(!left.length){closeX();view("mistakes");window.scrollTo({top:0,behavior:"smooth"});return}left.forEach(x=>mbAdd(x.it.id,x.it.pick));mbSave();renderX()};
+      all.addEventListener("repaint",paint);paint();body.appendChild(all)}
     const rv=document.createElement("div");rv.className="x-review";
     wrong.forEach(({it,i,m})=>{const d=document.createElement("div");d.className="x-rev";
       const q=document.createElement("div");q.textContent=`Q${i+1}. ${m.q}`;q.style.fontWeight="600";
       const y=document.createElement("span");y.className="yours";y.textContent=it.pick==null?"You didn't answer.":`Your answer: ${it.pick}`;
       const r=document.createElement("span");r.className="right";r.textContent=`Answer: ${m.opts[m.a]}`;
-      const w=document.createElement("span");w.className="why";w.textContent=m.why;d.append(q,y,r,w);rv.appendChild(d)});
+      const w=document.createElement("span");w.className="why";w.textContent=m.why;d.append(q,y,r,w,mbBtn(it.id,it.pick));rv.appendChild(d)});
     body.appendChild(rv);
   }
   const mk=(t,fn,cls)=>{const b=document.createElement("button");b.className="btn"+(cls?" "+cls:"");b.textContent=t;b.onclick=fn;foot.appendChild(b)};
@@ -1415,7 +1464,51 @@ function renderXResults(){
   {const wr=X.mcq.filter(it=>it.pick!==XM(it.id).opts[XM(it.id).a]);if(wr.length)mk(`Redo the ${wr.length} I got wrong`,()=>startRedo(wr.map(it=>it.id)),X.ess.length?"":"primary")}
   const sp=document.createElement("span");sp.className="spacer";foot.appendChild(sp);mk("Close",closeX);
 }
-function closeX(){clearInterval(xTick);$("#xscrim").hidden=true;X=null;if(!$("#view-xexam").hidden)renderXSetup();if(!$("#view-essays").hidden)renderEssayList()}
+function closeX(){clearInterval(xTick);$("#xscrim").hidden=true;X=null;if(!$("#view-xexam").hidden)renderXSetup();if(!$("#view-essays").hidden)renderEssayList();if(!$("#view-mistakes").hidden)renderMistakes()}
+
+/* ---------- Mistake book view ---------- */
+function mbItems(){return Object.entries(mistakes).filter(([id,v])=>!v.removed&&XM(id)).map(([id,v])=>({id,v,m:XM(id)})).sort((a,b)=>(a.v.added<b.v.added?1:-1))}
+function renderMistakes(){
+  const all=mbItems(),learning=all.filter(x=>!x.v.mastered),mastered=all.filter(x=>x.v.mastered);
+  const st=$("#mb-state");st.innerHTML="";
+  [["learning","Still learning",learning.length],["mastered","Mastered",mastered.length],["all","All",all.length]].forEach(([k,t,n])=>{const b=document.createElement("button");b.className="chip";b.innerHTML=`<span></span><span class="n">${n}</span>`;b.firstChild.textContent=t;b.setAttribute("aria-pressed",mbState===k);b.onclick=()=>{mbState=k;store.set("pr-mbstate",k);renderMistakes()};st.appendChild(b)});
+  const pool=mbState==="all"?all:mbState==="mastered"?mastered:learning;
+  const decksIn=[...new Set(pool.map(x=>x.m.deck))];if(mbDeck!=="all"&&!decksIn.includes(mbDeck))mbDeck="all";
+  const dk=$("#mb-decks");dk.innerHTML="";dk.hidden=decksIn.length<2;
+  [["all","All chapters",pool.length],...decksIn.map(d=>[d,d,pool.filter(x=>x.m.deck===d).length])].forEach(([k,t,n])=>{const b=document.createElement("button");b.className="chip";b.innerHTML=`<span></span><span class="n">${n}</span>`;b.firstChild.textContent=t;b.setAttribute("aria-pressed",mbDeck===k);b.onclick=()=>{mbDeck=k;renderMistakes()};dk.appendChild(b)});
+  const list=pool.filter(x=>mbDeck==="all"||x.m.deck===mbDeck);
+  const pr=$("#mb-practise");pr.hidden=!list.length;pr.textContent=`Practise these ${list.length} as a quiz`;pr.onclick=()=>startRedo(shuffleArr(list.map(x=>x.id)));
+  const hd=$("#mb-hide");hd.checked=mbHide;hd.onchange=()=>{mbHide=hd.checked;store.set("pr-mbhide",mbHide);renderMistakes()};hd.closest("label").hidden=!list.length;
+  const L=$("#mb-list");L.innerHTML="";
+  if(!list.length){const e=document.createElement("div");e.className="mbempty";
+    e.textContent=!all.length?"Your mistake book is empty. After an exam, tap \"＋ Add to mistake book\" on any question you got wrong and it will be saved here.":mbState==="learning"?"Nothing left to learn here. Every saved question is marked as mastered.":"No questions here yet.";
+    L.appendChild(e);if(!all.length){const b=document.createElement("button");b.className="btn primary";b.textContent="Go to Exam mode";b.style.marginTop="12px";b.onclick=()=>view("xexam");e.appendChild(document.createElement("br"));e.appendChild(b)}return}
+  list.forEach(({id,v,m})=>{
+    const c=document.createElement("article");c.className="mbcard"+(v.mastered?" done":"");
+    const top=document.createElement("div");top.className="top";const dd=document.createElement("span");dd.className="deck";dd.textContent=m.deck;
+    const meta=document.createElement("span");meta.textContent=`Saved ${fmtWhen(v.added)} · wrong ${v.wrong||1}×`+(v.right?` · right ${v.right}× since`:"")+(v.mastered?" · mastered ✓":"");top.append(dd,meta);
+    const q=document.createElement("div");q.className="q";q.textContent=m.q;
+    const ol=document.createElement("ol");ol.type="A";m.opts.forEach((o,k)=>{const li=document.createElement("li");li.textContent=o;if(!mbHide||c.dataset.shown){if(k===m.a)li.className="right";else if(o===v.pick)li.className="yours"}ol.appendChild(li)});
+    const ans=document.createElement("div");ans.className="ans";
+    const y=document.createElement("span");y.className="yours";y.textContent=v.pick==null?"You didn't answer it.":`Your answer: ${v.pick}`;
+    const r=document.createElement("span");r.className="right";r.textContent=`Answer: ${m.opts[m.a]}`;
+    const w=document.createElement("span");w.className="why";w.textContent=m.why;ans.append(y,r,w);
+    const show=document.createElement("button");show.className="btn";show.textContent="Show answer";
+    const reveal=()=>{ans.hidden=false;show.hidden=true;[...ol.children].forEach((li,k)=>{if(k===m.a)li.className="right";else if(m.opts[k]===v.pick)li.className="yours"})};
+    show.onclick=reveal;ans.hidden=mbHide;show.hidden=!mbHide;
+    const nl=document.createElement("label");nl.className="nl";nl.textContent="My notes: why is this the answer? What tricked me?";nl.htmlFor="mbn-"+id;
+    const ta=document.createElement("textarea");ta.id="mbn-"+id;ta.placeholder="Write it in your own words, e.g. the key clue in the scenario, the concept it points to, and how it differs from the option I picked.";ta.value=v.note||"";
+    const saved=document.createElement("span");saved.className="saved";saved.textContent=v.note?"Notes saved":"";
+    let t=null;ta.oninput=()=>{saved.textContent="Saving…";clearTimeout(t);t=setTimeout(()=>{mistakes[id]={...mistakes[id],note:ta.value,at:new Date().toISOString()};mbSave();saved.textContent=user?"Notes saved to your account":"Notes saved on this device"},600)};
+    const acts=document.createElement("div");acts.className="acts";
+    const mk=(tx,fn,cls)=>{const b=document.createElement("button");b.className="btn"+(cls?" "+cls:"");b.textContent=tx;b.onclick=fn;acts.appendChild(b);return b};
+    acts.appendChild(show);
+    mk("Retry this one",()=>startRedo([id]));
+    mk(v.mastered?"Move back to still learning":"✓ I've mastered this",()=>{mistakes[id]={...mistakes[id],mastered:!v.mastered,at:new Date().toISOString()};mbSave();renderMistakes()},v.mastered?"":"primary");
+    const rm=mk("Remove",()=>{if(rm.dataset.arm){mbRemove(id);mbSave();renderMistakes()}else{rm.dataset.arm=1;rm.textContent="Tap again to remove";setTimeout(()=>{rm.textContent="Remove";delete rm.dataset.arm},3000)}});
+    acts.appendChild(saved);
+    c.append(top,q,ol,ans,nl,ta,acts);L.appendChild(c)});
+}
 
 /* shared essay renderer: write mode, or mark mode (model answer + checklist) */
 function wc(t){return (t.trim().match(/\S+/g)||[]).length}
@@ -1488,7 +1581,7 @@ document.addEventListener("keydown",e=>{
 },true);
 
 (async function boot(){
-  try{const r=await fetch("exam-mcq.json",{cache:"no-store"});if(r.ok)XMCQ=await r.json()}catch(e){}
+  try{const r=await fetch("exam-mcq.json",{cache:"no-store"});if(r.ok)XMCQ=await r.json()}catch(e){}mbTab();
   try{const r=await fetch("essays.json",{cache:"no-store"});if(r.ok)ESSAYS=await r.json()}catch(e){}
   try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;defaults=await r.json()}catch(e){defaults=[];setStatus("Couldn't load the card deck.")}
   {const ld=store.get("pr-local-deck2",null);C=ld?withNewTopics(ld):defaults;}
