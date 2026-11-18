@@ -170,7 +170,8 @@ td.concept select{margin-top:8px;font-size:12px;padding:5px 8px}
 .qopt.right{border-color:var(--ok);background:var(--ok-bg)}.qopt.right .key{background:var(--ok);color:var(--paper)}
 .qopt.wrong{border-color:var(--bad);background:var(--bad-bg)}.qopt.wrong .key{background:var(--bad);color:var(--paper)}
 .qopt[disabled]{cursor:default}
-.qfeed{font-weight:600;font-size:15px}.qfeed.ok{color:var(--ok)}.qfeed.bad{color:var(--bad)}
+.qfeed{font-weight:600;font-size:15px}
+.qwhy{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:15px;line-height:1.5}.qfeed.ok{color:var(--ok)}.qfeed.bad{color:var(--bad)}
 .qplans{display:flex;flex-direction:column;gap:8px}
 .qplan{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--paper);cursor:pointer}
 .qplan:has(input:checked){border-color:var(--accent);background:var(--bg)}
@@ -553,6 +554,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
       <div class="qopts" id="q-opts"></div></div>
       <div id="q-after" class="field" hidden>
         <div class="qfeed" id="q-feed" aria-live="polite"></div>
+        <div class="qwhy" id="q-why" hidden></div>
         <div class="label" id="q-anslabel"></div>
         <div class="answer" id="q-ans"></div>
         <div class="qcmp" id="q-cmp" hidden></div>
@@ -701,14 +703,15 @@ function statusChips(el){
 }
 function renderMode(){
   document.querySelectorAll("#modeseg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===mode));
-  $("#modehint").textContent=mode==="learn"?"Tap a card to read it first, then tap Done to flip it and answer from memory. Quiz mode tests you on every card with 4 options.":"Tap a card and answer straight away from the clues. Quiz mode tests you on every card with 4 options.";
+  $("#modehint").textContent=mode==="learn"?"Tap a card to read it first, then tap Done to flip it and answer from memory. Quiz mode gives you an exam-style scenario question for every card.":"Tap a card and answer straight away from the clues. Quiz mode gives you an exam-style scenario question for every card.";
 }
 document.querySelectorAll("#modeseg button").forEach(b=>b.onclick=()=>{if(b.dataset.m==="quiz"){openQuizConfirm();return}mode=b.dataset.m;store.set("pr-mode",mode);renderMode()});
 
 /* ---- quiz mode: 3 question types per card (choose the best answer / true statement / compare similar concepts),
    mixed together; each new quiz rotates the type a card gets, so repeat quizzes ask differently ---- */
 let quiz=null;
-const QT=["describe","fact","compare"],QTLABEL={describe:"Choose the best answer",fact:"Pick the true statement",compare:"Compare similar concepts"};
+const QT=["describe","fact","compare"],QTLABEL={scenario:"Apply it to the scenario",describe:"Choose the best answer",fact:"Pick the true statement",compare:"Compare similar concepts"};
+let QMCQ={};  // exam-style scenario question for each card id (quiz-mcq.json)
 const shuffleArr=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 const bulletsOf=c=>String(c.ans).split("\n").map(x=>x.replace(/^\s*[-•*]\s*/,"").trim()).filter(Boolean);
 const usable=b=>b.length>8&&!/^[→…]/.test(b);  // skip continuation fragments like "→ arousal interpreted…"
@@ -785,6 +788,8 @@ function makeQuestion(c,type){
 }
 function buildQuestion(item){
   const c=byId(item.id);if(!c)return null;
+  const sq=QMCQ[c.id];
+  if(sq&&item.type!=="compare"){const right=sq.opts[sq.a];return {type:"scenario",id:c.id,stem:sq.q,why:sq.why,opts:shuffleArr(sq.opts.slice()),right}}
   const order=[item.type,...QT.filter(t=>t!==item.type)];
   for(const t of order){const q=makeQuestion(c,t);if(q)return q}
   return null;
@@ -795,22 +800,24 @@ function scopeText(){
 }
 function nextType(id){const rot=store.get("pr-qrot",{});const t=QT[(rot[id]||0)%QT.length];rot[id]=(rot[id]||0)+1;store.set("pr-qrot",rot);return t}
 function planItems(plan,cards){
-  if(plan==="quick")return shuffleArr(cards).slice(0,10).map(c=>({id:c.id,type:nextType(c.id)}));
-  if(plan==="full")return shuffleArr(cards.map(c=>({id:c.id,type:nextType(c.id)})));
-  if(plan==="compare")return shuffleArr(cards.map(c=>({id:c.id,type:"compare"})));
-  return shuffleArr(cards.flatMap(c=>QT.map(t=>({id:c.id,type:t}))));  // "all": every type for every card
+  const it=c=>({id:c.id,type:QMCQ[c.id]?"scenario":nextType(c.id)});
+  if(plan==="quick")return shuffleArr(cards).slice(0,10).map(it);
+  if(plan==="quick20")return shuffleArr(cards).slice(0,20).map(it);
+  if(plan==="weak"){const w=cards.filter(c=>status[c.id]==="forgot"||status[c.id]==="unsure"||!status[c.id]);return shuffleArr(w.length?w:cards).map(it)}
+  return shuffleArr(cards.map(it));
 }
-const PLANS=[["full","Full quiz","One question per card, mixed types. Each new quiz asks each card a different way."],
-  ["quick","Quick 10","10 random cards, mixed types."],
-  ["compare","Compare similar concepts","Tell apart look-alikes, e.g. Id vs Ego, James-Lange vs Cannon-Bard."],
-  ["all","Ultimate","All 3 question types for every card."]];
+const PLANS=[["full","Full quiz","One exam-style scenario question for every card in this view."],
+  ["quick","Quick 10","10 random cards."],
+  ["quick20","Quick 20","20 random cards."],
+  ["weak","Weak spots","Only cards you marked Not sure or Totally forgot, or haven't rated yet."]];
 function openQuizConfirm(){
   const cards=quizScope(),n=cards.length;
-  $("#qc-body").textContent=n?`From ${scopeText()} (${n} card${n>1?"s":""}). Every question has 4 options. Pick a quiz:`:"There are no cards in this view. Pick another topic or clear the filters first.";
+  $("#qc-body").textContent=n?`From ${scopeText()} (${n} card${n>1?"s":""}). Every question is an exam-style scenario with 4 options. Pick a quiz:`:"There are no cards in this view. Pick another topic or clear the filters first.";
   const box=$("#qc-plans");box.innerHTML="";box.hidden=!n;$("#qc-go").hidden=!n;
-  const last=store.get("pr-qplan","full");
+  let last=store.get("pr-qplan","full");if(!PLANS.some(p=>p[0]===last))last="full";
   PLANS.forEach(([v,t,d])=>{
-    const cnt={full:n,quick:Math.min(10,n),compare:n,all:n*QT.length}[v];
+    const weak=cards.filter(c=>status[c.id]==="forgot"||status[c.id]==="unsure"||!status[c.id]).length||n;
+    const cnt={full:n,quick:Math.min(10,n),quick20:Math.min(20,n),weak}[v];
     const lab=document.createElement("label");lab.className="qplan";
     const r=document.createElement("input");r.type="radio";r.name="qplan";r.value=v;r.id="qplan-"+v;r.checked=v===last;
     const tx=document.createElement("span");const b=document.createElement("b");b.textContent=`${t} · ${cnt} question${cnt>1?"s":""}`;
@@ -840,7 +847,8 @@ function showQuestion(){
   $("#q-bar").style.width=(quiz.i/quiz.items.length*100)+"%";
   $("#q-type").textContent=QTLABEL[q.type];
   const stem=$("#q-stem");stem.innerHTML="";
-  if(q.type==="name"){
+  if(q.type==="scenario"){stem.append(q.stem)}
+  else if(q.type==="name"){
     stem.append("Which concept is this?");const ul=document.createElement("ul");ul.className="pts";
     q.stemPts.forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.appendChild(li)});stem.appendChild(ul);
   }else if(q.type==="describe"){stem.append(questionOf(c))}
@@ -853,7 +861,7 @@ function showQuestion(){
     const tx=document.createElement("span");tx.textContent=o;btn.append(key,tx);
     btn.onclick=()=>answerQuiz(btn);box.appendChild(btn);
   });
-  $("#q-after").hidden=true;$("#q-next").hidden=true;
+  $("#q-after").hidden=true;$("#q-next").hidden=true;$("#q-why").hidden=true;
   $("#qsheet").scrollTop=0;$("#q-play .q-body").scrollTop=0;box.querySelector(".qopt").focus({preventScroll:true});
 }
 function answerQuiz(btn){
@@ -864,8 +872,9 @@ function answerQuiz(btn){
   if(ok)quiz.score++;else if(!quiz.missed.includes(c.id))quiz.missed.push(c.id);
   const fb=$("#q-feed");fb.className="qfeed "+(ok?"ok":"bad");
   fb.textContent=ok?"✓ Correct!":(q.type==="name"?`✗ Not quite — it's “${c.name}”.`:"✗ Not quite — the right one is highlighted in green.");
-  const cmp=$("#q-cmp");
-  if(q.type==="compare"){
+  const cmp=$("#q-cmp"),wy=$("#q-why");wy.hidden=!q.why;if(q.why){wy.textContent=q.why}
+  if(q.type==="scenario"){$("#q-anslabel").textContent=`The concept: ${c.name}`;$("#q-ans").hidden=false;points($("#q-ans"),c.ans);cmp.hidden=true}
+  else if(q.type==="compare"){
     const o=byId(q.other);$("#q-anslabel").textContent="How they differ";$("#q-ans").hidden=true;cmp.hidden=false;cmp.innerHTML="";
     [c,o].forEach(x=>{const d=document.createElement("div");const l=document.createElement("div");l.className="label";l.textContent=x.name;const p=document.createElement("div");points(p,x.ans);d.append(l,p);cmp.appendChild(d)});
   }else{$("#q-anslabel").textContent=`Full answer: ${c.name}`;$("#q-ans").hidden=false;points($("#q-ans"),c.ans);cmp.hidden=true}
@@ -893,7 +902,7 @@ function finishQuiz(){
   quiz.answered=false;$("#q-close").focus({preventScroll:true});
 }
 // retry asks the missed cards again, each in a different way than before
-$("#q-retry").onclick=()=>startQuiz(shuffleArr(quiz.missed.map(id=>({id,type:nextType(id)}))),quiz.label+" · missed",quiz.plan);
+$("#q-retry").onclick=()=>startQuiz(shuffleArr(quiz.missed.map(id=>({id,type:QMCQ[id]?"scenario":nextType(id)}))),quiz.label+" · missed",quiz.plan);
 $("#q-markmiss").onclick=()=>{quiz.missed.forEach(id=>{status[id]="forgot"});saveStatus();$("#q-markmiss").textContent="Marked ✓";$("#q-markmiss").disabled=true};
 function closeQuiz(){$("#qscrim").hidden=true;quiz=null;render()}
 $("#q-close").onclick=closeQuiz;
@@ -1582,6 +1591,7 @@ document.addEventListener("keydown",e=>{
 
 (async function boot(){
   try{const r=await fetch("exam-mcq.json",{cache:"no-store"});if(r.ok)XMCQ=await r.json()}catch(e){}mbTab();
+  try{const r=await fetch("quiz-mcq.json",{cache:"no-store"});if(r.ok)QMCQ=await r.json()}catch(e){}
   try{const r=await fetch("essays.json",{cache:"no-store"});if(r.ok)ESSAYS=await r.json()}catch(e){}
   try{const r=await fetch("cards.json",{cache:"no-store"});if(!r.ok)throw 0;defaults=await r.json()}catch(e){defaults=[];setStatus("Couldn't load the card deck.")}
   {const ld=store.get("pr-local-deck2",null);C=ld?withNewTopics(ld):defaults;}
