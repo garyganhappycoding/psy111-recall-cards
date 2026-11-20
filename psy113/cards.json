@@ -6929,5 +6929,1020 @@
   "sim": [
    "t12-24"
   ]
+ },
+ {
+  "id": "gs-1",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Scientific literature",
+  "name": "What makes literature scientific",
+  "q": "What five features make a piece of writing count as scientific literature?",
+  "clues": [
+   "Two are about what it contains",
+   "Two are about checking quality"
+  ],
+  "ans": "Original empirical work (contains data) or theoretical work (contains a theoretical framework)\nThe author is critical and reviews empirical and theoretical work\nThe author summarises, argues or defends arguments about empirical or theoretical work\nIt has been reviewed by scientific experts\nIt has some verifiable measure of credibility",
+  "sim": []
+ },
+ {
+  "id": "gs-2",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Scientific literature",
+  "name": "Two main sources",
+  "q": "What are the two main sources of scientific literature?",
+  "clues": [
+   "One is short and published in a journal",
+   "One is long and published by a publisher"
+  ],
+  "ans": "Journal articles\nAcademic books",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    7
+   ]
+  }
+ },
+ {
+  "id": "gs-3",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Scientific literature",
+  "name": "Journal article vs academic book",
+  "q": "How do journal articles and academic books differ in scope, goals, review, recency and content?",
+  "clues": [
+   "Think targeted vs overview",
+   "Think peer review and methodology detail"
+  ],
+  "ans": "Scope: articles are more targeted; books less targeted\nGoals: articles justify theories; books give an overview of a topic\nReview: articles have high peer review; books lower peer review\nRecency: articles more likely to have the latest information\nContent: articles give detailed methodology; books only mention it briefly",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    7
+   ]
+  }
+ },
+ {
+  "id": "gs-4",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Types of journal article",
+  "name": "Empirical article",
+  "q": "What is an empirical journal article?",
+  "clues": [
+   "It collects something new",
+   "This is the type you usually read in PSY113"
+  ],
+  "ans": "Presents new primary data, analysed to test a hypothesis and answer a research question\nIncludes methods and analysis\nMakes claims about the meaning of the results obtained",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  }
+ },
+ {
+  "id": "gs-5",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Types of journal article",
+  "name": "Theoretical / conceptual article",
+  "q": "What is a theoretical or conceptual journal article?",
+  "clues": [
+   "No new data",
+   "The authors build something"
+  ],
+  "ans": "Authors present their own model based on existing empirical findings\nNo new data is collected\nDescribes the components within a concept, their characteristics and how they relate to each other",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  }
+ },
+ {
+  "id": "gs-6",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Types of journal article",
+  "name": "Review article",
+  "q": "What does a review article do?",
+  "clues": [
+   "Summarises past research",
+   "Two possible forms"
+  ],
+  "ans": "Provides a summary of results from past research\nHighlights key themes in previous research and proposes future directions\nCan be a systematic review or a meta-analysis (similar to a literature review)",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  }
+ },
+ {
+  "id": "gs-7",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Types of journal article",
+  "name": "Conference proceedings",
+  "q": "What are conference proceedings?",
+  "clues": [
+   "Linked to a conference",
+   "Can be any article type"
+  ],
+  "ans": "A collection of papers accepted at a conference\nCan be empirical, conceptual, theoretical or review papers\nPapers are peer reviewed before being accepted at the conference",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    8
+   ]
+  }
+ },
+ {
+  "id": "gs-8",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Peer review",
+  "name": "Peer review",
+  "q": "What is peer review and why does it matter?",
+  "clues": [
+   "Who reviews the article?",
+   "It's a form of control"
+  ],
+  "ans": "The article is reviewed by other experts in the field before it can be published\nA form of quality control that keeps up the standard of rigour (strictness) and validity",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    9
+   ]
+  }
+ },
+ {
+  "id": "gs-9",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Peer review",
+  "name": "Peer review criteria",
+  "q": "What five criteria do peer reviewers use to judge the strengths and weaknesses of a paper?",
+  "clues": [
+   "Findings, methods, results",
+   "Arguments and writing"
+  ],
+  "ans": "Value and novelty of the findings\nSoundness of the methods used to get the findings\nConsistency of the results\nStrength of the arguments\nLanguage and grammar",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    11
+   ]
+  }
+ },
+ {
+  "id": "gs-10",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Peer review",
+  "name": "Blogs and newspaper articles",
+  "q": "Why aren't blog posts and newspaper articles scientific literature?",
+  "clues": [
+   "Who writes them?",
+   "Do you need to be an expert?"
+  ],
+  "ans": "They are often written by opinionated writers, not reviewed by experts\nYou don't need to be an expert in the area to write them\nThey are not peer reviewed",
+  "sim": []
+ },
+ {
+  "id": "gs-11",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Peer review",
+  "name": "White paper",
+  "q": "What is a white paper, and can it be scientifically useful?",
+  "clues": [
+   "Written by organisations",
+   "Not peer reviewed, but…"
+  ],
+  "ans": "A report written by an organisation (e.g. a corporation) to inform decisions such as government policy\nNot peer reviewed and not published in scientific journals\nBut it may contain research or summaries that are still scientifically valid and rigorous",
+  "sim": []
+ },
+ {
+  "id": "gs-12",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Peer review",
+  "name": "Information literacy",
+  "q": "What is information literacy?",
+  "clues": [
+   "Knowing what you need",
+   "Then locate, evaluate, use"
+  ],
+  "ans": "The ability to know what information is needed, then locate, evaluate and effectively use it\nLets us consume information carefully",
+  "sim": []
+ },
+ {
+  "id": "gs-13",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Parts of a journal article",
+  "name": "Aim of the introduction",
+  "q": "What is the aim of an article's introduction, and what does it include?",
+  "clues": [
+   "It justifies the study",
+   "Ends with the question and hypothesis"
+  ],
+  "ans": "Aim: to justify the authors' study\nBackground literature\nPast research\nTheoretical framework\nResearch gap\nResearch question and hypothesis\nExpected contributions and implications",
+  "sim": [],
+  "src": {
+   "lec": 2,
+   "p": [
+    19
+   ]
+  }
+ },
+ {
+  "id": "gs-14",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Parts of a journal article",
+  "name": "Conceptual vs operational variables",
+  "q": "What is the difference between a conceptual and an operational variable?",
+  "clues": [
+   "One defines",
+   "One measures"
+  ],
+  "ans": "Conceptual: the definition of the variable (what it means)\nOperational: how the variable is measured",
+  "sim": []
+ },
+ {
+  "id": "gs-15",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Parts of a journal article",
+  "name": "Theoretical framework",
+  "q": "What is a theoretical framework?",
+  "clues": [
+   "It supports the hypothesis",
+   "How and why"
+  ],
+  "ans": "The explanation or justification for the hypothesis\nExplains how and why the variables are connected",
+  "sim": []
+ },
+ {
+  "id": "gs-16",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Parts of a journal article",
+  "name": "Reading the results",
+  "q": "How should you read the results section?",
+  "clues": [
+   "Start from the hypothesis",
+   "Then look for size"
+  ],
+  "ans": "Look back at the hypothesis\nFind the findings that test it\nNote extra details about the strength or magnitude of the effect",
+  "sim": []
+ },
+ {
+  "id": "gs-17",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Parts of a journal article",
+  "name": "Discussion section",
+  "q": "What four things does a discussion section contain?",
+  "clues": [
+   "Starts with a summary",
+   "Ends with what's next"
+  ],
+  "ans": "Summary of results\nLinks back to the broader literature\nImplications\nLimitations and directions for future research",
+  "sim": [],
+  "src": {
+   "lec": 3,
+   "p": [
+    20
+   ]
+  }
+ },
+ {
+  "id": "gs-18",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Parts of a journal article",
+  "name": "Practical vs theoretical implications",
+  "q": "What is the difference between practical and theoretical implications?",
+  "clues": [
+   "Real world vs theory",
+   "Who benefits vs what it adds to knowledge"
+  ],
+  "ans": "Practical: what the findings mean for the real world (who benefits, how they can be applied)\nTheoretical: what the findings mean for theories and future research – do they support, challenge or extend a theory?\nTheoretical implications focus on broader insights and consequences for knowledge",
+  "sim": [],
+  "src": {
+   "lec": 3,
+   "p": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "gs-19",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Methods",
+  "name": "Data collection methods",
+  "q": "What are the three data collection methods?",
+  "clues": [
+   "One asks people",
+   "Two watch people"
+  ],
+  "ans": "Self-report: surveys, questionnaires or interviews\nNaturalistic observation: watch and record behaviour in the real world without interfering\nLaboratory observation: observe behaviour in a controlled setting",
+  "sim": []
+ },
+ {
+  "id": "gs-20",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Methods",
+  "name": "Timeframe designs",
+  "q": "What are longitudinal, cross-sectional and cross-sequential designs?",
+  "clues": [
+   "Same group over time vs different ages at once",
+   "The third combines both"
+  ],
+  "ans": "Longitudinal: tracks the same group of people over a long period\nCross-sectional: compares different age groups at a single point in time\nCross-sequential: combines both – tracks several age groups over a shorter span of years",
+  "sim": []
+ },
+ {
+  "id": "gs-21",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Methods",
+  "name": "Correlational vs experimental",
+  "q": "How do correlational and experimental designs differ in level of control?",
+  "clues": [
+   "Measure vs manipulate",
+   "Only one uses random assignment"
+  ],
+  "ans": "Correlational: measures two naturally occurring variables to see if they move together\nExperimental: actively manipulates one variable and randomly assigns participants to groups",
+  "sim": []
+ },
+ {
+  "id": "gs-22",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Methods",
+  "name": "Case study vs archival research",
+  "q": "What are a case study and archival research?",
+  "clues": [
+   "One person in depth",
+   "Existing records, no participants"
+  ],
+  "ans": "Case study: an in-depth investigation of a single person, family or rare event\nArchival research: analyses existing records (e.g. charts), so no participants are needed",
+  "sim": []
+ },
+ {
+  "id": "gs-23",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Methods",
+  "name": "Causal vs non-causal wording",
+  "q": "Which words should you use for experimental, correlational and group-comparison studies?",
+  "clues": [
+   "Causal words only fit one design",
+   "Surveys use relationship words"
+  ],
+  "ans": "Experimental studies only: effect, affect, impact, cause\nCorrelational / non-experimental (e.g. surveys): related to, associated with, positive or negative relationship with\nNon-experimental group comparisons: difference between…, X will be significantly higher than…",
+  "sim": []
+ },
+ {
+  "id": "gs-24",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Evaluating literature",
+  "name": "Reading critically",
+  "q": "What questions should you ask to evaluate a scientific article critically?",
+  "clues": [
+   "Literature and theory",
+   "Question, method, results, conclusion"
+  ],
+  "ans": "Does it cover directly relevant literature well?\nDoes the theoretical framework justify the hypothesis?\nIs the research question logical, new and relevant?\nDoes the flow connect?\nIs the method reasonable and appropriate?\nAre the results consistent?\nIs the conclusion logical?",
+  "sim": []
+ },
+ {
+  "id": "gs-25",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Four qualities of academic writing",
+  "q": "What are the four qualities of academic writing?",
+  "clues": [
+   "Two are about words",
+   "Two are about tone"
+  ],
+  "ans": "Lexical density: concise, short and meaningful\nNominal style: nouns over verbs\nImpersonal constructions: a third-person tone\nHedging and emphasising: conveys cautious judgement",
+  "sim": [],
+  "src": {
+   "lec": 4,
+   "p": [
+    6
+   ]
+  }
+ },
+ {
+  "id": "gs-26",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Lexical density",
+  "q": "What is lexical density and how do you calculate it?",
+  "clues": [
+   "Content vs function words",
+   "× 100"
+  ],
+  "ans": "The compactness of language\nLexical density = number of content words ÷ total words × 100\nContent words carry meaning: nouns, adjectives, verbs\nFunction words only connect words: conjunctions, prepositions, articles (if, then, thus, the, and)",
+  "sim": [],
+  "src": {
+   "lec": 4,
+   "p": [
+    8
+   ]
+  }
+ },
+ {
+  "id": "gs-27",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Telegraphing and weasel words",
+  "q": "What are telegraphing and weasel words, and why avoid them?",
+  "clues": [
+   "Announcing vs being vague",
+   "Both waste words"
+  ],
+  "ans": "Telegraphing: announcing what you'll do instead of doing it, e.g. 'This review will show that…', 'This study is related to…'\nWeasel words: ambiguous, misleading phrases, e.g. 'Many people believe that…', 'Researchers generally believe…'\nBoth lower lexical density and should be removed",
+  "sim": [],
+  "src": {
+   "lec": 4,
+   "p": [
+    17
+   ]
+  }
+ },
+ {
+  "id": "gs-28",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Nominal style",
+  "q": "What is nominal style?",
+  "clues": [
+   "Change the word type",
+   "Sounds more confident"
+  ],
+  "ans": "Turning verbs into nouns (nominalisation)\nMakes writing sound more convincing and confident",
+  "sim": []
+ },
+ {
+  "id": "gs-29",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Impersonal constructions",
+  "q": "What are impersonal constructions?",
+  "clues": [
+   "Passive or third person",
+   "Fewer pronouns"
+  ],
+  "ans": "Using a passive or third-person perspective\nMinimising personal pronouns like I, you, we, they",
+  "sim": []
+ },
+ {
+  "id": "gs-30",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Hedging language",
+  "q": "What is hedging, and which words should you avoid?",
+  "clues": [
+   "Cautious words",
+   "Avoid certainty"
+  ],
+  "ans": "Use cautious language: may, possibly, indicates, suggests\nAvoid words that imply certainty: prove, must, fact, definitely, always",
+  "sim": []
+ },
+ {
+  "id": "gs-31",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Avoiding bias",
+  "q": "What kinds of bias should you avoid in academic writing?",
+  "clues": [
+   "Gender and race",
+   "Nation and religion"
+  ],
+  "ans": "Sexism\nRacism\nNationalism\nBias against any particular religion",
+  "sim": []
+ },
+ {
+  "id": "gs-32",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Reading for writing",
+  "q": "What should you do when reading to improve your own writing?",
+  "clues": [
+   "Read regularly",
+   "Ask why the author did it"
+  ],
+  "ans": "Read regularly\nAnalyse the structure and flow: why did the author say this?\nWhy say it here, and in this tone?\nWhat was the purpose of introducing this idea?\nPay attention to the types of words used",
+  "sim": []
+ },
+ {
+  "id": "gs-33",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Drafting process",
+  "q": "What are the six steps of drafting?",
+  "clues": [
+   "Starts with free writing",
+   "Ends with polishing"
+  ],
+  "ans": "Free writing\nDevelop an outline\nFirst draft\nRedraft\nEditing\nPolishing",
+  "sim": []
+ },
+ {
+  "id": "gs-34",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "A good paragraph",
+  "q": "How do you construct a good paragraph?",
+  "clues": [
+   "One point only",
+   "Sandwich structure"
+  ],
+  "ans": "One key point per paragraph\nBegin with a general statement\nEnd in a way that leads into the next paragraph\nSandwich structure: topic sentence → elaboration of the point → concluding sentence",
+  "sim": []
+ },
+ {
+  "id": "gs-35",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Academic writing",
+  "name": "Professional correspondence",
+  "q": "What four things should you focus on in professional correspondence?",
+  "clues": [
+   "Formality first",
+   "Culture, tone, goals"
+  ],
+  "ans": "Formality: present yourself professionally – full name, organisation, country\nCulture\nTone\nGoals",
+  "sim": []
+ },
+ {
+  "id": "gs-36",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Literature review",
+  "name": "What is a literature review",
+  "q": "What is a literature review, and what does it do?",
+  "clues": [
+   "Literature + review",
+   "Define, summarise, suggest"
+  ],
+  "ans": "Literature: written works on past findings or existing research in an area\nReview: an assessment or evaluation\nLiterature review: an assessment or evaluation of existing research\nIt defines the topic or problem, summarises previous investigations and suggests the next step",
+  "sim": []
+ },
+ {
+  "id": "gs-37",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Literature review",
+  "name": "What a literature review needs",
+  "q": "What four things does a literature review need?",
+  "clues": [
+   "Definitions and a framework",
+   "Evidence and importance"
+  ],
+  "ans": "Definition of variables: conceptual definitions\nLogical connection between variables: a strong theoretical framework\nEvidence: cite relevant past evidence\nImportance of studying the topic: convincing arguments",
+  "sim": []
+ },
+ {
+  "id": "gs-38",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Literature review",
+  "name": "Steps of doing a literature review",
+  "q": "What are the four steps of doing a literature review?",
+  "clues": [
+   "Search with keywords",
+   "Quick read, then critical read"
+  ],
+  "ans": "Find sources using keywords\nQuick read: title, abstract, introduction, discussion and conclusion\nCheck relevance: theory and theoretical framework\nCritical reading",
+  "sim": [],
+  "src": {
+   "lec": 6,
+   "p": [
+    9
+   ]
+  }
+ },
+ {
+  "id": "gs-39",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Literature review",
+  "name": "Broad-narrow-broad structure",
+  "q": "What is the broad-narrow-broad order for writing a literature review?",
+  "clues": [
+   "Broad topic → narrow gap",
+   "→ broad implications"
+  ],
+  "ans": "General introduction to the topic\nReview of existing literature\nResearch gap\nFocus of the current study and hypothesis\nMethod and analysis\nResults and hypothesis tests\nDiscussion\nLimitations and directions for future research\nTheoretical and practical implications",
+  "sim": [],
+  "src": {
+   "lec": 7,
+   "p": [
+    3
+   ]
+  }
+ },
+ {
+  "id": "gs-40",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Literature review",
+  "name": "Literature review tips",
+  "q": "What tips make a literature review stronger?",
+  "clues": [
+   "Citations: enough but not too many",
+   "Gap and implications"
+  ],
+  "ans": "Use citations to support the theoretical framework\nDon't spam citations\nMake the research gap strong\nWrite specific, thoughtful expected theoretical implications\nYou can link to the SDGs",
+  "sim": [],
+  "src": {
+   "lec": 7,
+   "p": [
+    23
+   ]
+  }
+ },
+ {
+  "id": "gs-41",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Citation vs plagiarism",
+  "q": "What is a citation, and which 'paraphrasing' habits still count as plagiarism?",
+  "clues": [
+   "Citation tells readers your source",
+   "Small changes aren't enough"
+  ],
+  "ans": "Citation: tells the reader where you got the information\nStill plagiarism: changing a few words in a sentence\nSwitching the order of clauses\nJust swapping in synonyms",
+  "sim": []
+ },
+ {
+  "id": "gs-42",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "RAP strategy",
+  "q": "What is the RAP paraphrasing strategy?",
+  "clues": [
+   "Three letters",
+   "R, A, P"
+  ],
+  "ans": "Read the original\nAsk yourself the main idea and evidence\nPut it in your own words",
+  "sim": []
+ },
+ {
+  "id": "gs-43",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "APA document format",
+  "q": "What are the basic APA document formatting rules?",
+  "clues": [
+   "Spacing and margins",
+   "Font"
+  ],
+  "ans": "Double spacing\n1-inch margins\nTimes New Roman, 12 pt\nDon't use a generic 'Introduction' heading; the first heading inside the introduction is level 2\nTables and figures have no vertical lines",
+  "sim": []
+ },
+ {
+  "id": "gs-44",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "In-text citations",
+  "q": "How do you write in-text citations for one, two and three or more authors?",
+  "clues": [
+   "Surnames only",
+   "et al."
+  ],
+  "ans": "Cite the authors' surnames (last names) and year\nTwo authors: both surnames, joined by & (in brackets) or 'and' (in text)\nThree or more authors: first author's surname + et al.",
+  "sim": []
+ },
+ {
+  "id": "gs-45",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Secondary citations",
+  "q": "How should you handle a secondary citation?",
+  "clues": [
+   "Avoid if possible",
+   "'as cited in'"
+  ],
+  "ans": "Avoid secondary citations if possible\nIf needed: (Primary author, 2002, as cited in Secondary author, 2010)\nIt means you only read the secondary source, not the original\nOnly the secondary source (the one you read) goes in the reference list\nNever use tertiary citations",
+  "sim": [],
+  "src": {
+   "lec": 8,
+   "p": [
+    24
+   ]
+  }
+ },
+ {
+  "id": "gs-46",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Citing several sources and same author-year",
+  "q": "How do you cite two or more sources together, or the same author in the same year?",
+  "clues": [
+   "Semicolons, alphabetical",
+   "Letter suffix"
+  ],
+  "ans": "Two or more sources: separate with semicolons, in alphabetical order\nSame author, same year: add a, b, c after the year, ordered as in the reference list – e.g. Fredrickson (2013a)",
+  "sim": [],
+  "src": {
+   "lec": 8,
+   "p": [
+    27
+   ]
+  }
+ },
+ {
+  "id": "gs-47",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Direct quotes",
+  "q": "How do you format a direct quote in APA?",
+  "clues": [
+   "Quotation marks + page number",
+   "[ ] and …"
+  ],
+  "ans": "Use double quotation marks and give the page number\nE.g. Haldeman (1994, p. 221) claimed that \"…\"\nUse [ ] around words you changed\nUse … where the original text was shortened",
+  "sim": []
+ },
+ {
+  "id": "gs-48",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Reference list rules",
+  "q": "What are the formatting rules for an APA reference list?",
+  "clues": [
+   "Indentation and order",
+   "New page"
+  ],
+  "ans": "Start on a new page after the main text\nList every source you cited (your primary citations) – not everything you read\nArrange in alphabetical order\nUse a hanging indent\nDouble-spaced",
+  "sim": [],
+  "src": {
+   "lec": 8,
+   "p": [
+    32
+   ]
+  }
+ },
+ {
+  "id": "gs-49",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Journal article reference",
+  "q": "How do you write a reference list entry for a journal article?",
+  "clues": [
+   "Author. (Year). Title.",
+   "Journal, volume(issue), pages. DOI"
+  ],
+  "ans": "Author, A. A., & Author, B. B. (Year). Title of article. Journal Name, volume(issue), page–page. https://doi.org/…\nArticle title: capitalise only the first word (and proper nouns)\nJournal name and volume in italics\nDOI written as a link",
+  "sim": [],
+  "src": {
+   "lec": 8,
+   "p": [
+    46
+   ]
+  }
+ },
+ {
+  "id": "gs-50",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Integrity & APA",
+  "name": "Book and chapter reference",
+  "q": "How do you write a reference list entry for a book and for a book chapter?",
+  "clues": [
+   "Book: Author. (Year). Title. Publisher.",
+   "Chapter adds 'In' + editors + pages"
+  ],
+  "ans": "Book: Author, A. A. (Year). Title of book. Publisher. DOI (if any)\nChapter: Author, A. A. (Year). Title of chapter. In B. Editor (Ed.), Title of book (pp. xx–xx). Publisher.\nBook titles are in italics",
+  "sim": [],
+  "src": {
+   "lec": 8,
+   "p": [
+    51
+   ]
+  }
+ },
+ {
+  "id": "gs-51",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Logic and argument",
+  "q": "What is logic, and what is an argument?",
+  "clues": [
+   "Reasonable = evidence",
+   "Give a reason to believe"
+  ],
+  "ans": "Logic: the study of correct and incorrect reasoning; 'reasonable' means having supporting evidence and a logical, coherent structure\nArgument: a statement that gives people a reason for believing what you said (not a verbal fight)",
+  "sim": [],
+  "src": {
+   "lec": 10,
+   "p": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "id": "gs-52",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Standard form",
+  "q": "What is the standard form of an argument?",
+  "clues": [
+   "Premises first",
+   "Then ∴"
+  ],
+  "ans": "Premise 1\nPremise 2\n∴ Conclusion",
+  "sim": []
+ },
+ {
+  "id": "gs-53",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Deductive argument",
+  "q": "What is a deductive argument and how is its quality judged?",
+  "clues": [
+   "100% certain",
+   "Validity + soundness"
+  ],
+  "ans": "Aims for a logically certain conclusion (100% guaranteed)\nAll-or-nothing: either valid or invalid\nValidity: correct structure – if the premises were true, the conclusion could not be false\nSoundness: valid AND all premises are actually true\nInvalid means automatically unsound; valid + sound = good argument",
+  "sim": [],
+  "src": {
+   "lec": 10,
+   "p": [
+    24,
+    25
+   ]
+  }
+ },
+ {
+  "id": "gs-54",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Inductive argument",
+  "q": "What is an inductive argument and what are its three characteristics?",
+  "clues": [
+   "Probable, not certain",
+   "Invalid, defeasible, varies in strength"
+  ],
+  "ans": "A probable conclusion (likely, not guaranteed); judged on a continuum from weak to strong\nInvalid: premises can be true while the conclusion is false\nDefeasible: you can add or remove premises to revise it\nVaries in strength: added premises can make it stronger or weaker",
+  "sim": [],
+  "src": {
+   "lec": 11,
+   "p": [
+    5,
+    7
+   ]
+  }
+ },
+ {
+  "id": "gs-55",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Strong premises, context and stakes",
+  "q": "What makes a premise strong, and what are context and stakes?",
+  "clues": [
+   "True, justified, relevant",
+   "Situation vs impact"
+  ],
+  "ans": "Each premise should be true (fact/reality), justified (has evidence) and relevant (bears on the conclusion)\nContext: the situation the argument is made in\nStakes: how big the impact of the conclusion is",
+  "sim": [],
+  "src": {
+   "lec": 11,
+   "p": [
+    10,
+    12
+   ]
+  }
+ },
+ {
+  "id": "gs-56",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Strong generalisations",
+  "q": "What three criteria make a generalisation (inductive conclusion) stronger?",
+  "clues": [
+   "Logic",
+   "Sample size and objectivity"
+  ],
+  "ans": "Logic: are the premises justified, relevant and true, and does the conclusion follow?\nSample size: is the sample large enough?\nObjectivity: is the sample or data collection biased?",
+  "sim": [],
+  "src": {
+   "lec": 11,
+   "p": [
+    18
+   ]
+  }
+ },
+ {
+  "id": "gs-57",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logic",
+  "name": "Falsifiability",
+  "q": "What is falsifiability?",
+  "clues": [
+   "Can it be proven wrong?",
+   "Popper"
+  ],
+  "ans": "A scientific claim must be able to be proven wrong\nScience progresses by falsification – look for evidence against a theory (e.g. non-white swans)",
+  "sim": [],
+  "src": {
+   "lec": 11,
+   "p": [
+    21,
+    23
+   ]
+  }
+ },
+ {
+  "id": "gs-58",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logical fallacies",
+  "name": "Fallacy",
+  "q": "What is a fallacy, and what are the 8 types in PSY113?",
+  "clues": [
+   "Failure in reasoning",
+   "Slippery slope … false equivalence"
+  ],
+  "ans": "A fallacy is a failure in reasoning that makes an argument invalid (or weak)\nSlippery slope; false dichotomy; ambiguity; fallacies of relevance; circular arguments; straw man; red herring; false equivalence",
+  "sim": [],
+  "src": {
+   "lec": 12,
+   "p": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "id": "gs-59",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logical fallacies",
+  "name": "Slippery slope vs false dichotomy",
+  "q": "What are the slippery slope and false dichotomy fallacies?",
+  "clues": [
+   "If X then disaster",
+   "Only two options"
+  ],
+  "ans": "Slippery slope: claiming an action will lead to an unwanted or disastrous outcome, with no evidence ('If you allow X, terrible Y will happen!')\nFalse dichotomy: claiming there are only two possibilities ('Either A or B')",
+  "sim": [],
+  "src": {
+   "lec": 12,
+   "p": [
+    6,
+    7
+   ]
+  }
+ },
+ {
+  "id": "gs-60",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logical fallacies",
+  "name": "Circular argument, straw man, red herring",
+  "q": "What are circular arguments, straw man and red herring?",
+  "clues": [
+   "Premise contains conclusion",
+   "Misrepresent vs change topic"
+  ],
+  "ans": "Circular: the premises contain the conclusion – assuming what you're trying to prove\nStraw man: misrepresenting someone's argument, then attacking the distorted version\nRed herring: diverting attention by bringing in another topic",
+  "sim": [],
+  "src": {
+   "lec": 12,
+   "p": [
+    19,
+    20
+   ]
+  }
+ },
+ {
+  "id": "gs-61",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logical fallacies",
+  "name": "Ambiguity and false equivalence",
+  "q": "What are ambiguity and false equivalence?",
+  "clues": [
+   "More than one meaning",
+   "Same when not the same"
+  ],
+  "ans": "Ambiguity: wording that has more than one acceptable interpretation\nFalse equivalence: presenting two things as the same when they are not",
+  "sim": [],
+  "src": {
+   "lec": 12,
+   "p": [
+    8,
+    22
+   ]
+  }
+ },
+ {
+  "id": "gs-62",
+  "deck": "Summary of 113 by Gary",
+  "sec": "Logical fallacies",
+  "name": "Fallacies of relevance",
+  "q": "What are ad hominem, appeal to authority and appeal to popular assent?",
+  "clues": [
+   "Attack the person",
+   "Trust the expert vs trust the majority"
+  ],
+  "ans": "Ad hominem: attacking the person – their entitlement to speak, their premises or conclusions – because of who they are\nAppeal to authority: accepting an argument just because an expert or authority made it (the opposite of ad hominem)\nPopular assent: accepting an argument because the majority believes it",
+  "sim": [],
+  "src": {
+   "lec": 12,
+   "p": [
+    12,
+    15,
+    16
+   ]
+  }
  }
 ]
