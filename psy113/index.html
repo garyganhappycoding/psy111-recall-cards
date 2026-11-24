@@ -411,6 +411,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
     <div class="exambox">
       <div><h2 class="xh">MCQ exam</h2><p class="note">Random questions drawn from every lecture, like the real paper. You see the right answer and why after each one.</p></div>
       <div class="field"><span class="label">How many questions</span><div class="seg" role="group" aria-label="Number of questions" id="ex-n"><button data-n="10">10</button><button data-n="25">25</button><button data-n="50">50</button></div></div>
+      <div class="field"><span class="label">Question style</span><div class="seg" role="group" aria-label="Question style" id="ex-style"><button data-s="all">All questions</button><button data-s="exam">Exam-style only</button><button data-s="concept">Concept checks only</button></div><span class="hint">Exam-style questions copy the final-exam paper: scenarios, passages, "EXCEPT" questions and spot-the-fallacy.</span></div>
       <div class="field"><span class="label">Lectures</span><div class="lecpick" id="ex-lecs"></div><span class="hint" id="ex-pool"></span></div>
       <div><button class="btn primary" id="ex-go">Start exam</button></div>
       <div class="field" id="ex-histbox" hidden><span class="label">Your past exams</span><ol class="exhist" id="ex-hist"></ol></div>
@@ -728,7 +729,7 @@ function makeQuestion(c,type){
   return null;
 }
 function buildQuestion(item){
-  if(item.type==="mcq"){const m=MCQ[item.id];if(!m)return null;return {type:"mcq",id:m.id,stem:m.q,opts:shuffleArr(m.opts.slice()),right:m.opts[m.a],why:m.why,lec:m.lec}}
+  if(item.type==="mcq"){const m=MCQ[item.id];if(!m)return null;return {type:"mcq",id:m.id,stem:m.q,opts:shuffleArr(m.opts.slice()),right:m.opts[m.a],why:m.why,lec:m.lec,styleName:m.styleName}}
   const c=byId(item.id);if(!c)return null;
   const order=[item.type,...QT.filter(t=>t!==item.type)];
   for(const t of order){const q=makeQuestion(c,t);if(q)return q}
@@ -783,7 +784,7 @@ function showQuestion(){
   $("#q-tag").textContent=quiz.plan==="exam"?`MCQ exam · ${quiz.label}`:`Quiz · ${quiz.label}`;
   $("#q-prog").textContent=`Question ${quiz.i+1} of ${quiz.items.length} · Score ${quiz.score}`;
   $("#q-bar").style.width=(quiz.i/quiz.items.length*100)+"%";
-  $("#q-type").textContent=q.type==="mcq"?`Lecture ${q.lec}`:QTLABEL[q.type];
+  $("#q-type").textContent=q.type==="mcq"?`Lecture ${q.lec}`+(q.styleName?` · Exam-style: ${q.styleName}`:""):QTLABEL[q.type];
   const stem=$("#q-stem");stem.innerHTML="";
   if(q.type==="mcq")stem.append(q.stem);else
   if(q.type==="name"){
@@ -1230,16 +1231,19 @@ $("#spin-norep").checked=store.get("p113-spin-norep",true);
 /* ===== PSY 113: lecture references, MCQ exam, article practice ===== */
 let MCQ={},ARTS=[],artState=store.get("p113-articles",{}),exams=store.get("p113-exams",[]);
 function lecRef(c){const s=c&&c.src;if(!s||!s.lec)return "";const p=s.p||[];return `From Lecture ${s.lec}`+(p.length?` · slide${p.length>1?"s":""} ${p.join(", ")}`:"")}
-let exN=store.get("p113-exn",50),exLecs=null;
+let exN=store.get("p113-exn",50),exLecs=null,exStyle=store.get("p113-exstyle","all");
+const styleOk=m=>exStyle==="all"||(exStyle==="exam"?!!m.style:!m.style);
 function lecturesInBank(){return [...new Set(Object.values(MCQ).map(m=>m.lec))].sort((a,b)=>a-b)}
+function bankFor(l){return Object.values(MCQ).filter(m=>(l==null||m.lec===l)&&styleOk(m))}
 function renderExam(){
   const lecs=lecturesInBank();ensureLecs();
   document.querySelectorAll("#ex-n button").forEach(b=>{b.setAttribute("aria-pressed",+b.dataset.n===exN);b.onclick=()=>{exN=+b.dataset.n;store.set("p113-exn",exN);renderExam()}});
+  document.querySelectorAll("#ex-style button").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.s===exStyle);b.onclick=()=>{exStyle=b.dataset.s;store.set("p113-exstyle",exStyle);renderExam()}});
   const box=$("#ex-lecs");box.innerHTML="";
   lecs.forEach(l=>{const lab=document.createElement("label");const cb=document.createElement("input");cb.type="checkbox";cb.checked=exLecs.has(l);
     cb.onchange=()=>{cb.checked?exLecs.add(l):exLecs.delete(l);store.set("p113-exoff",lecturesInBank().filter(x=>!exLecs.has(x)));renderExam()};
-    const n=Object.values(MCQ).filter(m=>m.lec===l).length;lab.append(cb,`Lecture ${l} (${n})`);box.appendChild(lab)});
-  const pool=Object.values(MCQ).filter(m=>exLecs.has(m.lec));
+    const n=bankFor(l).length;lab.append(cb,`Lecture ${l} (${n})`);if(!n)lab.style.opacity=.5;box.appendChild(lab)});
+  const pool=bankFor().filter(m=>exLecs.has(m.lec));
   $("#ex-pool").textContent=pool.length?`${pool.length} questions in the bank for these lectures. Each exam picks ${Math.min(exN,pool.length)} at random, spread across the lectures.`:"Pick at least one lecture.";
   $("#ex-go").disabled=!pool.length;
   const h=$("#ex-hist");h.innerHTML="";$("#ex-histbox").hidden=!exams.length;
@@ -1248,7 +1252,7 @@ function renderExam(){
 function ensureLecs(){if(!exLecs){const off=new Set(store.get("p113-exoff",[]));exLecs=new Set(lecturesInBank().filter(l=>!off.has(l)))}}
 function pickExam(n){ensureLecs();
   // spread questions across lectures: round-robin over shuffled per-lecture pools
-  const by={};Object.values(MCQ).filter(m=>exLecs.has(m.lec)).forEach(m=>(by[m.lec]=by[m.lec]||[]).push(m));
+  const by={};bankFor().filter(m=>exLecs.has(m.lec)).forEach(m=>(by[m.lec]=by[m.lec]||[]).push(m));
   Object.keys(by).forEach(k=>by[k]=shuffleArr(by[k]));const keys=shuffleArr(Object.keys(by));const out=[];
   while(out.length<n&&keys.some(k=>by[k].length)){for(const k of keys){if(out.length>=n)break;const m=by[k].pop();if(m)out.push(m)}}
   return shuffleArr(out).map(m=>({id:m.id,type:"mcq"}));

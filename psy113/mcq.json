@@ -2637,5 +2637,1265 @@
   ],
   "a": 2,
   "why": "Strategies include being generous with the other's argument, using facts, avoiding fallacies and not being verbally aggressive."
+ },
+ {
+  "id": "x-A1-1",
+  "lec": 1,
+  "style": "A1",
+  "styleName": "Scientific mindset",
+  "q": "At a seminar, a psychologist says she studies why people keep believing in lucky charms even after the charms clearly fail. Which follow-up question would she most likely find worth discussing?",
+  "opts": [
+   "What thinking errors lead people to ignore evidence that their charms don't work?",
+   "Which lucky charms bring the most luck?",
+   "Whether lucky charms work better for some star signs than others",
+   "How to find a lucky charm that never fails"
+  ],
+  "a": 0,
+  "why": "A scientist studies the belief itself, using questions that can be tested. Asking which charm brings 'luck' assumes a claim with no evidence."
+ },
+ {
+  "id": "x-A1-2",
+  "lec": 1,
+  "style": "A1",
+  "styleName": "Scientific mindset",
+  "q": "Which of the following research questions could be answered using the scientific method?",
+  "opts": [
+   "Do students who sleep less than six hours score lower on memory tests?",
+   "Is it morally wrong for students to skip lectures to sleep in?",
+   "What is the true meaning of a happy and successful student life?",
+   "Do ghosts prefer to haunt old university buildings over new ones?"
+  ],
+  "a": 0,
+  "why": "Scientific questions involve variables that can be observed and measured. Moral, philosophical and untestable supernatural questions can't be answered with data."
+ },
+ {
+  "id": "x-A1-3",
+  "lec": 1,
+  "style": "A1",
+  "styleName": "Scientific mindset",
+  "q": "A friend claims, 'Science has proven that drinking green tea makes you smarter.' A psychology student trained in scientific thinking would most likely respond that…",
+  "opts": [
+   "…science rarely 'proves' claims; studies provide evidence that supports or fails to support them.",
+   "…if a study was published in a journal, its claim must be absolutely true.",
+   "…green tea is a natural product, so the claim is most likely to be true.",
+   "…the claim doesn't matter, because intelligence cannot be studied scientifically."
+  ],
+  "a": 0,
+  "why": "Science deals in levels of certainty and evidence, not absolute proof. A good scientific thinker questions claims of 'proof'."
+ },
+ {
+  "id": "x-A1-4",
+  "lec": 1,
+  "style": "A1",
+  "styleName": "Scientific mindset",
+  "q": "Two students argue about whether music helps studying. Which approach best reflects 'research as a scientific conversation'?",
+  "opts": [
+   "Reading what past studies found, then designing a study to test the open question",
+   "Asking the whole class to vote on which of the two views is correct",
+   "Agreeing with whichever student sounds more confident and experienced",
+   "Settling the issue based on each student's own personal study experience"
+  ],
+  "a": 0,
+  "why": "Research is a conversation with past studies: you build on existing evidence and test what is still unknown, not settle it by votes, confidence or anecdote."
+ },
+ {
+  "id": "x-A2-1",
+  "lec": 2,
+  "style": "A2",
+  "styleName": "Is it scientific literature?",
+  "q": "You are researching social media and anxiety. Which source counts as scientific literature?",
+  "opts": [
+   "A peer-reviewed article in a cyberpsychology journal",
+   "A TED talk by a well-known psychologist on social media",
+   "A newspaper article quoting a university study",
+   "A psychologist's personal blog summarising her latest data"
+  ],
+  "a": 0,
+  "why": "Scientific literature has been peer reviewed by experts. Talks, newspapers and blogs are not peer reviewed, however expert the author."
+ },
+ {
+  "id": "x-A2-2",
+  "lec": 2,
+  "style": "A2",
+  "styleName": "Is it scientific literature?",
+  "q": "Which of the following is NOT considered scientific literature?",
+  "opts": [
+   "A magazine feature by a science journalist on new sleep research",
+   "An empirical article published in a peer-reviewed journal",
+   "A meta-analysis published in Psychological Bulletin",
+   "A peer-reviewed paper accepted at an academic conference"
+  ],
+  "a": 0,
+  "why": "Journalistic writing is not peer reviewed, even when it reports on science. Peer-reviewed articles, meta-analyses and accepted conference papers are scientific literature."
+ },
+ {
+  "id": "x-A2-3",
+  "lec": 2,
+  "style": "A2",
+  "styleName": "Is it scientific literature?",
+  "q": "A government agency publishes a report on youth mental health written by a consulting firm. It is not peer reviewed but summarises many studies. How should a student treat it?",
+  "opts": [
+   "As a white/policy paper: possibly useful, but not peer-reviewed scientific literature",
+   "As an empirical article, because it includes data collected by the firm",
+   "As a peer-reviewed review article, because it summarises many studies",
+   "As completely useless, since reports by organisations can never be cited"
+  ],
+  "a": 0,
+  "why": "White papers are written by organisations for policy. They are not peer reviewed, so they sit in a grey area: possibly rigorous, but not scientific literature."
+ },
+ {
+  "id": "x-A2-4",
+  "lec": 2,
+  "style": "A2",
+  "styleName": "Is it scientific literature?",
+  "q": "Why was Wakefield's paper linking vaccines to autism eventually removed (retracted) despite being published?",
+  "opts": [
+   "Its methods and data were found to be flawed and dishonest",
+   "It was published in a book rather than in a journal",
+   "It went over the journal's word limit for articles",
+   "It used too many citations in its literature review"
+  ],
+  "a": 0,
+  "why": "The Wakefield case shows that even published research must be scrutinised; flawed and dishonest work was retracted after review."
+ },
+ {
+  "id": "x-A3-1",
+  "lec": 2,
+  "style": "A3",
+  "styleName": "Name the paper type",
+  "q": "Researchers recruit 300 university students, measure their phone use and loneliness with questionnaires, and test whether the two are related. What type of paper will they write?",
+  "opts": [
+   "Empirical paper",
+   "Systematic review",
+   "Meta-analysis",
+   "Conceptual paper"
+  ],
+  "a": 0,
+  "why": "They collected new primary data and analysed it to test a hypothesis, which is an empirical paper."
+ },
+ {
+  "id": "x-A3-2",
+  "lec": 2,
+  "style": "A3",
+  "styleName": "Name the paper type",
+  "q": "An author uses existing findings to propose a new model explaining how loneliness, rumination and sleep influence one another, without collecting any new data. This paper is most likely a…",
+  "opts": [
+   "…conceptual / theoretical paper",
+   "…empirical paper",
+   "…meta-analysis",
+   "…systematic review"
+  ],
+  "a": 0,
+  "why": "Proposing a model from existing findings without new data is a theoretical or conceptual paper."
+ },
+ {
+  "id": "x-A3-3",
+  "lec": 2,
+  "style": "A3",
+  "styleName": "Name the paper type",
+  "q": "A team gathers all studies from the past 15 years on mindfulness and exam stress, describes the key themes and suggests directions for future research, but does not combine the studies' statistics. This is most likely a…",
+  "opts": [
+   "…systematic review",
+   "…meta-analysis",
+   "…empirical paper",
+   "…conceptual paper"
+  ],
+  "a": 0,
+  "why": "A systematic review summarises and organises past studies. A meta-analysis would statistically combine their results."
+ },
+ {
+  "id": "x-A3-4",
+  "lec": 2,
+  "style": "A3",
+  "styleName": "Name the paper type",
+  "q": "After a conference, the organisers publish one volume containing all the papers that were accepted for presentation. What is this collection called?",
+  "opts": [
+   "Conference proceedings",
+   "A meta-analysis",
+   "An edited textbook",
+   "A white paper"
+  ],
+  "a": 0,
+  "why": "Conference proceedings are collections of accepted conference papers, which can be empirical, conceptual or review papers."
+ },
+ {
+  "id": "x-B1-1",
+  "lec": 3,
+  "style": "B1",
+  "styleName": "Which section is this from?",
+  "q": "\"However, our sample consisted only of undergraduate students from one university, so the findings may not generalise to working adults.\" This sentence is most likely from the…",
+  "opts": [
+   "…discussion",
+   "…literature review",
+   "…method section",
+   "…theoretical framework"
+  ],
+  "a": 0,
+  "why": "Admitting what the study couldn't do and who it may not apply to is a limitation, found in the discussion."
+ },
+ {
+  "id": "x-B1-2",
+  "lec": 3,
+  "style": "B1",
+  "styleName": "Which section is this from?",
+  "q": "\"Participants (N = 214) completed the Perceived Stress Scale (Cohen et al., 1983), a 10-item measure rated on a 5-point scale.\" Which section is this from?",
+  "opts": [
+   "Method",
+   "Results",
+   "Discussion",
+   "Abstract"
+  ],
+  "a": 0,
+  "why": "Describing participants and how variables were measured is the method section."
+ },
+ {
+  "id": "x-B1-3",
+  "lec": 3,
+  "style": "B1",
+  "styleName": "Which section is this from?",
+  "q": "\"According to social comparison theory, people evaluate themselves against others; frequent exposure to idealised posts may therefore lower users' self-esteem.\" This is most likely part of the…",
+  "opts": [
+   "…theoretical framework",
+   "…results",
+   "…limitations",
+   "…method"
+  ],
+  "a": 0,
+  "why": "It explains how and why one variable should affect another using a theory, which is a theoretical framework."
+ },
+ {
+  "id": "x-B1-4",
+  "lec": 3,
+  "style": "B1",
+  "styleName": "Which section is this from?",
+  "q": "\"Contrary to our hypothesis, gratitude journaling was not significantly related to sleep quality, t(98) = 1.12, p = .27.\" Which section is this most likely from?",
+  "opts": [
+   "Results",
+   "Introduction",
+   "Theoretical framework",
+   "Practical implications"
+  ],
+  "a": 0,
+  "why": "Reporting a hypothesis test with statistics is the results section."
+ },
+ {
+  "id": "x-B2-1",
+  "lec": 3,
+  "style": "B2",
+  "styleName": "What a section does (EXCEPT)",
+  "q": "The discussion section of an empirical paper does all the following, except…",
+  "opts": [
+   "…describe in detail how participants were recruited and measured.",
+   "…summarise the main findings.",
+   "…link the findings back to the broader literature.",
+   "…state limitations and directions for future research."
+  ],
+  "a": 0,
+  "why": "Recruitment and measurement details belong in the method section. The discussion summarises, links to literature, gives implications and limitations."
+ },
+ {
+  "id": "x-B2-2",
+  "lec": 2,
+  "style": "B2",
+  "styleName": "What a section does (EXCEPT)",
+  "q": "An introduction (literature review) of an empirical paper typically includes all the following, except…",
+  "opts": [
+   "…the statistical results of the current study.",
+   "…a research gap.",
+   "…a theoretical framework.",
+   "…the research question and hypotheses."
+  ],
+  "a": 0,
+  "why": "The current study's statistics appear in the results. The introduction justifies the study: background, framework, gap, question and hypotheses."
+ },
+ {
+  "id": "x-B2-3",
+  "lec": 3,
+  "style": "B2",
+  "styleName": "What a section does (EXCEPT)",
+  "q": "A theoretical framework does all of the following, except…",
+  "opts": [
+   "…report whether the hypothesis was supported.",
+   "…explain how the variables are connected.",
+   "…explain why one variable may influence another.",
+   "…justify the hypothesis."
+  ],
+  "a": 0,
+  "why": "A theoretical framework explains how and why variables connect to justify the hypothesis; whether it was supported is reported in the results."
+ },
+ {
+  "id": "x-B2-4",
+  "lec": 2,
+  "style": "B2",
+  "styleName": "What a section does (EXCEPT)",
+  "q": "The abstract of a journal article does all of the following, except…",
+  "opts": [
+   "…provide the full reference list for the study.",
+   "…give a short overview of the study's aim.",
+   "…briefly state the main findings.",
+   "…help readers decide whether the article is relevant."
+  ],
+  "a": 0,
+  "why": "The abstract is a short 'bird's-eye' summary of the study; the reference list is at the end of the paper."
+ },
+ {
+  "id": "x-B3-1",
+  "lec": 3,
+  "style": "B3",
+  "styleName": "Classify the implication",
+  "q": "A study finds that students who exercise before exams report less anxiety. Which statement is a PRACTICAL implication?",
+  "opts": [
+   "Universities could schedule short exercise sessions before major examinations.",
+   "The findings support models linking physical activity to stress regulation.",
+   "Future studies should test whether the effect holds for working adults.",
+   "The study only used self-report measures of anxiety."
+  ],
+  "a": 0,
+  "why": "A practical implication says what the findings mean for the real world. The others are theoretical, future research and a limitation."
+ },
+ {
+  "id": "x-B3-2",
+  "lec": 3,
+  "style": "B3",
+  "styleName": "Classify the implication",
+  "q": "A study finds that bilingual children are better at switching between tasks. Which is a THEORETICAL implication?",
+  "opts": [
+   "The findings suggest language experience should be included in models of executive function.",
+   "Schools should introduce second-language classes earlier to boost children's task switching.",
+   "The study was limited to bilingual children from a single city, so findings may not generalise.",
+   "Future research could examine whether elderly bilinguals also show better task switching."
+  ],
+  "a": 0,
+  "why": "A theoretical implication concerns what the findings mean for theory or models of the topic."
+ },
+ {
+  "id": "x-B3-3",
+  "lec": 3,
+  "style": "B3",
+  "styleName": "Classify the implication",
+  "q": "\"Future studies could use a longitudinal design to examine whether the effect persists over time.\" This sentence is an example of…",
+  "opts": [
+   "…a direction for future research.",
+   "…a practical implication.",
+   "…a theoretical implication.",
+   "…a theoretical framework."
+  ],
+  "a": 0,
+  "why": "Suggesting how later studies can improve or extend the work is a direction for future research."
+ },
+ {
+  "id": "x-B3-4",
+  "lec": 7,
+  "style": "B3",
+  "styleName": "Classify the implication",
+  "q": "Which expected practical implication is the most specific and strongest for a literature review on loneliness among first-year students?",
+  "opts": [
+   "Counselling centres could run peer-mentoring during orientation to reduce first-year loneliness.",
+   "This study will help many people who are suffering from loneliness in their daily lives.",
+   "The findings will be useful for society in general and for anyone interested in the topic.",
+   "Students may benefit in some way from the results of the current literature review."
+  ],
+  "a": 0,
+  "why": "Strong practical implications are specific about who benefits and how; vague statements like 'help many people' are weak."
+ },
+ {
+  "id": "x-B4-1",
+  "lec": 3,
+  "style": "B4",
+  "styleName": "Passage evaluation",
+  "q": "\"Participants who received daily reminders exercised more often (M = 4.2 days, SD = 1.1) than those who did not (M = 3.9 days, SD = 1.3), t(120) = 1.41, p = .16.\" Which statement is true?",
+  "opts": [
+   "The difference between the groups is not statistically significant.",
+   "The difference is statistically significant because the means differ.",
+   "The passage lacks any statistical information.",
+   "The passage is part of a theoretical framework."
+  ],
+  "a": 0,
+  "why": "With p = .16 (greater than .05), the difference is not statistically significant, even though the means differ slightly."
+ },
+ {
+  "id": "x-B4-2",
+  "lec": 3,
+  "style": "B4",
+  "styleName": "Passage evaluation",
+  "q": "\"Self-determination theory proposes that people are more motivated when their needs for autonomy, competence and relatedness are met (Ryan & Deci, 2000). Students who choose their own study topics may therefore feel more autonomous and persist longer.\" Which is true about this passage?",
+  "opts": [
+   "It explains why the variables are linked, so it serves as a theoretical framework.",
+   "It reports the current study's own statistical results on student persistence.",
+   "It contains no reference to past research, so it is only the authors' opinion.",
+   "It describes a limitation of the study that future research should address."
+  ],
+  "a": 0,
+  "why": "The passage uses a cited theory to explain why topic choice should increase persistence, which is a theoretical framework."
+ },
+ {
+  "id": "x-B4-3",
+  "lec": 3,
+  "style": "B4",
+  "styleName": "Passage evaluation",
+  "q": "\"Previous studies show that screen time is associated with poorer sleep (Hale & Guan, 2015). However, few studies have examined this link among Malaysian university students.\" The second sentence mainly presents a…",
+  "opts": [
+   "…research gap.",
+   "…limitation of the current study.",
+   "…practical implication.",
+   "…summary of results."
+  ],
+  "a": 0,
+  "why": "Pointing out what past research has not yet examined is a research gap, which justifies the new study."
+ },
+ {
+  "id": "x-B4-4",
+  "lec": 3,
+  "style": "B4",
+  "styleName": "Passage evaluation",
+  "q": "A results section states: \"Social support was significantly related to well-being, r = .12, p = .04.\" What is the best evaluation?",
+  "opts": [
+   "The relationship is statistically significant but weak in strength.",
+   "The relationship is not significant because r is small.",
+   "The relationship is significant and very strong.",
+   "Significance cannot be judged without the theoretical framework."
+  ],
+  "a": 0,
+  "why": "p < .05 means it is significant, but r = .12 shows a weak effect. Significance and effect size are different things."
+ },
+ {
+  "id": "x-B5-1",
+  "lec": 7,
+  "style": "B5",
+  "styleName": "Improve the passage",
+  "q": "An introduction reads: \"Many studies show that gratitude improves well-being (Emmons, 2003; Lee, 2010; Park, 2011; Wong, 2012; Tan, 2014; Lim, 2015; Ng, 2016; Ho, 2017; Goh, 2018; Chua, 2019).\" What change would most improve it?",
+  "opts": [
+   "Cite fewer of the most relevant studies and explain what they found",
+   "Add even more citations to show that the topic is popular",
+   "Remove all citations, since readers know gratitude helps",
+   "Add the detailed statistics reported in each of the studies"
+  ],
+  "a": 0,
+  "why": "Citation spamming weakens a literature review; cite the most relevant studies and explain their findings."
+ },
+ {
+  "id": "x-B5-2",
+  "lec": 7,
+  "style": "B5",
+  "styleName": "Improve the passage",
+  "q": "A student's research gap reads: \"No one has ever studied this topic before.\" How can it be improved?",
+  "opts": [
+   "Specify what past research has examined and what question remains unanswered.",
+   "Add more emphasis and exclamation marks to show the gap is very important.",
+   "Remove the gap entirely, since it isn't needed in a literature review.",
+   "Replace it with a personal story explaining why the topic matters to you."
+  ],
+  "a": 0,
+  "why": "Strong research gaps are specific and supported by the literature; claiming 'no one has ever studied this' is usually weak and inaccurate."
+ },
+ {
+  "id": "x-B5-3",
+  "lec": 7,
+  "style": "B5",
+  "styleName": "Improve the passage",
+  "q": "A literature review jumps straight from defining 'procrastination' to stating the hypothesis, with no explanation of why the variables should be linked. What is most needed?",
+  "opts": [
+   "A theoretical framework explaining how and why the variables connect",
+   "A longer list of definitions of procrastination taken from a dictionary",
+   "The results of the current study and whether the hypothesis was supported",
+   "A section describing the authors' personal opinions about procrastination"
+  ],
+  "a": 0,
+  "why": "Without a theoretical framework, the hypothesis isn't justified. The framework explains how and why the variables connect."
+ },
+ {
+  "id": "x-B5-4",
+  "lec": 7,
+  "style": "B5",
+  "styleName": "Improve the passage",
+  "q": "An expected theoretical implication reads: \"This study will contribute to the literature.\" Which revision is strongest?",
+  "opts": [
+   "\"Findings may extend social comparison theory to short-video platforms.\"",
+   "\"This study will contribute a lot to the existing literature on the topic.\"",
+   "\"This study will be very helpful for the field of psychology in general.\"",
+   "\"This study is important because the topic is interesting to many people.\""
+  ],
+  "a": 0,
+  "why": "Strong theoretical implications are specific: they name the theory and how the findings may extend, support or challenge it."
+ },
+ {
+  "id": "x-C1-1",
+  "lec": 6,
+  "style": "C1",
+  "styleName": "Search strategy",
+  "q": "You want to review literature on phone use and sleep in teenagers. Which strategy would NOT make your search more efficient?",
+  "opts": [
+   "Reading every article published in developmental psychology over the past decade",
+   "Searching databases with keywords like 'smartphone', 'bedtime' and 'adolescent sleep'",
+   "Checking the reference list of a recent key paper on teen phone use",
+   "Starting broad, then narrowing to studies on adolescents"
+  ],
+  "a": 0,
+  "why": "Reading everything in a whole field is too broad. Keywords, reference lists and broad-to-narrow searching are efficient strategies."
+ },
+ {
+  "id": "x-C1-2",
+  "lec": 6,
+  "style": "C1",
+  "styleName": "Search strategy",
+  "q": "Your topic has very little published research. Which is the most sensible strategy?",
+  "opts": [
+   "Search for research on closely related concepts and broaden the keywords",
+   "Give up, because a literature review needs many direct studies",
+   "Cite blogs and news articles to fill the gap",
+   "Only use one article and repeat it throughout"
+  ],
+  "a": 0,
+  "why": "When research is limited, search for related concepts and broaden keywords, while staying with scientific sources."
+ },
+ {
+  "id": "x-C1-3",
+  "lec": 6,
+  "style": "C1",
+  "styleName": "Search strategy",
+  "q": "During a quick read to decide whether an article is relevant, which parts should you read first?",
+  "opts": [
+   "The title, abstract, introduction and discussion",
+   "The reference list only",
+   "Every table in the results section",
+   "The acknowledgements and author biographies"
+  ],
+  "a": 0,
+  "why": "A quick read of the title, abstract, introduction and discussion tells you whether an article fits your topic."
+ },
+ {
+  "id": "x-C1-4",
+  "lec": 6,
+  "style": "C1",
+  "styleName": "Search strategy",
+  "q": "You find one highly relevant article on 'academic burnout'. Which is the most efficient next step?",
+  "opts": [
+   "Use its reference list and keywords to find related articles",
+   "Stop searching, since one relevant article is enough for a review",
+   "Search for the authors' social media accounts for their opinions",
+   "Look for the article's title on Wikipedia for a simpler summary"
+  ],
+  "a": 0,
+  "why": "An article's reference list and keywords lead you to other relevant studies, making the search more efficient."
+ },
+ {
+  "id": "x-C2-1",
+  "lec": 6,
+  "style": "C2",
+  "styleName": "Relevance selection",
+  "q": "Your literature review is on whether pets reduce loneliness in older adults. Which article is LEAST relevant?",
+  "opts": [
+   "An empirical study on the best dog breeds for guarding houses",
+   "A survey linking pet ownership to lower loneliness in retirees",
+   "A review of social support and loneliness in later life",
+   "A theoretical paper on human–animal attachment"
+  ],
+  "a": 0,
+  "why": "Guard-dog breeds are unrelated to loneliness. The others are closely or broadly related to the topic."
+ },
+ {
+  "id": "x-C2-2",
+  "lec": 6,
+  "style": "C2",
+  "styleName": "Relevance selection",
+  "q": "Your topic is exam anxiety in university students. Article I: test anxiety in undergraduates. Article II: coping strategies during exams. Article III: anxiety disorders in pet cats. Article IV: a theory of evaluative stress. Which do you include?",
+  "opts": [
+   "I, II and IV only",
+   "I and III only",
+   "II and III only",
+   "All four articles"
+  ],
+  "a": 0,
+  "why": "Articles I, II and IV relate to exam anxiety or its theory. Anxiety in cats is not relevant to university students."
+ },
+ {
+  "id": "x-C2-3",
+  "lec": 6,
+  "style": "C2",
+  "styleName": "Relevance selection",
+  "q": "A study on 'gaming addiction in Malaysian adolescents' is closely related to your topic of 'internet gaming and sleep in teenagers'. How should a study on 'board-game clubs in retirement homes' be treated?",
+  "opts": [
+   "As unrelated and excluded",
+   "As closely related and central",
+   "As the main theoretical framework",
+   "As the research gap"
+  ],
+  "a": 0,
+  "why": "Board games in retirement homes don't relate to internet gaming or teenagers' sleep, so it should be excluded."
+ },
+ {
+  "id": "x-C2-4",
+  "lec": 6,
+  "style": "C2",
+  "styleName": "Relevance selection",
+  "q": "When deciding which articles to keep for your literature review, which guideline is most appropriate?",
+  "opts": [
+   "Keep articles related to your key variables or theory, closely related ones first",
+   "Keep any article that was published recently, regardless of the topic it covers",
+   "Keep only articles that have the longest reference lists and the most citations",
+   "Keep articles whose titles sound the most interesting or the most surprising"
+  ],
+  "a": 0,
+  "why": "Relevance depends on your key variables and theoretical framework, with closely related studies prioritised."
+ },
+ {
+  "id": "x-D1-1",
+  "lec": 4,
+  "style": "D1",
+  "styleName": "Spot the writing issue",
+  "q": "\"This review will show that sleep affects memory. This section is related to the effects of sleep on learning.\" The main writing issue here is…",
+  "opts": [
+   "…telegraphing.",
+   "…hedging.",
+   "…nominalisation.",
+   "…impersonal construction."
+  ],
+  "a": 0,
+  "why": "Announcing what the writing will do ('this review will show', 'this section is related to') is telegraphing and wastes words."
+ },
+ {
+  "id": "x-D1-2",
+  "lec": 4,
+  "style": "D1",
+  "styleName": "Spot the writing issue",
+  "q": "\"Many people believe that social media is harmful, and researchers generally believe it causes depression.\" Which writing problem is present?",
+  "opts": [
+   "Weasel words",
+   "Telegraphing",
+   "Nominalisation",
+   "Strong lexical density"
+  ],
+  "a": 0,
+  "why": "Vague phrases like 'many people believe' and 'researchers generally believe' are weasel words: ambiguous and unsupported."
+ },
+ {
+  "id": "x-D1-3",
+  "lec": 4,
+  "style": "D1",
+  "styleName": "Spot the writing issue",
+  "q": "\"This study proves that mindfulness definitely reduces anxiety in all students.\" What should the writer change?",
+  "opts": [
+   "Use hedging language such as 'suggests' and 'may reduce'",
+   "Use more personal pronouns such as 'I' and 'we'",
+   "Add telegraphing phrases such as 'this study will show'",
+   "Turn the nouns in the sentence into verbs"
+  ],
+  "a": 0,
+  "why": "'Proves', 'definitely' and 'all' imply certainty. Academic writing uses hedging (may, suggests, indicates)."
+ },
+ {
+  "id": "x-D1-4",
+  "lec": 4,
+  "style": "D1",
+  "styleName": "Spot the writing issue",
+  "q": "\"I think we found that our participants felt happier, and you can see that we were right.\" The main issue is a lack of…",
+  "opts": [
+   "…impersonal construction.",
+   "…telegraphing.",
+   "…weasel words.",
+   "…citations in the reference list."
+  ],
+  "a": 0,
+  "why": "Heavy use of I, we and you reduces formality. Impersonal (third-person or passive) constructions are preferred."
+ },
+ {
+  "id": "x-D2-1",
+  "lec": 4,
+  "style": "D2",
+  "styleName": "Best rewrite",
+  "q": "Which is the best nominalised version of: \"Students who often put off their assignments until the last minute tend to perform worse on them\"?",
+  "opts": [
+   "Procrastination is associated with poorer academic performance.",
+   "Students who delay things do badly.",
+   "Don't leave your assignments until the last minute.",
+   "When students put things off, they will always fail."
+  ],
+  "a": 0,
+  "why": "Nominalisation turns the long verb phrase 'put off assignments until the last minute' into the noun 'procrastination', making the sentence concise and academic."
+ },
+ {
+  "id": "x-D2-2",
+  "lec": 4,
+  "style": "D2",
+  "styleName": "Best rewrite",
+  "q": "Which is the most concise academic rewrite of: \"The thing that happens is that people who are lonely for a really long time end up feeling sad a lot\"?",
+  "opts": [
+   "Chronic loneliness may be associated with depressive symptoms.",
+   "Lonely people are sad.",
+   "People who are lonely for a long time will definitely become sad.",
+   "It seems like loneliness makes people feel really sad sometimes."
+  ],
+  "a": 0,
+  "why": "It uses nouns (chronic loneliness, depressive symptoms), removes filler and keeps hedging ('may be associated')."
+ },
+ {
+  "id": "x-D2-3",
+  "lec": 4,
+  "style": "D2",
+  "styleName": "Best rewrite",
+  "q": "Which sentence has the HIGHEST lexical density?",
+  "opts": [
+   "Chronic stress impairs working-memory performance.",
+   "It is the case that stress can, in some ways, be bad for memory.",
+   "There are times when people who are stressed find it hard to remember things.",
+   "As we all know, stress is something that is not good for us."
+  ],
+  "a": 0,
+  "why": "It packs the most content words (nouns, verbs, adjectives) into the fewest words, with almost no function words."
+ },
+ {
+  "id": "x-D2-4",
+  "lec": 4,
+  "style": "D2",
+  "styleName": "Best rewrite",
+  "q": "Which is the best rewrite of: \"In this essay I will be talking about the reasons why teenagers use their phones too much\"?",
+  "opts": [
+   "Excessive smartphone use among adolescents has several causes.",
+   "This essay will talk about phones.",
+   "I will now explain why teens use phones a lot.",
+   "Teenagers use phones way too much, which is bad."
+  ],
+  "a": 0,
+  "why": "It removes telegraphing and personal pronouns and uses nominal style ('excessive smartphone use')."
+ },
+ {
+  "id": "x-D3-1",
+  "lec": 5,
+  "style": "D3",
+  "styleName": "Specialised research terms",
+  "q": "A survey study finds that time spent on TikTok is negatively correlated with sleep duration. Which sentence uses appropriate language?",
+  "opts": [
+   "TikTok use was negatively associated with sleep duration.",
+   "TikTok use caused participants to sleep for shorter periods.",
+   "TikTok use decreased participants' sleep duration.",
+   "TikTok use had a negative impact on sleep duration."
+  ],
+  "a": 0,
+  "why": "Correlational studies can't establish causation, so use 'associated with' or 'related to', not cause, decrease or impact."
+ },
+ {
+  "id": "x-D3-2",
+  "lec": 5,
+  "style": "D3",
+  "styleName": "Specialised research terms",
+  "q": "Researchers randomly assign participants to either a caffeine or a placebo condition and measure reaction time. Which wording is appropriate?",
+  "opts": [
+   "Caffeine decreased reaction time compared with the placebo.",
+   "Caffeine was associated with reaction time.",
+   "Caffeine might be related to reaction time in some unclear way.",
+   "Caffeine and reaction time were correlated."
+  ],
+  "a": 0,
+  "why": "This is an experiment (manipulation plus random assignment), so causal words such as 'decreased' or 'effect' are appropriate."
+ },
+ {
+  "id": "x-D3-3",
+  "lec": 5,
+  "style": "D3",
+  "styleName": "Specialised research terms",
+  "q": "A study reports that a happiness scale gave very similar scores when the same students completed it twice, two weeks apart. This shows the scale's…",
+  "opts": [
+   "…reliability.",
+   "…validity.",
+   "…causality.",
+   "…statistical significance."
+  ],
+  "a": 0,
+  "why": "Reliability means a measure returns consistent results on repeated use."
+ },
+ {
+  "id": "x-D3-4",
+  "lec": 5,
+  "style": "D3",
+  "styleName": "Specialised research terms",
+  "q": "A researcher says a new 'stress scale' gives consistent scores, but it actually measures how tired people are rather than their stress. The scale lacks…",
+  "opts": [
+   "…validity.",
+   "…reliability.",
+   "…significance.",
+   "…causality."
+  ],
+  "a": 0,
+  "why": "Validity means measuring what it is supposed to measure. Consistent scores show reliability, not validity."
+ },
+ {
+  "id": "x-D4-1",
+  "lec": 8,
+  "style": "D4",
+  "styleName": "APA formatting",
+  "q": "How should a study by Tan, Lee and Wong (2021) be cited in text in APA style?",
+  "opts": [
+   "(Tan et al., 2021)",
+   "(Tan, Lee, & Wong, 2021)",
+   "(Tan & others, 2021)",
+   "(T. L. W., 2021)"
+  ],
+  "a": 0,
+  "why": "For three or more authors, APA uses the first author's surname followed by 'et al.'"
+ },
+ {
+  "id": "x-D4-2",
+  "lec": 8,
+  "style": "D4",
+  "styleName": "APA formatting",
+  "q": "You read about Piaget's (1952) idea only in Santrock's (2018) textbook. What is the correct in-text citation?",
+  "opts": [
+   "(Piaget, 1952, as cited in Santrock, 2018)",
+   "(Piaget, 1952; Santrock, 2018)",
+   "(Santrock, 2018, as cited in Piaget, 1952)",
+   "(Piaget & Santrock, 1952, 2018)"
+  ],
+  "a": 0,
+  "why": "A secondary citation names the original source 'as cited in' the source you actually read, and only Santrock goes in the reference list."
+ },
+ {
+  "id": "x-D4-3",
+  "lec": 8,
+  "style": "D4",
+  "styleName": "APA formatting",
+  "q": "Which rule about an APA reference list is correct?",
+  "opts": [
+   "Entries are in alphabetical order with a hanging indent",
+   "Entries are in the order they were cited in the text",
+   "Entries are numbered and single-spaced",
+   "Only books are included, not journal articles"
+  ],
+  "a": 0,
+  "why": "APA reference lists are alphabetical, double-spaced, use a hanging indent and start on a new page."
+ },
+ {
+  "id": "x-D4-4",
+  "lec": 8,
+  "style": "D4",
+  "styleName": "APA formatting",
+  "q": "In an APA journal article reference, which part is NOT italicised?",
+  "opts": [
+   "The article title",
+   "The journal name",
+   "The volume number",
+   "Both the journal name and volume number"
+  ],
+  "a": 0,
+  "why": "The journal name and volume number are italicised; the article title is in plain text with sentence-case capitalisation."
+ },
+ {
+  "id": "x-E1-1",
+  "lec": 5,
+  "style": "E1",
+  "styleName": "What to include in an email",
+  "q": "You are emailing a researcher at another university to request access to a questionnaire she developed. Which detail is LEAST important to include?",
+  "opts": [
+   "Your favourite psychology YouTube channel",
+   "Your full name",
+   "Your university and programme",
+   "A concise statement of what you are requesting and why"
+  ],
+  "a": 0,
+  "why": "Present yourself professionally (name, institution, programme) and state your purpose concisely. Personal trivia is irrelevant."
+ },
+ {
+  "id": "x-E1-2",
+  "lec": 5,
+  "style": "E1",
+  "styleName": "What to include in an email",
+  "q": "You email a lecturer you have never met, Dr. Aisha Rahman. Which greeting is most appropriate?",
+  "opts": [
+   "Dear Dr. Rahman,",
+   "Hey Aisha!",
+   "Hi there,",
+   "Yo Dr. A,"
+  ],
+  "a": 0,
+  "why": "Stay formal until told otherwise: use the correct title and surname."
+ },
+ {
+  "id": "x-E1-3",
+  "lec": 5,
+  "style": "E1",
+  "styleName": "What to include in an email",
+  "q": "Which subject line is most appropriate for an email to a professor about a research internship?",
+  "opts": [
+   "Enquiry about research internship opportunities in your lab",
+   "Hi Prof!!! Can I please ask you something?",
+   "Quick question about internships lol",
+   "URGENT – PLEASE REPLY ASAP ABOUT INTERNSHIP"
+  ],
+  "a": 0,
+  "why": "A professional subject line states the purpose concisely and politely."
+ },
+ {
+  "id": "x-E1-4",
+  "lec": 5,
+  "style": "E1",
+  "styleName": "What to include in an email",
+  "q": "When writing to an academic from a culture that values hierarchy and formality, what is the best approach?",
+  "opts": [
+   "Use formal titles and a respectful tone unless invited otherwise",
+   "Use first names immediately so that you sound friendly and warm",
+   "Use a few emojis so that you appear approachable and polite",
+   "Skip the greeting entirely to save the academic's valuable time"
+  ],
+  "a": 0,
+  "why": "Culture affects expected formality; with hierarchical cultures, formal titles and tone are safest."
+ },
+ {
+  "id": "x-E2-1",
+  "lec": 5,
+  "style": "E2",
+  "styleName": "Formality",
+  "q": "Which email sign-off is the MOST formal?",
+  "opts": [
+   "Yours sincerely",
+   "Cheers",
+   "Thanks!",
+   "Best"
+  ],
+  "a": 0,
+  "why": "'Yours sincerely' is a formal sign-off; 'Cheers', 'Thanks!' and 'Best' are more casual."
+ },
+ {
+  "id": "x-E2-2",
+  "lec": 5,
+  "style": "E2",
+  "styleName": "Formality",
+  "q": "Which greeting is the LEAST formal?",
+  "opts": [
+   "Hey!",
+   "Dear Professor Tan,",
+   "Good morning, Dr. Lee,",
+   "Dear Sir/Madam,"
+  ],
+  "a": 0,
+  "why": "'Hey!' is colloquial. The others use titles or formal phrasing."
+ },
+ {
+  "id": "x-E2-3",
+  "lec": 5,
+  "style": "E2",
+  "styleName": "Formality",
+  "q": "Which feature most reduces the formality of a professional email?",
+  "opts": [
+   "Contractions, slang and emojis, e.g. \"Can't make it lol 😅\"",
+   "Using the recipient's academic title and surname",
+   "A clear and concise subject line stating your purpose",
+   "A formal sign-off followed by your full name and university"
+  ],
+  "a": 0,
+  "why": "Colloquial features such as slang, contractions and emojis lower formality."
+ },
+ {
+  "id": "x-E2-4",
+  "lec": 5,
+  "style": "E2",
+  "styleName": "Formality",
+  "q": "A professor replies to your formal email and signs off \"Cheers, Mike\". What is the most appropriate way to continue?",
+  "opts": [
+   "Stay polite and professional, adjusting only slightly to their tone",
+   "Switch to slang and emojis immediately to match their friendliness",
+   "Stop using any greeting or sign-off from now on to keep it short",
+   "Call them by a nickname to show that you are building rapport"
+  ],
+  "a": 0,
+  "why": "Stay formal until indicated otherwise; even then, remain professional rather than becoming very casual."
+ },
+ {
+  "id": "x-F1-1",
+  "lec": 10,
+  "style": "F1",
+  "styleName": "Is it an argument?",
+  "q": "Which of the following is an argument?",
+  "opts": [
+   "\"Students should sleep eight hours, because sleep supports memory.\"",
+   "\"I just really don't like doing group assignments with strangers.\"",
+   "\"Shut up, you're completely wrong about online learning!\"",
+   "\"Psychology is definitely my favourite subject this semester.\""
+  ],
+  "a": 0,
+  "why": "An argument gives a reason to believe a claim ('because sleep supports memory'). Preferences and insults are not arguments."
+ },
+ {
+  "id": "x-F1-2",
+  "lec": 10,
+  "style": "F1",
+  "styleName": "Is it an argument?",
+  "q": "Which statement is LEAST likely to be considered an argument?",
+  "opts": [
+   "\"Whatever you say, I'm not listening.\"",
+   "\"Online learning is less effective because students are more easily distracted.\"",
+   "\"Exercise reduces stress, as shown by several clinical trials.\"",
+   "\"The study's conclusion is weak because the sample was small.\""
+  ],
+  "a": 0,
+  "why": "Refusing to listen gives no claim or reason. The others give reasons for believing a claim."
+ },
+ {
+  "id": "x-F1-3",
+  "lec": 10,
+  "style": "F1",
+  "styleName": "Is it an argument?",
+  "q": "According to Lecture 10, an argument is best defined as…",
+  "opts": [
+   "…a statement that gives people a reason for believing what you said.",
+   "…a heated verbal fight between two people who disagree with each other.",
+   "…any statement in which a person expresses their personal preference.",
+   "…a question that cannot be answered by evidence or by observation."
+  ],
+  "a": 0,
+  "why": "An argument shows what is true and why it is true. It is not a shouting match."
+ },
+ {
+  "id": "x-F1-4",
+  "lec": 10,
+  "style": "F1",
+  "styleName": "Is it an argument?",
+  "q": "What is the standard form of an argument?",
+  "opts": [
+   "Premise(s) followed by a conclusion",
+   "A conclusion followed by an insult",
+   "A question followed by an opinion",
+   "A hypothesis followed by a citation"
+  ],
+  "a": 0,
+  "why": "Arguments are written in standard form: premises first, then the conclusion they support."
+ },
+ {
+  "id": "x-F2-1",
+  "lec": 10,
+  "style": "F2",
+  "styleName": "Valid? Sound?",
+  "q": "Premise 1: All psychologists study behaviour. Premise 2: Lina is a psychologist. Conclusion: Lina studies behaviour. This argument is…",
+  "opts": [
+   "…valid and sound.",
+   "…valid but unsound.",
+   "…invalid and unsound.",
+   "…invalid but sound."
+  ],
+  "a": 0,
+  "why": "If the premises are true, the conclusion must be true (valid), and the premises are true (sound)."
+ },
+ {
+  "id": "x-F2-2",
+  "lec": 10,
+  "style": "F2",
+  "styleName": "Valid? Sound?",
+  "q": "Premise 1: All cats can fly. Premise 2: Milo is a cat. Conclusion: Milo can fly. This argument is…",
+  "opts": [
+   "…valid but unsound.",
+   "…valid and sound.",
+   "…invalid and unsound.",
+   "…invalid but sound."
+  ],
+  "a": 0,
+  "why": "The structure is correct (valid), but Premise 1 is false, so the argument is unsound."
+ },
+ {
+  "id": "x-F2-3",
+  "lec": 10,
+  "style": "F2",
+  "styleName": "Valid? Sound?",
+  "q": "Premise 1: If it rains, the field gets wet. Premise 2: The field is wet. Conclusion: It rained. This argument is…",
+  "opts": [
+   "…invalid and unsound.",
+   "…valid and sound.",
+   "…valid but unsound.",
+   "…sound but invalid."
+  ],
+  "a": 0,
+  "why": "It affirms the consequent: the field could be wet for other reasons (sprinklers), so it is invalid and therefore automatically unsound."
+ },
+ {
+  "id": "x-F2-4",
+  "lec": 10,
+  "style": "F2",
+  "styleName": "Valid? Sound?",
+  "q": "Which statement about deductive arguments is correct?",
+  "opts": [
+   "An invalid argument is automatically unsound.",
+   "A sound argument can be invalid.",
+   "Validity depends on whether the premises are actually true.",
+   "A valid argument always has a true conclusion."
+  ],
+  "a": 0,
+  "why": "Soundness requires validity plus true premises, so an invalid argument can never be sound. Validity is about structure only."
+ },
+ {
+  "id": "x-F3-1",
+  "lec": 11,
+  "style": "F3",
+  "styleName": "Strengthen or weaken",
+  "q": "P1: Students who take short study breaks report less fatigue. P2: A controlled study found that 5-minute breaks improved test scores. C: Students should take short breaks while studying. Which premise STRENGTHENS the conclusion?",
+  "opts": [
+   "A meta-analysis of 40 studies found that short breaks reliably improve attention.",
+   "Some students say breaks make them lose focus.",
+   "One study found long breaks reduced motivation.",
+   "Breaks may lead some students to start scrolling on their phones."
+  ],
+  "a": 0,
+  "why": "A large meta-analysis is true, justified and relevant evidence supporting the conclusion. The others weaken it."
+ },
+ {
+  "id": "x-F3-2",
+  "lec": 11,
+  "style": "F3",
+  "styleName": "Strengthen or weaken",
+  "q": "C: \"Video games improve problem-solving skills in teenagers.\" Which premise WEAKENS this conclusion?",
+  "opts": [
+   "A large randomised trial found no problem-solving difference between gamers and non-gamers.",
+   "Surveys show that the majority of teenagers enjoy playing video games after school.",
+   "A small study found that teenagers who played puzzle games improved their reasoning.",
+   "Several professional gamers have said in interviews that games made them smarter."
+  ],
+  "a": 0,
+  "why": "Strong, relevant contrary evidence weakens an inductive conclusion. The other options either support it or are irrelevant."
+ },
+ {
+  "id": "x-F3-3",
+  "lec": 11,
+  "style": "F3",
+  "styleName": "Strengthen or weaken",
+  "q": "\"I asked 10 of my friends and 9 said they like the new campus café, so most HELP students like it.\" Which change would MOST strengthen this generalisation?",
+  "opts": [
+   "Surveying a large, random sample of students from different faculties",
+   "Asking the same 10 friends again a week later to confirm their answers",
+   "Asking only students who already buy coffee at the café every day",
+   "Asking the café owner whether she thinks most students like the café"
+  ],
+  "a": 0,
+  "why": "Generalisations are stronger with logic, a large sample size and objectivity (an unbiased, representative sample)."
+ },
+ {
+  "id": "x-F3-4",
+  "lec": 11,
+  "style": "F3",
+  "styleName": "Strengthen or weaken",
+  "q": "Which characteristic means an inductive argument can be revised by adding or removing premises?",
+  "opts": [
+   "Defeasible",
+   "Valid",
+   "Sound",
+   "Falsifiable"
+  ],
+  "a": 0,
+  "why": "Inductive arguments are defeasible: open to revision, objection or annulment, so new premises can change their strength."
+ },
+ {
+  "id": "x-F4-1",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "\"If we let students submit assignments one day late, soon they'll want a week, then a month, and eventually no one will submit anything!\" Which fallacy is this?",
+  "opts": [
+   "Slippery slope",
+   "False dichotomy",
+   "Straw man",
+   "Circular argument"
+  ],
+  "a": 0,
+  "why": "Claiming one action will inevitably lead to a chain of disastrous outcomes, without evidence, is a slippery slope."
+ },
+ {
+  "id": "x-F4-2",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "\"Dr. Lim's study on screen time can't be trusted. She doesn't even have children herself!\" Which fallacy is this?",
+  "opts": [
+   "Ad hominem",
+   "Appeal to authority",
+   "Red herring",
+   "False equivalence"
+  ],
+  "a": 0,
+  "why": "Attacking the person rather than the evidence in their argument is ad hominem."
+ },
+ {
+  "id": "x-F4-3",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "A: \"We should reduce sugar in school canteens.\" B: \"So you want to ban all food that children enjoy?\" B has committed a…",
+  "opts": [
+   "…straw man.",
+   "…slippery slope.",
+   "…circular argument.",
+   "…appeal to popular assent."
+  ],
+  "a": 0,
+  "why": "B misrepresents A's argument as something more extreme, then attacks that version: a straw man."
+ },
+ {
+  "id": "x-F4-4",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "\"Either you support the new exam policy completely, or you don't care about academic standards.\" Which fallacy is this?",
+  "opts": [
+   "False dichotomy",
+   "Ambiguity",
+   "Ad hominem",
+   "Appeal to tradition"
+  ],
+  "a": 0,
+  "why": "Presenting only two options when others exist is a false dichotomy."
+ },
+ {
+  "id": "x-F4-5",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "\"Mindfulness apps must work. Over 10 million people have downloaded them.\" Which fallacy is this?",
+  "opts": [
+   "Appeal to popular assent",
+   "Appeal to authority",
+   "Circular argument",
+   "Red herring"
+  ],
+  "a": 0,
+  "why": "Accepting a claim because many people believe or use it is an appeal to popular assent."
+ },
+ {
+  "id": "x-F4-6",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "Asked whether the new hostel rules are fair, the warden replies: \"Well, our campus has the best food court in the area.\" Which fallacy is this?",
+  "opts": [
+   "Red herring",
+   "False equivalence",
+   "Straw man",
+   "Slippery slope"
+  ],
+  "a": 0,
+  "why": "Changing the subject to divert attention from the question is a red herring."
+ },
+ {
+  "id": "x-F4-7",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "\"Reading is beneficial because it is good for you.\" Which fallacy is this?",
+  "opts": [
+   "Circular argument",
+   "Ambiguity",
+   "False dichotomy",
+   "Ad hominem"
+  ],
+  "a": 0,
+  "why": "The premise just restates the conclusion, assuming what it is trying to prove: a circular argument."
+ },
+ {
+  "id": "x-F4-8",
+  "lec": 12,
+  "style": "F4",
+  "styleName": "Spot the fallacy",
+  "q": "\"Banning phones in class is just like banning books. Both stop students from accessing information.\" Which fallacy is this?",
+  "opts": [
+   "False equivalence",
+   "Appeal to tradition",
+   "Slippery slope",
+   "Appeal to emotion"
+  ],
+  "a": 0,
+  "why": "Treating two very different things as the same is a false equivalence."
  }
 ]
