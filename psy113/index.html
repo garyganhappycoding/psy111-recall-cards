@@ -419,7 +419,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
   </section>
 
   <section id="view-art" hidden>
-    <p class="note">Each practice article is a short, simplified version of a real published psychology study (the original is linked inside). Find its parts: the research question, hypothesis, variables, definitions, method, theoretical framework and more. Tap sentences in the article or type your answer, then check. Articles go from easy to harder.</p>
+    <p class="note">Real, published psychology journal articles (open access, CC BY), shown in full apart from figures, tables and references. Like real papers, they don't label everything: some have no stated hypothesis or named theory, limitations are spread across paragraphs, and some even overclaim. Find the parts the way you would in the exam, then check your answers.</p>
     <div class="artgrid" id="artgrid"></div>
   </section>
 
@@ -1272,7 +1272,8 @@ function renderArts(){
     const st=artSt(a);
     b.innerHTML=`<span class="lvl"></span><h4></h4><span class="meta"></span><span class="best"></span>`;
     b.querySelector(".lvl").textContent=`Article ${i+1} · ${lv}`;b.querySelector("h4").textContent=a.short||a.title;
-    b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`+(a.based_on?` · based on ${(a.based_on.match(/^[^(]*\(\d{4}\)/)||[a.based_on])[0]}`:"");
+    const wc=a.text.reduce((n,sec)=>n+sec.s.join(" ").split(" ").length,0);
+    b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`+(a.real?` · ${a.journal} (${a.year}) · ~${Math.round(wc/100)*100} words`:a.based_on?` · based on ${(a.based_on.match(/^[^(]*\(\d{4}\)/)||[a.based_on])[0]}`:"");
     b.querySelector(".best").textContent=st&&st.best!=null?`Best score: ${st.best}%`:"Not tried yet";
     b.onclick=()=>openArticle(a.id);g.appendChild(b)});
 }
@@ -1284,8 +1285,8 @@ function openArticle(id){
   a.items.forEach(it=>{const v=st&&st.answers?st.answers[it.key]:null;sel[it.key]=it.kind==="sentence"?new Set(v||[]):(v||"")});
   art={a,sel,picking:null,checked:false,over:{}};
   const [lv]=levelInfo(a.level);$("#a-tag").textContent=`Article practice · ${lv}`;$("#a-title").textContent=a.title;
-  const cite=$("#a-cite");cite.textContent=a.based_on?`Practice article written for PSY 113 (details simplified). Adapted from: ${a.based_on} `:`${a.authors} (${a.year}). ${a.journal}. ${a.license}. `;
-  if(a.url){const l=document.createElement("a");l.href=a.url;l.target="_blank";l.rel="noopener";l.textContent=a.based_on?"Original study":"Open the full article";cite.appendChild(l)}
+  const cite=$("#a-cite");cite.textContent=a.real?`${a.citation} · Licence: CC BY (reproduced with attribution; ${a.source}) `:a.based_on?`Practice article written for PSY 113 (details simplified). Adapted from: ${a.based_on} `:`${a.authors} (${a.year}). ${a.journal}. ${a.license}. `;
+  if(a.url){const l=document.createElement("a");l.href=a.url;l.target="_blank";l.rel="noopener";l.textContent=a.real?"Open the original (with figures and tables)":a.based_on?"Original study":"Open the full article";cite.appendChild(l)}
   const tx=$("#a-text");tx.innerHTML="";
   a.text.forEach((sec,si)=>{const h=document.createElement("h5");h.textContent=sec.h;tx.appendChild(h);const p=document.createElement("p");
     sec.s.forEach((t,j)=>{const sp=document.createElement("span");sp.className="sent";sp.dataset.id=sentId(si,j);sp.textContent=t;sp.onclick=()=>pickSentence(sp.dataset.id);p.append(sp," ")});tx.appendChild(p)});

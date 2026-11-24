@@ -1,0 +1,291 @@
+{
+"level": 2,
+"short": "Expressive writing and test anxiety (RCT)",
+"design": "Randomised controlled trial (mixed methods)",
+"items": [
+{
+"key": "rq",
+"label": "Research question",
+"tag": "RQ",
+"kind": "sentence",
+"prompt": "Find the sentence in the INTRODUCTION that sets up what the study wants to find out (just before the hypothesis).",
+"ans": [
+"1.44"
+],
+"ok": [
+"0.0"
+],
+"model": "Does training in expressive writing of positive emotions change test anxiety in senior-high-school students?",
+"why": "'It would be interesting to determine whether…' is the research question in disguise; the hypothesis follows immediately."
+},
+{
+"key": "hyp",
+"label": "Hypothesis",
+"tag": "H1",
+"kind": "sentence",
+"prompt": "Find the hypothesis.",
+"ans": [
+"1.45"
+],
+"model": "Expressive writing of positive emotion would reduce senior-high-school students' test anxiety.",
+"why": "'We therefore hypothesized…' states the hypothesis."
+},
+{
+"key": "iv",
+"label": "Independent variable",
+"tag": "IV",
+"kind": "text",
+"prompt": "What is the independent variable? Name both groups.",
+"accept": [
+[
+"expressive|positive emotion|ew",
+"control|daily|activit|events|cw"
+]
+],
+"model": "Type of writing: expressive writing of positive emotions (EW) vs writing about daily activities (CW).",
+"why": "The IV is what differed between the randomly assigned groups."
+},
+{
+"key": "dv",
+"label": "Dependent variable",
+"tag": "DV",
+"kind": "text",
+"prompt": "What is the main dependent variable?",
+"accept": [
+[
+"anxiety|tas"
+]
+],
+"model": "Post-test test anxiety (TAS score).",
+"why": "The ANCOVA section states the DV directly: post-test TAS scores."
+},
+{
+"key": "cd",
+"label": "Conceptual definition (test anxiety)",
+"tag": "CD",
+"kind": "sentence",
+"prompt": "Find the conceptual definition of TEST ANXIETY.",
+"ans": [
+"1.0"
+],
+"model": "A form of academic stress characterised by nervousness before or during an exam.",
+"why": "The first sentence of the Introduction defines the key outcome."
+},
+{
+"key": "cd2",
+"label": "Conceptual definition (expressive writing)",
+"tag": "CD2",
+"kind": "sentence",
+"prompt": "Find the conceptual definition of EXPRESSIVE WRITING.",
+"ans": [
+"1.18"
+],
+"model": "Writing a deep, meaningful piece about a personally significant topic.",
+"why": "'…refers to…' signals the definition. It appears in the middle of the Introduction, not at the start."
+},
+{
+"key": "od",
+"label": "Operational definition",
+"tag": "OD",
+"kind": "sentence",
+"prompt": "How was test anxiety measured? Find the sentence describing the items and scoring.",
+"ans": [
+"3.2"
+],
+"ok": [
+"3.1",
+"3.5"
+],
+"model": "Sarason's Test Anxiety Scale: 37 yes/no items (yes = 1); 20+ = severe anxiety.",
+"why": "The Measures subsection names the scale and explains its scoring."
+},
+{
+"key": "gap",
+"label": "Research gap",
+"tag": "GAP",
+"kind": "sentence",
+"prompt": "Find the sentence pointing out a weakness of earlier expressive-writing interventions.",
+"ans": [
+"1.29"
+],
+"ok": [
+"1.31",
+"1.32"
+],
+"model": "Most earlier interventions were carried out just before exams or in a lab, which may be too short for chronic anxiety.",
+"why": "'However, most of the interventions were…' signals the gap. It explains why they chose a 30-day intervention."
+},
+{
+"key": "rationale",
+"label": "Cultural rationale",
+"tag": "CULT",
+"kind": "sentence",
+"prompt": "Find the sentence explaining why POSITIVE (not negative) emotional writing suits Chinese students.",
+"ans": [
+"1.41"
+],
+"ok": [
+"1.40",
+"1.39"
+],
+"model": "Writing positive emotions is more in accordance with Chinese culture, which tends to suppress negative emotions.",
+"why": "Part of the justification for the study is cultural; 'Hence' signals the conclusion of that argument."
+},
+{
+"key": "method",
+"label": "General method",
+"tag": "GM",
+"kind": "choice",
+"prompt": "What general method did this study use?",
+"options": [
+"Randomised controlled trial (experiment)",
+"Correlational survey",
+"Case study",
+"Quasi-experiment without random assignment"
+],
+"ans": "Randomised controlled trial (experiment)",
+"model": "RCT: students were randomly assigned (odd/even random numbers) to EW or CW.",
+"why": "Random assignment plus a control group = randomised controlled trial."
+},
+{
+"key": "sample",
+"label": "Sample",
+"tag": "SAMP",
+"kind": "sentence",
+"prompt": "Find the sentence describing the 75 participants who were recruited for the experiment.",
+"ans": [
+"2.3"
+],
+"ok": [
+"0.2"
+],
+"model": "75 students with severe test anxiety (21 male, 54 female, mean age 16.84).",
+"why": "200 were screened, 185 gave valid responses, and 75 with severe anxiety entered the experiment. Read carefully."
+},
+{
+"key": "assign",
+"label": "Random assignment",
+"tag": "RA",
+"kind": "sentence",
+"prompt": "Find the sentence describing HOW students were assigned to groups.",
+"ans": [
+"2.4"
+],
+"model": "By random computer numbers: odd numbers to EW, even numbers to CW.",
+"why": "Random assignment is what makes this an experiment."
+},
+{
+"key": "check",
+"label": "Group equivalence check",
+"tag": "EQ",
+"kind": "sentence",
+"prompt": "Find the sentence showing the two groups were similar BEFORE the intervention.",
+"ans": [
+"2.5"
+],
+"model": "No significant difference in pre-test TAS between groups, F(1, 73) = 0.62, p > .05.",
+"why": "Checking baseline equivalence confirms random assignment worked."
+},
+{
+"key": "manip",
+"label": "Manipulation",
+"tag": "PROC",
+"kind": "sentence",
+"prompt": "Find the sentence describing what the EXPERIMENTAL group did.",
+"ans": [
+"2.14"
+],
+"model": "Wrote about positive emotions felt each day, 20 minutes a day for 30 days.",
+"why": "The control group's task is described two sentences later."
+},
+{
+"key": "res",
+"label": "Was the hypothesis supported?",
+"tag": "RES",
+"kind": "choice",
+"prompt": "Was the hypothesis supported?",
+"options": [
+"Supported",
+"Partly supported",
+"Not supported"
+],
+"ans": "Supported",
+"model": "Supported: EW post-test TAS was significantly lower than CW (F = 135.80, p < .001; effect size 2.02).",
+"why": "The group effect was significant and in the predicted direction."
+},
+{
+"key": "gender",
+"label": "Gender",
+"tag": "GEN",
+"kind": "choice",
+"prompt": "Did the effect of the intervention differ between males and females?",
+"options": [
+"Yes, it worked better for female students",
+"Yes, it worked better for male students",
+"No significant difference between genders"
+],
+"ans": "No significant difference between genders",
+"model": "No: the group × gender interaction was non-significant (F = 0.09).",
+"why": "An interaction tests whether the effect of one variable depends on another; here it didn't."
+},
+{
+"key": "tf",
+"label": "Explanation (mechanism)",
+"tag": "TF",
+"kind": "sentence",
+"prompt": "In the Discussion, find the sentence proposing the psychological PROCESS through which writing may reduce anxiety.",
+"ans": [
+"16.11"
+],
+"ok": [
+"16.12",
+"16.13"
+],
+"model": "Students may have undergone cognitive reappraisal of test anxiety through emotional expression.",
+"why": "The mechanism (cognitive reappraisal and self-regulation) is only proposed in the Discussion, hedged with 'could have'."
+},
+{
+"key": "imp",
+"label": "Practical implication",
+"tag": "IMP",
+"kind": "sentence",
+"prompt": "Find the sentence recommending the method for SCHOOLS.",
+"ans": [
+"18.3"
+],
+"ok": [
+"18.2",
+"16.27"
+],
+"model": "It can be used with many students at once, so it is worth promoting in schools.",
+"why": "Practical implications describe real-world use."
+},
+{
+"key": "lim",
+"label": "Limitations",
+"tag": "LIM",
+"kind": "sentence",
+"prompt": "Find the limitation about what the study did NOT measure.",
+"ans": [
+"19.3"
+],
+"ok": [
+"19.4"
+],
+"model": "Only test anxiety was measured, not changes in exam performance.",
+"why": "Three limitations are given (generalisability, no performance measure, long intervention). This prompt asks for the measurement one."
+},
+{
+"key": "lim2",
+"label": "Limitation (generalisability)",
+"tag": "LIM2",
+"kind": "sentence",
+"prompt": "Find the limitation about GENERALISABILITY.",
+"ans": [
+"19.1"
+],
+"model": "Students were recruited only from Xinxiang City.",
+"why": "Generalisability = whether results apply beyond this sample."
+}
+]
+}

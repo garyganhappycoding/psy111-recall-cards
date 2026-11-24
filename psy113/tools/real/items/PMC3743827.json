@@ -1,0 +1,309 @@
+{
+"level": 3,
+"short": "Facebook use and well-being (experience sampling)",
+"design": "Experience sampling (repeated measures, correlational)",
+"items": [
+{
+"key": "rq",
+"label": "Research question",
+"tag": "RQ",
+"kind": "sentence",
+"prompt": "This article states its research question as an actual QUESTION. Find it.",
+"ans": [
+"1.10"
+],
+"model": "How does Facebook usage influence subjective well-being over time?",
+"why": "A literal question in the Introduction ('So, how does…?') is the research question."
+},
+{
+"key": "hyp",
+"label": "Hypothesis",
+"tag": "H",
+"kind": "choice",
+"prompt": "Do the authors state a hypothesis about the direction of the effect?",
+"options": [
+"Yes: Facebook use will lower well-being",
+"Yes: Facebook use will raise well-being",
+"No: findings are mixed, so only a question is asked"
+],
+"ans": "No: findings are mixed, so only a question is asked",
+"model": "No hypothesis: earlier findings were mixed (some positive, some negative), so the study is framed as an open question.",
+"why": "When the literature is mixed, authors may ask an open research question instead of predicting a direction."
+},
+{
+"key": "gap",
+"label": "Research gap",
+"tag": "GAP",
+"kind": "sentence",
+"prompt": "Find the sentence stating the research gap.",
+"ans": [
+"1.2"
+],
+"ok": [
+"1.3",
+"0.1",
+"1.11"
+],
+"model": "No research has examined how Facebook use influences subjective well-being OVER TIME.",
+"why": "The gap is stated early and supported by a review of 412 publications."
+},
+{
+"key": "design_gap",
+"label": "Why a new design?",
+"tag": "WHY",
+"kind": "sentence",
+"prompt": "Find the sentence explaining why previous studies CAN'T answer the question.",
+"ans": [
+"1.11"
+],
+"model": "Previous studies were cross-sectional, so it's impossible to know the direction over time.",
+"why": "This links the gap to the choice of an experience-sampling (lagged) design."
+},
+{
+"key": "cd",
+"label": "Two components of well-being",
+"tag": "CD",
+"kind": "sentence",
+"prompt": "Find the sentence (in the Introduction) that names the TWO components of subjective well-being being studied.",
+"ans": [
+"1.15"
+],
+"ok": [
+"0.3"
+],
+"model": "Affective well-being (how people feel) and cognitive well-being (how satisfied they are with their lives).",
+"why": "These two components become the two outcome variables."
+},
+{
+"key": "od",
+"label": "Operational definition (affect)",
+"tag": "OD",
+"kind": "sentence",
+"prompt": "Find the first part of the text-message question that measured AFFECT.",
+"ans": [
+"5.2"
+],
+"ok": [
+"5.3",
+"5.13"
+],
+"model": "'How do you feel right now?' on a slider from very positive (0) to very negative (100).",
+"why": "Note the direction: HIGHER scores = more NEGATIVE feelings. This matters when you read the B values."
+},
+{
+"key": "od2",
+"label": "Operational definition (direct interaction)",
+"tag": "OD2",
+"kind": "sentence",
+"prompt": "Find the sentence explaining what counted as interacting 'DIRECTLY'.",
+"ans": [
+"5.8"
+],
+"model": "Face-to-face or phone interactions.",
+"why": "Operational definitions can be hidden in the procedure."
+},
+{
+"key": "method",
+"label": "General method",
+"tag": "GM",
+"kind": "choice",
+"prompt": "Which best describes the design?",
+"options": [
+"Experiment",
+"Experience sampling (repeated measures, correlational)",
+"Cross-sectional survey",
+"Randomised controlled trial"
+],
+"ans": "Experience sampling (repeated measures, correlational)",
+"model": "Experience sampling with lagged analyses; nothing was manipulated.",
+"why": "Timing helps suggest a causal order, but without manipulation it's still correlational. The authors admit experiments are needed."
+},
+{
+"key": "sample",
+"label": "Sample",
+"tag": "SAMP",
+"kind": "sentence",
+"prompt": "Find the sentence describing the participants.",
+"ans": [
+"2.0"
+],
+"model": "82 people (mean age 19.52; 53 female; mostly European American) recruited via flyers in Ann Arbor, Michigan.",
+"why": "Demographics and recruitment are in one long sentence."
+},
+{
+"key": "prune",
+"label": "Data exclusion",
+"tag": "EXCL",
+"kind": "sentence",
+"prompt": "Find the sentence explaining whose data were EXCLUDED for low response rates.",
+"ans": [
+"7.4"
+],
+"model": "Two participants who responded to fewer than 33% of texts were excluded (4,589 observations left).",
+"why": "Data cleaning decisions are often reported at the start of the Results."
+},
+{
+"key": "r1",
+"label": "Affective well-being result",
+"tag": "R1",
+"kind": "sentence",
+"prompt": "Find the result showing that Facebook use predicted worse feelings later.",
+"ans": [
+"9.1"
+],
+"model": "The more people used Facebook, the worse they subsequently felt, B = .08, p < .0001.",
+"why": "Remember the affect scale: higher = more negative, so a POSITIVE B means feeling worse."
+},
+{
+"key": "rev",
+"label": "Reverse direction",
+"tag": "REV",
+"kind": "sentence",
+"prompt": "Find the result showing that feelings did NOT predict later Facebook use.",
+"ans": [
+"9.2"
+],
+"model": "T1 affect did not predict later Facebook use, p = .82.",
+"why": "Testing the reverse path helps rule out 'feeling bad makes people use Facebook'."
+},
+{
+"key": "alt",
+"label": "Alternative explanation",
+"tag": "ALT",
+"kind": "sentence",
+"prompt": "Find the sentence stating the FIRST alternative explanation the authors tested.",
+"ans": [
+"11.0"
+],
+"model": "Maybe ANY form of social interaction undermines well-being.",
+"why": "They test it by repeating the analyses with direct social interaction instead of Facebook use."
+},
+{
+"key": "alt2",
+"label": "Ruling it out",
+"tag": "ALT2",
+"kind": "sentence",
+"prompt": "Find the result that rules out that first alternative explanation.",
+"ans": [
+"11.3"
+],
+"model": "Direct interaction did not predict changes in life satisfaction and predicted feeling BETTER.",
+"why": "If all social contact were harmful, direct interaction should also predict declines. It didn't."
+},
+{
+"key": "lonely",
+"label": "Loneliness",
+"tag": "LON",
+"kind": "sentence",
+"prompt": "Loneliness predicted more Facebook use. Find the sentence showing that controlling for loneliness did NOT remove the Facebook effect.",
+"ans": [
+"11.13"
+],
+"ok": [
+"11.12"
+],
+"model": "Facebook use still predicted declines in both kinds of well-being with loneliness controlled.",
+"why": "This rules out loneliness as a third variable explaining the result."
+},
+{
+"key": "mod",
+"label": "Moderators",
+"tag": "MOD",
+"kind": "choice",
+"prompt": "Did any of the tested moderators (gender, self-esteem, depression, network size, etc.) change the Facebook effect?",
+"options": [
+"Yes, gender changed the effect",
+"Yes, depression changed the effect",
+"No, none of them changed the effect"
+],
+"ans": "No, none of them changed the effect",
+"model": "No significant moderation (all ps > .16).",
+"why": "'In no case did we observe any significant interactions' means no moderators."
+},
+{
+"key": "explor",
+"label": "Exploratory analysis",
+"tag": "EXPL",
+"kind": "sentence",
+"prompt": "Find the sentence where the authors admit an analysis had NO prediction beforehand (a priori).",
+"ans": [
+"13.0"
+],
+"model": "They had no a priori predictions about the Facebook × direct contact interaction, but explored it anyway.",
+"why": "Exploratory findings are less trustworthy than tested predictions and should be treated with more caution."
+},
+{
+"key": "tf",
+"label": "Possible mechanism",
+"tag": "TF",
+"kind": "sentence",
+"prompt": "No framework is given in the Introduction. Find where the authors finally mention possible THEORETICAL mechanisms (e.g. social comparison).",
+"ans": [
+"15.7"
+],
+"ok": [
+"15.9"
+],
+"model": "Facebook may interfere with physical activity or trigger damaging social comparisons.",
+"why": "Here the theory appears only in Future research, as a possible explanation to test, not as a framework that justified a hypothesis."
+},
+{
+"key": "causal",
+"label": "Causal claims",
+"tag": "CAUS",
+"kind": "sentence",
+"prompt": "Find the sentence where the authors admit experiments are still needed to establish CAUSATION.",
+"ans": [
+"15.11"
+],
+"model": "Experiments that manipulate Facebook use are needed to establish definitive causal relations.",
+"why": "Lagged analyses suggest a likely order, but only experiments can establish cause."
+},
+{
+"key": "effsize",
+"label": "Effect size caveat",
+"tag": "ES",
+"kind": "sentence",
+"prompt": "Find the caveat about the SIZE of the effects.",
+"ans": [
+"16.1"
+],
+"ok": [
+"16.2"
+],
+"model": "The effects were statistically significant but small; the authors argue they still matter practically.",
+"why": "Significance tells you an effect is unlikely to be chance; effect size tells you how big it is."
+},
+{
+"key": "lim",
+"label": "Measurement caveat",
+"tag": "LIM",
+"kind": "sentence",
+"prompt": "Find the caveat about how AFFECT was measured.",
+"ans": [
+"16.6"
+],
+"ok": [
+"16.7"
+],
+"model": "A single bipolar good–bad scale may hide whether people felt less positive, more negative, or both.",
+"why": "This is a measurement limitation; the next sentence suggests the fix for future research."
+},
+{
+"key": "gen",
+"label": "Generalisability",
+"tag": "GEN",
+"kind": "sentence",
+"prompt": "Find the sentence raising the question of whether the findings apply to OTHER AGE GROUPS.",
+"ans": [
+"15.3"
+],
+"ok": [
+"15.1",
+"15.2"
+],
+"model": "It's important to test whether the findings generalise to other age groups.",
+"why": "Generalisability limitations can be framed as future research questions."
+}
+]
+}

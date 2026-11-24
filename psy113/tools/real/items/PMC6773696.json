@@ -1,0 +1,280 @@
+{
+"level": 1,
+"short": "Sleep and academic performance (Fitbit)",
+"design": "Correlational (observational) study",
+"items": [
+{
+"key": "rq",
+"label": "Main aim",
+"tag": "RQ",
+"kind": "sentence",
+"prompt": "Find the sentence that states the MAIN aim of the study.",
+"ans": [
+"1.16"
+],
+"ok": [
+"1.20"
+],
+"model": "To explore how sleep relates to students' academic performance by objectively tracking their sleep with Fitbits for a whole semester.",
+"why": "'Our aim in this study was…' states the primary aim; it is repeated more specifically a few sentences later."
+},
+{
+"key": "rq2",
+"label": "Secondary aim",
+"tag": "RQ2",
+"kind": "sentence",
+"prompt": "Find the SECONDARY aim.",
+"ans": [
+"1.21"
+],
+"ok": [
+"1.24"
+],
+"model": "To understand gender differences in sleep and academic performance.",
+"why": "Articles can have more than one aim; 'A secondary aim was…' introduces it."
+},
+{
+"key": "hyp",
+"label": "Hypothesis",
+"tag": "H",
+"kind": "choice",
+"prompt": "Does the article state a formal hypothesis?",
+"options": [
+"Yes, that better sleep will predict better grades",
+"No, it states aims but no formal hypothesis",
+"Yes, but only about gender differences"
+],
+"ans": "No, it states aims but no formal hypothesis",
+"model": "No: the Introduction states aims ('we aimed to relate…', 'we aim to see whether…') but no prediction.",
+"why": "'We aim to see whether' is an aim, not a prediction."
+},
+{
+"key": "vars",
+"label": "Variables",
+"tag": "VAR",
+"kind": "text",
+"prompt": "Name the three sleep measures (predictors) and the outcome variable.",
+"accept": [
+[
+"duration",
+"quality",
+"consisten|inconsisten",
+"score|grade|perform"
+]
+],
+"model": "Predictors: sleep duration, sleep quality, sleep (in)consistency. Outcome: overall score (quizzes + midterms).",
+"why": "These three regressors were entered into the regression on overall score."
+},
+{
+"key": "cd",
+"label": "Conceptual definition",
+"tag": "CD",
+"kind": "sentence",
+"prompt": "Find the CONCEPTUAL definition of sleep inconsistency in the Introduction.",
+"ans": [
+"1.8"
+],
+"model": "Inconsistency in sleep schedule and/or duration from day to day ('social jet lag').",
+"why": "'…is defined by…' in the Introduction explains what the concept means."
+},
+{
+"key": "od",
+"label": "Operational definition",
+"tag": "OD",
+"kind": "sentence",
+"prompt": "Now find the OPERATIONAL definition of sleep inconsistency (how it was calculated).",
+"ans": [
+"3.3"
+],
+"model": "The standard deviation of each participant's daily sleep duration; a larger SD = more inconsistency.",
+"why": "Compare with the conceptual definition: this one tells you the exact calculation, and it appears in the Results, not the Methods."
+},
+{
+"key": "od2",
+"label": "Operational definition (quality)",
+"tag": "OD2",
+"kind": "sentence",
+"prompt": "How was SLEEP QUALITY measured?",
+"ans": [
+"12.2"
+],
+"ok": [
+"1.19"
+],
+"model": "Fitbit's proprietary algorithm, giving a score from 0 (poor) to 10 (good).",
+"why": "This journal places the Methods AFTER the Discussion, so look at the end of the article."
+},
+{
+"key": "tf",
+"label": "Theoretical explanation",
+"tag": "TF",
+"kind": "sentence",
+"prompt": "There's no section called 'theoretical framework'. Find the sentence that introduces the main theoretical idea linking sleep to learning.",
+"ans": [
+"1.2"
+],
+"ok": [
+"1.3"
+],
+"model": "Sleep plays a crucial role in memory consolidation: active synaptic connections are strengthened during sleep.",
+"why": "The framework is the memory consolidation account, introduced without being labelled."
+},
+{
+"key": "gap",
+"label": "Research gap",
+"tag": "GAP",
+"kind": "sentence",
+"prompt": "Find the sentence in the INTRODUCTION that states the research gap.",
+"ans": [
+"1.12"
+],
+"ok": [
+"0.0"
+],
+"model": "Previous studies used subjective self-report measures of sleep; very few used objective measures.",
+"why": "'Although numerous studies… very few to date have…' signals the gap."
+},
+{
+"key": "method",
+"label": "General method",
+"tag": "GM",
+"kind": "choice",
+"prompt": "What general method did this study use?",
+"options": [
+"Experiment",
+"Correlational (observational) study",
+"Randomised controlled trial",
+"Case study"
+],
+"ans": "Correlational (observational) study",
+"model": "Correlational: sleep was observed, not manipulated.",
+"why": "The authors note that establishing cause would require randomised experiments, which they did not run."
+},
+{
+"key": "sample",
+"label": "Final sample",
+"tag": "SAMP",
+"kind": "sentence",
+"prompt": "Find the sentence giving the number of participants who COMPLETED the study.",
+"ans": [
+"10.5"
+],
+"ok": [
+"0.1"
+],
+"model": "88 participants completed the study (45 female; mostly freshmen; mean age 18.19).",
+"why": "100 volunteers were selected, but 12 were excluded; the final sample was 88."
+},
+{
+"key": "excl",
+"label": "Exclusions",
+"tag": "EXCL",
+"kind": "sentence",
+"prompt": "Find the sentence explaining why participants were EXCLUDED.",
+"ans": [
+"10.4"
+],
+"model": "7 wore the tracker <80% of the semester, 3 lost it, 2 completed <75% of assessments.",
+"why": "Exclusion reasons explain the difference between the recruited and final sample."
+},
+{
+"key": "night",
+"label": "Night-before finding",
+"tag": "NIGHT",
+"kind": "choice",
+"prompt": "Was sleep on the NIGHT BEFORE a midterm related to the midterm score?",
+"options": [
+"Yes, positively",
+"Yes, negatively",
+"No significant relationship"
+],
+"ans": "No significant relationship",
+"model": "No: all rs < 0.20, all ps > .05.",
+"why": "Read the 'Night before assessments' results; all p values were above .05."
+},
+{
+"key": "var",
+"label": "Variance explained",
+"tag": "R2",
+"kind": "text",
+"prompt": "What percentage of the variance in overall score did the three sleep measures explain together?",
+"accept": [
+[
+"24|quarter"
+]
+],
+"model": "About 24% (R² = 0.24).",
+"why": "R² tells you how much variance the predictors explain together."
+},
+{
+"key": "cov",
+"label": "Ruling out an alternative explanation",
+"tag": "ALT",
+"kind": "sentence",
+"prompt": "Some participants were also in an intense exercise class. Find the sentence explaining why they were still included.",
+"ans": [
+"11.6"
+],
+"model": "They didn't differ from other participants in grade, exercise, sleep amount or sleep quality.",
+"why": "Checking that a subgroup doesn't differ is one way to rule out an alternative explanation."
+},
+{
+"key": "over",
+"label": "Overclaiming",
+"tag": "OVER",
+"kind": "sentence",
+"prompt": "In the Discussion, find a sentence that uses CAUSAL wording even though the study is correlational.",
+"ans": [
+"9.11"
+],
+"ok": [
+"9.4"
+],
+"model": "'…better content-relevant sleep LEADS TO improved performance…'",
+"why": "'Leads to' implies cause, which a correlational design can't show. The authors themselves admit this in the limitations."
+},
+{
+"key": "imp",
+"label": "Practical implication",
+"tag": "IMP",
+"kind": "sentence",
+"prompt": "Find the sentence stating what the timing findings imply for students.",
+"ans": [
+"9.10"
+],
+"ok": [
+"9.9",
+"9.14"
+],
+"model": "Sleep matters most while content is being learned; just sleeping well the night before may not help much.",
+"why": "'The implications of these findings are…' signals an implication."
+},
+{
+"key": "lim",
+"label": "Limitation (measurement)",
+"tag": "LIM1",
+"kind": "sentence",
+"prompt": "Find the limitation about the VALIDITY of the sleep quality measure.",
+"ans": [
+"9.17"
+],
+"ok": [
+"9.16"
+],
+"model": "No published evidence that Fitbit's 1–10 sleep quality score is a valid measure of sleep quality.",
+"why": "This links to validity: does the measure actually measure what it claims?"
+},
+{
+"key": "lim2",
+"label": "Limitation (generalisability)",
+"tag": "LIM3",
+"kind": "sentence",
+"prompt": "Find the limitation about GENERALISABILITY.",
+"ans": [
+"9.20"
+],
+"model": "One course of MIT students; future studies need other populations and classes.",
+"why": "The Third limitation is about who the findings apply to."
+}
+]
+}

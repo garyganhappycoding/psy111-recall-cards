@@ -1,0 +1,308 @@
+{
+"level": 3,
+"short": "Social support, loneliness and Internet addiction",
+"design": "Short-term longitudinal study (cross-lagged SEM, 3 waves)",
+"items": [
+{
+"key": "rq",
+"label": "Research purposes",
+"tag": "RQ",
+"kind": "sentence",
+"prompt": "The research purposes are listed (a)–(d). Find purpose (d), the one about MEDIATION.",
+"ans": [
+"6.7"
+],
+"model": "Does loneliness mediate the relationship between social support and Internet addiction?",
+"why": "Purposes are listed at the end of the 'Overview of the Present Research' section, not at the end of the Introduction."
+},
+{
+"key": "rq_a",
+"label": "Purpose (a)",
+"tag": "RQa",
+"kind": "sentence",
+"prompt": "Find purpose (a).",
+"ans": [
+"6.4"
+],
+"model": "Explore the relationship between the three dimensions of social support and loneliness over time.",
+"why": "'…we put forward the following research purposes: (a)…'"
+},
+{
+"key": "hyp",
+"label": "Hypotheses?",
+"tag": "H",
+"kind": "choice",
+"prompt": "Does the article state formal directional hypotheses before the Method?",
+"options": [
+"Yes, a hypothesis is stated for each path",
+"No, only purposes are listed (though the Method mentions 'hypotheses')",
+"Yes, but only for loneliness as a mediator"
+],
+"ans": "No, only purposes are listed (though the Method mentions 'hypotheses')",
+"model": "No formal hypotheses, only purposes (a)–(d). The analysis section still mentions 'the aforementioned hypotheses', which is inconsistent.",
+"why": "Spotting this kind of inconsistency is part of critical reading."
+},
+{
+"key": "vars",
+"label": "Mediator",
+"tag": "MED",
+"kind": "text",
+"prompt": "Which variable is tested as the MEDIATOR, and at which time point was it measured?",
+"accept": [
+[
+"lonel",
+"t2|6 month|six month|second"
+]
+],
+"model": "Loneliness, measured at T2 (6 months).",
+"why": "A mediator sits between predictor and outcome in time: social support (T1) → loneliness (T2) → Internet addiction (T3)."
+},
+{
+"key": "cd",
+"label": "Conceptual definition (loneliness)",
+"tag": "CD",
+"kind": "sentence",
+"prompt": "Find the conceptual definition of LONELINESS.",
+"ans": [
+"2.9"
+],
+"ok": [
+"2.10"
+],
+"model": "A subjective feeling that arises when a person senses a lack of satisfactory relationships and a gap between desired and actual communication.",
+"why": "It's in the literature review, not the Introduction."
+},
+{
+"key": "cd2",
+"label": "Conceptual definition (Internet addiction)",
+"tag": "CD2",
+"kind": "sentence",
+"prompt": "Find the definition of INTERNET ADDICTION the authors adopt.",
+"ans": [
+"1.6"
+],
+"model": "'Compulsive overuse of the Internet and irritable or moody behavior when deprived of it.'",
+"why": "They first note that many competing terms exist, then choose one."
+},
+{
+"key": "cd3",
+"label": "Conceptual definition (subjective support)",
+"tag": "CD3",
+"kind": "sentence",
+"prompt": "Social support has three dimensions. Find the definition of SUBJECTIVE support.",
+"ans": [
+"2.5"
+],
+"model": "The subjective and experiential emotional support of individuals.",
+"why": "Objective support, subjective support and support utilisation are defined in separate sentences."
+},
+{
+"key": "tf",
+"label": "Competing theories",
+"tag": "TF",
+"kind": "sentence",
+"prompt": "Find the sentence summarising the THREE competing views about loneliness and Internet addiction.",
+"ans": [
+"3.1"
+],
+"model": "Internet addiction causes loneliness; loneliness causes Internet addiction; or they influence each other.",
+"why": "Rather than one framework, the authors set up competing explanations that a cross-lagged design can compare."
+},
+{
+"key": "gap",
+"label": "Research gap (design)",
+"tag": "GAP",
+"kind": "sentence",
+"prompt": "Find the limitation of previous studies that explains why a LONGITUDINAL design was needed.",
+"ans": [
+"5.7"
+],
+"ok": [
+"5.2"
+],
+"model": "Most earlier studies were cross-sectional, which can show correlations but not causal direction.",
+"why": "The 'Limitations in Previous Researches' section lists the gaps as First, Second."
+},
+{
+"key": "gap2",
+"label": "Research gap (dimensions)",
+"tag": "GAP2",
+"kind": "sentence",
+"prompt": "Find the gap about the DIMENSIONS of the variables.",
+"ans": [
+"5.0"
+],
+"ok": [
+"3.18",
+"2.13"
+],
+"model": "Few studies explored loneliness, the 3 dimensions of social support and the 4 dimensions of Internet addiction together.",
+"why": "Several gap sentences exist; this one summarises the dimension gap."
+},
+{
+"key": "method",
+"label": "General method",
+"tag": "GM",
+"kind": "choice",
+"prompt": "Which best describes the design?",
+"options": [
+"Experiment",
+"Short-term longitudinal correlational study (3 waves)",
+"Cross-sectional survey",
+"Case study"
+],
+"ans": "Short-term longitudinal correlational study (3 waves)",
+"model": "Three waves over one year (T1, T2 at 6 months, T3 at 1 year); no manipulation.",
+"why": "Longitudinal = the same people measured repeatedly; still correlational because nothing was manipulated."
+},
+{
+"key": "sampling",
+"label": "Sampling",
+"tag": "SAMPL",
+"kind": "sentence",
+"prompt": "Find the sentence stating the SAMPLING method.",
+"ans": [
+"7.0"
+],
+"model": "Cluster random sampling at a postsecondary school in Shandong, China.",
+"why": "Sampling method is the first sentence of Participants and Procedure."
+},
+{
+"key": "sample",
+"label": "Final sample",
+"tag": "SAMP",
+"kind": "sentence",
+"prompt": "Find the sentence giving the FINAL sample size.",
+"ans": [
+"7.8"
+],
+"ok": [
+"0.3"
+],
+"model": "169 students (88 girls, 81 boys; mean age 18.31).",
+"why": "214 responded at T1, but dropout and invalid responses reduced it to 169."
+},
+{
+"key": "attr",
+"label": "Attrition check",
+"tag": "ATTR",
+"kind": "sentence",
+"prompt": "Find the sentence describing how the authors checked whether DROPOUTS differed from those who stayed.",
+"ans": [
+"7.9"
+],
+"ok": [
+"7.10"
+],
+"model": "Independent t-tests comparing participating and non-participating adolescents (none significant).",
+"why": "If dropouts differed, the final sample could be biased."
+},
+{
+"key": "timing",
+"label": "Measurement timing",
+"tag": "TIME",
+"kind": "sentence",
+"prompt": "Find the sentence stating WHEN each variable was measured.",
+"ans": [
+"7.17"
+],
+"model": "Social support and Internet addiction at T1 and T3; loneliness at T2.",
+"why": "The order of measurement is what allows the mediation test."
+},
+{
+"key": "rel",
+"label": "Reliability problem",
+"tag": "REL",
+"kind": "sentence",
+"prompt": "Find the sentence (in the Method) showing that the social support subscales had LOW reliability at T1.",
+"ans": [
+"8.6"
+],
+"model": "T1 α = 0.67 total; subscales 0.67, 0.62, 0.61 (below the usual .70).",
+"why": "Alphas below .70 are often considered weak; the authors admit this in the limitations."
+},
+{
+"key": "fit",
+"label": "Model fit",
+"tag": "FIT",
+"kind": "sentence",
+"prompt": "Find the sentence reporting that the model fitted the data well.",
+"ans": [
+"14.2"
+],
+"model": "χ²/df = 1.93, CFI = 0.95, TLI = 0.90, RMSEA = 0.08.",
+"why": "Compare with the criteria in the Method: CFI/TLI ≥ .90 is acceptable; RMSEA .05–.10 is 'basically acceptable'."
+},
+{
+"key": "medres",
+"label": "Mediation result",
+"tag": "MRES",
+"kind": "sentence",
+"prompt": "Find the sentence reporting the significant INDIRECT (mediated) effects.",
+"ans": [
+"14.7"
+],
+"model": "E.g., OS (T1) → loneliness (T2) → CIU & WIA (T3), indirect effect −0.07, 95% CI −0.13 to −0.02.",
+"why": "An indirect effect is significant when its confidence interval does not include 0."
+},
+{
+"key": "over",
+"label": "Overclaiming causation",
+"tag": "OVER",
+"kind": "sentence",
+"prompt": "Find the sentence where the authors claim their aim was to ESTABLISH CAUSATION, something a correlational design cannot do.",
+"ans": [
+"6.1"
+],
+"ok": [
+"17.0",
+"16.6"
+],
+"model": "'A key objective… was to establish causation using cross-lagged regression coefficients…'",
+"why": "Cross-lagged designs show temporal order, but without manipulation they cannot establish causation. Hedged wording like 'predict' would be more appropriate."
+},
+{
+"key": "imp",
+"label": "Practical implication",
+"tag": "IMP",
+"kind": "sentence",
+"prompt": "Find the practical recommendation for PARENTS OR SCHOOLS.",
+"ans": [
+"19.9"
+],
+"ok": [
+"19.2",
+"19.14"
+],
+"model": "Increase first-year students' social (especially emotional) support and interpersonal skills to prevent Internet addiction.",
+"why": "Implications are in their own section."
+},
+{
+"key": "lim",
+"label": "Limitation (self-report)",
+"tag": "LIM",
+"kind": "sentence",
+"prompt": "Find the limitation about COMMON METHOD BIAS.",
+"ans": [
+"20.8"
+],
+"ok": [
+"20.5"
+],
+"model": "All variables were self-reported, which may inflate correlations (common method bias).",
+"why": "When everything is measured the same way, shared method variance can make variables look more related than they are."
+},
+{
+"key": "fut",
+"label": "Future research",
+"tag": "FUT",
+"kind": "sentence",
+"prompt": "Find the suggestion to collect data from OTHER SOURCES.",
+"ans": [
+"20.9"
+],
+"model": "Collect data from teachers, parents or classmates to verify the findings.",
+"why": "This addresses the self-report limitation directly."
+}
+]
+}
