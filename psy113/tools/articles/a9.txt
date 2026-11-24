@@ -1,0 +1,98 @@
+id: a9
+level: 3
+title: Testing Versus Restudying: The Effect of Retrieval Practice on Short- and Long-Term Recall of Prose Passages
+short: Testing vs restudying (retrieval practice)
+design: Experiment (mixed design: condition × delay)
+url: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+based_on: Roediger, H. L., III, & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x
+
+== Abstract
+Tests are usually seen as tools for measuring what students have learned, rather than as a way to improve learning.
+In this experiment, students read short prose passages and then either restudied each passage or took a free-recall test on it, without receiving feedback.
+Final recall was tested after 5 minutes, 2 days or 1 week.
+After 5 minutes, restudying produced slightly better recall than testing, but after 2 days and 1 week, testing produced substantially better recall than restudying.
+Students who restudied also predicted that they would remember more than students who were tested, even though the opposite was true in the long term.
+These findings show that taking a test is a powerful learning event and that students may underestimate its benefits.
+
+== Introduction
+Most students prepare for examinations by rereading their notes and textbooks, often several times.
+Surveys of study habits show that rereading is among the most popular study strategies, while practising recall without looking at one's notes is used much less often.
+In education, tests are usually treated as neutral assessments that measure learning without changing it.
+Students and teachers often view tests as stressful events that interrupt learning, and many students try to avoid practice tests until they feel fully prepared.
+Teachers, in turn, may limit the number of quizzes they give because of the time needed to prepare and mark them.
+If testing itself improves learning, however, these practices may be preventing students from using one of the most effective learning strategies available.
+[cd] However, laboratory research has identified the testing effect, which refers to the finding that retrieving information from memory improves later retention of that information more than spending the same time restudying it.
+[cd2] Retrieval practice, in turn, refers to any learning activity in which a learner deliberately recalls information from memory, such as answering questions or writing down everything they can remember.
+Early demonstrations of the testing effect date back nearly a century, when schoolchildren who recited material from memory remembered it better than those who only reread it.
+Since then, many laboratory studies have shown that people who are tested on word lists or word pairs remember them better on a later test than people who simply study the same items again.
+Some researchers have argued that this benefit occurs only because testing gives learners extra exposure to the material, in the same way as restudying would.
+Others have argued that the benefit occurs only when learners receive feedback, which tells them the correct answers they failed to retrieve.
+Neither explanation can be tested unless the time spent on testing and restudying is equal and no feedback is given.
+[gap] Despite this long history, most studies of the testing effect have used simple materials, such as lists of unrelated words, rather than the kind of connected prose that students read in their courses.
+[gap~] In addition, many studies measured memory only shortly after learning, so it is not clear whether the benefits of testing last over the delays that typically separate studying from examinations.
+Another unanswered question is whether students are aware of the benefits of testing, which may help to explain why they rarely use it.
+[tf] One explanation for the testing effect is the retrieval effort account (Bjork, 1994), which proposes that the act of effortfully retrieving information strengthens memory and creates more routes for accessing it later.
+[tf~] According to this account, restudying feels easier because the information is in front of the learner, but this ease does not produce the same lasting strengthening of memory as retrieving the information unaided.
+This account also suggests that the benefit of testing may not appear immediately, because restudying gives learners extra exposure to the material just before the test, which may help them in the short term.
+[rq] The present study asked whether taking a test on a prose passage, compared with restudying it, leads to better recall shortly after learning and after longer delays, and whether students can predict which strategy will help them more.
+[h1] It was predicted that students who took a test would recall more of the passage than students who restudied it at all three retention intervals.
+[h2] It was further predicted that the advantage of testing over restudying would increase as the delay between learning and the final test became longer.
+[h3] Finally, it was expected that students who restudied would predict higher future recall than students who were tested, because rereading creates a feeling of familiarity.
+
+== Method
+[method] The study used an experiment with a mixed design, in which learning condition (test vs restudy) was manipulated within participants and retention interval (5 minutes, 2 days or 1 week) was manipulated between participants.
+[sample] Participants were 120 undergraduate students at Washington University in St. Louis, who took part for course credit or payment.
+[sample~] Participants were randomly assigned to one of the three retention-interval groups, with 40 students in each group.
+Two prose passages from a reading-comprehension test were used, one about sea otters and one about the Sun, each about 275 words long and each divided into 30 idea units for scoring.
+[manip] In the study phase, participants read each passage for 7 minutes, and then either reread the same passage for a further 7 minutes (restudy condition) or spent 7 minutes writing down as much of the passage as they could remember (test condition).
+No feedback was given in the test condition, so participants in that condition were never shown the passage a second time.
+[ctrl] Which passage was restudied and which was tested was counterbalanced across participants, so that any differences in passage difficulty could not explain the results.
+After the study phase, participants solved simple maths problems for two minutes to prevent them from rehearsing the passages.
+At the end of the study phase, participants rated how much of each passage they expected to remember in one week, on a scale from 1 to 7.
+[od] Final recall was measured by asking participants to write down everything they could remember from each passage, and recall was scored as the percentage of the 30 idea units that each participant correctly reproduced.
+Two independent raters scored a sample of the recall protocols, and their scores agreed closely, indicating that the scoring was reliable.
+
+== Results
+After 5 minutes, participants recalled slightly more of the restudied passage (81%) than of the tested passage (75%), t(39) = 2.12, p = .04.
+After 2 days, participants recalled more of the tested passage (68%) than of the restudied passage (54%), t(39) = 4.20, p < .001.
+After 1 week, participants again recalled more of the tested passage (56%) than of the restudied passage (42%), t(39) = 4.59, p < .001.
+[int] A significant interaction between learning condition and retention interval, F(2, 117) = 18.9, p < .001, showed that the effect of testing depended on the delay before the final test.
+Forgetting was much faster after restudying than after testing: from 5 minutes to 1 week, recall of the restudied passage dropped by 39 percentage points, whereas recall of the tested passage dropped by 19 percentage points.
+[res3] Participants predicted that they would remember more of the restudied passage (M = 4.8) than of the tested passage (M = 4.0), p < .01.
+
+== Discussion
+These results show that taking a single recall test on a prose passage produced better long-term retention than restudying it, even though no feedback was provided.
+The short-term advantage of restudying, followed by a long-term advantage of testing, shows that the benefits of a learning strategy cannot be judged from performance immediately after learning.
+This pattern is important because students often judge the success of their studying by how well they feel they know the material at the end of a study session.
+Because restudying produces a strong feeling of familiarity, students may conclude that it is working, even though the material will be forgotten more quickly.
+The results also show that the benefits of testing did not depend on feedback, since participants in the test condition never saw the passage again after the first reading.
+[timp] Theoretically, the results support the retrieval effort account, as the effortful act of retrieval appeared to slow forgetting, while the extra exposure provided by restudying produced only a brief benefit.
+The finding that students expected restudying to be more effective suggests that learners may confuse the feeling that material is familiar with actually having learned it.
+[imp] In practice, teachers could replace some review sessions with low-stakes quizzes, and students could test themselves, for example by using flashcards or writing summaries from memory, instead of simply rereading their notes.
+[lim] One limitation is that the passages were short and the final test used the same format as the practice test, so it remains unclear whether the benefits would transfer to longer course materials or to different kinds of examination questions.
+[lim~] In addition, the participants were students at a selective American university, who may differ from other learners in their reading and study skills.
+[fut] Future studies could examine the testing effect with real course content in classroom settings and could test whether providing feedback after practice tests increases the benefits further.
+In conclusion, tests are not only a way of measuring learning but also a powerful way of producing it.
+
+--- items
+{"key":"rq","label":"Research question","tag":"RQ","kind":"sentence","prompt":"Find the research question.","model":"Does testing vs restudying lead to better recall at short and long delays, and can students predict which helps more?","why":"This research question has TWO parts (recall at different delays, and students' predictions)."}
+{"key":"h1","label":"Hypothesis 1","tag":"H1","kind":"sentence","prompt":"Find the FIRST hypothesis.","model":"Tested students would recall more than restudy students at ALL THREE intervals.","why":"Note exactly what is predicted (all three delays) so you can check it against the Results."}
+{"key":"h2","label":"Hypothesis 2","tag":"H2","kind":"sentence","prompt":"Find the hypothesis about how the testing advantage changes with delay.","model":"The testing advantage would increase as the delay got longer.","why":"This is a prediction about an INTERACTION: the effect of one variable depends on another."}
+{"key":"h3","label":"Hypothesis 3","tag":"H3","kind":"sentence","prompt":"Find the hypothesis about students' PREDICTIONS.","model":"Restudy students would predict higher future recall than tested students.","why":"'It was expected that…' is also a way of stating a hypothesis."}
+{"key":"iv","label":"Independent variables","tag":"IV","kind":"text","prompt":"This study has TWO independent variables. Name both.","accept":[["test|restud|learning condition|retriev","interval|delay|5 min|week|time"]],"model":"Learning condition (test vs restudy) and retention interval (5 minutes, 2 days, 1 week).","why":"Both were set by the researchers: condition within participants, delay between participants."}
+{"key":"dv","label":"Dependent variable","tag":"DV","kind":"text","prompt":"What was the main dependent variable, and how was it scored?","accept":[["recall|remember|idea unit","percent|%|idea unit|30"]],"model":"Final recall: the percentage of the 30 idea units correctly recalled.","why":"The DV is the outcome measured; the operational definition says exactly how it was scored."}
+{"key":"cd","label":"Conceptual definition (testing effect)","tag":"CD","kind":"sentence","prompt":"Find the conceptual definition of the TESTING EFFECT.","model":"Retrieving information improves later retention more than restudying for the same time.","why":"Two related concepts are defined. The testing effect is the FINDING; retrieval practice is the ACTIVITY."}
+{"key":"cd2","label":"Conceptual definition (retrieval practice)","tag":"CD2","kind":"sentence","prompt":"Find the conceptual definition of RETRIEVAL PRACTICE.","model":"Any learning activity in which a learner deliberately recalls information from memory.","why":"'Refers to' signals the definition."}
+{"key":"od","label":"Operational definition (recall)","tag":"OD","kind":"sentence","prompt":"How was final recall measured and scored?","model":"Write down everything remembered; scored as the % of 30 idea units correctly reproduced.","why":"The operational definition gives the procedure and the scoring rule."}
+{"key":"method","label":"Design","tag":"GM","kind":"choice","prompt":"Which best describes the design?","options":["Experiment with a mixed design","Experiment with a fully between-subjects design","Correlational study","Longitudinal correlational study"],"ans":"Experiment with a mixed design","model":"Mixed: learning condition was within participants, retention interval was between participants.","why":"Each participant did BOTH test and restudy (within), but was assigned to only ONE delay (between). One within + one between = mixed."}
+{"key":"sample","label":"Sample","tag":"SAMP","kind":"sentence","prompt":"Find the sentence describing the sample.","model":"120 undergraduates at Washington University in St. Louis (40 per delay group).","why":"The first sample sentence is best; the group sizes in the next sentence are also accepted."}
+{"key":"manip","label":"Manipulation","tag":"PROC","kind":"sentence","prompt":"Find the sentence describing how the TEST and RESTUDY conditions differed.","model":"After 7 minutes of reading: 7 more minutes rereading (restudy) or 7 minutes writing down what they remembered (test).","why":"Note that time was equal in both conditions, so time cannot explain the difference."}
+{"key":"ctrl","label":"Counterbalancing","tag":"CTRL","kind":"sentence","prompt":"Find the sentence showing how the researchers ruled out passage difficulty as an explanation.","model":"Which passage was tested vs restudied was counterbalanced across participants.","why":"Counterbalancing controls for differences between materials."}
+{"key":"tf","label":"Theoretical framework","tag":"TF","kind":"sentence","prompt":"Find the sentence that names the theoretical framework.","model":"Retrieval effort account (Bjork, 1994): effortful retrieval strengthens memory and creates more access routes.","why":"The naming sentence is best; the following explanation is also accepted."}
+{"key":"gap","label":"Research gap","tag":"GAP","kind":"sentence","prompt":"Find the research gap.","model":"Most studies used word lists, not connected prose, and often measured memory only shortly after learning.","why":"Two sentences describe gaps; either is accepted."}
+{"key":"r1","label":"Was H1 supported?","tag":"R1","kind":"choice","prompt":"Check ALL THREE delays. Was Hypothesis 1 supported?","options":["Fully supported","Partly supported","Not supported"],"ans":"Partly supported","model":"Partly: testing was better at 2 days and 1 week, but at 5 minutes RESTUDY was significantly better (81% vs 75%, p = .04).","why":"H1 predicted a testing advantage at ALL intervals. The 5-minute result went in the opposite direction, so only part of H1 was supported."}
+{"key":"r2","label":"Was H2 supported?","tag":"R2","kind":"choice","prompt":"Was Hypothesis 2 supported?","options":["Supported","Partly supported","Not supported"],"ans":"Supported","model":"Supported: a significant interaction (p < .001); the testing advantage grew from −6 points at 5 minutes to +14 points at 1 week.","why":"H2 predicted an interaction, and the interaction was significant in the predicted direction."}
+{"key":"r3","label":"Was H3 supported?","tag":"R3","kind":"choice","prompt":"Was Hypothesis 3 supported?","options":["Supported","Partly supported","Not supported"],"ans":"Supported","model":"Supported: students predicted better recall for the restudied passage (4.8 vs 4.0, p < .01).","why":"The predictions went in the expected (wrong!) direction, showing students underestimate testing."}
+{"key":"timp","label":"Theoretical implication","tag":"TIMP","kind":"sentence","prompt":"Find the THEORETICAL implication.","model":"Supports the retrieval effort account: effortful retrieval slowed forgetting.","why":"It links the results back to the theory."}
+{"key":"imp","label":"Practical implication","tag":"IMP","kind":"sentence","prompt":"Find the PRACTICAL implication.","model":"Use low-stakes quizzes, flashcards or writing from memory instead of rereading.","why":"'In practice' signals a practical implication."}
+{"key":"lim","label":"Limitation","tag":"LIM","kind":"sentence","prompt":"Find a limitation.","model":"Short passages and same test format (transfer unclear); students at a selective university.","why":"Either limitation is accepted."}

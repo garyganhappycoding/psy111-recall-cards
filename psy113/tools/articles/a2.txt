@@ -1,0 +1,68 @@
+id: a2
+level: 1
+title: Remembering Where You Learned: Context-Dependent Memory in Divers on Land and Underwater
+short: Divers' memory on land vs underwater
+design: Experiment (each participant in all conditions)
+url: https://doi.org/10.1111/j.2044-8295.1975.tb01468.x
+based_on: Godden, D. R., & Baddeley, A. D. (1975). Context-dependent memory in two natural environments: On land and underwater. British Journal of Psychology, 66(3), 325–331. https://doi.org/10.1111/j.2044-8295.1975.tb01468.x
+
+== Abstract
+Many people find it easier to remember something when they return to the place where they first learned it.
+This study tested whether memory is better when information is recalled in the same environment in which it was learned.
+Divers learned lists of words either on a beach or underwater and then recalled them either in the same environment or in the other one.
+Words were recalled better when the learning and recall environments matched than when they did not.
+These results provide strong evidence for context-dependent memory in natural environments.
+
+== Introduction
+Everyday experience suggests that the place where we learn something can help us remember it.
+For example, people sometimes forget why they walked into a room, but remember again when they go back to where they started.
+[cd] Context-dependent memory refers to the finding that information is easier to recall when the physical environment at recall matches the environment in which it was learned.
+[tf] This idea is explained by the encoding specificity principle (Tulving & Thomson, 1973), which states that memory is best when the cues present at retrieval match the cues present when the information was first encoded.
+[tf~] According to this principle, features of the environment, such as sights and sounds, become stored together with what is learned and can later act as retrieval cues.
+Earlier laboratory studies found some evidence for context effects, for instance when the colour or smell of a room was changed between learning and testing.
+Other studies have found that people's internal state, such as their mood, can also act as a context, so that information learned while happy is easier to recall when happy again.
+These findings suggest that memories are stored together with information about the situation in which they were formed.
+[gap] However, most of these studies used small changes in context within a laboratory, and their results were often weak or inconsistent.
+[gap~] Very few studies had tested context-dependent memory in two very different natural environments.
+Divers offer a useful opportunity to do this, because being underwater is extremely different from being on land, in terms of sight, sound, temperature and breathing.
+[rq] The present study asked whether divers would recall words better when they were tested in the same environment in which they had learned them.
+[hyp] It was hypothesised that recall would be higher when the learning and recall environments were the same than when they were different.
+
+== Method
+[method] The study was an experiment in which every participant took part in all four combinations of learning environment and recall environment.
+[sample] Participants were 18 members of a university diving club, who took part during a diving trip in Scotland.
+[manip] Each participant learned four lists of 36 unrelated words, each list in one of four conditions: learn on land and recall on land, learn on land and recall underwater, learn underwater and recall underwater, and learn underwater and recall on land.
+Words were presented through a tape recorder, and when on land, divers sat at the edge of the water wearing their diving equipment, so that the only difference between conditions was the environment.
+[ctrl] The order of the conditions was varied across participants, so that tiredness or practice could not explain the results.
+[od] Recall was measured by asking participants to write down as many words as they could remember from each list, and the score was the number of words correctly recalled.
+
+== Results
+When words were learned and recalled in the same environment, participants recalled an average of about 13 words.
+When words were learned in one environment and recalled in the other, participants recalled an average of about 8.5 words.
+This difference was statistically significant, p < .05, and represents roughly 40% better recall when the environments matched.
+The effect was found both for words learned on land and for words learned underwater.
+
+== Discussion
+The results show that recall was clearly better when divers were tested in the same environment where they had learned the words.
+The size of this effect is notable, as a 40% difference is much larger than the effects found in earlier laboratory studies of context.
+This may be because being underwater is so different from being on land that it provides many distinctive cues that can later help or hinder recall.
+[timp] These findings support the encoding specificity principle, suggesting that environmental cues are stored with memories and help people retrieve them.
+[imp] In practice, divers who are trained on land may need to practise important procedures underwater, and students may benefit from studying in conditions similar to those of the exam.
+[lim] One limitation is that the sample was small, with only 18 divers, all of whom were experienced members of one diving club.
+[fut] Future research could examine whether simply imagining the learning environment can produce the same memory benefits as being physically present.
+These results show that where we learn something can have a large influence on what we later remember.
+
+--- items
+{"key":"rq","label":"Research question","tag":"RQ","kind":"sentence","prompt":"Find the research question.","model":"Do divers recall words better when tested in the same environment where they learned them?","why":"'The present study asked whether…' gives the research question."}
+{"key":"hyp","label":"Hypothesis","tag":"H1","kind":"sentence","prompt":"Find the hypothesis.","model":"Recall will be higher when the learning and recall environments match.","why":"'It was hypothesised that…' signals the hypothesis."}
+{"key":"iv","label":"Independent variables","tag":"IV","kind":"text","prompt":"What did the researchers manipulate?","accept":[["land|underwater|water|environment|context|beach"]],"model":"Learning environment (land vs underwater) and recall environment (land vs underwater).","why":"Both environments were set by the researchers."}
+{"key":"cd","label":"Conceptual definition","tag":"CD","kind":"sentence","prompt":"Find the conceptual definition of CONTEXT-DEPENDENT MEMORY.","model":"Information is easier to recall when the environment at recall matches the environment at learning.","why":"'Refers to' signals a conceptual definition."}
+{"key":"od","label":"Operational definition","tag":"OD","kind":"sentence","prompt":"How was recall measured?","model":"Number of words correctly written down from each list.","why":"Operational definitions are in the Method."}
+{"key":"method","label":"General method","tag":"GM","kind":"choice","prompt":"What general method did this study use?","options":["Experiment","Survey","Naturalistic observation","Case study"],"ans":"Experiment","model":"Experiment: the researchers controlled where words were learned and recalled.","why":"The researchers manipulated the environments, so it is an experiment."}
+{"key":"sample","label":"Sample","tag":"SAMP","kind":"sentence","prompt":"Find the sentence describing the sample.","model":"18 members of a university diving club in Scotland.","why":"The sample sentence gives the number and who they were."}
+{"key":"manip","label":"Manipulation","tag":"PROC","kind":"sentence","prompt":"Find the sentence describing the four conditions.","model":"Learn land/recall land, learn land/recall underwater, learn underwater/recall underwater, learn underwater/recall land.","why":"The manipulation describes the conditions participants experienced."}
+{"key":"tf","label":"Theoretical framework","tag":"TF","kind":"sentence","prompt":"Find the sentence that names the theoretical framework.","model":"Encoding specificity principle (Tulving & Thomson, 1973).","why":"A named principle with a citation that explains why context matters."}
+{"key":"gap","label":"Research gap","tag":"GAP","kind":"sentence","prompt":"Find the research gap.","model":"Earlier studies used small lab changes with weak results; few tested very different natural environments.","why":"Either gap sentence is accepted."}
+{"key":"res","label":"Was the hypothesis supported?","tag":"RES","kind":"choice","prompt":"Was the hypothesis supported?","options":["Supported","Partly supported","Not supported"],"ans":"Supported","model":"Supported: about 13 vs 8.5 words, p < .05.","why":"Recall was significantly higher when environments matched."}
+{"key":"imp","label":"Practical implication","tag":"IMP","kind":"sentence","prompt":"Find the practical implication.","model":"Divers should practise underwater; students may benefit from studying in exam-like conditions.","why":"'In practice' signals a practical implication."}
+{"key":"lim","label":"Limitation","tag":"LIM","kind":"sentence","prompt":"Find a limitation.","model":"Small sample of 18 experienced divers from one club.","why":"'One limitation is…' signals the limitation."}

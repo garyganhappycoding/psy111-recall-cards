@@ -1,0 +1,102 @@
+id: a4
+level: 2
+title: Counting Blessings or Burdens: An Experimental Study of Gratitude, Well-Being and Physical Health in Daily Life
+short: Gratitude journaling and well-being
+design: Experiment (3 groups, weekly for 10 weeks)
+url: https://doi.org/10.1037/0022-3514.84.2.377
+based_on: Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life. Journal of Personality and Social Psychology, 84(2), 377–389. https://doi.org/10.1037/0022-3514.84.2.377
+
+== Abstract
+Gratitude has long been praised by philosophers and religious traditions, yet relatively few studies have examined whether deliberately practising gratitude changes how people feel.
+In this experiment, undergraduate students were randomly assigned to one of three conditions in which they wrote weekly about things they were grateful for, daily hassles, or neutral life events.
+Participants completed the weekly records for ten weeks and reported their well-being, physical symptoms and health behaviours each week.
+Compared with the hassles and neutral-events conditions, participants in the gratitude condition rated their lives more favourably as a whole and felt more optimistic about the upcoming week.
+They also reported fewer physical complaints and spent more time exercising.
+However, gratitude did not reliably increase day-to-day positive mood.
+These findings suggest that a brief and inexpensive gratitude exercise may produce meaningful benefits for well-being and health.
+
+== Introduction
+Over the past two decades, psychologists have become increasingly interested in positive emotions and the conditions under which people flourish.
+Among the positive emotions, gratitude has received growing attention because it appears to be closely tied to how people relate to others and to their own lives.
+Gratitude has been described as a 'moral emotion' because it often follows help from others and may motivate people to return kindness in the future.
+Many cultures also treat gratitude as a virtue, encouraging children from an early age to say 'thank you' and to appreciate what they have.
+Despite this long history, psychology has traditionally paid far more attention to negative emotions, such as anxiety and depression, than to positive ones.
+[cd] In this study, gratitude is defined as a sense of thankfulness and appreciation that arises when a person recognises that they have received something of value, whether from another person or from life in general.
+[cd2] Subjective well-being refers to a person's own evaluation of their life, including their overall life satisfaction and the balance of positive and negative feelings they experience.
+Correlational studies have found that people who describe themselves as grateful tend to report higher life satisfaction, more optimism and less depression than people who are less grateful.
+For example, adults who scored highly on a measure of grateful disposition reported more positive emotions and were rated by their friends as more helpful and supportive.
+Grateful people have also been found to report less envy and to be less focused on material possessions than less grateful people.
+Some researchers have suggested that these patterns may reflect personality, since people who are high in agreeableness also tend to be more grateful.
+Others have argued that gratitude acts as a buffer against stress, because people who notice the good things in their lives may cope better when things go wrong.
+[gap~] Because these studies measured gratitude and well-being at the same time, however, they cannot show whether gratitude leads to greater well-being or whether happier people simply find it easier to feel grateful.
+[gap] To date, very few studies have experimentally manipulated gratitude to test whether it produces changes in well-being over time.
+[tf] One theoretical explanation for why gratitude may be beneficial comes from the broaden-and-build theory of positive emotions (Fredrickson, 2001).
+[tf~] According to this theory, positive emotions broaden people's momentary thinking and encourage them to build lasting personal resources, such as social bonds and coping skills, which in turn support well-being and health.
+If gratitude works in this way, regularly directing attention to the good things in life should, over time, improve how people evaluate their lives and may even encourage healthier behaviour.
+It is also possible that focusing on hassles has the opposite effect, because dwelling on problems may narrow attention to what is going wrong.
+An alternative account is that any form of regular reflection, whether positive or negative, might increase well-being simply by helping people organise their thoughts about their week.
+Including a neutral comparison condition therefore allows the effect of gratitude to be separated from the effect of reflection in general.
+[rq] The present study therefore asked whether regularly counting one's blessings, compared with counting one's burdens or simply describing life events, would lead to greater well-being and better physical health.
+[h1] It was hypothesised that participants in the gratitude condition would report greater overall life satisfaction and more optimism about the coming week than participants in the hassles and events conditions.
+[h2] It was further hypothesised that participants in the gratitude condition would report fewer physical symptoms and more healthy behaviours, such as exercise, than participants in the other two conditions.
+No specific prediction was made about day-to-day mood, which was examined as an exploratory outcome.
+
+== Method
+[method] The study used an experimental design in which participants were randomly assigned to one of three conditions for a period of ten weeks.
+[sample] Participants were 192 undergraduate students (128 women, 64 men; mean age = 19.6 years) enrolled in an introductory psychology course at a large public university in the United States, who took part in exchange for course credit.
+[manip] Each week, participants in the gratitude condition listed up to five things in their lives that they were grateful or thankful for, participants in the hassles condition listed up to five daily hassles that had annoyed or irritated them, and participants in the events condition listed up to five events that had affected them in the past week.
+Example responses in the gratitude condition included "waking up this morning" and "the generosity of friends", whereas examples in the hassles condition included "finding parking" and "messy kitchen no one will clean".
+The events condition served as a comparison group because it asked participants to reflect on their week without directing them towards either positive or negative content.
+After writing their lists, all participants completed the same set of weekly questionnaires.
+[od] Overall life appraisal was measured with a single item asking participants to rate their life as a whole during the past week on a 7-point scale ranging from 1 (terrible) to 7 (delighted).
+Optimism was measured by asking participants how they expected to feel about the upcoming week, also on a 7-point scale.
+[od2] Physical symptoms were measured with a checklist of common complaints, such as headaches, stomach aches, muscle pain and coughing, on which participants indicated how often they had experienced each symptom in the past week.
+Participants also reported the number of hours they had spent exercising during the week.
+Positive and negative mood were measured with a list of 30 adjectives, such as "excited", "grateful", "irritable" and "sad", which participants rated on a 6-point scale.
+To check that the manipulation worked, participants also rated how grateful they had felt during the week.
+
+== Results
+Participants in the gratitude condition reported feeling more grateful than participants in the other two conditions, indicating that the manipulation was successful.
+Across the ten weeks, participants in the gratitude condition rated their lives as a whole more favourably (M = 5.48) than participants in the hassles (M = 4.98) and events (M = 5.05) conditions, F(2, 189) = 5.84, p = .003.
+Participants in the gratitude condition were also more optimistic about the coming week (M = 5.25) than those in the hassles condition (M = 4.86), p = .01, although they did not differ significantly from the events condition, p = .09.
+Participants in the gratitude condition reported fewer physical symptoms than those in the other conditions, F(2, 189) = 3.97, p = .02, and spent nearly 1.5 more hours per week exercising than participants in the hassles condition, p = .03.
+For daily mood, the three conditions did not differ significantly in positive affect, F(2, 189) = 1.36, p = .26, or negative affect, F(2, 189) = 0.82, p = .44.
+The effects on life appraisal and physical symptoms were small to moderate in size.
+Women and men did not differ in their responses to the gratitude exercise, and the pattern of results was similar across the ten weeks of the study.
+The hassles and events conditions did not differ significantly from each other on any outcome.
+
+== Discussion
+This study found that a simple weekly gratitude exercise led to more favourable evaluations of life and fewer physical complaints over a ten-week period.
+These results extend earlier correlational research by showing that gratitude is not merely a feature of happy people but can be deliberately practised, with measurable benefits.
+[timp] Theoretically, the findings support the broaden-and-build theory by suggesting that a positive emotion such as gratitude may build resources that benefit both psychological and physical well-being.
+The absence of an effect on daily mood suggests that gratitude may influence how people evaluate their lives more than how they feel from moment to moment.
+The finding that the events condition did not differ from the hassles condition also suggests that the benefits came from gratitude specifically, rather than from reflection in general.
+One possible reason for the health effects is that people who feel more positive about their lives may have more energy and motivation to look after their bodies, for instance by exercising.
+These findings are consistent with research showing that positive emotions are associated with better immune functioning and fewer illnesses.
+[imp] In practice, counsellors and educators could introduce brief gratitude journals as a low-cost activity to support students' well-being, particularly during stressful periods such as examinations.
+[lim] Several limitations should be noted, however, as the sample consisted only of undergraduate psychology students from one American university, which limits how far the findings can be generalised to other age groups and cultures.
+[lim~] In addition, all outcomes were self-reported, so participants' answers may have been influenced by their expectations about the study.
+[fut] Future research could use objective measures of health, such as fitness trackers or medical records, and could test whether the benefits of gratitude last after people stop keeping a journal.
+Overall, the findings suggest that counting one's blessings is a simple practice that may make a meaningful difference to how people view their lives.
+
+--- items
+{"key":"rq","label":"Research question","tag":"RQ","kind":"sentence","prompt":"Find the sentence that states the research question.","model":"Does regularly counting blessings, compared with counting burdens or describing events, lead to greater well-being and better physical health?","why":"'The present study therefore asked whether…' is the research question. It comes after the framework and just before the hypotheses."}
+{"key":"h1","label":"Hypothesis 1","tag":"H1","kind":"sentence","prompt":"Find the FIRST hypothesis.","model":"The gratitude group would report greater life satisfaction and more optimism than the hassles and events groups.","why":"'It was hypothesised that…' signals H1. Note it has TWO outcomes (life satisfaction and optimism), which matters when you check the results."}
+{"key":"h2","label":"Hypothesis 2","tag":"H2","kind":"sentence","prompt":"Find the SECOND hypothesis.","model":"The gratitude group would report fewer physical symptoms and more healthy behaviours such as exercise.","why":"'It was further hypothesised…' signals H2. The sentence after it (about mood) is NOT a hypothesis, because no prediction was made."}
+{"key":"iv","label":"Independent variable","tag":"IV","kind":"text","prompt":"What is the independent variable (what the researchers manipulated)? Name its levels.","accept":[["gratitude|grateful|blessing|condition|writing|journal","hassle|burden|event|neutral"]],"model":"Type of weekly writing: gratitude vs hassles vs neutral events.","why":"The IV is what the researchers changed between groups. Name all three levels, not just 'gratitude'."}
+{"key":"dv","label":"Dependent variables","tag":"DV","kind":"text","prompt":"Name the main dependent variables (outcomes measured).","accept":[["life|apprais|well|satisf|optim","symptom|health|exercis|physical"]],"model":"Life appraisal and optimism (well-being), physical symptoms and hours of exercise (health). Mood was exploratory.","why":"The DVs are the outcomes named in the hypotheses: well-being (life appraisal, optimism) and physical health (symptoms, exercise)."}
+{"key":"cd","label":"Conceptual definition (gratitude)","tag":"CD","kind":"sentence","prompt":"Find the conceptual definition of GRATITUDE.","model":"A sense of thankfulness and appreciation when a person recognises they have received something of value.","why":"Two concepts are defined one after another. Pick the one about gratitude, not subjective well-being."}
+{"key":"cd2","label":"Conceptual definition (well-being)","tag":"CD2","kind":"sentence","prompt":"Find the conceptual definition of SUBJECTIVE WELL-BEING.","model":"A person's own evaluation of their life: life satisfaction and the balance of positive and negative feelings.","why":"'Refers to' signals a conceptual definition: what the concept means, not how it is measured."}
+{"key":"od","label":"Operational definition (life appraisal)","tag":"OD","kind":"sentence","prompt":"How was overall life appraisal MEASURED? Find the sentence.","model":"A single item rating life as a whole over the past week from 1 (terrible) to 7 (delighted).","why":"Operational definitions are in the Method and tell you the measure and scale."}
+{"key":"od2","label":"Operational definition (physical symptoms)","tag":"OD2","kind":"sentence","prompt":"How were PHYSICAL SYMPTOMS measured?","model":"A checklist of common complaints (headaches, stomach aches, etc.) rated by how often they occurred in the past week.","why":"Look in the Method for the specific checklist used to measure physical symptoms."}
+{"key":"method","label":"General method","tag":"GM","kind":"choice","prompt":"What general method did this study use?","options":["Experiment","Correlational survey","Longitudinal correlational study","Case study"],"ans":"Experiment","model":"Experiment: participants were randomly assigned to three writing conditions.","why":"Even though it lasted ten weeks, random assignment to conditions the researchers created makes it an experiment, not a longitudinal correlational study."}
+{"key":"sample","label":"Sample","tag":"SAMP","kind":"sentence","prompt":"Find the sentence describing the sample.","model":"192 undergraduate psychology students (128 women, 64 men; mean age 19.6) at a US public university.","why":"The sample sentence gives the number, who they were and where they came from."}
+{"key":"manip","label":"Manipulation","tag":"PROC","kind":"sentence","prompt":"Find the sentence describing how the three conditions differed.","model":"Gratitude: list up to 5 things grateful for; hassles: up to 5 hassles; events: up to 5 events from the week.","why":"The manipulation is what each group was asked to do differently."}
+{"key":"tf","label":"Theoretical framework","tag":"TF","kind":"sentence","prompt":"Find the sentence that NAMES the theoretical framework.","model":"Broaden-and-build theory of positive emotions (Fredrickson, 2001).","why":"The theory is named in one sentence and explained in the next. The naming sentence is the best answer; the explanation is also accepted."}
+{"key":"gap","label":"Research gap","tag":"GAP","kind":"sentence","prompt":"Find the sentence that states the research gap most directly.","model":"Very few studies have experimentally manipulated gratitude to test whether it changes well-being over time.","why":"The sentence before explains the problem (correlational designs); this one states what is missing in the literature."}
+{"key":"r1","label":"Was Hypothesis 1 supported?","tag":"R1","kind":"choice","prompt":"Look carefully at BOTH outcomes in H1. Was it supported?","options":["Fully supported","Partly supported","Not supported"],"ans":"Partly supported","model":"Partly: life appraisal was higher than BOTH other groups, but optimism was only higher than the hassles group (vs events p = .09, not significant).","why":"H1 predicted the gratitude group would beat BOTH comparison groups on BOTH outcomes. Optimism vs the events group was not significant (p > .05)."}
+{"key":"r2","label":"Was Hypothesis 2 supported?","tag":"R2","kind":"choice","prompt":"Was Hypothesis 2 supported?","options":["Fully supported","Partly supported","Not supported"],"ans":"Fully supported","model":"Supported: fewer physical symptoms (p = .02) and more exercise (p = .03).","why":"Both outcomes in H2 showed significant differences (p < .05) in the predicted direction."}
+{"key":"timp","label":"Theoretical implication","tag":"TIMP","kind":"sentence","prompt":"Find the THEORETICAL implication.","model":"The findings support broaden-and-build theory: gratitude may build resources benefiting psychological and physical well-being.","why":"Theoretical implications say what the findings mean for theory. 'Theoretically' is a clue."}
+{"key":"imp","label":"Practical implication","tag":"IMP","kind":"sentence","prompt":"Find the PRACTICAL implication.","model":"Counsellors and educators could use brief gratitude journals to support students' well-being, e.g. during exams.","why":"Practical implications describe real-world uses. Don't confuse it with the theoretical implication two sentences earlier."}
+{"key":"lim","label":"Limitation","tag":"LIM","kind":"sentence","prompt":"Find a limitation of the study.","model":"Sample of undergraduate psychology students from one US university limits generalisation; outcomes were self-reported.","why":"Two limitations are given in a row; either is accepted."}
+{"key":"fut","label":"Future research","tag":"FUT","kind":"sentence","prompt":"Find the suggestion for future research.","model":"Use objective health measures and test whether benefits last after people stop journaling.","why":"'Future research could…' signals a direction for future research."}

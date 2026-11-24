@@ -1,0 +1,68 @@
+id: a3
+level: 1
+title: Out of Sight, Out of Mind? Smartphone Location and Available Cognitive Capacity
+short: Smartphone nearby and thinking capacity
+design: Experiment (3 groups)
+url: https://doi.org/10.1086/691462
+based_on: Ward, A. F., Duke, K., Gneezy, A., & Bos, M. W. (2017). Brain drain: The mere presence of one's own smartphone reduces available cognitive capacity. Journal of the Association for Consumer Research, 2(2), 140–154. https://doi.org/10.1086/691462
+
+== Abstract
+Smartphones give people constant access to information and entertainment, and many people keep their phones close at all times.
+This study tested whether simply having one's own smartphone nearby, even when it is switched off, reduces the mental capacity available for other tasks.
+Participants completed tests of working memory and reasoning while their phones were on the desk, in their pocket or bag, or in another room.
+Participants whose phones were in another room performed best on the working memory test, and those whose phones were on the desk performed worst.
+These results suggest that the mere presence of a smartphone can drain cognitive capacity.
+
+== Introduction
+Most adults now own a smartphone, and many check their phones dozens of times each day.
+Smartphones are useful, but they may also compete for attention, for example through notifications and the temptation to check messages.
+Previous research has shown that phone notifications and phone use can interrupt work and reduce performance.
+For example, students who receive text messages during a lecture tend to remember less of the lecture than students who do not.
+Even hearing a phone ring or vibrate can make it harder to concentrate, because it reminds people of messages they may be missing.
+[gap] However, little research has examined whether a smartphone can affect thinking when it is silent, switched off and not being used at all.
+[cd] Cognitive capacity refers to the limited amount of mental resources, such as attention and working memory, that a person has available to think and solve problems at any given moment.
+[cd2] Working memory refers to the system that temporarily holds and manipulates information while a person carries out mental tasks.
+[tf] This study is based on the idea of limited attentional resources (Kahneman, 1973), which proposes that people have a fixed pool of attention that must be shared between everything they are thinking about.
+[tf~] If part of this pool is used to resist the urge to check one's phone, less attention will be left for the task at hand, even if the person is not aware of it.
+[rq] The present study asked whether the location of a person's own smartphone affects their available cognitive capacity.
+[hyp] It was hypothesised that the closer participants' phones were to them, the worse they would perform on tests of cognitive capacity.
+
+== Method
+[method] The study was an experiment in which participants were randomly assigned to one of three phone-location conditions.
+[sample] Participants were 520 undergraduate students at a large university in the United States who owned a smartphone.
+[manip] Participants were asked to place their phone either face down on the desk, in their pocket or bag, or in another room, and all phones were set to silent with vibration turned off.
+[od] Working memory capacity was measured with the operation span task, in which participants solved simple maths problems while remembering a series of letters, with higher scores showing greater capacity.
+[od2] Fluid intelligence was measured with a set of Raven's Progressive Matrices, in which participants choose the missing piece that completes a visual pattern.
+Participants also answered questions about how much they felt they depended on their smartphones in daily life.
+
+== Results
+Participants whose phones were in another room had the highest working memory scores, followed by those whose phones were in their pocket or bag, and those whose phones were on the desk had the lowest scores, p < .05.
+A similar pattern was found for fluid intelligence, although the differences between the groups were smaller.
+[mod] The effect of phone location was strongest for participants who reported depending most on their smartphones.
+Most participants said that they had not been thinking about their phones during the tasks.
+
+== Discussion
+These findings suggest that the mere presence of one's own smartphone reduces the mental capacity available for other tasks, even when the phone is silent and not being used.
+Interestingly, most participants said they had not been thinking about their phones, which suggests that the effect may occur without people being aware of it.
+This means that people may not realise how much their phones are affecting their concentration, and may therefore not take steps to reduce the problem.
+[timp] The results support the idea of limited attentional resources, suggesting that ignoring a nearby phone may use up attention without people noticing.
+[imp] In practice, students could leave their phones in another room when studying or sitting examinations, rather than simply switching them to silent.
+[lim] One limitation is that the study was conducted with American university students, so the results may differ for older adults or people in other cultures.
+[fut] Future research could test how long the effect lasts and whether it also affects learning in real classrooms.
+Out of sight may indeed mean out of mind, at least when it comes to smartphones.
+
+--- items
+{"key":"rq","label":"Research question","tag":"RQ","kind":"sentence","prompt":"Find the research question.","model":"Does the location of your smartphone affect your available cognitive capacity?","why":"'The present study asked whether…' gives the research question."}
+{"key":"hyp","label":"Hypothesis","tag":"H1","kind":"sentence","prompt":"Find the hypothesis.","model":"The closer the phone, the worse the performance on tests of cognitive capacity.","why":"'It was hypothesised that…' signals the hypothesis."}
+{"key":"iv","label":"Independent variable","tag":"IV","kind":"text","prompt":"What is the independent variable? Name its levels.","accept":[["desk|pocket|bag|room|location"]],"model":"Phone location: on the desk, in a pocket or bag, or in another room.","why":"The IV is what the researchers manipulated."}
+{"key":"cd","label":"Conceptual definition","tag":"CD","kind":"sentence","prompt":"Find the conceptual definition of COGNITIVE CAPACITY.","model":"The limited mental resources (attention, working memory) available to think at a given moment.","why":"Two concepts are defined; pick cognitive capacity."}
+{"key":"od","label":"Operational definition","tag":"OD","kind":"sentence","prompt":"How was WORKING MEMORY capacity measured?","model":"Operation span task: solve maths problems while remembering letters.","why":"Operational definitions are in the Method."}
+{"key":"method","label":"General method","tag":"GM","kind":"choice","prompt":"What general method did this study use?","options":["Experiment","Survey","Correlational study","Case study"],"ans":"Experiment","model":"Experiment: random assignment to three phone locations.","why":"Random assignment to conditions makes it an experiment."}
+{"key":"sample","label":"Sample","tag":"SAMP","kind":"sentence","prompt":"Find the sentence describing the sample.","model":"520 undergraduates at a large US university who owned a smartphone.","why":"The sample sentence gives the number and who they were."}
+{"key":"manip","label":"Manipulation","tag":"PROC","kind":"sentence","prompt":"Find the sentence describing the manipulation.","model":"Phone face down on the desk, in pocket or bag, or in another room, all on silent.","why":"The manipulation describes what each group did differently."}
+{"key":"tf","label":"Theoretical framework","tag":"TF","kind":"sentence","prompt":"Find the sentence that names the theoretical framework.","model":"Limited attentional resources (Kahneman, 1973).","why":"Look for the named idea with a citation."}
+{"key":"gap","label":"Research gap","tag":"GAP","kind":"sentence","prompt":"Find the research gap.","model":"Little research on whether a silent, unused phone affects thinking.","why":"The gap says what past research hasn't examined."}
+{"key":"res","label":"Was the hypothesis supported?","tag":"RES","kind":"choice","prompt":"Was the hypothesis supported (for working memory)?","options":["Supported","Partly supported","Not supported"],"ans":"Supported","model":"Supported: another room > pocket/bag > desk (p < .05).","why":"Performance got worse the closer the phone was, as predicted."}
+{"key":"mod","label":"Who was affected most?","tag":"MOD","kind":"sentence","prompt":"Find the sentence showing the effect was stronger for some people.","model":"The effect was strongest for people most dependent on their phones.","why":"Phone dependence changed the strength of the effect, so it acts as a moderator."}
+{"key":"imp","label":"Practical implication","tag":"IMP","kind":"sentence","prompt":"Find the practical implication.","model":"Leave phones in another room when studying or in exams, not just on silent.","why":"'In practice' signals a practical implication."}
+{"key":"lim","label":"Limitation","tag":"LIM","kind":"sentence","prompt":"Find a limitation.","model":"Only American university students; results may differ for other groups.","why":"'One limitation is…' signals the limitation."}

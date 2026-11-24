@@ -1,0 +1,88 @@
+id: a7
+level: 2
+title: Sleep Across the Semester: Objectively Measured Sleep Duration, Quality and Consistency and Exam Performance in University Students
+short: Sleep and exam performance
+design: Correlational (observational) study with wearable trackers
+url: https://doi.org/10.1038/s41539-019-0055-z
+based_on: Okano, K., Kaczmarzyk, J. R., Dave, N., Gabrieli, J. D. E., & Grossman, J. C. (2019). Sleep quality, duration, and consistency are associated with better academic performance in college students. npj Science of Learning, 4, Article 16. https://doi.org/10.1038/s41539-019-0055-z
+
+== Abstract
+Although it is widely believed that sleep supports learning, most studies of students' sleep and grades have relied on self-reported sleep, which is often inaccurate.
+This study used wearable activity trackers to measure the sleep of students in an introductory chemistry course throughout a semester.
+Better sleep quality, longer sleep duration and more consistent sleep across the semester were each associated with higher scores on the course's tests.
+In contrast, the amount of sleep obtained on the single night before a test was not related to test performance.
+Together, sleep measures accounted for nearly a quarter of the differences between students' overall grades.
+These findings suggest that consistent, good-quality sleep over weeks, rather than sleep on the night before an exam, is associated with academic success.
+
+== Introduction
+Many university students sleep less than the seven to nine hours recommended for young adults, especially during busy periods of the semester.
+Late-night studying, social activities and irregular class schedules can all lead to short and inconsistent sleep.
+At the same time, laboratory research has shown that sleep plays an important role in memory, as information learned during the day appears to be strengthened during sleep.
+For example, people who sleep after learning a list of word pairs typically recall more of the pairs the next day than people who stay awake for the same length of time.
+Sleep deprivation has also been shown to impair attention, working memory and mood, all of which may affect how well students learn and perform in examinations.
+Outside the laboratory, however, students' sleep is influenced by many factors at once, and it is less clear how strongly everyday sleep habits are related to real academic outcomes.
+[cd] In this study, sleep quality refers to how restful and uninterrupted a person's sleep is, rather than simply how long it lasts.
+[cd2] Sleep consistency refers to how similar a person's sleep duration and timing are from one night to the next.
+Several survey studies have found that students who report sleeping more tend to obtain higher grades.
+Other studies have found that students who go to bed and wake up at irregular times report poorer concentration in class.
+Some researchers have also suggested that students with higher motivation may simply organise their time better, leading to both better sleep and better grades.
+[gap] However, these studies mostly relied on students' own reports of how much they slept, which are known to be inaccurate and may be biased by how well students think they are doing.
+[gap~] Furthermore, most studies examined sleep at only one point in time, so it remains unclear whether long-term sleep habits or sleep on the night before an exam matter more for performance.
+Many students believe that sleeping well the night before an exam is what matters most, while others sacrifice sleep before exams in order to study for longer.
+[tf] The present study is guided by the memory consolidation account of sleep, which proposes that newly learned information is gradually stabilised and integrated into long-term memory during sleep (Diekelmann & Born, 2010).
+[tf~] If sleep supports learning in this way, then good sleep throughout the period in which material is being learned, rather than only before the test, should be associated with better performance.
+[rq] The present study therefore asked whether objectively measured sleep duration, quality and consistency across a semester are related to students' academic performance, and whether sleep on the night before a test is related to performance on that test.
+[h1] It was hypothesised that students with longer, better-quality and more consistent sleep across the semester would obtain higher test scores.
+[h2] It was also hypothesised that longer sleep on the night before a test would be associated with higher scores on that particular test.
+
+== Method
+[method] This was a correlational study in which the researchers observed students' naturally occurring sleep without asking them to change it.
+[sample] Participants were 88 undergraduate students (47 women, 41 men) enrolled in an introductory chemistry course at a university in the United States.
+All students in the course were invited to take part, and those who agreed received a wearable activity tracker that they were asked to wear day and night for the whole semester.
+[od] Sleep duration was measured objectively by the tracker, which recorded the number of minutes each participant slept each night.
+[od2] Sleep quality was calculated from the tracker's data as the proportion of time in bed that the participant was actually asleep, with fewer awakenings indicating better quality.
+Sleep consistency was calculated as how much a participant's nightly sleep duration varied from night to night, with less variation indicating greater consistency.
+Academic performance was measured using students' scores on nine short quizzes, three midterm examinations and a final examination.
+Because the tracker did not ask students how they felt, the researchers also collected brief information about students' year of study and whether they lived on campus.
+
+== Results
+On average, participants slept about 6 hours and 30 minutes per night, which is below the recommended amount for young adults.
+Longer sleep duration across the semester was positively correlated with overall test scores, r = .38, p < .001.
+Better sleep quality was also positively correlated with overall scores, r = .40, p < .001, as was greater sleep consistency, r = .36, p = .001.
+Together, sleep duration, quality and consistency accounted for nearly 25% of the variation in students' overall grades.
+In contrast, the amount of sleep obtained on the night before each test was not significantly related to scores on that test, r = .07, p = .48.
+Women tended to have better sleep quality than men, but the relationships between sleep and grades were similar for both groups.
+
+== Discussion
+This study found that students who slept longer, better and more consistently over the semester tended to perform better on their tests.
+The size of these relationships was notable, given that grades are also influenced by many other factors, such as prior knowledge, motivation and study habits.
+The finding that students slept on average only six and a half hours per night also suggests that many students may be regularly sleep-deprived during the semester.
+However, sleep on the night immediately before a test was not related to performance on that test.
+[timp] These findings are consistent with the memory consolidation account, as they suggest that sleep supports learning over the weeks in which material is studied, rather than only on the night before it is tested.
+[imp] In practice, universities could include education about regular sleep habits in orientation programmes and could avoid scheduling early-morning classes or late-night deadlines that disrupt students' sleep.
+[imp~] Students may also benefit from treating good sleep as part of their study routine throughout the semester, rather than trying to catch up on sleep just before examinations.
+[lim] Because the study was correlational, it cannot show that better sleep causes better grades; for example, students who are more organised may both sleep more regularly and study more effectively.
+[lim~] The sample was also limited to students in one chemistry course at a single university, so the results may not apply to students in other subjects or countries.
+[fut] Future research could test whether interventions that improve students' sleep consistency lead to improvements in their grades, which would provide stronger evidence about cause and effect.
+Overall, these findings suggest that good sleep habits across the semester are closely linked to academic success.
+
+--- items
+{"key":"rq","label":"Research question","tag":"RQ","kind":"sentence","prompt":"Find the research question.","model":"Is objectively measured sleep across the semester related to performance, and is sleep the night before related to that test's score?","why":"This research question has TWO parts. Make sure you can name both."}
+{"key":"h1","label":"Hypothesis 1","tag":"H1","kind":"sentence","prompt":"Find the hypothesis about sleep ACROSS THE SEMESTER.","model":"Longer, better-quality and more consistent sleep across the semester → higher test scores.","why":"H1 is about long-term sleep habits."}
+{"key":"h2","label":"Hypothesis 2","tag":"H2","kind":"sentence","prompt":"Find the hypothesis about sleep on the NIGHT BEFORE a test.","model":"Longer sleep on the night before a test → higher score on that test.","why":"'It was also hypothesised…' signals H2."}
+{"key":"vars","label":"Variables","tag":"VAR","kind":"text","prompt":"Name the predictor variable(s) and the outcome variable.","accept":[["sleep","test|grade|score|perform|exam"]],"model":"Predictors: sleep duration, quality and consistency. Outcome: academic performance (test scores).","why":"This is correlational, so the variables are predictors and outcomes rather than IV and DV."}
+{"key":"cd","label":"Conceptual definition (sleep quality)","tag":"CD","kind":"sentence","prompt":"Find the conceptual definition of SLEEP QUALITY.","model":"How restful and uninterrupted sleep is, not just how long it lasts.","why":"Two sleep concepts are defined in a row; pick quality."}
+{"key":"cd2","label":"Conceptual definition (sleep consistency)","tag":"CD2","kind":"sentence","prompt":"Find the conceptual definition of SLEEP CONSISTENCY.","model":"How similar sleep duration and timing are from night to night.","why":"'Refers to' signals a conceptual definition."}
+{"key":"od2","label":"Operational definition (sleep quality)","tag":"OD2","kind":"sentence","prompt":"How was SLEEP QUALITY measured (operationally)?","model":"Proportion of time in bed actually asleep, from the tracker; fewer awakenings = better quality.","why":"Compare this with the conceptual definition: the operational one tells you exactly what was calculated."}
+{"key":"method","label":"General method","tag":"GM","kind":"choice","prompt":"What general method did this study use?","options":["Experiment","Correlational (observational) study","Quasi-experiment","Case study"],"ans":"Correlational (observational) study","model":"Correlational: students' natural sleep was observed, not changed.","why":"Using objective trackers and measuring over a semester doesn't make it an experiment; nothing was manipulated."}
+{"key":"sample","label":"Sample","tag":"SAMP","kind":"sentence","prompt":"Find the sentence describing the sample.","model":"88 undergraduates (47 women, 41 men) in an introductory chemistry course at a US university.","why":"The sample sentence gives the number, who they were and where."}
+{"key":"tf","label":"Theoretical framework","tag":"TF","kind":"sentence","prompt":"Find the sentence that names the theoretical framework.","model":"Memory consolidation account: new information is stabilised into long-term memory during sleep (Diekelmann & Born, 2010).","why":"'Guided by' a named account with a citation signals the theoretical framework."}
+{"key":"gap","label":"Research gap","tag":"GAP","kind":"sentence","prompt":"Find the research gap.","model":"Earlier studies relied on inaccurate self-reported sleep and measured sleep only once.","why":"Two weaknesses of earlier research are given; either is accepted."}
+{"key":"r1","label":"Was H1 supported?","tag":"R1","kind":"choice","prompt":"Was Hypothesis 1 supported?","options":["Supported","Partly supported","Not supported"],"ans":"Supported","model":"Supported: duration (r = .38), quality (r = .40) and consistency (r = .36) were all positively related to scores (all p ≤ .001).","why":"All three sleep measures were significantly and positively correlated with performance."}
+{"key":"r2","label":"Was H2 supported?","tag":"R2","kind":"choice","prompt":"Was Hypothesis 2 supported?","options":["Supported","Partly supported","Not supported"],"ans":"Not supported","model":"Not supported: sleep the night before was unrelated to that test's score (r = .07, p = .48).","why":"p = .48 is far above .05, so there is no significant relationship."}
+{"key":"effect","label":"Size of the relationship","tag":"ES","kind":"text","prompt":"About how much of the variation in grades did the sleep measures account for together?","accept":[["25|quarter"]],"model":"Nearly 25% (about a quarter).","why":"Effect size tells you how strong a relationship is, not just whether it is significant."}
+{"key":"causal","label":"Causal language","tag":"CAUS","kind":"choice","prompt":"Which sentence is appropriate for reporting these findings?","options":["Better sleep was associated with higher grades","Better sleep caused higher grades","Better sleep increased students' grades"],"ans":"Better sleep was associated with higher grades","model":"'Associated with', because the study is correlational.","why":"Causal words (caused, increased, effect) are only appropriate for experiments."}
+{"key":"timp","label":"Theoretical implication","tag":"TIMP","kind":"sentence","prompt":"Find the THEORETICAL implication.","model":"Consistent with memory consolidation: sleep supports learning over weeks, not only the night before.","why":"It links the results back to the framework."}
+{"key":"imp","label":"Practical implication","tag":"IMP","kind":"sentence","prompt":"Find a PRACTICAL implication.","model":"Universities could teach sleep habits at orientation and avoid early classes or late-night deadlines.","why":"Two practical implications are given; either is accepted."}
+{"key":"lim","label":"Limitation","tag":"LIM","kind":"sentence","prompt":"Find a limitation.","model":"Correlational, so it can't show causation; one chemistry course at one university.","why":"Either limitation is accepted."}
+{"key":"fut","label":"Future research","tag":"FUT","kind":"sentence","prompt":"Find the suggestion for future research.","model":"Test whether interventions improving sleep consistency improve grades.","why":"'Future research could…' signals the suggestion."}

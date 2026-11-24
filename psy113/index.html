@@ -1078,7 +1078,9 @@ async function loadAccount(){
   const localDeck=store.get("p113-local-deck2",null);
   done=new Set([...(data.done||[]),...done]);drafts={...drafts,...(data.drafts||{})};status={...status,...(data.status||{})};
   {const srv=data.attempts||{},m={};new Set([...Object.keys(srv),...Object.keys(attempts)]).forEach(k=>{const seen=new Set(),all=[];[...(attempts[k]||[]),...(srv[k]||[])].forEach(a=>{if(!seen.has(a.at)){seen.add(a.at);all.push(a)}});all.sort((x,y)=>y.at<x.at?-1:1);m[k]=all.slice(0,20)});attempts=m;}
-  {const sa=data.articles||{};Object.keys(sa).forEach(k=>{const a=artState[k],b=sa[k];if(!a||(b.at||"")>(a.at||""))artState[k]={...b,best:Math.max(b.best||0,(a&&a.best)||0)};else artState[k]={...a,best:Math.max(a.best||0,b.best||0)}});store.set("p113-articles",artState);}
+  {const sa=data.articles||{};Object.keys(sa).forEach(k=>{const a=artState[k],b=sa[k];const va=a?(a.v||1):0,vb=b.v||1;
+    if(!a||vb>va)artState[k]=b;else if(va>vb)return;
+    else if((b.at||"")>(a.at||""))artState[k]={...b,best:Math.max(b.best||0,a.best||0)};else artState[k]={...a,best:Math.max(a.best||0,b.best||0)}});store.set("p113-articles",artState);}
   {const seen=new Set(exams.map(x=>x.at));(data.exams||[]).forEach(x=>{if(!seen.has(x.at))exams.push(x)});exams.sort((a,b)=>a.at<b.at?1:-1);exams=exams.slice(0,30);store.set("p113-exams",exams);}
   if(data.cards){C=withNewTopics(data.cards);customCards=true}else if(localDeck){C=withNewTopics(localDeck);customCards=true}
   store.set("p113-done2",[...done]);store.set("p113-drafts2",drafts);store.set("p113-status2",status);store.set("p113-attempts2",attempts);
@@ -1267,7 +1269,7 @@ function renderArts(){
   const g=$("#artgrid");g.innerHTML="";
   if(!ARTS.length){const p=document.createElement("p");p.className="note";p.textContent="The practice articles are being added. Check back soon.";g.appendChild(p);return}
   ARTS.forEach((a,i)=>{const b=document.createElement("button");b.className="artcard";const [lv,col]=levelInfo(a.level);b.style.setProperty("--lv",col);
-    const st=artState[a.id];
+    const st=artSt(a);
     b.innerHTML=`<span class="lvl"></span><h4></h4><span class="meta"></span><span class="best"></span>`;
     b.querySelector(".lvl").textContent=`Article ${i+1} · ${lv}`;b.querySelector("h4").textContent=a.short||a.title;
     b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`+(a.based_on?` · based on ${(a.based_on.match(/^[^(]*\(\d{4}\)/)||[a.based_on])[0]}`:"");
@@ -1275,9 +1277,10 @@ function renderArts(){
     b.onclick=()=>openArticle(a.id);g.appendChild(b)});
 }
 function sentId(si,j){return si+"."+j}
+function artSt(a){const st=artState[a.id];return st&&(st.v||1)===(a.v||1)?st:null}
 function openArticle(id){
   const a=ARTS.find(x=>x.id===id);if(!a)return;
-  const st=artState[id];const sel={};
+  const st=artSt(a);const sel={};
   a.items.forEach(it=>{const v=st&&st.answers?st.answers[it.key]:null;sel[it.key]=it.kind==="sentence"?new Set(v||[]):(v||"")});
   art={a,sel,picking:null,checked:false,over:{}};
   const [lv]=levelInfo(a.level);$("#a-tag").textContent=`Article practice · ${lv}`;$("#a-title").textContent=a.title;
@@ -1368,10 +1371,10 @@ function renderTasks(){
     box.appendChild(d);
   });
 }
-function saveArtDraft(){const id=art.a.id,prev=artState[id]||{};const answers={};art.a.items.forEach(it=>{const v=art.sel[it.key];answers[it.key]=v instanceof Set?[...v]:v});artState[id]={...prev,answers,at:new Date().toISOString()};store.set("p113-articles",artState);queueSync()}
+function saveArtDraft(){const id=art.a.id,prev=artSt(art.a)||{};const answers={};art.a.items.forEach(it=>{const v=art.sel[it.key];answers[it.key]=v instanceof Set?[...v]:v});artState[id]={...prev,v:art.a.v||1,answers,at:new Date().toISOString()};store.set("p113-articles",artState);queueSync()}
 function scoreArt(){
   const tot=art.a.items.length,got=art.a.items.reduce((s,it)=>s+markItem(it),0),pct=Math.round(got/tot*100);
-  const id=art.a.id,prev=artState[id]||{};saveArtDraft();artState[id]={...artState[id],last:pct,best:Math.max(prev.best||0,pct)};store.set("p113-articles",artState);queueSync();
+  const id=art.a.id,prev=artSt(art.a)||{};saveArtDraft();artState[id]={...artState[id],last:pct,best:Math.max(prev.best||0,pct)};store.set("p113-articles",artState);queueSync();
   $("#a-score").textContent=`Score ${pct}% · Best ${artState[id].best}%`;return pct;
 }
 $("#a-check").onclick=()=>{if(!art)return;art.picking=null;$("#a-pick").hidden=true;art.checked=true;scoreArt();renderTasks();paintSentences();if(getComputedStyle($(".a-tabs")).display!=="none")setArtTab("tasks");$("#a-tasks").scrollTop=0};

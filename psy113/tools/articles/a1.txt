@@ -1,0 +1,74 @@
+id: a1
+level: 1
+title: Typing Versus Writing: Laptop Note-Taking and Conceptual Understanding of Lectures
+short: Laptop vs longhand notes
+design: Experiment (2 groups)
+url: https://doi.org/10.1177/0956797614524581
+based_on: Mueller, P. A., & Oppenheimer, D. M. (2014). The pen is mightier than the keyboard: Advantages of longhand over laptop note taking. Psychological Science, 25(6), 1159–1168. https://doi.org/10.1177/0956797614524581
+
+== Abstract
+Laptops are now common in university lecture halls, and many students prefer typing their notes because it is faster than writing by hand.
+This study tested whether taking notes on a laptop or by hand affects how well students learn from a lecture.
+Students watched short talks and took notes either on a laptop or with pen and paper, and then answered factual and conceptual questions about the talks.
+Both groups performed similarly on factual questions, but students who wrote by hand performed better on conceptual questions.
+Laptop notes contained more words copied word-for-word from the talks, which was linked to poorer conceptual performance.
+These results suggest that typing notes may lead to shallower processing of lecture material.
+
+== Introduction
+Taking notes is one of the most common ways that students try to learn during lectures.
+Note-taking is thought to help learning in two ways: by helping students process information as they write it down, and by giving them a record to review later.
+Today, many students take notes on laptops instead of on paper.
+Laptops allow students to type quickly and to record more of what the lecturer says.
+However, laptops can also distract students, for example through social media and online shopping.
+Studies have found that students who use laptops in class often spend part of the lecture on activities unrelated to the course, and that this multitasking is linked to lower grades.
+Even students sitting near a laptop user may be distracted by what is on their classmate's screen.
+[gap] Most research on laptops in class has focused on these distractions, and much less is known about whether typing notes changes learning even when students are not distracted.
+[cd] In this study, conceptual understanding refers to the ability to explain ideas, apply them and see how they relate to one another, rather than simply remembering facts.
+[cd2] Verbatim note-taking refers to copying down the speaker's words exactly as they are said, rather than summarising them in one's own words.
+[tf] One explanation for why the type of note-taking might matter comes from the levels-of-processing framework (Craik & Lockhart, 1972), which proposes that information that is processed more deeply, in terms of its meaning, is remembered better.
+[tf~] Because students cannot write as fast as a lecturer speaks, those writing by hand must select and summarise, which may encourage deeper processing, whereas fast typists may simply copy the lecturer's words.
+[rq] The present study asked whether taking notes on a laptop, compared with taking notes by hand, affects students' factual and conceptual learning from a lecture.
+[hyp] It was hypothesised that students who took notes by hand would perform better on conceptual questions than students who took notes on laptops.
+
+== Method
+[method] The study was an experiment in which students were randomly assigned to take notes either on a laptop or with pen and paper.
+[sample] Participants were 67 undergraduate students at Princeton University who took part for course credit.
+Laptops were provided by the researchers and were disconnected from the internet, so that distraction could not explain any differences.
+[manip] Participants watched one of five TED talks of about 15 minutes each on interesting but not commonly known topics, while taking notes in the way they normally would using their assigned method.
+After the talk, participants completed distracting tasks for 30 minutes before answering questions about the talk.
+[od] Factual questions asked participants to recall specific details from the talk, such as dates or names, whereas conceptual questions asked them to explain or apply ideas from the talk.
+[od2] Verbatim note-taking was measured by using computer software to count how many three-word sequences in each participant's notes exactly matched the words in the talk.
+
+== Results
+Students in the two conditions performed equally well on factual questions, with no significant difference between them.
+Students who took notes by hand performed significantly better on conceptual questions than students who used laptops, p < .05.
+Laptop users wrote more words in total than students writing by hand.
+However, laptop notes also contained a significantly higher proportion of words copied verbatim from the talk.
+The more verbatim overlap participants' notes contained, the worse they performed on conceptual questions.
+
+== Discussion
+These results show that taking notes on a laptop may harm conceptual learning, even when students are not distracted by the internet.
+Laptop users seemed to transcribe the lectures rather than process and reframe the information in their own words.
+Writing more notes would normally be expected to help learning, because students have more information to review later.
+In this study, however, the advantage of having more notes seems to have been outweighed by the shallower processing involved in copying the lecturer's words.
+[timp] These findings support the levels-of-processing framework, as summarising in one's own words appears to involve deeper processing than copying.
+[imp] In practice, students who use laptops in lectures could be encouraged to summarise ideas in their own words rather than typing everything the lecturer says.
+[lim] One limitation is that participants answered questions shortly after the talk without the chance to review their notes, which is not how students usually prepare for exams.
+[fut] Future studies could examine whether the benefits of handwritten notes remain when students are given time to study their notes before being tested.
+Overall, the results suggest that the pen may be mightier than the keyboard when it comes to understanding.
+
+--- items
+{"key":"rq","label":"Research question","tag":"RQ","kind":"sentence","prompt":"Find the research question.","model":"Does laptop vs handwritten note-taking affect students' factual and conceptual learning?","why":"'The present study asked whether…' states the research question."}
+{"key":"hyp","label":"Hypothesis","tag":"H1","kind":"sentence","prompt":"Find the hypothesis.","model":"Students who take notes by hand will do better on conceptual questions than laptop users.","why":"'It was hypothesised that…' signals the hypothesis."}
+{"key":"iv","label":"Independent variable","tag":"IV","kind":"text","prompt":"What is the independent variable? Name both levels.","accept":[["laptop|typ|keyboard","hand|pen|paper|longhand|writ"]],"model":"Note-taking method: laptop vs longhand (pen and paper).","why":"The IV is what was manipulated between the two groups."}
+{"key":"dv","label":"Dependent variable","tag":"DV","kind":"text","prompt":"What was the main dependent variable?","accept":[["question|perform|score|understand|learn|conceptual|factual"]],"model":"Performance on factual and conceptual questions about the talk.","why":"The DV is the outcome measured after the talk."}
+{"key":"cd","label":"Conceptual definition","tag":"CD","kind":"sentence","prompt":"Find the conceptual definition of CONCEPTUAL UNDERSTANDING.","model":"The ability to explain ideas, apply them and see how they relate, not just remember facts.","why":"'Refers to' signals a conceptual definition."}
+{"key":"od","label":"Operational definition","tag":"OD","kind":"sentence","prompt":"How were factual and conceptual learning measured?","model":"Factual questions asked for details; conceptual questions asked participants to explain or apply ideas.","why":"Operational definitions are in the Method."}
+{"key":"method","label":"General method","tag":"GM","kind":"choice","prompt":"What general method did this study use?","options":["Experiment","Survey","Correlational study","Case study"],"ans":"Experiment","model":"Experiment: random assignment to laptop or longhand.","why":"Random assignment to conditions makes it an experiment."}
+{"key":"sample","label":"Sample","tag":"SAMP","kind":"sentence","prompt":"Find the sentence describing the sample.","model":"67 Princeton undergraduates who took part for course credit.","why":"The sample sentence gives the number and who they were."}
+{"key":"tf","label":"Theoretical framework","tag":"TF","kind":"sentence","prompt":"Find the sentence that names the theoretical framework.","model":"Levels-of-processing framework (Craik & Lockhart, 1972).","why":"Look for a named theory with a citation."}
+{"key":"gap","label":"Research gap","tag":"GAP","kind":"sentence","prompt":"Find the research gap.","model":"Research focused on laptop distraction; less is known about whether typing itself changes learning.","why":"The gap says what past research has not looked at yet."}
+{"key":"res","label":"Was the hypothesis supported?","tag":"RES","kind":"choice","prompt":"Was the hypothesis supported?","options":["Supported","Partly supported","Not supported"],"ans":"Supported","model":"Supported: longhand note-takers did better on conceptual questions (p < .05).","why":"The hypothesis was only about conceptual questions, and that result was significant. The factual result was not part of the hypothesis."}
+{"key":"imp","label":"Practical implication","tag":"IMP","kind":"sentence","prompt":"Find the practical implication.","model":"Encourage laptop users to summarise in their own words instead of typing everything.","why":"'In practice' signals a practical implication."}
+{"key":"lim","label":"Limitation","tag":"LIM","kind":"sentence","prompt":"Find a limitation.","model":"Students were tested soon after without reviewing notes, unlike real exam preparation.","why":"'One limitation is…' signals the limitation."}
+{"key":"fut","label":"Future research","tag":"FUT","kind":"sentence","prompt":"Find the suggestion for future research.","model":"Test whether handwriting benefits remain when students study their notes first.","why":"'Future studies could…' signals the suggestion."}
