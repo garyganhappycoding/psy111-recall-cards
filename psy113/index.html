@@ -38,6 +38,10 @@
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
 .wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
 header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}
+.course{display:flex;gap:6px;margin-bottom:14px}
+.course a{font-family:var(--body);font-size:13px;font-weight:600;text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.course a[aria-current]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.course a:hover:not([aria-current]){border-color:var(--accent)}
 .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,52px);line-height:1;margin:6px 0 0;text-wrap:balance}
 h1 em{color:var(--accent)}
@@ -374,6 +378,7 @@ td.orig .btn{font-size:12px;padding:5px 10px}
 </style>
 
 <div class="wrap">
+  <nav class="course" aria-label="Course"><a href="/">PSY 111</a><a href="/psy113/" aria-current="page">PSY 113</a></nav>
   <header>
     <div>
       <div class="eyebrow" id="eyebrow">PSY 113</div>
