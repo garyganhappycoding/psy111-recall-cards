@@ -1,0 +1,58 @@
+# Balanced option sets (so the right answer isn't the longest one). key -> (options, answer index)
+TRI={
+"snow":(["A simple random sample of undergraduates drawn from US college enrolment lists",
+         "A convenience (volunteer) sample from social-media posts and extra-credit students",
+         "A snowball sample in which each participant recruited further college friends",
+         "A stratified sample with equal numbers of students from each US region"],1),
+"strength":(["Strong and positive, so active use explains most of the variation in self-esteem",
+             "Weak and positive: active use shares under 2% of the variance with self-esteem",
+             "Moderate and positive: active use explains about a quarter of the variance",
+             "Not significant, because the p value is above the .05 level the authors set"],1),
+"med":(["Active use directly causes higher self-esteem, and intensity is irrelevant to it",
+        "Statistically, the link from active use to self-esteem runs through intensity",
+        "There is no relationship of any kind between active use and self-esteem",
+        "The hypothesis was rejected because the direct effect was not significant"],1),
+}
+SRI={
+"hyp":(["Both sections state the same directional hypothesis in almost the same words",
+        "The Method's hypothesis has no direction, but the Discussion reports a directional one",
+        "No hypothesis is stated anywhere, only an aim and an objective in Section II",
+        "Both predict a difference in depression between working and non-working women"],1),
+"design":(["A true experiment in which employment status was manipulated by the researcher",
+           "A cross-sectional correlational study carried out separately in two groups",
+           "A longitudinal study following the same married women over several years",
+           "A case study describing a small number of depressed working women in depth"],1),
+"samp":(["Simple random sampling from a population list",
+         "Stratified random sampling by employment status",
+         "Purposive sampling (a non-probability method)",
+         "Snowball sampling through participants' friends"],2),
+"incl":(["They are far too strict, so very few married women in the area were eligible",
+         "They overlap, and never require participants to be married or define 'working'",
+         "They wrongly exclude women over 30, which shrinks the age range of the sample",
+         "They are not reported at all, so the reader cannot tell who could take part"],1),
+"rel":(["Yes, Cronbach's alpha is reported for both scales in this sample",
+        "Only for the BDI-II, taken from the original 1996 test manual",
+        "No, neither reliability nor validity evidence is reported here",
+        "Yes, test-retest reliability over two weeks is reported for both"],2),
+"claim":(["Yes, because both correlations in the results tables are statistically significant",
+          "No: only the non-working group's correlation is significant; working women's is not",
+          "No: neither group's correlation reaches significance at the .05 level in the tables",
+          "Yes, because the correlation for the combined sample of 140 women is significant"],1),
+"group":(["Nothing: it correctly describes the two groups of women who were actually studied",
+          "The study had no unmarried women: it compared working vs non-working married women",
+          "The study only included unmarried women, so 'married' is the incorrect word there",
+          "It should say working men, because men were also included in the final sample"],1),
+"concl":(["Yes, it follows directly from the negative correlations reported in the results",
+          "No: individualism was never measured, so the claim doesn't follow from the data",
+          "Yes, because the sample was collected in one culture and so reflects its values",
+          "Yes, because the hypothesis was supported, which confirms the theory behind it"],1),
+"eth":(["Ethics committee approval and written informed consent are both reported clearly",
+        "Only 'developing a good rapport'; no approval, consent or debriefing is mentioned",
+        "Only informed consent is mentioned; ethics approval and debriefing are left out",
+        "A full debriefing procedure is described, including referral for depressed women"],1),
+}
+def apply(items,patch):
+    for it in items:
+        if it["key"] in patch:
+            o,i=patch[it["key"]];it["options"]=o;it["ans"]=o[i]
+    return items

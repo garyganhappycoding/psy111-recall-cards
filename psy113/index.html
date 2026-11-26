@@ -1271,9 +1271,9 @@ function renderArts(){
   ARTS.forEach((a,i)=>{const b=document.createElement("button");b.className="artcard";const [lv,col]=levelInfo(a.level);b.style.setProperty("--lv",col);
     const st=artSt(a);
     b.innerHTML=`<span class="lvl"></span><h4></h4><span class="meta"></span><span class="best"></span>`;
-    b.querySelector(".lvl").textContent=`Article ${i+1} · ${lv}`;b.querySelector("h4").textContent=a.short||a.title;
+    b.querySelector(".lvl").textContent=(a.lec?`Lecture ${a.lec} article · `:`Article ${i+1-ARTS.filter(x=>x.lec).length} · `)+lv;b.querySelector("h4").textContent=a.short||a.title;
     const wc=a.text.reduce((n,sec)=>n+sec.s.join(" ").split(" ").length,0);
-    b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`+(a.real?` · ${a.journal} (${a.year}) · ~${Math.round(wc/100)*100} words`:a.based_on?` · based on ${(a.based_on.match(/^[^(]*\(\d{4}\)/)||[a.based_on])[0]}`:"");
+    b.querySelector(".meta").textContent=`${a.design} · ${a.items.length} things to find`+(a.noText?` · ${a.journal} (${a.year}) · use your lecture PDF`:a.real?` · ${a.journal} (${a.year}) · ~${Math.round(wc/100)*100} words`:a.based_on?` · based on ${(a.based_on.match(/^[^(]*\(\d{4}\)/)||[a.based_on])[0]}`:"");
     b.querySelector(".best").textContent=st&&st.best!=null?`Best score: ${st.best}%`:"Not tried yet";
     b.onclick=()=>openArticle(a.id);g.appendChild(b)});
 }
@@ -1285,7 +1285,7 @@ function openArticle(id){
   a.items.forEach(it=>{const v=st&&st.answers?st.answers[it.key]:null;sel[it.key]=it.kind==="sentence"?new Set(v||[]):(v||"")});
   art={a,sel,picking:null,checked:false,over:{}};
   const [lv]=levelInfo(a.level);$("#a-tag").textContent=`Article practice · ${lv}`;$("#a-title").textContent=a.title;
-  const cite=$("#a-cite");cite.textContent=a.real?`${a.citation} · Licence: CC BY (reproduced with attribution; ${a.source}) `:a.based_on?`Practice article written for PSY 113 (details simplified). Adapted from: ${a.based_on} `:`${a.authors} (${a.year}). ${a.journal}. ${a.license}. `;
+  const cite=$("#a-cite");cite.textContent=a.licNote?`${a.citation} · ${a.licNote} `:a.real?`${a.citation} · Licence: CC BY (reproduced with attribution; ${a.source}) `:a.based_on?`Practice article written for PSY 113 (details simplified). Adapted from: ${a.based_on} `:`${a.authors} (${a.year}). ${a.journal}. ${a.license}. `;
   if(a.url){const l=document.createElement("a");l.href=a.url;l.target="_blank";l.rel="noopener";l.textContent=a.real?"Open the original (with figures and tables)":a.based_on?"Original study":"Open the full article";cite.appendChild(l)}
   const tx=$("#a-text");tx.innerHTML="";
   a.text.forEach((sec,si)=>{const h=document.createElement("h5");h.textContent=sec.h;tx.appendChild(h);const p=document.createElement("p");

@@ -1,5 +1,888 @@
 [
  {
+  "id": "l14-srivastava",
+  "v": 1,
+  "real": true,
+  "lec": 14,
+  "noText": true,
+  "level": 2,
+  "title": "Relationship between Life Satisfaction and Depression among Working and Non-working Married Women",
+  "short": "Lecture 14 · Life satisfaction and depression in married women",
+  "authors": "Srivastava, A.",
+  "year": 2016,
+  "journal": "International Journal of Education and Psychological Research",
+  "design": "Cross-sectional correlational study (two groups)",
+  "citation": "Srivastava, A. (2016). Relationship between life satisfaction and depression among working and non-working married women. International Journal of Education and Psychological Research, 5(3), 1–7.",
+  "licNote": "Text not reproduced (no open licence found). Use the PDF from Lecture 14.",
+  "text": [
+   {
+    "h": "Where's the text?",
+    "s": [
+     "This article's licence doesn't allow it to be republished on this website, so its text isn't shown here.",
+     "Open your Lecture 14 PDF (Article 1: Srivastava, 2016) next to this page and answer the tasks from it.",
+     "Where things are in the PDF: Abstract; I. Introduction (definitions of life satisfaction and depression, then the literature review); II. Methodology (aim, objectives, hypotheses); III. Tools used; IV. Procedure (sample, inclusion and exclusion criteria); V. Statistical analysis; VI. Result (two correlation tables on page 6); VII. Discussion; VIII. Conclusion; Limitation; Future direction."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "aim",
+    "label": "Aim",
+    "tag": "RQ",
+    "kind": "text",
+    "prompt": "What is the aim of the study? (Section II)",
+    "accept": [
+     [
+      "life satisfaction",
+      "depress",
+      "work"
+     ]
+    ],
+    "model": "To see the relationship between life satisfaction and depression among working and non-working married women.",
+    "why": "The aim and the objective are worded almost the same. It's a relationship (correlational) aim, not a cause-and-effect one."
+   },
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H",
+    "kind": "choice",
+    "prompt": "Look at the hypothesis in Section II, then at how the Discussion describes it. What do you notice?",
+    "options": [
+     "Both sections state the same directional hypothesis in almost the same words",
+     "The Method's hypothesis has no direction, but the Discussion reports a directional one",
+     "No hypothesis is stated anywhere, only an aim and an objective in Section II",
+     "Both predict a difference in depression between working and non-working women"
+    ],
+    "ans": "The Method's hypothesis has no direction, but the Discussion reports a directional one",
+    "model": "Method: 'There will be significant relationship…' (no direction). Discussion: 'higher levels of depression would be associated with reduced life satisfaction' (direction).",
+    "why": "The hypothesis you test must be the one you stated BEFORE the data. Changing it afterwards is a red flag."
+   },
+   {
+    "key": "vars",
+    "label": "Variables",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Which TWO variables are correlated, and what is the grouping variable?",
+    "accept": [
+     [
+      "life satisfaction",
+      "depress",
+      "work"
+     ]
+    ],
+    "model": "Life satisfaction and depression are correlated; working vs non-working status splits the sample into two groups.",
+    "why": "In a correlational study neither variable is truly an IV. Working status is a grouping (subject) variable, not manipulated."
+   },
+   {
+    "key": "design",
+    "label": "Research design",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "Which best describes the design?",
+    "options": [
+     "A true experiment in which employment status was manipulated by the researcher",
+     "A cross-sectional correlational study carried out separately in two groups",
+     "A longitudinal study following the same married women over several years",
+     "A case study describing a small number of depressed working women in depth"
+    ],
+    "ans": "A cross-sectional correlational study carried out separately in two groups",
+    "model": "Cross-sectional correlational study.",
+    "why": "Questionnaires given once, correlations computed separately for working and non-working women. Nothing manipulated."
+   },
+   {
+    "key": "samp",
+    "label": "Sampling method",
+    "tag": "SAMP",
+    "kind": "choice",
+    "prompt": "How were the participants selected?",
+    "options": [
+     "Simple random sampling from a population list",
+     "Stratified random sampling by employment status",
+     "Purposive sampling (a non-probability method)",
+     "Snowball sampling through participants' friends"
+    ],
+    "ans": "Purposive sampling (a non-probability method)",
+    "model": "Purposive (non-probability) sampling.",
+    "why": "'Selected purposively'. Non-probability samples limit generalisation to all working/non-working married women."
+   },
+   {
+    "key": "n",
+    "label": "Sample size",
+    "tag": "N",
+    "kind": "text",
+    "prompt": "How many participants in total, and how many in each group?",
+    "accept": [
+     [
+      "140",
+      "70"
+     ]
+    ],
+    "model": "140 married women: 70 working and 70 non-working.",
+    "why": "With n = 70 per group, only moderate-or-larger correlations are likely to reach significance."
+   },
+   {
+    "key": "incl",
+    "label": "Inclusion / exclusion criteria",
+    "tag": "CRIT",
+    "kind": "choice",
+    "prompt": "What is the main problem with the inclusion and exclusion criteria?",
+    "options": [
+     "They are far too strict, so very few married women in the area were eligible",
+     "They overlap, and never require participants to be married or define 'working'",
+     "They wrongly exclude women over 30, which shrinks the age range of the sample",
+     "They are not reported at all, so the reader cannot tell who could take part"
+    ],
+    "ans": "They overlap, and never require participants to be married or define 'working'",
+    "model": "Redundant criteria, and the key features of the sample (married; working vs not) aren't defined.",
+    "why": "Criteria should define exactly who can be in the study. 'Females having any organisity' is also vague and undefined."
+   },
+   {
+    "key": "od1",
+    "label": "Operational definition: life satisfaction",
+    "tag": "OD",
+    "kind": "text",
+    "prompt": "How was LIFE SATISFACTION measured? (Name the scale and its developer.)",
+    "accept": [
+     [
+      "satisfaction with life|swls|life satisfaction scale",
+      "diener"
+     ]
+    ],
+    "model": "Satisfaction with Life Scale (SWLS; Diener et al.), 5 items about overall evaluation of one's life.",
+    "why": "The operational definition = the score on this scale."
+   },
+   {
+    "key": "od2",
+    "label": "Operational definition: depression",
+    "tag": "OD2",
+    "kind": "text",
+    "prompt": "How was DEPRESSION measured?",
+    "accept": [
+     [
+      "beck|bdi"
+     ]
+    ],
+    "model": "Beck Depression Inventory-II (BDI-II): 21-item self-report inventory.",
+    "why": "Note the tools list calls it 'Back's Depression Inventory': a careless error that weakens credibility."
+   },
+   {
+    "key": "rel",
+    "label": "Reliability and validity",
+    "tag": "REL",
+    "kind": "choice",
+    "prompt": "Does the article report reliability (e.g. Cronbach's α) for the scales in THIS sample?",
+    "options": [
+     "Yes, Cronbach's alpha is reported for both scales in this sample",
+     "Only for the BDI-II, taken from the original 1996 test manual",
+     "No, neither reliability nor validity evidence is reported here",
+     "Yes, test-retest reliability over two weeks is reported for both"
+    ],
+    "ans": "No, neither reliability nor validity evidence is reported here",
+    "model": "No reliability or validity evidence is given.",
+    "why": "Compare with the Instagram article, which reports Cronbach's α for every scale. Without it we can't judge measurement quality."
+   },
+   {
+    "key": "stat",
+    "label": "Statistical analysis",
+    "tag": "STAT",
+    "kind": "text",
+    "prompt": "What statistical analysis was used to test the hypothesis?",
+    "accept": [
+     [
+      "correlat|pearson"
+     ]
+    ],
+    "model": "Pearson correlation (plus means and SDs), using SPSS version 16.",
+    "why": "Correlation fits a relationship hypothesis. Note that no test COMPARES the two groups."
+   },
+   {
+    "key": "r1",
+    "label": "Result: working women",
+    "tag": "R1",
+    "kind": "text",
+    "prompt": "From the first results table, give r and p for WORKING married women.",
+    "accept": [
+     [
+      "079",
+      "517"
+     ]
+    ],
+    "model": "r = −.079, p = .517: NOT significant.",
+    "why": "p > .05, so there is no significant relationship for working women."
+   },
+   {
+    "key": "r2",
+    "label": "Result: non-working women",
+    "tag": "R2",
+    "kind": "text",
+    "prompt": "From the second table, give r and p for NON-WORKING married women.",
+    "accept": [
+     [
+      "325",
+      "006"
+     ]
+    ],
+    "model": "r = −.325, p = .006: significant, weak-to-moderate negative correlation.",
+    "why": "Higher depression goes with lower life satisfaction among non-working women. r² ≈ .11, so about 11% shared variance."
+   },
+   {
+    "key": "claim",
+    "label": "Do the results support the abstract?",
+    "tag": "OVER",
+    "kind": "choice",
+    "prompt": "The abstract says there is a 'significant relationship between life satisfaction and depression among working and non-working married women'. Is that accurate?",
+    "options": [
+     "Yes, because both correlations in the results tables are statistically significant",
+     "No: only the non-working group's correlation is significant; working women's is not",
+     "No: neither group's correlation reaches significance at the .05 level in the tables",
+     "Yes, because the correlation for the combined sample of 140 women is significant"
+    ],
+    "ans": "No: only the non-working group's correlation is significant; working women's is not",
+    "model": "Only the non-working group's correlation is significant.",
+    "why": "This is the biggest flaw: the conclusion overclaims and ignores a non-significant result in their own table."
+   },
+   {
+    "key": "group",
+    "label": "Wrong group in the Discussion",
+    "tag": "DISC",
+    "kind": "choice",
+    "prompt": "In the Discussion, the authors describe the finding as being 'among married and unmarried working women'. What's wrong?",
+    "options": [
+     "Nothing: it correctly describes the two groups of women who were actually studied",
+     "The study had no unmarried women: it compared working vs non-working married women",
+     "The study only included unmarried women, so 'married' is the incorrect word there",
+     "It should say working men, because men were also included in the final sample"
+    ],
+    "ans": "The study had no unmarried women: it compared working vs non-working married women",
+    "model": "The Discussion describes a sample that wasn't studied.",
+    "why": "Always check that the Discussion talks about the same sample and variables as the Method."
+   },
+   {
+    "key": "cmp",
+    "label": "Comparing the groups",
+    "tag": "CMP",
+    "kind": "choice",
+    "prompt": "The title implies a comparison between working and non-working women. Did the authors statistically compare the two groups?",
+    "options": [
+     "Yes, with a t-test",
+     "Yes, by testing the difference between the two correlations",
+     "No: they only computed a separate correlation for each group",
+     "Yes, with ANOVA"
+    ],
+    "ans": "No: they only computed a separate correlation for each group",
+    "model": "No group comparison was tested.",
+    "why": "To claim the groups differ you would need e.g. a t-test on mean depression/life satisfaction or a test of the difference between the two r values."
+   },
+   {
+    "key": "concl",
+    "label": "Conclusion",
+    "tag": "CONC",
+    "kind": "choice",
+    "prompt": "The Conclusion says depression 'may be a predominantly individualistic event'. Is this supported?",
+    "options": [
+     "Yes, it follows directly from the negative correlations reported in the results",
+     "No: individualism was never measured, so the claim doesn't follow from the data",
+     "Yes, because the sample was collected in one culture and so reflects its values",
+     "Yes, because the hypothesis was supported, which confirms the theory behind it"
+    ],
+    "ans": "No: individualism was never measured, so the claim doesn't follow from the data",
+    "model": "Not supported by the data.",
+    "why": "A conclusion must come from the results. This claim seems borrowed from other literature (e.g. Simpson et al., 1996)."
+   },
+   {
+    "key": "lim",
+    "label": "Limitations stated",
+    "tag": "LIM",
+    "kind": "text",
+    "prompt": "What TWO limitations do the authors list?",
+    "accept": [
+     [
+      "sample",
+      "random"
+     ]
+    ],
+    "model": "Small sample size; participants gave random answers.",
+    "why": "Admitting participants answered randomly is serious: it questions the whole data set, yet they don't say how they dealt with it."
+   },
+   {
+    "key": "lim2",
+    "label": "Limitation NOT mentioned",
+    "tag": "LIM2",
+    "kind": "text",
+    "prompt": "Name ONE important limitation the authors did NOT mention.",
+    "accept": [
+     [
+      "purposive|non probab|nonprobab|random sampl|generali|caus|correlat|self report|selfreport|reliab|valid|single|one city|confound|compar"
+     ]
+    ],
+    "model": "e.g. purposive sampling limits generalisability; correlation ≠ causation; self-report bias; no reliability data; no test comparing the groups; possible confounds (income, age, children).",
+    "why": "Their limitations are thin. Spotting unstated limitations is a key critique skill."
+   },
+   {
+    "key": "lit",
+    "label": "Most relevant prior study",
+    "tag": "LIT",
+    "kind": "text",
+    "prompt": "Most of the literature review is about teachers, students and the elderly. Which reviewed study is MOST directly related to working vs non-working women?",
+    "accept": [
+     [
+      "hasnain"
+     ]
+    ],
+    "model": "Hasnain, Ansari and Sethi (2011): working vs non-working (and married vs unmarried) women on life satisfaction and self-esteem.",
+    "why": "A good literature review builds toward the gap. Here most studies are loosely related, and the gap is never clearly stated."
+   },
+   {
+    "key": "eth",
+    "label": "Ethics",
+    "tag": "ETH",
+    "kind": "choice",
+    "prompt": "What does the article report about ethics?",
+    "options": [
+     "Ethics committee approval and written informed consent are both reported clearly",
+     "Only 'developing a good rapport'; no approval, consent or debriefing is mentioned",
+     "Only informed consent is mentioned; ethics approval and debriefing are left out",
+     "A full debriefing procedure is described, including referral for depressed women"
+    ],
+    "ans": "Only 'developing a good rapport'; no approval, consent or debriefing is mentioned",
+    "model": "No ethics information.",
+    "why": "Research with human participants should report approval and consent, especially with a sensitive measure like depression."
+   }
+  ]
+ },
+ {
+  "id": "l14-trifiro",
+  "v": 1,
+  "real": true,
+  "lec": 14,
+  "level": 3,
+  "title": "Active Instagram Use and Its Association With Self-Esteem and Well-Being",
+  "short": "Lecture 14 · Active Instagram use, self-esteem & well-being",
+  "authors": "Trifiro, B. M.; Prena, K.",
+  "year": 2021,
+  "journal": "Technology, Mind, and Behavior",
+  "doi": "10.1037/tmb0000043",
+  "url": "https://doi.org/10.1037/tmb0000043",
+  "design": "Cross-sectional survey with mediation analysis (correlational)",
+  "citation": "Trifiro, B. M., & Prena, K. (2021). Active Instagram use and its association with self-esteem and well-being. Technology, Mind, and Behavior, 2(3), 266–270. https://doi.org/10.1037/tmb0000043",
+  "licNote": "Licence: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/). Text reproduced unchanged for non-commercial study, with attribution; tables, figures, footnotes and references omitted.",
+  "text": [
+   {
+    "h": "Abstract",
+    "s": [
+     "Over the last two decades, social media has become an integral facet of modern society.",
+     "Image-based social networking sites such as Instagram have become increasingly popular among adolescents and young adults.",
+     "However, to date, there is a preponderance of conflicting research regarding the impact of social media use, particularly of image-based platforms, on subsequent user outcomes.",
+     "Utilizing a snowball sample of 359 college-aged individuals from throughout the United States, the present study sought to analyze the relationship between active social media use and its association with user self-esteem and well-being through data obtained through survey research from undergraduate college students.",
+     "It was hypothesized that active Instagram use would be positively associated with user well-being and self-esteem.",
+     "Not only was this hypothesis supported, but our findings reveal that intensity of Instagram use serves as a mediating variable in the relationship between active Instagram use and well-being and self-esteem.",
+     "Specifically, respondents who identified as more active Instagram users used social media more intensely, and those who used social media more intensely had higher self-esteem.",
+     "Similarly, those who used social media more intensely reported higher levels of well-being.",
+     "While the correlations among these variables may be slight, we argue that they pose implications regarding how usage patterns impact user outcomes.",
+     "These findings illustrate the role of intensity of Instagram usage on user outcomes and reveal a relationship among these variables, where more active Instagram use, coupled with more intense usage, ultimately corresponds to positive effects—specifically elevated levels of self-esteem and well-being."
+    ]
+   },
+   {
+    "h": "Introduction",
+    "s": [
+     "The proliferation of social media has led many to question its potential consequences on users (de Vries et al., 2017; Johnson & Knobloch-Westerwick, 2017; Lin et al., 2016; McLean et al., 2015; Orben et al., 2019; Orben & Przybylski, 2019; Schemer et al., 2021; Verduyn et al., 2017).",
+     "Following the rise of image-based social networking sites (SNS), recent research has demonstrated an association between active SNS use (using SNS to connect with others, rather than compare individuals, also known as passive SNS use) and positive user outcomes—such as higher levels of reported subjective well-being and lower levels of loneliness (Grieve et al., 2013).",
+     "This research postulates that active SNS engagement results in the generation of social capital—enabling users to feel more connected with one another.",
+     "Similarly, research shows that users who engage with SNS content more “intensely” often experience positive user outcome as they feel more connected to their online community (Ellison et al., 2007).",
+     "Considering the existing literature, we posit that intensity of Instagram use will mediate the association between active Instagram use and user outcomes—specifically user self-esteem and well-being."
+    ]
+   },
+   {
+    "h": "Active SNS Usage, Intensity of Use, and Social Capital",
+    "s": [
+     "To date, there is ample existing literature that seeks to elucidate the relationship between social media use and subsequent user effects.",
+     "While some scholars have argued that certain forms of social media use can result in positive outcomes, such as enhanced levels of social capital (Ellison et al., 2007) and social connectedness (Verduyn et al., 2017), others have argued that social media use can result in negative outcomes, such as elevated levels of depression and other mental health challenges (Lin et al., 2016; Rasmussen et al., 2020; Zhao & Zhou, 2020), problematic smartphone use (Hinojo-Lucena et al., 2020), and dissatisfaction with one’s body resulting in dietary restraint (McLean et al., 2015).",
+     "Even further, other scholars have argued elsewhere that the effect sizes of social media effects are relatively small and merely contingent on analytic measures employed by researchers (Orben et al., 2019; Orben & Przybylski, 2019).",
+     "Thus, while there are mixed conclusions regarding the impact of social media on users (Lin et al., 2016; Orben et al., 2019; Orben & Przybylski, 2019; Rasmussen et al., 2020; Verduyn et al., 2017; Zhao & Zhou, 2020), we have chosen to focus on its impact specifically on self-esteem and well-being.",
+     "Research frequently attributes positive user outcomes with the generation of social capital.",
+     "Social capital refers to the benefits afforded from an individuals’ relationships or social network, such as a sense of belonging or social connectedness (Verduyn et al., 2017).",
+     "One action that has been proven to generate social capital is user intensity, defined as strength of emotional connection to SNS content.",
+     "Specifically, Ellison et al. (2007) found that intense Facebook use is often able to predict increased levels of maintained social capital among users.",
+     "Thus, the more emotionally connected a user feels to a platform, the more positive the user outcomes (Ellison et al., 2007; Verduyn et al., 2017).",
+     "Verduyn et al. (2017) articulate how different SNS usage patterns, particularly active or passive use, often result in divergent user outcomes.",
+     "Notably, active use has been associated with more positive user outcomes—whereas passive use often results in deleterious ones.",
+     "Active behaviors may include uploading a picture onto Instagram, “liking” someone else’s content, or commenting on another user’s post.",
+     "Similar to intense usage, this form of engagement often results in the generation of social capital and social connectedness, leading to enhanced positive user outcomes such as self-esteem and subjective well-being among users.",
+     "In contrast, passive use refers to the monitoring of other people’s lives without directly engaging with other users, which often leads to deleterious user effects, such as reduced levels of self-esteem (Verduyn et al., 2017).",
+     "Considering the existing literature (Ellison et al., 2007; Grieve et al., 2013; Verduyn et al., 2017), intensity of use may serve as a potential mediating factor in the relationship between active use and user outcomes.",
+     "Considering the tenets of social capital theory, intensity of active use should enhance social capital among users—thus resulting in more positive user outcomes as users feel more connected with one another.",
+     "The following hypotheses are proposed to assess the impact that intensity has on the relationship between active Instagram use and user outcomes:",
+     "Hypothesis 1: Higher levels of active Instagram use will be associated with increased levels of self-esteem, with intensity as a mediating variable.",
+     "Hypothesis 2: Higher levels of active Instagram use will be associated with increased levels of well-being, with intensity as a mediating variable."
+    ]
+   },
+   {
+    "h": "Method: Procedure and Sample",
+    "s": [
+     "Undergraduate students from colleges and universities throughout the United States were recruited through Facebook and Instagram posts.",
+     "Undergraduate students at a New England university were also recruited in exchange for extra credit.",
+     "Data collection occurred during the first 6 months of 2018.",
+     "The only criterion for inclusion was that all respondents needed to be current undergraduate college students.",
+     "A total of 411 questionnaires were submitted by participants, with 359 usable responses.",
+     "The remainder were excluded due to incomplete data.",
+     "This study was approved by the university’s Institutional Review Board."
+    ]
+   },
+   {
+    "h": "Active Use Measure",
+    "s": [
+     "The Passive and Active Use Measure was selected to measure respondents’ different types of Instagram use (Gerson et al., 2017).",
+     "The measure was adapted to reflect Instagram activities.",
+     "Active and passive items were then divided into two separate scales.",
+     "Respondents’ final scores were the sum of the five items.",
+     "Active use scores ranged from 5 to 25 (M = 15.03, SD = 3.89, Cronbach’s α = .73).",
+     "While data on passive use were collected from the study’s questionnaire, the results are beyond the goals of this study and did not contribute to explaining our hypotheses."
+    ]
+   },
+   {
+    "h": "Instagram Intensity",
+    "s": [
+     "The Intensity Scale was adapted from a study by Ellison et al. (2007) to reflect the functions of Instagram rather than those of Facebook.",
+     "The scale was adopted based upon arguments made by Ellison et al. (2007) that more intense Facebook use resulted in greater reported levels of social capital.",
+     "The measure includes self-reported assessments of Instagram behaviors through Likert-scale attitudinal questions designed to measure the extent to which respondents are emotionally connected to Instagram.",
+     "This connection was measured through specific items, such as “Instagram is part of my everyday activity,” “I am proud to tell people I’m on Instagram,” and “I feel out of touch when I haven’t logged onto Instagram for a while.”",
+     "The scale also asked respondents to indicate how many followers they had on the platform as well as how much time they spent on the platform.",
+     "Scores ranged from 8 to 44 (M = 32.74, SD = 7.58, Cronbach’s α = .83)."
+    ]
+   },
+   {
+    "h": "Self-Esteem",
+    "s": [
+     "The Rosenberg Self-Esteem Scale was used to measure self-esteem levels (Diener et al., 1985).",
+     "Participants were instructed to indicate their level of agreement with 10 statements on a 5-point Likert scale.",
+     "Examples of statements within this scale include: “I feel that I am a person of worth” and “I feel I do not have much to be proud of” (reverse coded).",
+     "Scores ranged from 11 to 40 (M = 31.01, SD = 5.71, Cronbach’s α = .89)."
+    ]
+   },
+   {
+    "h": "Well-Being",
+    "s": [
+     "The Satisfaction with Life Scale was administered to gauge respondent well-being.",
+     "It was selected because the scale has proven to accurately measure the two components of subjective well-being, affect and life satisfaction, exemplifying the measure’s reliability (Verduyn et al., 2015).",
+     "The scale includes five Likert-scale items designed to gauge respondents’ beliefs about their own life.",
+     "Examples include “the conditions of my life are excellent” and “if I could live my life over, I would change almost nothing.”",
+     "Scores ranged from 5 to 35 (M = 25.11, SD = 5.89, Cronbach’s α = .86)."
+    ]
+   },
+   {
+    "h": "Data Analysis",
+    "s": [
+     "All data were cleaned and processed using SPSS.",
+     "Haye’s (2013) PROCESS macro was used to perform mediation analyses to address Hypotheses 1 and 2.",
+     "In terms of hypothesis testing, we accepted a maximum α of .05 to determine statistical significance (p < .05).",
+     "To avoid concerns regarding multicollinearity, we first ensured the Variance Inflation Factor (VIF) among our predictor variables fell below five per guidance offered in the existing literature (Belsley et al., 1980; Mason & Perreault, 1991)."
+    ]
+   },
+   {
+    "h": "Results",
+    "s": [
+     "Of the 359 usable responses, 122 were male (34%) and 236 were female (65.7%).",
+     "One respondent preferred not to disclose their gender (0.3%).",
+     "The average age was 20.06 years.",
+     "Most participants reported having at least 801 followers (n = 189, 52.6%) and spent roughly 31–45 min per day on Instagram (n = 97, 59.6%).",
+     "Descriptive measures and correlations are provided in Table 1.",
+     "There was a significant correlation between active Instagram use and intensity of use (r = .55, n = 359, p < .001).",
+     "However, multicollinearity between these two predictors was small (VIF = 1.43; Belsley et al., 1980; Mason & Perreault, 1991)."
+    ]
+   },
+   {
+    "h": "Results: Hypothesis 1",
+    "s": [
+     "The first hypothesis predicted that there would be a positive relationship between active Instagram use and levels of user self-esteem, mediated by intensity.",
+     "It was supported.",
+     "First, Pearson’s product-moment correlation was run between active use and self-esteem.",
+     "The results indicate that there is a positive correlation, albeit weak, between active Instagram usage and user levels of self-esteem, r (356) = .13, p = .017.",
+     "Second, to consider a mediation relationship, a simple mediation analysis with ordinary least-squares path analysis was conducted (Hayes, 2013).",
+     "Results indicated a significant indirect effect of active use on self-esteem through intensity.",
+     "Those who identified as more active users used social media more intensely, a = 1.07, t(357) = 12.41, p < .001, 95% CI [0.90, 1.24], and those who used social media more intensely had higher self-esteem, b = 0.10, t(356) = 2.14, p = .033, 95% CI [0.01, 0.19].",
+     "A confidence interval around the indirect effect, ab = 0.11, generated using a bias-corrected collection of 10,000 bootstrapped, samples did not intersect with zero, 95% CI [0.0004, 0.22].",
+     "The total effect of active use on self-esteem, accounting for the mediation of intensity of use, was significant, c = .19, t(357) = 2.40, p = .017, 95% CI [0.03, 0.34].",
+     "The direct relationship between active use and self-esteem was not significant, c’ = 0.08, t(357) = 0.84, p = .401, 95% CI [−0.10, 0.26].",
+     "This suggests that intensity is a mediator between active use and self-esteem.",
+     "More information and model summaries are provided in Table 2, as well as in Figure S1 in Supplemental Materials."
+    ]
+   },
+   {
+    "h": "Results: Hypothesis 2",
+    "s": [
+     "The second hypothesis predicted that there would be a positive relationship between active Instagram use and levels of user well-being, mediated by intensity.",
+     "It was supported.",
+     "To analyze this relationship, a Pearson’s product-moment correlation indicated that there is a positive correlation, albeit weak, between active Instagram usage and user levels of well-being, r (356) = .15, p = .004.",
+     "A second simple mediation analysis with ordinary least-squares path analysis was conducted (Hayes, 2013) to consider the mediating role of intensity of use in the relationship between active Instagram usage and well-being.",
+     "Results indicated a significant indirect effect of active use on well-being through intensity.",
+     "Those who identified as more active users used social media more intensely, a = 1.07, t(357) = 12.41, p < .001, 95% CI [0.90, 1.24].",
+     "Furthermore, those who used social media more intensely had higher reported levels of well-being, b = 0.16, t(356) = 3.38, p < .001, 95% CI [0.07, 0.26].",
+     "A confidence interval around the indirect effect, ab = 0.17, generated using a bias-corrected collection of 10,000 bootstrapped, samples did not intersect with zero, 95% CI [0.054, 0.30].",
+     "The total effect of active use on well-being, accounting for the mediation of intensity of use, was significant, c = .23, t(357) = 2.92, p = .004, 95% CI [0.08, 0.39].",
+     "The direct relationship between active use and well-being was not significant, c’ = 0.06, t(357) = 0.62, p = .54, 95% CI [−0.12, 0.24].",
+     "This suggests that intensity serves as a mediator between active use and well-being.",
+     "More information and model summaries are provided in Table 3, as well as in Figure S2 Supplemental Materials."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "s": [
+     "The present study provides evidence that the ways in which young adults engage with online content have the ability to significantly impact how they feel about themselves afterward.",
+     "Specifically, our results indicate that intensity serves as a mediating variable in the relationship between active Instagram use and both self-esteem (Hypothesis 1) and well-being (Hypothesis 2).",
+     "The results of the present study expand much of the existing literature pertaining to social capital theory, as we illustrate that active Instagram usage, coupled with high intensity of use, are slightly associated with positive user outcomes.",
+     "Building upon social capital theory, our findings illustrate that the relationship between Instagram use and user outcomes such as self-esteem and subjective well-being is much more complex than has been previously explained in the existing literature.",
+     "Our results reveal that the more intensely users engage with Instagram, the higher their self-esteem and the higher their subjective well-being.",
+     "This implies that perhaps the more intensely users engage with the platform, the more they feel as though they are a part of the community and have greater levels of social connectedness.",
+     "Without this intensity, perhaps users fall into more passive usage behaviors, which have been connected to higher levels of depression and lower levels of well-being (de Vries et al., 2017; Krasnova et al., 2013; Verduyn et al., 2017).",
+     "While the present study is primarily concerned with the impacts of active Instagram use on user effects, the data do indicate slight relationships between passive use and these outcomes—where passive Instagram use was positively correlated with user self-esteem, r (359) = .13, p = .016, and well-being, r (359) = .19, p < .001.",
+     "Thus, future research may benefit from analyzing the relationship between lack of intensity and passive Instagram use.",
+     "Furthermore, given the various flaws with survey research, future work may benefit from more direct behavioral observations, either through experiments or interviews, to uncover the effects of social media use on participants.",
+     "As with all empirical projects, the present study is not without limitations.",
+     "Due to the nature of our research, it is impossible to assert causality in the relationships reported here, beyond what social capital theory would suggest.",
+     "Furthermore, our models report weak effect sizes that could suggest minimal effects of the mediation on self-esteem and well-being.",
+     "Furthermore, it is important to note that Hayes (2013) questions the use of effect sizes to interpret mediation models that use smaller sample sizes as smaller samples may skew the accuracy of the calculated measure.",
+     "With this in mind, it is important to caution the reader of these results in our analysis.",
+     "One additional limitation of this study was the incorporation of the Passive and Active Use Measure.",
+     "This scale was selected to gauge whether respondents were active or passive users.",
+     "However, it is evident that these categories are not mutually exclusive.",
+     "Users can be both active and passive—even during the same online session (Trifiro & Gerson, 2019).",
+     "Thus, it is impossible to divide respondents into mutually exclusive groups.",
+     "Future research may be dedicated to developing a measure designed to analyze the frequency and intensity of use of specific social media usage patterns.",
+     "As described, the existing literature pertaining to the effects of social media use is quite conflicted.",
+     "To this end, the present paper argues that existing work in this area has largely overlooked the mediating role of intensity of use in the relationship between social media usage patterns and user outcomes.",
+     "Considering the core arguments offered by social capital theory, it is possible that an individual’s desire to belong to a community motivates them to engage more actively on social media, thereby resulting in higher levels of self-esteem and well-being.",
+     "In conclusion, the findings presented here expand upon the existing literature pertaining to social capital theory, illustrating that intensity of use mediates the relationship between usage patterns and user outcomes.",
+     "This relationship is particularly interesting for avid social media users, as it indicates that there is a slight association with how one engages with platforms and how they feel afterward.",
+     "Thus, these findings could be of particular use to users, parents, educators, and even social media platforms themselves.",
+     "Considering the conflicted nature of the existing literature, it is possible that prior work in this area has only been focused on a handful of variables that can impact user outcomes.",
+     "Thus, future work could benefit at a more thorough analysis of what other variables may influence the relationship between social media usage and user outcomes in an effort to provide a more comprehensive perspective of what factors impact this relationship."
+    ]
+   }
+  ],
+  "items": [
+   {
+    "key": "hyp",
+    "label": "Hypothesis",
+    "tag": "H",
+    "kind": "sentence",
+    "prompt": "Find the FIRST formal hypothesis exactly as the authors state it.",
+    "ans": [
+     "2.17"
+    ],
+    "ok": [
+     "2.18"
+    ],
+    "model": "H1: More active Instagram use will be associated with higher self-esteem, with intensity as a mediator.",
+    "why": "The formal hypotheses come at the end of the literature review. The abstract gives a simplified version that leaves the mediator out."
+   },
+   {
+    "key": "ivdv",
+    "label": "Variables in the mediation model",
+    "tag": "VAR",
+    "kind": "text",
+    "prompt": "Name the predictor (X), the mediator (M) and the TWO outcome variables (Y).",
+    "accept": [
+     [
+      "active",
+      "intens",
+      "self esteem|selfesteem",
+      "well being|wellbeing|life satisfaction"
+     ]
+    ],
+    "model": "X = active Instagram use; M = intensity of Instagram use; Y = self-esteem and well-being.",
+    "why": "A mediator sits in the middle: X → M → Y. Here active use → intensity → self-esteem / well-being."
+   },
+   {
+    "key": "cd",
+    "label": "Conceptual definition (intensity)",
+    "tag": "CD",
+    "kind": "sentence",
+    "prompt": "Find the sentence that gives a CONCEPTUAL definition of the mediator.",
+    "ans": [
+     "2.6"
+    ],
+    "model": "User intensity = the strength of a person's emotional connection to SNS content.",
+    "why": "A conceptual definition says what the concept MEANS. The operational definition (how it was measured) comes later in the Method."
+   },
+   {
+    "key": "od",
+    "label": "Operational definition (intensity)",
+    "tag": "OD",
+    "kind": "sentence",
+    "prompt": "How was the mediator actually MEASURED? Find the sentence naming the instrument and where it came from.",
+    "ans": [
+     "5.0"
+    ],
+    "ok": [
+     "5.2",
+     "5.3"
+    ],
+    "model": "The Intensity Scale, adapted from Ellison et al. (2007) for Instagram.",
+    "why": "The next sentences describe its Likert items. Any of them is accepted."
+   },
+   {
+    "key": "frame",
+    "label": "Theoretical framework",
+    "tag": "TF",
+    "kind": "text",
+    "prompt": "Which THEORY do the authors use to explain why intensity should matter?",
+    "accept": [
+     [
+      "social capital"
+     ]
+    ],
+    "model": "Social capital theory: intense, active use builds social capital (belonging, connectedness), which raises self-esteem and well-being.",
+    "why": "The framework is named in the literature review and again in the Discussion."
+   },
+   {
+    "key": "snow",
+    "label": "Sampling method",
+    "tag": "SAMP",
+    "kind": "choice",
+    "prompt": "The abstract calls this a 'snowball sample'. Based on the METHOD section, what kind of sample is it really?",
+    "options": [
+     "A simple random sample of undergraduates drawn from US college enrolment lists",
+     "A convenience (volunteer) sample from social-media posts and extra-credit students",
+     "A snowball sample in which each participant recruited further college friends",
+     "A stratified sample with equal numbers of students from each US region"
+    ],
+    "ans": "A convenience (volunteer) sample from social-media posts and extra-credit students",
+    "model": "A convenience (volunteer) sample, not truly snowball or random.",
+    "why": "Recruitment was through Facebook/Instagram posts and course credit at one university. Nothing in the Method describes participants recruiting other participants (snowballing), and nothing is random."
+   },
+   {
+    "key": "recruit",
+    "label": "Recruitment incentive",
+    "tag": "INC",
+    "kind": "sentence",
+    "prompt": "Find the sentence showing that some participants were given an incentive to take part.",
+    "ans": [
+     "3.1"
+    ],
+    "model": "Students at one New England university were recruited in exchange for extra credit.",
+    "why": "Incentives and a single-university subgroup are possible sources of sampling bias."
+   },
+   {
+    "key": "n",
+    "label": "Recruited vs final sample",
+    "tag": "N",
+    "kind": "text",
+    "prompt": "How many questionnaires were submitted, and how many were analysed?",
+    "accept": [
+     [
+      "411",
+      "359"
+     ]
+    ],
+    "model": "411 submitted, 359 usable (52 excluded for incomplete data).",
+    "why": "Always compare the number recruited with the number analysed. Here about 13% of responses were dropped."
+   },
+   {
+    "key": "design",
+    "label": "Research design",
+    "tag": "GM",
+    "kind": "choice",
+    "prompt": "Which best describes the design?",
+    "options": [
+     "Experiment with a manipulated IV",
+     "Cross-sectional correlational survey (with mediation analysis)",
+     "Longitudinal panel study",
+     "Quasi-experiment comparing active vs passive users"
+    ],
+    "ans": "Cross-sectional correlational survey (with mediation analysis)",
+    "model": "Cross-sectional correlational survey.",
+    "why": "One online survey at one time point; nothing was manipulated. Mediation analysis doesn't change the design: it's still correlational."
+   },
+   {
+    "key": "rel",
+    "label": "Reliability",
+    "tag": "REL",
+    "kind": "text",
+    "prompt": "Which statistic do the authors report as evidence of RELIABILITY for their scales, and what is the LOWEST value?",
+    "accept": [
+     [
+      "cronbach|alpha",
+      "73"
+     ]
+    ],
+    "model": "Cronbach's α (internal consistency): .73 (active use), .83 (intensity), .89 (self-esteem), .86 (well-being). Lowest = .73.",
+    "why": "Cronbach's α above about .70 is usually treated as acceptable internal consistency."
+   },
+   {
+    "key": "relval",
+    "label": "Reliability vs validity mix-up",
+    "tag": "RV",
+    "kind": "sentence",
+    "prompt": "One sentence in the Method claims something is evidence of RELIABILITY when it actually describes VALIDITY. Find it.",
+    "ans": [
+     "7.1"
+    ],
+    "model": "'The scale has proven to accurately measure the two components of subjective well-being… exemplifying the measure's reliability.'",
+    "why": "Accurately measuring what it's supposed to measure is VALIDITY. Reliability is consistency (e.g. Cronbach's α)."
+   },
+   {
+    "key": "cite",
+    "label": "Citation error",
+    "tag": "CIT",
+    "kind": "sentence",
+    "prompt": "One scale is cited to the wrong source (the source given is actually the paper for a DIFFERENT scale used in this study). Find it.",
+    "ans": [
+     "6.0"
+    ],
+    "model": "The Rosenberg Self-Esteem Scale is cited as Diener et al. (1985), but Diener et al. (1985) is the Satisfaction with Life Scale.",
+    "why": "Check that each measure is cited to the paper that developed it. The reference list confirms Diener et al. (1985) is 'The satisfaction with life scale'."
+   },
+   {
+    "key": "passive",
+    "label": "Dropped variable",
+    "tag": "DROP",
+    "kind": "sentence",
+    "prompt": "Find the sentence showing the authors collected data on a variable but chose NOT to analyse it in the Results.",
+    "ans": [
+     "4.5"
+    ],
+    "ok": [
+     "4.2"
+    ],
+    "model": "Passive use data were collected but treated as beyond the goals of the study.",
+    "why": "It later appears in the Discussion, where passive use is ALSO positively related to self-esteem and well-being. That doesn't fit the theory they describe in the Introduction (passive use should be harmful)."
+   },
+   {
+    "key": "contra",
+    "label": "Result that contradicts the theory",
+    "tag": "CON",
+    "kind": "sentence",
+    "prompt": "Find the result reported in the Discussion that doesn't fit the theory presented in the literature review.",
+    "ans": [
+     "12.7"
+    ],
+    "model": "Passive use was also positively correlated with self-esteem (r = .13) and well-being (r = .19).",
+    "why": "The literature review says passive use leads to lower self-esteem (2.13), but here passive use goes WITH higher self-esteem and well-being."
+   },
+   {
+    "key": "strength",
+    "label": "Strength of the correlations",
+    "tag": "ES",
+    "kind": "choice",
+    "prompt": "How strong is the correlation between active Instagram use and self-esteem (r = .13)?",
+    "options": [
+     "Strong and positive, so active use explains most of the variation in self-esteem",
+     "Weak and positive: active use shares under 2% of the variance with self-esteem",
+     "Moderate and positive: active use explains about a quarter of the variance",
+     "Not significant, because the p value is above the .05 level the authors set"
+    ],
+    "ans": "Weak and positive: active use shares under 2% of the variance with self-esteem",
+    "model": "Weak and positive: about 2% of the variance in self-esteem",
+    "why": "r = .13 is significant (p = .017) but weak: r² ≈ .017, so active use shares under 2% of variance with self-esteem. A large sample makes small effects significant."
+   },
+   {
+    "key": "med",
+    "label": "What the mediation result means",
+    "tag": "MED",
+    "kind": "choice",
+    "prompt": "The direct effect of active use on self-esteem was NOT significant (c' = 0.08, p = .401), but the indirect effect through intensity WAS. What does this mean?",
+    "options": [
+     "Active use directly causes higher self-esteem, and intensity is irrelevant to it",
+     "Statistically, the link from active use to self-esteem runs through intensity",
+     "There is no relationship of any kind between active use and self-esteem",
+     "The hypothesis was rejected because the direct effect was not significant"
+    ],
+    "ans": "Statistically, the link from active use to self-esteem runs through intensity",
+    "model": "The link between active use and self-esteem goes through intensity (full mediation), statistically",
+    "why": "Once intensity is accounted for, active use adds nothing on its own. But in cross-sectional data this is a statistical pattern, not proof of a causal chain."
+   },
+   {
+    "key": "causal",
+    "label": "Causal overclaim",
+    "tag": "CAUS",
+    "kind": "sentence",
+    "prompt": "Find the sentence in the DISCUSSION that uses causal language the design can't support.",
+    "ans": [
+     "12.0"
+    ],
+    "ok": [
+     "12.4",
+     "12.23"
+    ],
+    "model": "'…the ways in which young adults engage with online content have the ability to significantly impact how they feel about themselves.'",
+    "why": "'Impact' implies cause. A one-time correlational survey can't show that Instagram use CHANGES self-esteem. The authors themselves admit this later (12.11)."
+   },
+   {
+    "key": "lim",
+    "label": "Limitations",
+    "tag": "LIM",
+    "kind": "sentence",
+    "prompt": "Find the sentence where the authors admit the design can't show cause and effect.",
+    "ans": [
+     "12.11"
+    ],
+    "ok": [
+     "12.10"
+    ],
+    "model": "Because of the nature of the research, causality can't be asserted.",
+    "why": "The limitations paragraph has three: no causality, weak effect sizes, and active/passive categories that aren't mutually exclusive."
+   },
+   {
+    "key": "lim2",
+    "label": "Measurement limitation",
+    "tag": "LIM2",
+    "kind": "sentence",
+    "prompt": "Find the sentence explaining WHY the active-use measure is a problem.",
+    "ans": [
+     "12.17"
+    ],
+    "ok": [
+     "12.18",
+     "12.19",
+     "12.15"
+    ],
+    "model": "Active and passive use aren't mutually exclusive: users can be both, even in the same session.",
+    "why": "A measurement limitation: the scale treats active and passive as separate, but behaviour overlaps."
+   },
+   {
+    "key": "gen",
+    "label": "Generalisability",
+    "tag": "GEN",
+    "kind": "text",
+    "prompt": "Give TWO features of the sample that limit generalisability (the authors don't mention them).",
+    "accept": [
+     [
+      "undergrad|college|student|age|20|young",
+      "female|women|gender|65|united states|american|one university|extra credit|volunteer|convenience"
+     ]
+    ],
+    "model": "e.g. only US undergraduates (mean age 20), about two-thirds female, self-selected volunteers from social media plus one university's extra-credit pool.",
+    "why": "The authors list limitations about causality and measurement but say nothing about who the sample represents. Spotting what is NOT said is part of critical reading."
+   },
+   {
+    "key": "fut",
+    "label": "Future research",
+    "tag": "FUT",
+    "kind": "text",
+    "prompt": "Name ONE method the authors suggest future research should use instead of surveys.",
+    "accept": [
+     [
+      "experiment|interview|observ"
+     ]
+    ],
+    "model": "Experiments, interviews or direct behavioural observation.",
+    "why": "Suggested because surveys rely on self-report and can't establish cause."
+   },
+   {
+    "key": "eth",
+    "label": "Ethics",
+    "tag": "ETH",
+    "kind": "sentence",
+    "prompt": "Find the evidence that the study received ethical approval.",
+    "ans": [
+     "3.6"
+    ],
+    "model": "Approved by the university's Institutional Review Board (IRB).",
+    "why": "An IRB is an ethics committee. Note there's no detail on consent or debriefing in the text."
+   }
+  ]
+ },
+ {
   "id": "r-PMC5544206",
   "v": 3,
   "real": true,

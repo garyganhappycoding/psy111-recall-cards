@@ -1,0 +1,335 @@
+{
+"level": 2,
+"short": "Lecture 14 · Life satisfaction and depression in married women",
+"design": "Cross-sectional correlational study (two groups)",
+"note": [
+"This article's licence doesn't allow it to be republished on this website, so its text isn't shown here.",
+"Open your Lecture 14 PDF (Article 1: Srivastava, 2016) next to this page and answer the tasks from it.",
+"Where things are in the PDF: Abstract; I. Introduction (definitions of life satisfaction and depression, then the literature review); II. Methodology (aim, objectives, hypotheses); III. Tools used; IV. Procedure (sample, inclusion and exclusion criteria); V. Statistical analysis; VI. Result (two correlation tables on page 6); VII. Discussion; VIII. Conclusion; Limitation; Future direction."
+],
+"items": [
+{
+"key": "aim",
+"label": "Aim",
+"tag": "RQ",
+"kind": "text",
+"prompt": "What is the aim of the study? (Section II)",
+"accept": [
+[
+"life satisfaction",
+"depress",
+"work"
+]
+],
+"model": "To see the relationship between life satisfaction and depression among working and non-working married women.",
+"why": "The aim and the objective are worded almost the same. It's a relationship (correlational) aim, not a cause-and-effect one."
+},
+{
+"key": "hyp",
+"label": "Hypothesis",
+"tag": "H",
+"kind": "choice",
+"prompt": "Look at the hypothesis in Section II, then at how the Discussion describes it. What do you notice?",
+"options": [
+"Both sections state the same directional hypothesis in almost the same words",
+"The Method's hypothesis has no direction, but the Discussion reports a directional one",
+"No hypothesis is stated anywhere, only an aim and an objective in Section II",
+"Both predict a difference in depression between working and non-working women"
+],
+"ans": "The Method's hypothesis has no direction, but the Discussion reports a directional one",
+"model": "Method: 'There will be significant relationship…' (no direction). Discussion: 'higher levels of depression would be associated with reduced life satisfaction' (direction).",
+"why": "The hypothesis you test must be the one you stated BEFORE the data. Changing it afterwards is a red flag."
+},
+{
+"key": "vars",
+"label": "Variables",
+"tag": "VAR",
+"kind": "text",
+"prompt": "Which TWO variables are correlated, and what is the grouping variable?",
+"accept": [
+[
+"life satisfaction",
+"depress",
+"work"
+]
+],
+"model": "Life satisfaction and depression are correlated; working vs non-working status splits the sample into two groups.",
+"why": "In a correlational study neither variable is truly an IV. Working status is a grouping (subject) variable, not manipulated."
+},
+{
+"key": "design",
+"label": "Research design",
+"tag": "GM",
+"kind": "choice",
+"prompt": "Which best describes the design?",
+"options": [
+"A true experiment in which employment status was manipulated by the researcher",
+"A cross-sectional correlational study carried out separately in two groups",
+"A longitudinal study following the same married women over several years",
+"A case study describing a small number of depressed working women in depth"
+],
+"ans": "A cross-sectional correlational study carried out separately in two groups",
+"model": "Cross-sectional correlational study.",
+"why": "Questionnaires given once, correlations computed separately for working and non-working women. Nothing manipulated."
+},
+{
+"key": "samp",
+"label": "Sampling method",
+"tag": "SAMP",
+"kind": "choice",
+"prompt": "How were the participants selected?",
+"options": [
+"Simple random sampling from a population list",
+"Stratified random sampling by employment status",
+"Purposive sampling (a non-probability method)",
+"Snowball sampling through participants' friends"
+],
+"ans": "Purposive sampling (a non-probability method)",
+"model": "Purposive (non-probability) sampling.",
+"why": "'Selected purposively'. Non-probability samples limit generalisation to all working/non-working married women."
+},
+{
+"key": "n",
+"label": "Sample size",
+"tag": "N",
+"kind": "text",
+"prompt": "How many participants in total, and how many in each group?",
+"accept": [
+[
+"140",
+"70"
+]
+],
+"model": "140 married women: 70 working and 70 non-working.",
+"why": "With n = 70 per group, only moderate-or-larger correlations are likely to reach significance."
+},
+{
+"key": "incl",
+"label": "Inclusion / exclusion criteria",
+"tag": "CRIT",
+"kind": "choice",
+"prompt": "What is the main problem with the inclusion and exclusion criteria?",
+"options": [
+"They are far too strict, so very few married women in the area were eligible",
+"They overlap, and never require participants to be married or define 'working'",
+"They wrongly exclude women over 30, which shrinks the age range of the sample",
+"They are not reported at all, so the reader cannot tell who could take part"
+],
+"ans": "They overlap, and never require participants to be married or define 'working'",
+"model": "Redundant criteria, and the key features of the sample (married; working vs not) aren't defined.",
+"why": "Criteria should define exactly who can be in the study. 'Females having any organisity' is also vague and undefined."
+},
+{
+"key": "od1",
+"label": "Operational definition: life satisfaction",
+"tag": "OD",
+"kind": "text",
+"prompt": "How was LIFE SATISFACTION measured? (Name the scale and its developer.)",
+"accept": [
+[
+"satisfaction with life|swls|life satisfaction scale",
+"diener"
+]
+],
+"model": "Satisfaction with Life Scale (SWLS; Diener et al.), 5 items about overall evaluation of one's life.",
+"why": "The operational definition = the score on this scale."
+},
+{
+"key": "od2",
+"label": "Operational definition: depression",
+"tag": "OD2",
+"kind": "text",
+"prompt": "How was DEPRESSION measured?",
+"accept": [
+[
+"beck|bdi"
+]
+],
+"model": "Beck Depression Inventory-II (BDI-II): 21-item self-report inventory.",
+"why": "Note the tools list calls it 'Back's Depression Inventory': a careless error that weakens credibility."
+},
+{
+"key": "rel",
+"label": "Reliability and validity",
+"tag": "REL",
+"kind": "choice",
+"prompt": "Does the article report reliability (e.g. Cronbach's α) for the scales in THIS sample?",
+"options": [
+"Yes, Cronbach's alpha is reported for both scales in this sample",
+"Only for the BDI-II, taken from the original 1996 test manual",
+"No, neither reliability nor validity evidence is reported here",
+"Yes, test-retest reliability over two weeks is reported for both"
+],
+"ans": "No, neither reliability nor validity evidence is reported here",
+"model": "No reliability or validity evidence is given.",
+"why": "Compare with the Instagram article, which reports Cronbach's α for every scale. Without it we can't judge measurement quality."
+},
+{
+"key": "stat",
+"label": "Statistical analysis",
+"tag": "STAT",
+"kind": "text",
+"prompt": "What statistical analysis was used to test the hypothesis?",
+"accept": [
+[
+"correlat|pearson"
+]
+],
+"model": "Pearson correlation (plus means and SDs), using SPSS version 16.",
+"why": "Correlation fits a relationship hypothesis. Note that no test COMPARES the two groups."
+},
+{
+"key": "r1",
+"label": "Result: working women",
+"tag": "R1",
+"kind": "text",
+"prompt": "From the first results table, give r and p for WORKING married women.",
+"accept": [
+[
+"079",
+"517"
+]
+],
+"model": "r = −.079, p = .517: NOT significant.",
+"why": "p > .05, so there is no significant relationship for working women."
+},
+{
+"key": "r2",
+"label": "Result: non-working women",
+"tag": "R2",
+"kind": "text",
+"prompt": "From the second table, give r and p for NON-WORKING married women.",
+"accept": [
+[
+"325",
+"006"
+]
+],
+"model": "r = −.325, p = .006: significant, weak-to-moderate negative correlation.",
+"why": "Higher depression goes with lower life satisfaction among non-working women. r² ≈ .11, so about 11% shared variance."
+},
+{
+"key": "claim",
+"label": "Do the results support the abstract?",
+"tag": "OVER",
+"kind": "choice",
+"prompt": "The abstract says there is a 'significant relationship between life satisfaction and depression among working and non-working married women'. Is that accurate?",
+"options": [
+"Yes, because both correlations in the results tables are statistically significant",
+"No: only the non-working group's correlation is significant; working women's is not",
+"No: neither group's correlation reaches significance at the .05 level in the tables",
+"Yes, because the correlation for the combined sample of 140 women is significant"
+],
+"ans": "No: only the non-working group's correlation is significant; working women's is not",
+"model": "Only the non-working group's correlation is significant.",
+"why": "This is the biggest flaw: the conclusion overclaims and ignores a non-significant result in their own table."
+},
+{
+"key": "group",
+"label": "Wrong group in the Discussion",
+"tag": "DISC",
+"kind": "choice",
+"prompt": "In the Discussion, the authors describe the finding as being 'among married and unmarried working women'. What's wrong?",
+"options": [
+"Nothing: it correctly describes the two groups of women who were actually studied",
+"The study had no unmarried women: it compared working vs non-working married women",
+"The study only included unmarried women, so 'married' is the incorrect word there",
+"It should say working men, because men were also included in the final sample"
+],
+"ans": "The study had no unmarried women: it compared working vs non-working married women",
+"model": "The Discussion describes a sample that wasn't studied.",
+"why": "Always check that the Discussion talks about the same sample and variables as the Method."
+},
+{
+"key": "cmp",
+"label": "Comparing the groups",
+"tag": "CMP",
+"kind": "choice",
+"prompt": "The title implies a comparison between working and non-working women. Did the authors statistically compare the two groups?",
+"options": [
+"Yes, with a t-test",
+"Yes, by testing the difference between the two correlations",
+"No: they only computed a separate correlation for each group",
+"Yes, with ANOVA"
+],
+"ans": "No: they only computed a separate correlation for each group",
+"model": "No group comparison was tested.",
+"why": "To claim the groups differ you would need e.g. a t-test on mean depression/life satisfaction or a test of the difference between the two r values."
+},
+{
+"key": "concl",
+"label": "Conclusion",
+"tag": "CONC",
+"kind": "choice",
+"prompt": "The Conclusion says depression 'may be a predominantly individualistic event'. Is this supported?",
+"options": [
+"Yes, it follows directly from the negative correlations reported in the results",
+"No: individualism was never measured, so the claim doesn't follow from the data",
+"Yes, because the sample was collected in one culture and so reflects its values",
+"Yes, because the hypothesis was supported, which confirms the theory behind it"
+],
+"ans": "No: individualism was never measured, so the claim doesn't follow from the data",
+"model": "Not supported by the data.",
+"why": "A conclusion must come from the results. This claim seems borrowed from other literature (e.g. Simpson et al., 1996)."
+},
+{
+"key": "lim",
+"label": "Limitations stated",
+"tag": "LIM",
+"kind": "text",
+"prompt": "What TWO limitations do the authors list?",
+"accept": [
+[
+"sample",
+"random"
+]
+],
+"model": "Small sample size; participants gave random answers.",
+"why": "Admitting participants answered randomly is serious: it questions the whole data set, yet they don't say how they dealt with it."
+},
+{
+"key": "lim2",
+"label": "Limitation NOT mentioned",
+"tag": "LIM2",
+"kind": "text",
+"prompt": "Name ONE important limitation the authors did NOT mention.",
+"accept": [
+[
+"purposive|non probab|nonprobab|random sampl|generali|caus|correlat|self report|selfreport|reliab|valid|single|one city|confound|compar"
+]
+],
+"model": "e.g. purposive sampling limits generalisability; correlation ≠ causation; self-report bias; no reliability data; no test comparing the groups; possible confounds (income, age, children).",
+"why": "Their limitations are thin. Spotting unstated limitations is a key critique skill."
+},
+{
+"key": "lit",
+"label": "Most relevant prior study",
+"tag": "LIT",
+"kind": "text",
+"prompt": "Most of the literature review is about teachers, students and the elderly. Which reviewed study is MOST directly related to working vs non-working women?",
+"accept": [
+[
+"hasnain"
+]
+],
+"model": "Hasnain, Ansari and Sethi (2011): working vs non-working (and married vs unmarried) women on life satisfaction and self-esteem.",
+"why": "A good literature review builds toward the gap. Here most studies are loosely related, and the gap is never clearly stated."
+},
+{
+"key": "eth",
+"label": "Ethics",
+"tag": "ETH",
+"kind": "choice",
+"prompt": "What does the article report about ethics?",
+"options": [
+"Ethics committee approval and written informed consent are both reported clearly",
+"Only 'developing a good rapport'; no approval, consent or debriefing is mentioned",
+"Only informed consent is mentioned; ethics approval and debriefing are left out",
+"A full debriefing procedure is described, including referral for depressed women"
+],
+"ans": "Only 'developing a good rapport'; no approval, consent or debriefing is mentioned",
+"model": "No ethics information.",
+"why": "Research with human participants should report approval and consent, especially with a sensitive measure like depression."
+}
+]
+}

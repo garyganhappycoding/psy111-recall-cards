@@ -1,0 +1,327 @@
+{
+"level": 3,
+"short": "Lecture 14 · Active Instagram use, self-esteem & well-being",
+"design": "Cross-sectional survey with mediation analysis (correlational)",
+"items": [
+{
+"key": "hyp",
+"label": "Hypothesis",
+"tag": "H",
+"kind": "sentence",
+"prompt": "Find the FIRST formal hypothesis exactly as the authors state it.",
+"ans": [
+"2.17"
+],
+"ok": [
+"2.18"
+],
+"model": "H1: More active Instagram use will be associated with higher self-esteem, with intensity as a mediator.",
+"why": "The formal hypotheses come at the end of the literature review. The abstract gives a simplified version that leaves the mediator out."
+},
+{
+"key": "ivdv",
+"label": "Variables in the mediation model",
+"tag": "VAR",
+"kind": "text",
+"prompt": "Name the predictor (X), the mediator (M) and the TWO outcome variables (Y).",
+"accept": [
+[
+"active",
+"intens",
+"self esteem|selfesteem",
+"well being|wellbeing|life satisfaction"
+]
+],
+"model": "X = active Instagram use; M = intensity of Instagram use; Y = self-esteem and well-being.",
+"why": "A mediator sits in the middle: X → M → Y. Here active use → intensity → self-esteem / well-being."
+},
+{
+"key": "cd",
+"label": "Conceptual definition (intensity)",
+"tag": "CD",
+"kind": "sentence",
+"prompt": "Find the sentence that gives a CONCEPTUAL definition of the mediator.",
+"ans": [
+"2.6"
+],
+"model": "User intensity = the strength of a person's emotional connection to SNS content.",
+"why": "A conceptual definition says what the concept MEANS. The operational definition (how it was measured) comes later in the Method."
+},
+{
+"key": "od",
+"label": "Operational definition (intensity)",
+"tag": "OD",
+"kind": "sentence",
+"prompt": "How was the mediator actually MEASURED? Find the sentence naming the instrument and where it came from.",
+"ans": [
+"5.0"
+],
+"ok": [
+"5.2",
+"5.3"
+],
+"model": "The Intensity Scale, adapted from Ellison et al. (2007) for Instagram.",
+"why": "The next sentences describe its Likert items. Any of them is accepted."
+},
+{
+"key": "frame",
+"label": "Theoretical framework",
+"tag": "TF",
+"kind": "text",
+"prompt": "Which THEORY do the authors use to explain why intensity should matter?",
+"accept": [
+[
+"social capital"
+]
+],
+"model": "Social capital theory: intense, active use builds social capital (belonging, connectedness), which raises self-esteem and well-being.",
+"why": "The framework is named in the literature review and again in the Discussion."
+},
+{
+"key": "snow",
+"label": "Sampling method",
+"tag": "SAMP",
+"kind": "choice",
+"prompt": "The abstract calls this a 'snowball sample'. Based on the METHOD section, what kind of sample is it really?",
+"options": [
+"A simple random sample of undergraduates drawn from US college enrolment lists",
+"A convenience (volunteer) sample from social-media posts and extra-credit students",
+"A snowball sample in which each participant recruited further college friends",
+"A stratified sample with equal numbers of students from each US region"
+],
+"ans": "A convenience (volunteer) sample from social-media posts and extra-credit students",
+"model": "A convenience (volunteer) sample, not truly snowball or random.",
+"why": "Recruitment was through Facebook/Instagram posts and course credit at one university. Nothing in the Method describes participants recruiting other participants (snowballing), and nothing is random."
+},
+{
+"key": "recruit",
+"label": "Recruitment incentive",
+"tag": "INC",
+"kind": "sentence",
+"prompt": "Find the sentence showing that some participants were given an incentive to take part.",
+"ans": [
+"3.1"
+],
+"model": "Students at one New England university were recruited in exchange for extra credit.",
+"why": "Incentives and a single-university subgroup are possible sources of sampling bias."
+},
+{
+"key": "n",
+"label": "Recruited vs final sample",
+"tag": "N",
+"kind": "text",
+"prompt": "How many questionnaires were submitted, and how many were analysed?",
+"accept": [
+[
+"411",
+"359"
+]
+],
+"model": "411 submitted, 359 usable (52 excluded for incomplete data).",
+"why": "Always compare the number recruited with the number analysed. Here about 13% of responses were dropped."
+},
+{
+"key": "design",
+"label": "Research design",
+"tag": "GM",
+"kind": "choice",
+"prompt": "Which best describes the design?",
+"options": [
+"Experiment with a manipulated IV",
+"Cross-sectional correlational survey (with mediation analysis)",
+"Longitudinal panel study",
+"Quasi-experiment comparing active vs passive users"
+],
+"ans": "Cross-sectional correlational survey (with mediation analysis)",
+"model": "Cross-sectional correlational survey.",
+"why": "One online survey at one time point; nothing was manipulated. Mediation analysis doesn't change the design: it's still correlational."
+},
+{
+"key": "rel",
+"label": "Reliability",
+"tag": "REL",
+"kind": "text",
+"prompt": "Which statistic do the authors report as evidence of RELIABILITY for their scales, and what is the LOWEST value?",
+"accept": [
+[
+"cronbach|alpha",
+"73"
+]
+],
+"model": "Cronbach's α (internal consistency): .73 (active use), .83 (intensity), .89 (self-esteem), .86 (well-being). Lowest = .73.",
+"why": "Cronbach's α above about .70 is usually treated as acceptable internal consistency."
+},
+{
+"key": "relval",
+"label": "Reliability vs validity mix-up",
+"tag": "RV",
+"kind": "sentence",
+"prompt": "One sentence in the Method claims something is evidence of RELIABILITY when it actually describes VALIDITY. Find it.",
+"ans": [
+"7.1"
+],
+"model": "'The scale has proven to accurately measure the two components of subjective well-being… exemplifying the measure's reliability.'",
+"why": "Accurately measuring what it's supposed to measure is VALIDITY. Reliability is consistency (e.g. Cronbach's α)."
+},
+{
+"key": "cite",
+"label": "Citation error",
+"tag": "CIT",
+"kind": "sentence",
+"prompt": "One scale is cited to the wrong source (the source given is actually the paper for a DIFFERENT scale used in this study). Find it.",
+"ans": [
+"6.0"
+],
+"model": "The Rosenberg Self-Esteem Scale is cited as Diener et al. (1985), but Diener et al. (1985) is the Satisfaction with Life Scale.",
+"why": "Check that each measure is cited to the paper that developed it. The reference list confirms Diener et al. (1985) is 'The satisfaction with life scale'."
+},
+{
+"key": "passive",
+"label": "Dropped variable",
+"tag": "DROP",
+"kind": "sentence",
+"prompt": "Find the sentence showing the authors collected data on a variable but chose NOT to analyse it in the Results.",
+"ans": [
+"4.5"
+],
+"ok": [
+"4.2"
+],
+"model": "Passive use data were collected but treated as beyond the goals of the study.",
+"why": "It later appears in the Discussion, where passive use is ALSO positively related to self-esteem and well-being. That doesn't fit the theory they describe in the Introduction (passive use should be harmful)."
+},
+{
+"key": "contra",
+"label": "Result that contradicts the theory",
+"tag": "CON",
+"kind": "sentence",
+"prompt": "Find the result reported in the Discussion that doesn't fit the theory presented in the literature review.",
+"ans": [
+"12.7"
+],
+"model": "Passive use was also positively correlated with self-esteem (r = .13) and well-being (r = .19).",
+"why": "The literature review says passive use leads to lower self-esteem (2.13), but here passive use goes WITH higher self-esteem and well-being."
+},
+{
+"key": "strength",
+"label": "Strength of the correlations",
+"tag": "ES",
+"kind": "choice",
+"prompt": "How strong is the correlation between active Instagram use and self-esteem (r = .13)?",
+"options": [
+"Strong and positive, so active use explains most of the variation in self-esteem",
+"Weak and positive: active use shares under 2% of the variance with self-esteem",
+"Moderate and positive: active use explains about a quarter of the variance",
+"Not significant, because the p value is above the .05 level the authors set"
+],
+"ans": "Weak and positive: active use shares under 2% of the variance with self-esteem",
+"model": "Weak and positive: about 2% of the variance in self-esteem",
+"why": "r = .13 is significant (p = .017) but weak: r² ≈ .017, so active use shares under 2% of variance with self-esteem. A large sample makes small effects significant."
+},
+{
+"key": "med",
+"label": "What the mediation result means",
+"tag": "MED",
+"kind": "choice",
+"prompt": "The direct effect of active use on self-esteem was NOT significant (c' = 0.08, p = .401), but the indirect effect through intensity WAS. What does this mean?",
+"options": [
+"Active use directly causes higher self-esteem, and intensity is irrelevant to it",
+"Statistically, the link from active use to self-esteem runs through intensity",
+"There is no relationship of any kind between active use and self-esteem",
+"The hypothesis was rejected because the direct effect was not significant"
+],
+"ans": "Statistically, the link from active use to self-esteem runs through intensity",
+"model": "The link between active use and self-esteem goes through intensity (full mediation), statistically",
+"why": "Once intensity is accounted for, active use adds nothing on its own. But in cross-sectional data this is a statistical pattern, not proof of a causal chain."
+},
+{
+"key": "causal",
+"label": "Causal overclaim",
+"tag": "CAUS",
+"kind": "sentence",
+"prompt": "Find the sentence in the DISCUSSION that uses causal language the design can't support.",
+"ans": [
+"12.0"
+],
+"ok": [
+"12.4",
+"12.23"
+],
+"model": "'…the ways in which young adults engage with online content have the ability to significantly impact how they feel about themselves.'",
+"why": "'Impact' implies cause. A one-time correlational survey can't show that Instagram use CHANGES self-esteem. The authors themselves admit this later (12.11)."
+},
+{
+"key": "lim",
+"label": "Limitations",
+"tag": "LIM",
+"kind": "sentence",
+"prompt": "Find the sentence where the authors admit the design can't show cause and effect.",
+"ans": [
+"12.11"
+],
+"ok": [
+"12.10"
+],
+"model": "Because of the nature of the research, causality can't be asserted.",
+"why": "The limitations paragraph has three: no causality, weak effect sizes, and active/passive categories that aren't mutually exclusive."
+},
+{
+"key": "lim2",
+"label": "Measurement limitation",
+"tag": "LIM2",
+"kind": "sentence",
+"prompt": "Find the sentence explaining WHY the active-use measure is a problem.",
+"ans": [
+"12.17"
+],
+"ok": [
+"12.18",
+"12.19",
+"12.15"
+],
+"model": "Active and passive use aren't mutually exclusive: users can be both, even in the same session.",
+"why": "A measurement limitation: the scale treats active and passive as separate, but behaviour overlaps."
+},
+{
+"key": "gen",
+"label": "Generalisability",
+"tag": "GEN",
+"kind": "text",
+"prompt": "Give TWO features of the sample that limit generalisability (the authors don't mention them).",
+"accept": [
+[
+"undergrad|college|student|age|20|young",
+"female|women|gender|65|united states|american|one university|extra credit|volunteer|convenience"
+]
+],
+"model": "e.g. only US undergraduates (mean age 20), about two-thirds female, self-selected volunteers from social media plus one university's extra-credit pool.",
+"why": "The authors list limitations about causality and measurement but say nothing about who the sample represents. Spotting what is NOT said is part of critical reading."
+},
+{
+"key": "fut",
+"label": "Future research",
+"tag": "FUT",
+"kind": "text",
+"prompt": "Name ONE method the authors suggest future research should use instead of surveys.",
+"accept": [
+[
+"experiment|interview|observ"
+]
+],
+"model": "Experiments, interviews or direct behavioural observation.",
+"why": "Suggested because surveys rely on self-report and can't establish cause."
+},
+{
+"key": "eth",
+"label": "Ethics",
+"tag": "ETH",
+"kind": "sentence",
+"prompt": "Find the evidence that the study received ethical approval.",
+"ans": [
+"3.6"
+],
+"model": "Approved by the university's Institutional Review Board (IRB).",
+"why": "An IRB is an ethics committee. Note there's no detail on consent or debriefing in the text."
+}
+]
+}
